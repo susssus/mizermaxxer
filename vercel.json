@@ -1,6 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "pip3 install -r requirements.txt && python3 scripts/validate.py && python3 scripts/build_links_index.py && python3 scripts/build_db.py && cd site && npm install && npm run build",
-  "outputDirectory": "site/dist",
-  "installCommand": "echo \"Build installs its own dependencies\""
+  "outputDirectory": "site/dist"
 }
