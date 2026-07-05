@@ -15,10 +15,19 @@ members_present:
 - gackt
 verification_status: verified
 source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
-performances: []
+performances:
+- url: https://archive.org/details/merveilles-waratteiitomo
+  platform: archive_org
+  quality: unknown
+  title: Malice Mizer on Waratte Iitomo
+  notes: Internet Archive match for 1998-06-01.
 notes: SOLD OUT
 changelog:
 - date: '2026-07-06'
   action: created
   source: concert_catalog_seed
   notes: Catalog entry 1998-06-01 merveilles ~Shuuen to kisuu~ tour
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Added 1 performance link(s) from augment_concerts

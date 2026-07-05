@@ -1,0 +1,43 @@
+id: myojo-1998-05
+publication: myojo
+issue_number: null
+volume: null
+publication_date: 1998-05
+date_precision: month
+verification_status: possible
+source_notes: 'Myojo May 1998
+
+  [malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main
+
+  Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google
+  Drive (malice-archive Incompletemags).'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: myojo-1998-05-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: unknown
+    url: https://drive.google.com/drive/folders/1K8f8f19-tKzkVGYxQGd7kNNmr3XhGwj2
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Myojo May 1998
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

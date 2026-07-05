@@ -1,0 +1,42 @@
+id: fools-mate-vol-207
+publication: fools-mate
+issue_number: '207'
+volume: null
+publication_date: unknown
+date_precision: unknown
+verification_status: possible
+source_notes: 'vkgy roles: cover, large_feature
+
+  [vkgy] https://vk.gy/magazines/fools-mate/1292/no207/
+
+  vkgy: https://vk.gy/magazines/fools-mate/1292/no207/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: fools-mate-vol-207-001
+  title_ja: null
+  title_en: null
+  type: cover
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: true
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: unknown
+    url: https://archive.org/details/fools-mate-207-january-1999-13
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'vkgy roles: cover, large_feature'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

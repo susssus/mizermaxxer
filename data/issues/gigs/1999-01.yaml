@@ -1,0 +1,42 @@
+id: gigs-1999-01
+publication: gigs
+issue_number: '154'
+volume: null
+publication_date: 1999-01
+date_precision: month
+verification_status: possible
+source_notes: 'vkgy roles: other_appearance
+
+  [vkgy] https://vk.gy/magazines/gigs/1479/no-154/
+
+  vkgy: https://vk.gy/magazines/gigs/1479/no-154/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: gigs-1999-01-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'vkgy roles: other_appearance'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

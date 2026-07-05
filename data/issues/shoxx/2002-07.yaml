@@ -1,0 +1,40 @@
+id: shoxx-2002-07
+publication: shoxx
+issue_number: '113'
+volume: null
+publication_date: 2002-07
+date_precision: month
+verification_status: possible
+source_notes: 'Vanilla 1p、1stSg「サガシモノ/小さな願い」メンバー全員インタビュー
+
+  [misaolab-shoxx] https://misaolab.hateblo.jp/entry/20000302/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-2002-07-001
+  title_ja: null
+  title_en: null
+  type: interview
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Vanilla 1p、1stSg「サガシモノ/小さな願い」メンバー全員インタビュー
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

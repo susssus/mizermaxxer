@@ -1,0 +1,40 @@
+id: shoxx-1993-01
+publication: shoxx
+issue_number: '13'
+volume: null
+publication_date: 1993-01
+date_precision: month
+verification_status: possible
+source_notes: 'インディーズハードロック最新情報（1992/11/24 新宿LOFTライブ告知）
+
+  [misaolab-shoxx] https://misaolab.hateblo.jp/entry/20000302/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-1993-01-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: インディーズハードロック最新情報（1992/11/24 新宿LOFTライブ告知）
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

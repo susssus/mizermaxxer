@@ -10,3 +10,4 @@ site/dist/
 site/node_modules/
 site/.astro/
 site/src/data/links_index.json
+.vercel

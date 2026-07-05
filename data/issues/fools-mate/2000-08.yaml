@@ -1,0 +1,44 @@
+id: fools-mate-2000-08
+publication: fools-mate
+issue_number: '226'
+volume: null
+publication_date: 2000-08
+date_precision: month
+verification_status: possible
+source_notes: 'FOOL''S MATE August 2000 (Vol. 226, incomplete)
+
+  [malice-archive] https://malice-archive.neocities.org/list
+
+  [malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main
+
+  Partial scan on Google Drive (malice-archive Incompletemags).'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: fools-mate-2000-08-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: unknown
+    url: https://drive.google.com/drive/folders/1_ZqfUnRG9xP4QJoOawan3QBI6UlJ683i
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: FOOL'S MATE August 2000 (Vol. 226, incomplete)
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

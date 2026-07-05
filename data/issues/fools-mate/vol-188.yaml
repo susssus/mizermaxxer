@@ -1,0 +1,40 @@
+id: fools-mate-vol-188
+publication: fools-mate
+issue_number: '188'
+volume: null
+publication_date: unknown
+date_precision: unknown
+verification_status: mention_only
+source_notes: '[vkgy] https://vk.gy/magazines/fools-mate/6/no188/
+
+  vkgy: https://vk.gy/magazines/fools-mate/6/no188/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: fools-mate-vol-188-001
+  title_ja: null
+  title_en: null
+  type: cover
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: true
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

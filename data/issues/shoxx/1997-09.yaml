@@ -1,0 +1,42 @@
+id: shoxx-1997-09
+publication: shoxx
+issue_number: '56'
+volume: null
+publication_date: 1997-09
+date_precision: month
+verification_status: possible
+source_notes: 'vkgy roles: other_appearance, flyer
+
+  [vkgy] https://vk.gy/magazines/shoxx/684/vol-56/
+
+  vkgy: https://vk.gy/magazines/shoxx/684/vol-56/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-1997-09-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'vkgy roles: other_appearance, flyer'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

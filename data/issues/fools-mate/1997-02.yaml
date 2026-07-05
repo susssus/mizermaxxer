@@ -1,0 +1,42 @@
+id: fools-mate-1997-02
+publication: fools-mate
+issue_number: '184'
+volume: null
+publication_date: 1997-02
+date_precision: month
+verification_status: possible
+source_notes: 'カラー4p、1996/11/18 O-WEST「喜劇の晩餐」、目黒学園女子短大レポ&個別インタビュー（Kami欠席）
+
+  [malice-archive] https://malice-archive.neocities.org/list
+
+  [misaolab-fools-mate] https://misaolab.hateblo.jp/entry/20000301/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: fools-mate-1997-02-001
+  title_ja: null
+  title_en: null
+  type: interview
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: カラー4p、1996/11/18 O-WEST「喜劇の晩餐」、目黒学園女子短大レポ&個別インタビュー（Kami欠席）
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

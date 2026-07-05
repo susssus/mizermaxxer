@@ -1,0 +1,48 @@
+id: b-pass-1998-07
+publication: b-pass
+issue_number: null
+volume: null
+publication_date: 1998-07
+date_precision: month
+verification_status: possible
+source_notes: 'B-PASS July 1998
+
+  [malice-archive] https://malice-archive.neocities.org/list
+
+  [malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main
+
+  [vkgy] https://vk.gy/magazines/b-pass/829/1998-07/
+
+  Partial scan on Google Drive (malice-archive Incompletemags).
+
+  vkgy: https://vk.gy/magazines/b-pass/829/1998-07/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: b-pass-1998-07-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: unknown
+    url: https://drive.google.com/drive/folders/1qyLSCF9Q1Uj9slHvp72rSUqjCRp2PYJc
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: B-PASS July 1998
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.
