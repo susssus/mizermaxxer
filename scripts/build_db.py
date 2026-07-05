@@ -10,6 +10,7 @@ from typing import Any
 
 from common import (
     DB_PATH,
+    ROOT,
     SITE_DATA_PATH,
     ensure_dirs,
     load_albums,
@@ -22,7 +23,13 @@ from common import (
     load_songs,
     load_venues,
     load_videos,
+    load_yaml,
 )
+
+GALLERY_PREVIEWS_PATH = ROOT / "site" / "src" / "data" / "gallery_previews.json"
+SCAN_SOURCES_CATALOG = ROOT / "scripts" / "research" / "scan_sources_catalog.yaml"
+SHOXX_VOL61_GALLERY = "https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html"
+SHOXX_VOL61_COVER = "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/01.jpg"
 
 
 def create_schema(connection: sqlite3.Connection) -> None:
@@ -543,6 +550,26 @@ def export_site_json(connection: sqlite3.Connection) -> None:
     SITE_DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def export_gallery_previews() -> None:
+    """Map gallery page URLs to first-page preview images for ArchiveImage."""
+    previews: dict[str, str] = {}
+    if SCAN_SOURCES_CATALOG.exists():
+        catalog = load_yaml(SCAN_SOURCES_CATALOG)
+        for item in catalog.get("items") or []:
+            gallery = item.get("scan_url")
+            images = item.get("image_urls") or []
+            if gallery and images:
+                previews[gallery.rstrip("/")] = images[0]
+
+    previews[SHOXX_VOL61_GALLERY] = SHOXX_VOL61_COVER
+    previews[f"{SHOXX_VOL61_GALLERY}#vol61"] = SHOXX_VOL61_COVER
+
+    GALLERY_PREVIEWS_PATH.write_text(
+        json.dumps(previews, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> int:
     ensure_dirs()
     connection = sqlite3.connect(DB_PATH)
@@ -554,6 +581,7 @@ def main() -> int:
         insert_music_data(connection)
         connection.commit()
         export_site_json(connection)
+        export_gallery_previews()
     finally:
         connection.close()
 
@@ -562,6 +590,7 @@ def main() -> int:
         f"({len(load_issues())} issues, {len(load_albums())} albums, {len(load_concerts())} concerts)."
     )
     print(f"Exported site JSON to {SITE_DATA_PATH}.")
+    print(f"Exported gallery previews to {GALLERY_PREVIEWS_PATH}.")
     return 0
 
 
