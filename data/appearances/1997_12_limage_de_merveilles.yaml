@@ -1,0 +1,35 @@
+id: appearance_1997_12_limage_de_merveilles
+type: appearance
+title:
+  original: sur TV "l'image de merveilles"
+  romanized: sur TV "l'image de merveilles"
+appearance_type: tv
+format: mixed
+date: "1997-12"
+date_precision: month
+broadcast:
+  network: null
+  program: l'image de merveilles
+  channel: null
+venue: null
+members_present:
+  - person_mana
+  - person_kozi
+  - person_yuki
+  - person_kami
+  - person_gackt
+songs_performed:
+  - song_au_revoir
+performances: []
+verification_status: verified
+facts:
+  - statement: >
+      TV special broadcast December 1997 with tour footage (Akasa BLITZ,
+      Hibiya outdoor), member segments, and Verte Aile interview material.
+    sources:
+      - ref_columbia_malice
+    confidence: high
+    status: verified
+notes: >
+  Footage later issued on La Collection "merveilles" box DVD (2005).
+  Japanese Wikipedia lists under テレビ番組; Weblio corroborates.

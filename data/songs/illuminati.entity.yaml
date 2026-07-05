@@ -19,5 +19,11 @@ personnel:
     role: drums
   - person: person_kozi
     role: composer
-facts: []
+verification_status: verified
+facts:
+  - statement: Track 4 on album Merveilles (COCA-14866, released 1998-03-18).
+    sources:
+      - album_merveilles
+    confidence: high
+    status: verified
 notes: ""

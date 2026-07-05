@@ -19,5 +19,12 @@ personnel:
     role: drums
   - person: person_kozi
     role: composer
-facts: []
-notes: Major debut single (1995-12-06). v2 entity for appearance linking.
+verification_status: verified
+facts:
+  - statement: Track 11 on album Merveilles (COCA-14866, released 1998-03-18).
+    sources:
+      - album_merveilles
+    confidence: high
+    status: verified
+notes: >
+  Major-label single released 1998-02-11 (CODA-1415). v2 entity for graph linking.

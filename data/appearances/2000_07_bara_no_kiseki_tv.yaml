@@ -1,0 +1,34 @@
+id: appearance_2000_07_bara_no_kiseki_tv
+type: appearance
+title:
+  original: 薔薇の肖像「新たなる悪意と悲劇の幕開け」
+  romanized: Bara no Shouzou — Shinataru akui to higeki no makuake
+  english: Portrait of Roses — A New Malice and Tragedy Begins
+appearance_type: tv
+format: mixed
+date: "2000-07-30"
+date_precision: day
+broadcast:
+  network: org_tv_tokyo
+  program: 薔薇の肖像
+  channel: TV Tokyo network
+venue: null
+members_present:
+  - person_mana
+  - person_kozi
+  - person_yuki
+  - person_klaha
+songs_performed: []
+performances: []
+verification_status: verified
+facts:
+  - statement: >
+      TV Tokyo network special aired 2000-07-30 25:20–25:50; part of the
+      薔薇の軌跡 television series documented on Oricon artist profile.
+    sources:
+      - ref_malice_mizer_info
+    confidence: high
+    status: verified
+    notes: Oricon prof/15645 TV出演情報 (2000-07).
+notes: >
+  Third-period lineup (Klaha era). Related home video 薔薇の軌跡 released 2001-04-25.
