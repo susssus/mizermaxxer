@@ -1,0 +1,53 @@
+---
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+const songMap = new Map(archive.songs.map((song) => [song.id, song]));
+---
+
+<Base title="Videos — Malice Mizer Research Archive">
+  <p class="muted" style="margin-bottom: 1rem;">
+    Physical VHS/DVD/Blu-ray releases are catalogued on the
+    <a href="/discography">discography page</a>. This page lists online promotional videos (PVs).
+  </p>
+  <section class="stats">
+    <div class="stat"><strong>{archive.stats.video_count}</strong><span>Videos catalogued</span></div>
+  </section>
+
+  <section class="card">
+    <h2>Promotional videos & footage</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Type</th>
+          <th>Song</th>
+          <th>Platform</th>
+          <th>Link</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {archive.videos.map((video) => (
+          <tr>
+            <td>{video.title_en}{video.title_ja && <><br /><span class="muted">{video.title_ja}</span></>}</td>
+            <td>{video.type.replaceAll("_", " ")}</td>
+            <td>{video.song ? songMap.get(video.song)?.title_en ?? video.song : "—"}</td>
+            <td>{video.platform ?? "—"}</td>
+            <td><a href={video.url} target="_blank" rel="noopener noreferrer">Watch</a></td>
+            <td><span class={`badge ${video.verification_status}`}>{video.verification_status.replaceAll("_", " ")}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card" style="margin-top: 1rem;">
+    <h3>External references</h3>
+    <ul>
+      {archive.references.map((reference) => (
+        <li><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title}</a></li>
+      ))}
+    </ul>
+  </section>
+</Base>

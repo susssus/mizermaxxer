@@ -1,0 +1,24 @@
+id: 1996-11-17-school-festival
+date: '1996-11-17'
+date_precision: day
+venue: null
+event_name_ja: null
+event_name_en: Mejiro Gakuen school festival
+type: event
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: 800 seats; SOLD OUT.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1996-11-17 Mejiro Gakuen school festival

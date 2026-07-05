@@ -1,0 +1,24 @@
+id: 1993-08-21-seductive-tour
+date: '1993-08-21'
+date_precision: day
+venue: nagano-j
+event_name_ja: null
+event_name_en: Se·duc·tive Tour
+type: live
+tour: seductive-1993
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1993-08-21 Se·duc·tive Tour

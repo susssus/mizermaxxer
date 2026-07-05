@@ -1,0 +1,53 @@
+id: person_kozi
+type: person
+name:
+  original: Közi
+  romanized: Kozi
+legal_name:
+  original: 萩野 貢士
+  romanized: Koji Hagino
+roles:
+- guitar
+active:
+  start: '1992'
+  end: '2001'
+birth:
+  date: '1972-05-29'
+  place: Niigata, Japan
+bio:
+  before: 'Started in Beyond the Rein Sight (1989) and Girl before joining Matenrou
+    with Mana in 1991. Left with Mana to pursue their shared twin-guitar concept.
+
+    '
+  during: 'Co-founded Malice Mizer in August 1992. Composed several of the band''s
+    biggest singles, including "Gekka no Yasoukyoku" and "Illuminati", and developed
+    the signature dual-guitar arrangements with Mana.
+
+    '
+  after: 'Formed Eve of Destiny, pursued a solo career, and led bands including Dalle,
+    XA-VAT, and ZIZ. Reunited with Mana and Yu~ki for Deep Sanctuary and Malice Mizer
+    anniversary performances.
+
+    '
+portrait_image: images/members/kozi.webp
+gallery_images:
+- src: images/vintage/kozi-memoire-dx.webp
+  caption: Memoire DX booklet
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/kozi-collage.webp
+  caption: Tetsu-era collage
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/kozi-interview.webp
+  caption: Memoire interview scan
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-kozi-memoire-final-1994.webp
+  caption: Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/kami-kozi.webp
+  caption: With Kami
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/halloween-mana-kozi-yuki.webp
+  caption: Halloween (with Mana and Yuki)
+  source: Malice Meezer / malicemeezer.neocities.org
+facts: []
+notes: ''

@@ -1,0 +1,19 @@
+id: mayonaka-yakusoku-single
+title_ja: 真夜中に交わした約束～薔薇の婚礼～
+title_en: 真夜中に交わした約束～薔薇の婚礼～
+release_date: '2001-10-30'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-025
+format: cd
+a_side: mayonaka-yakusoku
+b_side: mayonaka-yakusoku-instrumental
+coupling_tracks: []
+cover_image: images/covers/mayonaka-yakusoku-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/release/2496481-Malice-Mizer-真夜中に交わした約束薔薇の婚礼).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/2496481-Malice-Mizer-真夜中に交わした約束薔薇の婚礼

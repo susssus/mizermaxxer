@@ -1,0 +1,19 @@
+id: saikai-no-chi-to-bara-single
+title_ja: 再会の血と薔薇
+title_en: 再会の血と薔薇
+release_date: '1999-11-03'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-006
+format: cd
+a_side: saikai-no-chi-to-bara
+b_side: null
+coupling_tracks: []
+cover_image: images/covers/saikai-no-chi-to-bara-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/master/219965-Malice-Mizer-再会の血と薔薇).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/219965-Malice-Mizer-再会の血と薔薇

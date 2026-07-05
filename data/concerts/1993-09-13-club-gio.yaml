@@ -1,0 +1,28 @@
+id: 1993-09-13-club-gio
+date: '1993-09-13'
+date_precision: day
+venue: ichikawa-club-gio
+event_name_ja: null
+event_name_en: Club Gio live
+type: live
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances:
+- url: https://www.discogs.com/release/2610648-Malice-Mizer-The-1th-Anniversary
+  platform: other
+  quality: audience
+  title: The 1th Anniversary demo (Discogs)
+notes: Lafflesia live recording on The 1th Anniversary demo.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1993-09-13 Club Gio live

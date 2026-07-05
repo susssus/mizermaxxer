@@ -1,0 +1,40 @@
+id: b-pass-1999-06
+publication: b-pass
+issue_number: null
+volume: null
+publication_date: 1999-06
+date_precision: month
+verification_status: verified
+source_notes: >
+  B-PASS June 1999 — Gackt solo pages only (MM-adjacent).
+  Internet Archive: https://archive.org/details/scan-10188
+research_targets:
+- confirm issue number
+- Gackt solo feature pages
+articles:
+- id: b-pass-1999-06-001
+  title_ja: null
+  title_en: Gackt feature (Gackt solo era)
+  type: interview
+  pages: null
+  members:
+  - gackt
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: https://archive.org/details/scan-10188
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Gackt pages only; not full issue. Source Internet Archive.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: internet_archive
+  notes: Partial issue scan linked from IA survey.

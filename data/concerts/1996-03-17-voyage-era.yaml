@@ -1,0 +1,24 @@
+id: 1996-03-17-voyage-era
+date: '1996-03-17'
+date_precision: day
+venue: nagoya-diamond-hall
+event_name_ja: null
+event_name_en: SHOCK WAVE event
+type: live
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1996-03-17 SHOCK WAVE event

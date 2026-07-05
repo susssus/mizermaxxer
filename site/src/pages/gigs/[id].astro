@@ -1,0 +1,95 @@
+---
+import Base from "../../layouts/Base.astro";
+import PerformanceEmbed from "../../components/PerformanceEmbed.astro";
+import archive from "../../data/archive.json";
+
+export function getStaticPaths() {
+  return archive.concerts.map((concert) => ({ params: { id: concert.id } }));
+}
+
+const { id } = Astro.params;
+const concert = archive.concerts.find((entry) => entry.id === id);
+const songMap = new Map(archive.songs.map((song) => [song.id, song]));
+
+const embeddablePlatforms = new Set(["youtube", "archive_org", "niconico", "vimeo"]);
+const embeddablePerformances =
+  concert?.performances.filter((p) => embeddablePlatforms.has(p.platform)) ?? [];
+const linkOnlyPerformances =
+  concert?.performances.filter((p) => !embeddablePlatforms.has(p.platform)) ?? [];
+---
+
+{concert && (
+  <Base title={`${concert.event_name_en ?? concert.id} — Gigs`}>
+    <a class="back" href="/gigs">← Back to gig list</a>
+
+    <section class="detail-grid">
+      <div class="card">
+        <h2>{concert.event_name_en ?? concert.event_name_ja ?? "Untitled event"}</h2>
+        {concert.event_name_ja && concert.event_name_en && <p class="muted">{concert.event_name_ja}</p>}
+        <p><strong>Date:</strong> {concert.date} ({concert.date_precision})</p>
+        <p><strong>Type:</strong> {concert.type}</p>
+        <p><strong>Venue:</strong> {concert.venue_detail?.name_en ?? concert.venue ?? "Unknown"}</p>
+        <p><strong>Members:</strong> {concert.members_present.join(", ") || "—"}</p>
+        <p><strong>Status:</strong> <span class={`badge ${concert.verification_status}`}>{concert.verification_status.replaceAll("_", " ")}</span></p>
+        {concert.source_notes && <p class="muted">{concert.source_notes}</p>}
+      </div>
+
+      <div class="card">
+        <h3>Setlist</h3>
+        {concert.setlist.length ? (
+          <ol>
+            {concert.setlist.map((songId) => (
+              <li>{songMap.get(songId)?.title_en ?? songId}</li>
+            ))}
+          </ol>
+        ) : (
+          <p class="muted">Setlist not yet catalogued.</p>
+        )}
+      </div>
+    </section>
+
+    {embeddablePerformances.length > 0 && (
+      <section class="card" style="margin-top: 1rem;">
+        <h3>Footage</h3>
+        {embeddablePerformances.map((performance) => (
+          <PerformanceEmbed performance={performance} />
+        ))}
+      </section>
+    )}
+
+    <section class="card" style="margin-top: 1rem;">
+      <h3>Performance links</h3>
+      {concert.performances.length ? (
+        <>
+          {linkOnlyPerformances.length > 0 && (
+            <ul>
+              {linkOnlyPerformances.map((performance) => (
+                <li>
+                  <a href={performance.url} target="_blank" rel="noopener noreferrer">
+                    {performance.title ?? performance.platform}
+                  </a>
+                  {performance.quality && <span class="muted"> ({performance.quality})</span>}
+                  {performance.notes && <p class="muted">{performance.notes}</p>}
+                </li>
+              ))}
+            </ul>
+          )}
+          {linkOnlyPerformances.length === 0 && embeddablePerformances.length > 0 && (
+            <ul>
+              {embeddablePerformances.map((performance) => (
+                <li>
+                  <a href={performance.url} target="_blank" rel="noopener noreferrer">
+                    {performance.title ?? performance.platform}
+                  </a>
+                  {performance.quality && <span class="muted"> ({performance.quality})</span>}
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
+      ) : (
+        <p class="muted">No performance links yet.</p>
+      )}
+    </section>
+  </Base>
+)}

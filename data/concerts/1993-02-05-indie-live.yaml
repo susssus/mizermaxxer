@@ -1,0 +1,24 @@
+id: 1993-02-05-indie-live
+date: '1993-02-05'
+date_precision: day
+venue: shimokitazawa-shelter
+event_name_ja: null
+event_name_en: Indie live
+type: live
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- gaz
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1993-02-05 Indie live

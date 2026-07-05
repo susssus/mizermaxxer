@@ -1,0 +1,150 @@
+# Controlled relation vocabulary
+#
+# All relations in data/links.yaml MUST use an id listed here.
+# Derived relations (appears_on, personnel) are inferred by the build script
+# from entity fields and are also defined here for consistent rendering.
+
+derived:
+  - id: appears_on
+    label: Appears on
+    category: release
+    color: purple
+    direction: outgoing
+    description: Song → album/EP (from song.appears_on)
+    inverse: includes_song
+
+  - id: includes_song
+    label: Includes song
+    category: release
+    color: purple
+    direction: incoming
+    description: Album → song (inverse of appears_on)
+
+  - id: personnel
+    label: Personnel credit
+    category: person
+    color: teal
+    direction: outgoing
+    description: Song → person (from song.personnel)
+    inverse: credited_on
+
+  - id: credited_on
+    label: Credited on
+    category: person
+    color: teal
+    direction: incoming
+    description: Person → song (inverse of personnel)
+
+  - id: appeared_at
+    label: Appeared at
+    category: appearance
+    color: amber
+    direction: outgoing
+    description: Person → TV/radio/variety appearance (from appearance.members_present)
+    inverse: featured_appearance
+
+  - id: featured_appearance
+    label: Featured appearance
+    category: appearance
+    color: amber
+    direction: incoming
+    description: Appearance → person
+
+  - id: broadcast_on
+    label: Broadcast on
+    category: media
+    color: gold
+    direction: outgoing
+    description: Appearance → broadcaster organization
+    inverse: aired
+
+  - id: aired
+    label: Aired
+    category: media
+    color: gold
+    direction: incoming
+    description: Broadcaster → appearance
+
+explicit:
+  - id: performed_at
+    label: Performed at
+    category: concert
+    color: coral
+    direction: outgoing
+    description: Song or person → concert
+    inverse: features_performance
+
+  - id: features_performance
+    label: Features performance
+    category: concert
+    color: coral
+    direction: incoming
+    description: Concert → song or person
+
+  - id: related_song
+    label: Related song
+    category: song
+    color: lavender
+    direction: symmetric
+    description: Musical or thematic relationship between songs
+
+  - id: discusses
+    label: Discusses
+    category: press
+    color: pink
+    direction: outgoing
+    description: Reference (magazine/book) → entity discussed
+    inverse: cited_by
+
+  - id: cited_by
+    label: Cited by
+    category: press
+    color: pink
+    direction: incoming
+    description: Entity → reference that mentions it
+
+  - id: member_of
+    label: Member of
+    category: person
+    color: teal
+    direction: outgoing
+    description: Person → band/organization
+
+  - id: covers
+    label: Covers
+    category: song
+    color: lavender
+    direction: outgoing
+    description: Performance or release → song covered
+
+  - id: references
+    label: References
+    category: meta
+    color: gray
+    direction: outgoing
+    description: Generic bibliographic reference
+
+  - id: photographed_at
+    label: Photographed at
+    category: media
+    color: gold
+    direction: outgoing
+    description: Photo/image → event or venue
+
+  - id: published_in
+    label: Published in
+    category: press
+    color: pink
+    direction: outgoing
+    description: Article/interview → magazine issue
+
+# UI category → default color (used when relation has no color override)
+categories:
+  concert: coral
+  appearance: amber
+  release: purple
+  press: pink
+  song: lavender
+  person: teal
+  media: gold
+  meta: gray

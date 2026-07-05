@@ -1,0 +1,47 @@
+id: tour-pamphlet-cher-de-memoire-1994
+publication: tour-pamphlets
+issue_number: null
+volume: null
+publication_date: '1994'
+date_precision: year
+verification_status: verified
+source_notes: >
+  First tour pamphlet (Cher de memoire ～懐かしい記憶を辿って～), late 1994.
+  Page scans on scape.sc; English translation by Kurai.
+research_targets:
+- member profiles
+- song commentary
+- early band history photos
+articles:
+- id: tour-pamphlet-cher-de-memoire-1994-001
+  title_ja: Cher de memoire ～懐かしい記憶を辿って～
+  title_en: Cher de memoire tour pamphlet (1994)
+  type: pamphlet
+  pages: '33'
+  members:
+  - kami
+  - kozi
+  - mana
+  - tetsu
+  - yuki
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: http://www.scape.sc/pamphlets/cherdememoire/
+  translation:
+    available: true
+    url: https://www.scape.sc/translations/mm-cherdememoire-sep94.php
+  purchase_links: []
+  notes: >
+    33 page thumbnails on scape.sc (view.php?page=N for full size).
+    Collaboration with indies magazine Imperfection. Source scape.sc.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: scape_sc
+  notes: Pamphlet scan gallery and translation linked.

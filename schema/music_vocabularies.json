@@ -1,0 +1,15 @@
+{
+  "release_type": ["album", "ep", "demo", "compilation", "live_album", "vhs", "dvd", "box_set"],
+  "release_format": ["cd", "vinyl", "cassette", "vhs", "dvd", "digital", "other"],
+  "concert_type": ["live", "oneman", "festival", "event", "secret", "tv", "unknown"],
+  "video_type": ["pv", "tv", "live_footage", "documentary", "fan_cam", "other"],
+  "performance_platform": ["youtube", "niconico", "bilibili", "archive_org", "vimeo", "dailymotion", "other"],
+  "performance_quality": ["official", "tv_broadcast", "pro_shot", "audience", "low", "unknown"],
+  "verification_status": [
+    "verified",
+    "possible",
+    "mention_only",
+    "needs_verification",
+    "disputed"
+  ]
+}

@@ -1,0 +1,24 @@
+id: 1993-11-03-higeki-vol1
+date: '1993-11-03'
+date_precision: day
+venue: shinjuku-loft
+event_name_ja: 第一夜 悲劇の晩餐 Vol.1
+event_name_en: Dai Ichiya Higeki no Bansan Vol.1
+type: event
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1993-11-03 Dai Ichiya Higeki no Bansan Vol.1

@@ -1,0 +1,58 @@
+---
+import ArchiveImage from "../../components/ArchiveImage.astro";
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+export function getStaticPaths() {
+  return archive.albums.map((album) => ({ params: { id: album.id } }));
+}
+
+const { id } = Astro.params;
+const album = archive.albums.find((entry) => entry.id === id);
+const songMap = new Map(archive.songs.map((song) => [song.id, song]));
+---
+
+{album && (
+  <Base title={`${album.title_en} — Discography`}>
+    <a class="back" href="/discography">← Back to discography</a>
+
+    <section class="detail-grid">
+      <div class="card">
+        {album.cover_image && (
+          <ArchiveImage
+            src={album.cover_image}
+            alt={`${album.title_en} cover art`}
+            source="Discogs"
+            variant="inline"
+          />
+        )}
+        <h2>{album.title_en}</h2>
+        <p class="muted">{album.title_ja}</p>
+        <p><strong>Released:</strong> {album.release_date} ({album.date_precision})</p>
+        <p><strong>Type:</strong> {album.type.replaceAll("_", " ")}</p>
+        <p><strong>Label:</strong> {album.label ?? "Unknown"}</p>
+        <p><strong>Catalog:</strong> {album.catalog_number ?? "Unknown"}</p>
+        <p><strong>Status:</strong> <span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></p>
+        {album.notes && <p>{album.notes}</p>}
+      </div>
+
+      <div class="card">
+        <h3>Track listing</h3>
+        {album.tracks.length ? (
+          <ol>
+            {album.tracks.map((track) => (
+              <li>
+                {track.position}. {songMap.get(track.song)?.title_en ?? track.song}
+                {songMap.get(track.song)?.title_ja && (
+                  <span class="muted"> — {songMap.get(track.song)?.title_ja}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <p class="muted">Track listing not yet catalogued.</p>
+        )}
+      </div>
+    </section>
+  </Base>
+)}

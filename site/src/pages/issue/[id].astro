@@ -1,0 +1,103 @@
+---
+import ArchiveImage from "../../components/ArchiveImage.astro";
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+export function getStaticPaths() {
+  return archive.issues.map((issue) => ({ params: { id: issue.id } }));
+}
+
+const { id } = Astro.params;
+const issue = archive.issues.find((entry) => entry.id === id);
+const publication = archive.publications.find((pub) => pub.slug === issue?.publication);
+const isFlyer = issue?.publication === "flyers";
+const previewArticle = issue?.articles.find((article) => article.scan_url);
+---
+
+{issue && (
+  <Base title={`${publication?.name_en ?? issue.publication} — ${issue.publication_date}`}>
+    <a class="back" href={isFlyer ? "/flyers" : "/"}>← Back to {isFlyer ? "flyers" : "archive"}</a>
+
+    {previewArticle?.scan_url && (
+      <section class="card" style="margin-bottom: 1rem;">
+        <ArchiveImage
+          src={previewArticle.scan_url}
+          alt={previewArticle.title_en ?? previewArticle.title_ja ?? "Scan"}
+          caption={previewArticle.title_en ?? previewArticle.title_ja}
+          source="malice-mizer.info / Cantavanda"
+          variant="inline"
+        />
+      </section>
+    )}
+
+    <section class="detail-grid">
+      <div class="card">
+        <h2>{publication?.name_en ?? issue.publication}</h2>
+        <p><strong>Date:</strong> {issue.publication_date} ({issue.date_precision})</p>
+        <p><strong>Issue number:</strong> {issue.issue_number ?? "Unknown"}</p>
+        <p><strong>Volume:</strong> {issue.volume ?? "Unknown"}</p>
+        <p>
+          <strong>Status:</strong>
+          <span class={`badge ${issue.verification_status}`}>{issue.verification_status.replaceAll("_", " ")}</span>
+        </p>
+        {issue.source_notes && <p class="muted">{issue.source_notes}</p>}
+      </div>
+
+      <div class="card">
+        <h3>Research targets</h3>
+        {issue.research_targets?.length ? (
+          <ul>
+            {issue.research_targets.map((target) => <li>{target}</li>)}
+          </ul>
+        ) : (
+          <p class="muted">None listed.</p>
+        )}
+      </div>
+    </section>
+
+    <section class="card" style="margin-top: 1rem;">
+      <h3>Articles</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Title</th>
+            <th>Pages</th>
+            <th>Members</th>
+            <th>Scan</th>
+          </tr>
+        </thead>
+        <tbody>
+          {issue.articles.map((article) => (
+            <tr>
+              <td>{article.type.replaceAll("_", " ")}</td>
+              <td>{article.title_en ?? article.title_ja ?? "—"}</td>
+              <td>{article.pages ?? "—"}</td>
+              <td>{article.members.length ? article.members.join(", ") : "—"}</td>
+              <td>
+                {article.scan_url ? (
+                  <a href={`/${article.scan_url}`} target="_blank" rel="noopener">View scan</a>
+                ) : article.scan_available ? (
+                  "Yes"
+                ) : (
+                  "No"
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top: 1rem;">
+      <h3>Changelog</h3>
+      <ul>
+        {issue.changelog.map((entry) => (
+          <li>
+            <strong>{entry.date}</strong> — {entry.action} ({entry.source}): {entry.notes}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </Base>
+)}

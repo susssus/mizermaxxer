@@ -1,0 +1,59 @@
+id: flyers-1999-releases
+publication: flyers
+issue_number: null
+volume: null
+publication_date: '1999'
+date_precision: year
+verification_status: possible
+source_notes: Release flyers catalogued from https://malice-mizer.info/flyers.
+research_targets:
+- confirm print run details
+- locate physical copies
+articles:
+- id: flyers-1999-11-03-saikai-single
+  title_ja: 再会の血と薔薇 single release flyer
+  title_en: null
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1999-11-03-saikai-single.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+- id: flyers-1999-12-21-saikai-de-limage
+  title_ja: 再会の血と薔薇 de l'image release flyer
+  title_en: null
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1999-12-21-saikai-de-limage.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Catalogued from internet research with source attribution.

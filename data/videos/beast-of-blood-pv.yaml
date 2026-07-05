@@ -1,0 +1,21 @@
+id: beast-of-blood-pv
+title_ja: Beast of Blood
+title_en: Beast of Blood (PV)
+type: pv
+url: https://www.youtube.com/watch?v=mAi-0JLjkgg
+platform: youtube
+release_date: '1999-04-21'
+song: beast-of-blood
+concert: null
+quality: official
+verification_status: verified
+notes: Official PV on @Malice_Mizer_Official YouTube channel.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for Beast of Blood (PV)
+- date: '2026-07-06'
+  action: updated
+  source: web_research
+  notes: Replaced search URL with official watch link (mAi-0JLjkgg).

@@ -1,0 +1,101 @@
+id: flyers-2001-releases
+publication: flyers
+issue_number: null
+volume: null
+publication_date: '2001'
+date_precision: year
+verification_status: possible
+source_notes: Release flyers catalogued from https://malice-mizer.info/flyers.
+research_targets:
+- confirm print run details
+- locate physical copies
+articles:
+- id: flyers-2001-04-18-derniere-dvd-front
+  title_ja: null
+  title_en: sans retour Voyage derniere DVD flyer (front)
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-2001-04-18-derniere-dvd-front.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+- id: flyers-2001-05-30-gardenia
+  title_ja: null
+  title_en: Gardenia release flyer
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-2001-05-30-gardenia.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+- id: flyers-2001-10-30-bara-no-konrei
+  title_ja: 真夜中に交わした約束～薔薇の婚礼～ release flyer
+  title_en: null
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-2001-10-30-bara-no-konrei.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+- id: flyers-2001-11-30-garnet
+  title_ja: null
+  title_en: Garnet release flyer
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-2001-11-30-garnet.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Catalogued from internet research with source attribution.

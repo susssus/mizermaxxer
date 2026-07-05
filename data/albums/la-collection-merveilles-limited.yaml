@@ -1,0 +1,96 @@
+id: la-collection-merveilles-limited
+title_ja: La Collection "Merveilles" -L'édition Limitée-
+title_en: La Collection "Merveilles" -L'édition Limitée-
+type: box_set
+release_date: '2005-10-05'
+date_precision: day
+label: Maitrize
+catalog_number: XT-1884~6
+format: cd
+cover_image: images/covers/la-collection-merveilles-limited.jpg
+verification_status: verified
+tracks:
+- song: merveilles
+  position: 1
+- song: de-merveilles
+  position: 2
+- song: syunikiss
+  position: 3
+- song: bel-air
+  position: 4
+- song: illuminati
+  position: 5
+- song: brise
+  position: 6
+- song: aege-sugisarishi-kaze
+  position: 7
+- song: au-revoir
+  position: 8
+- song: ju-te-veux
+  position: 9
+- song: s-conscious
+  position: 10
+- song: le-ciel
+  position: 11
+- song: gekka-no-yasoukyoku
+  position: 12
+- song: bois-de-merveilles
+  position: 13
+- song: merveilles-cinq-parell-le
+  position: 14
+- song: bel-air
+  position: 15
+- song: au-revoir
+  position: 16
+- song: gekka-no-yasoukyoku
+  position: 17
+- song: illuminati
+  position: 18
+- song: le-ciel
+  position: 19
+- song: merveilles-lespace
+  position: 20
+- song: bois-de-merveilles
+  position: 21
+- song: s-conscious
+  position: 22
+- song: illuminati
+  position: 23
+- song: mezame-no-rasen
+  position: 24
+- song: de-merveilles
+  position: 25
+- song: syunikiss
+  position: 26
+- song: gekka-no-yasoukyoku
+  position: 27
+- song: bel-air
+  position: 28
+- song: aege-sugisarishi-kaze
+  position: 29
+- song: hamon-kyousoukyoku
+  position: 30
+- song: '8'
+  position: 31
+- song: de-limage
+  position: 32
+- song: ju-te-veux
+  position: 33
+- song: brise
+  position: 34
+- song: au-revoir
+  position: 35
+- song: le-ciel
+  position: 36
+- song: bois-de-merveilles
+  position: 37
+- song: malice-mizer-sur-tv-limage-de-merveilles
+  position: 38
+- song: tv-documentary
+  position: 39
+notes: Synced from Discogs (https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-

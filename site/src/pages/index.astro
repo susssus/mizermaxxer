@@ -1,0 +1,169 @@
+---
+import FilterBar from "../components/FilterBar.astro";
+import MemberCard from "../components/MemberCard.astro";
+import Base from "../layouts/Base.astro";
+import archive from "../data/archive.json";
+
+const pubMap = new Map(archive.publications.map((pub) => [pub.slug, pub]));
+
+const rows = archive.issues
+  .flatMap((issue) =>
+    issue.articles.map((article) => ({
+      issue,
+      article,
+      publication: pubMap.get(issue.publication),
+    }))
+  )
+  .sort((a, b) => a.issue.publication_date.localeCompare(b.issue.publication_date));
+
+const byPublication = archive.publications
+  .map((pub) => ({
+    name: pub.name_en,
+    count: archive.issues.filter((issue) => issue.publication === pub.slug).length,
+  }))
+  .filter((entry) => entry.count > 0)
+  .sort((a, b) => b.count - a.count);
+
+const entityIds: Record<string, string> = {
+  mana: "person_mana",
+  kozi: "person_kozi",
+  yuki: "person_yuki",
+  kami: "person_kami",
+  gackt: "person_gackt",
+  klaha: "person_klaha",
+  tetsu: "person_tetsu",
+};
+
+const eraLabels: Record<string, string> = {
+  tetsu: "Tetsu era",
+  gackt: "Gackt era",
+  klaha: "Klaha era",
+  mana: "Gackt era",
+  kozi: "Gackt era",
+  yuki: "Gackt era",
+  kami: "Gackt era",
+};
+
+const memberOrder = ["tetsu", "mana", "kozi", "yuki", "kami", "gackt", "klaha"];
+const featuredMembers = memberOrder
+  .map((slug) => archive.people.members.find((m) => m.slug === slug))
+  .filter(Boolean);
+
+const featuredFlyers = archive.issues
+  .filter((issue) => issue.publication === "flyers")
+  .flatMap((issue) =>
+    issue.articles
+      .filter((article) => article.scan_url)
+      .map((article) => ({
+        issue,
+        article,
+        title: article.title_en ?? article.title_ja ?? issue.publication_date,
+      }))
+  )
+  .sort((a, b) => b.issue.publication_date.localeCompare(a.issue.publication_date))
+  .slice(0, 6);
+---
+
+<Base title="Bibliography — Malice Mizer Research Archive">
+  <section class="hero hero--split">
+    <div class="hero__intro">
+      <h2 class="hero__title">MALICE MIZER</h2>
+      <p class="hero__tagline">Band archive · print, discography & live history · 1992–2001</p>
+    </div>
+    <figure class="hero__figure">
+      <img
+        class="hero__image"
+        src="/images/members/hero.webp"
+        alt="MALICE MIZER — promotional photograph"
+        loading="eager"
+        decoding="async"
+      />
+    </figure>
+  </section>
+
+  <section class="members-section">
+    <h2 class="section-heading">Members</h2>
+    <div class="members-grid">
+      {featuredMembers.map((member) => (
+        <MemberCard
+          name={member!.name}
+          role={member!.role}
+          active={member!.active}
+          portrait={member!.portrait_image}
+          entityId={entityIds[member!.slug]}
+          era={eraLabels[member!.slug]}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat"><strong>{archive.stats.issue_count}</strong><span>Issues tracked</span></div>
+    <div class="stat"><strong>{archive.stats.article_count}</strong><span>Article entries</span></div>
+    <div class="stat"><strong>{archive.stats.verified_issue_count}</strong><span>Verified issues</span></div>
+    <div class="stat"><strong>{archive.stats.scan_count}</strong><span>Scans available</span></div>
+  </section>
+
+  {featuredFlyers.length > 0 && (
+    <section>
+      <h2 class="section-heading">Featured flyers</h2>
+      <div class="flyer-grid">
+        {featuredFlyers.map(({ issue, article, title }) => (
+          <a class="flyer-card" href={`/issue/${issue.id}`}>
+            <img src={`/${article.scan_url}`} alt={title} loading="lazy" />
+            <div class="flyer-card__meta">
+              <strong>{title}</strong>
+              <span>{issue.publication_date}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+      <p><a href="/flyers">View all flyers →</a></p>
+    </section>
+  )}
+
+  <FilterBar />
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Publication</th>
+        <th>Issue</th>
+        <th>Type</th>
+        <th>Title</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(({ issue, article, publication }) => (
+        <tr
+          data-row
+          data-year={issue.publication_date.slice(0, 4)}
+          data-publication={issue.publication}
+          data-type={article.type}
+          data-members={article.members.join(",")}
+          data-status={issue.verification_status}
+          data-scan={String(article.scan_available)}
+        >
+          <td>{issue.publication_date}</td>
+          <td>{publication?.name_en ?? issue.publication}</td>
+          <td><a href={`/issue/${issue.id}`}>{issue.issue_number ?? issue.id}</a></td>
+          <td>{article.type.replaceAll("_", " ")}</td>
+          <td>{article.title_en ?? article.title_ja ?? "—"}</td>
+          <td><span class={`badge ${issue.verification_status}`}>{issue.verification_status.replaceAll("_", " ")}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <section class="card" style="margin-top: 2rem;">
+    <h2>Coverage by publication</h2>
+    <ul>
+      {byPublication.map((entry) => (
+        <li>{entry.name}: {entry.count} issue stubs</li>
+      ))}
+    </ul>
+    <p class="muted">Generated {archive.generated_at}</p>
+  </section>
+</Base>

@@ -1,0 +1,107 @@
+---
+interface Props {
+  name: string;
+  role: string;
+  active?: string | null;
+  portrait?: string | null;
+  entityId?: string | null;
+  era?: string | null;
+}
+
+const { name, role, active, portrait, entityId, era } = Astro.props;
+
+function resolveSrc(path?: string | null): string | null {
+  if (!path) return null;
+  if (path.startsWith("http")) return path;
+  return path.startsWith("/") ? path : `/${path}`;
+}
+
+const href = entityId ? `/entity/${entityId}` : null;
+const imgSrc = resolveSrc(portrait);
+const Tag = href ? "a" : "div";
+---
+
+<Tag class="member-card" href={href}>
+  <div class="member-card__portrait">
+    {imgSrc ? (
+      <img src={imgSrc} alt={name} loading="lazy" decoding="async" />
+    ) : (
+      <span class="member-card__initial" aria-hidden="true">{name.charAt(0)}</span>
+    )}
+  </div>
+  <div class="member-card__meta">
+    {era && <span class="member-card__era">{era}</span>}
+    <strong>{name}</strong>
+    <span class="member-card__role">{role}</span>
+    {active && <span class="member-card__years">{active}</span>}
+  </div>
+</Tag>
+
+<style>
+  .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.65rem;
+    width: 100%;
+    padding: 1rem 0.65rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  a.member-card:hover {
+    border-color: color-mix(in srgb, var(--rose) 50%, var(--border));
+    box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 14%, transparent);
+    transform: translateY(-2px);
+  }
+  .member-card__portrait {
+    width: clamp(72px, 18vw, 96px);
+    height: clamp(72px, 18vw, 96px);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid color-mix(in srgb, var(--rose) 35%, var(--border));
+    background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  }
+  .member-card__portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+  .member-card__initial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.75rem;
+    color: var(--accent);
+  }
+  .member-card__meta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    font-size: 0.82rem;
+    width: 100%;
+  }
+  .member-card__meta strong {
+    font-size: 0.98rem;
+    letter-spacing: 0.02em;
+  }
+  .member-card__role,
+  .member-card__years {
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+  .member-card__era {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--rose);
+    font-weight: 600;
+  }
+</style>

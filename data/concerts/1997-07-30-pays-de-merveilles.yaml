@@ -1,0 +1,24 @@
+id: 1997-07-30-pays-de-merveilles
+date: '1997-07-30'
+date_precision: day
+venue: niigata-phase
+event_name_ja: null
+event_name_en: Standing Tour '97 Pays de merveilles
+type: oneman
+tour: pays-de-merveilles-1997
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: SOLD OUT
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1997-07-30 Standing Tour '97 Pays de merveilles

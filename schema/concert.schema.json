@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "concert.schema.json",
+  "title": "Concert",
+  "type": "object",
+  "required": ["id", "date", "date_precision", "type", "verification_status", "members_present", "performances", "changelog"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "date": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
+    "date_precision": { "enum": ["year", "month", "day"] },
+    "venue": { "type": ["string", "null"] },
+    "event_name_ja": { "type": ["string", "null"] },
+    "event_name_en": { "type": ["string", "null"] },
+    "type": {
+      "enum": ["live", "oneman", "festival", "event", "secret", "tv", "unknown"]
+    },
+    "tour": { "type": ["string", "null"] },
+    "setlist": { "type": "array", "items": { "type": "string" } },
+    "members_present": { "type": "array", "items": { "type": "string" } },
+    "verification_status": {
+      "enum": ["verified", "possible", "mention_only", "needs_verification", "disputed"]
+    },
+    "source_notes": { "type": "string" },
+    "performances": {
+      "type": "array",
+      "items": { "$ref": "performance.schema.json" }
+    },
+    "notes": { "type": "string" },
+    "changelog": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "changelog.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

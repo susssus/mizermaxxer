@@ -1,0 +1,52 @@
+id: selection-performances-live
+title_ja: Sélection De Performances Live
+title_en: Sélection De Performances Live
+type: live_album
+release_date: '2007-03-28'
+date_precision: day
+label: Maitrize
+catalog_number: COBA-50985
+format: cd
+cover_image: images/covers/selection-performances-live.jpg
+verification_status: verified
+tracks:
+- song: ino-no-rumania
+  position: 1
+- song: transylvania
+  position: 2
+- song: tsuioku-no-hahen
+  position: 3
+- song: croix
+  position: 4
+- song: n-p-s-n-g-s
+  position: 5
+- song: bois-de-merveilles
+  position: 6
+- song: madrigal
+  position: 7
+- song: ma-ch-rie
+  position: 8
+- song: s-conscious
+  position: 9
+- song: mezame-no-rasen
+  position: 10
+- song: gekka-no-yasoukyoku
+  position: 11
+- song: bel-air
+  position: 12
+- song: aege-sugisarishi-kaze
+  position: 13
+- song: hamon-kyousoukyoku
+  position: 14
+- song: ju-te-veux
+  position: 15
+- song: brise
+  position: 16
+- song: le-ciel
+  position: 17
+notes: Synced from Discogs (https://www.discogs.com/release/27572085-Malice-Mizer-Sélection-De-Performances-Live).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/27572085-Malice-Mizer-Sélection-De-Performances-Live

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "organization.schema.json",
+  "title": "OrganizationEntity",
+  "allOf": [
+    { "$ref": "entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["name", "organization_type"],
+      "properties": {
+        "type": { "const": "organization" },
+        "id": { "pattern": "^org_[a-z0-9_]+$" },
+        "name": { "$ref": "title.schema.json" },
+        "organization_type": {
+          "enum": ["broadcaster", "label", "publisher", "magazine", "band", "other"]
+        },
+        "country": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] }
+      }
+    }
+  ]
+}

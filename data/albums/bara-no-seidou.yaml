@@ -1,0 +1,46 @@
+id: bara-no-seidou
+title_ja: 薔薇の聖堂
+title_en: 薔薇の聖堂
+type: album
+release_date: '2000-08-23'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-013
+format: cd
+notes: Synced from Discogs (https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂).
+verification_status: verified
+cover_image: images/covers/bara-no-seidou.jpg
+tracks:
+- song: bara-makuake
+  position: 1
+- song: seinaru-toki
+  position: 2
+- song: kyomu-no-naka-de-no-yugi
+  position: 3
+- song: kagami-no-butou
+  position: 4
+- song: mayonaka-yakusoku
+  position: 5
+- song: chi-nurareta-kajitsu
+  position: 6
+- song: chikasuimyaku-no-meiro
+  position: 7
+- song: hakai-no-hate
+  position: 8
+- song: shiroi-hada
+  position: 9
+- song: saikai-no-chi-to-bara
+  position: 10
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for Bara no Seidou
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂

@@ -1,0 +1,21 @@
+id: saikai-no-chi-to-bara-pv
+title_ja: 再会の血と薔薇
+title_en: Saikai no Chi to Bara (PV)
+type: pv
+url: https://www.youtube.com/watch?v=TR4bfD18Ttg
+platform: youtube
+release_date: '1999-12-21'
+song: saikai-no-chi-to-bara
+concert: null
+quality: official
+verification_status: verified
+notes: Official PV on @Malice_Mizer_Official YouTube channel. Also on Saikai no Chi to Bara ~de l'image~ VHS/DVD.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for Saikai no Chi to Bara (PV)
+- date: '2026-07-06'
+  action: updated
+  source: web_research
+  notes: Replaced search URL with official watch link (TR4bfD18Ttg).

@@ -1,0 +1,12 @@
+id: venue_tokyo_dome
+type: venue
+title:
+  original: 東京ドーム
+  romanized: Tokyo Dome
+  english: Tokyo Dome
+location:
+  city: Tokyo
+  prefecture: Tokyo
+  country: Japan
+facts: []
+notes: ""

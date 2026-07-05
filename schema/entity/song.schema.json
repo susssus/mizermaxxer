@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "song.schema.json",
+  "title": "SongEntity",
+  "allOf": [
+    { "$ref": "entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["title"],
+      "properties": {
+        "type": { "const": "song" },
+        "id": { "pattern": "^song_[a-z0-9_]+$" },
+        "title": { "$ref": "title.schema.json" },
+        "duration_seconds": { "type": ["integer", "null"], "minimum": 0 },
+        "appears_on": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^album_[a-z0-9_]+$" }
+        },
+        "personnel": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["person", "role"],
+            "properties": {
+              "person": { "type": "string", "pattern": "^person_[a-z0-9_]+$" },
+              "role": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

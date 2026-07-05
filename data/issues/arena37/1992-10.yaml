@@ -1,0 +1,34 @@
+id: arena37-1992-10
+publication: arena37
+issue_number: null
+volume: null
+publication_date: 1992-10
+date_precision: month
+verification_status: mention_only
+source_notes: Indies concert listings.
+articles:
+- id: arena37-1992-10-001
+  title_ja: null
+  title_en: null
+  type: live_listing
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Indies concert listing mention.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: user_bibliography
+  notes: Initial stub from Phase 1 master bibliography

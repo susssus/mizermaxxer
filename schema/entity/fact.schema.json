@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fact.schema.json",
+  "title": "Fact",
+  "type": "object",
+  "required": ["statement", "sources", "confidence", "status"],
+  "properties": {
+    "statement": { "type": "string", "minLength": 1 },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+    },
+    "confidence": { "enum": ["high", "medium", "low", "speculative"] },
+    "status": {
+      "enum": ["verified", "possible", "unverified", "disputed", "needs_verification"]
+    },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

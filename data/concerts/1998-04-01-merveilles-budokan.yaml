@@ -1,0 +1,57 @@
+id: 1998-04-01-merveilles-budokan
+date: '1998-04-01'
+date_precision: day
+venue: nippon-budokan
+event_name_ja: merveilles ～終焉と帰趨～
+event_name_en: merveilles ~Shuuen to kisuu~
+type: oneman
+tour: merveilles-1998
+setlist:
+- syunikiss
+- gekka-no-yasoukyoku
+- bel-air
+- tsuioku-no-hahen
+- shi-no-butou
+- aege-sugisarishi-kaze
+- hamon-kyousoukyoku
+- ju-te-veux
+- madrigal
+- brise
+- ma-cherie
+- au-revoir
+- '8'
+- mezame-no-rasen
+- illuminati
+- nps-ngs
+- s-conscious
+- le-ciel
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances:
+- url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live
+  platform: archive_org
+  quality: pro_shot
+  title: merveilles l'espace (Internet Archive)
+  notes: Official concert film; Budokan 1998-04-01 and Yokohama Arena 1998-07-22.
+- url: https://www.youtube.com/watch?v=94gn00m6rf4
+  platform: youtube
+  quality: pro_shot
+  title: merveilles l'espace (YouTube)
+  notes: Fan upload of official VHS/DVD edit.
+notes: SOLD OUT in 2 minutes after album release.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1998-04-01 merveilles ~Shuuen to kisuu~
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Setlist added from Sans retour photobook via scapeforums; encore Le ciel
+    (18 songs)

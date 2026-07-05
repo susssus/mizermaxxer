@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reference.schema.json",
+  "title": "Reference",
+  "type": "object",
+  "required": ["id", "title", "type", "url"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "type": { "enum": ["website", "book", "article", "database", "other"] },
+    "url": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

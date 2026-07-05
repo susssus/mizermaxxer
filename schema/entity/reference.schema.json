@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reference.schema.json",
+  "title": "ReferenceEntity",
+  "allOf": [
+    { "$ref": "entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["title", "reference_type"],
+      "properties": {
+        "type": { "const": "reference" },
+        "id": { "pattern": "^ref_[a-z0-9_]+$" },
+        "reference_type": {
+          "enum": ["magazine", "book", "website", "database", "auction", "other"]
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "publisher": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"] },
+        "pages_cited": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 1 }
+        },
+        "url": { "type": ["string", "null"] },
+        "scan": { "type": ["string", "null"] },
+        "verification_status": {
+          "enum": ["verified", "possible", "unverified", "needs_verification", "disputed"]
+        }
+      }
+    }
+  ]
+}

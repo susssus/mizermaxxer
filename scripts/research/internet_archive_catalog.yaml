@@ -1,0 +1,251 @@
+# Internet Archive catalog for MALICE MIZER materials.
+# Query API: https://archive.org/advancedsearch.php?q=malice+mizer&output=json
+# Last surveyed: 2026-07-06 (167 total hits; ~35 print/image/text items)
+
+search_url: https://archive.org/search?query=malice+mizer
+api_query: malice mizer
+total_hits: 167
+
+items:
+  # --- Magazines & mooks (partial scans) ---
+  - identifier: supervisualbook-malicemizer
+    url: https://archive.org/details/supervisualbook-malicemizer
+    category: magazine
+    title: "[ Super Visual Book ] Malice Mizer : Le ciel"
+    date: "1998"
+    notes: 16 JPEG page scans; Le ciel single visual book.
+
+  - identifier: arena194-ss-2
+    url: https://archive.org/details/arena194-ss-2
+    category: magazine
+    title: "Arena 37°C November 1998 [Incomplete]"
+    date: "1998-11"
+    notes: Malice Mizer cover; partial issue.
+
+  - identifier: arena-37-c-oct-97-01
+    url: https://archive.org/details/arena-37-c-oct-97-01
+    category: magazine
+    title: "[Malice Mizer Only] Arena 37C October 1997"
+    date: "1997-10"
+    notes: MM-only extract; Merveilles era.
+
+  - identifier: fools-mate-207-january-1999-13
+    url: https://archive.org/details/fools-mate-207-january-1999-13
+    category: magazine
+    title: "FOOL'S MATE January 1999 [Malice Mizer & Luna Sea only]"
+    date: "1999-01"
+    notes: Pre-Klaha transition coverage.
+
+  - identifier: af7-x-1
+    url: https://archive.org/details/af7-x-1
+    category: magazine
+    title: "Artist Fan April 2000 [Incomplete]"
+    date: "2000-04"
+    notes: Includes Malice Mizer section among other VK acts.
+
+  - identifier: scan-10188
+    url: https://archive.org/details/scan-10188
+    category: magazine
+    title: "B-PASS June 1999 [Gackt only]"
+    date: "1999-06"
+    notes: Gackt solo pages only; MM-adjacent.
+
+  - identifier: photobook-malice-mizer-1998-070-071
+    url: https://archive.org/details/photobook-malice-mizer-1998-070-071
+    category: book
+    title: "Malice Mizer Tanbi Jikken Kakumei"
+    date: "1998-10"
+    notes: 耽美実験革命 mook scan (official book).
+
+  - identifier: jrockinkconciser0000yunj
+    url: https://archive.org/details/jrockinkconciser0000yunj
+    category: book
+    title: "jrock, ink : a concise report on 40 of the biggest rock acts in Japan"
+    date: null
+    notes: English reference book with MM discography entry.
+
+  # --- Photobooks ---
+  - identifier: retour-107
+    url: https://archive.org/details/retour-107
+    category: photobook
+    title: "Malice Mizer - Retour 1992 - 1998"
+    date: "1999"
+    notes: FOOL'S MATE photobook; early lives, flyers, goods.
+
+  - identifier: marveilles-malice-mizer
+    url: https://archive.org/details/marveilles-malice-mizer
+    category: photobook
+    title: "Merveilles a Deux Dimensions"
+    date: "1998"
+    notes: Merveilles tour photobook.
+
+  - identifier: 1160690772929915-file
+    url: https://archive.org/details/1160690772929915-file
+    category: photobook
+    title: "Malice Mizer - Merveilles a Deux Dimensions"
+    date: "1998"
+    notes: Alternate upload of Merveilles photobook.
+
+  - identifier: lrb-20
+    url: https://archive.org/details/lrb-20
+    category: photobook
+    title: "Bara no Seidou Livre Rose Blanche"
+    date: "2001"
+    notes: Klaha-era Livre Rose Blanche photobook.
+
+  - identifier: malicemizer
+    url: https://archive.org/details/malicemizer
+    category: photobook
+    title: "Malice Mizer Photo Collection"
+    date: null
+    notes: General photo collection upload.
+
+  - identifier: KAMIMANA
+    url: https://archive.org/details/KAMIMANA
+    category: image
+    title: "KAMI and MANA"
+    date: null
+    notes: Fan/scan set of Mana and Kami images.
+
+  # --- Tour pamphlets & paraphernalia ---
+  - identifier: 2012-07-11-01-33-19-01
+    url: https://archive.org/details/2012-07-11-01-33-19-01
+    category: pamphlet
+    title: "Sans Retour Voyage Tour Pamphlet (1996)"
+    date: "1996"
+    notes: Tour pamphlet given at Sans retour Voyage 1996 lives.
+
+  - identifier: les-mizerables-de-malice-mizer-14
+    url: https://archive.org/details/les-mizerables-de-malice-mizer-14
+    category: book
+    title: "Les Mizerables De Malice Mizer Volume 2"
+    date: null
+    notes: Klaha-era essay book; Gardenia mini-tour photos.
+
+  - identifier: sticker-sheet-1
+    url: https://archive.org/details/sticker-sheet-1
+    category: paraphernalia
+    title: "Malice Mizer Stickers"
+    date: null
+    notes: Sticker sheet scan; uploader notes possibly unofficial / vending-machine Gackt stickers.
+
+  - identifier: malicedolldvdcover
+    url: https://archive.org/details/malicedolldvdcover
+    category: paraphernalia
+    title: "Malice@Doll DVD Covers"
+    date: "2003"
+    notes: 600dpi scans of Malice@Doll DVD cover art (related IP, not band proper).
+
+  # --- Single / album booklet scans ---
+  - identifier: mm-voyage-003
+    url: https://archive.org/details/mm-voyage-003
+    category: release_art
+    title: "Voyage ~sans retour~ 1st Press Edition"
+    date: "1996-06-09"
+    notes: Limited slipcase edition; extra booklet scans.
+
+  - identifier: image-20230907-0010
+    url: https://archive.org/details/image-20230907-0010
+    category: release_art
+    title: "ma chérie ~Itoshii Kimi e~ CD scans"
+    date: "1996-10-10"
+    notes: CD booklet and packaging scans.
+
+  - identifier: image-20230907-0001
+    url: https://archive.org/details/image-20230907-0001
+    category: release_art
+    title: "Bel Air de l'image VHS scans"
+    date: "1997-09-03"
+    notes: VHS packaging and insert scans.
+
+  - identifier: shiroi15
+    url: https://archive.org/details/shiroi15
+    category: release_art
+    title: "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo CD booklet"
+    date: "2000"
+    notes: CD booklet page scans.
+
+  - identifier: 3_20260518
+    url: https://archive.org/details/3_20260518
+    category: release_art
+    title: "Le ciel 1st Press Edition"
+    date: "1998"
+    notes: Fold-out booklet scan for 8cm CD first press.
+
+  - identifier: MALICEMIZERSaikaiNoChiToBara
+    url: https://archive.org/details/MALICEMIZERSaikaiNoChiToBara
+    category: release_art
+    title: "Saikai no Chi to Bara single materials"
+    date: "1999-11-03"
+    notes: Single packaging scan set.
+
+  - identifier: MALICEMIZERGardenia
+    url: https://archive.org/details/MALICEMIZERGardenia
+    category: release_art
+    title: "Gardenia single materials"
+    date: "2001-05-30"
+    notes: Single scan upload.
+
+  - identifier: MALICEMIZERLaCollectionDesSingles
+    url: https://archive.org/details/MALICEMIZERLaCollectionDesSingles
+    category: release_art
+    title: "La Collection des Singles"
+    date: "2004"
+    notes: Box set scan materials.
+
+  - identifier: MALICEMIZERSinglesOSTScansCollection
+    url: https://archive.org/details/MALICEMIZERSinglesOSTScansCollection
+    category: release_art
+    title: "Singles, OST, Scans Collection"
+    date: null
+    notes: Multi-release booklet scan compilation.
+
+  - identifier: VisualKeiDemoTapes
+    url: https://archive.org/details/VisualKeiDemoTapes
+    category: release_art
+    title: "Visual Kei Demo Tapes"
+    date: null
+    notes: Includes MALICE MIZER and member pre-band demo materials.
+
+  - identifier: dears-8-9
+    url: https://archive.org/details/dears-8-9
+    category: fanclub
+    title: "Dears magazine vol. 8-9"
+    date: null
+    notes: Közi fanclub magazine (adjacent).
+
+  # --- TV / live footage (selected) ---
+  - identifier: malice-mizer-merveilles-lespace-full-live
+    url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live
+    category: video
+    title: "merveilles l'espace (Full Live DVD rip)"
+    date: "2002-03-30"
+    notes: Official concert film; Budokan 1998-04-01 + Yokohama Arena 1998-07-22.
+
+  - identifier: malice-mizer-cher-de-memoire-ii-final-tetsu-last-live-at-meguro-rock-may-27.12.1994
+    url: https://archive.org/details/malice-mizer-cher-de-memoire-ii-final-tetsu-last-live-at-meguro-rock-may-27.12.1994
+    category: video
+    title: "Cher de Memoire II Final (Tetsu last live, 1994-12-27)"
+    date: "1994-12-27"
+    notes: Meguro Rockmaykan; Tetsu-era final show.
+
+  - identifier: malice-mizer-members-apartments-interview
+    url: https://archive.org/details/malice-mizer-members-apartments-interview
+    category: video
+    title: "Apartment / private room TV interview (1997)"
+    date: "1997"
+    notes: Gackt-era variety segment; low quality.
+
+  - identifier: hot-wave-bel-air-part-1
+    url: https://archive.org/details/hot-wave-bel-air-part-1
+    category: video
+    title: "Hot Wave — Bel Air interview + live"
+    date: "1997"
+    notes: TV appearance; unsubbed.
+
+  - identifier: nhk-pop-jam-le-ciel-02.10.98
+    url: https://archive.org/details/nhk-pop-jam-le-ciel-02.10.98
+    category: video
+    title: "POPJAM — Le ciel live (1998-02-10)"
+    date: "1998-02-10"
+    notes: TV live performance.

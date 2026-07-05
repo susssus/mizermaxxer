@@ -1,0 +1,24 @@
+id: 1995-11-06-sans-retour-voyage
+date: '1995-11-06'
+date_precision: day
+venue: sendai-kimachi-yamaha-hall
+event_name_ja: null
+event_name_en: Sans retour Voyage 1995
+type: oneman
+tour: sans-retour-voyage-1995
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1995-11-06 Sans retour Voyage 1995

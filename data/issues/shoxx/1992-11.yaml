@@ -1,0 +1,34 @@
+id: shoxx-1992-11
+publication: shoxx
+issue_number: null
+volume: null
+publication_date: 1992-11
+date_precision: month
+verification_status: possible
+source_notes: Small introduction possible.
+articles:
+- id: shoxx-1992-11-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Possible small introduction.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: user_bibliography
+  notes: Initial stub from Phase 1 master bibliography

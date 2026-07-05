@@ -1,0 +1,189 @@
+# Malice Mizer official audio releases on Discogs (artist 231908)
+# https://www.discogs.com/artist/231908-Malice-Mizer
+#
+# kind: album | single | compilation | video | misc
+# discogs.type: master | release
+
+releases:
+  # --- Studio albums (4) ---
+  - slug: memoire
+    kind: album
+    discogs: { type: master, id: 231763 }
+
+  - slug: voyage-sans-retour
+    kind: album
+    discogs: { type: master, id: 231776 }
+
+  - slug: merveilles
+    kind: album
+    discogs: { type: master, id: 558472 }
+
+  - slug: bara-no-seidou
+    kind: album
+    discogs: { type: master, id: 219966 }
+
+  # --- EP ---
+  - slug: shinwa
+    kind: album
+    album_type: ep
+    discogs: { type: release, id: 2175459 }
+
+  # --- Singles (14 on Discogs) ---
+  - slug: uruwashii-kamen-single
+    kind: single
+    discogs: { type: release, id: 2175441 }
+
+  - slug: ma-cherie-single
+    kind: single
+    discogs: { type: release, id: 620985 }
+
+  - slug: bel-air-single
+    kind: single
+    discogs: { type: master, id: 231779 }
+
+  - slug: au-revoir-single
+    kind: single
+    discogs: { type: master, id: 2483698 }
+
+  - slug: gekka-no-yasoukyoku-single
+    kind: single
+    discogs: { type: master, id: 2483713 }
+
+  - slug: illuminati-single
+    kind: single
+    discogs: { type: master, id: 2483704 }
+
+  - slug: le-ciel-single
+    kind: single
+    discogs: { type: master, id: 3724368 }
+
+  - slug: saikai-no-chi-to-bara-single
+    kind: single
+    discogs: { type: master, id: 219965 }
+
+  - slug: kyomu-no-naka-de-no-yugi-single
+    kind: single
+    discogs: { type: master, id: 3123438 }
+
+  - slug: shiroi-hada-single
+    kind: single
+    discogs: { type: release, id: 3158217 }
+
+  - slug: gardenia-single
+    kind: single
+    discogs: { type: master, id: 231792 }
+
+  - slug: beast-of-blood-single
+    kind: single
+    discogs: { type: release, id: 2109013 }
+
+  - slug: mayonaka-yakusoku-single
+    kind: single
+    discogs: { type: release, id: 2496481 }
+
+  - slug: garnet-single
+    kind: single
+    discogs: { type: release, id: 1864907 }
+
+  # --- Compilations (3) ---
+  - slug: la-collection-des-singles
+    kind: compilation
+    discogs: { type: master, id: 375579 }
+
+  - slug: la-collection-merveilles-limited
+    kind: compilation
+    album_type: box_set
+    discogs: { type: release, id: 4590940 }
+
+  - slug: la-meilleur-selection
+    kind: compilation
+    discogs: { type: release, id: 8708164 }
+
+  # --- Video releases (14) ---
+  - slug: sans-retour-voyage-derniere
+    kind: video
+    discogs: { type: master, id: 1222590 }
+
+  - slug: ver-eair-de-limage
+    kind: video
+    discogs: { type: release, id: 12406247 }
+
+  - slug: merveilles-lespace
+    kind: video
+    discogs: { type: master, id: 1450860 }
+
+  - slug: saikai-de-limage
+    kind: video
+    discogs: { type: release, id: 10694776 }
+
+  - slug: merveilles-cinq-parallele
+    kind: video
+    discogs: { type: master, id: 1467998 }
+
+  - slug: bara-makuake-video
+    kind: video
+    discogs: { type: master, id: 1222317 }
+
+  - slug: bara-no-kiseki-dvd
+    kind: video
+    discogs: { type: release, id: 9162673 }
+
+  - slug: societe-de-parente
+    kind: video
+    discogs: { type: release, id: 15937484 }
+
+  - slug: bara-no-konrei
+    kind: video
+    discogs: { type: master, id: 3454598 }
+
+  - slug: beast-of-blood-de-limage
+    kind: video
+    discogs: { type: master, id: 1222381 }
+
+  - slug: bara-no-densho
+    kind: video
+    discogs: { type: master, id: 3454586 }
+
+  - slug: cardinal
+    kind: video
+    discogs: { type: master, id: 1222328 }
+
+  - slug: selection-performances-live
+    kind: video
+    album_type: live_album
+    discogs: { type: release, id: 27572085 }
+
+  - slug: deep-sanctuary-vi
+    kind: video
+    discogs: { type: release, id: 13852986 }
+
+  # --- Miscellaneous (6) ---
+  - slug: sans-logique
+    kind: misc
+    album_type: demo
+    discogs: { type: release, id: 2175422 }
+
+  - slug: speed-of-desperate
+    kind: misc
+    album_type: demo
+    discogs: { type: release, id: 33915744 }
+
+  - slug: the-1th-anniversary
+    kind: misc
+    album_type: demo
+    discogs: { type: release, id: 2610648 }
+
+  - slug: sadness-demo
+    kind: misc
+    album_type: demo
+    discogs: { type: release, id: 2610662 }
+
+  - slug: memoire-dx
+    kind: misc
+    album_type: album
+    discogs: { type: release, id: 575231 }
+
+  - slug: braintrash
+    kind: misc
+    album_type: demo
+    discogs: { type: master, id: 3663375 }

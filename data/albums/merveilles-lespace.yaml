@@ -1,0 +1,52 @@
+id: merveilles-lespace
+title_ja: merveilles ～終焉と帰趨～ l'espace
+title_en: merveilles ～終焉と帰趨～ l'espace
+type: vhs
+release_date: '1998-10-28'
+date_precision: day
+label: Maitrize
+catalog_number: COVA-6191
+format: vhs
+cover_image: images/covers/merveilles-lespace.jpg
+verification_status: verified
+tracks:
+- song: bois-de-merveilles
+  position: 1
+- song: s-conscious
+  position: 2
+- song: illuminati
+  position: 3
+- song: mezame-no-rasen
+  position: 4
+- song: de-merveilles
+  position: 5
+- song: syunikiss
+  position: 6
+- song: gekka-no-yasoukyoku
+  position: 7
+- song: bel-air
+  position: 8
+- song: aege-sugisarishi-kaze
+  position: 9
+- song: hamon-kyousoukyoku
+  position: 10
+- song: '8'
+  position: 11
+- song: de-limage
+  position: 12
+- song: ju-te-veux
+  position: 13
+- song: brise
+  position: 14
+- song: au-revoir
+  position: 15
+- song: le-ciel
+  position: 16
+- song: bois-de-merveilles
+  position: 17
+notes: Synced from Discogs (https://www.discogs.com/master/1450860-Malice-Mizer-merveilles-終焉と帰趨-lespace).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/1450860-Malice-Mizer-merveilles-終焉と帰趨-lespace

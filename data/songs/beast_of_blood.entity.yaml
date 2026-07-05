@@ -1,0 +1,20 @@
+id: song_beast_of_blood
+type: song
+title:
+  original: Beast of Blood
+  romanized: Beast of Blood
+duration_seconds: null
+appears_on: []
+personnel:
+  - person: person_klaha
+    role: vocals
+  - person: person_mana
+    role: guitar
+  - person: person_kozi
+    role: guitar
+  - person: person_yuki
+    role: bass
+  - person: person_kami
+    role: drums
+facts: []
+notes: v2 stub for CM appearance linking.

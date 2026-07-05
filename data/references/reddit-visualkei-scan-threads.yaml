@@ -1,0 +1,7 @@
+id: reddit-visualkei-scan-threads
+title: Reddit r/visualkei — scan identification & community sources
+type: website
+url: https://www.reddit.com/r/visualkei/
+notes: >
+  Community scan provenance threads catalogued in scripts/research/reddit_scan_sources.yaml.
+  Key thread: SHOXX Vol. 61 identified at comments/1ibrtct/where_are_these_scans_from/

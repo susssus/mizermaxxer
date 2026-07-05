@@ -1,0 +1,38 @@
+id: flyers-1995-releases
+publication: flyers
+issue_number: null
+volume: null
+publication_date: '1995'
+date_precision: year
+verification_status: possible
+source_notes: Release flyers catalogued from https://malice-mizer.info/flyers.
+research_targets:
+- confirm print run details
+- locate physical copies
+articles:
+- id: flyers-1995-12-10-uruwashiki-kamen
+  title_ja: 麗しき仮面の招待状 release flyer
+  title_en: null
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1995-12-10-uruwashiki-kamen.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Catalogued from internet research with source attribution.

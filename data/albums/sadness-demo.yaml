@@ -1,0 +1,20 @@
+id: sadness-demo
+title_ja: Sadness
+title_en: Sadness
+type: demo
+release_date: '1993-04-05'
+date_precision: day
+label: Not On Label (Malice Mizer Self-released)
+catalog_number: none
+format: cassette
+cover_image: images/covers/sadness-demo.jpg
+verification_status: verified
+tracks:
+- song: sadness-i-know-the-reason-for-her-sadness
+  position: 1
+notes: Synced from Discogs (https://www.discogs.com/release/2610662-Malice-Mizer-Sadness).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/2610662-Malice-Mizer-Sadness

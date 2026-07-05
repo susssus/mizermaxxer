@@ -1,0 +1,3 @@
+# Placeholder for cover art assets (CD, single, DVD).
+
+Link from album/single YAML via `cover_image: images/covers/<file>`.

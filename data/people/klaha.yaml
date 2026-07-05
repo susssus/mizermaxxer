@@ -1,0 +1,36 @@
+id: person_klaha
+type: person
+name:
+  original: Klaha
+  romanized: Klaha
+legal_name:
+  original: 春名 真樹
+  romanized: Masaki Haruna
+roles:
+- vocals
+active:
+  start: '2000'
+  end: '2001'
+era: Klaha era
+birth:
+  date: '1970-05-03'
+  place: Osaka, Japan
+bio:
+  before: 'Co-founded the new wave band Pride of Mind as vocalist and lyricist, releasing
+    one album before the group disbanded in 1996. Disappeared from the music scene
+    for several years.
+
+    '
+  during: 'Invited by Yu~ki to sing on Bara no Seidou (2000). Adopted the name Klaha
+    and became official vocalist after the Budokan shows in September 2000. Fronted
+    the band''s final gothic era until the indefinite hiatus in December 2001.
+
+    '
+  after: 'Started a solo pop career (Nostal Lab, 2002; Märchen, 2003; Setsubou, 2004).
+    Last performed in April 2004 and has since withdrawn from public life. Did not
+    respond to reunion invitations for the 2018 anniversary concerts.
+
+    '
+portrait_image: images/members/klaha.webp
+facts: []
+notes: ''

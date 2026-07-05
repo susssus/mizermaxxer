@@ -1,0 +1,27 @@
+id: gekka-no-yasoukyoku-single
+title_ja: 月下の夜想曲
+title_en: 月下の夜想曲
+release_date: '1998-02-11'
+date_precision: day
+label: Maitrize
+catalog_number: CODA-1415
+a_side: gekka-no-yasoukyoku
+b_side: de-limage
+notes: Synced from Discogs (https://www.discogs.com/master/2483713-Malice-Mizer-月下の夜想曲).
+format: cd
+coupling_tracks: []
+cover_image: images/covers/gekka-no-yasoukyoku-single.jpg
+verification_status: verified
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for single Gekka no Yasoukyoku
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/2483713-Malice-Mizer-月下の夜想曲
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/2483713-Malice-Mizer-月下の夜想曲

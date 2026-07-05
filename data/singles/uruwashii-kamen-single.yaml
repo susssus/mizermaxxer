@@ -1,0 +1,23 @@
+id: uruwashii-kamen-single
+title_ja: 麗しき仮面の招待状
+title_en: 麗しき仮面の招待状
+release_date: '1995-12-10'
+date_precision: day
+label: Midi:Nette
+catalog_number: M:N-002
+format: cd
+a_side: uruwashii-kamen
+b_side: apr-s-midi
+coupling_tracks: []
+cover_image: images/covers/uruwashii-kamen-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状

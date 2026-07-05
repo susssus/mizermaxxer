@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "link.schema.json",
+  "title": "Link",
+  "type": "object",
+  "required": ["from", "to", "relation"],
+  "properties": {
+    "from": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "to": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "relation": { "type": "string", "pattern": "^[a-z_]+$" },
+    "note": { "type": "string" },
+    "role": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^ref_[a-z0-9_]+$" }
+    }
+  },
+  "additionalProperties": false
+}

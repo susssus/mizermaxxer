@@ -1,0 +1,44 @@
+id: fan-club-vol-2-3-1997-winter
+publication: fan-club
+issue_number: null
+volume: null
+publication_date: 1997-12
+date_precision: month
+verification_status: verified
+source_notes: >
+  ma chérie fan club newsletter Vol. 2&3 (Winter 1997).
+  Scanned by Madame Tarantula; hosted on Cantavanda with permission.
+research_targets:
+- member profiles
+- tour reports
+articles:
+- id: fan-club-vol-2-3-1997-winter-001
+  title_ja: ma chérie Fan Club Magazine Vol. 2&3
+  title_en: ma chérie Fan Club Magazine Vol. 2&3 (Winter 1997)
+  type: newsletter
+  pages: null
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: original_scan
+    url: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/malice-mizer-scans-fan-club-magazines-ma-cherie-vol-23-winter-1997/
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 32 page scans. Source Cantavanda / Madame Tarantula.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: cantavanda
+  notes: Full fan club issue scan gallery linked.

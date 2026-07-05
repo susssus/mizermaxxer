@@ -1,0 +1,79 @@
+---
+interface Performance {
+  url: string;
+  platform: string;
+  quality?: string | null;
+  title?: string | null;
+  notes?: string;
+}
+
+interface Props {
+  performance: Performance;
+}
+
+const { performance } = Astro.props;
+
+function embedSrc(url: string, platform: string): string | null {
+  if (platform === "youtube") {
+    const match =
+      url.match(/[?&]v=([\w-]{11})/) ??
+      url.match(/youtu\.be\/([\w-]{11})/) ??
+      url.match(/youtube\.com\/embed\/([\w-]{11})/);
+    return match ? `https://www.youtube.com/embed/${match[1]}` : null;
+  }
+  if (platform === "archive_org") {
+    const match = url.match(/archive\.org\/details\/([^/?#]+)/);
+    return match ? `https://archive.org/embed/${match[1]}` : null;
+  }
+  if (platform === "niconico") {
+    const match = url.match(/(?:nicovideo\.jp\/watch\/|nico\.ms\/)([\w]+)/);
+    return match ? `https://embed.nicovideo.jp/watch/${match[1]}` : null;
+  }
+  if (platform === "vimeo") {
+    const match = url.match(/vimeo\.com\/(\d+)/);
+    return match ? `https://player.vimeo.com/video/${match[1]}` : null;
+  }
+  return null;
+}
+
+const src = embedSrc(performance.url, performance.platform);
+const label = performance.title ?? performance.platform;
+---
+
+{src ? (
+  <figure class="performance-embed">
+    <iframe
+      src={src}
+      title={label}
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    />
+    <figcaption>
+      {label}
+      {performance.quality && <span class="muted"> · {performance.quality.replaceAll("_", " ")}</span>}
+      {performance.notes && <p class="muted">{performance.notes}</p>}
+    </figcaption>
+  </figure>
+) : null}
+
+<style>
+  .performance-embed {
+    margin: 0 0 1.25rem;
+  }
+  .performance-embed iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #000;
+  }
+  .performance-embed figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+  }
+  .performance-embed figcaption p {
+    margin: 0.25rem 0 0;
+  }
+</style>

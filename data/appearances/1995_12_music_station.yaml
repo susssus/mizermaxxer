@@ -1,0 +1,29 @@
+id: appearance_1995_12_music_station
+type: appearance
+title:
+  original: ミュージックステーション
+  romanized: Music Station
+  english: Music Station
+appearance_type: tv
+format: performance
+date: "1995-12"
+date_precision: month
+broadcast:
+  network: org_tv_asahi
+  program: Music Station
+  channel: null
+venue: null
+members_present:
+  - person_mana
+  - person_kozi
+  - person_yuki
+  - person_kami
+  - person_gackt
+songs_performed:
+  - song_gekka_no_yasoukyoku
+performances: []
+verification_status: needs_verification
+facts: []
+notes: >
+  Major debut TV performance period for Gekka no Yasoukyoku (single released 1995-12-06).
+  Exact broadcast date requires primary source confirmation. No verified direct video URL yet.

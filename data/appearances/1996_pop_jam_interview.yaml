@@ -1,0 +1,22 @@
+id: appearance_1996_pop_jam_interview
+type: appearance
+title:
+  original: ポップジャム
+  romanized: Pop Jam
+appearance_type: tv
+format: interview
+date: "1996"
+date_precision: year
+broadcast:
+  network: org_tv_asahi
+  program: Pop Jam
+  channel: null
+venue: null
+members_present:
+  - person_mana
+  - person_gackt
+songs_performed: []
+performances: []
+verification_status: needs_verification
+facts: []
+notes: Talk/interview format stub. Pop Jam ran on TV Asahi (1993–2002).

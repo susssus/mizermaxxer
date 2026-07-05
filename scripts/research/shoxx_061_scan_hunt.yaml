@@ -1,0 +1,213 @@
+# SHOXX Vol. 61 (March 1998) — automated re-upload hunt log.
+# Issue: joint La'cryma Christi + MALICE MIZER cover; 38pp MM feature (MIsaO Lab).
+# Last searched: 2026-07-06
+
+page_mapping:
+  note: >
+    Malice Archive gallery files (01.jpg–40.jpg) are NOT 1:1 with printed page numbers.
+    Several scans include SHOXX footers (022, 023, 028, …). TOC is gallery file 02.
+  gallery_to_magazine:
+    - gallery: 01
+      magazine_pages: [cover]
+      content: Cover — Gackt (MM) & TAKA (La'cryma Christi); Vol. 61 March 1998
+    - gallery: 02
+      magazine_pages: [TOC]
+      content: Table of contents — 聖邪の共宴 feature pp. 16–53; SESSION starts p. 018
+    - gallery: 03
+      magazine_pages: [16]
+      content: Opening group photo — 聖邪の共宴 (YOSUKE KOMATSU)
+    - gallery: 04
+      content: La'cryma Christi group — Special Talking Session
+    - gallery: "05-08"
+      magazine_pages: [18]
+      content: SESSION.1 【Vocalist】 Gackt × TAKA — title + portraits
+    - gallery: "09-10"
+      magazine_pages: [22, 23]
+      content: SESSION.1 interview — footers SHOXX 022, 023
+    - gallery: "11-16"
+      magazine_pages: [24, 28, 29]
+      content: SESSION.2 【Guitar】 mana × KOJI — footers SHOXX 028, 029
+    - gallery: "17-22"
+      magazine_pages: [30, 34, 35]
+      content: SESSION.3 【Guitar】 KÖZI × HIRO — footers SHOXX 034, 035
+    - gallery: "23-28"
+      magazine_pages: [36, 40, 41]
+      content: SESSION.4 【Bass】 YU~KI × SHUSE — footers SHOXX 040, 041
+    - gallery: "29-34"
+      magazine_pages: [42, 46, 47]
+      content: SESSION.5 【Drums】 KAMI × LEVIN — footers SHOXX 046, 047
+    - gallery: "35-38"
+      magazine_pages: [48, 49, 50, 51]
+      content: Cross-band Q&A — La'cryma↔MM questionnaires + MM personal Q&A
+    - gallery: "39-40"
+      magazine_pages: [53]
+      content: Fin — sepia behind-the-scenes / closing spread
+  not_in_40_page_set:
+    - magazine pages ~16–17 (between opener and SESSION.1 photo start)
+    - color poster supplement (listed on TOC)
+    - non-MM pages (IZAM p.54+, L'Arc~en~Ciel p.83+, etc.)
+
+reddit_crop_matches:
+  note: >
+    r/visualkei thread 1ibrtct crops are fan-made 2-page spread composites (not single scan files).
+    Gallery files 12–13 are solo Gackt/Mana portraits — NOT the Reddit source and NOT mag. pp. 12–13.
+  crops:
+    - reddit_url: https://i.redd.it/edgfan89gnfe1.jpg
+      session: "SESSION.1 【Vocalist】 Gackt × TAKA"
+      source_pages: [07, 08]
+      source_urls:
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/07.jpg
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/08.jpg
+      match: Gackt snakeskin/katana portrait + TAKA feather-collar portrait
+    - reddit_url: https://i.redd.it/euqhtl89gnfe1.jpg
+      session: "SESSION.4 【Bass】 YU~KI × SHUSE"
+      source_pages: [26, 25]
+      source_urls:
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/26.jpg
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/25.jpg
+      match: YU~KI orange-feather/cane portrait + YU~KI/SHUSE SESSION.4 portrait
+    - reddit_url: https://i.redd.it/m5frnm89gnfe1.jpg
+      session: "SESSION.5 【Drums】 KAMI × LEVIN"
+      source_pages: [32, 31]
+      source_urls:
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/32.jpg
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/31.jpg
+      match: KAMI chessboard reach + KAMI chess/rings portrait (Levin side of spread)
+
+misao_lab_note: >
+  MIsaO entry for vol.061 lists Q&A（衣装：au revoir）— "au revoir" is the costume theme for the
+  entire 38pp joint session, not a citation to printed pages 12–13.
+
+target:
+  publication: shoxx
+  issue_number: 61
+  issue_date: 1998-03
+  project_path: data/issues/shoxx/1998-03.yaml
+  reference: data/references/shoxx_061.yaml
+
+original_scan_pack:
+  source: Eternal Silence (eternal-silence-es.blogspot.com)
+  post_url: http://eternal-silence-es.blogspot.com/2009/09/shoxx-vol61-marzo1998.html
+  wayback_snapshots:
+    - https://web.archive.org/web/20101130083953/http://eternal-silence-es.blogspot.com/2009/09/shoxx-vol61-marzo1998.html
+    - https://web.archive.org/web/20231123064139/https://eternal-silence-es.blogspot.com/2009/09/shoxx-vol61-marzo1998.html
+  filename: Shoxx_Vol.61__Marzo1998__BY_ETERNAL_SILENCE.rar
+  format: RAR of 84 JPEGs (~30 MB)
+  cover_image_url: http://1.bp.blogspot.com/_Sj6jIzCs2hY/SriN7NSCD9I/AAAAAAAAAGE/c9CCR3gZzxQ/s1600/%2B+Cover.jpg
+  dead_host_links:
+    - host: zshare.net
+      url: http://www.zshare.net/download/659261741658e96d/
+    - host: megaupload.com
+      url: http://www.megaupload.com/?d=AE8G1GDP
+      file_id: AE8G1GDP
+    - host: badongo.com
+      url: http://www.badongo.com/file/17344389
+      file_id: "17344389"
+    - host: rapidshare.com
+      url: http://rapidshare.com/files/283213199/Shoxx_Vol.61__Marzo1998__BY_ETERNAL_SILENCE.rar.html
+      file_id: "283213199"
+    - host: depositfiles.com
+      url: http://depositfiles.com/es/files/b2c7yry6p
+      file_id: b2c7yry6p
+    - host: sharebee.com
+      url: http://sharebee.com/9749c7ab
+      file_id: 9749c7ab
+
+live_partial_images:
+  - url: https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61
+    source: malice-archive-neocities
+    variant: gallery_40_pages
+    notes: file.garden JPEGs 01–40; primary MM clipping source (July 2026)
+  - url: https://vk.gy/images/60280-cover.jpg
+    source: vk.gy
+    variant: cover
+  - url: http://1.bp.blogspot.com/_Sj6jIzCs2hY/SriN7NSCD9I/AAAAAAAAAGE/c9CCR3gZzxQ/s1600/%2B+Cover.jpg
+    source: eternal-silence-es
+    variant: cover
+  - url: https://i.redd.it/m5frnm89gnfe1.jpg
+    source: reddit-1ibrtct
+    variant: interior_crop
+  - url: https://i.redd.it/euqhtl89gnfe1.jpg
+    source: reddit-1ibrtct
+    variant: interior_crop
+  - url: https://i.redd.it/edgfan89gnfe1.jpg
+    source: reddit-1ibrtct
+    variant: interior_crop
+
+searches_attempted:
+  - query: exact filename Shoxx_Vol.61__Marzo1998__BY_ETERNAL_SILENCE.rar
+    result: no live re-upload found
+  - query: megaupload AE8G1GDP, rapidshare 283213199, depositfiles b2c7yry6p
+    result: no Wayback mirror of file binary; host pages not archived
+  - query: Internet Archive (shoxx vol 61, ETERNAL_SILENCE, RAR/torrent)
+    result: not uploaded
+  - query: Reddit PullPush (shoxx 61 scan, eternal silence)
+    result: no download threads beyond provenance post 1ibrtct
+  - query: j-rockmagazinesbrasil SHOXX vol 61
+    result: DIR EN GREY ad page only (Jan 2014); no MM feature
+  - query: nagekinorakuen, shinobutou, jmagazinescans, malice-archive
+    result: >
+      malice-archive HAS vol. 61 (40 JPEG pages on file.garden, gallery #vol61). nageki has vol.59/65/74
+      only; Cantavanda has vol.63 May 1998 only.
+  - query: DuckDuckGo (mega.nz, mediafire, eternal silence shoxx 61)
+    result: no actionable re-upload links
+  - query: GitHub / Pastebin file IDs
+    result: no matches
+  - query: scapeforums Magazine Project thread
+    result: indies mags only; commercial SHOXX not in scope; no vol. 61
+
+negative_conclusion: >
+  As of July 2026, the Eternal Silence RAR appears lost from public web. No mega.nz,
+  mediafire, or Internet Archive re-upload located. However, 40 MM clipping pages are live on
+  The Malice Archive (file.garden) — sufficient for the au revoir feature and most MM content.
+
+lead_investigation:
+  date: 2026-07-06
+  leads:
+    - name: The Malice Archive
+      url: https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61
+      result: success
+      notes: >
+        40 JPEG pages verified live (file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/01.jpg–40.jpg).
+        Credit on gallery: scanned by Anna; cover by Morgianasama. Webmaster Adrian
+        (v3nuz3870@gmail.com, @imtheeweirdo).
+    - name: Nageki no Rakuen
+      url: https://nagekinorakuen.neocities.org/
+      result: no_vol_61
+      notes: >
+        Active scan archivist; site says scan requests OK. Has SHOXX vol.59, 65, 74 — not vol.61.
+        No public contact email found (Neocities profile only).
+    - name: Eternal Silence RAR re-upload
+      result: not_found
+      notes: All dead host IDs checked; no Wayback binary mirror; not on Internet Archive.
+    - name: scapeforums Magazine Project
+      url: https://www.scapeforums.com/index.php?threads/the-magazine-project.6179/
+      result: out_of_scope
+      notes: >
+        Indies mags only; commercial SHOXX not in project scope. Webmaster contact via scape.sc.
+    - name: vk.gy Discord
+      result: not_indexed
+      notes: No public invite link extractable from vk.gy homepage; scan channels not web-indexable.
+    - name: Cantavanda
+      url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/shoxx-may-1998/
+      result: adjacent_issue_only
+      notes: Has SHOXX vol.63 (May 1998, 13 pages) — not March vol.61.
+    - name: Retail (Mercari / Yahoo Auctions / Disk Union)
+      result: listings_exist_no_scans
+      notes: >
+        Physical copies listed (~¥680); no interior scans indexed. Possible source for future scanning.
+    - name: Reddit r/visualkei
+      url: https://www.reddit.com/r/visualkei/comments/1ibrtct/where_are_these_scans_from/
+      result: provenance_only
+      notes: Three repost crops; no download thread. Original host now identified as Malice Archive.
+
+recommended_next_steps:
+  - action: map scan page indices to magazine pagination (confirm pp. 12–13 au revoir in 40-page set)
+  - contact: https://malice-archive.neocities.org/webmaster.html (Adrian — v3nuz3870@gmail.com)
+    note: Thank / confirm pagination; ask if full 84-page scan exists elsewhere
+  - contact: https://nagekinorakuen.neocities.org/ (Neocities profile message)
+    note: Request vol. 61 if willing; has nearby SHOXX vol.59/65
+  - forum: https://www.scapeforums.com/index.php?threads/the-magazine-project.6179/
+    note: Ask if any member owns vol. 61 for full-issue scan
+  - discord: vk.gy official server (scan/merch channels — requires manual invite)
+  - retail: Disk Union / Mercari / Yahoo Auctions JP (~¥680) for physical full-issue scan source

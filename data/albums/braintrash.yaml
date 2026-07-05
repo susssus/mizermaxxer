@@ -1,0 +1,40 @@
+id: braintrash
+title_ja: Braintrash
+title_en: Braintrash
+type: demo
+release_date: '1993-02-24'
+date_precision: day
+label: Ariola
+catalog_number: BVCR-1402
+format: cassette
+cover_image: images/covers/braintrash.jpg
+verification_status: verified
+tracks:
+- song: last-train
+  position: 1
+- song: all-blood-shade-blood
+  position: 2
+- song: speed-of-desperate
+  position: 3
+- song: democracy
+  position: 4
+- song: jirenma
+  position: 5
+- song: breath-away-all-lies
+  position: 6
+- song: lunar-maria
+  position: 7
+- song: ashes-to-ashes
+  position: 8
+- song: despair-no-dream-no-hope
+  position: 9
+- song: bluster
+  position: 10
+- song: night-walk
+  position: 11
+notes: Synced from Discogs (https://www.discogs.com/master/3663375-Various-Braintrash).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/3663375-Various-Braintrash

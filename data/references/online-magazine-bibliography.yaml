@@ -1,0 +1,8 @@
+id: online-magazine-bibliography
+title: Online magazine bibliography (merged catalog)
+type: database
+url: https://www.jrock.gy/artists/malice-mizer/
+notes: >
+  286 magazine/issue references merged locally in scripts/research/magazine_references_online.yaml
+  (vkgy + malice-archive + MIsaO Lab, July 2026). Regenerate:
+  .venv/bin/python scripts/research/build_magazine_references_online.py

@@ -1,0 +1,43 @@
+id: fools-mate-1999-01
+publication: fools-mate
+issue_number: "207"
+volume: null
+publication_date: 1999-01
+date_precision: month
+verification_status: verified
+source_notes: >
+  Issue 207. MM & Luna Sea extract on Internet Archive:
+  https://archive.org/details/fools-mate-207-january-1999-13
+research_targets:
+- cover
+- poster
+- review
+- interview
+- advertisement
+- release calendar
+articles:
+- id: fools-mate-1999-01-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: https://archive.org/details/fools-mate-207-january-1999-13
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: MM and Luna Sea pages only; not full issue.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: internet_archive_survey
+  notes: MM & Luna Sea extract linked from Internet Archive.

@@ -1,0 +1,23 @@
+id: 1999-04-14-fc-system-file-002
+date: '1999-04-14'
+date_precision: day
+venue: hiroshima-asteel-plaza
+event_name_ja: null
+event_name_en: FC event — Human Science High Society Syndrome
+type: event
+tour: fc-system-file-002-1999
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1999-04-14 FC event — Human Science High Society Syndrome

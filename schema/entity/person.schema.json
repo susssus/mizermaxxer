@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "person.schema.json",
+  "title": "PersonEntity",
+  "allOf": [
+    { "$ref": "entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "type": { "const": "person" },
+        "id": { "pattern": "^person_[a-z0-9_]+$" },
+        "name": { "$ref": "title.schema.json" },
+        "roles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "active": {
+          "type": ["object", "null"],
+          "properties": {
+            "start": { "type": ["string", "null"] },
+            "end": { "type": ["string", "null"] }
+          },
+          "additionalProperties": false
+        },
+        "portrait_image": {
+          "type": ["string", "null"],
+          "description": "Local path under images/, e.g. images/members/mana.webp"
+        },
+        "legal_name": {
+          "type": ["object", "null"],
+          "properties": {
+            "original": { "type": "string" },
+            "romanized": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "era": {
+          "type": ["string", "null"],
+          "description": "Vocalist era label, e.g. Tetsu era"
+        },
+        "gallery_images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["src"],
+            "properties": {
+              "src": { "type": "string" },
+              "caption": { "type": "string" },
+              "source": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "birth": {
+          "type": ["object", "null"],
+          "properties": {
+            "date": {
+              "type": "string",
+              "description": "ISO date (YYYY-MM-DD), or MM-DD if birth year is unknown"
+            },
+            "place": { "type": "string" },
+            "year_unknown": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        },
+        "death": {
+          "type": ["object", "null"],
+          "properties": {
+            "date": { "type": "string" },
+            "place": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "bio": {
+          "type": ["object", "null"],
+          "properties": {
+            "before": { "type": "string" },
+            "during": { "type": "string" },
+            "after": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

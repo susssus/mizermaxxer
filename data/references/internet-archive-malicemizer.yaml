@@ -1,0 +1,8 @@
+id: internet-archive-malicemizer
+title: Internet Archive — MALICE MIZER search
+type: database
+url: https://archive.org/search?query=malice+mizer
+notes: >
+  ~167 items as of July 2026 (print scans, photobooks, pamphlets, TV footage, audio rips).
+  Curated catalog in scripts/research/internet_archive_catalog.yaml. API:
+  https://archive.org/advancedsearch.php?q=malice+mizer&output=json

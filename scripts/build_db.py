@@ -1,0 +1,569 @@
+#!/usr/bin/env python3
+"""Build SQLite database and site JSON from YAML source files."""
+
+from __future__ import annotations
+
+import json
+import sqlite3
+import sys
+from typing import Any
+
+from common import (
+    DB_PATH,
+    SITE_DATA_PATH,
+    ensure_dirs,
+    load_albums,
+    load_concerts,
+    load_issues,
+    load_people,
+    load_publications,
+    load_references,
+    load_singles,
+    load_songs,
+    load_venues,
+    load_videos,
+)
+
+
+def create_schema(connection: sqlite3.Connection) -> None:
+    connection.executescript(
+        """
+        PRAGMA foreign_keys = ON;
+
+        CREATE TABLE IF NOT EXISTS publications (
+            slug TEXT PRIMARY KEY,
+            name_ja TEXT NOT NULL,
+            name_en TEXT NOT NULL,
+            publisher TEXT,
+            issn TEXT,
+            years_active_start INTEGER,
+            years_active_end INTEGER,
+            priority INTEGER NOT NULL,
+            status TEXT NOT NULL,
+            notes TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS issues (
+            id TEXT PRIMARY KEY,
+            publication TEXT NOT NULL REFERENCES publications(slug),
+            issue_number TEXT,
+            volume TEXT,
+            publication_date TEXT NOT NULL,
+            date_precision TEXT NOT NULL,
+            verification_status TEXT NOT NULL,
+            source_notes TEXT,
+            research_targets_json TEXT,
+            changelog_json TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS articles (
+            id TEXT PRIMARY KEY,
+            issue_id TEXT NOT NULL REFERENCES issues(id),
+            title_ja TEXT,
+            title_en TEXT,
+            type TEXT NOT NULL,
+            pages TEXT,
+            members_json TEXT NOT NULL,
+            photographer TEXT,
+            writer TEXT,
+            cover INTEGER NOT NULL,
+            poster INTEGER NOT NULL,
+            foldout INTEGER NOT NULL,
+            scan_available INTEGER NOT NULL,
+            scan_quality TEXT,
+            scan_url TEXT,
+            translation_available INTEGER NOT NULL,
+            translation_url TEXT,
+            purchase_links_json TEXT NOT NULL,
+            notes TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS songs (
+            id TEXT PRIMARY KEY,
+            title_ja TEXT NOT NULL,
+            title_en TEXT NOT NULL,
+            writers_json TEXT NOT NULL,
+            lyricists_json TEXT NOT NULL,
+            composers_json TEXT NOT NULL,
+            notes TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS albums (
+            id TEXT PRIMARY KEY,
+            title_ja TEXT NOT NULL,
+            title_en TEXT NOT NULL,
+            type TEXT NOT NULL,
+            release_date TEXT NOT NULL,
+            date_precision TEXT NOT NULL,
+            label TEXT,
+            catalog_number TEXT,
+            format TEXT,
+            cover_image TEXT,
+            verification_status TEXT NOT NULL,
+            tracks_json TEXT NOT NULL,
+            notes TEXT,
+            changelog_json TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS singles (
+            id TEXT PRIMARY KEY,
+            title_ja TEXT NOT NULL,
+            title_en TEXT NOT NULL,
+            release_date TEXT NOT NULL,
+            date_precision TEXT NOT NULL,
+            label TEXT,
+            catalog_number TEXT,
+            format TEXT,
+            a_side TEXT,
+            b_side TEXT,
+            coupling_tracks_json TEXT NOT NULL,
+            cover_image TEXT,
+            verification_status TEXT NOT NULL,
+            notes TEXT,
+            changelog_json TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS venues (
+            id TEXT PRIMARY KEY,
+            name_ja TEXT NOT NULL,
+            name_en TEXT NOT NULL,
+            city TEXT NOT NULL,
+            prefecture TEXT,
+            country TEXT NOT NULL,
+            notes TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS concerts (
+            id TEXT PRIMARY KEY,
+            date TEXT NOT NULL,
+            date_precision TEXT NOT NULL,
+            venue TEXT REFERENCES venues(id),
+            event_name_ja TEXT,
+            event_name_en TEXT,
+            type TEXT NOT NULL,
+            tour TEXT,
+            setlist_json TEXT NOT NULL,
+            members_present_json TEXT NOT NULL,
+            verification_status TEXT NOT NULL,
+            source_notes TEXT,
+            performances_json TEXT NOT NULL,
+            notes TEXT,
+            changelog_json TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS videos (
+            id TEXT PRIMARY KEY,
+            title_ja TEXT,
+            title_en TEXT NOT NULL,
+            type TEXT NOT NULL,
+            url TEXT NOT NULL,
+            platform TEXT,
+            release_date TEXT,
+            song TEXT REFERENCES songs(id),
+            concert TEXT REFERENCES concerts(id),
+            quality TEXT,
+            verification_status TEXT NOT NULL,
+            notes TEXT,
+            changelog_json TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS references_table (
+            id TEXT PRIMARY KEY,
+            title TEXT NOT NULL,
+            type TEXT NOT NULL,
+            url TEXT NOT NULL,
+            notes TEXT
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_issues_publication ON issues(publication);
+        CREATE INDEX IF NOT EXISTS idx_issues_date ON issues(publication_date);
+        CREATE INDEX IF NOT EXISTS idx_articles_issue ON articles(issue_id);
+        CREATE INDEX IF NOT EXISTS idx_albums_date ON albums(release_date);
+        CREATE INDEX IF NOT EXISTS idx_singles_date ON singles(release_date);
+        CREATE INDEX IF NOT EXISTS idx_concerts_date ON concerts(date);
+        """
+    )
+
+
+def clear_all(connection: sqlite3.Connection) -> None:
+    for table in (
+        "articles",
+        "issues",
+        "videos",
+        "concerts",
+        "singles",
+        "albums",
+        "songs",
+        "venues",
+        "references_table",
+        "publications",
+    ):
+        connection.execute(f"DELETE FROM {table}")
+
+
+def insert_publications(connection: sqlite3.Connection) -> None:
+    for pub in load_publications():
+        connection.execute(
+            """
+            INSERT INTO publications (
+                slug, name_ja, name_en, publisher, issn,
+                years_active_start, years_active_end, priority, status, notes
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                pub["slug"],
+                pub["name_ja"],
+                pub["name_en"],
+                pub.get("publisher"),
+                pub.get("issn"),
+                pub.get("years_active_start"),
+                pub.get("years_active_end"),
+                pub["priority"],
+                pub["status"],
+                pub.get("notes", ""),
+            ),
+        )
+
+
+def insert_issues_and_articles(connection: sqlite3.Connection) -> None:
+    for issue in load_issues():
+        connection.execute(
+            """
+            INSERT INTO issues (
+                id, publication, issue_number, volume, publication_date,
+                date_precision, verification_status, source_notes,
+                research_targets_json, changelog_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                issue["id"],
+                issue["publication"],
+                issue.get("issue_number"),
+                issue.get("volume"),
+                issue["publication_date"],
+                issue["date_precision"],
+                issue["verification_status"],
+                issue.get("source_notes", ""),
+                json.dumps(issue.get("research_targets", []), ensure_ascii=False),
+                json.dumps(issue["changelog"], ensure_ascii=False),
+            ),
+        )
+        for article in issue["articles"]:
+            scan = article.get("scan", {"available": False, "quality": None, "url": None})
+            translation = article.get("translation", {"available": False, "url": None})
+            connection.execute(
+                """
+                INSERT INTO articles (
+                    id, issue_id, title_ja, title_en, type, pages,
+                    members_json, photographer, writer, cover, poster, foldout,
+                    scan_available, scan_quality, scan_url,
+                    translation_available, translation_url,
+                    purchase_links_json, notes
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    article["id"],
+                    issue["id"],
+                    article.get("title_ja"),
+                    article.get("title_en"),
+                    article["type"],
+                    article.get("pages"),
+                    json.dumps(article.get("members", []), ensure_ascii=False),
+                    article.get("photographer"),
+                    article.get("writer"),
+                    int(article.get("cover", False)),
+                    int(article.get("poster", False)),
+                    int(article.get("foldout", False)),
+                    int(scan.get("available", False)),
+                    scan.get("quality"),
+                    scan.get("url"),
+                    int(translation.get("available", False)),
+                    translation.get("url"),
+                    json.dumps(article.get("purchase_links", []), ensure_ascii=False),
+                    article.get("notes", ""),
+                ),
+            )
+
+
+def insert_music_data(connection: sqlite3.Connection) -> None:
+    for song in load_songs():
+        connection.execute(
+            """
+            INSERT INTO songs (id, title_ja, title_en, writers_json, lyricists_json, composers_json, notes)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                song["id"],
+                song["title_ja"],
+                song["title_en"],
+                json.dumps(song.get("writers", []), ensure_ascii=False),
+                json.dumps(song.get("lyricists", []), ensure_ascii=False),
+                json.dumps(song.get("composers", []), ensure_ascii=False),
+                song.get("notes", ""),
+            ),
+        )
+
+    for venue in load_venues():
+        connection.execute(
+            """
+            INSERT INTO venues (id, name_ja, name_en, city, prefecture, country, notes)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                venue["id"],
+                venue["name_ja"],
+                venue["name_en"],
+                venue["city"],
+                venue.get("prefecture"),
+                venue["country"],
+                venue.get("notes", ""),
+            ),
+        )
+
+    for album in load_albums():
+        connection.execute(
+            """
+            INSERT INTO albums (
+                id, title_ja, title_en, type, release_date, date_precision,
+                label, catalog_number, format, cover_image, verification_status,
+                tracks_json, notes, changelog_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                album["id"],
+                album["title_ja"],
+                album["title_en"],
+                album["type"],
+                album["release_date"],
+                album["date_precision"],
+                album.get("label"),
+                album.get("catalog_number"),
+                album.get("format"),
+                album.get("cover_image"),
+                album["verification_status"],
+                json.dumps(album.get("tracks", []), ensure_ascii=False),
+                album.get("notes", ""),
+                json.dumps(album["changelog"], ensure_ascii=False),
+            ),
+        )
+
+    for single in load_singles():
+        connection.execute(
+            """
+            INSERT INTO singles (
+                id, title_ja, title_en, release_date, date_precision,
+                label, catalog_number, format, a_side, b_side,
+                coupling_tracks_json, cover_image, verification_status, notes, changelog_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                single["id"],
+                single["title_ja"],
+                single["title_en"],
+                single["release_date"],
+                single["date_precision"],
+                single.get("label"),
+                single.get("catalog_number"),
+                single.get("format"),
+                single.get("a_side"),
+                single.get("b_side"),
+                json.dumps(single.get("coupling_tracks", []), ensure_ascii=False),
+                single.get("cover_image"),
+                single["verification_status"],
+                single.get("notes", ""),
+                json.dumps(single["changelog"], ensure_ascii=False),
+            ),
+        )
+
+    for concert in load_concerts():
+        connection.execute(
+            """
+            INSERT INTO concerts (
+                id, date, date_precision, venue, event_name_ja, event_name_en,
+                type, tour, setlist_json, members_present_json, verification_status,
+                source_notes, performances_json, notes, changelog_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                concert["id"],
+                concert["date"],
+                concert["date_precision"],
+                concert.get("venue"),
+                concert.get("event_name_ja"),
+                concert.get("event_name_en"),
+                concert["type"],
+                concert.get("tour"),
+                json.dumps(concert.get("setlist", []), ensure_ascii=False),
+                json.dumps(concert.get("members_present", []), ensure_ascii=False),
+                concert["verification_status"],
+                concert.get("source_notes", ""),
+                json.dumps(concert.get("performances", []), ensure_ascii=False),
+                concert.get("notes", ""),
+                json.dumps(concert["changelog"], ensure_ascii=False),
+            ),
+        )
+
+    for video in load_videos():
+        connection.execute(
+            """
+            INSERT INTO videos (
+                id, title_ja, title_en, type, url, platform, release_date,
+                song, concert, quality, verification_status, notes, changelog_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                video["id"],
+                video.get("title_ja"),
+                video["title_en"],
+                video["type"],
+                video["url"],
+                video.get("platform"),
+                video.get("release_date"),
+                video.get("song"),
+                video.get("concert"),
+                video.get("quality"),
+                video["verification_status"],
+                video.get("notes", ""),
+                json.dumps(video["changelog"], ensure_ascii=False),
+            ),
+        )
+
+    for reference in load_references():
+        connection.execute(
+            """
+            INSERT INTO references_table (id, title, type, url, notes)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (
+                reference["id"],
+                reference["title"],
+                reference["type"],
+                reference["url"],
+                reference.get("notes", ""),
+            ),
+        )
+
+
+def decode_json_fields(rows: list[dict], mapping: dict[str, str]) -> None:
+    for row in rows:
+        for json_field, target in mapping.items():
+            if json_field in row:
+                row[target] = json.loads(row.pop(json_field) or "[]")
+
+
+def export_site_json(connection: sqlite3.Connection) -> None:
+    connection.row_factory = sqlite3.Row
+    publications = [dict(row) for row in connection.execute("SELECT * FROM publications ORDER BY priority, name_en")]
+    issues = [dict(row) for row in connection.execute("SELECT * FROM issues ORDER BY publication_date, id")]
+    articles = [dict(row) for row in connection.execute("SELECT * FROM articles ORDER BY issue_id, id")]
+    songs = [dict(row) for row in connection.execute("SELECT * FROM songs ORDER BY title_en")]
+    albums = [dict(row) for row in connection.execute("SELECT * FROM albums ORDER BY release_date, id")]
+    singles = [dict(row) for row in connection.execute("SELECT * FROM singles ORDER BY release_date, id")]
+    venues = [dict(row) for row in connection.execute("SELECT * FROM venues ORDER BY name_en")]
+    concerts = [dict(row) for row in connection.execute("SELECT * FROM concerts ORDER BY date, id")]
+    videos = [dict(row) for row in connection.execute("SELECT * FROM videos ORDER BY release_date, title_en")]
+    references = [dict(row) for row in connection.execute("SELECT * FROM references_table ORDER BY title")]
+
+    decode_json_fields(issues, {"research_targets_json": "research_targets", "changelog_json": "changelog"})
+    decode_json_fields(articles, {"members_json": "members", "purchase_links_json": "purchase_links"})
+    decode_json_fields(songs, {"writers_json": "writers", "lyricists_json": "lyricists", "composers_json": "composers"})
+    decode_json_fields(albums, {"tracks_json": "tracks", "changelog_json": "changelog"})
+    decode_json_fields(singles, {"coupling_tracks_json": "coupling_tracks", "changelog_json": "changelog"})
+    decode_json_fields(
+        concerts,
+        {
+            "setlist_json": "setlist",
+            "members_present_json": "members_present",
+            "performances_json": "performances",
+            "changelog_json": "changelog",
+        },
+    )
+    decode_json_fields(videos, {"changelog_json": "changelog"})
+
+    for row in articles:
+        row["cover"] = bool(row["cover"])
+        row["poster"] = bool(row["poster"])
+        row["foldout"] = bool(row["foldout"])
+        row["scan_available"] = bool(row["scan_available"])
+        row["translation_available"] = bool(row["translation_available"])
+
+    articles_by_issue: dict[str, list[dict[str, Any]]] = {}
+    for article in articles:
+        articles_by_issue.setdefault(article["issue_id"], []).append(article)
+
+    enriched_issues = []
+    for issue in issues:
+        enriched = dict(issue)
+        enriched["articles"] = articles_by_issue.get(issue["id"], [])
+        enriched_issues.append(enriched)
+
+    song_map = {song["id"]: song for song in songs}
+    venue_map = {venue["id"]: venue for venue in venues}
+
+    for album in albums:
+        album["track_details"] = [
+            {**track, "song_detail": song_map.get(track["song"])} for track in album.get("tracks", [])
+        ]
+
+    for concert in concerts:
+        concert["venue_detail"] = venue_map.get(concert["venue"]) if concert.get("venue") else None
+        concert["setlist_details"] = [song_map.get(song_id) for song_id in concert.get("setlist", [])]
+
+    for video in videos:
+        video["song_detail"] = song_map.get(video["song"]) if video.get("song") else None
+
+    performance_count = sum(len(concert.get("performances", [])) for concert in concerts)
+
+    payload = {
+        "generated_at": __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat().replace("+00:00", "Z"),
+        "people": load_people(),
+        "publications": publications,
+        "issues": enriched_issues,
+        "songs": songs,
+        "albums": albums,
+        "singles": singles,
+        "venues": venues,
+        "concerts": concerts,
+        "videos": videos,
+        "references": references,
+        "stats": {
+            "issue_count": len(enriched_issues),
+            "article_count": len(articles),
+            "verified_issue_count": sum(1 for issue in enriched_issues if issue["verification_status"] == "verified"),
+            "scan_count": sum(1 for article in articles if article["scan_available"]),
+            "album_count": len(albums),
+            "single_count": len(singles),
+            "song_count": len(songs),
+            "concert_count": len(concerts),
+            "video_count": len(videos),
+            "performance_link_count": performance_count + len(videos),
+        },
+    }
+
+    SITE_DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main() -> int:
+    ensure_dirs()
+    connection = sqlite3.connect(DB_PATH)
+    try:
+        create_schema(connection)
+        clear_all(connection)
+        insert_publications(connection)
+        insert_issues_and_articles(connection)
+        insert_music_data(connection)
+        connection.commit()
+        export_site_json(connection)
+    finally:
+        connection.close()
+
+    print(
+        f"Built database at {DB_PATH} "
+        f"({len(load_issues())} issues, {len(load_albums())} albums, {len(load_concerts())} concerts)."
+    )
+    print(f"Exported site JSON to {SITE_DATA_PATH}.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

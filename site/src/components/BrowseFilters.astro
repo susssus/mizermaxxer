@@ -1,0 +1,118 @@
+---
+import linksIndex from "../data/links_index.json";
+
+const types = [...new Set(linksIndex.browse.map((row) => row.type))].sort();
+const years = [...new Set(linksIndex.browse.map((row) => row.year).filter(Boolean))].sort();
+const statuses = [...new Set(linksIndex.browse.map((row) => row.status))].sort();
+---
+
+<div class="filters" id="browse-filters">
+  <label>
+    Search
+    <input type="search" id="search" placeholder="Title or ID…" />
+  </label>
+  <label>
+    Type
+    <select id="type">
+      <option value="">All types</option>
+      {types.map((type) => (
+        <option value={type}>{type}</option>
+      ))}
+    </select>
+  </label>
+  <label>
+    Year
+    <select id="year">
+      <option value="">Any year</option>
+      {years.map((year) => (
+        <option value={year}>{year}</option>
+      ))}
+    </select>
+  </label>
+  <label>
+    Status
+    <select id="status">
+      <option value="">All statuses</option>
+      {statuses.map((status) => (
+        <option value={status}>{status.replaceAll("_", " ")}</option>
+      ))}
+    </select>
+  </label>
+</div>
+
+<script>
+  const rows = Array.from(document.querySelectorAll("[data-browse-row]"));
+  const searchInput = document.getElementById("search") as HTMLInputElement;
+  const typeSelect = document.getElementById("type") as HTMLSelectElement;
+  const yearSelect = document.getElementById("year") as HTMLSelectElement;
+  const statusSelect = document.getElementById("status") as HTMLSelectElement;
+  const table = document.getElementById("browse-table") as HTMLTableElement;
+  let sortKey = "date";
+  let sortAsc = true;
+
+  function applyFilters() {
+    const query = searchInput.value.trim().toLowerCase();
+    const type = typeSelect.value;
+    const year = yearSelect.value;
+    const status = statusSelect.value;
+
+    rows.forEach((row) => {
+      const dataset = (row as HTMLElement).dataset;
+      const matchesQuery =
+        !query ||
+        (dataset.title || "").includes(query) ||
+        (dataset.id || "").includes(query);
+      const matchesType = !type || dataset.type === type;
+      const matchesYear = !year || dataset.year === year;
+      const matchesStatus = !status || dataset.status === status;
+      const visible = matchesQuery && matchesType && matchesYear && matchesStatus;
+      (row as HTMLElement).style.display = visible ? "" : "none";
+    });
+
+    updateCount();
+  }
+
+  function updateCount() {
+    const visible = rows.filter((row) => (row as HTMLElement).style.display !== "none").length;
+    const counter = document.getElementById("browse-count");
+    if (counter) counter.textContent = String(visible);
+  }
+
+  function sortRows() {
+    const tbody = table?.querySelector("tbody");
+    if (!tbody) return;
+
+    const sorted = [...rows].sort((a, b) => {
+      const da = (a as HTMLElement).dataset;
+      const db = (b as HTMLElement).dataset;
+      let av = da[sortKey] || "";
+      let bv = db[sortKey] || "";
+      if (sortKey === "link_count") {
+        return sortAsc
+          ? Number(av) - Number(bv)
+          : Number(bv) - Number(av);
+      }
+      return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+    });
+
+    sorted.forEach((row) => tbody.appendChild(row));
+  }
+
+  document.getElementById("browse-filters")?.addEventListener("input", applyFilters);
+  document.getElementById("browse-filters")?.addEventListener("change", applyFilters);
+
+  table?.querySelectorAll("th[data-sort]").forEach((header) => {
+    header.addEventListener("click", () => {
+      const key = (header as HTMLElement).dataset.sort || "date";
+      if (sortKey === key) {
+        sortAsc = !sortAsc;
+      } else {
+        sortKey = key;
+        sortAsc = key !== "title";
+      }
+      sortRows();
+    });
+  });
+
+  applyFilters();
+</script>

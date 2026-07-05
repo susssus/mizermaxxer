@@ -1,0 +1,24 @@
+id: 1994-08-05-cher-de-memoire
+date: '1994-08-05'
+date_precision: day
+venue: sendai-kimachi-yamaha-hall
+event_name_ja: Cher de memoire Tour 1994
+event_name_en: Cher de memoire Tour
+type: live
+tour: cher-de-memoire-1994
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1994-08-05 Cher de memoire Tour

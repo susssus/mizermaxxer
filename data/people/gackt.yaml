@@ -1,0 +1,40 @@
+id: person_gackt
+type: person
+name:
+  original: Gackt
+  romanized: Gackt
+legal_name:
+  original: 大城 ガクト
+  romanized: Gakuto Oshiro
+roles:
+- vocals
+active:
+  start: '1995'
+  end: '1999'
+era: Gackt era
+birth:
+  date: '1973-07-04'
+  place: Okinawa, Japan
+bio:
+  before: 'Performed as drummer and vocalist in Cains:Feel and other Okinawa-area
+    bands before being recruited as Malice Mizer''s second vocalist.
+
+    '
+  during: 'Joined in October 1995 and fronted the band through its commercial peak.
+    The Gackt era brought French pop influences, major-label success (Merveilles went
+    gold), and elaborate theatrical live shows. Departed in January 1999 at the height
+    of the band''s popularity.
+
+    '
+  after: 'Launched an enormously successful solo career spanning music, film, and
+    television. Remains one of Japan''s best-known entertainers and declined invitations
+    to Malice Mizer reunion concerts.
+
+    '
+portrait_image: images/members/gackt.webp
+gallery_images:
+- src: images/vintage/live-full-lineup.webp
+  caption: Full lineup (behind Mana)
+  source: Malice Meezer / malicemeezer.neocities.org
+facts: []
+notes: ''

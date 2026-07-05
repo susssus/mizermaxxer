@@ -1,0 +1,23 @@
+id: beast-of-blood-single
+title_ja: Beast Of Blood
+title_en: Beast Of Blood
+release_date: '2001-06-21'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-022
+a_side: beast-of-blood
+b_side: baptism-of-blood
+notes: Synced from Discogs (https://www.discogs.com/release/2109013-Malice-Mizer-Beast-Of-Blood).
+format: cd
+coupling_tracks: []
+cover_image: images/covers/beast-of-blood-single.jpg
+verification_status: verified
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for single Beast of Blood
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/2109013-Malice-Mizer-Beast-Of-Blood

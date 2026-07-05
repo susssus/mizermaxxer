@@ -1,0 +1,24 @@
+id: 1994-12-21-cher-de-memoire-ii
+date: '1994-12-21'
+date_precision: day
+venue: niigata-o-do
+event_name_ja: null
+event_name_en: Cher de memoire II — RISKY GAME event
+type: oneman
+tour: cher-de-memoire-ii-1994
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1994-12-21 Cher de memoire II — RISKY GAME event

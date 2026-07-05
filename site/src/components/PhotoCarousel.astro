@@ -1,0 +1,260 @@
+---
+export interface CarouselImage {
+  src: string;
+  caption?: string | null;
+  source?: string | null;
+}
+
+interface Props {
+  images: CarouselImage[];
+  alt: string;
+  id?: string;
+}
+
+const { images, alt, id = "photo-carousel" } = Astro.props;
+
+function resolveSrc(path: string): string {
+  if (path.startsWith("http://") || path.startsWith("https://")) return path;
+  if (path.startsWith("images/")) return `/${path}`;
+  return path.startsWith("/") ? path : `/${path}`;
+}
+
+if (images.length === 0) return null;
+---
+
+<div class="photo-carousel" data-carousel={id}>
+  <div class="photo-carousel__viewport">
+    <button type="button" class="photo-carousel__nav photo-carousel__nav--prev" data-carousel-prev aria-label="Previous photo">
+      ‹
+    </button>
+
+    <div class="photo-carousel__track">
+      {images.map((image, index) => (
+        <figure
+          class:list={["photo-carousel__slide", { "is-active": index === 0 }]}
+          data-carousel-slide
+          hidden={index !== 0}
+        >
+          <img
+            src={resolveSrc(image.src)}
+            alt={image.caption ? `${alt} — ${image.caption}` : alt}
+            loading={index === 0 ? "eager" : "lazy"}
+            decoding="async"
+          />
+          {(image.caption || image.source) && (
+            <figcaption>
+              {image.caption && <span>{image.caption}</span>}
+              {image.source && <span class="photo-carousel__source">Source: {image.source}</span>}
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </div>
+
+    <button type="button" class="photo-carousel__nav photo-carousel__nav--next" data-carousel-next aria-label="Next photo">
+      ›
+    </button>
+  </div>
+
+  {images.length > 1 && (
+    <div class="photo-carousel__footer">
+      <div class="photo-carousel__dots" role="tablist" aria-label="Gallery navigation">
+        {images.map((image, index) => (
+          <button
+            type="button"
+            class:list={["photo-carousel__dot", { "is-active": index === 0 }]}
+            data-carousel-dot={index}
+            role="tab"
+            aria-selected={index === 0 ? "true" : "false"}
+            aria-label={image.caption ?? `Photo ${index + 1}`}
+          />
+        ))}
+      </div>
+      <span class="photo-carousel__counter" data-carousel-counter>1 / {images.length}</span>
+    </div>
+  )}
+
+  {images.length > 1 && (
+    <div class="photo-carousel__thumbs" aria-label="Photo thumbnails">
+      {images.map((image, index) => (
+        <button
+          type="button"
+          class:list={["photo-carousel__thumb", { "is-active": index === 0 }]}
+          data-carousel-thumb={index}
+          aria-label={image.caption ?? `Show photo ${index + 1}`}
+        >
+          <img src={resolveSrc(image.src)} alt="" loading="lazy" decoding="async" />
+        </button>
+      ))}
+    </div>
+  )}
+</div>
+
+<script>
+  document.querySelectorAll("[data-carousel]").forEach((root) => {
+    const slides = Array.from(root.querySelectorAll("[data-carousel-slide]"));
+    const dots = Array.from(root.querySelectorAll("[data-carousel-dot]"));
+    const thumbs = Array.from(root.querySelectorAll("[data-carousel-thumb]"));
+    const counter = root.querySelector("[data-carousel-counter]");
+    const prevBtn = root.querySelector("[data-carousel-prev]");
+    const nextBtn = root.querySelector("[data-carousel-next]");
+
+    if (slides.length <= 1) return;
+
+    let current = 0;
+
+    function show(index: number) {
+      current = (index + slides.length) % slides.length;
+
+      slides.forEach((slide, i) => {
+        const active = i === current;
+        slide.classList.toggle("is-active", active);
+        (slide as HTMLElement).hidden = !active;
+      });
+
+      dots.forEach((dot, i) => {
+        const active = i === current;
+        dot.classList.toggle("is-active", active);
+        dot.setAttribute("aria-selected", active ? "true" : "false");
+      });
+
+      thumbs.forEach((thumb, i) => {
+        thumb.classList.toggle("is-active", i === current);
+      });
+
+      if (counter) {
+        counter.textContent = `${current + 1} / ${slides.length}`;
+      }
+    }
+
+    prevBtn?.addEventListener("click", () => show(current - 1));
+    nextBtn?.addEventListener("click", () => show(current + 1));
+
+    dots.forEach((dot, i) => dot.addEventListener("click", () => show(i)));
+    thumbs.forEach((thumb, i) => thumb.addEventListener("click", () => show(i)));
+
+    root.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") show(current - 1);
+      if (event.key === "ArrowRight") show(current + 1);
+    });
+  });
+</script>
+
+<style>
+  .photo-carousel {
+    margin-top: 1rem;
+  }
+  .photo-carousel__viewport {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .photo-carousel__track {
+    min-width: 0;
+  }
+  .photo-carousel__slide {
+    margin: 0;
+  }
+  .photo-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-height: 360px;
+    object-fit: contain;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--accent) 4%, var(--surface));
+  }
+  .photo-carousel__slide figcaption {
+    margin-top: 0.4rem;
+    font-size: 0.78rem;
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .photo-carousel__source {
+    font-style: italic;
+  }
+  .photo-carousel__nav {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--accent);
+    font-size: 1.35rem;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .photo-carousel__nav:hover {
+    border-color: color-mix(in srgb, var(--rose) 45%, var(--border));
+    background: color-mix(in srgb, var(--rose) 6%, var(--surface));
+  }
+  .photo-carousel__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  .photo-carousel__dots {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+  .photo-carousel__dot {
+    width: 0.55rem;
+    height: 0.55rem;
+    padding: 0;
+    border: none;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--muted) 35%, var(--border));
+    cursor: pointer;
+  }
+  .photo-carousel__dot.is-active {
+    background: var(--rose);
+  }
+  .photo-carousel__counter {
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .photo-carousel__thumbs {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.65rem;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    scrollbar-width: thin;
+  }
+  .photo-carousel__thumb {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background: var(--surface);
+    opacity: 0.65;
+    transition: opacity 0.15s, border-color 0.15s;
+  }
+  .photo-carousel__thumb.is-active {
+    opacity: 1;
+    border-color: color-mix(in srgb, var(--rose) 55%, var(--border));
+  }
+  .photo-carousel__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+</style>

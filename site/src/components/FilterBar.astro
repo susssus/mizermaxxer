@@ -1,0 +1,104 @@
+---
+import archive from "../data/archive.json";
+
+const publications = archive.publications.sort((a, b) => a.priority - b.priority);
+const years = [...new Set(archive.issues.map((issue) => issue.publication_date.slice(0, 4)))].sort();
+const types = [...new Set(archive.issues.flatMap((issue) => issue.articles.map((a) => a.type)))].sort();
+const members = [...new Set(archive.issues.flatMap((issue) => issue.articles.flatMap((a) => a.members)))].sort();
+const statuses = [...new Set(archive.issues.map((issue) => issue.verification_status))].sort();
+---
+
+<div class="filters" id="filters">
+  <label>
+    Year from
+    <select id="yearFrom">
+      <option value="">Any</option>
+      {years.map((year) => <option value={year}>{year}</option>)}
+    </select>
+  </label>
+  <label>
+    Year to
+    <select id="yearTo">
+      <option value="">Any</option>
+      {years.map((year) => <option value={year}>{year}</option>)}
+    </select>
+  </label>
+  <label>
+    Publication
+    <select id="publication">
+      <option value="">All</option>
+      {publications.map((pub) => <option value={pub.slug}>{pub.name_en}</option>)}
+    </select>
+  </label>
+  <label>
+    Article type
+    <select id="type">
+      <option value="">All</option>
+      {types.map((type) => <option value={type}>{type.replaceAll("_", " ")}</option>)}
+    </select>
+  </label>
+  <label>
+    Member
+    <select id="member">
+      <option value="">All</option>
+      {members.map((member) => <option value={member}>{member}</option>)}
+    </select>
+  </label>
+  <label>
+    Status
+    <select id="status">
+      <option value="">All</option>
+      {statuses.map((status) => <option value={status}>{status.replaceAll("_", " ")}</option>)}
+    </select>
+  </label>
+  <label>
+    Scan available
+    <select id="scan">
+      <option value="">All</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </label>
+</div>
+
+<script>
+  const rows = Array.from(document.querySelectorAll("[data-row]"));
+
+  function applyFilters() {
+    const yearFrom = (document.getElementById("yearFrom") as HTMLSelectElement).value;
+    const yearTo = (document.getElementById("yearTo") as HTMLSelectElement).value;
+    const publication = (document.getElementById("publication") as HTMLSelectElement).value;
+    const type = (document.getElementById("type") as HTMLSelectElement).value;
+    const member = (document.getElementById("member") as HTMLSelectElement).value;
+    const status = (document.getElementById("status") as HTMLSelectElement).value;
+    const scan = (document.getElementById("scan") as HTMLSelectElement).value;
+
+    rows.forEach((row) => {
+      const dataset = (row as HTMLElement).dataset;
+      const year = dataset.year || "";
+      const matchesYearFrom = !yearFrom || year >= yearFrom;
+      const matchesYearTo = !yearTo || year <= yearTo;
+      const matchesPublication = !publication || dataset.publication === publication;
+      const matchesType = !type || dataset.type === type;
+      const matchesMember = !member || (dataset.members || "").split(",").includes(member);
+      const matchesStatus = !status || dataset.status === status;
+      const matchesScan =
+        !scan ||
+        (scan === "yes" && dataset.scan === "true") ||
+        (scan === "no" && dataset.scan === "false");
+
+      const visible =
+        matchesYearFrom &&
+        matchesYearTo &&
+        matchesPublication &&
+        matchesType &&
+        matchesMember &&
+        matchesStatus &&
+        matchesScan;
+
+      (row as HTMLElement).style.display = visible ? "" : "none";
+    });
+  }
+
+  document.getElementById("filters")?.addEventListener("change", applyFilters);
+</script>

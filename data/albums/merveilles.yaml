@@ -1,0 +1,50 @@
+id: merveilles
+title_ja: Merveilles
+title_en: Merveilles
+type: album
+release_date: '1998-03-18'
+date_precision: day
+label: Maitrize
+catalog_number: COCA-14866
+format: cd
+notes: Synced from Discogs (https://www.discogs.com/master/558472-Malice-Mizer-Merveilles).
+verification_status: verified
+cover_image: images/covers/merveilles.jpg
+tracks:
+- song: de-merveilles
+  position: 1
+- song: syunikiss
+  position: 2
+- song: bel-air
+  position: 3
+- song: illuminati
+  position: 4
+- song: brise
+  position: 5
+- song: aege-sugisarishi-kaze
+  position: 6
+- song: au-revoir
+  position: 7
+- song: ju-te-veux
+  position: 8
+- song: s-conscious
+  position: 9
+- song: le-ciel
+  position: 10
+- song: gekka-no-yasoukyoku
+  position: 11
+- song: bois-de-merveilles
+  position: 12
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for Merveilles
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
