@@ -32,13 +32,14 @@ articles:
   scan:
     available: true
     quality: high
-    url: http://www.scape.sc/pamphlets/cherdememoire/
+    url: http://www.scape.sc/pamphlets/cherdememoire/cherdememoire00.jpg
   translation:
     available: true
     url: https://www.scape.sc/translations/mm-cherdememoire-sep94.php
   purchase_links: []
   notes: >
     33 page thumbnails on scape.sc (view.php?page=N for full size).
+    Gallery: http://www.scape.sc/pamphlets/cherdememoire/
     Collaboration with indies magazine Imperfection. Source scape.sc.
 changelog:
 - date: '2026-07-06'

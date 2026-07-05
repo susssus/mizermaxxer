@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T23:30:40.622910Z",
+  "generated_at": "2026-07-05T23:34:52.120255Z",
   "people": {
     "members": [
       {
@@ -2374,10 +2374,10 @@
           "foldout": false,
           "scan_available": true,
           "scan_quality": "high",
-          "scan_url": "http://www.scape.sc/pamphlets/cherdememoire/",
+          "scan_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire00.jpg",
           "translation_available": true,
           "translation_url": "https://www.scape.sc/translations/mm-cherdememoire-sep94.php",
-          "notes": "33 page thumbnails on scape.sc (view.php?page=N for full size). Collaboration with indies magazine Imperfection. Source scape.sc.\n",
+          "notes": "33 page thumbnails on scape.sc (view.php?page=N for full size). Gallery: http://www.scape.sc/pamphlets/cherdememoire/ Collaboration with indies magazine Imperfection. Source scape.sc.\n",
           "members": [
             "kami",
             "kozi",
@@ -5318,10 +5318,10 @@
           "foldout": false,
           "scan_available": true,
           "scan_quality": "high",
-          "scan_url": "https://archive.org/details/2012-07-11-01-33-19-01",
+          "scan_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-10-23-41-31-01.jpg",
           "translation_available": false,
           "translation_url": null,
-          "notes": "Full pamphlet scan on Internet Archive (2012 upload).",
+          "notes": "Full pamphlet scan on Internet Archive (2012 upload). Gallery: https://archive.org/details/2012-07-11-01-33-19-01\n",
           "members": [
             "gackt",
             "kami",

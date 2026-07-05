@@ -33,12 +33,14 @@ articles:
   scan:
     available: true
     quality: high
-    url: https://archive.org/details/2012-07-11-01-33-19-01
+    url: https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-10-23-41-31-01.jpg
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: Full pamphlet scan on Internet Archive (2012 upload).
+  notes: >
+    Full pamphlet scan on Internet Archive (2012 upload).
+    Gallery: https://archive.org/details/2012-07-11-01-33-19-01
 changelog:
 - date: '2026-07-06'
   action: created

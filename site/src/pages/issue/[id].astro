@@ -12,6 +12,11 @@ const issue = archive.issues.find((entry) => entry.id === id);
 const publication = archive.publications.find((pub) => pub.slug === issue?.publication);
 const isFlyer = issue?.publication === "flyers";
 const previewArticle = issue?.articles.find((article) => article.scan_url);
+
+function scanHref(url: string): string {
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  return url.startsWith("/") ? url : `/${url}`;
+}
 ---
 
 {issue && (
@@ -76,7 +81,7 @@ const previewArticle = issue?.articles.find((article) => article.scan_url);
               <td>{article.members.length ? article.members.join(", ") : "—"}</td>
               <td>
                 {article.scan_url ? (
-                  <a href={`/${article.scan_url}`} target="_blank" rel="noopener">View scan</a>
+                  <a href={scanHref(article.scan_url)} target="_blank" rel="noopener">View scan</a>
                 ) : article.scan_available ? (
                   "Yes"
                 ) : (
