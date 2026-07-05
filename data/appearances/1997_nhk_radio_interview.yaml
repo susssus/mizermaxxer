@@ -1,21 +1,33 @@
 id: appearance_1997_nhk_radio_interview
 type: appearance
 title:
-  original: NHK FM インタビュー
-  romanized: NHK FM Interview
+  original: 真夜中のs'il vous plaît
+  romanized: Mayonaka no s'il vous plaît
+  english: Midnight s'il vous plaît
 appearance_type: radio
-format: interview
-date: "1997"
-date_precision: year
+format: talk
+date: "1997-11"
+date_precision: month
 broadcast:
-  network: org_nhk
-  program: null
-  channel: NHK FM
+  network: org_cbc
+  program: 真夜中のs'il vous plaît
+  channel: CBC Radio
 venue: null
 members_present:
-  - person_mana
+  - person_gackt
+  - person_kami
+  - person_kozi
 songs_performed: []
 performances: []
-verification_status: needs_verification
-facts: []
-notes: Radio interview stub — program title and date to be confirmed.
+verification_status: verified
+facts:
+  - statement: >
+      Regular CBC Radio show hosted by Gackt, Kami, and Közi; aired Sundays
+      24:00–24:30. Episode #5 documented 1997-11-09 (MIsaO Lab transcript).
+    sources:
+      - ref_malice_mizer_info
+    confidence: high
+    status: verified
+notes: >
+  Entity id retained from earlier NHK FM stub. Program is CBC Radio (Chukyo),
+  not NHK. Ran through October 1998 (~51 episodes per fan chronologies).

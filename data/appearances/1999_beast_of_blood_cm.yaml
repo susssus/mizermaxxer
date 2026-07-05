@@ -1,26 +1,36 @@
 id: appearance_1999_beast_of_blood_cm
 type: appearance
 title:
-  original: Beast of Blood TVスポット
-  romanized: Beast of Blood TV Commercial
-appearance_type: cm
-format: cm
-date: "1999-04"
-date_precision: month
+  original: Beast of Blood — CDTVパフォーマンス
+  romanized: Beast of Blood — CDTV performance
+appearance_type: tv
+format: performance
+date: "2001-06-30"
+date_precision: day
 broadcast:
-  network: null
-  program: null
+  network: org_ntv
+  program: CDTV
   channel: null
 venue: null
 members_present:
   - person_mana
   - person_kozi
   - person_yuki
-  - person_kami
   - person_klaha
 songs_performed:
   - song_beast_of_blood
 performances: []
-verification_status: needs_verification
-facts: []
-notes: CM stub tied to Beast of Blood single release (1999-04-21). Network and air dates TBC.
+verification_status: possible
+facts:
+  - statement: >
+      Beast of Blood single charted on CDTV weekly ranking (35th, 2001-06-30)
+      during promotion for the 2001-06-21 Midi:Nette release.
+    sources:
+      - ref_beast_of_blood_single
+    confidence: medium
+    status: possible
+    notes: CDTV chart data via cd100.net; not a confirmed CM spot.
+notes: >
+  Entity id retained from earlier CM stub (incorrectly dated 1999-04).
+  Beast of Blood was released 2001-06-21, not 1999. No TV commercial confirmed;
+  CDTV chart week used as best available broadcast tie-in.

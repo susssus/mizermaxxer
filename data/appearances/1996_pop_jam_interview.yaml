@@ -8,9 +8,9 @@ format: interview
 date: "1996"
 date_precision: year
 broadcast:
-  network: org_tv_asahi
+  network: org_nhk
   program: Pop Jam
-  channel: null
+  channel: NHK
 venue: null
 members_present:
   - person_mana
@@ -19,4 +19,6 @@ songs_performed: []
 performances: []
 verification_status: needs_verification
 facts: []
-notes: Talk/interview format stub. Pop Jam ran on TV Asahi (1993–2002).
+notes: >
+  Stub — Pop Jam is an NHK music program (1995–2006), not TV Asahi.
+  No primary source confirms a Malice Mizer appearance; setlist and date TBC.

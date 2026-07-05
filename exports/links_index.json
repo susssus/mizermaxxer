@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-05T23:15:57.619161Z",
-  "entity_count": 25,
-  "edge_count": 123,
+  "generated_at": "2026-07-05T23:21:11.235113Z",
+  "entity_count": 32,
+  "edge_count": 147,
   "entities": [
     {
       "id": "album_merveilles",
@@ -28,22 +28,40 @@
       "path": "data/appearances/1996_pop_jam_interview.yaml"
     },
     {
+      "id": "appearance_1997_12_limage_de_merveilles",
+      "type": "appearance",
+      "title": "sur TV \"l'image de merveilles\"",
+      "path": "data/appearances/1997_12_limage_de_merveilles.yaml"
+    },
+    {
       "id": "appearance_1997_nhk_radio_interview",
       "type": "appearance",
-      "title": "NHK FM Interview",
+      "title": "Mayonaka no s'il vous plaît",
       "path": "data/appearances/1997_nhk_radio_interview.yaml"
     },
     {
       "id": "appearance_1999_beast_of_blood_cm",
       "type": "appearance",
-      "title": "Beast of Blood TV Commercial",
+      "title": "Beast of Blood — CDTV performance",
       "path": "data/appearances/1999_beast_of_blood_cm.yaml"
+    },
+    {
+      "id": "appearance_2000_07_bara_no_kiseki_tv",
+      "type": "appearance",
+      "title": "Bara no Shouzou — Shinataru akui to higeki no makuake",
+      "path": "data/appearances/2000_07_bara_no_kiseki_tv.yaml"
     },
     {
       "id": "concert_1998_04_01_budokan",
       "type": "concert",
       "title": "merveilles ~Shuuen to kisuu~",
       "path": "data/concerts/1998_04_01_budokan.entity.yaml"
+    },
+    {
+      "id": "org_cbc",
+      "type": "organization",
+      "title": "CBC Radio",
+      "path": "data/organizations/cbc.yaml"
     },
     {
       "id": "org_nhk",
@@ -62,6 +80,12 @@
       "type": "organization",
       "title": "TV Asahi",
       "path": "data/organizations/tv_asahi.yaml"
+    },
+    {
+      "id": "org_tv_tokyo",
+      "type": "organization",
+      "title": "TV Tokyo",
+      "path": "data/organizations/tv_tokyo.yaml"
     },
     {
       "id": "person_gackt",
@@ -106,10 +130,28 @@
       "path": "data/people/yuki.yaml"
     },
     {
+      "id": "ref_beast_of_blood_single",
+      "type": "reference",
+      "title": "Beast of Blood single (MMCD-022)",
+      "path": "data/references/beast_of_blood_single.yaml"
+    },
+    {
+      "id": "ref_columbia_malice",
+      "type": "reference",
+      "title": "MALICE MIZER — Columbia Discography",
+      "path": "data/references/columbia_malice.yaml"
+    },
+    {
       "id": "ref_foolsmate_188",
       "type": "reference",
       "title": "FOOL'S MATE Vol. 188",
       "path": "data/references/foolsmate_188.yaml"
+    },
+    {
+      "id": "ref_malice_mizer_info",
+      "type": "reference",
+      "title": "MALICE MIZER Info",
+      "path": "data/references/malice_mizer_info_site.yaml"
     },
     {
       "id": "ref_shoxx_061",
@@ -165,7 +207,7 @@
       "date": "1995-12",
       "year": "1995",
       "status": "needs_verification",
-      "link_count": 16
+      "link_count": 14
     },
     {
       "id": "appearance_1996_heys_music_champ",
@@ -192,18 +234,6 @@
       "link_count": 6
     },
     {
-      "id": "appearance_1997_nhk_radio_interview",
-      "type": "appearance",
-      "type_label": "Appearance",
-      "type_category": "appearance",
-      "type_color": "amber",
-      "title": "NHK FM Interview",
-      "date": "1997",
-      "year": "1997",
-      "status": "needs_verification",
-      "link_count": 4
-    },
-    {
       "id": "ref_foolsmate_188",
       "type": "reference",
       "type_label": "Reference",
@@ -214,6 +244,30 @@
       "year": "1997",
       "status": "verified",
       "link_count": 4
+    },
+    {
+      "id": "appearance_1997_nhk_radio_interview",
+      "type": "appearance",
+      "type_label": "Appearance",
+      "type_category": "appearance",
+      "type_color": "amber",
+      "title": "Mayonaka no s'il vous plaît",
+      "date": "1997-11",
+      "year": "1997",
+      "status": "verified",
+      "link_count": 8
+    },
+    {
+      "id": "appearance_1997_12_limage_de_merveilles",
+      "type": "appearance",
+      "type_label": "Appearance",
+      "type_category": "appearance",
+      "type_color": "amber",
+      "title": "sur TV \"l'image de merveilles\"",
+      "date": "1997-12",
+      "year": "1997",
+      "status": "verified",
+      "link_count": 12
     },
     {
       "id": "ref_shoxx_061",
@@ -252,15 +306,39 @@
       "link_count": 17
     },
     {
+      "id": "appearance_2000_07_bara_no_kiseki_tv",
+      "type": "appearance",
+      "type_label": "Appearance",
+      "type_category": "appearance",
+      "type_color": "amber",
+      "title": "Bara no Shouzou — Shinataru akui to higeki no makuake",
+      "date": "2000-07-30",
+      "year": "2000",
+      "status": "verified",
+      "link_count": 10
+    },
+    {
+      "id": "ref_beast_of_blood_single",
+      "type": "reference",
+      "type_label": "Reference",
+      "type_category": "press",
+      "type_color": "pink",
+      "title": "Beast of Blood single (MMCD-022)",
+      "date": "2001-06",
+      "year": "2001",
+      "status": "verified",
+      "link_count": 0
+    },
+    {
       "id": "appearance_1999_beast_of_blood_cm",
       "type": "appearance",
       "type_label": "Appearance",
       "type_category": "appearance",
       "type_color": "amber",
-      "title": "Beast of Blood TV Commercial",
-      "date": "1999-04",
-      "year": "1999",
-      "status": "needs_verification",
+      "title": "Beast of Blood — CDTV performance",
+      "date": "2001-06-30",
+      "year": "2001",
+      "status": "possible",
       "link_count": 12
     },
     {
@@ -273,7 +351,7 @@
       "date": null,
       "year": null,
       "status": "verified",
-      "link_count": 19
+      "link_count": 21
     },
     {
       "id": "song_beast_of_blood",
@@ -284,8 +362,20 @@
       "title": "Beast of Blood",
       "date": null,
       "year": null,
-      "status": "unverified",
+      "status": "verified",
       "link_count": 12
+    },
+    {
+      "id": "org_cbc",
+      "type": "organization",
+      "type_label": "Organization",
+      "type_category": "meta",
+      "type_color": "gray",
+      "title": "CBC Radio",
+      "date": null,
+      "year": null,
+      "status": "unverified",
+      "link_count": 2
     },
     {
       "id": "person_gackt",
@@ -296,8 +386,8 @@
       "title": "Gackt",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 14
+      "status": "verified",
+      "link_count": 18
     },
     {
       "id": "song_gekka_no_yasoukyoku",
@@ -308,8 +398,8 @@
       "title": "Gekka no Yasoukyoku",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 18
+      "status": "verified",
+      "link_count": 16
     },
     {
       "id": "song_illuminati",
@@ -320,7 +410,7 @@
       "title": "ILLUMINATI",
       "date": null,
       "year": null,
-      "status": "unverified",
+      "status": "verified",
       "link_count": 17
     },
     {
@@ -332,8 +422,8 @@
       "title": "Kami",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 16
+      "status": "verified",
+      "link_count": 18
     },
     {
       "id": "person_klaha",
@@ -344,8 +434,8 @@
       "title": "Klaha",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 4
+      "status": "verified",
+      "link_count": 6
     },
     {
       "id": "person_kozi",
@@ -356,8 +446,32 @@
       "title": "Kozi",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 20
+      "status": "verified",
+      "link_count": 26
+    },
+    {
+      "id": "ref_malice_mizer_info",
+      "type": "reference",
+      "type_label": "Reference",
+      "type_category": "press",
+      "type_color": "pink",
+      "title": "MALICE MIZER Info",
+      "date": null,
+      "year": null,
+      "status": "verified",
+      "link_count": 0
+    },
+    {
+      "id": "ref_columbia_malice",
+      "type": "reference",
+      "type_label": "Reference",
+      "type_category": "press",
+      "type_color": "pink",
+      "title": "MALICE MIZER — Columbia Discography",
+      "date": null,
+      "year": null,
+      "status": "verified",
+      "link_count": 0
     },
     {
       "id": "person_mana",
@@ -368,8 +482,8 @@
       "title": "Mana",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 20
+      "status": "verified",
+      "link_count": 22
     },
     {
       "id": "org_nhk",
@@ -405,7 +519,7 @@
       "date": null,
       "year": null,
       "status": "unverified",
-      "link_count": 2
+      "link_count": 4
     },
     {
       "id": "org_tv_asahi",
@@ -417,7 +531,19 @@
       "date": null,
       "year": null,
       "status": "unverified",
-      "link_count": 4
+      "link_count": 2
+    },
+    {
+      "id": "org_tv_tokyo",
+      "type": "organization",
+      "type_label": "Organization",
+      "type_category": "meta",
+      "type_color": "gray",
+      "title": "TV Tokyo",
+      "date": null,
+      "year": null,
+      "status": "unverified",
+      "link_count": 2
     },
     {
       "id": "person_tetsu",
@@ -428,7 +554,7 @@
       "title": "Tetsu",
       "date": null,
       "year": null,
-      "status": "unverified",
+      "status": "verified",
       "link_count": 0
     },
     {
@@ -452,8 +578,8 @@
       "title": "Yu~ki",
       "date": null,
       "year": null,
-      "status": "unverified",
-      "link_count": 16
+      "status": "verified",
+      "link_count": 20
     }
   ],
   "entities_by_id": {
@@ -534,8 +660,18 @@
           "role": "drums"
         }
       ],
-      "facts": [],
-      "notes": "v2 stub for CM appearance linking."
+      "verification_status": "verified",
+      "facts": [
+        {
+          "statement": "A-side of Midi:Nette single MMCD-022, released 2001-06-21.",
+          "sources": [
+            "ref_beast_of_blood_single"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ],
+      "notes": "Third-period vocal lineup (Klaha). v2 entity for appearance linking."
     },
     "song_gekka_no_yasoukyoku": {
       "id": "song_gekka_no_yasoukyoku",
@@ -574,8 +710,18 @@
           "role": "composer"
         }
       ],
-      "facts": [],
-      "notes": "Major debut single (1995-12-06). v2 entity for appearance linking."
+      "verification_status": "verified",
+      "facts": [
+        {
+          "statement": "Track 11 on album Merveilles (COCA-14866, released 1998-03-18).",
+          "sources": [
+            "album_merveilles"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ],
+      "notes": "Major-label single released 1998-02-11 (CODA-1415). v2 entity for graph linking.\n"
     },
     "song_illuminati": {
       "id": "song_illuminati",
@@ -614,7 +760,17 @@
           "role": "composer"
         }
       ],
-      "facts": [],
+      "verification_status": "verified",
+      "facts": [
+        {
+          "statement": "Track 4 on album Merveilles (COCA-14866, released 1998-03-18).",
+          "sources": [
+            "album_merveilles"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ],
       "notes": ""
     },
     "album_merveilles": {
@@ -720,13 +876,11 @@
         "person_kami",
         "person_gackt"
       ],
-      "songs_performed": [
-        "song_gekka_no_yasoukyoku"
-      ],
+      "songs_performed": [],
       "performances": [],
       "verification_status": "needs_verification",
       "facts": [],
-      "notes": "Major debut TV performance period for Gekka no Yasoukyoku (single released 1995-12-06). Exact broadcast date requires primary source confirmation. No verified direct video URL yet.\n"
+      "notes": "Suspected major-debut TV period (1st single 麗しき仮面の招待状 released 1995-12-10). M-Station back-number archives checked 2026-07: no Malice Mizer entry found for 1995. Do not link 月下の夜想曲 — that single was released 1998-02-11. Exact date and setlist TBC.\n"
     },
     "appearance_1996_heys_music_champ": {
       "id": "appearance_1996_heys_music_champ",
@@ -756,7 +910,7 @@
       "performances": [],
       "verification_status": "needs_verification",
       "facts": [],
-      "notes": "Stub — confirm date, setlist, and footage availability."
+      "notes": "Stub — Fuji TV on-air guest lists for 1996 checked 2026-07 with no Malice Mizer entry found. Confirm date, setlist, and footage before promotion.\n"
     },
     "appearance_1996_pop_jam_interview": {
       "id": "appearance_1996_pop_jam_interview",
@@ -770,9 +924,9 @@
       "date": "1996",
       "date_precision": "year",
       "broadcast": {
-        "network": "org_tv_asahi",
+        "network": "org_nhk",
         "program": "Pop Jam",
-        "channel": null
+        "channel": "NHK"
       },
       "venue": null,
       "members_present": [
@@ -783,48 +937,22 @@
       "performances": [],
       "verification_status": "needs_verification",
       "facts": [],
-      "notes": "Talk/interview format stub. Pop Jam ran on TV Asahi (1993–2002)."
+      "notes": "Stub — Pop Jam is an NHK music program (1995–2006), not TV Asahi. No primary source confirms a Malice Mizer appearance; setlist and date TBC.\n"
     },
-    "appearance_1997_nhk_radio_interview": {
-      "id": "appearance_1997_nhk_radio_interview",
+    "appearance_1997_12_limage_de_merveilles": {
+      "id": "appearance_1997_12_limage_de_merveilles",
       "type": "appearance",
       "title": {
-        "original": "NHK FM インタビュー",
-        "romanized": "NHK FM Interview"
+        "original": "sur TV \"l'image de merveilles\"",
+        "romanized": "sur TV \"l'image de merveilles\""
       },
-      "appearance_type": "radio",
-      "format": "interview",
-      "date": "1997",
-      "date_precision": "year",
-      "broadcast": {
-        "network": "org_nhk",
-        "program": null,
-        "channel": "NHK FM"
-      },
-      "venue": null,
-      "members_present": [
-        "person_mana"
-      ],
-      "songs_performed": [],
-      "performances": [],
-      "verification_status": "needs_verification",
-      "facts": [],
-      "notes": "Radio interview stub — program title and date to be confirmed."
-    },
-    "appearance_1999_beast_of_blood_cm": {
-      "id": "appearance_1999_beast_of_blood_cm",
-      "type": "appearance",
-      "title": {
-        "original": "Beast of Blood TVスポット",
-        "romanized": "Beast of Blood TV Commercial"
-      },
-      "appearance_type": "cm",
-      "format": "cm",
-      "date": "1999-04",
+      "appearance_type": "tv",
+      "format": "mixed",
+      "date": "1997-12",
       "date_precision": "month",
       "broadcast": {
         "network": null,
-        "program": null,
+        "program": "l'image de merveilles",
         "channel": null
       },
       "venue": null,
@@ -833,15 +961,143 @@
         "person_kozi",
         "person_yuki",
         "person_kami",
+        "person_gackt"
+      ],
+      "songs_performed": [
+        "song_au_revoir"
+      ],
+      "performances": [],
+      "verification_status": "verified",
+      "facts": [
+        {
+          "statement": "TV special broadcast December 1997 with tour footage (Akasa BLITZ, Hibiya outdoor), member segments, and Verte Aile interview material.\n",
+          "sources": [
+            "ref_columbia_malice"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ],
+      "notes": "Footage later issued on La Collection \"merveilles\" box DVD (2005). Japanese Wikipedia lists under テレビ番組; Weblio corroborates.\n"
+    },
+    "appearance_1997_nhk_radio_interview": {
+      "id": "appearance_1997_nhk_radio_interview",
+      "type": "appearance",
+      "title": {
+        "original": "真夜中のs'il vous plaît",
+        "romanized": "Mayonaka no s'il vous plaît",
+        "english": "Midnight s'il vous plaît"
+      },
+      "appearance_type": "radio",
+      "format": "talk",
+      "date": "1997-11",
+      "date_precision": "month",
+      "broadcast": {
+        "network": "org_cbc",
+        "program": "真夜中のs'il vous plaît",
+        "channel": "CBC Radio"
+      },
+      "venue": null,
+      "members_present": [
+        "person_gackt",
+        "person_kami",
+        "person_kozi"
+      ],
+      "songs_performed": [],
+      "performances": [],
+      "verification_status": "verified",
+      "facts": [
+        {
+          "statement": "Regular CBC Radio show hosted by Gackt, Kami, and Közi; aired Sundays 24:00–24:30. Episode #5 documented 1997-11-09 (MIsaO Lab transcript).\n",
+          "sources": [
+            "ref_malice_mizer_info"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ],
+      "notes": "Entity id retained from earlier NHK FM stub. Program is CBC Radio (Chukyo), not NHK. Ran through October 1998 (~51 episodes per fan chronologies).\n"
+    },
+    "appearance_1999_beast_of_blood_cm": {
+      "id": "appearance_1999_beast_of_blood_cm",
+      "type": "appearance",
+      "title": {
+        "original": "Beast of Blood — CDTVパフォーマンス",
+        "romanized": "Beast of Blood — CDTV performance"
+      },
+      "appearance_type": "tv",
+      "format": "performance",
+      "date": "2001-06-30",
+      "date_precision": "day",
+      "broadcast": {
+        "network": "org_ntv",
+        "program": "CDTV",
+        "channel": null
+      },
+      "venue": null,
+      "members_present": [
+        "person_mana",
+        "person_kozi",
+        "person_yuki",
         "person_klaha"
       ],
       "songs_performed": [
         "song_beast_of_blood"
       ],
       "performances": [],
-      "verification_status": "needs_verification",
-      "facts": [],
-      "notes": "CM stub tied to Beast of Blood single release (1999-04-21). Network and air dates TBC."
+      "verification_status": "possible",
+      "facts": [
+        {
+          "statement": "Beast of Blood single charted on CDTV weekly ranking (35th, 2001-06-30) during promotion for the 2001-06-21 Midi:Nette release.\n",
+          "sources": [
+            "ref_beast_of_blood_single"
+          ],
+          "confidence": "medium",
+          "status": "possible",
+          "notes": "CDTV chart data via cd100.net; not a confirmed CM spot."
+        }
+      ],
+      "notes": "Entity id retained from earlier CM stub (incorrectly dated 1999-04). Beast of Blood was released 2001-06-21, not 1999. No TV commercial confirmed; CDTV chart week used as best available broadcast tie-in.\n"
+    },
+    "appearance_2000_07_bara_no_kiseki_tv": {
+      "id": "appearance_2000_07_bara_no_kiseki_tv",
+      "type": "appearance",
+      "title": {
+        "original": "薔薇の肖像「新たなる悪意と悲劇の幕開け」",
+        "romanized": "Bara no Shouzou — Shinataru akui to higeki no makuake",
+        "english": "Portrait of Roses — A New Malice and Tragedy Begins"
+      },
+      "appearance_type": "tv",
+      "format": "mixed",
+      "date": "2000-07-30",
+      "date_precision": "day",
+      "broadcast": {
+        "network": "org_tv_tokyo",
+        "program": "薔薇の肖像",
+        "channel": "TV Tokyo network"
+      },
+      "venue": null,
+      "members_present": [
+        "person_mana",
+        "person_kozi",
+        "person_yuki",
+        "person_klaha"
+      ],
+      "songs_performed": [],
+      "performances": [],
+      "verification_status": "verified",
+      "facts": [
+        {
+          "statement": "TV Tokyo network special aired 2000-07-30 25:20–25:50; part of the 薔薇の軌跡 television series documented on Oricon artist profile.\n",
+          "sources": [
+            "ref_malice_mizer_info"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "notes": "Oricon prof/15645 TV出演情報 (2000-07)."
+        }
+      ],
+      "notes": "Third-period lineup (Klaha era). Related home video 薔薇の軌跡 released 2001-04-25.\n"
     },
     "person_gackt": {
       "id": "person_gackt",
@@ -880,6 +1136,7 @@
         }
       ],
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
     },
     "person_kami": {
@@ -937,6 +1194,7 @@
         }
       ],
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
     },
     "person_klaha": {
@@ -969,6 +1227,7 @@
       },
       "portrait_image": "images/members/klaha.webp",
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
     },
     "person_kozi": {
@@ -1032,6 +1291,7 @@
         }
       ],
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
     },
     "person_mana": {
@@ -1098,6 +1358,7 @@
         }
       ],
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
     },
     "person_tetsu": {
@@ -1192,6 +1453,7 @@
         }
       ],
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
     },
     "person_yuki": {
@@ -1251,7 +1513,22 @@
         }
       ],
       "facts": [],
+      "verification_status": "verified",
       "notes": ""
+    },
+    "org_cbc": {
+      "id": "org_cbc",
+      "type": "organization",
+      "name": {
+        "original": "CBCラジオ",
+        "romanized": "CBC Radio",
+        "english": "CBC Radio (Chukyo Broadcasting)"
+      },
+      "organization_type": "broadcaster",
+      "country": "Japan",
+      "url": "https://hicbc.com/radio/",
+      "facts": [],
+      "notes": "Host of MALICE MIZER no Mayonaka no s'il vous plaît (真夜中のs'il vous plaît), Sunday 24:00–24:30 (per malice-mizer.info).\n"
     },
     "org_nhk": {
       "id": "org_nhk",
@@ -1295,6 +1572,43 @@
       "facts": [],
       "notes": "Broadcaster of Music Station (ミュージックステーション)."
     },
+    "org_tv_tokyo": {
+      "id": "org_tv_tokyo",
+      "type": "organization",
+      "name": {
+        "original": "テレビ東京",
+        "romanized": "TV Tokyo"
+      },
+      "organization_type": "broadcaster",
+      "country": "Japan",
+      "url": "https://www.tv-tokyo.co.jp/",
+      "facts": [],
+      "notes": "Oricon TV listing for 薔薇の肖像 special (2000-07-30)."
+    },
+    "ref_beast_of_blood_single": {
+      "id": "ref_beast_of_blood_single",
+      "type": "reference",
+      "reference_type": "database",
+      "title": "Beast of Blood single (MMCD-022)",
+      "publisher": "Discogs",
+      "date": "2001-06",
+      "url": "https://www.discogs.com/release/2109013-Malice-Mizer-Beast-Of-Blood",
+      "verification_status": "verified",
+      "facts": [],
+      "notes": "Midi:Nette single released 2001-06-21."
+    },
+    "ref_columbia_malice": {
+      "id": "ref_columbia_malice",
+      "type": "reference",
+      "reference_type": "website",
+      "title": "MALICE MIZER — Columbia Discography",
+      "publisher": "Nippon Columbia",
+      "date": null,
+      "url": "https://columbia.jp/malice/",
+      "verification_status": "verified",
+      "facts": [],
+      "notes": "Official major-label discography. Documents l'image de merveilles as a December 1997 TV special (La Collection \"merveilles\" liner notes).\n"
+    },
     "ref_foolsmate_188": {
       "id": "ref_foolsmate_188",
       "type": "reference",
@@ -1309,6 +1623,18 @@
       "facts": [],
       "notes": "June 1997. La'cryma Christi joint cover (vkgy + MIsaO Lab). Reddit r/visualkei 1ibrtct. See data/issues/fools-mate/1997-06.yaml.\n"
     },
+    "ref_malice_mizer_info": {
+      "id": "ref_malice_mizer_info",
+      "type": "reference",
+      "reference_type": "website",
+      "title": "MALICE MIZER Info",
+      "publisher": "Fan-maintained reference site",
+      "date": null,
+      "url": "https://malice-mizer.info/",
+      "verification_status": "verified",
+      "facts": [],
+      "notes": "Chronology, release dates, and media appearances cross-checked against official Columbia/Midi:Nette sources where noted on site.\n"
+    },
     "ref_shoxx_061": {
       "id": "ref_shoxx_061",
       "type": "reference",
@@ -1317,14 +1643,24 @@
       "publisher": "SHOXX",
       "date": "1998-03",
       "pages_cited": [
-        12,
-        13
+        16,
+        17,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        49,
+        50,
+        51,
+        53
       ],
       "url": "https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61",
       "scan": "https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61",
       "verification_status": "verified",
       "facts": [],
-      "notes": "MIsaO Lab (1998/03 vol.061): joint La'cryma Christi cover; カラー38p; パート別対談、Q&A（衣装：au revoir）. Pages 12–13 cited for au revoir styling spread. Magazine confirmed by r/visualkei u/CatKingClay (Jan 2025).\nScan status (July 2026): 40 MM pages live on The Malice Archive (https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61) — JPEGs on file.garden, scanned by Anna (cover by Morgianasama). MM clippings only; not the full 84-page issue. Direct image URLs: scripts/research/image_urls_catalog.yaml#shoxx-1998-03.\nAlso online: vk.gy cover, Eternal Silence cover JPG, three Reddit repost crops (reddit-1ibrtct). Full issue RAR (Eternal Silence 2009) re-upload not found — see scripts/research/shoxx_061_scan_hunt.yaml. Cantavanda has May 1998 vol.63 only (no March vol.61 gallery).\n"
+      "notes": "MIsaO Lab (1998/03 vol.061): joint La'cryma Christi cover; カラー38p; パート別対談、Q&A（衣装：au revoir）. \"au revoir\" names the costume theme for the 38pp 聖邪の共宴 session — not magazine pages 12–13. TOC (gallery file 02) lists feature pp. 16–53: five SESSION pairings (018/024/030/036/042) plus Q&A.\nScan status (July 2026): 40 MM pages on The Malice Archive / file.garden (Anna scan; cover by Morgianasama). Gallery file index ≠ printed page numbers (e.g. gallery 12–13 are solo portraits, not mag. pp. 12–13). Page mapping and Reddit crop matches: scripts/research/shoxx_061_scan_hunt.yaml#page_mapping.\nFull issue RAR (Eternal Silence 2009, 84 JPEGs) re-upload not found. Cantavanda has May 1998 vol.63 only.\n"
     },
     "venue_nippon_budokan": {
       "id": "venue_nippon_budokan",
@@ -1426,6 +1762,15 @@
           "sources": []
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "performed_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "song_illuminati",
           "relation": "related_song",
           "direction": "outgoing",
@@ -1518,6 +1863,15 @@
           "sources": []
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "features_performance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "song_illuminati",
           "relation": "related_song",
           "direction": "incoming",
@@ -1559,7 +1913,31 @@
           "label": "Features performance"
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "features_performance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "concert",
+          "color": "coral",
+          "label": "Features performance"
+        },
+        {
           "entity_id": "concert_1998_04_01_budokan",
+          "relation": "performed_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "concert",
+          "color": "coral",
+          "label": "Performed at"
+        },
+        {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
           "relation": "performed_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -1775,7 +2153,7 @@
           "label": "Related song"
         }
       ],
-      "link_count": 19
+      "link_count": 21
     },
     "song_beast_of_blood": {
       "outgoing": [
@@ -2111,15 +2489,6 @@
           "role": null,
           "note": null,
           "sources": []
-        },
-        {
-          "entity_id": "appearance_1995_12_music_station",
-          "relation": "performed_at",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
         }
       ],
       "incoming": [
@@ -2194,15 +2563,6 @@
           "role": null,
           "note": null,
           "sources": []
-        },
-        {
-          "entity_id": "appearance_1995_12_music_station",
-          "relation": "features_performance",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
         }
       ],
       "all": [
@@ -2219,31 +2579,7 @@
           "label": "Features performance"
         },
         {
-          "entity_id": "appearance_1995_12_music_station",
-          "relation": "features_performance",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "concert",
-          "color": "coral",
-          "label": "Features performance"
-        },
-        {
           "entity_id": "concert_1998_04_01_budokan",
-          "relation": "performed_at",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "concert",
-          "color": "coral",
-          "label": "Performed at"
-        },
-        {
-          "entity_id": "appearance_1995_12_music_station",
           "relation": "performed_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -2423,7 +2759,7 @@
           "label": "Includes song"
         }
       ],
-      "link_count": 18
+      "link_count": 16
     },
     "song_illuminati": {
       "outgoing": [
@@ -3304,15 +3640,6 @@
     "appearance_1995_12_music_station": {
       "outgoing": [
         {
-          "entity_id": "song_gekka_no_yasoukyoku",
-          "relation": "features_performance",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        },
-        {
           "entity_id": "person_mana",
           "relation": "featured_appearance",
           "direction": "outgoing",
@@ -3377,15 +3704,6 @@
         }
       ],
       "incoming": [
-        {
-          "entity_id": "song_gekka_no_yasoukyoku",
-          "relation": "performed_at",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        },
         {
           "entity_id": "person_mana",
           "relation": "appeared_at",
@@ -3572,30 +3890,6 @@
           "label": "Featured appearance"
         },
         {
-          "entity_id": "song_gekka_no_yasoukyoku",
-          "relation": "features_performance",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "concert",
-          "color": "coral",
-          "label": "Features performance"
-        },
-        {
-          "entity_id": "song_gekka_no_yasoukyoku",
-          "relation": "performed_at",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "concert",
-          "color": "coral",
-          "label": "Performed at"
-        },
-        {
           "entity_id": "org_tv_asahi",
           "relation": "aired",
           "direction": "incoming",
@@ -3644,7 +3938,7 @@
           "label": "Discusses"
         }
       ],
-      "link_count": 16
+      "link_count": 14
     },
     "appearance_1996_heys_music_champ": {
       "outgoing": [
@@ -3928,7 +4222,7 @@
           "sources": []
         },
         {
-          "entity_id": "org_tv_asahi",
+          "entity_id": "org_nhk",
           "relation": "broadcast_on",
           "direction": "outgoing",
           "source": "entity_field",
@@ -3957,7 +4251,7 @@
           "sources": []
         },
         {
-          "entity_id": "org_tv_asahi",
+          "entity_id": "org_nhk",
           "relation": "aired",
           "direction": "incoming",
           "source": "entity_field",
@@ -4016,7 +4310,7 @@
           "label": "Featured appearance"
         },
         {
-          "entity_id": "org_tv_asahi",
+          "entity_id": "org_nhk",
           "relation": "aired",
           "direction": "incoming",
           "source": "entity_field",
@@ -4028,7 +4322,7 @@
           "label": "Aired"
         },
         {
-          "entity_id": "org_tv_asahi",
+          "entity_id": "org_nhk",
           "relation": "broadcast_on",
           "direction": "outgoing",
           "source": "entity_field",
@@ -4042,103 +4336,10 @@
       ],
       "link_count": 6
     },
-    "appearance_1997_nhk_radio_interview": {
+    "appearance_1997_12_limage_de_merveilles": {
       "outgoing": [
         {
-          "entity_id": "person_mana",
-          "relation": "featured_appearance",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        },
-        {
-          "entity_id": "org_nhk",
-          "relation": "broadcast_on",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        }
-      ],
-      "incoming": [
-        {
-          "entity_id": "person_mana",
-          "relation": "appeared_at",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        },
-        {
-          "entity_id": "org_nhk",
-          "relation": "aired",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        }
-      ],
-      "all": [
-        {
-          "entity_id": "person_mana",
-          "relation": "appeared_at",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "appearance",
-          "color": "amber",
-          "label": "Appeared at"
-        },
-        {
-          "entity_id": "person_mana",
-          "relation": "featured_appearance",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "appearance",
-          "color": "amber",
-          "label": "Featured appearance"
-        },
-        {
-          "entity_id": "org_nhk",
-          "relation": "aired",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "media",
-          "color": "gold",
-          "label": "Aired"
-        },
-        {
-          "entity_id": "org_nhk",
-          "relation": "broadcast_on",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "media",
-          "color": "gold",
-          "label": "Broadcast on"
-        }
-      ],
-      "link_count": 4
-    },
-    "appearance_1999_beast_of_blood_cm": {
-      "outgoing": [
-        {
-          "entity_id": "song_beast_of_blood",
+          "entity_id": "song_au_revoir",
           "relation": "features_performance",
           "direction": "outgoing",
           "source": "entity_field",
@@ -4183,8 +4384,446 @@
           "sources": []
         },
         {
+          "entity_id": "person_gackt",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "incoming": [
+        {
+          "entity_id": "song_au_revoir",
+          "relation": "performed_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_mana",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_gackt",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "all": [
+        {
+          "entity_id": "person_mana",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_gackt",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_mana",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_gackt",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "song_au_revoir",
+          "relation": "features_performance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "concert",
+          "color": "coral",
+          "label": "Features performance"
+        },
+        {
+          "entity_id": "song_au_revoir",
+          "relation": "performed_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "concert",
+          "color": "coral",
+          "label": "Performed at"
+        }
+      ],
+      "link_count": 12
+    },
+    "appearance_1997_nhk_radio_interview": {
+      "outgoing": [
+        {
+          "entity_id": "person_gackt",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "org_cbc",
+          "relation": "broadcast_on",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "incoming": [
+        {
+          "entity_id": "person_gackt",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "org_cbc",
+          "relation": "aired",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "all": [
+        {
+          "entity_id": "person_gackt",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_gackt",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_kami",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "org_cbc",
+          "relation": "aired",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Aired"
+        },
+        {
+          "entity_id": "org_cbc",
+          "relation": "broadcast_on",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Broadcast on"
+        }
+      ],
+      "link_count": 8
+    },
+    "appearance_1999_beast_of_blood_cm": {
+      "outgoing": [
+        {
+          "entity_id": "song_beast_of_blood",
+          "relation": "features_performance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_mana",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "person_klaha",
           "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "org_ntv",
+          "relation": "broadcast_on",
           "direction": "outgoing",
           "source": "entity_field",
           "role": null,
@@ -4230,7 +4869,7 @@
           "sources": []
         },
         {
-          "entity_id": "person_kami",
+          "entity_id": "person_klaha",
           "relation": "appeared_at",
           "direction": "incoming",
           "source": "entity_field",
@@ -4239,8 +4878,8 @@
           "sources": []
         },
         {
-          "entity_id": "person_klaha",
-          "relation": "appeared_at",
+          "entity_id": "org_ntv",
+          "relation": "aired",
           "direction": "incoming",
           "source": "entity_field",
           "role": null,
@@ -4286,18 +4925,6 @@
           "label": "Appeared at"
         },
         {
-          "entity_id": "person_kami",
-          "relation": "appeared_at",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "appearance",
-          "color": "amber",
-          "label": "Appeared at"
-        },
-        {
           "entity_id": "person_klaha",
           "relation": "appeared_at",
           "direction": "incoming",
@@ -4335,18 +4962,6 @@
         },
         {
           "entity_id": "person_yuki",
-          "relation": "featured_appearance",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "appearance",
-          "color": "amber",
-          "label": "Featured appearance"
-        },
-        {
-          "entity_id": "person_kami",
           "relation": "featured_appearance",
           "direction": "outgoing",
           "source": "entity_field",
@@ -4392,9 +5007,252 @@
           "category": "concert",
           "color": "coral",
           "label": "Performed at"
+        },
+        {
+          "entity_id": "org_ntv",
+          "relation": "aired",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Aired"
+        },
+        {
+          "entity_id": "org_ntv",
+          "relation": "broadcast_on",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Broadcast on"
         }
       ],
       "link_count": 12
+    },
+    "appearance_2000_07_bara_no_kiseki_tv": {
+      "outgoing": [
+        {
+          "entity_id": "person_mana",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_klaha",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "org_tv_tokyo",
+          "relation": "broadcast_on",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "incoming": [
+        {
+          "entity_id": "person_mana",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "person_klaha",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "org_tv_tokyo",
+          "relation": "aired",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "all": [
+        {
+          "entity_id": "person_mana",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_klaha",
+          "relation": "appeared_at",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "person_mana",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_kozi",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_yuki",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "person_klaha",
+          "relation": "featured_appearance",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "org_tv_tokyo",
+          "relation": "aired",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Aired"
+        },
+        {
+          "entity_id": "org_tv_tokyo",
+          "relation": "broadcast_on",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Broadcast on"
+        }
+      ],
+      "link_count": 10
     },
     "person_gackt": {
       "outgoing": [
@@ -4460,6 +5318,24 @@
           "role": null,
           "note": null,
           "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
         }
       ],
       "incoming": [
@@ -4525,6 +5401,24 @@
           "role": null,
           "note": null,
           "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
         }
       ],
       "all": [
@@ -4565,6 +5459,30 @@
           "label": "Appeared at"
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
           "entity_id": "appearance_1995_12_music_station",
           "relation": "featured_appearance",
           "direction": "incoming",
@@ -4590,6 +5508,30 @@
         },
         {
           "entity_id": "appearance_1996_pop_jam_interview",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -4697,7 +5639,7 @@
           "label": "Personnel credit"
         }
       ],
-      "link_count": 14
+      "link_count": 18
     },
     "person_kami": {
       "outgoing": [
@@ -4765,7 +5707,16 @@
           "sources": []
         },
         {
-          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -4839,7 +5790,16 @@
           "sources": []
         },
         {
-          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -4874,7 +5834,19 @@
           "label": "Appeared at"
         },
         {
-          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -4910,7 +5882,19 @@
           "label": "Featured appearance"
         },
         {
-          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5042,7 +6026,7 @@
           "label": "Personnel credit"
         }
       ],
-      "link_count": 16
+      "link_count": 18
     },
     "person_klaha": {
       "outgoing": [
@@ -5057,6 +6041,15 @@
         },
         {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5083,6 +6076,15 @@
           "role": null,
           "note": null,
           "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
         }
       ],
       "all": [
@@ -5099,7 +6101,31 @@
           "label": "Appeared at"
         },
         {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5135,7 +6161,7 @@
           "label": "Personnel credit"
         }
       ],
-      "link_count": 4
+      "link_count": 6
     },
     "person_kozi": {
       "outgoing": [
@@ -5221,7 +6247,34 @@
           "sources": []
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5313,7 +6366,34 @@
           "sources": []
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5348,7 +6428,43 @@
           "label": "Appeared at"
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5384,7 +6500,43 @@
           "label": "Featured appearance"
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5564,7 +6716,7 @@
           "label": "Personnel credit"
         }
       ],
-      "link_count": 20
+      "link_count": 26
     },
     "person_mana": {
       "outgoing": [
@@ -5641,7 +6793,7 @@
           "sources": []
         },
         {
-          "entity_id": "appearance_1997_nhk_radio_interview",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5651,6 +6803,15 @@
         },
         {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5733,7 +6894,7 @@
           "sources": []
         },
         {
-          "entity_id": "appearance_1997_nhk_radio_interview",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5743,6 +6904,15 @@
         },
         {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5789,7 +6959,7 @@
           "label": "Appeared at"
         },
         {
-          "entity_id": "appearance_1997_nhk_radio_interview",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5802,6 +6972,18 @@
         },
         {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -5849,7 +7031,7 @@
           "label": "Featured appearance"
         },
         {
-          "entity_id": "appearance_1997_nhk_radio_interview",
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5862,6 +7044,18 @@
         },
         {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -5993,7 +7187,7 @@
           "label": "Personnel credit"
         }
       ],
-      "link_count": 20
+      "link_count": 22
     },
     "person_tetsu": {
       "outgoing": [],
@@ -6067,7 +7261,25 @@
           "sources": []
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -6141,7 +7353,25 @@
           "sources": []
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -6176,7 +7406,31 @@
           "label": "Appeared at"
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "appeared_at",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Appeared at"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "appeared_at",
           "direction": "outgoing",
           "source": "entity_field",
@@ -6212,7 +7466,31 @@
           "label": "Featured appearance"
         },
         {
+          "entity_id": "appearance_1997_12_limage_de_merveilles",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
           "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "featured_appearance",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "appearance",
+          "color": "amber",
+          "label": "Featured appearance"
+        },
+        {
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "featured_appearance",
           "direction": "incoming",
           "source": "entity_field",
@@ -6344,9 +7622,9 @@
           "label": "Personnel credit"
         }
       ],
-      "link_count": 16
+      "link_count": 20
     },
-    "org_nhk": {
+    "org_cbc": {
       "outgoing": [
         {
           "entity_id": "appearance_1997_nhk_radio_interview",
@@ -6384,6 +7662,57 @@
         },
         {
           "entity_id": "appearance_1997_nhk_radio_interview",
+          "relation": "broadcast_on",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Broadcast on"
+        }
+      ],
+      "link_count": 2
+    },
+    "org_nhk": {
+      "outgoing": [
+        {
+          "entity_id": "appearance_1996_pop_jam_interview",
+          "relation": "aired",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "incoming": [
+        {
+          "entity_id": "appearance_1996_pop_jam_interview",
+          "relation": "broadcast_on",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "all": [
+        {
+          "entity_id": "appearance_1996_pop_jam_interview",
+          "relation": "aired",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Aired"
+        },
+        {
+          "entity_id": "appearance_1996_pop_jam_interview",
           "relation": "broadcast_on",
           "direction": "incoming",
           "source": "entity_field",
@@ -6407,11 +7736,29 @@
           "role": null,
           "note": null,
           "sources": []
+        },
+        {
+          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "aired",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
         }
       ],
       "incoming": [
         {
           "entity_id": "appearance_1996_heys_music_champ",
+          "relation": "broadcast_on",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        },
+        {
+          "entity_id": "appearance_1999_beast_of_blood_cm",
           "relation": "broadcast_on",
           "direction": "incoming",
           "source": "entity_field",
@@ -6434,7 +7781,82 @@
           "label": "Aired"
         },
         {
+          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "aired",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Aired"
+        },
+        {
           "entity_id": "appearance_1996_heys_music_champ",
+          "relation": "broadcast_on",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Broadcast on"
+        },
+        {
+          "entity_id": "appearance_1999_beast_of_blood_cm",
+          "relation": "broadcast_on",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Broadcast on"
+        }
+      ],
+      "link_count": 4
+    },
+    "org_tv_asahi": {
+      "outgoing": [
+        {
+          "entity_id": "appearance_1995_12_music_station",
+          "relation": "aired",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "incoming": [
+        {
+          "entity_id": "appearance_1995_12_music_station",
+          "relation": "broadcast_on",
+          "direction": "incoming",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": []
+        }
+      ],
+      "all": [
+        {
+          "entity_id": "appearance_1995_12_music_station",
+          "relation": "aired",
+          "direction": "outgoing",
+          "source": "entity_field",
+          "role": null,
+          "note": null,
+          "sources": [],
+          "category": "media",
+          "color": "gold",
+          "label": "Aired"
+        },
+        {
+          "entity_id": "appearance_1995_12_music_station",
           "relation": "broadcast_on",
           "direction": "incoming",
           "source": "entity_field",
@@ -6448,19 +7870,10 @@
       ],
       "link_count": 2
     },
-    "org_tv_asahi": {
+    "org_tv_tokyo": {
       "outgoing": [
         {
-          "entity_id": "appearance_1995_12_music_station",
-          "relation": "aired",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        },
-        {
-          "entity_id": "appearance_1996_pop_jam_interview",
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "aired",
           "direction": "outgoing",
           "source": "entity_field",
@@ -6471,16 +7884,7 @@
       ],
       "incoming": [
         {
-          "entity_id": "appearance_1995_12_music_station",
-          "relation": "broadcast_on",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": []
-        },
-        {
-          "entity_id": "appearance_1996_pop_jam_interview",
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "broadcast_on",
           "direction": "incoming",
           "source": "entity_field",
@@ -6491,7 +7895,7 @@
       ],
       "all": [
         {
-          "entity_id": "appearance_1995_12_music_station",
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "aired",
           "direction": "outgoing",
           "source": "entity_field",
@@ -6503,31 +7907,7 @@
           "label": "Aired"
         },
         {
-          "entity_id": "appearance_1996_pop_jam_interview",
-          "relation": "aired",
-          "direction": "outgoing",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "media",
-          "color": "gold",
-          "label": "Aired"
-        },
-        {
-          "entity_id": "appearance_1995_12_music_station",
-          "relation": "broadcast_on",
-          "direction": "incoming",
-          "source": "entity_field",
-          "role": null,
-          "note": null,
-          "sources": [],
-          "category": "media",
-          "color": "gold",
-          "label": "Broadcast on"
-        },
-        {
-          "entity_id": "appearance_1996_pop_jam_interview",
+          "entity_id": "appearance_2000_07_bara_no_kiseki_tv",
           "relation": "broadcast_on",
           "direction": "incoming",
           "source": "entity_field",
@@ -6539,7 +7919,19 @@
           "label": "Broadcast on"
         }
       ],
-      "link_count": 4
+      "link_count": 2
+    },
+    "ref_beast_of_blood_single": {
+      "outgoing": [],
+      "incoming": [],
+      "all": [],
+      "link_count": 0
+    },
+    "ref_columbia_malice": {
+      "outgoing": [],
+      "incoming": [],
+      "all": [],
+      "link_count": 0
     },
     "ref_foolsmate_188": {
       "outgoing": [
@@ -6633,6 +8025,12 @@
         }
       ],
       "link_count": 4
+    },
+    "ref_malice_mizer_info": {
+      "outgoing": [],
+      "incoming": [],
+      "all": [],
+      "link_count": 0
     },
     "ref_shoxx_061": {
       "outgoing": [

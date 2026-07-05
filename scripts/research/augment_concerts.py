@@ -182,7 +182,7 @@ def load_ia_by_date(catalog: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     query = urllib.parse.urlencode(
         {
             "q": 'creator:"MALICE MIZER" AND mediatype:movies',
-            "fl[]": ["identifier", "title", "date"],
+            "fl": "identifier,title,date",
             "rows": 100,
             "output": "json",
         }
@@ -239,15 +239,13 @@ def has_embeddable(performances: list[dict[str, Any]]) -> bool:
 
 def discover_ia_for_date(date: str) -> list[dict[str, Any]]:
     """Search Internet Archive for malice mizer footage on a specific date."""
-    query = urllib.parse.urlencode(
-        {
-            "q": f"malice mizer AND date:{date}",
-            "fl[]": ["identifier", "title", "date", "mediatype"],
-            "rows": 10,
-            "output": "json",
-        }
-    )
-    url = f"https://archive.org/advancedsearch.php?{query}"
+    params = {
+        "q": f"malice mizer AND date:{date}",
+        "fl": "identifier,title,date,mediatype",
+        "rows": 10,
+        "output": "json",
+    }
+    url = f"https://archive.org/advancedsearch.php?{urllib.parse.urlencode(params)}"
     try:
         payload = json.loads(fetch(url))
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
@@ -255,13 +253,16 @@ def discover_ia_for_date(date: str) -> list[dict[str, Any]]:
 
     results: list[dict[str, Any]] = []
     for doc in payload.get("response", {}).get("docs", []):
+        identifier = doc.get("identifier")
+        if not identifier:
+            continue
         if doc.get("mediatype") not in (None, "movies", "video"):
             continue
-        title = doc.get("title") or doc["identifier"]
+        title = doc.get("title") or identifier
         quality = "tv_broadcast" if "tv" in title.lower() or "coverage" in title.lower() else "unknown"
         results.append(
             {
-                "identifier": doc["identifier"],
+                "identifier": identifier,
                 "title": title,
                 "quality": quality,
                 "notes": f"Internet Archive match for {date}.",
