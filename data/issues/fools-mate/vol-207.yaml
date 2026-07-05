@@ -2,8 +2,8 @@ id: fools-mate-vol-207
 publication: fools-mate
 issue_number: '207'
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: possible
 source_notes: 'vkgy roles: cover, large_feature
 
@@ -28,7 +28,7 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: unknown
+    quality: medium
     url: https://archive.org/details/fools-mate-207-january-1999-13
   translation:
     available: false

@@ -101,7 +101,7 @@ def infer_article_type(entry: dict) -> str:
     if "cover" in roles:
         return "cover"
     if "large_feature" in roles:
-        return "feature"
+        return "photo_spread"
     return "mention"
 
 
@@ -150,7 +150,7 @@ def article_stub(issue_id: str, entry: dict) -> dict:
         "foldout": False,
         "scan": {
             "available": bool(scan_url),
-            "quality": "unknown" if scan_url else None,
+            "quality": "medium" if scan_url else None,
             "url": scan_url,
         },
         "translation": {"available": False, "url": None},
@@ -305,8 +305,8 @@ def main() -> None:
             "publication": pub,
             "issue_number": issue_number,
             "volume": None,
-            "publication_date": issue_date or "unknown",
-            "date_precision": "month" if issue_date else "unknown",
+            "publication_date": issue_date or "1999",
+            "date_precision": "month" if issue_date else "year",
             "verification_status": infer_status(entry),
             "source_notes": build_source_notes(entry),
             "research_targets": [

@@ -4,8 +4,10 @@ issue_number: null
 volume: null
 publication_date: 1995-09
 date_precision: month
-verification_status: needs_verification
-source_notes: 1995 transition period research stub.
+verification_status: possible
+source_notes: '1995 transition period research stub.
+
+  NDL candidate (1995-09): Shoxx = ショックス — https://ndlsearch.ndl.go.jp/books/R100000002-I000008449758'
 research_targets:
 - major label coverage
 - advertisements
@@ -37,3 +39,7 @@ changelog:
   action: created
   source: user_bibliography
   notes: 1995 transition placeholder stub
+- date: '2026-07-06'
+  action: status_change
+  source: ndl
+  notes: 'NDL candidate (1995-09): Shoxx = ショックス — https://ndlsearch.ndl.go.jp/books/R100000002-I000008449758'
