@@ -2,8 +2,8 @@ id: friday-unknown
 publication: friday
 issue_number: null
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: mention_only
 source_notes: '[malice-archive] https://malice-archive.neocities.org/list
 

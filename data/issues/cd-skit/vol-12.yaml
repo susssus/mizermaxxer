@@ -2,8 +2,8 @@ id: cd-skit-vol-12
 publication: cd-skit
 issue_number: '12'
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: possible
 source_notes: 'CD SKiT! Vol. 12
 
@@ -30,7 +30,7 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: unknown
+    quality: medium
     url: https://drive.google.com/drive/folders/1_Piv046XqLIx09mHArbqiGpuagD6RpHB
   translation:
     available: false

@@ -130,6 +130,8 @@ def main() -> None:
                 "notes": note,
             }
         )
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(yaml.dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
         updated += 1
         print(f" → possible ({len(records)} hit(s))")

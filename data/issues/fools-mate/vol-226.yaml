@@ -2,8 +2,8 @@ id: fools-mate-vol-226
 publication: fools-mate
 issue_number: '226'
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: possible
 source_notes: 'vkgy roles: large_feature
 
@@ -18,7 +18,7 @@ articles:
 - id: fools-mate-vol-226-001
   title_ja: null
   title_en: null
-  type: feature
+  type: photo_spread
   pages: null
   members: []
   photographer: null
@@ -28,7 +28,7 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: unknown
+    quality: medium
     url: https://drive.google.com/drive/folders/1_ZqfUnRG9xP4QJoOawan3QBI6UlJ683i
   translation:
     available: false

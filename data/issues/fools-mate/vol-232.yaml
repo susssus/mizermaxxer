@@ -2,8 +2,8 @@ id: fools-mate-vol-232
 publication: fools-mate
 issue_number: '232'
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: mention_only
 source_notes: '[vkgy] https://vk.gy/magazines/fools-mate/1308/no232/
 
@@ -16,7 +16,7 @@ articles:
 - id: fools-mate-vol-232-001
   title_ja: null
   title_en: null
-  type: feature
+  type: photo_spread
   pages: null
   members: []
   photographer: null

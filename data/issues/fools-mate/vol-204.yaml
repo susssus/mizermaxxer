@@ -2,8 +2,8 @@ id: fools-mate-vol-204
 publication: fools-mate
 issue_number: '204'
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: possible
 source_notes: 'vkgy roles: large_feature
 
@@ -18,7 +18,7 @@ articles:
 - id: fools-mate-vol-204-001
   title_ja: null
   title_en: null
-  type: feature
+  type: photo_spread
   pages: null
   members: []
   photographer: null

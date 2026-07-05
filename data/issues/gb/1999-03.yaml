@@ -29,7 +29,7 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: unknown
+    quality: medium
     url: https://drive.google.com/drive/folders/1E8L_rzofZVUIHMaBBfM-COS4bQFtjyLz
   translation:
     available: false

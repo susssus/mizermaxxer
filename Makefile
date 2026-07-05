@@ -9,6 +9,7 @@ bibliography-expand:
 	$(PYTHON) scripts/research/fetch_vkgy_magazines.py
 	$(PYTHON) scripts/research/build_magazine_references_online.py
 	$(PYTHON) scripts/research/import_online_catalog_stubs.py
+	$(PYTHON) scripts/research/fix_imported_stubs.py
 	$(PYTHON) scripts/research/verify_ndl_placeholders.py
 	$(PYTHON) scripts/build_db.py
 

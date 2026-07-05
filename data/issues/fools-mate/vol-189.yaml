@@ -2,8 +2,8 @@ id: fools-mate-vol-189
 publication: fools-mate
 issue_number: '189'
 volume: null
-publication_date: unknown
-date_precision: unknown
+publication_date: '1999'
+date_precision: year
 verification_status: possible
 source_notes: 'vkgy roles: large_feature
 
@@ -18,7 +18,7 @@ articles:
 - id: fools-mate-vol-189-001
   title_ja: null
   title_en: null
-  type: feature
+  type: photo_spread
   pages: null
   members: []
   photographer: null
@@ -28,7 +28,7 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: unknown
+    quality: medium
     url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/
   translation:
     available: false
