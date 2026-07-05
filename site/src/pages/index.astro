@@ -98,10 +98,18 @@ const featuredFlyers = archive.issues
   </section>
 
   <section class="stats">
-    <div class="stat"><strong>{archive.stats.issue_count}</strong><span>Issues tracked</span></div>
-    <div class="stat"><strong>{archive.stats.article_count}</strong><span>Article entries</span></div>
-    <div class="stat"><strong>{archive.stats.verified_issue_count}</strong><span>Verified issues</span></div>
-    <div class="stat"><strong>{archive.stats.scan_count}</strong><span>Scans available</span></div>
+    <button type="button" class="stat stat--action" data-stat-preset="all">
+      <strong>{archive.stats.issue_count}</strong><span>Issues tracked</span>
+    </button>
+    <button type="button" class="stat stat--action" data-stat-preset="all">
+      <strong>{archive.stats.article_count}</strong><span>Article entries</span>
+    </button>
+    <button type="button" class="stat stat--action" data-stat-preset="verified">
+      <strong>{archive.stats.verified_issue_count}</strong><span>Verified issues</span>
+    </button>
+    <button type="button" class="stat stat--action" data-stat-preset="scans">
+      <strong>{archive.stats.scan_count}</strong><span>Scans available</span>
+    </button>
   </section>
 
   {featuredFlyers.length > 0 && (
@@ -122,9 +130,10 @@ const featuredFlyers = archive.issues
     </section>
   )}
 
-  <FilterBar />
+  <section id="bibliography">
+    <FilterBar />
 
-  <table>
+    <table>
     <thead>
       <tr>
         <th>Date</th>
@@ -155,7 +164,8 @@ const featuredFlyers = archive.issues
         </tr>
       ))}
     </tbody>
-  </table>
+    </table>
+  </section>
 
   <section class="card" style="margin-top: 2rem;">
     <h2>Coverage by publication</h2>
@@ -167,3 +177,13 @@ const featuredFlyers = archive.issues
     <p class="muted">Generated {archive.generated_at}</p>
   </section>
 </Base>
+
+<script>
+  document.querySelectorAll("[data-stat-preset]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      window.bibliographyFilters?.applyPreset(preset);
+      document.getElementById("bibliography")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>

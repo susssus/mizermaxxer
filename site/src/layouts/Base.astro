@@ -221,6 +221,20 @@ import Nav from "../components/Nav.astro";
         border-radius: 8px;
         padding: 0.85rem 1rem;
       }
+      .stat--action {
+        cursor: pointer;
+        text-align: left;
+        font: inherit;
+        color: inherit;
+        width: 100%;
+        transition: border-color 0.15s, background 0.15s;
+      }
+      .stat--action:hover,
+      .stat--action:focus-visible {
+        border-color: var(--rose);
+        background: color-mix(in srgb, var(--rose) 4%, var(--surface));
+        outline: none;
+      }
       .stat strong { display: block; font-size: 1.35rem; }
       .stat span { color: var(--muted); font-size: 0.85rem; }
       table {

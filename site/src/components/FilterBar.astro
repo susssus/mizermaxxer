@@ -63,6 +63,14 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
 
 <script>
   const rows = Array.from(document.querySelectorAll("[data-row]"));
+  const filterIds = ["yearFrom", "yearTo", "publication", "type", "member", "status", "scan"] as const;
+
+  function resetFilters() {
+    filterIds.forEach((id) => {
+      const select = document.getElementById(id) as HTMLSelectElement | null;
+      if (select) select.value = "";
+    });
+  }
 
   function applyFilters() {
     const yearFrom = (document.getElementById("yearFrom") as HTMLSelectElement).value;
@@ -99,6 +107,22 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
       (row as HTMLElement).style.display = visible ? "" : "none";
     });
   }
+
+  function applyPreset(preset: string) {
+    resetFilters();
+
+    if (preset === "verified") {
+      (document.getElementById("status") as HTMLSelectElement).value = "verified";
+    } else if (preset === "scans") {
+      (document.getElementById("scan") as HTMLSelectElement).value = "yes";
+    }
+
+    applyFilters();
+  }
+
+  (window as typeof window & { bibliographyFilters?: { applyPreset: typeof applyPreset } }).bibliographyFilters = {
+    applyPreset,
+  };
 
   document.getElementById("filters")?.addEventListener("change", applyFilters);
 </script>
