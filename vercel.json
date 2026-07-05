@@ -1,4 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "site/dist"
+  "buildCommand": "bash scripts/vercel_build.sh",
+  "outputDirectory": "site/dist",
+  "installCommand": "echo \"Build installs its own dependencies\""
 }
