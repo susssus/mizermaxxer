@@ -1,0 +1,57 @@
+id: person_mana
+type: person
+name:
+  original: Mana
+  romanized: Mana
+roles:
+- guitar
+- leader
+active:
+  start: '1992'
+  end: '2001'
+birth:
+  date: 03-19
+  place: Hiroshima, Japan
+  year_unknown: true
+bio:
+  before: 'Began in underground bands Ves.tearge (1986) and Girl''e as guitarist Serina
+    (1988–1990). Joined Matenrou as bassist alongside Közi before leaving in April
+    1992.
+
+    '
+  during: 'Co-founded Malice Mizer in August 1992. Served as lead guitarist, chief
+    songwriter, choreographer, and artistic director. Founded the Midi:Nette label
+    and shaped the band''s classical and gothic visual identity through every lineup
+    change until the 2001 hiatus.
+
+    '
+  after: 'Launched the solo project Moi dix Mois (2002), runs the Moi-même-Moitié
+    fashion label and Midi:Nette. Has reunited with Közi and Yu~ki for Deep Sanctuary
+    concerts, including Malice Mizer''s 25th-anniversary shows in 2018.
+
+    '
+portrait_image: images/members/mana.webp
+gallery_images:
+- src: images/vintage/mana-memoire-dx.webp
+  caption: Memoire DX booklet
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/mana-collage.webp
+  caption: Tetsu-era collage
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/mana-interview.webp
+  caption: Memoire interview scan
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/mana-guitar-jellyfish.webp
+  caption: On guitar (jellyfish costume)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/mana-smiling-gaz.webp
+  caption: Rare smiling photograph with Gaz
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-memoire-final-1994.webp
+  caption: Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/halloween-mana-kozi-yuki.webp
+  caption: Halloween (with Kozi and Yuki)
+  source: Malice Meezer / malicemeezer.neocities.org
+facts: []
+notes: ''

@@ -1,0 +1,107 @@
+# Reddit threads and comments identifying MALICE MIZER magazine scan sources.
+# API access: pullpush.io (Reddit archive) when reddit.com JSON is blocked.
+# Last surveyed: 2026-07-06
+
+api_notes: >
+  Reddit blocks direct JSON fetch from many IPs. Use:
+  - https://api.pullpush.io/reddit/search/submission/?subreddit=visualkei&q=...
+  - https://api.pullpush.io/reddit/search/comment/?link_id=t3_POSTID
+
+threads:
+- id: reddit-1ibrtct
+  title: Where are these scans from?
+  url: https://www.reddit.com/r/visualkei/comments/1ibrtct/where_are_these_scans_from/
+  subreddit: visualkei
+  author: midoriichii
+  date: 2025-01-28
+  type: scan_identification
+  summary: >
+    Gallery post asking provenance of MM photos (Kami-era Merveilles styling).
+    Community identified source magazine.
+  identifications:
+  - publication: shoxx
+    issue_number: '61'
+    issue_date: 1998-03
+    identified_by: CatKingClay
+    comment_url: https://www.reddit.com/r/visualkei/comments/1ibrtct/where_are_these_scans_from/
+    notes: Primary answer — SHOXX Vol. 61 (March 1998). Matches MIsaO Lab coverage
+      (La'cryma Christi joint cover, au revoir styling).
+    project_links:
+    - data/references/shoxx_061.yaml
+    - data/issues/shoxx/1998-03.yaml
+  - publication: fools-mate
+    issue_number: '188'
+    issue_date: 1997-06
+    identified_by: CatKingClay
+    notes: Follow-up — "another collab in Fool's Mate #188" (La'cryma Christi joint cover per MIsaO Lab).
+    project_links:
+      - data/references/foolsmate_188.yaml
+  image_urls:
+  - https://i.redd.it/m5frnm89gnfe1.jpg
+  - https://i.redd.it/euqhtl89gnfe1.jpg
+  - https://i.redd.it/edgfan89gnfe1.jpg
+- id: reddit-17kvbv8
+  title: I hope this post is thread-appropriate.
+  url: https://www.reddit.com/r/visualkei/comments/17kvbv8/i_hope_this_post_is_threadappropriate/
+  subreddit: visualkei
+  author: null
+  date: 2023-11
+  type: community_meta
+  summary: 'Appreciation post for fan scan/upload culture. Mentions fans uploading
+    scans from Arena37℃ and Cure; subtitling Malice Mizer Hot Wave interviews.
+
+    '
+  magazine_mentions:
+  - arena37
+  - cure
+  notes: No specific issue numbers; documents community scan-sharing practices.
+- id: reddit-1f1kgt0-comment
+  title: The truth behind why Gackt left Malice Mizer (comment thread)
+  url: https://www.reddit.com/r/visualkei/comments/1f1kgt0/the_truth_behind_why_gackt_left_malice_mizer/
+  subreddit: visualkei
+  type: magazine_citation
+  identifications:
+  - publication: shoxx
+    issue_number: '66'
+    issue_date: 1998-08
+    notes: 'Comment cites Gackt personal long interview from SHOXX Vol. 66 (Aug 1998).
+      Secondary: vk.gy/magazines/shoxx/682/vol-66/ and Wayback Geocities mirror.
+
+      '
+    secondary_urls:
+    - https://web.archive.org/web/20050523100553/http://www.geocities.com/Tokyo/Bridge/7727/inter08.html
+    - https://www.jrock.gy/magazines/shoxx/682/vol-66/
+- id: reddit-1h1imwq-comment
+  title: Gackt's songs of Malice Mizer (comment thread)
+  url: https://www.reddit.com/r/visualkei/comments/1h1imwq/gackts_songs_of_malice_mizer/
+  subreddit: visualkei
+  type: translation_pointer
+  identifications:
+  - publication: shoxx
+    issue_number: '38'
+    issue_date: 1996-03
+    notes: Points to Gackt Translation Archive — SHOXX Vol. 38 (March 1996) English
+      translation.
+    secondary_urls:
+    - https://gackttranslationarchive.wordpress.com/shoxx-vol-38-march-1996/
+- id: reddit-1el8w2z-comment
+  title: I'd love to get some vkei posters (comment)
+  url: https://www.reddit.com/r/visualkei/comments/1el8w2z/id_love_to_get_some_vkei_posters/
+  subreddit: visualkei
+  type: collector_advice
+  magazine_mentions:
+  - band-yarouze
+  - shoxx
+  - uv
+  notes: 'Recommends BAND Yarouze (Gackt-era MM covers), SHOXX (easy to obtain, posters),
+    and UV magazines with Mana/MM interviews for collectors seeking posters.
+
+    '
+related_online_sources:
+- id: gackt-translation-archive
+  url: https://gackttranslationarchive.wordpress.com/
+  notes: English translations of Gackt-era magazine interviews including SHOXX Vol.
+    38.
+- id: geocities-bridge7727-wayback
+  url: https://web.archive.org/web/20050523100553/http://www.geocities.com/Tokyo/Bridge/7727/inter08.html
+  notes: Archived fan page citing SHOXX Vol. 66 Gackt interview; linked from Reddit.

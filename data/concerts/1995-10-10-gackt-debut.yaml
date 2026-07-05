@@ -1,0 +1,24 @@
+id: 1995-10-10-gackt-debut
+date: '1995-10-10'
+date_precision: day
+venue: shibuya-on-air-west
+event_name_ja: 華麗なる復活劇
+event_name_en: Gackt debut oneman — Karei naru Fukkatsugeki
+type: oneman
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: SOLD OUT; 600 attendees.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1995-10-10 Gackt debut oneman — Karei naru Fukkatsugeki

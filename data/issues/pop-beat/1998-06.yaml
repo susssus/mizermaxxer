@@ -1,0 +1,39 @@
+id: pop-beat-1998-06
+publication: pop-beat
+issue_number: null
+volume: null
+publication_date: 1998-06
+date_precision: month
+verification_status: verified
+source_notes: >
+  MM pages scanned on Cantavanda (5 images).
+  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/
+research_targets:
+- interview
+- photo spread
+articles:
+- id: pop-beat-1998-06-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: MM clippings only; not full issue. Source Cantavanda (Butterfly Rose).
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: cantavanda
+  notes: Scan gallery linked from Cantavanda magazine appearances.

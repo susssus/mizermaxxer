@@ -1,0 +1,442 @@
+publications:
+  - slug: fools-mate
+    name_ja: FOOL'S MATE
+    name_en: FOOL'S MATE
+    publisher: シンコーミュージック
+    issn: "0288-7899"
+    years_active_start: 1992
+    years_active_end: 2001
+    priority: 1
+    status: verified
+    notes: Primary research target; most comprehensive Malice Mizer coverage.
+
+  - slug: shoxx
+    name_ja: SHOXX
+    name_en: SHOXX
+    publisher: 音楽専科社
+    issn: "1340-3117"
+    years_active_start: 1993
+    years_active_end: 2001
+    priority: 2
+    status: verified
+
+  - slug: arena37
+    name_ja: Arena37℃
+    name_en: Arena37℃
+    publisher: 音楽専科社
+    issn: "1340-3125"
+    years_active_start: 1992
+    years_active_end: 2001
+    priority: 3
+    status: verified
+
+  - slug: cure
+    name_ja: Cure
+    name_en: Cure
+    publisher: 音楽専科社
+    issn: null
+    years_active_start: 2000
+    years_active_end: 2001
+    priority: 4
+    status: verified
+
+  - slug: gigs
+    name_ja: GiGS
+    name_en: GiGS
+    publisher: シンコーミュージック
+    issn: "1344-378X"
+    years_active_start: 1996
+    years_active_end: 1999
+    priority: 5
+    status: verified
+
+  - slug: pati-pati
+    name_ja: PATi PATi
+    name_en: PATi PATi
+    publisher: 音楽専科社
+    issn: null
+    years_active_start: 1995
+    years_active_end: 1998
+    priority: 6
+    status: verified
+
+  - slug: b-pass
+    name_ja: B-PASS
+    name_en: B-PASS
+    publisher: 音楽専科社
+    issn: null
+    years_active_start: 1996
+    years_active_end: 1998
+    priority: 7
+    status: verified
+
+  - slug: uv
+    name_ja: uv
+    name_en: uv
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 1999
+    priority: 8
+    status: verified
+
+  - slug: vicious
+    name_ja: Vicious
+    name_en: Vicious
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 1996
+    priority: 99
+    status: needs_confirmation
+    notes: Coverage in 1994 Memoire era needs confirmation.
+
+  - slug: zappy
+    name_ja: Zappy
+    name_en: Zappy
+    publisher: null
+    issn: null
+    years_active_start: null
+    years_active_end: null
+    priority: 99
+    status: needs_confirmation
+
+  - slug: whats-in
+    name_ja: WHAT's IN?
+    name_en: WHAT's IN?
+    publisher: null
+    issn: null
+    years_active_start: null
+    years_active_end: null
+    priority: 99
+    status: needs_confirmation
+
+  - slug: flyers
+    name_ja: ライブフライヤー
+    name_en: Live Flyers
+    publisher: null
+    issn: null
+    years_active_start: 1992
+    years_active_end: 2001
+    priority: 9
+    status: verified
+    notes: Non-magazine promotional material.
+
+  - slug: tour-pamphlets
+    name_ja: ツアーパンフレット
+    name_en: Tour Pamphlets
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 2001
+    priority: 9
+    status: verified
+
+  - slug: fan-club
+    name_ja: ファンクラブ会報
+    name_en: Fan Club Newsletters
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 2001
+    priority: 10
+    status: verified
+
+  - slug: pop-beat
+    name_ja: POP BEAT
+    name_en: POP BEAT
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 1998
+    priority: 99
+    status: needs_confirmation
+    notes: VK-adjacent magazine; MM clippings on Cantavanda.
+
+  - slug: m-gazette
+    name_ja: M GAZETTE
+    name_en: M GAZETTE
+    publisher: null
+    issn: null
+    years_active_start: 1995
+    years_active_end: 2001
+    priority: 99
+    status: needs_confirmation
+    notes: VK magazine; listed on vkgy timeline and malice-archive.
+
+  - slug: j-rock-magazine
+    name_ja: J-Rock Magazine
+    name_en: J-Rock Magazine
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+
+  - slug: cd-skit
+    name_ja: CD SKiT!
+    name_en: CD SKiT!
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+
+  - slug: band-yarouze
+    name_ja: BANDやろうぜ
+    name_en: Band Yarouze
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 2000
+    priority: 99
+    status: needs_confirmation
+
+  - slug: artist-fan
+    name_ja: Artist Fan
+    name_en: Artist Fan
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 2001
+    priority: 99
+    status: needs_confirmation
+
+  - slug: apres-guerre
+    name_ja: Après Guerre
+    name_en: Après Guerre
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 1996
+    priority: 99
+    status: needs_confirmation
+
+  - slug: quarter-maze
+    name_ja: Quarter Maze
+    name_en: Quarter Maze
+    publisher: null
+    issn: null
+    years_active_start: 1993
+    years_active_end: 1994
+    priority: 99
+    status: needs_confirmation
+    notes: Early VK zine; malice-archive list.
+
+  - slug: imperfection
+    name_ja: Imperfection
+    name_en: Imperfection
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 1996
+    priority: 99
+    status: needs_confirmation
+    notes: Indies magazine; Cher de memoire pamphlet collaboration.
+
+  - slug: fall-of-midsummer-snow
+    name_ja: FALL OF MIDSUMMER SNOW
+    name_en: FALL OF MIDSUMMER SNOW
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 1994
+    priority: 99
+    status: needs_confirmation
+
+  - slug: cutie
+    name_ja: Cutie
+    name_en: Cutie
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 1997
+    priority: 99
+    status: needs_confirmation
+    notes: Listed on malice-archive.neocities.org/list.
+
+  - slug: friday
+    name_ja: Friday
+    name_en: Friday
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1998
+    priority: 99
+    status: needs_confirmation
+
+  - slug: cd-data
+    name_ja: CD Data
+    name_en: CD Data
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+
+  - slug: astan
+    name_ja: Astan
+    name_en: Astan
+    publisher: null
+    issn: null
+    years_active_start: 2005
+    years_active_end: 2005
+    priority: 99
+    status: needs_confirmation
+    notes: Vol. 21 (vintage 2005) on malice-archive list.
+
+  - slug: band-style
+    name_ja: Band Style
+    name_en: Band Style
+    publisher: null
+    issn: null
+    years_active_start: 2000
+    years_active_end: 2000
+    priority: 99
+    status: needs_confirmation
+
+  - slug: band-x-artist
+    name_ja: Band x Artist
+    name_en: Band x Artist
+    publisher: null
+    issn: null
+    years_active_start: null
+    years_active_end: null
+    priority: 99
+    status: needs_confirmation
+
+  - slug: band-collection
+    name_ja: Band Collection
+    name_en: Band Collection
+    publisher: null
+    issn: null
+    years_active_start: null
+    years_active_end: null
+    priority: 99
+    status: needs_confirmation
+
+  - slug: bidan
+    name_ja: Bidan
+    name_en: Bidan
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1998
+    priority: 99
+    status: needs_confirmation
+
+  - slug: creation
+    name_ja: Creation
+    name_en: Creation
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1998
+    priority: 99
+    status: needs_confirmation
+
+  - slug: clap
+    name_ja: Clap!
+    name_en: Clap!
+    publisher: null
+    issn: null
+    years_active_start: null
+    years_active_end: null
+    priority: 99
+    status: needs_confirmation
+
+  - slug: da-vinchi
+    name_ja: Da Vinchi
+    name_en: Da Vinchi
+    publisher: null
+    issn: null
+    years_active_start: 1999
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+
+  - slug: fruige
+    name_ja: Fruige
+    name_en: Fruige
+    publisher: null
+    issn: null
+    years_active_start: 1999
+    years_active_end: 2000
+    priority: 99
+    status: needs_confirmation
+
+  - slug: myojo
+    name_ja: Myojo
+    name_en: Myojo
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1998
+    priority: 99
+    status: needs_confirmation
+    notes: Incomplete Drive scan on malice-archive Incompletemags.
+
+  - slug: quick-japan
+    name_ja: Quick Japan
+    name_en: Quick Japan
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+
+  - slug: luck-das
+    name_ja: Luck-das
+    name_en: Luck-das
+    publisher: null
+    issn: null
+    years_active_start: 1999
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+
+  - slug: zy
+    name_ja: Zy
+    name_en: Zy
+    publisher: null
+    issn: null
+    years_active_start: 2001
+    years_active_end: 2001
+    priority: 99
+    status: needs_confirmation
+
+  - slug: gb
+    name_ja: GB
+    name_en: GB
+    publisher: null
+    issn: null
+    years_active_start: 1998
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+    notes: Publication identity unclear; listed as GB on malice-archive Incompletemags.
+
+  - slug: dears
+    name_ja: Dears
+    name_en: Dears
+    publisher: null
+    issn: null
+    years_active_start: null
+    years_active_end: null
+    priority: 99
+    status: needs_confirmation
+    notes: Internet Archive dears-8-9.
+
+  - slug: animonster
+    name_ja: Animonster
+    name_en: Animonster
+    publisher: null
+    issn: null
+    years_active_start: 2002
+    years_active_end: 2002
+    priority: 99
+    status: needs_confirmation

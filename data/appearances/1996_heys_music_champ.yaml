@@ -1,0 +1,25 @@
+id: appearance_1996_heys_music_champ
+type: appearance
+title:
+  original: HEY! HEY! HEY! MUSIC CHAMP
+  romanized: HEY! HEY! HEY! MUSIC CHAMP
+appearance_type: variety
+format: performance
+date: "1996"
+date_precision: year
+broadcast:
+  network: org_ntv
+  program: HEY! HEY! HEY! MUSIC CHAMP
+  channel: null
+venue: null
+members_present:
+  - person_mana
+  - person_kozi
+  - person_yuki
+  - person_kami
+  - person_gackt
+songs_performed: []
+performances: []
+verification_status: needs_verification
+facts: []
+notes: Stub — confirm date, setlist, and footage availability.

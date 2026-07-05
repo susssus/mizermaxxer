@@ -1,0 +1,19 @@
+id: kyomu-no-naka-de-no-yugi-single
+title_ja: 虚無の中での遊戯
+title_en: 虚無の中での遊戯
+release_date: '2000-05-31'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-010
+format: cd
+a_side: kyomu-no-naka-de-no-yugi
+b_side: null
+coupling_tracks: []
+cover_image: images/covers/kyomu-no-naka-de-no-yugi-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/master/3123438-Malice-Mizer-虚無の中での遊戯).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/3123438-Malice-Mizer-虚無の中での遊戯

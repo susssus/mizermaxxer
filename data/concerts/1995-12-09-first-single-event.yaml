@@ -1,0 +1,31 @@
+id: 1995-12-09-first-single-event
+date: '1995-12-09'
+date_precision: day
+venue: alinnos
+event_name_ja: null
+event_name_en: 1st single release commemoration
+type: event
+tour: null
+setlist:
+- gekka-no-yasoukyoku
+- bel-air
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: possible
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: Signing event; not a full concert.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1995-12-09 1st single release commemoration
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Setlist added from Major debut promotional live (generate_music_seed / fan
+    reports) (2 songs)

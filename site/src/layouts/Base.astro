@@ -1,0 +1,343 @@
+---
+interface Props {
+  title?: string;
+}
+
+const { title = "Malice Mizer Research Archive" } = Astro.props;
+import Nav from "../components/Nav.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <style is:global>
+      :root {
+        color-scheme: light dark;
+        --bg: #faf8f5;
+        --surface: #ffffff;
+        --text: #1a1410;
+        --muted: #6b5f57;
+        --accent: #5c2d4a;
+        --rose: #8b2942;
+        --border: #e8dfd6;
+        --verified: #2d6a4f;
+        --possible: #b08900;
+        --needs: #9b2226;
+        --heading-font: "Cormorant Garamond", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #12100f;
+          --surface: #1c1816;
+          --text: #f5efe8;
+          --muted: #b8aaa0;
+          --accent: #d4a5c6;
+          --rose: #c45a72;
+          --border: #3a322e;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+      }
+      h1, h2, h3, .hero__title {
+        font-family: var(--heading-font);
+        font-weight: 600;
+      }
+      a { color: var(--accent); }
+      .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+      header { margin-bottom: 2rem; }
+      header h1 {
+        margin: 0 0 0.25rem;
+        font-size: 2.25rem;
+        letter-spacing: 0.04em;
+      }
+      header h1::after {
+        content: "";
+        display: block;
+        width: 3rem;
+        height: 2px;
+        margin-top: 0.5rem;
+        background: linear-gradient(90deg, var(--rose), var(--accent));
+      }
+      header p { margin: 0; color: var(--muted); }
+      .hero {
+        margin-bottom: 2.5rem;
+      }
+      .hero--split {
+        display: grid;
+        gap: 1.5rem;
+        align-items: center;
+      }
+      @media (min-width: 768px) {
+        .hero--split {
+          grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+          gap: 2rem;
+        }
+      }
+      .hero__intro {
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+        padding: 0.25rem 0;
+      }
+      .hero__title {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3rem);
+        letter-spacing: 0.08em;
+        line-height: 1.05;
+        color: var(--text);
+      }
+      .hero__title::after {
+        content: "";
+        display: block;
+        width: 3rem;
+        height: 2px;
+        margin-top: 0.65rem;
+        background: linear-gradient(90deg, var(--rose), var(--accent));
+      }
+      .hero__tagline {
+        margin: 0;
+        font-size: clamp(0.95rem, 2vw, 1.05rem);
+        color: var(--muted);
+        max-width: 28rem;
+      }
+      .hero__figure {
+        margin: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+        box-shadow: 0 8px 28px color-mix(in srgb, var(--accent) 10%, transparent);
+      }
+      .hero__image {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2595 / 1989;
+        object-fit: contain;
+        object-position: center;
+      }
+      .members-section {
+        width: 100%;
+        margin-bottom: 2.5rem;
+      }
+      .members-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 148px), 1fr));
+        gap: 1rem;
+        width: 100%;
+      }
+      @media (min-width: 640px) {
+        .members-grid {
+          grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        }
+      }
+      @media (min-width: 900px) {
+        .members-grid {
+          grid-template-columns: repeat(7, 1fr);
+        }
+      }
+      .flyer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+      .flyer-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--surface);
+        transition: border-color 0.15s, transform 0.15s;
+      }
+      .flyer-card:hover {
+        border-color: color-mix(in srgb, var(--rose) 45%, var(--border));
+        transform: translateY(-2px);
+      }
+      .flyer-card img {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+        display: block;
+      }
+      .flyer-card__meta {
+        padding: 0.5rem 0.65rem;
+        font-size: 0.78rem;
+      }
+      .flyer-card__meta strong {
+        display: block;
+        font-size: 0.82rem;
+        margin-bottom: 0.15rem;
+      }
+      .flyer-card__meta span {
+        color: var(--muted);
+      }
+      .section-heading {
+        margin: 0 0 1.15rem;
+        font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+        color: var(--accent);
+        letter-spacing: 0.03em;
+      }
+      .section-heading::after {
+        content: "";
+        display: block;
+        width: 2.5rem;
+        height: 2px;
+        margin-top: 0.45rem;
+        background: linear-gradient(90deg, var(--rose), var(--accent));
+      }
+      .cover-thumb {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 4px;
+        border: 1px solid var(--border);
+        vertical-align: middle;
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 0.75rem;
+        margin: 1.5rem 0 2rem;
+      }
+      .stat {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.85rem 1rem;
+      }
+      .stat strong { display: block; font-size: 1.35rem; }
+      .stat span { color: var(--muted); font-size: 0.85rem; }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        font-size: 0.92rem;
+      }
+      th, td { padding: 0.65rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
+      th { background: color-mix(in srgb, var(--surface) 80%, var(--border)); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+      tr:last-child td { border-bottom: none; }
+      .badge {
+        display: inline-block;
+        padding: 0.15rem 0.45rem;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        border: 1px solid var(--border);
+      }
+      .badge.verified { color: var(--verified); }
+      .badge.possible, .badge.mention_only { color: var(--possible); }
+      .badge.needs_verification, .badge.disputed, .badge.unverified { color: var(--needs); }
+      .type-chip {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+      }
+      .type-chip.coral { background: color-mix(in srgb, #e07a5f 18%, var(--surface)); color: #c44d34; border-color: color-mix(in srgb, #e07a5f 35%, var(--border)); }
+      .type-chip.purple { background: color-mix(in srgb, #7b6dd6 18%, var(--surface)); color: #5a4bb8; border-color: color-mix(in srgb, #7b6dd6 35%, var(--border)); }
+      .type-chip.pink { background: color-mix(in srgb, #d65a8a 18%, var(--surface)); color: #b8366a; border-color: color-mix(in srgb, #d65a8a 35%, var(--border)); }
+      .type-chip.lavender { background: color-mix(in srgb, #9b8ec4 18%, var(--surface)); color: #6b5a9e; border-color: color-mix(in srgb, #9b8ec4 35%, var(--border)); }
+      .type-chip.teal { background: color-mix(in srgb, #4a9e8e 18%, var(--surface)); color: #2d7a6b; border-color: color-mix(in srgb, #4a9e8e 35%, var(--border)); }
+      .type-chip.gold { background: color-mix(in srgb, #c9a227 18%, var(--surface)); color: #96750f; border-color: color-mix(in srgb, #c9a227 35%, var(--border)); }
+      .type-chip.amber { background: color-mix(in srgb, #e9a319 18%, var(--surface)); color: #b87a0a; border-color: color-mix(in srgb, #e9a319 35%, var(--border)); }
+      .type-chip.gray { background: color-mix(in srgb, var(--muted) 12%, var(--surface)); color: var(--muted); border-color: var(--border); }
+      @media (prefers-color-scheme: dark) {
+        .type-chip.coral { color: #f4a99a; }
+        .type-chip.purple { color: #b8aef0; }
+        .type-chip.pink { color: #f0a0c0; }
+        .type-chip.lavender { color: #c4b8e8; }
+        .type-chip.teal { color: #8ecec0; }
+        .type-chip.gold { color: #e8c860; }
+        .type-chip.amber { color: #f0c060; }
+      }
+      .link-count {
+        font-variant-numeric: tabular-nums;
+        font-weight: 600;
+      }
+      tbody tr[data-row]:hover td,
+      tbody tr[data-flyer-row]:hover td { background: color-mix(in srgb, var(--accent) 6%, var(--surface)); }
+      .sortable th { cursor: pointer; user-select: none; }
+      .sortable th:hover { color: var(--accent); }
+      .filters {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+      label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.82rem; color: var(--muted); }
+      select, input {
+        padding: 0.45rem 0.55rem;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--surface);
+        color: var(--text);
+      }
+      .detail-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 1rem 1.1rem;
+      }
+      .card h2, .card h3 { margin-top: 0; }
+      .muted { color: var(--muted); }
+      .back { display: inline-block; margin-bottom: 1rem; }
+      .site-footer {
+        margin-top: 3rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.82rem;
+        color: var(--muted);
+      }
+      .site-footer a { color: var(--muted); }
+      .site-footer a:hover { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Malice Mizer Research Archive</h1>
+        <p>Magazines, discography, flyers, gigs, videos, and linked catalog · 1992–2001</p>
+      </header>
+      <Nav />
+      <slot />
+      <footer class="site-footer">
+        <p>
+          Images sourced from{" "}
+          <a href="https://malice-mizer.info/flyers" target="_blank" rel="noopener">malice-mizer.info</a>,{" "}
+          <a href="https://cantavanda.com/malice-mizer/" target="_blank" rel="noopener">Cantavanda</a>, and{" "}
+          <a href="https://coverartarchive.org/" target="_blank" rel="noopener">Cover Art Archive</a>.
+          See project documentation for full attribution.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

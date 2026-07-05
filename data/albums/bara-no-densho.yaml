@@ -1,0 +1,20 @@
+id: bara-no-densho
+title_ja: 薔薇の伝承 (序章)
+title_en: 薔薇の伝承 (序章)
+type: vhs
+release_date: '2001'
+date_precision: year
+label: KSS Films
+catalog_number: KSVD24198
+format: vhs
+cover_image: images/covers/bara-no-densho.jpg
+verification_status: verified
+tracks:
+- song: bara-no-densho-prologue
+  position: 1
+notes: Synced from Discogs (https://www.discogs.com/master/3454586-Malice-Mizer-薔薇の伝承-序章).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/3454586-Malice-Mizer-薔薇の伝承-序章

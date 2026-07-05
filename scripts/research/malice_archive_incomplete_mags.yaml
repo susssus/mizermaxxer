@@ -1,0 +1,106 @@
+# Malice Archive — Incomplete Mags (Google Drive scan folders)
+# Source: https://malice-archive.neocities.org/Incompletemags/main
+# Verified live 2026-07-06. Images may be partial / auction-sourced.
+
+source:
+  id: malice-archive-incomplete-mags
+  name: The Malice Archive — Incomplete Mags
+  url: https://malice-archive.neocities.org/Incompletemags/main
+  license_notes: >
+    Fan-hosted Google Drive folders; provenance from Yahoo Auctions/Mercari per site note.
+    Link externally; do not mirror without permission.
+
+items:
+  - publication: b-pass
+    issue_date: 1998-06
+    title: B-PASS June 1998
+    scan_url: https://drive.google.com/drive/folders/1RO9pgwnNSruQ3HqP36N7JxcQedea4Axv
+  - publication: b-pass
+    issue_date: 1998-07
+    title: B-PASS July 1998
+    scan_url: https://drive.google.com/drive/folders/1qyLSCF9Q1Uj9slHvp72rSUqjCRp2PYJc
+  - publication: cd-data
+    issue_date: 1998-03-20
+    title: CD Data March 20, 1998
+    scan_url: https://drive.google.com/drive/folders/1Bo-an1_Lz9cK3gzgnrw2Qv-J1q_ySA8-
+  - publication: cd-skit
+    issue_number: "11"
+    title: CD SKiT! Vol. 11
+    scan_url: https://drive.google.com/drive/folders/1voDHecpeSC50oh9RCgKq059wM8Ta4dkv
+  - publication: cd-skit
+    issue_number: "12"
+    title: CD SKiT! Vol. 12
+    scan_url: https://drive.google.com/drive/folders/1_Piv046XqLIx09mHArbqiGpuagD6RpHB
+  - publication: fools-mate
+    issue_date: 2000-08
+    issue_number: "226"
+    title: "FOOL'S MATE August 2000 (Vol. 226, incomplete)"
+    scan_url: https://drive.google.com/drive/folders/1_ZqfUnRG9xP4QJoOawan3QBI6UlJ683i
+  - publication: gb
+    issue_date: 1998-08
+    title: GB August 1998
+    scan_url: https://drive.google.com/drive/folders/1WQhFVsdEeWz1itJdjUKdaJ5a7cfdn2Kd
+  - publication: gb
+    issue_date: 1999-01
+    title: GB January 1999
+    scan_url: https://drive.google.com/drive/folders/1Gz-CYF_Rd-PofpUWT7acsOd6DPL7SO57
+  - publication: gb
+    issue_date: 1999-03
+    title: GB March 1999
+    scan_url: https://drive.google.com/drive/folders/1E8L_rzofZVUIHMaBBfM-COS4bQFtjyLz
+  - publication: gigs
+    issue_date: 1998-08
+    title: GiGS August 1998
+    scan_url: https://drive.google.com/drive/folders/1yYFdlb7X4qP9Ba-GZvlcpPNg-_PgCOH4
+  - publication: luck-das
+    issue_date: 1999-02
+    title: Luck-das February 1999
+    scan_url: https://drive.google.com/drive/folders/1R5IBIR6UEfLY4cSpIMkf4XokaxA6JGQp
+  - publication: myojo
+    issue_date: 1998-05
+    title: Myojo May 1998
+    scan_url: https://drive.google.com/drive/folders/1K8f8f19-tKzkVGYxQGd7kNNmr3XhGwj2
+  - publication: pati-pati
+    issue_date: 1999-01
+    title: PATi PATi January 1999
+    scan_url: https://drive.google.com/drive/folders/1JS8MGpw-ed58XOA5c-RZDLPOa5ct05nI
+  - publication: pop-beat
+    issue_date: 1998-07
+    title: POP BEAT July 1998
+    scan_url: https://drive.google.com/drive/folders/1sGGVWj-zqX3f_pESO9HO_Xg7Fk3RjTcW
+  - publication: quick-japan
+    issue_number: "23"
+    title: Quick Japan Vol. 23
+    scan_url: https://drive.google.com/drive/folders/10xqhZM62nJaatdpoAJWxGT5d4rDn-ikS
+  - publication: shoxx
+    issue_date: 1994-01
+    title: SHOXX January 1994
+    scan_url: https://drive.google.com/drive/folders/1k4VbAphpmndKlHY-5bv6z8J-ZRHtSloI
+  - publication: shoxx
+    issue_date: 1996-03
+    title: SHOXX March 1996
+    scan_url: https://drive.google.com/drive/folders/1vzLCU9aZhCcTsJk_rZRiAboPYUUOqgqB
+  - publication: shoxx
+    issue_date: 1996-05
+    title: SHOXX May 1996
+    scan_url: https://drive.google.com/drive/folders/1Gukb47uibOUTFUZWfBf-I1wCI-xr3L_a
+  - publication: shoxx
+    issue_date: 1997-03
+    title: SHOXX March 1997
+    scan_url: https://drive.google.com/drive/folders/1qfhyQoPJWvHrR3ezqytyl6VMBAza6Xb-
+  - publication: shoxx
+    issue_date: 1997-11
+    title: SHOXX November 1997
+    scan_url: https://drive.google.com/drive/folders/16F2-42V2aoB8zp7n7LYW4rO5lsA040ZG
+  - publication: shoxx
+    issue_date: 2002-02
+    title: SHOXX February 2002
+    scan_url: https://drive.google.com/drive/folders/1An1Bzjak5QRgrfw2GqZMv7F4w9H3JXon
+  - publication: vicious
+    issue_date: 1999-10
+    title: Vicious October 1999
+    scan_url: https://drive.google.com/drive/folders/1KGWREs1RxhA3SdZ8VO27jGLohYev-OxI
+  - publication: zy
+    issue_date: 2001-11
+    title: Zy November 2001
+    scan_url: https://drive.google.com/drive/folders/1ymIJEO-9OZfVscgcg4UrqupzIK6NWozK

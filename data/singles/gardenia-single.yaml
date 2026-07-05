@@ -1,0 +1,19 @@
+id: gardenia-single
+title_ja: Gardenia
+title_en: Gardenia
+release_date: '2001-05-30'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-019
+format: cd
+a_side: prologue-kaisou
+b_side: gardenia
+coupling_tracks: []
+cover_image: images/covers/gardenia-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/master/231792-Malice-Mizer-Gardenia).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231792-Malice-Mizer-Gardenia

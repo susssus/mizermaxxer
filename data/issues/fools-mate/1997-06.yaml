@@ -1,0 +1,52 @@
+id: fools-mate-1997-06
+publication: fools-mate
+issue_number: "188"
+volume: null
+publication_date: 1997-06
+date_precision: month
+verification_status: verified
+source_notes: >
+  FOOL'S MATE Vol. 188 (June 1997). La'cryma Christi joint cover.
+  vkgy: https://vk.gy/magazines/fools-mate/6/no188/ (cover artist)
+  Reddit: https://www.reddit.com/r/visualkei/comments/1ibrtct/where_are_these_scans_from/
+  MIsaO Lab: 表紙（La'cryma Christiと合同）。カラー6p
+research_targets:
+- interview
+- photo spread
+- cover scan
+articles:
+- id: fools-mate-1997-06-001
+  title_ja: null
+  title_en: La'cryma Christi joint cover
+  type: cover
+  pages: null
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: null
+  writer: null
+  cover: true
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links:
+  - url: https://vk.gy/magazines/fools-mate/6/no188/
+    platform: vkgy
+    notes: Issue TOC; MM listed as cover artist with La'cryma Christi
+  notes: >
+    vkgy: cover artist. MIsaO Lab: 表紙（La'cryma Christiと合同）。カラー6p、ラクリマとインタビュー。
+    Reddit 1ibrtct links to SHOXX vol.61 photo reposts.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: reddit_visualkei
+  notes: Vol. 188 cited in Reddit thread 1ibrtct; coverage notes from MIsaO Lab.

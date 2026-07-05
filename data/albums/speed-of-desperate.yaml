@@ -1,0 +1,20 @@
+id: speed-of-desperate
+title_ja: Speed of Desperate
+title_en: Speed of Desperate
+type: demo
+release_date: '1992-12'
+date_precision: month
+label: Midi:Nette
+catalog_number: none
+format: cassette
+cover_image: images/covers/speed-of-desperate.jpg
+verification_status: verified
+tracks:
+- song: speed-of-desperate
+  position: 1
+notes: Synced from Discogs (https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate

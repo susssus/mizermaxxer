@@ -1,0 +1,126 @@
+# Curated setlists and video links for Malice Mizer concerts.
+# Sources: official releases, sans retour photobook (scapeforums), setlist.fm, Internet Archive.
+# Used by scripts/research/augment_concerts.py when automated lookup is unavailable.
+
+concerts:
+  1995-12-09-first-single-event:
+    setlist:
+      - gekka-no-yasoukyoku
+      - bel-air
+    setlist_source: "Major debut promotional live (generate_music_seed / fan reports)"
+    verification_status: possible
+
+  1998-04-01-merveilles-budokan:
+    setlist:
+      - syunikiss
+      - gekka-no-yasoukyoku
+      - bel-air
+      - tsuioku-no-hahen
+      - shi-no-butou
+      - aege-sugisarishi-kaze
+      - hamon-kyousoukyoku
+      - ju-te-veux
+      - madrigal
+      - brise
+      - ma-cherie
+      - au-revoir
+      - "8"
+      - mezame-no-rasen
+      - illuminati
+      - nps-ngs
+      - s-conscious
+      - le-ciel
+    setlist_source: "Sans retour photobook via scapeforums; encore Le ciel"
+    verification_status: verified
+
+  1998-07-22-merveilles-yokohama-arena:
+    setlist:
+      - s-conscious
+      - illuminati
+      - nps-ngs
+      - mezame-no-rasen
+      - hamon-kyousoukyoku
+      - syunikiss
+      - gekka-no-yasoukyoku
+      - bel-air
+      - shi-no-butou
+      - aege-sugisarishi-kaze
+      - "8"
+      - ju-te-veux
+      - madrigal
+      - brise
+      - au-revoir
+      - ma-cherie
+    setlist_source: "Sans retour photobook / merveilles l'espace DVD track order"
+    verification_status: verified
+    performances:
+      - url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live
+        platform: archive_org
+        quality: pro_shot
+        title: "merveilles l'espace (Internet Archive)"
+        notes: "Official concert film; Gackt's last live with Malice Mizer."
+
+  1998-12-26-tokyo-dome:
+    setlist:
+      - intro-des-congratulations
+      - beast-of-blood
+      - gekka-no-yasoukyoku
+    setlist_source: "Partial setlist from bootleg / fan documentation"
+    verification_status: possible
+
+  2018-09-08-deep-sanctuary-vi:
+    setlist:
+      - saikai-no-chi-to-bara
+      - kyomu-no-naka-de-no-yugi
+      - de-memoire
+      - kioku-to-sora
+      - illuminati
+      - apres-midi
+      - apres-midi-paris
+      - bel-air
+      - zencho
+      - madrigal
+      - nps-ngs
+      - unmei-no-deai
+      - au-revoir
+      - ma-cherie
+      - saikai
+    setlist_source: "setlist.fm (2018-09-08 Toyosu PIT)"
+    verification_status: verified
+
+  2018-09-09-deep-sanctuary-vi:
+    setlist:
+      - saikai-no-chi-to-bara
+      - kyomu-no-naka-de-no-yugi
+      - de-memoire
+      - kioku-to-sora
+      - illuminati
+      - apres-midi
+      - apres-midi-paris
+      - bel-air
+      - zencho
+      - madrigal
+      - nps-ngs
+      - unmei-no-deai
+      - au-revoir
+      - ma-cherie
+      - saikai
+    setlist_source: "setlist.fm (2018-09-09 Toyosu PIT)"
+    verification_status: verified
+
+# Internet Archive items mapped to concert dates (performance date, not upload date).
+internet_archive_by_date:
+  "1994-12-27":
+    - identifier: malice-mizer-cher-de-memoire-ii-final-tetsu-last-live-at-meguro-rock-may-27.12.1994
+      title: "Cher de memoire II final (Internet Archive)"
+      quality: audience
+  "1998-04-01":
+    - identifier: malice-mizer-merveilles-lespace-full-live
+      title: "merveilles l'espace (Internet Archive)"
+      quality: pro_shot
+      notes: "Official concert film; also covers Yokohama 1998-07-22."
+  "1998-07-22":
+    - identifier: malice-mizer-merveilles-lespace-full-live
+      title: "merveilles l'espace (Internet Archive)"
+      quality: pro_shot
+      notes: "Official concert film; Gackt's last live."

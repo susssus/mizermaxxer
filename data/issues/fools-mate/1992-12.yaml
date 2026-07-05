@@ -1,0 +1,41 @@
+id: fools-mate-1992-12
+publication: fools-mate
+issue_number: "134"
+volume: "15(12)"
+publication_date: 1992-12
+date_precision: month
+verification_status: possible
+source_notes: Possible live report. NDL confirms December 1992 issue exists (vol. 15 no. 12, 通号 134).
+articles:
+  - id: fools-mate-1992-12-001
+    title_ja: null
+    title_en: null
+    type: live_report
+    pages: null
+    members: []
+    photographer: null
+    writer: null
+    cover: false
+    poster: false
+    foldout: false
+    scan:
+      available: false
+      quality: null
+      url: null
+    translation:
+      available: false
+      url: null
+    purchase_links:
+      - url: https://ndlsearch.ndl.go.jp/books/R100000002-I000000043030-i6924468
+        platform: ndl
+        notes: NDL bibliographic record for vol. 15(9)-15(12) bound volume
+    notes: Possible live report. Malice Mizer coverage not yet confirmed in TOC.
+changelog:
+  - date: "2026-07-06"
+    action: created
+    source: user_bibliography
+    notes: Initial stub from Phase 1 master bibliography
+  - date: "2026-07-06"
+    action: status_change
+    source: ndl
+    notes: "NDL record confirms vol. 15(12) (通号 134). Issue number verified; band coverage still unconfirmed."

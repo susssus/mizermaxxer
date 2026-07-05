@@ -1,0 +1,80 @@
+id: flyers-1994-releases
+publication: flyers
+issue_number: null
+volume: null
+publication_date: '1994'
+date_precision: year
+verification_status: possible
+source_notes: Release flyers catalogued from https://malice-mizer.info/flyers.
+research_targets:
+- confirm print run details
+- locate physical copies
+articles:
+- id: flyers-1994-07-24-memoire
+  title_ja: null
+  title_en: Mémoire release flyer
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1994-07-24-memoire.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+- id: flyers-1994-07-24-memoire-ii
+  title_ja: null
+  title_en: Mémoire release flyer (variant II)
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1994-07-24-memoire-ii.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+- id: flyers-1994-12-24-memoire-dx
+  title_ja: null
+  title_en: Mémoire DX release flyer
+  type: flyer
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1994-12-24-memoire-dx.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
+    catalog).'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Catalogued from internet research with source attribution.

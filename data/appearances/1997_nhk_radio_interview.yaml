@@ -1,0 +1,21 @@
+id: appearance_1997_nhk_radio_interview
+type: appearance
+title:
+  original: NHK FM インタビュー
+  romanized: NHK FM Interview
+appearance_type: radio
+format: interview
+date: "1997"
+date_precision: year
+broadcast:
+  network: org_nhk
+  program: null
+  channel: NHK FM
+venue: null
+members_present:
+  - person_mana
+songs_performed: []
+performances: []
+verification_status: needs_verification
+facts: []
+notes: Radio interview stub — program title and date to be confirmed.

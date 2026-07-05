@@ -1,0 +1,49 @@
+id: person_kami
+type: person
+name:
+  original: Kami
+  romanized: Kami
+legal_name:
+  original: 神村 右京
+  romanized: Ukyo Kamimura
+roles:
+- drums
+active:
+  start: '1993'
+  end: '1999'
+birth:
+  date: '1972-02-01'
+  place: Ibaraki, Japan
+death:
+  date: '1999-06-21'
+  place: Kyoto, Japan
+bio:
+  before: 'Drummed in the punk band 3PMayonnaise during high school (1989–1991), then
+    moved to Tokyo and joined Kneuklid Romance in September 1992.
+
+    '
+  during: 'Swapped bands with Gaz and joined Malice Mizer on March 17, 1993. Drummed
+    through the Gackt era and the band''s major-label peak. After his death he was
+    credited as "eternal blood relative" on all subsequent releases.
+
+    '
+  after: 'Died of a subarachnoid hemorrhage on June 21, 1999, aged 27. Left behind
+    unfinished compositions released on the Shinwa EP and memorial releases.
+
+    '
+portrait_image: images/members/kami.webp
+gallery_images:
+- src: images/vintage/live-kami-memoire-final-1994.webp
+  caption: Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-band-1993.webp
+  caption: With Yuki, Tetsu, and Mana (1993)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-full-lineup.webp
+  caption: Full lineup (Gackt era)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/kami-kozi.webp
+  caption: With Kozi
+  source: Malice Meezer / malicemeezer.neocities.org
+facts: []
+notes: ''

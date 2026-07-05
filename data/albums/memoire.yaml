@@ -1,0 +1,38 @@
+id: memoire
+title_ja: Memoire
+title_en: Memoire
+type: album
+release_date: '1994-07-24'
+date_precision: day
+label: Midi:Nette
+catalog_number: M:N-001
+format: cd
+notes: Synced from Discogs (https://www.discogs.com/master/231763-Malice-Mizer-Memoire).
+verification_status: verified
+cover_image: images/covers/memoire.jpg
+tracks:
+- song: de-memoire
+  position: 1
+- song: kioku-to-sora
+  position: 2
+- song: the-vault-of-heaven
+  position: 3
+- song: gogo-no-sasayaki
+  position: 4
+- song: mihwaku-no-roma
+  position: 5
+- song: seraph
+  position: 6
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for Memoire
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231763-Malice-Mizer-Memoire

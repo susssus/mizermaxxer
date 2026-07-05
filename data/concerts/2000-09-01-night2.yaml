@@ -1,0 +1,23 @@
+id: 2000-09-01-night2
+date: '2000-09-01'
+date_precision: day
+venue: nippon-budokan
+event_name_ja: 第二夜 約束の薔薇
+event_name_en: 'Bara no Seidou — Night 2: Yakusoku no Bara'
+type: oneman
+tour: bara-no-seidou-2000
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- klaha
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: Klaha officially inducted; theatrical two-night Budokan live.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: 'Catalog entry 2000-09-01 Bara no Seidou — Night 2: Yakusoku no Bara'

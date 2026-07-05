@@ -1,0 +1,19 @@
+id: garnet-single
+title_ja: Garnet～禁断の園へ～
+title_en: Garnet～禁断の園へ～
+release_date: '2001-11-30'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-026
+format: cd
+a_side: garnet
+b_side: gensou-rakuen
+coupling_tracks: []
+cover_image: images/covers/garnet-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ

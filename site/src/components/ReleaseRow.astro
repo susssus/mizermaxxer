@@ -1,0 +1,43 @@
+---
+interface Album {
+  id: string;
+  title_en: string;
+  title_ja: string;
+  type: string;
+  release_date: string;
+  label?: string | null;
+  cover_image?: string | null;
+  verification_status: string;
+  tracks: unknown[];
+}
+
+interface Props {
+  album: Album;
+}
+
+const { album } = Astro.props;
+
+function coverSrc(path?: string | null) {
+  if (!path) return null;
+  return path.startsWith("/") ? path : `/${path}`;
+}
+---
+
+<tr>
+  <td>
+    {album.cover_image ? (
+      <img class="cover-thumb" src={coverSrc(album.cover_image)!} alt="" loading="lazy" />
+    ) : (
+      "—"
+    )}
+  </td>
+  <td>{album.release_date}</td>
+  <td>
+    <a href={`/discography/${album.id}`}>{album.title_en}</a>
+    <br /><span class="muted">{album.title_ja}</span>
+  </td>
+  <td>{album.type.replaceAll("_", " ")}</td>
+  <td>{album.label ?? "—"}</td>
+  <td>{album.tracks.length || "—"}</td>
+  <td><span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></td>
+</tr>

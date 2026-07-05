@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "song.schema.json",
+  "title": "Song",
+  "type": "object",
+  "required": ["id", "title_ja", "title_en"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title_ja": { "type": "string" },
+    "title_en": { "type": "string" },
+    "writers": { "type": "array", "items": { "type": "string" } },
+    "lyricists": { "type": "array", "items": { "type": "string" } },
+    "composers": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

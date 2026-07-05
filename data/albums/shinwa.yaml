@@ -1,0 +1,30 @@
+id: shinwa
+title_ja: 神話
+title_en: 神話
+type: ep
+release_date: '2000-02-01'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-009
+format: cd
+cover_image: images/covers/shinwa.jpg
+verification_status: verified
+tracks:
+- song: saikai
+  position: 1
+- song: unmei-no-deai
+  position: 2
+- song: mori-no-naka-no-tenshi
+  position: 3
+- song: band-history-footage
+  position: 4
+notes: Synced from Discogs (https://www.discogs.com/release/2175459-Malice-Mizer-神話).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/2175459-Malice-Mizer-神話
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/2175459-Malice-Mizer-神話

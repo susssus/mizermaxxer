@@ -1,0 +1,23 @@
+id: illuminati-single
+title_ja: Illuminati
+title_en: Illuminati
+release_date: '1998-05-20'
+date_precision: day
+label: Maitrize
+catalog_number: CODA-1528
+format: cd
+a_side: illuminati-p-type
+b_side: n-p-s-n-g-s-n-type
+coupling_tracks: []
+cover_image: images/covers/illuminati-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati

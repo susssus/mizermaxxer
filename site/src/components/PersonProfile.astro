@@ -1,0 +1,372 @@
+---
+import ArchiveImage from "./ArchiveImage.astro";
+import PhotoCarousel from "./PhotoCarousel.astro";
+import { linkBioText } from "../lib/bioLinks";
+
+interface BirthInfo {
+  date?: string;
+  place?: string;
+  year_unknown?: boolean;
+}
+
+interface DeathInfo {
+  date?: string;
+  place?: string;
+}
+
+interface BioInfo {
+  before?: string;
+  during?: string;
+  after?: string;
+}
+
+interface PersonEntity {
+  id: string;
+  type: "person";
+  name: { original?: string; romanized: string; english?: string };
+  legal_name?: { original?: string; romanized?: string } | null;
+  roles?: string[];
+  active?: { start?: string | null; end?: string | null } | null;
+  era?: string | null;
+  portrait_image?: string | null;
+  gallery_images?: { src: string; caption?: string; source?: string }[];
+  birth?: BirthInfo | null;
+  death?: DeathInfo | null;
+  bio?: BioInfo | null;
+  notes?: string;
+}
+
+interface Props {
+  entity: PersonEntity;
+  title: string;
+  typeLabel: string;
+  typeColor: string;
+}
+
+const { entity, title, typeLabel, typeColor } = Astro.props;
+
+const AS_OF = new Date("2026-07-06");
+
+function formatRole(role: string): string {
+  const labels: Record<string, string> = {
+    vocals: "Vocals",
+    vocalist: "Vocals",
+    guitar: "Guitar",
+    bass: "Bass",
+    drums: "Drums",
+    leader: "Leader",
+  };
+  return labels[role] ?? role.charAt(0).toUpperCase() + role.slice(1);
+}
+
+function formatActive(active?: { start?: string | null; end?: string | null } | null): string | null {
+  if (!active?.start && !active?.end) return null;
+  const start = active?.start ?? "?";
+  const end = active?.end ?? "present";
+  return `${start}–${end}`;
+}
+
+function parseDateParts(date: string): { year?: number; month?: number; day?: number } {
+  const iso = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (iso) {
+    return { year: Number(iso[1]), month: Number(iso[2]), day: Number(iso[3]) };
+  }
+  const monthDay = date.match(/^(\d{2})-(\d{2})$/);
+  if (monthDay) {
+    return { month: Number(monthDay[1]), day: Number(monthDay[2]) };
+  }
+  return {};
+}
+
+function ageOnDate(birth: BirthInfo, onDate: Date): number | null {
+  const parts = parseDateParts(birth.date ?? "");
+  if (!parts.year) return null;
+  let age = onDate.getFullYear() - parts.year;
+  if (parts.month && parts.day) {
+    const hadBirthday =
+      onDate.getMonth() + 1 > parts.month ||
+      (onDate.getMonth() + 1 === parts.month && onDate.getDate() >= parts.day);
+    if (!hadBirthday) age -= 1;
+  }
+  return age;
+}
+
+function formatBirthDisplay(birth: BirthInfo): string {
+  const parts = parseDateParts(birth.date ?? "");
+  if (parts.year && parts.month && parts.day) {
+    return new Date(parts.year, parts.month - 1, parts.day).toLocaleDateString("en-US", {
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    });
+  }
+  if (parts.month && parts.day) {
+    return new Date(2000, parts.month - 1, parts.day).toLocaleDateString("en-US", {
+      month: "long",
+      day: "numeric",
+    });
+  }
+  return birth.date ?? "—";
+}
+
+function lifespanLabel(birth?: BirthInfo | null, death?: DeathInfo | null): string | null {
+  if (!birth?.date) return null;
+
+  if (death?.date) {
+    const birthParts = parseDateParts(birth.date);
+    const deathParts = parseDateParts(death.date);
+    if (birthParts.year && deathParts.year) {
+      const ageAtDeath = deathParts.year - birthParts.year;
+      return `Died aged ${ageAtDeath} (${birthParts.year}–${deathParts.year})`;
+    }
+    return `Died ${death.date}`;
+  }
+
+  if (birth.year_unknown || !parseDateParts(birth.date).year) {
+    return `Born ${formatBirthDisplay(birth)} (age unknown)`;
+  }
+
+  const age = ageOnDate(birth, AS_OF);
+  if (age === null) return null;
+  return `${age} years old (born ${formatBirthDisplay(birth)})`;
+}
+
+const roles = entity.roles?.map(formatRole) ?? [];
+const activeRange = formatActive(entity.active);
+const legalName = entity.legal_name;
+const gallery = entity.gallery_images ?? [];
+const bio = entity.bio;
+const ageText = lifespanLabel(entity.birth, entity.death);
+const bioSections = [
+  { key: "before", label: "Before Malice Mizer", text: bio?.before },
+  { key: "during", label: "In Malice Mizer", text: bio?.during },
+  { key: "after", label: "After Malice Mizer", text: bio?.after },
+].filter((section) => section.text?.trim());
+---
+
+<section class="person-profile">
+  <div class="person-profile__hero card">
+    <div class="person-profile__portrait">
+      {entity.portrait_image ? (
+        <ArchiveImage
+          src={entity.portrait_image}
+          alt={title}
+          source="Cantavanda via malice-mizer.info"
+          variant="inline"
+        />
+      ) : (
+        <div class="person-profile__initial" aria-hidden="true">{title.charAt(0)}</div>
+      )}
+    </div>
+
+    <div class="person-profile__details">
+      <div class="person-profile__header">
+        <p><span class={`type-chip ${typeColor}`}>{typeLabel}</span></p>
+        {entity.era && <p class="person-profile__era">{entity.era}</p>}
+        <h2>{title}</h2>
+        {entity.name.original && entity.name.original !== entity.name.romanized && (
+          <p class="person-profile__original">{entity.name.original}</p>
+        )}
+      </div>
+
+      <dl class="person-profile__meta">
+        {legalName && (legalName.original || legalName.romanized) && (
+          <>
+            <dt>Legal name</dt>
+            <dd>
+              {legalName.original && <span>{legalName.original}</span>}
+              {legalName.romanized && (
+                <span class="muted">{legalName.original ? ` (${legalName.romanized})` : legalName.romanized}</span>
+              )}
+            </dd>
+          </>
+        )}
+
+        {roles.length > 0 && (
+          <>
+            <dt>Role{roles.length > 1 ? "s" : ""}</dt>
+            <dd>{roles.join(", ")}</dd>
+          </>
+        )}
+
+        {activeRange && (
+          <>
+            <dt>Active</dt>
+            <dd>{activeRange}</dd>
+          </>
+        )}
+
+        {ageText && (
+          <>
+            <dt>Age</dt>
+            <dd>{ageText}</dd>
+          </>
+        )}
+
+        {entity.birth?.place && (
+          <>
+            <dt>Birthplace</dt>
+            <dd>{entity.birth.place}</dd>
+          </>
+        )}
+      </dl>
+    </div>
+  </div>
+
+  {bioSections.length > 0 && (
+    <div class="card person-profile__bio">
+      <h3>Biography</h3>
+      {bioSections.map((section) => (
+        <div class="person-profile__bio-section">
+          <h4>{section.label}</h4>
+          <p set:html={linkBioText(section.text!)} />
+        </div>
+      ))}
+    </div>
+  )}
+
+  {gallery.length > 0 && (
+    <div class="card person-profile__gallery">
+      <h3>Photo gallery</h3>
+      <PhotoCarousel images={gallery} alt={title} />
+    </div>
+  )}
+</section>
+
+<style>
+  .person-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .person-profile__hero {
+    display: grid;
+    grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+    gap: 1.75rem 2rem;
+    align-items: start;
+  }
+  .person-profile__portrait {
+    width: 100%;
+    max-width: 220px;
+  }
+  .person-profile__portrait :global(.archive-image) {
+    margin: 0;
+  }
+  .person-profile__portrait :global(.archive-image img) {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center 15%;
+  }
+  .person-profile__portrait :global(figcaption) {
+    margin-top: 0.4rem;
+    font-size: 0.68rem;
+    line-height: 1.35;
+  }
+  .person-profile__initial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    font-size: 3rem;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--rose) 4%, var(--surface));
+  }
+  .person-profile__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    min-width: 0;
+  }
+  .person-profile__header h2 {
+    margin: 0.35rem 0 0;
+    font-size: clamp(1.65rem, 4vw, 2.1rem);
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+  }
+  .person-profile__header p {
+    margin: 0;
+  }
+  .person-profile__era {
+    margin: 0.5rem 0 0;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--rose);
+    font-weight: 600;
+  }
+  .person-profile__original {
+    margin: 0.25rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .person-profile__meta {
+    display: grid;
+    grid-template-columns: minmax(5.75rem, 7.5rem) 1fr;
+    gap: 0.55rem 1.25rem;
+    margin: 0;
+    padding-top: 1.15rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.92rem;
+  }
+  .person-profile__meta dt {
+    color: var(--muted);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding-top: 0.1rem;
+  }
+  .person-profile__meta dd {
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .person-profile__bio h3,
+  .person-profile__gallery h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    color: var(--accent);
+  }
+  .person-profile__bio-section + .person-profile__bio-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+  .person-profile__bio-section h4 {
+    margin: 0 0 0.35rem;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--rose);
+    font-weight: 600;
+  }
+  .person-profile__bio-section p {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+  .person-profile__bio-section p :global(a) {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .person-profile__bio-section p :global(a:hover) {
+    color: var(--rose);
+  }
+  @media (max-width: 640px) {
+    .person-profile__hero {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    .person-profile__portrait {
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  }
+</style>

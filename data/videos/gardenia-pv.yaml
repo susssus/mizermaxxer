@@ -1,0 +1,17 @@
+id: gardenia-pv
+title_ja: Gardenia
+title_en: Gardenia (PV)
+type: pv
+url: https://www.youtube.com/watch?v=XuTknvtvRN0
+platform: youtube
+release_date: '2001-05-30'
+song: gardenia
+concert: null
+quality: official
+verification_status: verified
+notes: Official PV on @Malice_Mizer_Official YouTube channel. Reshot Cardinal DVD version; original single-era master was never released.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Catalogued from @Malice_Mizer_Official channel (XuTknvtvRN0).

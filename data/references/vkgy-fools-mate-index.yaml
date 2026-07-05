@@ -1,0 +1,8 @@
+id: vkgy-fools-mate-index
+title: vkgy — FOOL'S MATE magazine index
+type: database
+url: https://vk.gy/magazines/fools-mate/
+notes: >
+  Per-issue pages with publication date, cover artists, and TOC (Large features / Other appearances).
+  MM appearances catalogued in scripts/research/vkgy_fools_mate_malice_mizer.yaml (39 issues, vol.133–242).
+  Regenerate: .venv/bin/python scripts/research/fetch_vkgy_fools_mate.py

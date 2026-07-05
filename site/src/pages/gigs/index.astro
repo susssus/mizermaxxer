@@ -1,0 +1,114 @@
+---
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+const venueMap = new Map(archive.venues.map((venue) => [venue.id, venue]));
+
+const sorted = [...archive.concerts].sort((a, b) => {
+  const dateCmp = a.date.localeCompare(b.date);
+  return dateCmp !== 0 ? dateCmp : a.id.localeCompare(b.id);
+});
+
+const byYear = sorted.reduce<Record<string, typeof sorted>>((acc, concert) => {
+  const year = concert.date.slice(0, 4);
+  (acc[year] ??= []).push(concert);
+  return acc;
+}, {});
+
+const years = Object.keys(byYear).sort();
+
+const tourLabels: Record<string, string> = {
+  "seductive-1993": "Se·duc·tive Tour 1993",
+  "cher-de-memoire-1994": "Cher de memoire Tour 1994",
+  "cher-de-memoire-ii-1994": "Cher de memoire II 1994",
+  "sans-retour-voyage-1995": "Sans retour Voyage 1995",
+  "sans-retour-voyage-deux-1996": "Sans retour Voyage deux 1996",
+  "sans-retour-voyage-derniere": "Sans retour Voyage \"derniere\"",
+  "pays-de-merveilles-1997": "Standing Tour '97 Pays de merveilles",
+  "ville-de-merveilles-1997": "Ville de merveilles 1997",
+  "merveilles-1998": "merveilles ~Shuuen to kisuu~ 1998",
+  "fc-system-file-002-1999": "FC System File 002 (1999)",
+  "bara-no-seidou-2000": "Bara no Seidou — Budokan 2000",
+  "gardenia-2001": "Gardenia ~yoake no teien~ 2001",
+  "deep-sanctuary-vi-2018": "Deep Sanctuary VI — 25th Anniversary",
+};
+
+function tourLabel(tour: string | null | undefined) {
+  if (!tour) return "—";
+  return tourLabels[tour] ?? tour.replaceAll("-", " ");
+}
+
+function venueName(concert: (typeof sorted)[number]) {
+  if (concert.venue_detail?.name_en) return concert.venue_detail.name_en;
+  if (concert.venue) return venueMap.get(concert.venue)?.name_en ?? concert.venue;
+  return "—";
+}
+---
+
+<Base title="Gigs — Malice Mizer Research Archive">
+  <section class="stats">
+    <div class="stat"><strong>{archive.stats.concert_count}</strong><span>Concerts tracked</span></div>
+    <div class="stat"><strong>{archive.stats.performance_link_count}</strong><span>Performance links</span></div>
+    <div class="stat"><strong>{years.length}</strong><span>Years covered</span></div>
+  </section>
+
+  <section class="card" style="margin-bottom: 1rem;">
+    <h2>Sources</h2>
+    <p class="muted">
+      Chronology compiled from the
+      <a href="http://malice-mizer.co.jp/History.html" target="_blank" rel="noopener noreferrer">official band history</a>,
+      <a href="https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/" target="_blank" rel="noopener noreferrer">Cantavanda concert history</a>
+      (1992–1994 via miroir archive M†M), and
+      <a href="https://archive.org/details/2012-07-11-01-33-19-01" target="_blank" rel="noopener noreferrer">1996 tour pamphlet</a>.
+      Early flyers: <a href="https://malicemeezer.neocities.org/vintage" target="_blank" rel="noopener noreferrer">Malice Meezer vintage</a>.
+    </p>
+  </section>
+
+  {
+    years.map((year) => (
+      <section class="card" style="margin-bottom: 1rem;">
+        <h2>{year}</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Venue</th>
+              <th>Tour</th>
+              <th>Type</th>
+              <th>Links</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {byYear[year].map((concert) => (
+              <tr>
+                <td>{concert.date}</td>
+                <td>
+                  <a href={`/gigs/${concert.id}`}>
+                    {concert.event_name_en ?? concert.event_name_ja ?? concert.id}
+                  </a>
+                </td>
+                <td>{venueName(concert)}</td>
+                <td class="muted">{tourLabel(concert.tour)}</td>
+                <td>{concert.type}</td>
+                <td>
+                  {concert.performances.length ? (
+                    <span class="link-count">{concert.performances.length}</span>
+                  ) : (
+                    <span class="muted">—</span>
+                  )}
+                </td>
+                <td>
+                  <span class={`badge ${concert.verification_status}`}>
+                    {concert.verification_status.replaceAll("_", " ")}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    ))
+  }
+</Base>

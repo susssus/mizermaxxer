@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "album.schema.json",
+  "title": "Album",
+  "type": "object",
+  "required": ["id", "title_ja", "title_en", "type", "release_date", "date_precision", "verification_status", "tracks", "changelog"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title_ja": { "type": "string" },
+    "title_en": { "type": "string" },
+    "type": {
+      "enum": ["album", "ep", "demo", "compilation", "live_album", "vhs", "dvd", "box_set"]
+    },
+    "release_date": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
+    "date_precision": { "enum": ["year", "month", "day"] },
+    "label": { "type": ["string", "null"] },
+    "catalog_number": { "type": ["string", "null"] },
+    "format": {
+      "enum": ["cd", "vinyl", "cassette", "vhs", "dvd", "digital", "other", null]
+    },
+    "cover_image": { "type": ["string", "null"] },
+    "verification_status": {
+      "enum": ["verified", "possible", "mention_only", "needs_verification", "disputed"]
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["song", "position"],
+        "properties": {
+          "song": { "type": "string" },
+          "position": { "type": "integer", "minimum": 1 },
+          "title_override_ja": { "type": ["string", "null"] },
+          "title_override_en": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": { "type": "string" },
+    "changelog": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "changelog.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,46 @@
+id: tour-pamphlet-sans-retour-voyage-1996
+publication: tour-pamphlets
+issue_number: null
+volume: null
+publication_date: '1996'
+date_precision: year
+verification_status: verified
+source_notes: >
+  Sans retour Voyage tour pamphlet; distributed at 1996 tour dates.
+  Internet Archive scan: https://archive.org/details/2012-07-11-01-33-19-01
+research_targets:
+- tour schedule
+- venue list
+- member photos
+- goods advertisement
+articles:
+- id: tour-pamphlet-sans-retour-voyage-1996-001
+  title_ja: Sans retour Voyage ツアーパンフレット
+  title_en: Sans retour Voyage tour pamphlet
+  type: pamphlet
+  pages: null
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: https://archive.org/details/2012-07-11-01-33-19-01
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Full pamphlet scan on Internet Archive (2012 upload).
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: internet_archive_survey
+  notes: Full 1996 tour pamphlet scan linked from Internet Archive.

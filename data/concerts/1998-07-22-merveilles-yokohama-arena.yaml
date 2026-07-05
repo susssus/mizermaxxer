@@ -1,0 +1,55 @@
+id: 1998-07-22-merveilles-yokohama-arena
+date: '1998-07-22'
+date_precision: day
+venue: yokohama-arena
+event_name_ja: null
+event_name_en: merveilles ~Shuuen to kisuu~ — Yokohama Arena
+type: oneman
+tour: merveilles-1998
+setlist:
+- s-conscious
+- illuminati
+- nps-ngs
+- mezame-no-rasen
+- hamon-kyousoukyoku
+- syunikiss
+- gekka-no-yasoukyoku
+- bel-air
+- shi-no-butou
+- aege-sugisarishi-kaze
+- '8'
+- ju-te-veux
+- madrigal
+- brise
+- au-revoir
+- ma-cherie
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances:
+- url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live
+  platform: archive_org
+  quality: pro_shot
+  title: merveilles l'espace (Internet Archive)
+  notes: Official concert film; Budokan 1998-04-01 and Yokohama Arena 1998-07-22.
+- url: https://www.youtube.com/watch?v=94gn00m6rf4
+  platform: youtube
+  quality: pro_shot
+  title: merveilles l'espace (YouTube)
+  notes: Fan upload of official VHS/DVD edit.
+notes: Gackt's last performance with Malice Mizer.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1998-07-22 merveilles ~Shuuen to kisuu~ — Yokohama Arena
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Setlist added from Sans retour photobook / merveilles l'espace DVD track
+    order (16 songs)

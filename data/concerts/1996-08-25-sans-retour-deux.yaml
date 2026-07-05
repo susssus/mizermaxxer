@@ -1,0 +1,24 @@
+id: 1996-08-25-sans-retour-deux
+date: '1996-08-25'
+date_precision: day
+venue: sendai-macana
+event_name_ja: null
+event_name_en: Sans retour Voyage deux 1996
+type: oneman
+tour: sans-retour-voyage-deux-1996
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: SOLD OUT
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1996-08-25 Sans retour Voyage deux 1996

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video.schema.json",
+  "title": "Video",
+  "type": "object",
+  "required": ["id", "title_en", "type", "url", "verification_status", "changelog"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title_ja": { "type": ["string", "null"] },
+    "title_en": { "type": "string" },
+    "type": {
+      "enum": ["pv", "tv", "live_footage", "documentary", "fan_cam", "other"]
+    },
+    "url": { "type": "string" },
+    "platform": {
+      "enum": ["youtube", "niconico", "bilibili", "archive_org", "vimeo", "dailymotion", "other", null]
+    },
+    "release_date": { "type": ["string", "null"] },
+    "song": { "type": ["string", "null"] },
+    "concert": { "type": ["string", "null"] },
+    "quality": {
+      "enum": ["official", "tv_broadcast", "pro_shot", "audience", "low", "unknown", null]
+    },
+    "verification_status": {
+      "enum": ["verified", "possible", "mention_only", "needs_verification", "disputed"]
+    },
+    "notes": { "type": "string" },
+    "changelog": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "changelog.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

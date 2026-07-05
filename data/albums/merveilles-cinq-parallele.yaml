@@ -1,0 +1,28 @@
+id: merveilles-cinq-parallele
+title_ja: Merveilles -Cinq Parallèle-
+title_en: Merveilles -Cinq Parallèle-
+type: vhs
+release_date: '1999-02-24'
+date_precision: day
+label: Maitrize
+catalog_number: COVA-50023
+format: vhs
+cover_image: images/covers/merveilles-cinq-parallele.jpg
+verification_status: verified
+tracks:
+- song: bel-air
+  position: 1
+- song: au-revoir
+  position: 2
+- song: gekka-no-yasoukyoku
+  position: 3
+- song: illuminati
+  position: 4
+- song: le-ciel
+  position: 5
+notes: Synced from Discogs (https://www.discogs.com/master/1467998-Malice-Mizer-Merveilles-Cinq-Parallèle-).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/1467998-Malice-Mizer-Merveilles-Cinq-Parallèle-

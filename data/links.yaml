@@ -1,0 +1,25 @@
+# Explicit entity links (derived links from appears_on / personnel are built automatically)
+#
+# All `relation` values must appear in data/references/relation_types.yaml under `explicit`.
+
+- from: song_au_revoir
+  to: concert_1998_04_01_budokan
+  relation: performed_at
+
+- from: song_au_revoir
+  to: song_illuminati
+  relation: related_song
+  note: shares a chord progression in the bridge
+
+- from: ref_shoxx_061
+  to: song_au_revoir
+  relation: discusses
+
+- from: ref_foolsmate_188
+  to: song_au_revoir
+  relation: discusses
+
+- from: ref_foolsmate_188
+  to: appearance_1995_12_music_station
+  relation: discusses
+  note: likely coverage of major debut TV period

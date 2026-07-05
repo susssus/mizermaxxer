@@ -1,0 +1,129 @@
+---
+import PersonProfile from "../../components/PersonProfile.astro";
+import Base from "../../layouts/Base.astro";
+import linksIndex from "../../data/links_index.json";
+
+export function getStaticPaths() {
+  return linksIndex.browse.map((row) => ({ params: { id: row.id } }));
+}
+
+const { id } = Astro.params;
+const row = linksIndex.browse.find((entry) => entry.id === id);
+const entity = linksIndex.entities_by_id[id as string];
+const links = linksIndex.linked_entities[id as string]?.all ?? [];
+const titleById = Object.fromEntries(linksIndex.browse.map((entry) => [entry.id, entry.title]));
+---
+
+{row && entity && (
+  <Base title={`${row.title} — Malice Mizer Research Archive`}>
+    <a class="back" href="/browse">← Back to browse</a>
+
+    <section class="detail-grid">
+      {entity.type === "person" ? (
+        <PersonProfile
+          entity={entity}
+          title={row.title}
+          typeLabel={row.type_label}
+          typeColor={row.type_color}
+        />
+      ) : (
+      <div class="card">
+        <p><span class={`type-chip ${row.type_color}`}>{row.type_label}</span></p>
+        <h2>{row.title}</h2>
+        <p class="muted">{row.id}</p>
+        <p><strong>Date:</strong> {row.date ?? "—"}</p>
+        <p>
+          <strong>Status:</strong>
+          <span class={`badge ${row.status}`}>{row.status.replaceAll("_", " ")}</span>
+        </p>
+        <p><strong>Links:</strong> {row.link_count}</p>
+
+        {entity.type === "appearance" && (
+          <>
+            <p><strong>Medium:</strong> {entity.appearance_type} · {entity.format}</p>
+            {entity.broadcast?.network && (
+              <p><strong>Network:</strong>{" "}
+                <a href={`/entity/${entity.broadcast.network}`}>
+                  {titleById[entity.broadcast.network] ?? entity.broadcast.network}
+                </a>
+                {entity.broadcast.program ? ` · ${entity.broadcast.program}` : ""}
+                {entity.broadcast.channel ? ` (${entity.broadcast.channel})` : ""}
+              </p>
+            )}
+            {entity.songs_performed?.length > 0 && (
+              <p><strong>Songs:</strong>{" "}
+                {entity.songs_performed.map((songId, i) => (
+                  <>
+                    {i > 0 ? ", " : ""}
+                    <a href={`/entity/${songId}`}>{titleById[songId] ?? songId}</a>
+                  </>
+                ))}
+              </p>
+            )}
+            {entity.performances?.length > 0 && (
+              <div>
+                <strong>Footage:</strong>
+                <ul>
+                  {entity.performances.map((perf) => (
+                    <li><a href={perf.url} target="_blank" rel="noopener">{perf.title ?? perf.url}</a></li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+      )}
+
+      {entity.facts?.length > 0 && (
+        <div class="card">
+          <h3>Facts</h3>
+          <ul>
+            {entity.facts.map((fact) => (
+              <li>
+                <p>{fact.statement.trim()}</p>
+                <p class="muted">
+                  {fact.status} · {fact.confidence} confidence
+                  {fact.sources?.length ? ` · sources: ${fact.sources.join(", ")}` : ""}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </section>
+
+    <section class="card" style="margin-top: 1rem;">
+      <h3>Linked entities</h3>
+      {links.length ? (
+        <table>
+          <thead>
+            <tr>
+              <th>Relation</th>
+              <th>Entity</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            {links.map((link) => {
+              const target = linksIndex.browse.find((entry) => entry.id === link.entity_id);
+              return (
+                <tr>
+                  <td>
+                    <span class={`type-chip ${link.color || "gray"}`} style="font-size:0.65rem;">
+                      {link.label || link.relation}
+                    </span>
+                  </td>
+                  <td><a href={`/entity/${link.entity_id}`}>{titleById[link.entity_id] ?? link.entity_id}</a></td>
+                  <td>{target?.type_label ?? "—"}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      ) : (
+        <p class="muted">No linked entities.</p>
+      )}
+    </section>
+  </Base>
+)}

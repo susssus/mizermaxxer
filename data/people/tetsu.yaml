@@ -1,0 +1,71 @@
+id: person_tetsu
+type: person
+name:
+  original: Tetsu
+  romanized: Tetsu
+legal_name:
+  original: 高野 哲
+  romanized: Takano Tetsu
+roles:
+  - vocalist
+active:
+  start: "1992"
+  end: "1994"
+era: Tetsu era
+birth:
+  date: "1972-12-12"
+  place: Tokyo, Japan
+bio:
+  before: >
+    Briefly performed with Ner-vous in 1992 before becoming Malice Mizer's
+    founding vocalist when the band formed in August that year.
+  during: >
+    Fronted the band's first era (1992–1994), shaping its early gothic and
+    classical sound. Sang on Memoire and numerous demos and compilations.
+    Left after his final show on December 27, 1994, unwilling to pursue the
+    visual kei direction the other members wanted.
+  after: >
+    Moved toward straight rock with Mega8Ball (1995–1997), the supergroup
+    Zigzo (1999–2002), and his primary band nil (2002–present). Also active
+    in The JuneJulyAugust, The Black Comet Club Band, and Disco Volante via
+    his label Afro Skull Records.
+portrait_image: images/members/tetsu.webp
+gallery_images:
+  - src: images/members/tetsu-profile.webp
+    caption: Profile photograph
+    source: malice-mizer.info
+  - src: images/vintage/tetsu-memoire-dx.webp
+    caption: Memoire DX booklet
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/tetsu-collage.webp
+    caption: Tetsu-era collage
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/tetsu-interview.webp
+    caption: Memoire interview scan
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/live-mana-yuki-tetsu.webp
+    caption: Live performance (Mana, Yuki, Tetsu)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/live-memoire-final-1994.webp
+    caption: Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/live-mana-tetsu.webp
+    caption: Mana and Tetsu
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/flyers/flyers-1992-08-debut-era.webp
+    caption: Debut-era flyer (1992)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/flyers/flyers-1993-01-demo-sadness.webp
+    caption: Sadness demo tape flyer (1993)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/flyers/flyers-1993-06-live-1993.webp
+    caption: Live flyer (1993)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/flyers/flyers-1994-01-live-1994.webp
+    caption: Live flyer (1994)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/members/hero.webp
+    caption: Band promotional photograph (early era)
+    source: Cantavanda via malice-mizer.info
+facts: []
+notes: ""

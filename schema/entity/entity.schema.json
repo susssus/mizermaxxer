@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "entity.schema.json",
+  "title": "EntityBase",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Stable prefixed id, e.g. song_au_revoir, ref_shoxx_061"
+    },
+    "type": {
+      "enum": [
+        "song",
+        "album",
+        "single",
+        "concert",
+        "appearance",
+        "person",
+        "organization",
+        "reference",
+        "video",
+        "venue",
+        "image"
+      ]
+    },
+    "facts": {
+      "type": "array",
+      "items": { "$ref": "fact.schema.json" }
+    },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

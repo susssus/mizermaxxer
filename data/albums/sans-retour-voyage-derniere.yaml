@@ -1,0 +1,38 @@
+id: sans-retour-voyage-derniere
+title_ja: Sans Retour Voyage "Derniere" ～Encoure Une Fois～
+title_en: Sans Retour Voyage "Derniere" ～Encoure Une Fois～
+type: vhs
+release_date: '1997-06-30'
+date_precision: day
+label: Midi:Nette
+catalog_number: M:N-005
+format: vhs
+cover_image: images/covers/sans-retour-voyage-derniere.jpg
+verification_status: verified
+tracks:
+- song: ino-no-rumania
+  position: 1
+- song: transylvania
+  position: 2
+- song: uruwashii-kamen
+  position: 3
+- song: croix
+  position: 4
+- song: tsuioku-no-hahen
+  position: 5
+- song: regret
+  position: 6
+- song: madrigal
+  position: 7
+- song: color-me-blood-red
+  position: 8
+- song: ma-cherie
+  position: 9
+- song: zencho
+  position: 10
+notes: Synced from Discogs (https://www.discogs.com/master/1222590-Malice-Mizer-Sans-Retour-Voyage-Derniere-Encoure-Une-Fois).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/1222590-Malice-Mizer-Sans-Retour-Voyage-Derniere-Encoure-Une-Fois

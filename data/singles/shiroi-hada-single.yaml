@@ -1,0 +1,19 @@
+id: shiroi-hada-single
+title_ja: 白い肌に狂う愛と哀しみの輪舞
+title_en: 白い肌に狂う愛と哀しみの輪舞
+release_date: '2000-07-26'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMCD-012
+format: cd
+a_side: shiroi-hada
+b_side: shiroi-hada-instrumental
+coupling_tracks: []
+cover_image: images/covers/shiroi-hada-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/release/3158217-Malice-Mizer-白い肌に狂う愛と哀しみの輪舞).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/3158217-Malice-Mizer-白い肌に狂う愛と哀しみの輪舞

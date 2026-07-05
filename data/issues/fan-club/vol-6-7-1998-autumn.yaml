@@ -1,0 +1,44 @@
+id: fan-club-vol-6-7-1998-autumn
+publication: fan-club
+issue_number: null
+volume: null
+publication_date: 1998-09
+date_precision: month
+verification_status: verified
+source_notes: >
+  ma chérie fan club newsletter Vol. 6–7 (Autumn 1998).
+  Scanned by Madame Tarantula; hosted on Cantavanda with permission.
+research_targets:
+- member profiles
+- Le ciel / Merveilles era coverage
+articles:
+- id: fan-club-vol-6-7-1998-autumn-001
+  title_ja: ma chérie Vol. 6–7
+  title_en: ma chérie Vol. 6–7 (Autumn 1998)
+  type: newsletter
+  pages: null
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: original_scan
+    url: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-6-7-autumn-1998/
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 40 page scans. Source Cantavanda / Madame Tarantula.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: cantavanda
+  notes: Full fan club issue scan gallery linked.

@@ -1,0 +1,26 @@
+id: sans-logique
+title_ja: Sans Logique
+title_en: Sans Logique
+type: demo
+release_date: '1992-10-31'
+date_precision: day
+label: Not On Label (Malice Mizer Self-released)
+catalog_number: none
+format: cassette
+cover_image: images/covers/sans-logique.jpg
+verification_status: verified
+tracks:
+- song: temptation-of-widow
+  position: 1
+- song: shuumaku-e-no-tobira
+  position: 2
+- song: sadness-i-know-the-reason-for-her-sadness
+  position: 3
+- song: speed-of-desperate
+  position: 4
+notes: Synced from Discogs (https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique

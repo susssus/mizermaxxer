@@ -1,0 +1,24 @@
+id: 1992-10-31-first-live
+date: '1992-10-31'
+date_precision: day
+venue: meguro-rockmaykan
+event_name_ja: ファーストライブ
+event_name_en: First live
+type: live
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- gaz
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: Sans Logique demo distributed.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1992-10-31 First live

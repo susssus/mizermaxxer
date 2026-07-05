@@ -1,0 +1,28 @@
+id: 1994-12-27-tetsu-final
+date: '1994-12-27'
+date_precision: day
+venue: meguro-rockmaykan
+event_name_ja: Vo.TETSU脱退
+event_name_en: Cher de memoire II tour final (SOLD OUT)
+type: oneman
+tour: cher-de-memoire-ii-1994
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances:
+- url: https://archive.org/details/malice-mizer-cher-de-memoire-ii-final-tetsu-last-live-at-meguro-rock-may-27.12.1994
+  platform: archive_org
+  quality: audience
+  title: Cher de memoire II final (Internet Archive)
+notes: Tetsu's last performance with Malice Mizer.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1994-12-27 Cher de memoire II tour final (SOLD OUT)

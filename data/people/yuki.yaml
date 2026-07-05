@@ -1,0 +1,50 @@
+id: person_yuki
+type: person
+name:
+  original: Yu~ki
+  romanized: Yu~ki
+roles:
+- bass
+active:
+  start: '1992'
+  end: '2001'
+birth:
+  date: '1972-08-08'
+  place: Fukuoka, Japan
+bio:
+  before: 'Played bass in the visual kei band Ze:ro (as Yû-KI) until the group disbanded
+    in June 1992, shortly before Malice Mizer formed.
+
+    '
+  during: 'Recruited by Mana and Közi as founding bassist in August 1992. One of only
+    three members present for the band''s entire nine-year run. Known for his aristocratic/vampire
+    stage persona and composition of "Syunikiss" on Merveilles.
+
+    '
+  after: 'Has largely stepped back from music since 2001. Wrote lyrics for Közi''s
+    2004 single "Memento". Appeared at Deep Sanctuary reunion shows from 2010 onward
+    and later sold handcrafted jewelry through Midi:Nette.
+
+    '
+portrait_image: images/members/yuki.webp
+gallery_images:
+- src: images/vintage/yuki-memoire-dx.webp
+  caption: Memoire DX booklet
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/yuki-collage.webp
+  caption: Tetsu-era collage
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/yuki-interview.webp
+  caption: Memoire interview scan
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/yuki-carrying-mana.webp
+  caption: Carrying Mana
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-lineup-1993.webp
+  caption: Live lineup (1993)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/halloween-mana-kozi-yuki.webp
+  caption: Halloween (with Mana and Kozi)
+  source: Malice Meezer / malicemeezer.neocities.org
+facts: []
+notes: ''

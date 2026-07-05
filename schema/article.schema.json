@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "article.schema.json",
+  "title": "Article",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title_ja": { "type": ["string", "null"] },
+    "title_en": { "type": ["string", "null"] },
+    "type": {
+      "enum": [
+        "interview",
+        "live_report",
+        "review",
+        "advertisement",
+        "photo_spread",
+        "live_listing",
+        "mention",
+        "instrument_interview",
+        "release_calendar",
+        "cover",
+        "poster",
+        "flyer",
+        "newsletter",
+        "pamphlet"
+      ]
+    },
+    "pages": { "type": ["string", "null"] },
+    "members": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "klaha",
+          "mana",
+          "kozi",
+          "yuki",
+          "kami",
+          "gackt",
+          "tetsu",
+          "birith",
+          "karis",
+          "unknown"
+        ]
+      }
+    },
+    "photographer": { "type": ["string", "null"] },
+    "writer": { "type": ["string", "null"] },
+    "cover": { "type": "boolean" },
+    "poster": { "type": "boolean" },
+    "foldout": { "type": "boolean" },
+    "scan": {
+      "type": "object",
+      "required": ["available"],
+      "properties": {
+        "available": { "type": "boolean" },
+        "quality": {
+          "enum": ["low", "medium", "high", "original_scan", null]
+        },
+        "url": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "translation": {
+      "type": "object",
+      "required": ["available"],
+      "properties": {
+        "available": { "type": "boolean" },
+        "url": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "purchase_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string" },
+          "platform": { "type": ["string", "null"] },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

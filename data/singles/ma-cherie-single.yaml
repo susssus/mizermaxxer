@@ -1,0 +1,23 @@
+id: ma-cherie-single
+title_ja: Ma Chérie～愛しい君へ～
+title_en: Ma Chérie～愛しい君へ～
+release_date: '1996-10-10'
+date_precision: day
+label: Midi:Nette
+catalog_number: M:N-004
+format: cd
+a_side: ma-cherie
+b_side: regret
+coupling_tracks: []
+cover_image: images/covers/ma-cherie-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ

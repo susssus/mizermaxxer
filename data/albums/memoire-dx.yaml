@@ -1,0 +1,32 @@
+id: memoire-dx
+title_ja: Memoire DX
+title_en: Memoire DX
+type: album
+release_date: '1994-12-24'
+date_precision: day
+label: Midi:Nette
+catalog_number: M:N-001DX
+format: cd
+cover_image: images/covers/memoire-dx.jpg
+verification_status: verified
+tracks:
+- song: de-memoire
+  position: 1
+- song: kioku-to-sora
+  position: 2
+- song: the-vault-of-heaven
+  position: 3
+- song: gogo-no-sasayaki
+  position: 4
+- song: mihwaku-no-roma
+  position: 5
+- song: seraph
+  position: 6
+- song: baroque
+  position: 7
+notes: Synced from Discogs (https://www.discogs.com/release/575231-Malice-Mizer-Memoire-DX).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/575231-Malice-Mizer-Memoire-DX

@@ -1,0 +1,40 @@
+id: shoxx-1992-12
+publication: shoxx
+issue_number: null
+volume: null
+publication_date: 1992-12
+date_precision: month
+verification_status: possible
+source_notes: >
+  Earliest known magazine interview (Dec 1992). English translation on scape.sc;
+  original page scan not located in public archives as of July 2026.
+research_targets:
+- confirm issue number
+- locate page scan
+- interview transcript
+articles:
+- id: shoxx-1992-12-001
+  title_ja: null
+  title_en: First SHOXX interview
+  type: interview
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: true
+    url: http://scape.sc/translations/mm-shoxx-dec92.php
+  purchase_links: []
+  notes: Text translation by Kurai on scape.sc; page scan still sought.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: scape_sc
+  notes: Translation linked; scan not found.

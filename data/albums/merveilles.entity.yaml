@@ -1,0 +1,25 @@
+id: album_merveilles
+type: album
+title:
+  original: Merveilles
+  romanized: Merveilles
+album_type: album
+release:
+  date: "1998-03-18"
+  date_precision: day
+  label: Maitrize
+  catalog_number: COCA-14866
+  format: cd
+cover_image: images/covers/merveilles.jpg
+tracklist:
+  - song: song_gekka_no_yasoukyoku
+    position: 11
+  - song: song_illuminati
+    position: 4
+  - song: song_au_revoir
+    position: 7
+verification_status: verified
+facts: []
+notes: >
+  Full 12-track listing synced from Discogs (master 558472). v2 song entities
+  exist for key tracks; remaining album tracks are in v1 song catalog.

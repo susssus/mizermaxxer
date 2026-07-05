@@ -1,0 +1,60 @@
+---
+import BrowseFilters from "../../components/BrowseFilters.astro";
+import Base from "../../layouts/Base.astro";
+import linksIndex from "../../data/links_index.json";
+
+const rows = linksIndex.browse;
+---
+
+<Base title="Browse — Malice Mizer Research Archive">
+  <section class="stats">
+    <div class="stat"><strong id="browse-count">{rows.length}</strong><span>Entities shown</span></div>
+    <div class="stat"><strong>{linksIndex.entity_count}</strong><span>Total entities</span></div>
+    <div class="stat"><strong>{linksIndex.edge_count}</strong><span>Resolved links</span></div>
+  </section>
+
+  <BrowseFilters />
+
+  <table id="browse-table">
+    <thead class="sortable">
+      <tr>
+        <th data-sort="type">Type</th>
+        <th data-sort="title">Title</th>
+        <th data-sort="date">Date</th>
+        <th data-sort="status">Status</th>
+        <th data-sort="link_count">Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr
+          data-browse-row
+          data-id={row.id.toLowerCase()}
+          data-type={row.type}
+          data-title={row.title.toLowerCase()}
+          data-date={row.date || ""}
+          data-year={row.year || ""}
+          data-status={row.status}
+          data-link_count={String(row.link_count)}
+        >
+          <td>
+            <span class={`type-chip ${row.type_color}`}>{row.type_label}</span>
+          </td>
+          <td>
+            <a href={`/entity/${row.id}`}>{row.title}</a>
+            <div class="muted" style="font-size:0.78rem;margin-top:0.15rem;">{row.id}</div>
+          </td>
+          <td>{row.date ?? "—"}</td>
+          <td>
+            <span class={`badge ${row.status}`}>{row.status.replaceAll("_", " ")}</span>
+          </td>
+          <td class="link-count">{row.link_count}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <p class="muted" style="margin-top:1rem;">
+    Generated {linksIndex.generated_at}. Links column = unique related entities from the resolved graph.
+  </p>
+</Base>

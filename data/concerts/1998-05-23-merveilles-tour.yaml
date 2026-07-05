@@ -1,0 +1,24 @@
+id: 1998-05-23-merveilles-tour
+date: '1998-05-23'
+date_precision: day
+venue: ichikawa-cultural-hall
+event_name_ja: merveilles ～終焉と帰趨～
+event_name_en: merveilles ~Shuuen to kisuu~ tour
+type: oneman
+tour: merveilles-1998
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: SOLD OUT
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1998-05-23 merveilles ~Shuuen to kisuu~ tour

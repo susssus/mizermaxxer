@@ -1,0 +1,32 @@
+id: cardinal
+title_ja: Cardinal
+title_en: Cardinal
+type: dvd
+release_date: '2002-02-06'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMBV-028
+format: dvd
+cover_image: images/covers/cardinal.jpg
+verification_status: verified
+tracks:
+- song: saikai-no-chi-to-bara
+  position: 1
+- song: kyomu-no-naka-de-no-yugi
+  position: 2
+- song: shiroi-hada
+  position: 3
+- song: gardenia
+  position: 4
+- song: beast-of-blood
+  position: 5
+- song: garnet
+  position: 6
+- song: beast-of-blood-live
+  position: 7
+notes: Synced from Discogs (https://www.discogs.com/master/1222328-Malice-Mizer-Cardinal).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/1222328-Malice-Mizer-Cardinal

@@ -1,0 +1,24 @@
+id: 1993-12-29-katharsis-vol3
+date: '1993-12-29'
+date_precision: day
+venue: osaka-shinsaibashi-muse-hall
+event_name_ja: null
+event_name_en: KATHARSIS Vol.3
+type: festival
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- tetsu
+- kami
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1993-12-29 KATHARSIS Vol.3

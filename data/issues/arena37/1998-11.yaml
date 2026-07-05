@@ -1,0 +1,43 @@
+id: arena37-1998-11
+publication: arena37
+issue_number: null
+volume: null
+publication_date: 1998-11
+date_precision: month
+verification_status: verified
+source_notes: >
+  Le ciel / Merveilles era. Incomplete issue with MM cover on Internet Archive:
+  https://archive.org/details/arena194-ss-2
+research_targets:
+- cover
+- poster
+- review
+- interview
+- advertisement
+- release calendar
+articles:
+- id: arena37-1998-11-001
+  title_ja: null
+  title_en: null
+  type: cover
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: true
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: https://archive.org/details/arena194-ss-2
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: Incomplete November 1998 issue scan; MM cover confirmed.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: internet_archive_survey
+  notes: Incomplete Nov 1998 Arena37℃ issue with MM cover linked from Internet Archive.

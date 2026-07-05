@@ -1,0 +1,39 @@
+id: fools-mate-1997-07
+publication: fools-mate
+issue_number: "189"
+volume: null
+publication_date: 1997-07
+date_precision: month
+verification_status: verified
+source_notes: >
+  MM pages scanned on Cantavanda (3 images).
+  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/
+research_targets:
+- interview
+- photo spread
+articles:
+- id: fools-mate-1997-07-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: MM clippings only; not full issue. Source Cantavanda (Butterfly Rose).
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: cantavanda
+  notes: Scan gallery linked from Cantavanda magazine appearances.

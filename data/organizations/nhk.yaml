@@ -1,0 +1,11 @@
+id: org_nhk
+type: organization
+name:
+  original: NHK
+  romanized: NHK
+  english: Japan Broadcasting Corporation
+organization_type: broadcaster
+country: Japan
+url: https://www.nhk.or.jp/
+facts: []
+notes: Public broadcaster; radio and television appearances.

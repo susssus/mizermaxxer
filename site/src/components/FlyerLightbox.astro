@@ -1,0 +1,173 @@
+<dialog class="flyer-lightbox" id="flyer-lightbox" aria-labelledby="flyer-lightbox-caption">
+  <form method="dialog" class="flyer-lightbox__backdrop">
+    <button type="submit" class="flyer-lightbox__backdrop-btn" aria-label="Close preview"></button>
+  </form>
+  <div class="flyer-lightbox__panel" role="document">
+    <button type="button" class="flyer-lightbox__close" data-flyer-close aria-label="Close preview">
+      ×
+    </button>
+    <figure class="flyer-lightbox__figure">
+      <img class="flyer-lightbox__img" data-flyer-lightbox-img src="" alt="" />
+      <figcaption class="flyer-lightbox__caption" id="flyer-lightbox-caption">
+        <strong data-flyer-lightbox-title></strong>
+        <span data-flyer-lightbox-date></span>
+        <a data-flyer-lightbox-link href="#" hidden>View details →</a>
+      </figcaption>
+    </figure>
+  </div>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("flyer-lightbox") as HTMLDialogElement | null;
+  const img = document.querySelector("[data-flyer-lightbox-img]") as HTMLImageElement | null;
+  const titleEl = document.querySelector("[data-flyer-lightbox-title]") as HTMLElement | null;
+  const dateEl = document.querySelector("[data-flyer-lightbox-date]") as HTMLElement | null;
+  const linkEl = document.querySelector("[data-flyer-lightbox-link]") as HTMLAnchorElement | null;
+
+  function openFlyerLightbox(button: HTMLButtonElement) {
+    if (!dialog || !img || !titleEl || !dateEl || !linkEl) return;
+
+    const src = button.dataset.flyerSrc;
+    const title = button.dataset.flyerTitle ?? "Flyer scan";
+    const date = button.dataset.flyerDate ?? "";
+    const href = button.dataset.flyerHref;
+
+    img.src = src ?? "";
+    img.alt = title;
+    titleEl.textContent = title;
+    dateEl.textContent = date;
+
+    if (href) {
+      linkEl.href = href;
+      linkEl.hidden = false;
+    } else {
+      linkEl.hidden = true;
+    }
+
+    dialog.showModal();
+  }
+
+  function closeFlyerLightbox() {
+    dialog?.close();
+  }
+
+  document.querySelectorAll("[data-flyer-open]").forEach((button) => {
+    button.addEventListener("click", () => openFlyerLightbox(button as HTMLButtonElement));
+  });
+
+  document.querySelectorAll("[data-flyer-close]").forEach((button) => {
+    button.addEventListener("click", closeFlyerLightbox);
+  });
+
+  dialog?.addEventListener("click", (event) => {
+    if (event.target === dialog) closeFlyerLightbox();
+  });
+
+  dialog?.addEventListener("close", () => {
+    if (img) img.src = "";
+  });
+</script>
+
+<style>
+  .flyer-lightbox {
+    padding: 0;
+    border: none;
+    background: transparent;
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .flyer-lightbox::backdrop {
+    background: color-mix(in srgb, var(--bg) 15%, rgb(0 0 0 / 72%));
+    backdrop-filter: blur(4px);
+  }
+  .flyer-lightbox__backdrop {
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+  .flyer-lightbox__backdrop-btn {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  .flyer-lightbox__panel {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 1rem 1rem;
+    pointer-events: none;
+  }
+  .flyer-lightbox__figure {
+    margin: 0;
+    max-width: min(960px, 100%);
+    max-height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+  }
+  .flyer-lightbox__img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 7rem);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    box-shadow: 0 12px 40px rgb(0 0 0 / 35%);
+  }
+  .flyer-lightbox__caption {
+    margin-top: 0.65rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.75rem;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .flyer-lightbox__caption strong {
+    color: var(--text);
+    font-size: 0.9rem;
+  }
+  .flyer-lightbox__caption a {
+    margin-left: auto;
+    font-size: 0.78rem;
+  }
+  .flyer-lightbox__close {
+    position: fixed;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 1;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--accent);
+    font-size: 1.35rem;
+    line-height: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .flyer-lightbox__close:hover {
+    border-color: color-mix(in srgb, var(--rose) 45%, var(--border));
+    background: color-mix(in srgb, var(--rose) 6%, var(--surface));
+  }
+</style>

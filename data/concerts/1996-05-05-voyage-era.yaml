@@ -1,0 +1,24 @@
+id: 1996-05-05-voyage-era
+date: '1996-05-05'
+date_precision: day
+venue: ikebukuro-cyber
+event_name_ja: null
+event_name_en: Oneman (SOLD OUT)
+type: live
+tour: null
+setlist: []
+members_present:
+- mana
+- kozi
+- yuki
+- kami
+- gackt
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances: []
+notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 1996-05-05 Oneman (SOLD OUT)

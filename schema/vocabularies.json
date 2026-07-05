@@ -1,0 +1,47 @@
+{
+  "verification_status": [
+    "verified",
+    "possible",
+    "mention_only",
+    "needs_verification",
+    "disputed"
+  ],
+  "date_precision": ["year", "month", "day"],
+  "article_type": [
+    "interview",
+    "live_report",
+    "review",
+    "advertisement",
+    "photo_spread",
+    "live_listing",
+    "mention",
+    "instrument_interview",
+    "release_calendar",
+    "cover",
+    "poster",
+    "flyer",
+    "newsletter",
+    "pamphlet"
+  ],
+  "member_slug": [
+    "klaha",
+    "mana",
+    "kozi",
+    "yuki",
+    "kami",
+    "gackt",
+    "tetsu",
+    "birith",
+    "karis",
+    "unknown"
+  ],
+  "scan_quality": ["low", "medium", "high", "original_scan"],
+  "publication_status": ["verified", "needs_confirmation"],
+  "changelog_action": [
+    "created",
+    "updated",
+    "verified",
+    "status_change",
+    "research_note"
+  ]
+}

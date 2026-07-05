@@ -1,0 +1,38 @@
+id: la-collection-des-singles
+title_ja: La Collection Des Singles
+title_en: La Collection Des Singles
+type: compilation
+release_date: '2006-07-19'
+date_precision: day
+label: Columbia Music Entertainment
+catalog_number: COZA-212~3
+format: cd
+cover_image: images/covers/la-collection-des-singles.jpg
+verification_status: verified
+tracks:
+- song: bel-air
+  position: 1
+- song: color-me-blood-red
+  position: 2
+- song: au-revoir
+  position: 3
+- song: au-revoir-bossa
+  position: 4
+- song: gekka-no-yasoukyoku
+  position: 5
+- song: de-l-image
+  position: 6
+- song: illuminati-p-type
+  position: 7
+- song: n-p-s-n-g-s-n-type
+  position: 8
+- song: le-ciel
+  position: 9
+- song: de-limage
+  position: 10
+notes: Synced from Discogs (https://www.discogs.com/master/375579-Malice-Mizer-La-Collection-Des-Singles).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/375579-Malice-Mizer-La-Collection-Des-Singles

@@ -1,0 +1,52 @@
+id: bara-makuake-video
+title_ja: 薔薇に彩られた悪意と悲劇の幕開け
+title_en: 薔薇に彩られた悪意と悲劇の幕開け
+type: dvd
+release_date: '2000-11-22'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMBV-015
+format: dvd
+cover_image: images/covers/bara-makuake-video.jpg
+verification_status: verified
+tracks:
+- song: saikai-no-chi-to-bara
+  position: 1
+- song: bara-makuake
+  position: 2
+- song: seinaru-toki
+  position: 3
+- song: kagami-no-butou
+  position: 4
+- song: chikasuimyaku-no-meiro
+  position: 5
+- song: mayonaka-yakusoku
+  position: 6
+- song: bara-no-souretsu
+  position: 7
+- song: kyomu-no-naka-de-no-yugi
+  position: 8
+- song: bara-no-senrei
+  position: 9
+- song: gensou-rakuen
+  position: 10
+- song: chi-nurareta-kajitsu
+  position: 11
+- song: houkai-jokyoku
+  position: 12
+- song: kioku-to-sora-saikai-yakusoku
+  position: 13
+- song: hakai-no-hate
+  position: 14
+- song: unmei-no-deai
+  position: 15
+- song: shiroi-hada
+  position: 16
+- song: yakusoku
+  position: 17
+notes: Synced from Discogs (https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け

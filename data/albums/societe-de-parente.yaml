@@ -1,0 +1,20 @@
+id: societe-de-parente
+title_ja: Socìété De Parenté = 新たなる血族との響宴
+title_en: Socìété De Parenté = 新たなる血族との響宴
+type: vhs
+release_date: '2001-11-19'
+date_precision: day
+label: Midi:Nette
+catalog_number: MCVC-0001
+format: vhs
+cover_image: images/covers/societe-de-parente.jpg
+verification_status: verified
+tracks:
+- song: digest-video-footage-cooking-by-klaha-and-mana-qa-etc
+  position: 1
+notes: Synced from Discogs (https://www.discogs.com/release/15937484-Malice-Mizer-Socìété-De-Parenté-新たなる血族との響宴).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/15937484-Malice-Mizer-Socìété-De-Parenté-新たなる血族との響宴

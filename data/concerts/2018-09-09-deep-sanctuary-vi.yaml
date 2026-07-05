@@ -1,0 +1,55 @@
+id: 2018-09-09-deep-sanctuary-vi
+date: '2018-09-09'
+date_precision: day
+venue: toyosu-pit
+event_name_ja: Deep Sanctuary VI MALICE MIZER 25th Anniversary Special
+event_name_en: Deep Sanctuary VI — MALICE MIZER 25th Anniversary Special
+type: festival
+tour: deep-sanctuary-vi-2018
+setlist:
+- saikai-no-chi-to-bara
+- kyomu-no-naka-de-no-yugi
+- de-memoire
+- kioku-to-sora
+- illuminati
+- apres-midi
+- apres-midi-paris
+- bel-air
+- zencho
+- madrigal
+- nps-ngs
+- unmei-no-deai
+- au-revoir
+- ma-cherie
+- saikai
+members_present:
+- mana
+- kozi
+- yuki
+verification_status: verified
+source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
+performances:
+- url: https://www.youtube.com/watch?v=1pXZotZCl-o
+  platform: youtube
+  quality: pro_shot
+  title: Deep Sanctuary VI (YouTube)
+  notes: Fan remaster of both nights; guest vocalists Shuji, KAMIJO, Hitomi.
+- url: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+  platform: other
+  quality: official
+  title: Deep Sanctuary VI Blu-ray/DVD (Discogs)
+- url: https://www.setlist.fm/setlist/malice-mizer/2018/toyosu-pit-tokyo-japan-1be9a548.html
+  platform: other
+  quality: unknown
+  title: Setlist.fm (2018-09-09)
+notes: Official Blu-ray/DVD documents this date. Moi dix Mois and ZIZ also performed.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: concert_catalog_seed
+  notes: Catalog entry 2018-09-09 Deep Sanctuary VI — MALICE MIZER 25th Anniversary
+    Special
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Setlist added from setlist.fm (2018-09-09 Toyosu PIT) (15 songs)

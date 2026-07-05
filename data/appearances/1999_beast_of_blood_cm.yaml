@@ -1,0 +1,26 @@
+id: appearance_1999_beast_of_blood_cm
+type: appearance
+title:
+  original: Beast of Blood TVスポット
+  romanized: Beast of Blood TV Commercial
+appearance_type: cm
+format: cm
+date: "1999-04"
+date_precision: month
+broadcast:
+  network: null
+  program: null
+  channel: null
+venue: null
+members_present:
+  - person_mana
+  - person_kozi
+  - person_yuki
+  - person_kami
+  - person_klaha
+songs_performed:
+  - song_beast_of_blood
+performances: []
+verification_status: needs_verification
+facts: []
+notes: CM stub tied to Beast of Blood single release (1999-04-21). Network and air dates TBC.

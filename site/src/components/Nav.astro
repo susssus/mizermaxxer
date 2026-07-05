@@ -1,0 +1,45 @@
+---
+const links = [
+  { href: "/browse", label: "Browse" },
+  { href: "/", label: "Bibliography" },
+  { href: "/flyers", label: "Flyers" },
+  { href: "/discography", label: "Discography" },
+  { href: "/gigs", label: "Gigs" },
+  { href: "/videos", label: "Videos" },
+];
+
+function isActive(href: string) {
+  const path = Astro.url.pathname;
+  if (href === "/") return path === "/";
+  return path === href || path.startsWith(`${href}/`);
+}
+---
+
+<nav class="site-nav">
+  {links.map((link) => (
+    <a href={link.href} class:list={{ active: isActive(link.href) }}>
+      {link.label}
+    </a>
+  ))}
+</nav>
+
+<style>
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .site-nav a {
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 0.92rem;
+    letter-spacing: 0.02em;
+  }
+  .site-nav a.active,
+  .site-nav a:hover {
+    color: var(--accent);
+  }
+</style>

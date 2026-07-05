@@ -1,0 +1,43 @@
+id: arena37-1997-10
+publication: arena37
+issue_number: null
+volume: null
+publication_date: 1997-10
+date_precision: month
+verification_status: verified
+source_notes: >
+  Merveilles era. MM-only extract on Internet Archive:
+  https://archive.org/details/arena-37-c-oct-97-01
+research_targets:
+- cover
+- poster
+- review
+- interview
+- advertisement
+- release calendar
+articles:
+- id: arena37-1997-10-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: https://archive.org/details/arena-37-c-oct-97-01
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: MM-only pages extracted from October 1997 issue; not full magazine.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: internet_archive_survey
+  notes: MM-only Arena37℃ Oct 1997 extract linked from Internet Archive.

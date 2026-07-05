@@ -1,0 +1,23 @@
+id: bel-air-single
+title_ja: ヴェル・エール～空白の瞬間の中で～
+title_en: ヴェル・エール～空白の瞬間の中で～
+release_date: '1997-08-06'
+date_precision: day
+label: Maitrize
+catalog_number: CODA-1276
+format: cd
+a_side: bel-air
+b_side: color-me-blood-red
+coupling_tracks: []
+cover_image: images/covers/bel-air-single.jpg
+verification_status: verified
+notes: Synced from Discogs (https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で).
+changelog:
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で

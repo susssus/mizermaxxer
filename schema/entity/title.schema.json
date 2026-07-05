@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "title.schema.json",
+  "title": "LocalizedTitle",
+  "type": "object",
+  "required": ["romanized"],
+  "properties": {
+    "original": { "type": "string" },
+    "romanized": { "type": "string", "minLength": 1 },
+    "english": { "type": "string" }
+  },
+  "additionalProperties": false
+}

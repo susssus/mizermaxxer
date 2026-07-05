@@ -1,0 +1,46 @@
+id: la-meilleur-selection
+title_ja: La Meilleur Selection De Malice Mizer
+title_en: La Meilleur Selection De Malice Mizer
+type: compilation
+release_date: '2006-10-18'
+date_precision: day
+label: Maitrize
+catalog_number: COCP-33982
+format: cd
+cover_image: images/covers/la-meilleur-selection.jpg
+verification_status: verified
+tracks:
+- song: uruwashii-kamen
+  position: 1
+- song: tsuioku-no-hahen
+  position: 2
+- song: premier-amour
+  position: 3
+- song: n-p-s-n-g-s
+  position: 4
+- song: madrigal
+  position: 5
+- song: shi-no-butou
+  position: 6
+- song: ma-ch-rie
+  position: 7
+- song: syunikiss
+  position: 8
+- song: bel-air
+  position: 9
+- song: illuminati
+  position: 10
+- song: brise
+  position: 11
+- song: au-revoir
+  position: 12
+- song: gekka-no-yasoukyoku
+  position: 13
+- song: le-ciel
+  position: 14
+notes: Synced from Discogs (https://www.discogs.com/release/8708164-Malice-Mizer-La-Meilleur-Selection-De-Malice-Mizer).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/release/8708164-Malice-Mizer-La-Meilleur-Selection-De-Malice-Mizer

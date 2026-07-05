@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "performance.schema.json",
+  "title": "Performance",
+  "type": "object",
+  "required": ["url", "platform"],
+  "properties": {
+    "url": { "type": "string" },
+    "platform": {
+      "enum": ["youtube", "niconico", "bilibili", "archive_org", "vimeo", "dailymotion", "other"]
+    },
+    "quality": {
+      "enum": ["official", "tv_broadcast", "pro_shot", "audience", "low", "unknown", null]
+    },
+    "title": { "type": ["string", "null"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

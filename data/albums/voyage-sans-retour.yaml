@@ -1,0 +1,46 @@
+id: voyage-sans-retour
+title_ja: Voyage Sans Retour
+title_en: Voyage Sans Retour
+type: album
+release_date: '1996-06-09'
+date_precision: day
+label: Midi:Nette
+catalog_number: M:N-003N
+format: cd
+notes: Synced from Discogs (https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour).
+verification_status: verified
+cover_image: images/covers/voyage-sans-retour.jpg
+tracks:
+- song: yami-no-kanata-e
+  position: 1
+- song: transylvania
+  position: 2
+- song: tsuioku-no-hahen
+  position: 3
+- song: premier-amour
+  position: 4
+- song: itsuwari-no-musette
+  position: 5
+- song: nps-ngs
+  position: 6
+- song: claire-tsuki-no-shirabe
+  position: 7
+- song: madrigal
+  position: 8
+- song: shi-no-butou
+  position: 9
+- song: zencho
+  position: 10
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: seed_script
+  notes: Seed entry for Voyage ~sans retour~
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+- date: '2026-07-05'
+  action: updated
+  source: discogs_sync
+  notes: Metadata and cover from https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour

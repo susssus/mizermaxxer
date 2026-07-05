@@ -1,0 +1,22 @@
+id: beast-of-blood-de-limage
+title_ja: Beast Of Blood ～De L'Image～
+title_en: Beast Of Blood ～De L'Image～
+type: dvd
+release_date: '2001-07-11'
+date_precision: day
+label: Midi:Nette
+catalog_number: MMBV-024
+format: dvd
+cover_image: images/covers/beast-of-blood-de-limage.jpg
+verification_status: verified
+tracks:
+- song: beast-of-blood
+  position: 1
+- song: music-clip-shooting
+  position: 2
+notes: Synced from Discogs (https://www.discogs.com/master/1222381-Malice-Mizer-Beast-Of-Blood-De-LImage).
+changelog:
+- date: '2026-07-05'
+  action: created
+  source: discogs_sync
+  notes: Imported from https://www.discogs.com/master/1222381-Malice-Mizer-Beast-Of-Blood-De-LImage

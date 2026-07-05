@@ -1,0 +1,34 @@
+id: concert_1998_04_01_budokan
+type: concert
+title:
+  original: merveilles ～終焉と帰趨～
+  romanized: merveilles ~Shuuen to kisuu~
+  english: merveilles ~End and Homage~
+date: "1998-04-01"
+date_precision: day
+venue: venue_nippon_budokan
+concert_type: oneman
+setlist:
+  - song_gekka_no_yasoukyoku
+  - song_illuminati
+  - song_au_revoir
+members_present:
+  - person_mana
+  - person_kozi
+  - person_yuki
+  - person_kami
+  - person_gackt
+performances:
+  - url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live
+    platform: archive_org
+    quality: pro_shot
+    title: merveilles l'espace (Internet Archive)
+    notes: Official concert film; Budokan 1998-04-01 and Yokohama Arena 1998-07-22.
+  - url: https://www.youtube.com/watch?v=94gn00m6rf4
+    platform: youtube
+    quality: pro_shot
+    title: merveilles l'espace (YouTube)
+    notes: Fan upload of official VHS/DVD edit.
+verification_status: verified
+facts: []
+notes: SOLD OUT in 2 minutes after album release.

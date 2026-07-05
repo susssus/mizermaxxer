@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "venue.schema.json",
+  "title": "Venue",
+  "type": "object",
+  "required": ["id", "name_ja", "name_en", "city", "country"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name_ja": { "type": "string" },
+    "name_en": { "type": "string" },
+    "city": { "type": "string" },
+    "prefecture": { "type": ["string", "null"] },
+    "country": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}
