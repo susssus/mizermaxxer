@@ -230,6 +230,46 @@ def performance_url_exists(performances: list[dict[str, Any]], url: str) -> bool
     return any(p.get("url") == url for p in performances)
 
 
+EMBED_PLATFORMS = frozenset({"youtube", "archive_org", "niconico", "vimeo"})
+
+
+def has_embeddable(performances: list[dict[str, Any]]) -> bool:
+    return any(p.get("platform") in EMBED_PLATFORMS for p in performances)
+
+
+def discover_ia_for_date(date: str) -> list[dict[str, Any]]:
+    """Search Internet Archive for malice mizer footage on a specific date."""
+    query = urllib.parse.urlencode(
+        {
+            "q": f"malice mizer AND date:{date}",
+            "fl[]": ["identifier", "title", "date", "mediatype"],
+            "rows": 10,
+            "output": "json",
+        }
+    )
+    url = f"https://archive.org/advancedsearch.php?{query}"
+    try:
+        payload = json.loads(fetch(url))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        return []
+
+    results: list[dict[str, Any]] = []
+    for doc in payload.get("response", {}).get("docs", []):
+        if doc.get("mediatype") not in (None, "movies", "video"):
+            continue
+        title = doc.get("title") or doc["identifier"]
+        quality = "tv_broadcast" if "tv" in title.lower() or "coverage" in title.lower() else "unknown"
+        results.append(
+            {
+                "identifier": doc["identifier"],
+                "title": title,
+                "quality": quality,
+                "notes": f"Internet Archive match for {date}.",
+            }
+        )
+    return results
+
+
 def ia_performance(item: dict[str, Any]) -> dict[str, Any]:
     identifier = item["identifier"]
     return {
@@ -330,6 +370,12 @@ def augment_concert(
     if date in setlist_fm_urls:
         url = setlist_fm_urls[date]
         new_performances.append(setlist_fm_performance(url, date))
+
+    performances = list(doc.get("performances") or [])
+    if not has_embeddable(performances) and not has_embeddable(new_performances):
+        for item in discover_ia_for_date(date):
+            new_performances.append(ia_performance(item))
+        time.sleep(0.3)
 
     if merge_performances(doc, new_performances, "augment_concerts"):
         changes.append("performances")

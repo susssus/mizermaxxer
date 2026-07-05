@@ -60,33 +60,23 @@ const linkOnlyPerformances =
     <section class="card" style="margin-top: 1rem;">
       <h3>Performance links</h3>
       {concert.performances.length ? (
-        <>
-          {linkOnlyPerformances.length > 0 && (
-            <ul>
-              {linkOnlyPerformances.map((performance) => (
-                <li>
-                  <a href={performance.url} target="_blank" rel="noopener noreferrer">
-                    {performance.title ?? performance.platform}
-                  </a>
-                  {performance.quality && <span class="muted"> ({performance.quality})</span>}
-                  {performance.notes && <p class="muted">{performance.notes}</p>}
-                </li>
-              ))}
-            </ul>
-          )}
-          {linkOnlyPerformances.length === 0 && embeddablePerformances.length > 0 && (
-            <ul>
-              {embeddablePerformances.map((performance) => (
-                <li>
-                  <a href={performance.url} target="_blank" rel="noopener noreferrer">
-                    {performance.title ?? performance.platform}
-                  </a>
-                  {performance.quality && <span class="muted"> ({performance.quality})</span>}
-                </li>
-              ))}
-            </ul>
-          )}
-        </>
+        linkOnlyPerformances.length > 0 ? (
+          <ul>
+            {linkOnlyPerformances.map((performance) => (
+              <li>
+                <a href={performance.url} target="_blank" rel="noopener noreferrer">
+                  {performance.title ?? performance.platform}
+                </a>
+                {performance.quality && <span class="muted"> ({performance.quality})</span>}
+                {performance.notes && <p class="muted">{performance.notes}</p>}
+              </li>
+            ))}
+          </ul>
+        ) : embeddablePerformances.length === 0 ? (
+          <p class="muted">No performance links yet.</p>
+        ) : (
+          <p class="muted">Embedded above — open source links from the video captions.</p>
+        )
       ) : (
         <p class="muted">No performance links yet.</p>
       )}
