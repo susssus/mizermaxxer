@@ -1,0 +1,42 @@
+id: fools-mate-vol-189
+publication: fools-mate
+issue_number: '189'
+volume: null
+publication_date: unknown
+date_precision: unknown
+verification_status: possible
+source_notes: 'vkgy roles: large_feature
+
+  [vkgy] https://vk.gy/magazines/fools-mate/7/no189/
+
+  vkgy: https://vk.gy/magazines/fools-mate/7/no189/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: fools-mate-vol-189-001
+  title_ja: null
+  title_en: null
+  type: feature
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: unknown
+    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'vkgy roles: large_feature'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

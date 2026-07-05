@@ -15,10 +15,24 @@ members_present:
 - gackt
 verification_status: verified
 source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
-performances: []
+performances:
+- url: https://archive.org/details/malice-mizer-short-comment-97
+  platform: archive_org
+  quality: unknown
+  title: Malice Mizer Short Interview 1997
+  notes: Internet Archive match for 1997-08-01.
+- url: https://archive.org/details/malice-mizer-bel-air-interview
+  platform: archive_org
+  quality: unknown
+  title: Malice Mizer - Bel Air-era Interview
+  notes: Internet Archive match for 1997-08-01.
 notes: SOLD OUT
 changelog:
 - date: '2026-07-06'
   action: created
   source: concert_catalog_seed
   notes: Catalog entry 1997-08-01 Standing Tour '97 Pays de merveilles
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Added 2 performance link(s) from augment_concerts

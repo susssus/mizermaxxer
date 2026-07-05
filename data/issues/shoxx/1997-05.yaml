@@ -1,0 +1,40 @@
+id: shoxx-1997-05
+publication: shoxx
+issue_number: '51'
+volume: null
+publication_date: 1997-05
+date_precision: month
+verification_status: possible
+source_notes: 'MALICE MIZERの不思議シアター（Koziコラージュ4コマ）
+
+  [misaolab-shoxx] https://misaolab.hateblo.jp/entry/20000302/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-1997-05-001
+  title_ja: null
+  title_en: null
+  type: mention
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: MALICE MIZERの不思議シアター（Koziコラージュ4コマ）
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

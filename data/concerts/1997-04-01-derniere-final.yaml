@@ -20,9 +20,18 @@ performances:
   platform: other
   quality: pro_shot
   title: Sans retour Voyage derniere VHS/DVD (Discogs)
+- url: https://archive.org/details/malice-mizer-voyage-live-in-tv-97
+  platform: archive_org
+  quality: tv_broadcast
+  title: Malice Mizer Voyage Tour TV Coverage
+  notes: Internet Archive match for 1997-04-01.
 notes: SOLD OUT; filmed for VHS/DVD.
 changelog:
 - date: '2026-07-06'
   action: created
   source: concert_catalog_seed
   notes: Catalog entry 1997-04-01 Sans retour Voyage derniere — indies farewell
+- date: '2026-07-06'
+  action: augmented
+  source: augment_concerts
+  notes: Added 1 performance link(s) from augment_concerts

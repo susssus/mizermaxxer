@@ -1,0 +1,40 @@
+id: shoxx-2002-10
+publication: shoxx
+issue_number: '116'
+volume: null
+publication_date: 2002-10
+date_precision: month
+verification_status: possible
+source_notes: 'カラー2p、2002/7/31 渋谷AXレポ
+
+  [misaolab-shoxx] https://misaolab.hateblo.jp/entry/20000302/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-2002-10-001
+  title_ja: null
+  title_en: null
+  type: live_report
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: カラー2p、2002/7/31 渋谷AXレポ
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

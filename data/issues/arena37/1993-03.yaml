@@ -4,8 +4,10 @@ issue_number: null
 volume: null
 publication_date: 1993-03
 date_precision: month
-verification_status: needs_verification
-source_notes: 1993 quarterly research placeholder for ARENA37.
+verification_status: possible
+source_notes: '1993 quarterly research placeholder for ARENA37.
+
+  NDL candidate (1993-03): Arena37℃ = アリーナサーティセブン — https://ndlsearch.ndl.go.jp/books/R100000002-I000000037773'
 research_targets:
 - exact issue numbers
 - page numbers
@@ -38,3 +40,7 @@ changelog:
   action: created
   source: user_bibliography
   notes: 1993 placeholder stub
+- date: '2026-07-06'
+  action: status_change
+  source: ndl
+  notes: 'NDL candidate (1993-03): Arena37℃ = アリーナサーティセブン — https://ndlsearch.ndl.go.jp/books/R100000002-I000000037773'

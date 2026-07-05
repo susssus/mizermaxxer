@@ -1,0 +1,40 @@
+id: fools-mate-1999-02
+publication: fools-mate
+issue_number: '208'
+volume: null
+publication_date: 1999-02
+date_precision: month
+verification_status: possible
+source_notes: 'カラー4p、インタビュー振り返り。年賀状（Mana）。
+
+  [misaolab-fools-mate] https://misaolab.hateblo.jp/entry/20000301/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: fools-mate-1999-02-001
+  title_ja: null
+  title_en: null
+  type: interview
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: カラー4p、インタビュー振り返り。年賀状（Mana）。
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

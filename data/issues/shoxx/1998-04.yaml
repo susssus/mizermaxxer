@@ -1,0 +1,44 @@
+id: shoxx-1998-04
+publication: shoxx
+issue_number: '62'
+volume: null
+publication_date: 1998-04
+date_precision: month
+verification_status: possible
+source_notes: 'カラー14p、パーソナルインタビュー（衣装：サイバー）&1997/12/28 渋谷公会堂レポ
+
+  [vkgy] https://vk.gy/magazines/shoxx/56/vol-62/
+
+  [misaolab-shoxx] https://misaolab.hateblo.jp/entry/20000302/1356327963
+
+  vkgy: https://vk.gy/magazines/shoxx/56/vol-62/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-1998-04-001
+  title_ja: null
+  title_en: null
+  type: interview
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: カラー14p、パーソナルインタビュー（衣装：サイバー）&1997/12/28 渋谷公会堂レポ
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

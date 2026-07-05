@@ -30,27 +30,47 @@ source_indexes:
 - id: internet-archive
   title: Internet Archive search
   url: https://archive.org/search?query=malice+mizer
+- id: malice-archive-incomplete-mags
+  title: The Malice Archive — Incomplete Mags (Google Drive)
+  url: https://malice-archive.neocities.org/Incompletemags/main
+  notes: Partial magazine scans hosted on Google Drive.
+- id: vkgy-magazine-indexes
+  title: vkgy per-magazine indexes
+  url: https://vk.gy/magazines/
+  notes: Per-issue TOC harvested via fetch_vkgy_magazines.py.
 statistics:
-  total_entries: 286
-  publications_count: 16
-  entries_with_scan_url: 7
+  total_entries: 277
+  publications_count: 28
+  entries_with_scan_url: 37
   by_publication:
-    fools-mate: 90
-    vicious: 42
-    shoxx: 40
-    arena37: 26
+    fools-mate: 87
+    arena37: 49
+    shoxx: 46
     b-pass: 17
-    m-gazette: 16
+    pati-pati: 12
     cd-skit: 11
-    pati-pati: 11
     band-yarouze: 9
+    vicious: 9
     artist-fan: 8
-    j-rock-magazine: 6
-    gigs: 4
+    gigs: 5
     apres-guerre: 3
+    gb: 3
+    cd-data: 2
+    fruige: 2
+    astan: 1
+    band-collection: 1
+    band-style: 1
+    band-x-artist: 1
+    bidan: 1
+    clap: 1
+    creation: 1
+    da-vinchi: 1
     friday: 1
+    luck-das: 1
+    myojo: 1
     pop-beat: 1
-    uv: 1
+    quick-japan: 1
+    zy: 1
 entries:
 - publication: apres-guerre
   issue_number: '11'
@@ -81,6 +101,17 @@ entries:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '179'
+  issue_date: 1997-07
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/1167/no-179/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -119,6 +150,17 @@ entries:
     available: true
     url: https://archive.org/details/arena-37-c-oct-97-01
 - publication: arena37
+  issue_number: '181'
+  issue_date: 1997-10
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/952/no-181/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: true
+    url: https://archive.org/details/arena-37-c-oct-97-01
+- publication: arena37
   issue_number: null
   issue_date: 1997-11
   sources:
@@ -130,12 +172,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '182'
+  issue_date: 1997-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/956/no-182/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1997-12
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '183'
+  issue_date: 1997-12
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/954/no-183/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -163,12 +227,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '185'
+  issue_date: 1998-02
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/800/no-185/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1998-03
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '186'
+  issue_date: 1998-03
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/780/no-186/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -185,12 +271,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '187'
+  issue_date: 1998-04
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/966/no-187/
+  coverage_notes: 'vkgy roles: large_feature, flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1998-05
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '188'
+  issue_date: 1998-05
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/140/no-188/
+  coverage_notes: 'vkgy roles: cover, large_feature'
   notes: null
   scan:
     available: false
@@ -207,6 +315,17 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '189'
+  issue_date: 1998-06
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/776/no-189/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1998-07
   sources:
@@ -218,12 +337,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '190'
+  issue_date: 1998-07
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/777/no-190/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1998-08
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '191'
+  issue_date: 1998-08
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/762/no-191/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -251,12 +392,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '193'
+  issue_date: 1998-10
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/1178/no-193/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1998-11
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: true
+    url: https://archive.org/details/arena194-ss-2
+- publication: arena37
+  issue_number: '194'
+  issue_date: 1998-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/799/no-194/
+  coverage_notes: 'vkgy roles: cover, large_feature'
   notes: null
   scan:
     available: true
@@ -273,12 +436,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '195'
+  issue_date: 1998-12
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/778/no-195/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1999-02
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '197'
+  issue_date: 1999-02
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/796/no-197/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -295,12 +480,45 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '198'
+  issue_date: 1999-03
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/765/no-198/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '199'
+  issue_date: 1999-04
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/1168/no-199/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 1999-06
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '201'
+  issue_date: 1999-06
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/785/no-201/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -339,12 +557,34 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '211'
+  issue_date: 2000-02
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/962/no-211/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 2000-09
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '216'
+  issue_date: 2000-09
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/759/no-216/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -361,12 +601,45 @@ entries:
     available: false
     url: null
 - publication: arena37
+  issue_number: '218'
+  issue_date: 2000-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/1169/no-218/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
   issue_number: null
   issue_date: 2000-12
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '233'
+  issue_date: 2002-02
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/958/no-233/
+  coverage_notes: 'vkgy roles: other_appearance'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: arena37
+  issue_number: '276'
+  issue_date: 2005-09
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/arena37/1195/no-276/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -459,12 +732,10 @@ entries:
   scan:
     available: false
     url: null
-- publication: b-pass
-  issue_number: null
-  issue_date: 1997-09
+- publication: astan
+  issue_number: '21'
+  issue_date: null
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
@@ -474,13 +745,26 @@ entries:
     url: null
 - publication: b-pass
   issue_number: null
-  issue_date: 1997-12
+  issue_date: 1997-09
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/1207/1997-09/
+  coverage_notes: 'vkgy roles: other_appearance'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: b-pass
+  issue_number: null
+  issue_date: 1997-12
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/855/1997-12/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -511,11 +795,11 @@ entries:
   issue_number: null
   issue_date: 1998-03
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/870/1998-03/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -524,11 +808,11 @@ entries:
   issue_number: null
   issue_date: 1998-04
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/826/1998-04/
+  coverage_notes: 'vkgy roles: large_feature, flyer'
   notes: null
   scan:
     available: false
@@ -537,11 +821,11 @@ entries:
   issue_number: null
   issue_date: 1998-05
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/872/1998-05/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -550,37 +834,41 @@ entries:
   issue_number: null
   issue_date: 1998-06
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/1388/1998-06/
+  coverage_notes: B-PASS June 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1RO9pgwnNSruQ3HqP36N7JxcQedea4Axv
 - publication: b-pass
   issue_number: null
   issue_date: 1998-07
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/829/1998-07/
+  coverage_notes: B-PASS July 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1qyLSCF9Q1Uj9slHvp72rSUqjCRp2PYJc
 - publication: b-pass
   issue_number: null
   issue_date: 1998-08
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/830/1998-08/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -589,11 +877,11 @@ entries:
   issue_number: null
   issue_date: 1998-09
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/1389/1998-09/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -613,11 +901,11 @@ entries:
   issue_number: null
   issue_date: 1998-11
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/868/1998-11/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -626,11 +914,11 @@ entries:
   issue_number: null
   issue_date: 1998-12
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/1391/1998-12/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -639,11 +927,11 @@ entries:
   issue_number: null
   issue_date: 1999-01
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
+  - id: vkgy
+    url: https://vk.gy/magazines/b-pass/1210/1999-01/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -663,8 +951,41 @@ entries:
   issue_number: null
   issue_date: 1999-04
   sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/b-pass/856/1999-04/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: band-collection
+  issue_number: '3'
+  issue_date: null
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: band-style
+  issue_number: null
+  issue_date: 2000-09
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: band-x-artist
+  issue_number: '1'
+  issue_date: null
+  sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
   coverage_notes: null
@@ -771,6 +1092,40 @@ entries:
   scan:
     available: false
     url: null
+- publication: bidan
+  issue_number: null
+  issue_date: 1998-09
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: cd-data
+  issue_number: null
+  issue_date: null
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: malice-archive marks incomplete / no scan malice-archive marks incomplete / no scan malice-archive marks incomplete
+    / no scan malice-archive marks incomplete / no scan malice-archive marks incomplete / no scan
+  scan:
+    available: false
+    url: null
+- publication: cd-data
+  issue_number: null
+  issue_date: 1998-03
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: CD Data March 20, 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1Bo-an1_Lz9cK3gzgnrw2Qv-J1q_ySA8-
 - publication: cd-skit
   issue_number: '10'
   issue_date: null
@@ -788,22 +1143,26 @@ entries:
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: CD SKiT! Vol. 11
+  notes: Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1voDHecpeSC50oh9RCgKq059wM8Ta4dkv
 - publication: cd-skit
   issue_number: '12'
   issue_date: null
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: CD SKiT! Vol. 12
+  notes: Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1_Piv046XqLIx09mHArbqiGpuagD6RpHB
 - publication: cd-skit
   issue_number: '2'
   issue_date: null
@@ -892,13 +1251,57 @@ entries:
   scan:
     available: false
     url: null
+- publication: clap
+  issue_number: '1'
+  issue_date: null
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: creation
+  issue_number: null
+  issue_date: 1998-08
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: da-vinchi
+  issue_number: null
+  issue_date: 1999-03
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fools-mate
+  issue_number: '154'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/922/no154/
+  coverage_notes: 'vkgy roles: other_appearance'
+  notes: null
+  scan:
+    available: false
+    url: null
 - publication: fools-mate
   issue_number: '171'
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/21/no171/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -908,8 +1311,19 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1282/no174/
+  coverage_notes: 'vkgy roles: other_appearance, flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fools-mate
+  issue_number: '176'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/910/no176/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -919,8 +1333,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/908/no177/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -930,8 +1344,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1284/no178/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -941,8 +1355,19 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/907/no181/
+  coverage_notes: 'vkgy roles: other_appearance'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fools-mate
+  issue_number: '184'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/1285/no184/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -952,8 +1377,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1286/no185/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -963,8 +1388,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/7/no189/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: true
@@ -974,8 +1399,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/8/no190/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -985,8 +1410,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1287/no193/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -996,8 +1421,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1288/no194/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -1007,8 +1432,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/10/no195/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1018,8 +1443,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/906/no196/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1029,8 +1454,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/11/no198/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1040,8 +1465,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/12/no200/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1051,8 +1476,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/13/no201/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1062,8 +1487,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/14/no202/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1073,8 +1498,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1289/no203/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -1084,8 +1509,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/25/no204/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1095,8 +1520,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1290/no205/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1106,8 +1531,30 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1291/no206/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fools-mate
+  issue_number: '207'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/1292/no207/
+  coverage_notes: 'vkgy roles: cover, large_feature'
+  notes: null
+  scan:
+    available: true
+    url: https://archive.org/details/fools-mate-207-january-1999-13
+- publication: fools-mate
+  issue_number: '209'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/916/no209/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1117,8 +1564,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1295/no210/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1128,8 +1575,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/26/no217/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1139,8 +1586,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/27/no219/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1150,19 +1597,41 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1304/no226/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1_ZqfUnRG9xP4QJoOawan3QBI6UlJ683i
 - publication: fools-mate
   issue_number: '228'
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1305/no228/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fools-mate
+  issue_number: '229'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/1306/no229/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fools-mate
+  issue_number: '236'
+  issue_date: null
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/fools-mate/1310/no236/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
@@ -1172,8 +1641,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/918/no237/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1183,8 +1652,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1311/no238/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1194,41 +1663,8 @@ entries:
   issue_date: null
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '243'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '274'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '275'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/fools-mate/1314/no242/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -1290,22 +1726,11 @@ entries:
   issue_number: '154'
   issue_date: 1994-08
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー2p、初インタビュー（Al「memoire」）
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '154'
-  issue_date: 1994-08
-  sources:
-  - id: malice-archive
-    url: https://malice-archive.neocities.org/list
-  coverage_notes: null
   notes: null
   scan:
     available: false
@@ -1357,22 +1782,11 @@ entries:
   issue_number: '176'
   issue_date: 1996-06
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー1p、1996/3/31 O-WESTレポ
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '176'
-  issue_date: 1996-06
-  sources:
-  - id: malice-archive
-    url: https://malice-archive.neocities.org/list
-  coverage_notes: null
   notes: null
   scan:
     available: false
@@ -1403,22 +1817,11 @@ entries:
   issue_number: '184'
   issue_date: 1997-02
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー4p、1996/11/18 O-WEST「喜劇の晩餐」、目黒学園女子短大レポ&個別インタビュー（Kami欠席）
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '184'
-  issue_date: 1997-02
-  sources:
-  - id: malice-archive
-    url: https://malice-archive.neocities.org/list
-  coverage_notes: null
   notes: null
   scan:
     available: false
@@ -1452,7 +1855,7 @@ entries:
   issue_date: 1997-06
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/fools-mate/6/no188/
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: 表紙（La'cryma Christiと合同）。カラー6p、ラクリマとインタビュー。1997/4/1 渋谷公会堂、1997/4/2 六本木TATOU東京レポ
@@ -1542,7 +1945,7 @@ entries:
   issue_date: 1998-03
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/fools-mate/1009/no197/
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー10p、Mana×FULL(Guniw Tools）対談、1997/12/28,29 渋谷公会堂レポ、Sg「月下の夜想曲」インタビュー（Gackt,Kozi）
@@ -1631,22 +2034,11 @@ entries:
   issue_number: '207'
   issue_date: 1999-01
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: 表紙。カラー12p
-  notes: null
-  scan:
-    available: true
-    url: https://archive.org/details/fools-mate-207-january-1999-13
-- publication: fools-mate
-  issue_number: '207'
-  issue_date: 1999-01
-  sources:
-  - id: malice-archive
-    url: https://malice-archive.neocities.org/list
-  coverage_notes: null
   notes: null
   scan:
     available: true
@@ -1665,22 +2057,11 @@ entries:
   issue_number: '209'
   issue_date: 1999-03
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー4p、公開質問状
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '209'
-  issue_date: 1999-03
-  sources:
-  - id: malice-archive
-    url: https://malice-archive.neocities.org/list
-  coverage_notes: null
   notes: null
   scan:
     available: false
@@ -1724,7 +2105,7 @@ entries:
   issue_date: 2000-02
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/fools-mate/1294/no220/
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー4p、個別インタビュー
@@ -1772,11 +2153,13 @@ entries:
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: FOOL'S MATE August 2000 (Vol. 226, incomplete)
+  notes: Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1_ZqfUnRG9xP4QJoOawan3QBI6UlJ683i
 - publication: fools-mate
   issue_number: '227'
   issue_date: 2000-09
@@ -1794,22 +2177,11 @@ entries:
   issue_number: '229'
   issue_date: 2000-11
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー4p、2000/9/1 日本武道館レポ
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '229'
-  issue_date: 2000-11
-  sources:
-  - id: malice-archive
-    url: https://malice-archive.neocities.org/list
-  coverage_notes: null
   notes: null
   scan:
     available: false
@@ -1832,7 +2204,7 @@ entries:
   issue_date: 2001-02
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/fools-mate/1308/no232/
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: カラー3p、2000/11/19 Zepp Tokyoレポ&インタビュー（Klaha,Mana）
@@ -1857,17 +2229,6 @@ entries:
   sources:
   - id: malice-archive
     url: https://malice-archive.neocities.org/list
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: fools-mate
-  issue_number: '236'
-  issue_date: 2001-07
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
   - id: misaolab-fools-mate
     url: https://misaolab.hateblo.jp/entry/20000301/1356327963
   coverage_notes: Vox View（Sg「Gardenia」Klaha,Manaコメント）
@@ -1920,567 +2281,292 @@ entries:
   scan:
     available: false
     url: null
+- publication: fruige
+  issue_number: null
+  issue_date: 1999-12
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: fruige
+  issue_number: null
+  issue_date: 2000-12
+  sources:
+  - id: malice-archive
+    url: https://malice-archive.neocities.org/list
+  coverage_notes: null
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: gb
+  issue_number: null
+  issue_date: 1998-08
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: GB August 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1WQhFVsdEeWz1itJdjUKdaJ5a7cfdn2Kd
+- publication: gb
+  issue_number: null
+  issue_date: 1999-01
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: GB January 1999
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1Gz-CYF_Rd-PofpUWT7acsOd6DPL7SO57
+- publication: gb
+  issue_number: null
+  issue_date: 1999-03
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: GB March 1999
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1E8L_rzofZVUIHMaBBfM-COS4bQFtjyLz
 - publication: gigs
   issue_number: '147'
-  issue_date: null
+  issue_date: 1998-07
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/gigs/1473/no-147/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
+- publication: gigs
+  issue_number: null
+  issue_date: 1998-08
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: GiGS August 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1yYFdlb7X4qP9Ba-GZvlcpPNg-_PgCOH4
 - publication: gigs
   issue_number: '149'
-  issue_date: null
+  issue_date: 1998-08
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/gigs/1474/no-149/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1yYFdlb7X4qP9Ba-GZvlcpPNg-_PgCOH4
 - publication: gigs
   issue_number: '153'
-  issue_date: null
+  issue_date: 1998-12
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/gigs/1478/no-153/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
 - publication: gigs
   issue_number: '154'
-  issue_date: null
+  issue_date: 1999-01
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/gigs/1479/no-154/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
-- publication: j-rock-magazine
-  issue_number: '25'
-  issue_date: null
+- publication: luck-das
+  issue_number: null
+  issue_date: 1999-02
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: Luck-das February 1999
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
-- publication: j-rock-magazine
-  issue_number: '34'
-  issue_date: null
+    available: true
+    url: https://drive.google.com/drive/folders/1R5IBIR6UEfLY4cSpIMkf4XokaxA6JGQp
+- publication: myojo
+  issue_number: null
+  issue_date: 1998-05
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: Myojo May 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
-- publication: j-rock-magazine
-  issue_number: '40'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: j-rock-magazine
-  issue_number: '43'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: j-rock-magazine
-  issue_number: '47'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: j-rock-magazine
-  issue_number: '63'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '14'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '15'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '16'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '17'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '18'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '19'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '20'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '21'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '22'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '27'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '28'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '29'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '31'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '33'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '34'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: m-gazette
-  issue_number: '7'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1K8f8f19-tKzkVGYxQGd7kNNmr3XhGwj2
 - publication: pati-pati
   issue_number: '156'
-  issue_date: null
+  issue_date: 1997-12
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/807/vol-156/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '158'
-  issue_date: null
+  issue_date: 1998-02
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/1243/vol-158/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '159'
-  issue_date: null
+  issue_date: 1998-03
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/837/vol-159/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '160'
-  issue_date: null
+  issue_date: 1998-04
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/1244/vol-160/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '162'
-  issue_date: null
+  issue_date: 1998-06
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/804/vol-162/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '163'
-  issue_date: null
+  issue_date: 1998-07
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/848/vol-163/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '164'
-  issue_date: null
+  issue_date: 1998-08
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/838/vol-164/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '165'
-  issue_date: null
+  issue_date: 1998-09
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/851/vol-165/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: pati-pati
   issue_number: '167'
-  issue_date: null
+  issue_date: 1998-11
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/839/vol-167/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
+- publication: pati-pati
+  issue_number: null
+  issue_date: 1999-01
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: PATi PATi January 1999
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1JS8MGpw-ed58XOA5c-RZDLPOa5ct05nI
 - publication: pati-pati
   issue_number: '169'
-  issue_date: null
+  issue_date: 1999-01
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/1235/vol-169/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1JS8MGpw-ed58XOA5c-RZDLPOa5ct05nI
 - publication: pati-pati
   issue_number: '171'
-  issue_date: null
+  issue_date: 1999-03
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/pati-pati/1234/vol-171/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: pop-beat
   issue_number: null
-  issue_date: null
+  issue_date: 1998-07
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: POP BEAT July 1998
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '104'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '105'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '107'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
+    available: true
+    url: https://drive.google.com/drive/folders/1sGGVWj-zqX3f_pESO9HO_Xg7Fk3RjTcW
+- publication: quick-japan
   issue_number: '23'
   issue_date: null
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: Quick Japan Vol. 23
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '29'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '36'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '56'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '58'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '59'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '65'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '66'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '69'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: shoxx
-  issue_number: '85'
-  issue_date: null
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/10xqhZM62nJaatdpoAJWxGT5d4rDn-ikS
 - publication: shoxx
   issue_number: '13'
   issue_date: 1993-01
@@ -2488,6 +2574,28 @@ entries:
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: インディーズハードロック最新情報（1992/11/24 新宿LOFTライブ告知）
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: null
+  issue_date: 1994-01
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: SHOXX January 1994
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1k4VbAphpmndKlHY-5bv6z8J-ZRHtSloI
+- publication: shoxx
+  issue_number: '23'
+  issue_date: 1994-03
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/689/vol-23/
+  coverage_notes: 'vkgy roles: other_appearance'
+  notes: null
   scan:
     available: false
     url: null
@@ -2502,24 +2610,68 @@ entries:
     available: false
     url: null
 - publication: shoxx
-  issue_number: '41'
-  issue_date: 1996-05
+  issue_number: '29'
+  issue_date: 1995-01
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  - id: misaolab-shoxx
-    url: https://misaolab.hateblo.jp/entry/20000302/1356327963
-  coverage_notes: 4p、SHOCK WAVE '96レポ
+    url: https://vk.gy/magazines/shoxx/679/vol-29/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: shoxx
+  issue_number: '36'
+  issue_date: 1995-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/63/vol-36/
+  coverage_notes: 'vkgy roles: flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: null
+  issue_date: 1996-03
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: SHOXX March 1996
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1vzLCU9aZhCcTsJk_rZRiAboPYUUOqgqB
+- publication: shoxx
+  issue_number: null
+  issue_date: 1996-05
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: SHOXX May 1996
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1Gukb47uibOUTFUZWfBf-I1wCI-xr3L_a
+- publication: shoxx
+  issue_number: '41'
+  issue_date: 1996-05
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/86/vol-41/
+  - id: misaolab-shoxx
+    url: https://misaolab.hateblo.jp/entry/20000302/1356327963
+  coverage_notes: 4p、SHOCK WAVE '96レポ
+  notes: null
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1Gukb47uibOUTFUZWfBf-I1wCI-xr3L_a
+- publication: shoxx
   issue_number: '47'
   issue_date: 1996-11
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/79/vol-47/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: カラー1p・モノ3p、Sg「ma cherie」メンバー全員インタビュー
@@ -2527,6 +2679,17 @@ entries:
   scan:
     available: false
     url: null
+- publication: shoxx
+  issue_number: null
+  issue_date: 1997-03
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: SHOXX March 1997
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1qfhyQoPJWvHrR3ezqytyl6VMBAza6Xb-
 - publication: shoxx
   issue_number: '51'
   issue_date: 1997-05
@@ -2568,11 +2731,55 @@ entries:
     available: false
     url: null
 - publication: shoxx
+  issue_number: '56'
+  issue_date: 1997-09
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/684/vol-56/
+  coverage_notes: 'vkgy roles: other_appearance, flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: null
+  issue_date: 1997-11
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: SHOXX November 1997
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/16F2-42V2aoB8zp7n7LYW4rO5lsA040ZG
+- publication: shoxx
+  issue_number: '58'
+  issue_date: 1997-12
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/686/vol-58/
+  coverage_notes: 'vkgy roles: other_appearance, flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: '59'
+  issue_date: 1998-01
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/66/vol-59/
+  coverage_notes: 'vkgy roles: large_feature, flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
   issue_number: '61'
   issue_date: 1998-03
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/82/vol-61/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: （La'cryma Christiと合同）表紙。カラー38p、パート別対談、Q&A（衣装：au revoir）
@@ -2585,7 +2792,7 @@ entries:
   issue_date: 1998-04
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/56/vol-62/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: カラー14p、パーソナルインタビュー（衣装：サイバー）&1997/12/28 渋谷公会堂レポ
@@ -2608,10 +2815,32 @@ entries:
   issue_date: 1998-06
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/92/vol-64/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: カラー10p、Mana・Koziフォトセッション（衣装：merveilles）&1998/4/1 日本武道館レポ
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: '65'
+  issue_date: 1998-07
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/83/vol-65/
+  coverage_notes: 'vkgy roles: flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: '66'
+  issue_date: 1998-08
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/682/vol-66/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -2621,10 +2850,21 @@ entries:
   issue_date: 1998-09
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/685/vol-67/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: 表紙。カラー32p、世界5大美女図鑑、Q&Aインタビュー
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: '69'
+  issue_date: 1998-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/68/vol-69/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
@@ -2664,7 +2904,7 @@ entries:
   issue_date: 2000-01
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/81/vol-83/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: 表紙。カラー24p、フォトセッション（衣装：再会の血と薔薇）&インタビュー
@@ -2679,6 +2919,17 @@ entries:
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: カラー6p、メンバー全員写真&Manaインタビュー
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: '85'
+  issue_date: 2000-03
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/70/vol-85/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
   scan:
     available: false
     url: null
@@ -2733,11 +2984,33 @@ entries:
     available: false
     url: null
 - publication: shoxx
+  issue_number: '104'
+  issue_date: 2001-10
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/85/vol-104/
+  coverage_notes: 'vkgy roles: large_feature'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: '105'
+  issue_date: 2001-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/100/vol-105/
+  coverage_notes: 'vkgy roles: flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
   issue_number: '106'
   issue_date: 2001-12
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
+    url: https://vk.gy/magazines/shoxx/91/vol-106/
   - id: misaolab-shoxx
     url: https://misaolab.hateblo.jp/entry/20000302/1356327963
   coverage_notes: 表紙。カラー24p、フォトギャラリー&インタビュー&「薔薇の婚礼」レビュー
@@ -2745,6 +3018,28 @@ entries:
   scan:
     available: false
     url: null
+- publication: shoxx
+  issue_number: '107'
+  issue_date: 2002-01
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/shoxx/84/vol-107/
+  coverage_notes: 'vkgy roles: flyer'
+  notes: null
+  scan:
+    available: false
+    url: null
+- publication: shoxx
+  issue_number: null
+  issue_date: 2002-02
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: SHOXX February 2002
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1An1Bzjak5QRgrfw2GqZMv7F4w9H3JXon
 - publication: shoxx
   issue_number: '113'
   issue_date: 2002-07
@@ -2775,476 +3070,113 @@ entries:
   scan:
     available: false
     url: null
-- publication: uv
+- publication: vicious
   issue_number: null
-  issue_date: null
+  issue_date: 1996-11
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '41994'
-  issue_date: 1994-01
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '71994'
-  issue_date: 1994-07
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '81994'
-  issue_date: 1994-09
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '91994'
-  issue_date: 1994-11
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '101995'
-  issue_date: 1995-01
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '161995'
-  issue_date: 1995-12
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/998/1996-11/
+  coverage_notes: 'vkgy roles: other_appearance'
   notes: null
   scan:
     available: false
     url: null
 - publication: vicious
   issue_number: null
-  issue_date: 1996-111996
+  issue_date: 1997-10
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/117/1997-10/
+  coverage_notes: 'vkgy roles: flyer'
+  notes: null
+  scan:
+    available: true
+    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/
+- publication: vicious
+  issue_number: null
+  issue_date: 1997-11
+  sources:
+  - id: vkgy
+    url: https://vk.gy/magazines/vicious/713/1997-11/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: vicious
   issue_number: null
-  issue_date: 1997-101997
+  issue_date: 1997-12
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/116/1997-12/
+  coverage_notes: 'vkgy roles: flyer'
   notes: null
   scan:
     available: false
     url: null
 - publication: vicious
   issue_number: null
-  issue_date: 1997-111997
+  issue_date: 1999-05
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/1501/1999-05/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: vicious
   issue_number: null
-  issue_date: 1997-121997
+  issue_date: 1999-10
+  sources:
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: Vicious October 1999
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
+  scan:
+    available: true
+    url: https://drive.google.com/drive/folders/1KGWREs1RxhA3SdZ8VO27jGLohYev-OxI
+- publication: vicious
+  issue_number: null
+  issue_date: 1999-12
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/1502/1999-12/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: vicious
   issue_number: null
-  issue_date: 1997-51997
+  issue_date: 2000-02
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/1503/2000-02/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
 - publication: vicious
   issue_number: null
-  issue_date: 1997-81997
+  issue_date: 2000-11
   sources:
   - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
+    url: https://vk.gy/magazines/vicious/115/2000-11/
+  coverage_notes: 'vkgy roles: large_feature'
   notes: null
   scan:
     available: false
     url: null
-- publication: vicious
+- publication: zy
   issue_number: null
-  issue_date: 1997-91997
+  issue_date: 2001-11
   sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
+  - id: malice-archive-incomplete-mags
+    url: https://malice-archive.neocities.org/Incompletemags/main
+  coverage_notes: Zy November 2001
+  notes: Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).
   scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: '441998'
-  issue_date: 1998-06
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-101998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-111998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-31998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-41998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-51998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-81998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1998-91998
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-111999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-11999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-121999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-41999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-51999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-71999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 1999-91999
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-102000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-112000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-12000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-22000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-32000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-42000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-82000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2000-92000
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2001-12001
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2001-122001
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2001-22001
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2001-32001
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2001-72001
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
-- publication: vicious
-  issue_number: null
-  issue_date: 2001-82001
-  sources:
-  - id: vkgy
-    url: https://www.jrock.gy/artists/malice-mizer/
-  coverage_notes: null
-  notes: null
-  scan:
-    available: false
-    url: null
+    available: true
+    url: https://drive.google.com/drive/folders/1ymIJEO-9OZfVscgcg4UrqupzIK6NWozK

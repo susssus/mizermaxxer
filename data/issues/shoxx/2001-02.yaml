@@ -1,0 +1,40 @@
+id: shoxx-2001-02
+publication: shoxx
+issue_number: '96'
+volume: null
+publication_date: 2001-02
+date_precision: month
+verification_status: possible
+source_notes: 'カラー3p、2000/11/19 Zepp Tokyoレポ
+
+  [misaolab-shoxx] https://misaolab.hateblo.jp/entry/20000302/1356327963'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: shoxx-2001-02-001
+  title_ja: null
+  title_en: null
+  type: live_report
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: カラー3p、2000/11/19 Zepp Tokyoレポ
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.
