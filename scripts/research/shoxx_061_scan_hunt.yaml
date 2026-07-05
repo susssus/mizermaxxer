@@ -54,18 +54,18 @@ reddit_crop_matches:
   crops:
     - reddit_url: https://i.redd.it/edgfan89gnfe1.jpg
       session: "SESSION.1 【Vocalist】 Gackt × TAKA"
-      source_pages: [07, 08]
+      source_pages: [08, 07]
       source_urls:
-        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/07.jpg
         - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/08.jpg
-      match: Gackt snakeskin/katana portrait + TAKA feather-collar portrait
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/07.jpg
+      match: TAKA feather-collar portrait + Gackt snakeskin/katana portrait
     - reddit_url: https://i.redd.it/euqhtl89gnfe1.jpg
       session: "SESSION.4 【Bass】 YU~KI × SHUSE"
-      source_pages: [26, 25]
+      source_pages: [27, 28]
       source_urls:
-        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/26.jpg
-        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/25.jpg
-      match: YU~KI orange-feather/cane portrait + YU~KI/SHUSE SESSION.4 portrait
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/27.jpg
+        - https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/28.jpg
+      match: YU~KI orange-feather full portrait (mag. p.040) + SHUSE leopard-jacket portrait (mag. p.041)
     - reddit_url: https://i.redd.it/m5frnm89gnfe1.jpg
       session: "SESSION.5 【Drums】 KAMI × LEVIN"
       source_pages: [32, 31]
