@@ -1,4 +1,6 @@
 ---
+import galleryPreviews from "../data/gallery_previews.json";
+
 interface Props {
   src?: string | null;
   alt: string;
@@ -17,6 +19,12 @@ const {
   variant = "inline",
 } = Astro.props;
 
+const IMAGE_EXT = /\.(jpe?g|png|webp|gif)(\?|$)/i;
+
+function galleryPreviewKey(path: string): string {
+  return path.replace(/#.*$/, "").replace(/\/$/, "");
+}
+
 function resolveSrc(path?: string | null): string | null {
   if (!path) return null;
   if (path.startsWith("http://") || path.startsWith("https://")) {
@@ -30,7 +38,9 @@ function resolveSrc(path?: string | null): string | null {
     if (path.includes("drive.google.com/drive/folders")) {
       return null;
     }
-    if (path.includes("cantavanda.com") && !/\.(jpe?g|png|webp|gif)(\?|$)/i.test(path)) {
+    const preview = galleryPreviews[galleryPreviewKey(path) as keyof typeof galleryPreviews];
+    if (preview) return preview;
+    if (!IMAGE_EXT.test(path.split("#")[0])) {
       return null;
     }
     return path;

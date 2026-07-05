@@ -2,39 +2,39 @@ id: fools-mate-vol-189
 publication: fools-mate
 issue_number: '189'
 volume: null
-publication_date: '1999'
-date_precision: year
-verification_status: possible
-source_notes: 'vkgy roles: large_feature
-
+publication_date: 1997-07
+date_precision: month
+verification_status: verified
+source_notes: >
+  vkgy roles: large_feature. Canonical issue data: data/issues/fools-mate/1997-07.yaml
   [vkgy] https://vk.gy/magazines/fools-mate/7/no189/
-
-  vkgy: https://vk.gy/magazines/fools-mate/7/no189/'
-research_targets:
-- exact issue numbers
-- page numbers
-- scan availability
+research_targets: []
 articles:
 - id: fools-mate-vol-189-001
-  title_ja: null
-  title_en: null
-  type: photo_spread
-  pages: null
-  members: []
+  title_ja: 不思議の空間に漂う未来
+  title_en: A future adrift in a mysterious space
+  type: interview
+  pages: 43–44
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
   photographer: null
-  writer: null
+  writer: 杉江由紀
   cover: false
   poster: false
   foldout: false
   scan:
     available: true
-    quality: medium
-    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/
+    quality: high
+    url: images/scans/fools-mate/1997-07/02.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/fools-mate-1997-07-interview.yaml
   purchase_links: []
-  notes: 'vkgy roles: large_feature'
+  notes: Duplicate stub; see fools-mate-1997-07 for full article list and local scans.
 changelog:
 - date: '2026-07-06'
   action: created

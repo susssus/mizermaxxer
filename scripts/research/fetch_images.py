@@ -334,6 +334,62 @@ def download_members(entries: list[dict[str, Any]], index: dict[str, dict[str, A
     return count
 
 
+def download_magazine_scans(entries: list[dict[str, Any]], index: dict[str, dict[str, Any]]) -> int:
+    """Mirror Cantavanda / catalog magazine pages listed in scan_sources_catalog.yaml."""
+    catalog_path = ROOT / "scripts" / "research" / "scan_sources_catalog.yaml"
+    if not catalog_path.exists():
+        return 0
+
+    catalog = yaml.safe_load(catalog_path.read_text(encoding="utf-8"))
+    count = 0
+    for item in catalog.get("items") or []:
+        image_urls = item.get("image_urls") or []
+        project_path = item.get("project_path")
+        if not image_urls or not project_path:
+            continue
+
+        issue_path = ROOT / project_path
+        if not issue_path.exists():
+            continue
+
+        issue = yaml.safe_load(issue_path.read_text(encoding="utf-8"))
+        pub = issue.get("publication", item.get("publication", "unknown"))
+        date = str(issue.get("publication_date", item.get("issue_date", "unknown")))[:7]
+        scan_dir = ROOT / "images" / "scans" / pub / date
+        changed = False
+
+        for idx, source_url in enumerate(image_urls, start=1):
+            ext = Path(urllib.parse.urlparse(source_url).path).suffix or ".jpg"
+            local_name = f"{idx:02d}{ext.lower()}"
+            rel_path = f"images/scans/{pub}/{date}/{local_name}"
+            dest = ROOT / rel_path
+            if not dest.exists() or dest.stat().st_size < 50_000:
+                try:
+                    fetch_url(source_url, dest)
+                    print(f"  magazine scan: {rel_path}")
+                except (urllib.error.URLError, TimeoutError, UnicodeEncodeError) as exc:
+                    print(f"  skip magazine scan {rel_path}: {exc}", file=sys.stderr)
+                    continue
+            add_manifest_entry(entries, index, rel_path, source_url, "Cantavanda / Butterfly Rose")
+            count += 1
+
+            for article in issue.get("articles", []):
+                scan = article.setdefault("scan", {"available": False, "quality": None, "url": None})
+                if scan.get("url", "").startswith("http") and idx == 1:
+                    scan["url"] = rel_path
+                    scan["available"] = True
+                    if not scan.get("quality"):
+                        scan["quality"] = "high"
+                    changed = True
+
+        if changed:
+            issue_path.write_text(
+                yaml.dump(issue, allow_unicode=True, sort_keys=False, default_flow_style=False),
+                encoding="utf-8",
+            )
+    return count
+
+
 def ensure_public_symlink() -> None:
     public_images = ROOT / "site" / "public" / "images"
     public_images.parent.mkdir(parents=True, exist_ok=True)
@@ -361,13 +417,15 @@ def main() -> int:
     vintage_count = download_vintage_gallery(entries, index)
     cover_count = download_covers(entries, index)
     member_count = download_members(entries, index)
+    magazine_count = download_magazine_scans(entries, index)
 
     save_manifest(entries)
     ensure_public_symlink()
 
     print(
         f"Done: {flyer_count} flyers, {vintage_count} vintage gallery, {cover_count} covers, "
-        f"{member_count} member/hero images. Manifest: {MANIFEST_PATH}"
+        f"{member_count} member/hero images, {magazine_count} magazine scan pages. "
+        f"Manifest: {MANIFEST_PATH}"
     )
     return 0
 
