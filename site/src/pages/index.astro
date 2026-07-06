@@ -5,6 +5,7 @@ import ProfileMeta from "../components/ProfileMeta.astro";
 import StatCard from "../components/StatCard.astro";
 import Base from "../layouts/Base.astro";
 import archive from "../data/archive.json";
+import { absoluteUrl, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "../lib/seo";
 
 const pubMap = new Map(archive.publications.map((pub) => [pub.slug, pub]));
 
@@ -77,9 +78,42 @@ const featuredFlyers = archive.issues
   )
   .sort((a, b) => b.issue.publication_date.localeCompare(a.issue.publication_date))
   .slice(0, 6);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: DEFAULT_DESCRIPTION,
+    inLanguage: "en",
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    name: "Malice Mizer",
+    alternateName: "マリスミゼール",
+    genre: ["Visual kei", "J-rock", "Gothic rock"],
+    foundingDate: "1992",
+    dissolutionDate: "2001",
+    url: SITE_URL,
+    image: absoluteUrl("/images/members/hero.webp"),
+    description:
+      "Japanese visual kei band active 1992–2001, known for theatrical performances and albums including Merveilles and Bara no Seidou.",
+  },
+];
 ---
 
-<Base title="Bibliography — Malice Mizer Research Archive">
+<Base
+  title="Bibliography"
+  description={DEFAULT_DESCRIPTION}
+  jsonLd={jsonLd}
+>
   <section class="hero hero--split">
     <div class="hero__intro">
       <h2 class="hero__title">MALICE MIZER</h2>

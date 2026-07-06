@@ -16,10 +16,15 @@ const embeddablePerformances =
   concert?.performances.filter((p) => embeddablePlatforms.has(p.platform)) ?? [];
 const linkOnlyPerformances =
   concert?.performances.filter((p) => !embeddablePlatforms.has(p.platform)) ?? [];
+
+const gigTitle = concert?.event_name_en ?? concert?.event_name_ja ?? concert?.id ?? "Concert";
+const gigDescription = concert
+  ? `Malice Mizer live on ${concert.date} at ${concert.venue_detail?.name_en ?? concert.venue ?? "unknown venue"}. Setlist, lineup, and performance links.`
+  : undefined;
 ---
 
 {concert && (
-  <Base title={`${concert.event_name_en ?? concert.id} — Gigs`}>
+  <Base title={gigTitle} description={gigDescription} type="article">
     <a class="back" href="/gigs">← Back to gig list</a>
 
     <section class="detail-grid">

@@ -12,10 +12,13 @@ const row = linksIndex.browse.find((entry) => entry.id === id);
 const entity = linksIndex.entities_by_id[id as string];
 const links = linksIndex.linked_entities[id as string]?.all ?? [];
 const titleById = Object.fromEntries(linksIndex.browse.map((entry) => [entry.id, entry.title]));
+const entityDescription = row
+  ? `${row.title} — ${row.type_label} in the Malice Mizer research archive. Linked releases, performances, and related entities.`
+  : undefined;
 ---
 
 {row && entity && (
-  <Base title={`${row.title} — Malice Mizer Research Archive`}>
+  <Base title={row.title} description={entityDescription} type="article">
     <a class="back" href="/browse">← Back to browse</a>
 
     <section class="detail-grid">

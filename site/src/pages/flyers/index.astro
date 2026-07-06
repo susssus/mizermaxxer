@@ -20,7 +20,10 @@ const years = [...new Set(flyerIssues.map((entry) => entry.year))].sort();
 const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
 ---
 
-<Base title="Flyers — Malice Mizer Research Archive">
+<Base
+  title="Flyers"
+  description="Malice Mizer concert and release flyers — scanned promotional materials for tours, singles, and albums (1990s–2001)."
+>
   <section class="stats">
     <StatCard value={flyerIssues.length} label="Flyers catalogued" preset="all" />
     <StatCard value={withScans} label="Scans available" preset="scans" />

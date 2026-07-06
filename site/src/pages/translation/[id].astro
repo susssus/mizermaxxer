@@ -24,10 +24,15 @@ function speakerLabel(speaker: string): string {
   if (speaker === "all") return "All";
   return speaker.charAt(0).toUpperCase() + speaker.slice(1);
 }
+
+const translationTitle = doc?.title_en ?? doc?.title_ja ?? doc?.id;
+const translationDescription = doc
+  ? `English translation: ${doc.title_en ?? doc.title_ja} — Malice Mizer magazine interview or article from the research archive.`
+  : undefined;
 ---
 
 {doc && (
-  <Base title={doc.title_en ?? doc.title_ja ?? doc.id}>
+  <Base title={translationTitle} description={translationDescription} type="article">
     <a class="back" href="/">← Back to archive</a>
 
     <header class="translation-header card">
