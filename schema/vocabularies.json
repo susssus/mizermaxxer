@@ -44,5 +44,15 @@
     "verified",
     "status_change",
     "research_note"
+  ],
+  "link_platform": [
+    "website",
+    "youtube",
+    "twitter",
+    "instagram",
+    "facebook",
+    "tiktok",
+    "threads",
+    "other"
   ]
 }

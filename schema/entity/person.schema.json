@@ -80,6 +80,34 @@
             "after": { "type": "string" }
           },
           "additionalProperties": false
+        },
+        "links": {
+          "type": "array",
+          "description": "Verified official websites and social accounts only. No Spotify/Tidal/streaming.",
+          "items": {
+            "type": "object",
+            "required": ["url", "platform"],
+            "properties": {
+              "url": { "type": "string", "format": "uri" },
+              "platform": {
+                "enum": [
+                  "website",
+                  "youtube",
+                  "twitter",
+                  "instagram",
+                  "facebook",
+                  "tiktok",
+                  "threads",
+                  "other"
+                ]
+              },
+              "label": {
+                "type": "string",
+                "description": "Optional display override, e.g. 'Moi dix Mois'"
+              }
+            },
+            "additionalProperties": false
+          }
         }
       }
     }

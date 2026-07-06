@@ -39,3 +39,6 @@ gallery_images:
 facts: []
 verification_status: verified
 notes: ''
+links:
+- url: https://gackt.com/
+  platform: website

@@ -56,3 +56,10 @@ gallery_images:
 facts: []
 verification_status: verified
 notes: ''
+links:
+- url: https://www.manam-ss.com/
+  platform: website
+  label: Moi-même-Moitié
+- url: https://www.moixdismois.com/
+  platform: website
+  label: Moi dix Mois

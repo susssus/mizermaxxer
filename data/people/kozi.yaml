@@ -52,3 +52,6 @@ gallery_images:
 facts: []
 verification_status: verified
 notes: ''
+links:
+- url: https://kozi-web.com/
+  platform: website
