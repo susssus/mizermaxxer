@@ -1,24 +1,34 @@
 ---
+import archive from "../data/archive.json";
+
+const flyerCount = archive.issues.filter((issue) => issue.publication === "flyers").length;
+const releaseCount = archive.stats.album_count + archive.stats.single_count;
+
 const links = [
-  { href: "/browse", label: "Browse" },
-  { href: "/", label: "Bibliography" },
-  { href: "/flyers", label: "Flyers" },
-  { href: "/discography", label: "Discography" },
-  { href: "/gigs", label: "Gigs" },
-  { href: "/videos", label: "Videos" },
+  { href: "/", label: "Bibliography", count: archive.stats.issue_count },
+  { href: "/timeline", label: "Timeline", count: null },
+  { href: "/discography", label: "Discography", count: releaseCount },
+  { href: "/gigs", label: "Gigs", count: archive.stats.concert_count },
+  { href: "/members/mana", label: "Members", count: archive.people.members.filter((m) => !["birith", "karis", "unknown"].includes(m.slug)).length },
+  { href: "/gallery", label: "Gallery", count: null },
+  { href: "/flyers", label: "Flyers", count: flyerCount },
+  { href: "/videos", label: "Videos", count: archive.stats.video_count },
+  { href: "/browse", label: "Browse", count: null },
 ];
 
 function isActive(href: string) {
   const path = Astro.url.pathname;
   if (href === "/") return path === "/";
+  if (href.startsWith("/members/")) return path.startsWith("/members/");
   return path === href || path.startsWith(`${href}/`);
 }
 ---
 
-<nav class="site-nav">
+<nav class="site-nav" aria-label="Archive sections">
   {links.map((link) => (
     <a href={link.href} class:list={{ active: isActive(link.href) }}>
       {link.label}
+      {link.count != null && <span class="site-nav__count">({link.count})</span>}
     </a>
   ))}
 </nav>
@@ -41,5 +51,10 @@ function isActive(href: string) {
   .site-nav a.active,
   .site-nav a:hover {
     color: var(--accent);
+  }
+  .site-nav__count {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82em;
+    opacity: 0.75;
   }
 </style>

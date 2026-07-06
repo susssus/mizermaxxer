@@ -54,6 +54,31 @@ MAGAZINES = {
         "link_pattern": r'href="(/magazines/pati-pati/(\d+)/vol-(\d+)/)"',
         "issue_key": "vol",
     },
+    "uv": {
+        "index_url": "https://vk.gy/magazines/uv/",
+        "link_pattern": r'href="(/magazines/uv/(\d+)/vol-(\d+)/)"',
+        "issue_key": "vol",
+    },
+    "m-gazette": {
+        "index_url": "https://vk.gy/magazines/m-gazette/",
+        "link_pattern": r'href="(/magazines/m-gazette/(\d+)/vol-(\d+)/)"',
+        "issue_key": "vol",
+    },
+    "j-rock-magazine": {
+        "index_url": "https://vk.gy/magazines/j-rock-magazine/",
+        "link_pattern": r'href="(/magazines/j-rock-magazine/(\d+)/vol-(\d+)/)"',
+        "issue_key": "vol",
+    },
+    "newsmaker": {
+        "index_url": "https://vk.gy/magazines/newsmaker/",
+        "link_pattern": r'href="(/magazines/newsmaker/(\d+)/vol-(\d+)/)"',
+        "issue_key": "vol",
+    },
+    "ongaku-to-hito": {
+        "index_url": "https://vk.gy/magazines/ongaku-to-hito/",
+        "link_pattern": r'href="(/magazines/ongaku-to-hito/(\d+)/(?:vol-(\d+)|(\d{4}-\d{2}))/?)"',
+        "issue_key": "mixed",
+    },
 }
 
 
@@ -119,7 +144,7 @@ def parse_index(html: str, slug: str, config: dict) -> list[dict]:
     seen: set[str] = set()
     issues: list[dict] = []
     for m in re.finditer(pattern, html):
-        path, vkgy_id, key = m.group(1), m.group(2), m.group(3)
+        path, vkgy_id = m.group(1), m.group(2)
         if path in seen:
             continue
         seen.add(path)
@@ -127,9 +152,17 @@ def parse_index(html: str, slug: str, config: dict) -> list[dict]:
             "vkgy_id": vkgy_id,
             "url": f"https://vk.gy{path}",
         }
-        if config["issue_key"] == "date":
+        if config["issue_key"] == "mixed":
+            vol, date = m.group(3), m.group(4)
+            if date:
+                entry["publication_date"] = date[:7]
+            elif vol:
+                entry["issue_number"] = vol.lstrip("0") or vol
+        elif config["issue_key"] == "date":
+            key = m.group(3)
             entry["publication_date"] = key[:7] if len(key) >= 7 else key
         else:
+            key = m.group(3)
             entry["issue_number"] = key.lstrip("0") or key
         issues.append(entry)
     return issues

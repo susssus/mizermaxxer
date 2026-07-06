@@ -17,6 +17,7 @@ from common import (
     load_concerts,
     load_issues,
     load_people,
+    load_people_profiles,
     load_publications,
     load_references,
     load_singles,
@@ -27,6 +28,9 @@ from common import (
 )
 
 GALLERY_PREVIEWS_PATH = ROOT / "site" / "src" / "data" / "gallery_previews.json"
+GALLERY_INDEX_PATH = ROOT / "site" / "src" / "data" / "gallery_index.json"
+ATTRIBUTION_PATH = ROOT / "site" / "src" / "data" / "attribution.json"
+MANIFEST_PATH = ROOT / "images" / "manifest.json"
 SCAN_SOURCES_CATALOG = ROOT / "scripts" / "research" / "scan_sources_catalog.yaml"
 SHOXX_VOL61_GALLERY = "https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html"
 SHOXX_VOL61_COVER = "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/01.jpg"
@@ -524,6 +528,7 @@ def export_site_json(connection: sqlite3.Connection) -> None:
     payload = {
         "generated_at": __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat().replace("+00:00", "Z"),
         "people": load_people(),
+        "people_profiles": load_people_profiles(),
         "publications": publications,
         "issues": enriched_issues,
         "songs": songs,
@@ -550,6 +555,39 @@ def export_site_json(connection: sqlite3.Connection) -> None:
     SITE_DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def export_attribution() -> None:
+    """Export grouped image attribution for the /attribution site page."""
+    generated_at = (
+        __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat().replace("+00:00", "Z")
+    )
+
+    if not MANIFEST_PATH.exists():
+        payload = {"generated_at": generated_at, "total_count": 0, "sources": []}
+    else:
+        manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+        by_source: dict[str, list[dict[str, str | None]]] = {}
+        for entry in manifest:
+            name = entry.get("source_name") or "Unknown"
+            by_source.setdefault(name, []).append(
+                {
+                    "path": entry["path"],
+                    "filename": __import__("pathlib").Path(entry["path"]).name,
+                    "site_url": f"/{entry['path']}",
+                    "source_url": entry.get("source_url"),
+                    "fetched_at": entry.get("fetched_at"),
+                }
+            )
+
+        sources = []
+        for name in sorted(by_source, key=lambda key: (-len(by_source[key]), key.lower())):
+            images = sorted(by_source[name], key=lambda item: item["path"] or "")
+            sources.append({"source_name": name, "count": len(images), "images": images})
+
+        payload = {"generated_at": generated_at, "total_count": len(manifest), "sources": sources}
+
+    ATTRIBUTION_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def export_gallery_previews() -> None:
     """Map gallery page URLs to first-page preview images for ArchiveImage."""
     previews: dict[str, str] = {}
@@ -570,6 +608,88 @@ def export_gallery_previews() -> None:
     )
 
 
+def export_promo_gallery(albums: list[dict[str, Any]], profiles: list[dict[str, Any]]) -> None:
+    """Promo / cover / member images for the site gallery page."""
+    items: list[dict[str, Any]] = []
+
+    for profile in profiles:
+        name = (profile.get("name") or {}).get("romanized") or profile.get("id", "")
+        era = (profile.get("active") or {}).get("start")
+        for img in profile.get("gallery_images") or []:
+            items.append(
+                {
+                    "title": name,
+                    "src": img.get("src"),
+                    "caption": img.get("caption"),
+                    "source": img.get("source"),
+                    "era": era,
+                    "category": "member",
+                    "external": str(img.get("src", "")).startswith("http"),
+                }
+            )
+        if profile.get("portrait_image"):
+            items.append(
+                {
+                    "title": name,
+                    "src": profile["portrait_image"],
+                    "caption": "Portrait",
+                    "source": "Archive",
+                    "era": era,
+                    "category": "member",
+                    "external": False,
+                }
+            )
+
+    for album in albums:
+        cover = album.get("cover_image")
+        if not cover:
+            continue
+        items.append(
+            {
+                "title": album.get("title_en") or album.get("title_ja"),
+                "src": cover,
+                "caption": album.get("type", "").replace("_", " "),
+                "source": "Discogs / Cover Art Archive",
+                "era": (album.get("release_date") or "")[:4] or None,
+                "category": "release",
+                "external": False,
+            }
+        )
+
+    catalog_path = ROOT / "scripts" / "research" / "image_urls_catalog.yaml"
+    if catalog_path.exists():
+        catalog = load_yaml(catalog_path)
+        for entry in catalog.get("entries") or []:
+            source = entry.get("source") or ""
+            if "vkgy" not in source and "vk.gy" not in (entry.get("gallery_url") or ""):
+                continue
+            url = entry.get("cover_image_medium_url") or entry.get("cover_image_url")
+            if not url:
+                images = entry.get("images") or []
+                url = images[0].get("url") if images else None
+            if url:
+                items.append(
+                    {
+                        "title": entry.get("title"),
+                        "src": url,
+                        "caption": "Magazine cover",
+                        "source": "vk.gy",
+                        "era": None,
+                        "category": "promo",
+                        "external": True,
+                    }
+                )
+
+    payload = {
+        "generated_at": __import__("datetime").datetime.now(__import__("datetime").UTC)
+        .isoformat()
+        .replace("+00:00", "Z"),
+        "count": len(items),
+        "items": items,
+    }
+    GALLERY_INDEX_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     ensure_dirs()
     connection = sqlite3.connect(DB_PATH)
@@ -582,6 +702,8 @@ def main() -> int:
         connection.commit()
         export_site_json(connection)
         export_gallery_previews()
+        export_promo_gallery(load_albums(), load_people_profiles())
+        export_attribution()
     finally:
         connection.close()
 
@@ -591,6 +713,8 @@ def main() -> int:
     )
     print(f"Exported site JSON to {SITE_DATA_PATH}.")
     print(f"Exported gallery previews to {GALLERY_PREVIEWS_PATH}.")
+    print(f"Exported promo gallery to {GALLERY_INDEX_PATH}.")
+    print(f"Exported image attribution to {ATTRIBUTION_PATH}.")
     return 0
 
 

@@ -1,0 +1,17 @@
+id: hot-wave-bel-air-1997
+title_ja: Hot Wave — Bel Air
+title_en: Hot Wave — Bel Air interview + live
+type: tv
+url: https://archive.org/details/hot-wave-bel-air-part-1
+platform: archive_org
+release_date: '1997-07-01'
+song: bel-air
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: Fuji TV Hot Wave appearance during Bel Air promotion.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Hot Wave — Bel Air interview + live.

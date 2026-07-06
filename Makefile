@@ -7,8 +7,10 @@ PIP := .venv/bin/pip
 bibliography-expand:
 	$(PYTHON) scripts/research/patch_scan_sources_incomplete_mags.py
 	$(PYTHON) scripts/research/fetch_vkgy_magazines.py
+	$(PYTHON) scripts/research/parse_vkgy_artist_timeline.py
 	$(PYTHON) scripts/research/build_magazine_references_online.py
 	$(PYTHON) scripts/research/import_online_catalog_stubs.py
+	$(PYTHON) scripts/research/promote_vkgy_issues.py
 	$(PYTHON) scripts/research/fix_imported_stubs.py
 	$(PYTHON) scripts/research/verify_ndl_placeholders.py
 	$(PYTHON) scripts/build_db.py

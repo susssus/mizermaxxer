@@ -1,0 +1,17 @@
+id: apartment-interview-1997
+title_ja: null
+title_en: Apartment / private room TV interview (1997)
+type: tv
+url: https://archive.org/details/malice-mizer-members-apartments-interview
+platform: archive_org
+release_date: '1997-07-01'
+song: null
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: Gackt-era variety segment showing members' apartments.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Apartment / private room TV interview (1997).

@@ -1,0 +1,40 @@
+id: j-rock-magazine-2000-08
+publication: j-rock-magazine
+issue_number: '63'
+volume: null
+publication_date: 2000-08
+date_precision: month
+verification_status: mention_only
+source_notes: '[vkgy] https://vk.gy/magazines/j-rock-magazine/1615/vol-63/
+
+  vkgy: https://vk.gy/magazines/j-rock-magazine/1615/vol-63/'
+research_targets:
+- exact issue numbers
+- page numbers
+- scan availability
+articles:
+- id: j-rock-magazine-2000-08-001
+  title_ja: null
+  title_en: null
+  type: photo_spread
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: ''
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.

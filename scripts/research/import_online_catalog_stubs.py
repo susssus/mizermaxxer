@@ -13,6 +13,7 @@ ISSUES = ROOT / "data" / "issues"
 CATALOG = ROOT / "scripts" / "research" / "magazine_references_online.yaml"
 SCAN_CATALOG = ROOT / "scripts" / "research" / "scan_sources_catalog.yaml"
 VKGY_DIR = ROOT / "scripts" / "research"
+ARTIST_TIMELINE_URL = "https://vk.gy/artists/malice-mizer/"
 TODAY = "2026-07-06"
 
 NDL_PUB_NAMES = {
@@ -50,6 +51,8 @@ NDL_PUB_NAMES = {
     "da-vinchi": "Da Vinchi",
     "fruige": "Fruige",
     "dears": "Dears",
+    "newsmaker": "Newsmaker",
+    "ongaku-to-hito": "Ongaku to Hito",
 }
 
 
@@ -185,6 +188,22 @@ def load_vkgy_entries() -> list[dict]:
             pub = m.group(1).replace("_", "-") if m else None
         for e in doc.get("entries") or []:
             entries.append(entry_from_vkgy(e, pub))
+
+    timeline_path = VKGY_DIR / "vkgy_timeline_magazines.yaml"
+    if timeline_path.exists():
+        doc = yaml.safe_load(timeline_path.read_text(encoding="utf-8"))
+        for e in doc.get("entries") or []:
+            entries.append(
+                {
+                    "publication": e["publication"],
+                    "issue_number": e.get("issue_number"),
+                    "issue_date": e.get("issue_date"),
+                    "coverage_notes": e.get("notes"),
+                    "url": ARTIST_TIMELINE_URL,
+                    "sources": e.get("sources") or [{"id": "vkgy-timeline", "url": ARTIST_TIMELINE_URL}],
+                    "scan": {"available": False, "url": None},
+                }
+            )
     return entries
 
 

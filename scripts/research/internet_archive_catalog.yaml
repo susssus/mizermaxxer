@@ -215,6 +215,97 @@ items:
     notes: Közi fanclub magazine (adjacent).
 
   # --- TV / live footage (selected) ---
+  - identifier: malice-mizer-bara-no-konrei
+    url: https://archive.org/details/malice-mizer-bara-no-konrei
+    category: video
+    title: "Bara no Konrei silent film"
+    date: "2002-03-22"
+    notes: 84-minute silent film (KSVD-24319).
+
+  - identifier: malice-mizer-bara-no-konrei-bonus-footage
+    url: https://archive.org/details/malice-mizer-bara-no-konrei-bonus-footage
+    category: video
+    title: "Bara no Konrei DVD bonus commentary"
+    date: "2002-03-22"
+    notes: Members commenting on Bara no Konrei (Bara no Denshou ~Joshou~).
+
+  - identifier: malice-mizer-cinq-parallele-bonus-clips
+    url: https://archive.org/details/malice-mizer-cinq-parallele-bonus-clips
+    category: video
+    title: "merveilles cinq parallele bonus clips"
+    date: "2002-03-30"
+    notes: COBA-4161 bonus footage.
+
+  - identifier: malice-mizer-hot-wave-au-revoir-11-97
+    url: https://archive.org/details/malice-mizer-hot-wave-au-revoir-11-97
+    category: video
+    title: "Hot Wave — au revoir (Nov 1997)"
+    date: "1997-11"
+    notes: TV appearance.
+
+  - identifier: malice-mizer-nikkan-hitto-au-revoir
+    url: https://archive.org/details/malice-mizer-nikkan-hitto-au-revoir
+    category: video
+    title: "Nikkan Hitto — au revoir live"
+    date: "1997-12"
+    notes: TV talk + live.
+
+  - identifier: le-ciel-llive-on-nikkan-hitto
+    url: https://archive.org/details/le-ciel-llive-on-nikkan-hitto
+    category: video
+    title: "Nikkan Hitto — Le ciel talk + live"
+    date: "1998-11-20"
+    notes: Le ciel promotion.
+
+  - identifier: 21-illuminati-utaban-live
+    url: https://archive.org/details/21-illuminati-utaban-live
+    category: video
+    title: "Utaban — Illuminati live (1998)"
+    date: "1998-05"
+    notes: TBS Utaban.
+
+  - identifier: merveilles-waratteiitomo
+    url: https://archive.org/details/merveilles-waratteiitomo
+    category: video
+    title: "Waratte Iitomo appearance (1998)"
+    date: "1998-06"
+    notes: Fuji TV variety.
+
+  - identifier: 7-malice-mizer-break-out-feb-97
+    url: https://archive.org/details/7-malice-mizer-break-out-feb-97
+    category: video
+    title: "Break Out TV (Feb 1997)"
+    date: "1997-02"
+    notes: Early major-label TV.
+
+  - identifier: malice-mizer-voyage-live-in-tv-97
+    url: https://archive.org/details/malice-mizer-voyage-live-in-tv-97
+    category: video
+    title: "Sans retour Voyage derniere TV coverage"
+    date: "1997-04"
+    notes: Indies farewell tour coverage.
+
+  - identifier: malice-mizer-bel-air-interview
+    url: https://archive.org/details/malice-mizer-bel-air-interview
+    category: video
+    title: "Bel Air-era TV interview (Aug 1997)"
+    date: "1997-08"
+    notes: Bel Air promotion.
+
+  - identifier: malice-mizer-ma-cherie-live-w-tetsu-1
+    url: https://archive.org/details/malice-mizer-ma-cherie-live-w-tetsu-1
+    category: video
+    title: "ma chérie live (Tetsu era)"
+    date: null
+    notes: Early live clip; date uncertain.
+
+  - identifier: malice-mizer-best-performance-1996
+    url: https://archive.org/details/malice-mizer-best-performance-1996
+    category: video
+    title: "Best Performance 1996 (TV compilation)"
+    date: "1996-12"
+    notes: Voyage sans retour era TV highlights.
+
   - identifier: malice-mizer-merveilles-lespace-full-live
     url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live
     category: video

@@ -5,35 +5,58 @@ volume: null
 publication_date: 1998-06
 date_precision: month
 verification_status: verified
-source_notes: >
-  MM pages scanned on Cantavanda (5 images).
-  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/
+source_notes: 'POP BEAT 1998-06
+
+  [vkgy-timeline] https://vk.gy/artists/malice-mizer/
+
+  POP BEAT June 1998. MM pages scanned on Cantavanda (5 images: ILLUMINATI feature pp. 58–61). Local mirror in images/scans/pop-beat/1998-06/.
+  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/'
 research_targets:
-- interview
-- photo spread
+- verify full issue table of contents
+- locate any additional MM pages beyond Cantavanda clippings
 articles:
 - id: pop-beat-1998-06-001
-  title_ja: null
-  title_en: null
-  type: mention
-  pages: null
-  members: []
-  photographer: null
-  writer: null
+  title_ja: 禁断の告白。
+  title_en: Forbidden confession
+  type: interview
+  pages: 58–61
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: 牧野雅俊, 澤崎正文
+  writer: 増渕公子
   cover: false
   poster: false
   foldout: false
   scan:
     available: true
     quality: high
-    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/
+    url: images/scans/pop-beat/1998-06/01.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/pop-beat-1998-06.yaml
   purchase_links: []
-  notes: MM clippings only; not full issue. Source Cantavanda (Butterfly Rose).
+  notes: 'ILLUMINATI single feature by Kimiko Masubuchi. Opening splash (scan 01); interview text pp. 58–60 (scans 02–04);
+    four-panel photo spread p. 61 (scan 05, no text). Covers Merveilles #2 chart debut, Budokan stage fall, ILLUMINATI PV
+    (P-type/N-type), and S/M banter. Photos: Masatoshi Makino (pp. 58–59), Masafumi Sawazaki (pp. 60–61). Additional scan
+    pages: images/scans/pop-beat/1998-06/02.jpg through 05.jpg
+
+    '
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Scan gallery linked from Cantavanda magazine appearances.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: 'Added interview metadata, local scan paths, and English translation with romaji (data/translations/pop-beat-1998-06.yaml).
+
+    '
+- date: '2026-07-06'
+  action: updated
+  source: vkgy-timeline
+  notes: Added vk.gy artist timeline cross-reference.

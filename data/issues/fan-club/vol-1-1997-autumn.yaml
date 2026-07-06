@@ -1,13 +1,14 @@
 id: fan-club-vol-1-1997-autumn
 publication: fan-club
-issue_number: "1"
+issue_number: '1'
 volume: null
 publication_date: 1997-09
 date_precision: month
 verification_status: verified
-source_notes: >
-  ma chérie fan club newsletter Vol. 1 (Autumn 1997).
-  Scanned by Madame Tarantula; hosted on Cantavanda with permission.
+source_notes: 'ma chérie Fan Club Magazine Vol. 1 (Autumn 1997). 24 pages mirrored
+  locally under images/scans/fan-club/1997-09/. Gallery: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-1-autumn-1997/
+
+  '
 research_targets:
 - member profiles
 - tour reports
@@ -32,14 +33,26 @@ articles:
   scan:
     available: true
     quality: original_scan
-    url: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-1-autumn-1997/
+    url: images/scans/fan-club/1997-09/01.jpg
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: 24 page scans. Source Cantavanda / Madame Tarantula.
+  notes: '24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1997-09/02.jpg,
+    images/scans/fan-club/1997-09/03.jpg, images/scans/fan-club/1997-09/04.jpg, images/scans/fan-club/1997-09/05.jpg,
+    images/scans/fan-club/1997-09/06.jpg, images/scans/fan-club/1997-09/07.jpg, images/scans/fan-club/1997-09/08.jpg,
+    images/scans/fan-club/1997-09/09.jpg, images/scans/fan-club/1997-09/10.jpg, images/scans/fan-club/1997-09/11.jpg,
+    images/scans/fan-club/1997-09/12.jpg, images/scans/fan-club/1997-09/13.jpg, images/scans/fan-club/1997-09/14.jpg,
+    images/scans/fan-club/1997-09/15.jpg, images/scans/fan-club/1997-09/16.jpg, images/scans/fan-club/1997-09/17.jpg,
+    images/scans/fan-club/1997-09/18.jpg, images/scans/fan-club/1997-09/19.jpg, images/scans/fan-club/1997-09/20.jpg,
+    images/scans/fan-club/1997-09/21.jpg, images/scans/fan-club/1997-09/22.jpg, images/scans/fan-club/1997-09/23.jpg,
+    images/scans/fan-club/1997-09/24.jpg.'
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Full fan club issue scan gallery linked.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: Mirrored 24 scan pages locally.

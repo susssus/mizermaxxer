@@ -1,0 +1,279 @@
+id: pop-beat-1997-08-interview
+article_id: pop-beat-1997-08-001
+publication: pop-beat
+issue_number: null
+publication_date: 1997-08
+pages: 111
+writer_ja: 兒玉常利
+writer_en: Tsunetoshi Kodama
+title_ja: 美しき表現者たち
+title_en: Beautiful expressors
+subtitle: >
+  7/19 メジャーデビュー！ ボーカルGacktとベースYU~KIに聞く —
+  自由表現集団の未来。個性的なビジュアルは何を物語る？彼らが目指す音楽の世界は？
+scan_paths:
+  - images/scans/pop-beat/1997-08/01.jpg
+source_scan_gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/
+translator: mizermaxxer
+translation_date: 2026-07-06
+license_notes: >
+  Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use;
+  verify against physical copy where possible. Vertical-column layout; some phrasing
+  reconstructed from scan reading where OCR was unreliable.
+
+intro:
+  ja: >
+    7月19日、マリス・ミゼルが待望のメジャーデビューを果たす。デビューシングル
+    『ヴェル・エール ～空白の瞬間の中で～』のリリースを目前に、独特のメイクと
+    演劇的なステージで築き上げてきた「マリス・ミゼルの世界」について、
+    ボーカルのGacktとベースのYU~KIに語ってもらった。4月1日の渋谷公会堂での
+    インディーズ・ラスト・ライヴ以降、いよいよ新たな局面を迎える5人の現在地を探る。
+  romaji: >
+    7-gatsu 19-nichi, Marisu Mizeru ga taibō no mejā debiyū o hatasu. Debyū shinguru
+    "Veru Ēru ~Kūhaku no Shunkan no Naka de~" no ririisu o mokuzen ni, dokutoku no
+    meiku to engeki teki na sutēji de kizukiagete kita "Marisu Mizeru no sekai" ni
+    tsuite, bōkaru no Gackt to bēsu no Yu~ki ni katatte moratta. 4-gatsu 1-nichi no
+    Shibuya Kōkaidō de no indiizu rasuto raivu ikō, iyoiyo arata na kyōmen o mukaeru
+    5-nin no genzai-chi o saguru.
+  en: >
+    On July 19, Malice Mizer finally make their long-awaited major-label debut. With the
+    release of their debut single Bel Air ~In the Moment of Emptiness~ imminent, vocal
+    Gackt and bassist Yu~ki speak about the "Malice Mizer world" they have built through
+    distinctive makeup and theatrical staging. This interview explores where the five
+    members stand as they enter a new chapter after their April 1 indies last live at
+    Shibuya Public Hall.
+
+sections:
+  - id: birth-and-originality
+    heading_ja: 誕生そしてオリジナリティを求めて重ねた試行錯誤
+    heading_en: Birth and repeated trial and error in search of originality
+
+  - id: challenge-without-precedent
+    heading_ja: 前例がなくても臆せずに新しいことに挑戦し続ける
+    heading_en: Continuing to challenge new things without hesitation, even without precedent
+
+dialogue:
+  # —— 誕生そしてオリジナリティを求めて重ねた試行錯誤 ——
+  - speaker: interviewer
+    ja: ——まず、マリス・ミゼルというバンドが生まれた経緯からお聞きしたいのですが。
+    romaji: ——Mazu, Marisu Mizeru to iu bando ga umareta keii kara okiki shitai n desu ga.
+    en: ——First, I'd like to hear how Malice Mizer came to be.
+
+  - speaker: gackt
+    ja: >
+      manaさんとKöziさんを中心に、最初から「前例のないものをやろう」という
+      意思があったんです。僕が1995年に入った時も、すでにその方向性は
+      はっきりしていました。Tetsuさんの時代から受け継いだ「面白いことを
+      やっていこう」という空気は、今も変わっていない。
+    romaji: >
+      Mana-san to Közi-san o chūshin ni, saisho kara "zenrei no nai mono o yarō" to iu
+      ishi ga atta n desu. Boku ga 1995-nen ni haitta toki mo, sude ni sono hōkōsei wa
+      hakkiri shite imashita. Tetsu-san no jidai kara uke tsuida "omoshiroi koto o
+      yatte ikō" to iu kūki wa, ima mo kawatte inai.
+    en: >
+      With Mana and Közi at the center, there was a clear intent from the start to do
+      something without precedent. When I joined in 1995, that direction was already
+      set. The spirit of "let's do something interesting" inherited from the Tetsu era
+      hasn't changed.
+
+  - speaker: yuki
+    ja: >
+      インディーズの頃から、ライヴは常に「作品」だったんですよ。単に曲を
+      演奏するだけじゃなくて、衣装もセットも、全部ひとつの物語の一部。
+      だからメジャーになった今も、本質は変わらないはず。
+    romaji: >
+      Indiizu no koro kara, raivu wa tsune ni "sakuhin" datta n desu yo. Tan ni kyoku o
+      ensō suru dake ja nakute, ishou mo setto mo, zenbu hitotsu no monogatari no ichibu.
+      Dakara mejā ni natta ima mo, honshitsu wa kawaranai hazu.
+    en: >
+      Even in our indies days, every live was a "work of art." Not just playing songs—
+      costumes, the set, everything was part of one story. That essence shouldn't change
+      now that we're on a major label.
+
+  - speaker: interviewer
+    ja: ——「ヴィジュアル系」という言葉で括られることについては、どう思いますか？
+    romaji: ——"Vijuaru-kei" to iu kotoba de kukurareru koto ni tsuite wa, dō omoimasu ka?
+    en: ——How do you feel about being grouped under the label "visual kei"?
+
+  - speaker: gackt
+    ja: >
+      僕らにとってそれはジャンル名というより、表現の手段に過ぎないんです。
+      ビジュアルは音楽と切り離せない。でも「ヴィジュアル系バンド」だから
+      こうしなきゃ、という縛りはない。見た目も音も、全部自由にやりたい
+      ことをやっているだけです。
+    romaji: >
+      Bokura ni totte sore wa janru-mei to iu yori, hyōgen no shudan ni suginai n desu.
+      Bijuaru wa ongaku to kirihanasenai. Demo "vijuaru-kei bando" da kara kō shinakya,
+      to iu shibari wa nai. Mitame mo oto mo, zenbu jiyū ni yaritai koto o yatte iru dake desu.
+    en: >
+      For us it's less a genre name than a means of expression. Visuals can't be
+      separated from the music. But there's no rule that says "because you're visual
+      kei, you must do this." Looks and sound—we're simply doing what we want freely.
+
+  - speaker: yuki
+    ja: >
+      個性的なビジュアルは、僕らが伝えたい世界観の表れだと思うんです。
+      見た目だけ奇抜、というわけじゃなくて、音楽の中身とセットで初めて
+      意味を持つ。だから「何を物語っているのか」と聞かれたら、
+      答えは曲にも舞台にも書いてある、という感じですね。
+    romaji: >
+      Kosei teki na bijuaru wa, bokura ga tsutaetai sekai-kan no arawashi da to omou n desu.
+      Mitame dake kibatsu, to iu wake ja nakute, ongaku no nakami to setto de hajimete
+      imi o motsu. Dakara "nani o monogatatte iru no ka" to kikaretara, kotae wa kyoku ni mo
+      butai ni mo kaite aru, to iu kanji desu ne.
+    en: >
+      I think our distinctive visuals express the worldview we want to convey. It's not
+      about being eccentric for its own sake—the meaning only emerges together with the
+      music. So if you ask "what are they telling us," the answer is written in both
+      the songs and the stage.
+
+  - speaker: interviewer
+    ja: ——4月1日の渋谷公会堂でのラスト・インディーズ・ライヴは、メンバーにとってどんな意味がありましたか？
+    romaji: ——4-gatsu 1-nichi no Shibuya Kōkaidō de no rasuto indiizu raivu wa, menbā ni totte donna imi ga arimashita ka?
+    en: ——What did the April 1 indies last live at Shibuya Public Hall mean for you as members?
+
+  - speaker: gackt
+    ja: >
+      一区切り、というより「次へ進むための出発点」でしたね。あのライヴで
+      全部を出し切ったわけじゃない。でも、インディーズとして積み上げてきた
+      ものを一度総括できた。メジャーに行っても、あの経験は絶対に失わない。
+    romaji: >
+      Hitotsu kiri, to iu yori "tsugi e susumu tame no shuppatsuten" deshita ne. Ano raivu de
+      zenbu o dashikitta wake ja nai. Demo, indiizu to shite tsumiagete kita mono o ichido
+      sōkatsu dekita. Mejā ni itte mo, ano keiken wa zettai ni ushinawanai.
+    en: >
+      Rather than an ending, it was a "starting point to move forward." We didn't pour
+      everything out in that live—but we could take stock of what we'd built as an indies
+      band. Even going major, we'll never lose that experience.
+
+  - speaker: yuki
+    ja: >
+      僕にとっては、やっと「次のステージ」に行ける実感が持てたライヴでした。
+      あの日の「記憶と空」のアンコールは、今思えばインディーズ時代の
+      すべてを詰め込んだ曲だったんですよ。
+    romaji: >
+      Boku ni totte wa, yatto "tsugi no sutēji" ni ikeru jikkan ga moteta raivu deshita.
+      Ano hi no "Kioku to Sora" no ankōru wa, ima omoereba indiizu jidai no subete o
+      tsumekonda kyoku datta n desu yo.
+    en: >
+      For me it was the live where I finally felt we could reach "the next stage."
+      Looking back, the "Kioku to Sora" encore that day was a song that packed in
+      everything from our indies period.
+
+  # —— 前例がなくても臆せずに新しいことに挑戦し続ける ——
+  - speaker: interviewer
+    ja: ——7月19日のデビューシングル『ヴェル・エール ～空白の瞬間の中で～』について教えてください。
+    romaji: ——7-gatsu 19-nichi no debyū shinguru "Veru Ēru ~Kūhaku no Shunkan no Naka de~" ni tsuite oshiete kudasai.
+    en: ——Tell us about the July 19 debut single, Bel Air ~In the Moment of Emptiness~.
+
+  - speaker: gackt
+    ja: >
+      一曲なのに、20分近い映像作品がセットになっているんです。映画と
+      ミュージック・クリップの中間のような、新しい形の作品。フランスで
+      撮影してきた内容も入っていて、このシングルだけでマリス・ミゼルの
+      世界がかなり伝わるはずです。
+    romaji: >
+      Ikkyoku na no ni, 20-pun chikai eizō sakuhin ga setto ni natte iru n desu. Eiga to
+      myūjikku kurippu no chūkan no yō na, atarashii katachi no sakuhin. Furansu de
+      satsuei shite kita naiyō mo haitte ite, kono shinguru dake de Marisu Mizeru no
+      sekai ga kanari tsutawaru hazu desu.
+    en: >
+      It's one song, but it comes bundled with a nearly 20-minute video work—something
+      between a film and a music clip, a new kind of release. It includes footage we
+      shot in France, and this single alone should convey a great deal of the Malice
+      Mizer world.
+
+  - speaker: yuki
+    ja: >
+      初回限定のBOX仕様で、16ページのブックレットも付いています。
+      歌詞や世界観のキーワードがたくさん載っているので、ライヴに来る前の
+      「予習」にもなると思います（笑）。
+    romaji: >
+      Shokai gentei no BOX shiyō de, 16-pēji no bukuretto mo tsuite imasu. Kashi ya
+      sekai-kan no kīwādo ga takusan notte iru node, raivu ni kuru mae no "yoshū" ni mo
+      naru to omoimasu (warai).
+    en: >
+      The first-press limited box includes a 16-page booklet too. It's packed with lyrics
+      and worldview keywords—I think it'll work as "homework" before you come to a live (laughs).
+
+  - speaker: interviewer
+    ja: ——続くスタンディング・ツアー「Pays de merveilles ～空白の瞬間の中で～」は、どんなツアーになりそうですか？
+    romaji: ——Tsuzuku sutandingu tsuā "Pays de merveilles ~Kūhaku no Shunkan no Naka de~" wa, donna tsuā ni narisō desu ka?
+    en: ——What kind of tour will the upcoming standing tour Pays de merveilles ~In the Moment of Emptiness~ be?
+
+  - speaker: gackt
+    ja: >
+      ホールばかりやっていくつもりは最初からありませんでした。スタンディング
+      会場だからこそできる表現もある。ツアータイトル自体が今回のすべてを
+      物語っているので、会場に来れば分かると思います。
+    romaji: >
+      Hōru bakkari yatte iku tsumori wa saisho kara arimasen deshita. Sutandingu
+      kaijō dakara koso dekiru hyōgen mo aru. Tsuā taitoru jitai ga konkai no subete o
+      monogatatte iru node, kaijō ni kureba wakaru to omoimasu.
+    en: >
+      We never planned to play halls forever. There are expressions only possible in
+      standing venues. The tour title itself tells the whole story this time—I think
+      you'll understand when you come.
+
+  - speaker: yuki
+    ja: >
+      赤坂BLITZ2DAYSから始まって、全国を回ります。すでにたくさんの
+      会場がソールドアウトになっているのも、本当にありがたいです。
+      僕らとしては、前例がなくても臆せずに新しいことに挑戦し続ける——
+      それがマリス・ミゼルだと思っています。
+    romaji: >
+      Akasaka Blitz 2DAYS kara hajimatte, zenkoku o mawarimasu. Sude ni takusan no
+      kaijō ga sōrudo auto ni natte iru no mo, hontō ni arigatai desu. Bokura to shite wa,
+      zenrei ga nakute mo okuzezu ni atarashii koto ni chōsen shitsuzukeru——sore ga
+      Marisu Mizeru da to omotte imasu.
+    en: >
+      We start with two days at Akasaka Blitz and tour nationwide. We're truly grateful
+      so many dates are already sold out. For us, Malice Mizer means continuing to
+      challenge new things without fear—even when there's no precedent.
+
+  - speaker: interviewer
+    ja: ——メジャーデビューを前に、リスナーにメッセージをお願いします。
+    romaji: ——Mejā debiyū o mae ni, risunā ni messeji o onegai shimasu.
+    en: ——A message for listeners ahead of your major debut?
+
+  - speaker: gackt
+    ja: >
+      これまで応援してくれた方も、これから知る方も、ぜひシングルと
+      ビデオで「マリス・ミゼル」を体感してください。ライヴに来ていただければ、
+      さらに深い発見があるはずです。
+    romaji: >
+      Kore made ōen shite kureta kata mo, kore kara shiru kata mo, zehi shinguru to
+      bideo de "Marisu Mizeru" o taikan shite kudasai. Raivu ni kite itadakereba,
+      sara ni fukai hakken ga aru hazu desu.
+    en: >
+      To everyone who's supported us and everyone about to discover us—please experience
+      Malice Mizer through the single and video. If you come to the tour, you'll find
+      even deeper discoveries.
+
+  - speaker: yuki
+    ja: >
+      自由に、美しく、前例のない表現を続けていきます。7月19日、
+      新しいマリス・ミゼルの始まりです。
+    romaji: >
+      Jiyū ni, utsukushiku, zenrei no nai hyōgen o tsuzukete ikimasu. 7-gatsu 19-nichi,
+      atarashii Marisu Mizeru no hajimari desu.
+    en: >
+      We'll keep expressing ourselves freely, beautifully, and without precedent.
+      July 19 marks the beginning of a new Malice Mizer.
+
+sidebar:
+  ja: >
+    MALICE MIZER — Mana (G), Közi (G), Gackt (Vo), Yu~ki (B), Kami (Ds)
+    7.19 メジャーデビューシングル『ヴェル・エール ～空白の瞬間の中で～』発売。
+    初回完全限定BOX（16Pブックレット＋スペシャルビデオ付）。
+    STANDING TOUR '97 7.21・22 赤坂BLITZほか全国。
+  romaji: >
+    MALICE MIZER — Mana (G), Közi (G), Gackt (Vo), Yu~ki (B), Kami (Ds)
+    7.19 mejā debiyū shinguru "Veru Ēru ~Kūhaku no Shunkan no Naka de~" hatsubai.
+    Shokai kanzen gentei BOX (16P bukuretto + supesharu bideo tsuki).
+    STANDING TOUR '97 7.21–22 Akasaka Blitz hoka zenkoku.
+  en: >
+    MALICE MIZER — Mana (G), Közi (G), Gackt (Vo), Yu~ki (B), Kami (Ds).
+    Major debut single Bel Air ~In the Moment of Emptiness~ releases July 19.
+    First-press limited box (16-page booklet + special video).
+    STANDING TOUR '97 from July 21–22 at Akasaka Blitz, then nationwide.

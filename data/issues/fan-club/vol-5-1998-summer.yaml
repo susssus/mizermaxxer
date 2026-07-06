@@ -1,13 +1,14 @@
 id: fan-club-vol-5-1998-summer
 publication: fan-club
-issue_number: "5"
+issue_number: '5'
 volume: null
 publication_date: 1998-06
 date_precision: month
 verification_status: verified
-source_notes: >
-  ma chérie fan club newsletter Vol. 5 (Summer 1998).
-  Scanned by Madame Tarantula; hosted on Cantavanda with permission.
+source_notes: 'ma chérie Vol. 5 (Summer 1998). 24 pages mirrored locally under images/scans/fan-club/1998-06/.
+  Gallery: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-5-summer-1998/
+
+  '
 research_targets:
 - member profiles
 - Merveilles era coverage
@@ -31,14 +32,26 @@ articles:
   scan:
     available: true
     quality: original_scan
-    url: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-5-summer-1998/
+    url: images/scans/fan-club/1998-06/01.jpg
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: 24 page scans. Source Cantavanda / Madame Tarantula.
+  notes: '24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-06/02.jpg,
+    images/scans/fan-club/1998-06/03.jpg, images/scans/fan-club/1998-06/04.jpg, images/scans/fan-club/1998-06/05.jpg,
+    images/scans/fan-club/1998-06/06.jpg, images/scans/fan-club/1998-06/07.jpg, images/scans/fan-club/1998-06/08.jpg,
+    images/scans/fan-club/1998-06/09.jpg, images/scans/fan-club/1998-06/10.jpg, images/scans/fan-club/1998-06/11.jpg,
+    images/scans/fan-club/1998-06/12.jpg, images/scans/fan-club/1998-06/13.jpg, images/scans/fan-club/1998-06/14.jpg,
+    images/scans/fan-club/1998-06/15.jpg, images/scans/fan-club/1998-06/16.jpg, images/scans/fan-club/1998-06/17.jpg,
+    images/scans/fan-club/1998-06/18.jpg, images/scans/fan-club/1998-06/19.jpg, images/scans/fan-club/1998-06/20.jpg,
+    images/scans/fan-club/1998-06/21.jpg, images/scans/fan-club/1998-06/22.jpg, images/scans/fan-club/1998-06/23.jpg,
+    images/scans/fan-club/1998-06/24.jpg.'
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Full fan club issue scan gallery linked.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: Mirrored 24 scan pages locally.

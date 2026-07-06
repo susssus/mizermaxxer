@@ -1,0 +1,127 @@
+id: pop-beat-1997-08-ad
+article_id: pop-beat-1997-08-002
+publication: pop-beat
+issue_number: null
+publication_date: 1997-08
+pages: null
+writer_ja: null
+writer_en: null
+title_ja: MALICE MIZER — Bel Air デビュー広告
+title_en: MALICE MIZER — Bel Air debut advertisement
+subtitle: STANDING TOUR '97 Pays de merveilles
+scan_paths:
+  - images/scans/pop-beat/1997-08/02.jpg
+source_scan_gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/
+translator: mizermaxxer
+translation_date: 2026-07-06
+license_notes: >
+  Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use;
+  verify against physical copy where possible.
+
+content:
+  - type: release
+    ja: >
+      7.19 Debut Single Release
+      ヴェル・エール ～空白の瞬間の中で～
+      COZA-31～32  ¥2,039 (TAX IN)
+      初回完全限定発売
+      † 特別BOX仕様 † 16ページ・ブックレット封入 † スペシャルビデオ付
+    romaji: >
+      7.19 Debut Single Release
+      Veru Ēru ~Kūhaku no Shunkan no Naka de~
+      COZA-31~32 ¥2,039 (TAX IN)
+      Shokai kanzen gentei hatsubai
+      † Tokubetsu BOX shiyō † 16-pēji bukuretto fūnyū † Supesharu bideo tsuki
+    en: >
+      July 19 — debut single release: Bel Air ~In the Moment of Emptiness~
+      (COZA-31~32, ¥2,039 tax included). First-press complete limited edition.
+      Special box set with 16-page booklet and special video.
+
+  - type: tour
+    ja: >
+      STANDING TOUR '97 Pays de merveilles ～空白の瞬間の中で～
+    romaji: >
+      STANDING TOUR '97 Pays de merveilles ~Kūhaku no Shunkan no Naka de~
+    en: >
+      STANDING TOUR '97 Pays de merveilles ~In the Moment of Emptiness~
+
+tour_dates:
+  - date: 1997-07-20
+    day: sun
+    venue_ja: 赤坂BLITZ
+    venue_en: Akasaka BLITZ
+    status: sold_out
+  - date: 1997-07-21
+    day: mon
+    venue_ja: 赤坂BLITZ
+    venue_en: Akasaka BLITZ
+    status: sold_out
+  - date: 1997-07-25
+    day: fri
+    venue_ja: 仙台MACANA
+    venue_en: Sendai MACANA
+    status: sold_out
+  - date: 1997-07-26
+    day: sat
+    venue_ja: 仙台MACANA
+    venue_en: Sendai MACANA
+    status: sold_out
+  - date: 1997-07-28
+    day: mon
+    venue_ja: 札幌ペニーレイン24
+    venue_en: Sapporo Penny Lane 24
+    status: sold_out
+  - date: 1997-07-30
+    day: wed
+    venue_ja: 新潟フェイズ
+    venue_en: Niigata Phase
+    status: null
+  - date: 1997-08-01
+    day: fri
+    venue_ja: 金沢AZ
+    venue_en: Kanazawa AZ
+    status: sold_out
+  - date: 1997-08-03
+    day: sun
+    venue_ja: 神戸チキンジョージ
+    venue_en: Kobe Chicken George
+    status: sold_out
+  - date: 1997-08-19
+    day: tue
+    venue_ja: 名古屋ダイヤモンドホール
+    venue_en: Nagoya Diamond Hall
+    status: sold_out
+  - date: 1997-08-21
+    day: thu
+    venue_ja: 京都ミューズホール
+    venue_en: Kyoto Muse Hall
+    status: sold_out
+  - date: 1997-08-22
+    day: fri
+    venue_ja: 大阪IMPホール
+    venue_en: Osaka IMP Hall
+    status: sold_out
+  - date: 1997-08-24
+    day: sun
+    venue_ja: 広島ナミキジャンクション
+    venue_en: Hiroshima Namiki Junction
+    status: sold_out
+  - date: 1997-08-26
+    day: tue
+    venue_ja: 福岡LOGOS
+    venue_en: Fukuoka LOGOS
+    status: sold_out
+
+footer:
+  ja: >
+    TOTAL INFO./Midi:Nette 03-3796-2026
+    COLUMBIA RECORDS 内にマリス・ミゼル単独の新レーベル "Maitrize[マトリーゼ]" 設立
+    Distributed by COLUMBIA RECORDS
+  romaji: >
+    TOTAL INFO./Midi:Nette 03-3796-2026
+    Columbia Records nai ni Marisu Mizeru tandoku no shin rēberu "Maitrize [Matorīze]" setsuritsu
+    Distributed by COLUMBIA RECORDS
+  en: >
+    Total info: Midi:Nette 03-3796-2026.
+    Malice Mizer's standalone label "Maitrize" established under Columbia Records.
+    Distributed by Columbia Records.

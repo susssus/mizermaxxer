@@ -14,7 +14,12 @@ members_present:
 - klaha
 verification_status: verified
 source_notes: 'Official: http://malice-mizer.co.jp/History.html · Cantavanda: https://cantavanda.com/malice-mizer/about-malice-mizer/concert-history/'
-performances: []
+performances:
+- url: https://www.youtube.com/watch?v=RFGZOmNfmys
+  platform: youtube
+  quality: pro_shot
+  title: Bara ni Irodorareta Akui to Higeki no Makuake (YouTube upscaled rip)
+  notes: Two-night Budokan theatrical live; covers Night 1 and Night 2.
 notes: Klaha officially inducted; theatrical two-night Budokan live.
 changelog:
 - date: '2026-07-06'

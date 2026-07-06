@@ -81,6 +81,20 @@ def load_people() -> dict[str, Any]:
     return load_yaml(DATA_DIR / "people.yaml")
 
 
+def load_people_profiles() -> list[dict[str, Any]]:
+    profiles: list[dict[str, Any]] = []
+    people_dir = DATA_DIR / "people"
+    if not people_dir.exists():
+        return profiles
+    for path in sorted(people_dir.glob("*.yaml")):
+        if path.name == "members.yaml":
+            continue
+        doc = load_yaml(path)
+        if doc.get("type") == "person" and doc.get("id"):
+            profiles.append(doc)
+    return profiles
+
+
 def load_albums() -> list[dict[str, Any]]:
     return load_collection("albums")
 

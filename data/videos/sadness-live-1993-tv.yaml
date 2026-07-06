@@ -1,0 +1,18 @@
+id: sadness-live-1993-tv
+title_ja: SADNESS
+title_en: SADNESS (Live 1993, TV broadcast)
+type: tv
+url: https://www.youtube.com/watch?v=Uhjw3BPXjAM
+platform: youtube
+release_date: '1993-03-27'
+song: null
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: SHOCK AGE event broadcast; includes 前兆 (Zenchou) and interview segment. Remastered
+  by Cantavanda.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added SADNESS (Live 1993, TV broadcast).
