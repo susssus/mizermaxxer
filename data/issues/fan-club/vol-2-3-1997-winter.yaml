@@ -17,7 +17,7 @@ articles:
   title_ja: ma chérie Fan Club Magazine Vol. 2&3
   title_en: ma chérie Fan Club Magazine Vol. 2&3 (Winter 1997)
   type: newsletter
-  pages: "32"
+  pages: '32'
   members:
   - gackt
   - kami
@@ -56,10 +56,14 @@ changelog:
 - date: '2026-07-06'
   action: updated
   source: cantavanda
-  notes: >
-    Mirrored 32 scan pages locally; added English translation with romaji
-    (data/translations/fan-club-vol-2-3-1997-winter.yaml).
+  notes: 'Mirrored 32 scan pages locally; added English translation with romaji (data/translations/fan-club-vol-2-3-1997-winter.yaml).
+
+    '
 - date: '2026-07-06'
   action: updated
   source: cantavanda
+  notes: Mirrored 32 scan pages locally.
+- date: '2026-07-06'
+  action: updated
+  source: catalog_mirror
   notes: Mirrored 32 scan pages locally.

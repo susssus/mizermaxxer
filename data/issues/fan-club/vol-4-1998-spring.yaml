@@ -17,7 +17,7 @@ articles:
   title_ja: ma chérie Fan Club Magazine Vol. 4
   title_en: ma chérie Fan Club Magazine Vol. 4 (Spring 1998)
   type: newsletter
-  pages: "24"
+  pages: '24'
   members:
   - gackt
   - kami
@@ -58,6 +58,10 @@ changelog:
 - date: '2026-07-06'
   action: updated
   source: mizermaxxer
-  notes: >
-    Added English translation with romaji
-    (data/translations/fan-club-vol-4-1998-spring.yaml).
+  notes: 'Added English translation with romaji (data/translations/fan-club-vol-4-1998-spring.yaml).
+
+    '
+- date: '2026-07-06'
+  action: updated
+  source: catalog_mirror
+  notes: Mirrored 24 scan pages locally.

@@ -85,13 +85,22 @@ Surveyed July 2026 — **167 total hits**. No dedicated standalone live-flyer up
 | [nhk-pop-jam-le-ciel-02.10.98](https://archive.org/details/nhk-pop-jam-le-ciel-02.10.98) | POPJAM Le ciel live |
 | [hot-wave-bel-air-part-1](https://archive.org/details/hot-wave-bel-air-part-1) | Hot Wave Bel Air segment |
 
-See `scripts/research/internet_archive_catalog.yaml` for the full item list including CD booklet scans and adjacent uploads.
+See `scripts/research/internet_archive_catalog.yaml` for the full curated list (**72 items** catalogued; **167** total search hits on archive.org) including CD booklet scans and adjacent uploads.
 
 ## Scan sources (linked in project)
 
-**Master catalog:** `scripts/research/scan_sources_catalog.yaml`
+**Master catalog:** `scripts/research/scan_sources_catalog.yaml` (**47 items**, July 2026)
 
-**Direct image URLs:** `scripts/research/image_urls_catalog.yaml` — traced JPG/PNG links (850+ URLs as of July 2026). Regenerate with:
+| Source id | Items | Notes |
+|-----------|-------|-------|
+| `malice-archive-incomplete-mags` | 23 | Google Drive folders; link externally — do not mirror |
+| `internet-archive` | 12 | Community magazine/mook uploads |
+| `cantavanda-magazine-appearances` | 5 | MM page clippings from print mags |
+| `cantavanda-fan-club-mags` | 5 | ma chérie fan club zines |
+| `malice-archive-neocities` | 1 | SHOXX Vol. 61 partial (file.garden) |
+| `scape-cher-de-memoire` | 1 | 1994 tour pamphlet pages |
+
+**Direct image URLs:** `scripts/research/image_urls_catalog.yaml` — **932 traced images** across **45 catalog entries** (July 2026). Regenerate with:
 
 ```bash
 .venv/bin/python scripts/research/trace_image_urls.py --patch-catalogs
@@ -100,6 +109,8 @@ See `scripts/research/internet_archive_catalog.yaml` for the full item list incl
 ```
 
 Sources traced: Cantavanda gallery full-size hrefs, scape.sc pamphlet pages (`cherdememoireNN.jpg`), Internet Archive file metadata, Reddit gallery posts (`i.redd.it`), vk.gy cover art (with `--vkgy`). Per-item `image_urls` arrays are also written into `scan_sources_catalog.yaml`.
+
+**Local mirrors:** `fetch_images.py` downloads allowed scan pages from `scan_sources_catalog.yaml` into `images/scans/` (~200 pages as of July 2026). Malice Archive incomplete-mag Drive links are catalogued for external reference only — do not mirror without permission.
 
 | Issue | Pages | Scan gallery |
 |-------|-------|--------------|
@@ -142,13 +153,14 @@ Additional English interview translations (text only): [scape.sc index](http://s
 
 ## Online magazine bibliography (comprehensive)
 
-**Merged catalog:** `scripts/research/magazine_references_online.yaml` (**286 entries**, July 2026)  
-**Regenerate:** `.venv/bin/python scripts/research/build_magazine_references_online.py`
+**Merged catalog:** `scripts/research/magazine_references_online.yaml` (**277 entries**, July 2026)  
+**Regenerate:** `make bibliography-expand` (full pipeline) or `.venv/bin/python scripts/research/build_magazine_references_online.py` (catalog only)
 
 | Source | URL | What it provides |
 |--------|-----|------------------|
 | vkgy / jrock.gy | https://www.jrock.gy/artists/malice-mizer/ | Timeline with ~157 magazine mentions |
 | vkgy — FOOL'S MATE index | https://vk.gy/magazines/fools-mate/ | 39 MM issues (vol.154–242) with per-issue TOC → `scripts/research/vkgy_fools_mate_malice_mizer.yaml` |
+| vkgy — per-magazine indexes | https://vk.gy/magazines/ | 13 publication indexes (`vkgy_*_malice_mizer.yaml`): SHOXX, Cure, GiGS, B-PASS, Arena37℃, Vicious, PATi PATi, M GAZETTE, J-Rock Magazine, Newsmaker, Ongaku to Hito, uv |
 | The Malice Archive | https://malice-archive.neocities.org/list | Fan list: FOOL'S MATE vol.133–242, Arena37℃ 1997–2000, B-PASS, CD SKiT!, Artist Fan, Band Yarouze, etc. |
 | MIsaO Lab — FOOL'S MATE | https://misaolab.hateblo.jp/entry/20000301/1356327963 | Detailed JP coverage notes vol.151–236 (pages, interviews, live reports) |
 | MIsaO Lab — SHOXX | https://misaolab.hateblo.jp/entry/20000302/1356327963 | Detailed JP coverage notes vol.13–120 (covers vol.61, 67, 83, 88, 92, 95, 106…) |
@@ -158,25 +170,28 @@ Additional English interview translations (text only): [scape.sc index](http://s
 
 ### Entries by publication (merged catalog)
 
-| Publication | Entries | Scan URLs in catalog |
+| Publication | Entries | Scan refs in catalog |
 |-------------|---------|----------------------|
-| FOOL'S MATE | 90 | 2 (Cantavanda #189, IA #207) |
-| Vicious | 42 | 1 (Cantavanda Oct 1997) |
-| Arena37℃ | 26 | 2 (IA Oct 1997, Nov 1998) |
-| SHOXX | 21+ | 1 (Cantavanda May 1998 / vol.63) |
-| B-PASS | 17 | 1 (IA Jun 1999, Gackt only) |
-| M GAZETTE | 16 | 0 |
-| CD SKiT! | 11 | 0 |
-| PATi PATi | 11 | 0 |
+| FOOL'S MATE | 87 | 6 |
+| Arena37℃ | 49 | 4 |
+| SHOXX | 46 | 8 |
+| B-PASS | 17 | 2 |
+| PATi PATi | 12 | 2 |
+| CD SKiT! | 11 | 2 |
 | Band Yarouze | 9 | 0 |
-| Artist Fan | 8 | 1 (IA Apr 2000 partial) |
-| GiGS | 4 | 0 |
-| POP BEAT | 2 | 2 (Cantavanda) |
-| Après Guerre, J-Rock Magazine, uv, Friday | 1–6 each | 0 |
+| Vicious | 9 | 2 |
+| Artist Fan | 8 | 0 |
+| GiGS | 5 | 2 |
+| Après Guerre | 3 | 0 |
+| GB | 3 | 3 |
+| CD Data, Fruige | 2 each | 1 / 0 |
+| astan, band-collection, band-style, band-x-artist, bidan, clap, creation, da-vinchi, friday, luck-das, myojo, quick-japan, zy | 1 each | scan ref where noted above |
+
+Scan refs = merged-catalog entries with a `scan.url` (Cantavanda, Internet Archive, Malice Archive incomplete mags, etc.). **47** items in `scan_sources_catalog.yaml` feed local mirroring via `fetch_images.py`.
 
 YAML reference stubs: `data/references/online-magazine-bibliography.yaml`, `malice-archive-magazine-list.yaml`, `vkgy-magazine-timeline.yaml`, `misaolab-*.yaml`.
 
-**Note:** The Malice Archive HTML page appears truncated mid-list (ends at Fruige); vkgy and MIsaO Lab fill gaps for SHOXX, GiGS, Cure, Zappy, etc. Issue stubs in `data/issues/` remain placeholders until individually verified against NDL/physical copies.
+**Note:** The Malice Archive HTML page appears truncated mid-list (ends at Fruige); vkgy and MIsaO Lab fill gaps for SHOXX, GiGS, Cure, Zappy, etc. **494** issue YAML files under `data/issues/` are mostly placeholders until individually verified against NDL/physical copies.
 
 ## Reddit (r/visualkei)
 
@@ -218,7 +233,7 @@ ISSN values should be re-verified against NDL/CiNii during research.
 9. Tour pamphlets
 10. Fan club newsletters
 
-Publications marked `needs_confirmation` in `data/publications.yaml`: Vicious, Zappy, WHAT's IN?
+Publications with `status: needs_confirmation` in `data/publications.yaml` (34 titles) include Vicious, Zappy, WHAT's IN?, POP BEAT, M GAZETTE, and other low-priority or single-mention titles. Priority magazines (FOOL'S MATE, SHOXX, Arena37℃, Cure, GiGS, PATi PATi, B-PASS, uv) are `status: verified`.
 
 ## Image assets (site)
 
@@ -226,9 +241,11 @@ Local copies live under `images/` and are mirrored to `site/public/images/` for 
 
 | Asset type | Directory | Primary sources | Fetch script |
 |------------|-----------|-----------------|--------------|
-| Release flyers | `images/flyers/` | [malice-mizer.info/flyers](https://malice-mizer.info/flyers) | `scripts/research/fetch_images.py` |
+| Release flyers | `images/flyers/` | [malice-mizer.info/flyers](https://malice-mizer.info/flyers), [Malice Meezer vintage](https://malicemeezer.neocities.org/vintage) | `scripts/research/fetch_images.py` |
 | Album/single covers | `images/covers/` | [Cover Art Archive](https://coverartarchive.org/) (Cantavanda-attributed uploads) | same |
 | Member portraits & hero | `images/members/` | [malice-mizer.info/photos](https://www.malice-mizer.info/photos) (Cantavanda scans) | same |
+| Magazine & pamphlet scans | `images/scans/` | `scan_sources_catalog.yaml` (Cantavanda, IA, scape.sc, Malice Archive where permitted) | same |
+| Fan club zines | `images/scans/fan-club/` | Cantavanda ma chérie galleries | same + `ingest_cantavanda_scans.py` |
 
 Attribution manifest: `images/manifest.json` (path, source URL, source name, fetch date).
 
@@ -279,21 +296,23 @@ Regenerate the web catalog after editing source lists:
 
 YAML stubs: `data/references/streaming-platforms.yaml`, `spotify-malace-mizer-catalog.yaml`, `tidal-malace-mizer-catalog.yaml`.
 
+**Do not link to Spotify or Tidal uploads.** Streams profit the impersonator; platform IDs below are for research identification only.
+
 ### Spotify examples (unauthorized)
 
-| Release | URL | Label note |
-|---------|-----|------------|
-| -merveilles- | https://open.spotify.com/album/2vLTmWIK6BMEpOCcLilhft | Malace Mizer |
-| Voyage Sans Retour | https://open.spotify.com/album/1qZoqKRcKhZuP6Wt8VCqpq | © 2022 3761571 Records DK |
-| Bara no seidou | https://open.spotify.com/album/3Nsm00nPPOWscPKMVNMedC | © 2025 9559586 Records DK |
-| Beast of Blood | https://open.spotify.com/album/7CjP4tT088kAmmzBqqCNDu | © 2025 9559586 Records DK |
-| ma chérie | https://open.spotify.com/track/0qj9fvyFA0qYsh7eQW356T | © 2025 9559586 Records DK |
+| Release | Platform ID | Label note |
+|---------|-------------|------------|
+| -merveilles- | `2vLTmWIK6BMEpOCcLilhft` | Malace Mizer |
+| Voyage Sans Retour | `1qZoqKRcKhZuP6Wt8VCqpq` | © 2022 3761571 Records DK |
+| Bara no seidou | `3Nsm00nPPOWscPKMVNMedC` | © 2025 9559586 Records DK |
+| Beast of Blood | `7CjP4tT088kAmmzBqqCNDu` | © 2025 9559586 Records DK |
+| ma chérie | `0qj9fvyFA0qYsh7eQW356T` | © 2025 9559586 Records DK |
 
 ### Tidal examples (unauthorized, partial)
 
-| Release | URL |
-|---------|-----|
-| ma chérie | https://listen.tidal.com/track/490778848 |
-| Gardenia | https://listen.tidal.com/album/514021384 |
+| Release | Platform ID |
+|---------|-------------|
+| ma chérie | `490778848` |
+| Gardenia | `514021384` |
 
 Tidal did not cross-link the full Spotify album set at time of check; treat as incomplete mirror of the same unauthorized uploads.

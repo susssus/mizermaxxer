@@ -1,14 +1,28 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# OS
 .DS_Store
-db/*.sqlite
-exports/*.csv
-exports/*.xlsx
-exports/*.pdf
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases & generated exports
+db/
+exports/
+
+# Site build artifacts
 site/dist/
 site/node_modules/
 site/.astro/
 site/src/data/links_index.json
+
+# Research caches (vk.gy dumps, archive snapshots)
+scripts/research/.cache/
+
+# Vercel CLI
 .vercel/
-.env.local

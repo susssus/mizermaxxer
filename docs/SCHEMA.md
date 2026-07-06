@@ -13,19 +13,21 @@ The archive uses **entity files** for facts and a **links layer** for relationsh
 
 ```
 data/
-  songs/au_revoir.yaml          # type: song, id: song_au_revoir
-  albums/merveilles.entity.yaml # type: album (legacy v1 files coexist until migrated)
-  people/mana.yaml
-  references/shoxx_061.yaml
+  songs/au_revoir.yaml              # type: song, id: song_au_revoir
+  albums/merveilles.entity.yaml     # type: album (legacy v1 slug files coexist)
+  singles/gekka-no-yasoukyoku.yaml  # v1 release stubs; v2 singles use type: single
+  people/mana.yaml                  # type: person, id: person_mana
+  references/shoxx_061.yaml         # type: reference, id: ref_shoxx_061
   concerts/1998_04_14_tokyo.yaml
   appearances/1995_12_music_station.yaml
   organizations/tv_asahi.yaml
   venues/tokyo_dome.yaml
-  links.yaml                    # explicit cross-entity links
+  videos/beast-of-blood-pv.yaml     # v1 video stubs; v2 uses type: video (reference schema)
+  links.yaml                        # explicit cross-entity links
   references/relation_types.yaml
 ```
 
-A file is a **v2 entity** when it has top-level `id` and `type`. Legacy v1 files (no `type`) remain for the print bibliography pipeline until migrated.
+A file is a **v2 entity** when it has top-level `id` and `type` with a recognized prefix (`song_`, `album_`, `single_`, `person_`, `concert_`, `appearance_`, `venue_`, `ref_`, `video_`, `org_`, `image_`). Legacy v1 files (slug `id`, no `type`) remain for the print bibliography pipeline until migrated.
 
 ## Song example
 
@@ -128,7 +130,8 @@ The build script infers these from entity fields — **do not** duplicate them i
 | `appearance.members_present[]` | `appeared_at` (person→appearance) + `featured_appearance` |
 | `appearance.broadcast.network` | `broadcast_on` (appearance→org) + `aired` (org→appearance) |
 
-Explicit link `discusses` (reference→entity) also generates inverse `cited_by`.
+Explicit link `discusses` (reference→entity) also generates inverse `cited_by`.  
+Explicit link `published_in` (article→magazine issue) is reserved for magazine migration.
 
 ## Relation vocabulary
 
@@ -150,9 +153,9 @@ make entities-validate # JSON Schema + referential checks only
 make links             # build links index only
 ```
 
-Outputs:
+Outputs (generated; gitignored — run `make entities` or `make links` before `make site`):
 
-- `site/src/data/links_index.json` — feeds UI (`linked_entities`, `link_count`)
+- `site/src/data/links_index.json` — feeds UI (`linked_entities`, `link_count`, `browse`, `entities_by_id`)
 - `exports/links_index.json` — same data for export/research
 
 ### `linked_entities` shape
@@ -176,14 +179,16 @@ Definitions live in [`schema/entity/`](../schema/entity/):
 
 | File | Entity types |
 |------|----------------|
+| `entity.schema.json` | base `type` enum and shared fields |
 | `song.schema.json` | `song_*` |
-| `album.schema.json` | `album_*` |
+| `album.schema.json` | `album_*`, `single_*` |
 | `person.schema.json` | `person_*` |
-| `reference.schema.json` | `ref_*` |
+| `reference.schema.json` | `ref_*`, `video_*` |
 | `concert.schema.json` | `concert_*` |
 | `appearance.schema.json` | `appearance_*` |
 | `organization.schema.json` | `org_*` |
 | `venue.schema.json` | `venue_*` |
+| `title.schema.json` | `title` object (`original`, `romanized`, …) |
 | `link.schema.json` | entries in `links.yaml` |
 | `fact.schema.json` | `facts[]` on any entity |
 
@@ -203,5 +208,6 @@ Legacy v1 and v2 coexist: `make validate` runs the bibliography validator; `make
 1. **Schema + seed entities** ✅
 2. **Link-resolution script** ✅
 3. **Browse table** ✅ — `/browse` reads `links_index.browse`
-4. **Entity pages** — `/entity/[id]` stub exists; expand with full fact/provenance UI
-5. **Timeline** (needs broadest date coverage)
+4. **Entity pages** ✅ (partial) — `/entity/[id]` renders type chips, facts with provenance, linked-entity grid; appearance and person layouts expanded
+5. **Timeline** — needs broadest date coverage across concerts, appearances, and releases
+6. **Magazine migration** — `data/issues/` stubs → `ref_*` references + `published_in` links
