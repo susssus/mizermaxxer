@@ -9,9 +9,15 @@ song: garnet
 concert: null
 quality: official
 verification_status: verified
-notes: Official PV on @Malice_Mizer_Official YouTube channel.
+notes: >-
+  Official PV on @Malice_Mizer_Official YouTube channel. Fan mirrors on Vimeo:
+  vimeo.com/949352550 (HD, 2024) and vimeo.com/41737864 (2012).
 changelog:
 - date: '2026-07-06'
   action: created
   source: web_research
   notes: Catalogued from @Malice_Mizer_Official channel (0JuOFzVgeUU).
+- date: '2026-07-06'
+  action: updated
+  source: web_research
+  notes: Added Vimeo mirror URLs from Vimeo API search.

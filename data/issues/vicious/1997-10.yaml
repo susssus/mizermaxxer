@@ -5,20 +5,26 @@ volume: null
 publication_date: 1997-10
 date_precision: month
 verification_status: verified
-source_notes: >
-  MM pages scanned on Cantavanda (3 images).
-  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/
+source_notes: 'Vicious October 1997. 3 pages mirrored locally under images/scans/vicious/1997-10/.
+  Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/
+
+  '
 research_targets:
-- interview
-- photo spread
+- verify full issue table of contents
+- locate any additional MM pages beyond Cantavanda clippings
 articles:
 - id: vicious-1997-10-001
   title_ja: null
-  title_en: null
-  type: mention
-  pages: null
-  members: []
-  photographer: null
+  title_en: Group photo spread — V's Break Out
+  type: photo_spread
+  pages: 119
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: Takaaki Henmi
   writer: null
   cover: false
   poster: false
@@ -26,14 +32,53 @@ articles:
   scan:
     available: true
     quality: high
-    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/
+    url: images/scans/vicious/1997-10/01.jpg
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: MM clippings only; not full issue. Source Cantavanda (Butterfly Rose).
+  notes: 'Full-band costume photo; "MALICE MIZER" / "V''s Break Out" header. No accompanying
+    text. Source Cantavanda (Butterfly Rose). Original: https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg
+    Additional pages: images/scans/vicious/1997-10/02.jpg, images/scans/vicious/1997-10/03.jpg.'
+- id: vicious-1997-10-002
+  title_ja: ヴェル・エール 〜空白の瞬間の中で〜 de l'image
+  title_en: Bel Air ~In the Moment of Emptiness~ de l'image
+  type: interview
+  pages: 120–121
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: Takaaki Henmi
+  writer: 山本浩子
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: images/scans/vicious/1997-10/02.jpg
+  translation:
+    available: true
+    url: data/translations/vicious-1997-10-interview.yaml
+  purchase_links: []
+  notes: 'Interview by Hiroko Yamamoto (山本浩子). Subtitle/feature: V''s Break Out. Covers
+    the Sept 3 1997 Bel Air de l''image video release, filming anecdotes, and upcoming
+    Pays de merveilles tour dates. Costumes by Yukari Ohba (Midi : Nette). Page 121
+    scan: images/scans/vicious/1997-10/03.jpg
+
+    '
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Scan gallery linked from Cantavanda magazine appearances.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: 'Mirrored 3 scan pages locally; split photo spread and interview articles;
+    added English translation with romaji (data/translations/vicious-1997-10-interview.yaml).
+
+    '

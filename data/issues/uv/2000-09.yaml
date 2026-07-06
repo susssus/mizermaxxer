@@ -1,0 +1,47 @@
+id: uv-2000-09
+publication: uv
+issue_number: '58'
+volume: null
+publication_date: 2000-09
+date_precision: month
+verification_status: verified
+source_notes: 'uv Vol.58 (2000-09)
+
+  [vkgy-per-issue] https://vk.gy/magazines/uv/1731/vol-58/
+
+  [vkgy-timeline] https://vk.gy/artists/malice-mizer/
+
+  vkgy roles: cover, large_feature'
+research_targets:
+- page numbers
+- scan availability
+articles:
+- id: uv-2000-09-001
+  title_ja: null
+  title_en: null
+  type: cover
+  pages: cover
+  members: []
+  photographer: null
+  writer: null
+  cover: true
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'vkgy roles: cover, large_feature'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: online_catalog_import
+  notes: Imported from merged online bibliography catalog.
+- date: '2026-07-06'
+  action: verified
+  source: vkgy
+  notes: Promoted mention_only → verified via vk.gy per-issue TOC + artist timeline.

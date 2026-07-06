@@ -440,3 +440,25 @@ publications:
     years_active_end: 2002
     priority: 99
     status: needs_confirmation
+
+  - slug: newsmaker
+    name_ja: Newsmaker
+    name_en: Newsmaker
+    publisher: null
+    issn: null
+    years_active_start: 1997
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+    notes: vk.gy artist timeline; vol-based issues.
+
+  - slug: ongaku-to-hito
+    name_ja: 音楽と人
+    name_en: Ongaku to Hito
+    publisher: null
+    issn: null
+    years_active_start: 1994
+    years_active_end: 1999
+    priority: 99
+    status: needs_confirmation
+    notes: Music magazine; vk.gy timeline mentions 1998–1999 MM coverage.

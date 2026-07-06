@@ -1,0 +1,1666 @@
+{
+  "generated_at": "2026-07-06T00:24:52.135088Z",
+  "total_count": 232,
+  "sources": [
+    {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "count": 144,
+      "images": [
+        {
+          "path": "images/scans/fan-club/1997-09/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640675Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640691Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-03.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640701Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-04.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640711Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-05.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640721Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/06.jpg",
+          "filename": "06.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/06.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-06.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640759Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/07.jpg",
+          "filename": "07.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/07.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-07.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640770Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/08.jpg",
+          "filename": "08.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/08.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-08.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640779Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/09.jpg",
+          "filename": "09.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/09.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-09.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640787Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/10.jpg",
+          "filename": "10.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/10.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-10.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640797Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/11.jpg",
+          "filename": "11.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/11.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-11.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640806Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/12.jpg",
+          "filename": "12.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/12.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640814Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/13.jpg",
+          "filename": "13.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/13.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640823Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/14.jpg",
+          "filename": "14.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/14.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-14.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640832Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/15.jpg",
+          "filename": "15.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/15.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640842Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/16.jpg",
+          "filename": "16.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/16.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-16.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640851Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/17.jpg",
+          "filename": "17.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/17.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-17.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640859Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/18.jpg",
+          "filename": "18.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/18.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-18.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640868Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/19.jpg",
+          "filename": "19.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/19.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-19.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640877Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/20.jpg",
+          "filename": "20.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/20.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-20.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640885Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/21.jpg",
+          "filename": "21.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/21.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-21.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640893Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/22.jpg",
+          "filename": "22.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/22.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-22.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640903Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/23.jpg",
+          "filename": "23.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/23.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-23.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640912Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-09/24.jpg",
+          "filename": "24.jpg",
+          "site_url": "/images/scans/fan-club/1997-09/24.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-24.jpg",
+          "fetched_at": "2026-07-06T00:01:52.640920Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644239Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644250Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-03.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644259Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-04.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644267Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-05.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644275Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/06.jpg",
+          "filename": "06.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/06.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-06.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644283Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/07.jpg",
+          "filename": "07.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/07.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-07.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644291Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/08.jpg",
+          "filename": "08.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/08.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-08.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644302Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/09.jpg",
+          "filename": "09.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/09.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-09.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644310Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/10.jpg",
+          "filename": "10.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/10.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-10.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644317Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/11.jpg",
+          "filename": "11.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/11.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-11.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644325Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/12.jpg",
+          "filename": "12.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/12.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644333Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/13.jpg",
+          "filename": "13.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/13.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-13.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644341Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/14.jpg",
+          "filename": "14.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/14.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-14.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644349Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/15.jpg",
+          "filename": "15.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/15.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-15.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644357Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/16.jpg",
+          "filename": "16.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/16.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-16.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644365Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/17.jpg",
+          "filename": "17.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/17.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-17.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644373Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/18.jpg",
+          "filename": "18.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/18.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-18.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644381Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/19.jpg",
+          "filename": "19.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/19.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-19.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644389Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/20.jpg",
+          "filename": "20.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/20.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-20.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644398Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/21.jpg",
+          "filename": "21.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/21.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-21.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644405Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/22.jpg",
+          "filename": "22.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/22.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-22.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644413Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/23.jpg",
+          "filename": "23.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/23.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-23.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644421Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/24.jpg",
+          "filename": "24.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/24.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-24.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644429Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/25.jpg",
+          "filename": "25.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/25.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-25.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644436Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/26.jpg",
+          "filename": "26.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/26.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-26.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644445Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/27.jpg",
+          "filename": "27.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/27.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-27.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644453Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/28.jpg",
+          "filename": "28.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/28.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-28.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644461Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/29.jpg",
+          "filename": "29.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/29.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-29.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644468Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/30.jpg",
+          "filename": "30.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/30.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-30.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644476Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/31.jpg",
+          "filename": "31.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/31.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-31.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644484Z"
+        },
+        {
+          "path": "images/scans/fan-club/1997-12/32.jpg",
+          "filename": "32.jpg",
+          "site_url": "/images/scans/fan-club/1997-12/32.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-32.jpg",
+          "fetched_at": "2026-07-06T00:01:52.644492Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647714Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647723Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/03.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647732Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/04.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647740Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/05.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647748Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/06.jpg",
+          "filename": "06.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/06.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647760Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/07.jpg",
+          "filename": "07.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/07.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647767Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/08.jpg",
+          "filename": "08.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/08.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/08.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647775Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/09.jpg",
+          "filename": "09.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/09.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/09.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647784Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/10.jpg",
+          "filename": "10.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/10.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/10.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647792Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/11.jpg",
+          "filename": "11.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/11.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/11.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647800Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/12.jpg",
+          "filename": "12.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/12.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/12.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647808Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/13.jpg",
+          "filename": "13.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/13.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/13.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647816Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/14.jpg",
+          "filename": "14.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/14.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/14.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647824Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/15.jpg",
+          "filename": "15.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/15.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/15.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647831Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/16.jpg",
+          "filename": "16.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/16.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/16.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647839Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/17.jpg",
+          "filename": "17.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/17.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/17.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647847Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/18.jpg",
+          "filename": "18.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/18.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/18.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647855Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/19.jpg",
+          "filename": "19.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/19.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/19.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647863Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/20.jpg",
+          "filename": "20.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/20.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/20.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647874Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/21.jpg",
+          "filename": "21.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/21.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/21.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647882Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/22.jpg",
+          "filename": "22.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/22.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/22.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647893Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/23.jpg",
+          "filename": "23.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/23.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/23.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647901Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-03/24.jpg",
+          "filename": "24.jpg",
+          "site_url": "/images/scans/fan-club/1998-03/24.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/24.jpg",
+          "fetched_at": "2026-07-06T00:01:52.647908Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/01-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650722Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/02-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650731Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/03-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650739Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/04-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650749Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/05-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650756Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/06.jpg",
+          "filename": "06.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/06.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650765Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/07.jpg",
+          "filename": "07.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/07.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650773Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/08.jpg",
+          "filename": "08.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/08.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/08-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650780Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/09.jpg",
+          "filename": "09.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/09.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/09-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650788Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/10.jpg",
+          "filename": "10.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/10.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/10-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650796Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/11.jpg",
+          "filename": "11.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/11.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/11-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650803Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/12.jpg",
+          "filename": "12.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/12.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/12-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650811Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/13.jpg",
+          "filename": "13.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/13.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/13-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650819Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/14.jpg",
+          "filename": "14.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/14.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/14-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650826Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/15.jpg",
+          "filename": "15.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/15.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/15-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650834Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/16.jpg",
+          "filename": "16.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/16.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/16-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650842Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/17.jpg",
+          "filename": "17.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/17.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/17-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650849Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/18.jpg",
+          "filename": "18.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/18.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/18-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650857Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/19.jpg",
+          "filename": "19.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/19.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/19-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650865Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/20.jpg",
+          "filename": "20.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/20.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/20-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650872Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/21.jpg",
+          "filename": "21.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/21.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/21-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650879Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/22.jpg",
+          "filename": "22.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/22.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/22-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650887Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/23.jpg",
+          "filename": "23.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/23.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/23-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650895Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-06/24.jpg",
+          "filename": "24.jpg",
+          "site_url": "/images/scans/fan-club/1998-06/24.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/24-1.jpg",
+          "fetched_at": "2026-07-06T00:01:52.650902Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/01-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653787Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/02-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653797Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/03-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653805Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/04-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653813Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/05-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653821Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/06.jpg",
+          "filename": "06.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/06.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653829Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/07.jpg",
+          "filename": "07.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/07.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653837Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/08.jpg",
+          "filename": "08.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/08.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/08-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653845Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/09.jpg",
+          "filename": "09.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/09.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/09-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653853Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/10.jpg",
+          "filename": "10.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/10.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/10-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653862Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/11.jpg",
+          "filename": "11.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/11.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/11-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653869Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/12.jpg",
+          "filename": "12.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/12.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/12-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653877Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/13.jpg",
+          "filename": "13.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/13.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/13-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653885Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/14.jpg",
+          "filename": "14.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/14.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/14-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653893Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/15.jpg",
+          "filename": "15.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/15.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/15-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653900Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/16.jpg",
+          "filename": "16.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/16.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/16-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653908Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/17.jpg",
+          "filename": "17.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/17.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/17-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653915Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/18.jpg",
+          "filename": "18.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/18.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/18-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653923Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/19.jpg",
+          "filename": "19.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/19.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/19-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653930Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/20.jpg",
+          "filename": "20.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/20.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/20-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653938Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/21.jpg",
+          "filename": "21.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/21.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/21-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653945Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/22.jpg",
+          "filename": "22.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/22.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/22-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653953Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/23.jpg",
+          "filename": "23.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/23.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/23-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653960Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/24.jpg",
+          "filename": "24.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/24.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/24-2.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653968Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/25.jpg",
+          "filename": "25.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/25.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653975Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/26.jpg",
+          "filename": "26.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/26.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653983Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/27.jpg",
+          "filename": "27.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/27.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/27.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653991Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/28.jpg",
+          "filename": "28.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/28.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/28.jpg",
+          "fetched_at": "2026-07-06T00:01:52.653998Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/29.jpg",
+          "filename": "29.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/29.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/29.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654006Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/30.jpg",
+          "filename": "30.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/30.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/30.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654014Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/31.jpg",
+          "filename": "31.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/31.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/31.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654022Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/32.jpg",
+          "filename": "32.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/32.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/32.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654030Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/33.jpg",
+          "filename": "33.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/33.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/33.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654038Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/34.jpg",
+          "filename": "34.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/34.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/34.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654046Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/35.jpg",
+          "filename": "35.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/35.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/35.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654055Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/36.jpg",
+          "filename": "36.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/36.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/36.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654062Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/37.jpg",
+          "filename": "37.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/37.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/37.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654070Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/38.jpg",
+          "filename": "38.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/38.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/38.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654078Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/39.jpg",
+          "filename": "39.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/39.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/39.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654086Z"
+        },
+        {
+          "path": "images/scans/fan-club/1998-09/40.jpg",
+          "filename": "40.jpg",
+          "site_url": "/images/scans/fan-club/1998-09/40.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/40.jpg",
+          "fetched_at": "2026-07-06T00:01:52.654093Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Malice Meezer / malicemeezer.neocities.org",
+      "count": 36,
+      "images": [
+        {
+          "path": "images/flyers/flyers-1992-08-debut-era.webp",
+          "filename": "flyers-1992-08-debut-era.webp",
+          "site_url": "/images/flyers/flyers-1992-08-debut-era.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg",
+          "fetched_at": "2026-07-05T23:02:29.916331Z"
+        },
+        {
+          "path": "images/flyers/flyers-1993-01-demo-sadness.webp",
+          "filename": "flyers-1993-01-demo-sadness.webp",
+          "site_url": "/images/flyers/flyers-1993-01-demo-sadness.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg",
+          "fetched_at": "2026-07-05T23:02:29.916331Z"
+        },
+        {
+          "path": "images/flyers/flyers-1993-06-live-1993.webp",
+          "filename": "flyers-1993-06-live-1993.webp",
+          "site_url": "/images/flyers/flyers-1993-06-live-1993.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg",
+          "fetched_at": "2026-07-05T23:02:29.916331Z"
+        },
+        {
+          "path": "images/flyers/flyers-1993-08-artistic-expression.webp",
+          "filename": "flyers-1993-08-artistic-expression.webp",
+          "site_url": "/images/flyers/flyers-1993-08-artistic-expression.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg",
+          "fetched_at": "2026-07-05T23:04:53.887893Z"
+        },
+        {
+          "path": "images/flyers/flyers-1993-12-upcoming-lives.webp",
+          "filename": "flyers-1993-12-upcoming-lives.webp",
+          "site_url": "/images/flyers/flyers-1993-12-upcoming-lives.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg",
+          "fetched_at": "2026-07-05T23:04:55.652083Z"
+        },
+        {
+          "path": "images/flyers/flyers-1994-01-live-1994.webp",
+          "filename": "flyers-1994-01-live-1994.webp",
+          "site_url": "/images/flyers/flyers-1994-01-live-1994.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer.jpg",
+          "fetched_at": "2026-07-05T23:02:29.916331Z"
+        },
+        {
+          "path": "images/flyers/flyers-unknown-oldflyer4.webp",
+          "filename": "flyers-unknown-oldflyer4.webp",
+          "site_url": "/images/flyers/flyers-unknown-oldflyer4.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/Oldflyer4.png",
+          "fetched_at": "2026-07-05T23:04:56.872202Z"
+        },
+        {
+          "path": "images/flyers/flyers-unknown-oldflyer9.webp",
+          "filename": "flyers-unknown-oldflyer9.webp",
+          "site_url": "/images/flyers/flyers-unknown-oldflyer9.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer9.jpg",
+          "fetched_at": "2026-07-05T23:04:56.518854Z"
+        },
+        {
+          "path": "images/vintage/halloween-mana-kozi-yuki.webp",
+          "filename": "halloween-mana-kozi-yuki.webp",
+          "site_url": "/images/vintage/halloween-mana-kozi-yuki.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
+          "fetched_at": "2026-07-05T23:05:07.504605Z"
+        },
+        {
+          "path": "images/vintage/kami-kozi.webp",
+          "filename": "kami-kozi.webp",
+          "site_url": "/images/vintage/kami-kozi.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png",
+          "fetched_at": "2026-07-05T23:05:07.954455Z"
+        },
+        {
+          "path": "images/vintage/kozi-collage.webp",
+          "filename": "kozi-collage.webp",
+          "site_url": "/images/vintage/kozi-collage.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg",
+          "fetched_at": "2026-07-05T23:04:59.022496Z"
+        },
+        {
+          "path": "images/vintage/kozi-interview.webp",
+          "filename": "kozi-interview.webp",
+          "site_url": "/images/vintage/kozi-interview.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/koziinterview.jpg",
+          "fetched_at": "2026-07-05T23:05:02.187869Z"
+        },
+        {
+          "path": "images/vintage/kozi-memoire-dx.webp",
+          "filename": "kozi-memoire-dx.webp",
+          "site_url": "/images/vintage/kozi-memoire-dx.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg",
+          "fetched_at": "2026-07-05T23:04:57.451574Z"
+        },
+        {
+          "path": "images/vintage/live-1993.webp",
+          "filename": "live-1993.webp",
+          "site_url": "/images/vintage/live-1993.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive.jpg",
+          "fetched_at": "2026-07-05T23:05:02.434573Z"
+        },
+        {
+          "path": "images/vintage/live-band-1993.webp",
+          "filename": "live-band-1993.webp",
+          "site_url": "/images/vintage/live-band-1993.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
+          "fetched_at": "2026-07-05T23:05:03.398998Z"
+        },
+        {
+          "path": "images/vintage/live-full-lineup.webp",
+          "filename": "live-full-lineup.webp",
+          "site_url": "/images/vintage/live-full-lineup.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive8.jpg",
+          "fetched_at": "2026-07-05T23:05:04.245736Z"
+        },
+        {
+          "path": "images/vintage/live-kami-memoire-final-1994.webp",
+          "filename": "live-kami-memoire-final-1994.webp",
+          "site_url": "/images/vintage/live-kami-memoire-final-1994.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive5 (1).jpg",
+          "fetched_at": "2026-07-05T23:05:06.020492Z"
+        },
+        {
+          "path": "images/vintage/live-kozi-memoire-final-1994.webp",
+          "filename": "live-kozi-memoire-final-1994.webp",
+          "site_url": "/images/vintage/live-kozi-memoire-final-1994.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive6.jpg",
+          "fetched_at": "2026-07-05T23:05:06.363498Z"
+        },
+        {
+          "path": "images/vintage/live-lineup-1993.webp",
+          "filename": "live-lineup-1993.webp",
+          "site_url": "/images/vintage/live-lineup-1993.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
+          "fetched_at": "2026-07-05T23:05:02.943691Z"
+        },
+        {
+          "path": "images/vintage/live-mana-tetsu.webp",
+          "filename": "live-mana-tetsu.webp",
+          "site_url": "/images/vintage/live-mana-tetsu.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
+          "fetched_at": "2026-07-05T23:05:05.461187Z"
+        },
+        {
+          "path": "images/vintage/live-mana-yuki-tetsu.webp",
+          "filename": "live-mana-yuki-tetsu.webp",
+          "site_url": "/images/vintage/live-mana-yuki-tetsu.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/perform.jpg",
+          "fetched_at": "2026-07-05T23:05:03.622728Z"
+        },
+        {
+          "path": "images/vintage/live-mana-yuki.webp",
+          "filename": "live-mana-yuki.webp",
+          "site_url": "/images/vintage/live-mana-yuki.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive9.jpg",
+          "fetched_at": "2026-07-05T23:05:04.440755Z"
+        },
+        {
+          "path": "images/vintage/live-memoire-final-1994.webp",
+          "filename": "live-memoire-final-1994.webp",
+          "site_url": "/images/vintage/live-memoire-final-1994.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive4.jpg",
+          "fetched_at": "2026-07-05T23:05:05.739681Z"
+        },
+        {
+          "path": "images/vintage/live-tetsu-kami-yuki.webp",
+          "filename": "live-tetsu-kami-yuki.webp",
+          "site_url": "/images/vintage/live-tetsu-kami-yuki.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive7.jpg",
+          "fetched_at": "2026-07-05T23:05:03.978678Z"
+        },
+        {
+          "path": "images/vintage/mana-collage.webp",
+          "filename": "mana-collage.webp",
+          "site_url": "/images/vintage/mana-collage.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/manacollage.jpg",
+          "fetched_at": "2026-07-05T23:04:58.552776Z"
+        },
+        {
+          "path": "images/vintage/mana-guitar-jellyfish.webp",
+          "filename": "mana-guitar-jellyfish.webp",
+          "site_url": "/images/vintage/mana-guitar-jellyfish.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/jellymana4.jpg",
+          "fetched_at": "2026-07-05T23:05:06.678853Z"
+        },
+        {
+          "path": "images/vintage/mana-interview.webp",
+          "filename": "mana-interview.webp",
+          "site_url": "/images/vintage/mana-interview.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/Manainterview.jpg",
+          "fetched_at": "2026-07-05T23:05:00.525272Z"
+        },
+        {
+          "path": "images/vintage/mana-memoire-dx.webp",
+          "filename": "mana-memoire-dx.webp",
+          "site_url": "/images/vintage/mana-memoire-dx.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/mana1a.jpeg",
+          "fetched_at": "2026-07-05T23:04:57.181386Z"
+        },
+        {
+          "path": "images/vintage/mana-smiling-gaz.webp",
+          "filename": "mana-smiling-gaz.webp",
+          "site_url": "/images/vintage/mana-smiling-gaz.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/smilemana.jpg",
+          "fetched_at": "2026-07-05T23:05:06.972759Z"
+        },
+        {
+          "path": "images/vintage/tetsu-collage.webp",
+          "filename": "tetsu-collage.webp",
+          "site_url": "/images/vintage/tetsu-collage.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsucollage.jpg",
+          "fetched_at": "2026-07-05T23:04:59.928854Z"
+        },
+        {
+          "path": "images/vintage/tetsu-interview.webp",
+          "filename": "tetsu-interview.webp",
+          "site_url": "/images/vintage/tetsu-interview.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsuinterview.jpg",
+          "fetched_at": "2026-07-05T23:05:01.074355Z"
+        },
+        {
+          "path": "images/vintage/tetsu-memoire-dx.webp",
+          "filename": "tetsu-memoire-dx.webp",
+          "site_url": "/images/vintage/tetsu-memoire-dx.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/tetsu1a.jpeg",
+          "fetched_at": "2026-07-05T23:04:57.981006Z"
+        },
+        {
+          "path": "images/vintage/yuki-carrying-mana.webp",
+          "filename": "yuki-carrying-mana.webp",
+          "site_url": "/images/vintage/yuki-carrying-mana.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/carry.jpg",
+          "fetched_at": "2026-07-05T23:05:07.155775Z"
+        },
+        {
+          "path": "images/vintage/yuki-collage.webp",
+          "filename": "yuki-collage.webp",
+          "site_url": "/images/vintage/yuki-collage.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/yukicollage.jpg",
+          "fetched_at": "2026-07-05T23:04:59.455455Z"
+        },
+        {
+          "path": "images/vintage/yuki-interview.webp",
+          "filename": "yuki-interview.webp",
+          "site_url": "/images/vintage/yuki-interview.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/yukiinterview.jpg",
+          "fetched_at": "2026-07-05T23:05:01.610049Z"
+        },
+        {
+          "path": "images/vintage/yuki-memoire-dx.webp",
+          "filename": "yuki-memoire-dx.webp",
+          "site_url": "/images/vintage/yuki-memoire-dx.webp",
+          "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
+          "fetched_at": "2026-07-05T23:04:57.711296Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Cantavanda / Butterfly Rose",
+      "count": 26,
+      "images": [
+        {
+          "path": "images/scans/fools-mate/1997-07/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/fools-mate/1997-07/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-01-scaled.jpg",
+          "fetched_at": "2026-07-05T23:43:00.357735Z"
+        },
+        {
+          "path": "images/scans/fools-mate/1997-07/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/fools-mate/1997-07/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-02-scaled.jpg",
+          "fetched_at": "2026-07-05T23:43:00.357735Z"
+        },
+        {
+          "path": "images/scans/fools-mate/1997-07/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/fools-mate/1997-07/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-03-scaled.jpg",
+          "fetched_at": "2026-07-05T23:43:00.357735Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1997-08/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/pop-beat/1997-08/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.08.xx-POP-BEAT-August-1997-01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.627750Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1997-08/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/pop-beat/1997-08/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.08.xx-POP-BEAT-August-1997-02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.627916Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1998-06/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/pop-beat/1998-06/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.637541Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1998-06/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/pop-beat/1998-06/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.637553Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1998-06/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/pop-beat/1998-06/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-03.jpg",
+          "fetched_at": "2026-07-06T00:01:52.637562Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1998-06/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/pop-beat/1998-06/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-04.jpg",
+          "fetched_at": "2026-07-06T00:01:52.637573Z"
+        },
+        {
+          "path": "images/scans/pop-beat/1998-06/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/pop-beat/1998-06/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-05.jpg",
+          "fetched_at": "2026-07-06T00:01:52.637582Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634770Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634781Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-03.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634790Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/04.jpg",
+          "filename": "04.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/04.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-04.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634799Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/05.jpg",
+          "filename": "05.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/05.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-05.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634808Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/06.jpg",
+          "filename": "06.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/06.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-06.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634817Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/07.jpg",
+          "filename": "07.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/07.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-07.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634825Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/08.jpg",
+          "filename": "08.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/08.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-08.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634834Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/09.jpg",
+          "filename": "09.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/09.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-09.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634842Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/10.jpg",
+          "filename": "10.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/10.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-10.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634850Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/11.jpg",
+          "filename": "11.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/11.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-11.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634858Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/12.jpg",
+          "filename": "12.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/12.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-12.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634866Z"
+        },
+        {
+          "path": "images/scans/shoxx/1998-05/13.jpg",
+          "filename": "13.jpg",
+          "site_url": "/images/scans/shoxx/1998-05/13.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-13.jpg",
+          "fetched_at": "2026-07-06T00:01:52.634874Z"
+        },
+        {
+          "path": "images/scans/vicious/1997-10/01.jpg",
+          "filename": "01.jpg",
+          "site_url": "/images/scans/vicious/1997-10/01.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg",
+          "fetched_at": "2026-07-06T00:01:52.631569Z"
+        },
+        {
+          "path": "images/scans/vicious/1997-10/02.jpg",
+          "filename": "02.jpg",
+          "site_url": "/images/scans/vicious/1997-10/02.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-02.jpg",
+          "fetched_at": "2026-07-06T00:01:52.631582Z"
+        },
+        {
+          "path": "images/scans/vicious/1997-10/03.jpg",
+          "filename": "03.jpg",
+          "site_url": "/images/scans/vicious/1997-10/03.jpg",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-03.jpg",
+          "fetched_at": "2026-07-06T00:01:52.631592Z"
+        }
+      ]
+    },
+    {
+      "source_name": "malice-mizer.info",
+      "count": 12,
+      "images": [
+        {
+          "path": "images/flyers/flyers-1999-11-03-saikai-single.webp",
+          "filename": "flyers-1999-11-03-saikai-single.webp",
+          "site_url": "/images/flyers/flyers-1999-11-03-saikai-single.webp",
+          "source_url": "https://malice-mizer.info/99.11.3-再会の血と薔薇-flyer.webp",
+          "fetched_at": "2026-07-05T22:28:48.508876Z"
+        },
+        {
+          "path": "images/flyers/flyers-1999-12-21-saikai-de-limage.webp",
+          "filename": "flyers-1999-12-21-saikai-de-limage.webp",
+          "site_url": "/images/flyers/flyers-1999-12-21-saikai-de-limage.webp",
+          "source_url": "https://malice-mizer.info/99.12.21-再会の血と薔薇-flyer.webp",
+          "fetched_at": "2026-07-05T22:28:50.120790Z"
+        },
+        {
+          "path": "images/flyers/flyers-2000-02-01-shinwa-back.webp",
+          "filename": "flyers-2000-02-01-shinwa-back.webp",
+          "site_url": "/images/flyers/flyers-2000-02-01-shinwa-back.webp",
+          "source_url": "https://malice-mizer.info/00.2.1-神話-flyer-back.webp",
+          "fetched_at": "2026-07-05T22:28:52.785242Z"
+        },
+        {
+          "path": "images/flyers/flyers-2000-02-01-shinwa-front.webp",
+          "filename": "flyers-2000-02-01-shinwa-front.webp",
+          "site_url": "/images/flyers/flyers-2000-02-01-shinwa-front.webp",
+          "source_url": "https://malice-mizer.info/00.2.1-神話-flyer-front.webp",
+          "fetched_at": "2026-07-05T22:28:51.459710Z"
+        },
+        {
+          "path": "images/flyers/flyers-2000-05-31-kyomu.webp",
+          "filename": "flyers-2000-05-31-kyomu.webp",
+          "site_url": "/images/flyers/flyers-2000-05-31-kyomu.webp",
+          "source_url": "https://malice-mizer.info/00.5.31-虚無の中での遊戯-flyer.webp",
+          "fetched_at": "2026-07-05T22:28:54.534858Z"
+        },
+        {
+          "path": "images/flyers/flyers-2000-08-03-bara-no-seidou-back.webp",
+          "filename": "flyers-2000-08-03-bara-no-seidou-back.webp",
+          "site_url": "/images/flyers/flyers-2000-08-03-bara-no-seidou-back.webp",
+          "source_url": "https://malice-mizer.info/00.8.3-薔薇の聖堂-flyer-back.webp",
+          "fetched_at": "2026-07-05T22:28:57.553138Z"
+        },
+        {
+          "path": "images/flyers/flyers-2000-08-03-bara-no-seidou-front.webp",
+          "filename": "flyers-2000-08-03-bara-no-seidou-front.webp",
+          "site_url": "/images/flyers/flyers-2000-08-03-bara-no-seidou-front.webp",
+          "source_url": "https://malice-mizer.info/00.8.3-薔薇の聖堂-flyer-front.webp",
+          "fetched_at": "2026-07-05T22:28:56.010714Z"
+        },
+        {
+          "path": "images/flyers/flyers-2000-11-22-budokan-vhs.webp",
+          "filename": "flyers-2000-11-22-budokan-vhs.webp",
+          "site_url": "/images/flyers/flyers-2000-11-22-budokan-vhs.webp",
+          "source_url": "https://malice-mizer.info/00.11.22-薇に彩られた悪意と悲劇の幕開け-flyer.webp",
+          "fetched_at": "2026-07-05T22:28:59.092573Z"
+        },
+        {
+          "path": "images/flyers/flyers-2001-04-18-derniere-dvd-front.webp",
+          "filename": "flyers-2001-04-18-derniere-dvd-front.webp",
+          "site_url": "/images/flyers/flyers-2001-04-18-derniere-dvd-front.webp",
+          "source_url": "https://malice-mizer.info/01.4.18-sans-retour-Voyage-DVD-flyer-front.webp",
+          "fetched_at": "2026-07-05T22:29:00.640815Z"
+        },
+        {
+          "path": "images/flyers/flyers-2001-05-30-gardenia.webp",
+          "filename": "flyers-2001-05-30-gardenia.webp",
+          "site_url": "/images/flyers/flyers-2001-05-30-gardenia.webp",
+          "source_url": "https://malice-mizer.info/01.5.30-Gardenia-flyer.webp",
+          "fetched_at": "2026-07-05T22:29:02.012763Z"
+        },
+        {
+          "path": "images/flyers/flyers-2001-10-30-bara-no-konrei.webp",
+          "filename": "flyers-2001-10-30-bara-no-konrei.webp",
+          "site_url": "/images/flyers/flyers-2001-10-30-bara-no-konrei.webp",
+          "source_url": "https://malice-mizer.info/01.10.30-真夜中に交わした約束~薔薇の婚礼~flyer.webp",
+          "fetched_at": "2026-07-05T22:29:03.553417Z"
+        },
+        {
+          "path": "images/flyers/flyers-2001-11-30-garnet.webp",
+          "filename": "flyers-2001-11-30-garnet.webp",
+          "site_url": "/images/flyers/flyers-2001-11-30-garnet.webp",
+          "source_url": "https://malice-mizer.info/01.11.30-Garnet-flyer.webp",
+          "fetched_at": "2026-07-05T22:29:05.074710Z"
+        }
+      ]
+    },
+    {
+      "source_name": "malice-mizer.info / Cantavanda",
+      "count": 8,
+      "images": [
+        {
+          "path": "images/members/gackt.webp",
+          "filename": "gackt.webp",
+          "site_url": "/images/members/gackt.webp",
+          "source_url": "https://www.malice-mizer.info/GGTOj8ZXkAAFu6R.webp",
+          "fetched_at": "2026-07-05T22:29:58.991782Z"
+        },
+        {
+          "path": "images/members/hero.webp",
+          "filename": "hero.webp",
+          "site_url": "/images/members/hero.webp",
+          "source_url": "https://www.malice-mizer.info/GK7xiQ1XoAAmE6m.webp",
+          "fetched_at": "2026-07-05T22:29:53.552295Z"
+        },
+        {
+          "path": "images/members/kami.webp",
+          "filename": "kami.webp",
+          "site_url": "/images/members/kami.webp",
+          "source_url": "https://www.malice-mizer.info/20240201_185708.webp",
+          "fetched_at": "2026-07-05T22:29:57.844723Z"
+        },
+        {
+          "path": "images/members/klaha.webp",
+          "filename": "klaha.webp",
+          "site_url": "/images/members/klaha.webp",
+          "source_url": "https://www.malice-mizer.info/GIBE9LQWwAE5Er9.webp",
+          "fetched_at": "2026-07-05T22:30:00.013696Z"
+        },
+        {
+          "path": "images/members/kozi.webp",
+          "filename": "kozi.webp",
+          "site_url": "/images/members/kozi.webp",
+          "source_url": "https://www.malice-mizer.info/GIBE9LVXQAAhrpr.webp",
+          "fetched_at": "2026-07-05T22:29:55.700503Z"
+        },
+        {
+          "path": "images/members/mana.webp",
+          "filename": "mana.webp",
+          "site_url": "/images/members/mana.webp",
+          "source_url": "https://www.malice-mizer.info/GIBE9LOWwAEwwIp.webp",
+          "fetched_at": "2026-07-05T22:29:54.769452Z"
+        },
+        {
+          "path": "images/members/tetsu.webp",
+          "filename": "tetsu.webp",
+          "site_url": "/images/members/tetsu.webp",
+          "source_url": "https://www.malice-mizer.info/20240201_185653.webp",
+          "fetched_at": "2026-07-05T22:30:00.917740Z"
+        },
+        {
+          "path": "images/members/yuki.webp",
+          "filename": "yuki.webp",
+          "site_url": "/images/members/yuki.webp",
+          "source_url": "https://www.malice-mizer.info/20240201_185706.webp",
+          "fetched_at": "2026-07-05T22:29:56.772247Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Cover Art Archive / Cantavanda",
+      "count": 6,
+      "images": [
+        {
+          "path": "images/covers/bara-no-seidou.jpg",
+          "filename": "bara-no-seidou.jpg",
+          "site_url": "/images/covers/bara-no-seidou.jpg",
+          "source_url": "https://coverartarchive.org/release/14f8bce9-21f2-40f7-b2be-1289f9803c7a/21937056556-500.jpg",
+          "fetched_at": "2026-07-05T22:29:38.651132Z"
+        },
+        {
+          "path": "images/covers/beast-of-blood-single.jpg",
+          "filename": "beast-of-blood-single.jpg",
+          "site_url": "/images/covers/beast-of-blood-single.jpg",
+          "source_url": "https://coverartarchive.org/release/5bc9e5f3-d41c-4fba-af8c-ac943c1a0372/41095250361-500.jpg",
+          "fetched_at": "2026-07-05T22:29:52.511171Z"
+        },
+        {
+          "path": "images/covers/gekka-no-yasoukyoku-single.jpg",
+          "filename": "gekka-no-yasoukyoku-single.jpg",
+          "site_url": "/images/covers/gekka-no-yasoukyoku-single.jpg",
+          "source_url": "https://coverartarchive.org/release/093808d3-3320-45c8-8ce7-7bff70df6f55/11886780379-500.jpg",
+          "fetched_at": "2026-07-05T22:29:45.653713Z"
+        },
+        {
+          "path": "images/covers/memoire.jpg",
+          "filename": "memoire.jpg",
+          "site_url": "/images/covers/memoire.jpg",
+          "source_url": "https://coverartarchive.org/release/46e1ff26-b92e-4e65-adc7-9e580ee59e68/44209344797-500.jpg",
+          "fetched_at": "2026-07-05T22:29:12.227005Z"
+        },
+        {
+          "path": "images/covers/merveilles.jpg",
+          "filename": "merveilles.jpg",
+          "site_url": "/images/covers/merveilles.jpg",
+          "source_url": "https://coverartarchive.org/release/7d3b9817-b46c-46e7-a94a-3675134fbcf9/41412130556-500.jpg",
+          "fetched_at": "2026-07-05T22:29:31.637105Z"
+        },
+        {
+          "path": "images/covers/voyage-sans-retour.jpg",
+          "filename": "voyage-sans-retour.jpg",
+          "site_url": "/images/covers/voyage-sans-retour.jpg",
+          "source_url": "https://coverartarchive.org/release/0908291c-a9f7-4d17-b0cd-a84b5a759c68/43860766006-500.jpg",
+          "fetched_at": "2026-07-05T22:29:24.107708Z"
+        }
+      ]
+    }
+  ]
+}

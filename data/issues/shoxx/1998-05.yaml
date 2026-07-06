@@ -9,17 +9,52 @@ source_notes: >
   SHOXX Vol. 63 (May 1998). MM pages scanned on Cantavanda (13 images).
   MIsaO Lab: カラー13p、スーパービジュアルフォト集（衣装：月下の夜想曲）&A to Zインタビュー
   https://misaolab.hateblo.jp/entry/20000302/1356327963
+  Local mirror in images/scans/shoxx/1998-05/.
+  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
 research_targets:
-- interview
-- photo spread
+- verify full issue table of contents
+- locate any additional MM pages beyond Cantavanda clippings
 articles:
 - id: shoxx-1998-05-001
-  title_ja: null
-  title_en: null
-  type: mention
-  pages: null
-  members: []
-  photographer: null
+  title_ja: A to Z インタヴュー
+  title_en: A to Z Interview
+  type: interview
+  pages: 108–111
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: Sin Watanabe
+  writer: 杉江由紀、増渕公子
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: images/scans/shoxx/1998-05/10.jpg
+  translation:
+    available: true
+    url: data/translations/shoxx-1998-05-interview.yaml
+  purchase_links: []
+  notes: >
+    A-to-Z interview; writers Yuki Sugie (Gackt, kozi, mana) and Kimiko Masubuchi (Yu~ki, KAMI).
+    Hair & makeup Reiko Hasuo (Otier). Scans: images/scans/shoxx/1998-05/10.jpg through 13.jpg.
+    Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
+- id: shoxx-1998-05-002
+  title_ja: 月下の夜想曲
+  title_en: Nocturne Under the Moon
+  type: photo_spread
+  pages: 99–107
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
+  photographer: Sin Watanabe
   writer: null
   cover: false
   poster: false
@@ -27,14 +62,25 @@ articles:
   scan:
     available: true
     quality: high
-    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
+    url: images/scans/shoxx/1998-05/01.jpg
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: MM clippings only; not full issue. Source Cantavanda (Butterfly Rose).
+  notes: >
+    Super visual photo spread in beautiful gothic world; costumes by Yukari Ohba (Midi Nette).
+    Feature intro on p. 99 (scan 01.jpg) notes merveilles major debut (Mar 18 1998) and
+    Apr 1 Nippon Budokan performance; links to previous issue SHOXX Vol. 62 cyber-chic feature.
+    Scans: images/scans/shoxx/1998-05/01.jpg through 09.jpg. Location: Country House Windsor.
+    Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Scan gallery linked from Cantavanda magazine appearances.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: >
+    Mirrored 13 scan pages locally; split photo spread (002) and A-to-Z interview (001);
+    added English translation with romaji (data/translations/shoxx-1998-05-interview.yaml).

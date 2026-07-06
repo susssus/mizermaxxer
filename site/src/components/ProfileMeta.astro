@@ -1,0 +1,86 @@
+---
+interface Props {
+  stats: {
+    issue_count: number;
+    album_count: number;
+    single_count: number;
+    song_count: number;
+    concert_count: number;
+    video_count: number;
+    scan_count: number;
+  };
+}
+
+const { stats } = Astro.props;
+---
+
+<aside class="profile-meta" aria-label="Band profile">
+  <h2 class="profile-meta__heading">Profile</h2>
+  <dl class="profile-meta__grid">
+    <div>
+      <dt>Type</dt>
+      <dd>Visual kei band</dd>
+    </div>
+    <div>
+      <dt>Status</dt>
+      <dd>On hiatus <span class="muted">(since 2001)</span></dd>
+    </div>
+    <div>
+      <dt>Active</dt>
+      <dd>1992–2001</dd>
+    </div>
+    <div>
+      <dt>Area</dt>
+      <dd>Tokyo</dd>
+    </div>
+    <div>
+      <dt>Label</dt>
+      <dd>Midi:Nette · Nippon Columbia <span class="muted">(1997–99)</span></dd>
+    </div>
+    <div>
+      <dt>Concept</dt>
+      <dd><em>What is human?</em></dd>
+    </div>
+  </dl>
+  <p class="profile-meta__crossref muted">
+    Cross-reference:{" "}
+    <a href="https://vk.gy/artists/malice-mizer/" target="_blank" rel="noopener">vk.gy artist profile</a>
+  </p>
+</aside>
+
+<style>
+  .profile-meta {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.15rem;
+    margin-bottom: 2rem;
+  }
+  .profile-meta__heading {
+    margin: 0 0 0.85rem;
+    font-size: 1.05rem;
+    color: var(--accent);
+    letter-spacing: 0.03em;
+  }
+  .profile-meta__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.65rem 1.25rem;
+    margin: 0;
+  }
+  .profile-meta__grid dt {
+    margin: 0;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .profile-meta__grid dd {
+    margin: 0.15rem 0 0;
+    font-size: 0.92rem;
+  }
+  .profile-meta__crossref {
+    margin: 0.85rem 0 0;
+    font-size: 0.82rem;
+  }
+</style>

@@ -1,6 +1,7 @@
 ---
 interface Props {
   name: string;
+  slug: string;
   role: string;
   active?: string | null;
   portrait?: string | null;
@@ -8,7 +9,7 @@ interface Props {
   era?: string | null;
 }
 
-const { name, role, active, portrait, entityId, era } = Astro.props;
+const { name, slug, role, active, portrait, entityId, era } = Astro.props;
 
 function resolveSrc(path?: string | null): string | null {
   if (!path) return null;
@@ -16,9 +17,9 @@ function resolveSrc(path?: string | null): string | null {
   return path.startsWith("/") ? path : `/${path}`;
 }
 
-const href = entityId ? `/entity/${entityId}` : null;
+const href = `/members/${slug}`;
 const imgSrc = resolveSrc(portrait);
-const Tag = href ? "a" : "div";
+const Tag = "a";
 ---
 
 <Tag class="member-card" href={href}>

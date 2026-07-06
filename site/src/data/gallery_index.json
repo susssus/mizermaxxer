@@ -1,0 +1,834 @@
+{
+  "generated_at": "2026-07-06T00:24:52.133859Z",
+  "count": 92,
+  "items": [
+    {
+      "title": "Gackt",
+      "src": "images/vintage/live-full-lineup.webp",
+      "caption": "Full lineup (behind Mana)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/members/gackt.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/live-kami-memoire-final-1994.webp",
+      "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/live-band-1993.webp",
+      "caption": "With Yuki, Tetsu, and Mana (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/live-full-lineup.webp",
+      "caption": "Full lineup (Gackt era)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-kozi.webp",
+      "caption": "With Kozi",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/members/kami.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Klaha",
+      "src": "images/members/klaha.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "2000",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/kozi-memoire-dx.webp",
+      "caption": "Memoire DX booklet",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/kozi-collage.webp",
+      "caption": "Tetsu-era collage",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/kozi-interview.webp",
+      "caption": "Memoire interview scan",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/live-kozi-memoire-final-1994.webp",
+      "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/kami-kozi.webp",
+      "caption": "With Kami",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/halloween-mana-kozi-yuki.webp",
+      "caption": "Halloween (with Mana and Yuki)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/members/kozi.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/mana-memoire-dx.webp",
+      "caption": "Memoire DX booklet",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/mana-collage.webp",
+      "caption": "Tetsu-era collage",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/mana-interview.webp",
+      "caption": "Memoire interview scan",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/mana-guitar-jellyfish.webp",
+      "caption": "On guitar (jellyfish costume)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/mana-smiling-gaz.webp",
+      "caption": "Rare smiling photograph with Gaz",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/live-memoire-final-1994.webp",
+      "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/halloween-mana-kozi-yuki.webp",
+      "caption": "Halloween (with Kozi and Yuki)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/members/mana.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/members/tetsu-profile.webp",
+      "caption": "Profile photograph",
+      "source": "malice-mizer.info",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/vintage/tetsu-memoire-dx.webp",
+      "caption": "Memoire DX booklet",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/vintage/tetsu-collage.webp",
+      "caption": "Tetsu-era collage",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/vintage/tetsu-interview.webp",
+      "caption": "Memoire interview scan",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/vintage/live-mana-yuki-tetsu.webp",
+      "caption": "Live performance (Mana, Yuki, Tetsu)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/vintage/live-memoire-final-1994.webp",
+      "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/vintage/live-mana-tetsu.webp",
+      "caption": "Mana and Tetsu",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/flyers/flyers-1992-08-debut-era.webp",
+      "caption": "Debut-era flyer (1992)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/flyers/flyers-1993-01-demo-sadness.webp",
+      "caption": "Sadness demo tape flyer (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/flyers/flyers-1993-06-live-1993.webp",
+      "caption": "Live flyer (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/flyers/flyers-1994-01-live-1994.webp",
+      "caption": "Live flyer (1994)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/members/hero.webp",
+      "caption": "Band promotional photograph (early era)",
+      "source": "Cantavanda via malice-mizer.info",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Tetsu",
+      "src": "images/members/tetsu.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/yuki-memoire-dx.webp",
+      "caption": "Memoire DX booklet",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/yuki-collage.webp",
+      "caption": "Tetsu-era collage",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/yuki-interview.webp",
+      "caption": "Memoire interview scan",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/yuki-carrying-mana.webp",
+      "caption": "Carrying Mana",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/live-lineup-1993.webp",
+      "caption": "Live lineup (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/halloween-mana-kozi-yuki.webp",
+      "caption": "Halloween (with Mana and Kozi)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/members/yuki.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "薔薇に彩られた悪意と悲劇の幕開け",
+      "src": "images/covers/bara-makuake-video.jpg",
+      "caption": "dvd",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2000",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "薔薇の伝承 (序章)",
+      "src": "images/covers/bara-no-densho.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2001",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "薔薇の軌跡",
+      "src": "images/covers/bara-no-kiseki-dvd.jpg",
+      "caption": "dvd",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2001",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "薔薇の婚礼～真夜中に交わした約束～",
+      "src": "images/covers/bara-no-konrei.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2001",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "薔薇の聖堂",
+      "src": "images/covers/bara-no-seidou.jpg",
+      "caption": "album",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2000",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Beast Of Blood ～De L'Image～",
+      "src": "images/covers/beast-of-blood-de-limage.jpg",
+      "caption": "dvd",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2001",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Braintrash",
+      "src": "images/covers/braintrash.jpg",
+      "caption": "demo",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1993",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Cardinal",
+      "src": "images/covers/cardinal.jpg",
+      "caption": "dvd",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2002",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Deep Sanctuary VI - Live At Toyosu Pit September 9 (Malice Mizer 25th Anniversary Special)",
+      "src": "images/covers/deep-sanctuary-vi.jpg",
+      "caption": "dvd",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2019",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "La Collection Des Singles",
+      "src": "images/covers/la-collection-des-singles.jpg",
+      "caption": "compilation",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2006",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "La Collection \"Merveilles\" -L'édition Limitée-",
+      "src": "images/covers/la-collection-merveilles-limited.jpg",
+      "caption": "box set",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2005",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "La Meilleur Selection De Malice Mizer",
+      "src": "images/covers/la-meilleur-selection.jpg",
+      "caption": "compilation",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2006",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Memoire DX",
+      "src": "images/covers/memoire-dx.jpg",
+      "caption": "album",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1994",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Memoire",
+      "src": "images/covers/memoire.jpg",
+      "caption": "album",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1994",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Merveilles -Cinq Parallèle-",
+      "src": "images/covers/merveilles-cinq-parallele.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1999",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "merveilles ～終焉と帰趨～ l'espace",
+      "src": "images/covers/merveilles-lespace.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1998",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Merveilles",
+      "src": "images/covers/merveilles.jpg",
+      "caption": "album",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1998",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Sadness",
+      "src": "images/covers/sadness-demo.jpg",
+      "caption": "demo",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1993",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "再会の血と薔薇 ～De L'Image～",
+      "src": "images/covers/saikai-de-limage.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1999",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Sans Logique",
+      "src": "images/covers/sans-logique.jpg",
+      "caption": "demo",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1992",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Sans Retour Voyage \"Derniere\" ～Encoure Une Fois～",
+      "src": "images/covers/sans-retour-voyage-derniere.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1997",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Sélection De Performances Live",
+      "src": "images/covers/selection-performances-live.jpg",
+      "caption": "live album",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2007",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "神話",
+      "src": "images/covers/shinwa.jpg",
+      "caption": "ep",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2000",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Socìété De Parenté = 新たなる血族との響宴",
+      "src": "images/covers/societe-de-parente.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "2001",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Speed of Desperate",
+      "src": "images/covers/speed-of-desperate.jpg",
+      "caption": "demo",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1992",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "The 1th Anniversary",
+      "src": "images/covers/the-1th-anniversary.jpg",
+      "caption": "demo",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1993",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "ヴェル・エール～空白の瞬間の中で～de l'image",
+      "src": "images/covers/ver-eair-de-limage.jpg",
+      "caption": "vhs",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1997",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "Voyage Sans Retour",
+      "src": "images/covers/voyage-sans-retour.jpg",
+      "caption": "album",
+      "source": "Discogs / Cover Art Archive",
+      "era": "1996",
+      "category": "release",
+      "external": false
+    },
+    {
+      "title": "FOOL'S MATE #174 cover (vk.gy)",
+      "src": "https://vk.gy/images/109369-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #178 cover (vk.gy)",
+      "src": "https://vk.gy/images/109371-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #184 cover (vk.gy)",
+      "src": "https://vk.gy/images/109372-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #185 cover (vk.gy)",
+      "src": "https://vk.gy/images/109373-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #189 cover (vk.gy)",
+      "src": "https://vk.gy/images/109374-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #190 cover (vk.gy)",
+      "src": "https://vk.gy/images/109457-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #193 cover (vk.gy)",
+      "src": "https://vk.gy/images/109458-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #194 cover (vk.gy)",
+      "src": "https://vk.gy/images/109459-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #195 cover (vk.gy)",
+      "src": "https://vk.gy/images/109460-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #198 cover (vk.gy)",
+      "src": "https://vk.gy/images/109461-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #200 cover (vk.gy)",
+      "src": "https://vk.gy/images/109462-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #201 cover (vk.gy)",
+      "src": "https://vk.gy/images/109463-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #202 cover (vk.gy)",
+      "src": "https://vk.gy/images/109464-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #203 cover (vk.gy)",
+      "src": "https://vk.gy/images/109465-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #204 cover (vk.gy)",
+      "src": "https://vk.gy/images/109466-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #205 cover (vk.gy)",
+      "src": "https://vk.gy/images/109467-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #206 cover (vk.gy)",
+      "src": "https://vk.gy/images/109468-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #207 cover (vk.gy)",
+      "src": "https://vk.gy/images/109469-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #210 cover (vk.gy)",
+      "src": "https://vk.gy/images/109555-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #219 cover (vk.gy)",
+      "src": "https://vk.gy/images/109557-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    },
+    {
+      "title": "FOOL'S MATE #220 cover (vk.gy)",
+      "src": "https://vk.gy/images/109471-release.medium.jpg",
+      "caption": "Magazine cover",
+      "source": "vk.gy",
+      "era": null,
+      "category": "promo",
+      "external": true
+    }
+  ]
+}

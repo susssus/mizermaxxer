@@ -1,0 +1,19 @@
+id: il-circo-strano-single
+title_ja: il circo strano
+title_en: il circo strano
+release_date: '1998-11-11'
+date_precision: day
+label: Nippon Columbia
+catalog_number: CODA-1500
+format: cd
+a_side: il-circo-strano
+b_side: null
+coupling_tracks: []
+cover_image: null
+verification_status: possible
+notes: vk.gy release timeline; catalog number per scape.sc / fan discographies. Needs Discogs verification.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: vkgy
+  notes: Added from vk.gy artist timeline release audit.

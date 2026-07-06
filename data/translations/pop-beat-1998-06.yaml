@@ -1,0 +1,406 @@
+id: pop-beat-1998-06
+article_id: pop-beat-1998-06-001
+publication: pop-beat
+issue_number: null
+publication_date: 1998-06
+pages: 58–61
+writer_ja: 増渕公子
+writer_en: Kimiko Masubuchi
+photographer_ja: 牧野雅俊 (pp. 58–59), 澤崎正文 (pp. 60–61)
+photographer_en: Masatoshi Makino (pp. 58–59), Masafumi Sawazaki (pp. 60–61)
+title_ja: 禁断の告白。
+title_en: Forbidden confession
+subtitle: ILLUMINATI single feature
+scan_paths:
+  - images/scans/pop-beat/1998-06/01.jpg
+  - images/scans/pop-beat/1998-06/02.jpg
+  - images/scans/pop-beat/1998-06/03.jpg
+  - images/scans/pop-beat/1998-06/04.jpg
+source_scan_gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/
+translator: mizermaxxer
+translation_date: 2026-07-06
+license_notes: >
+  Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use;
+  verify against physical copy where possible. pp. 58–61 interview; p. 61 (scan 05)
+  is a photo spread with no text beyond the band name.
+
+intro:
+  ja: >
+    アルバム『merveilles』から、「ILLUMINATI」を衝撃のシングルカット。
+    新しく生まれ変わったこの曲、そしてカップリングの「N・p・s N・g・s」に
+    秘められた世界を覗く……
+  romaji: >
+    Arubamu "merveilles" kara, "ILLUMINATI" o shōgeki no shinguru katto.
+    Atarashiku umarekawatta kono kyoku, soshite kappuringu no "N・p・s N・g・s" ni
+    himerareta sekai o nozoku……
+  en: >
+    From the album Merveilles comes a shocking single cut: "ILLUMINATI."
+    A glimpse into the world hidden in this reborn song and its coupling track
+    "N・p・s N・g・s"……
+
+sections:
+  - id: album-chart
+    heading_ja: アルバム初登場2位!! その知らせを聞いて MANA様がしたことは
+    heading_en: Album debut at #2!! What Lord MANA did upon hearing the news
+
+  - id: stage-fall
+    heading_ja: ステージ上でコケました? 血も出ましたからね(笑)
+    heading_en: Did you fall on stage? You even bled (laughs)
+
+  - id: illuminati-pv
+    heading_ja: ピカチュウ並の威力 「ILLUMINATI」の危険なPVの世界
+    heading_en: Power comparable to Pikachu — the dangerous PV world of "ILLUMINATI"
+
+  - id: yuki-nature
+    heading_ja: YU~KI本人も知らない 彼の本性とは？ S？それともM？
+    heading_en: What is Yu~ki's true nature that even he doesn't know? S? Or M?
+
+dialogue:
+  # —— Page 58 (scan 02) ——
+  - speaker: interviewer
+    ja: >
+      5月20日にリリースされたシングル「ILLUMINATI」。甘く危険な香りと
+      SM的な雰囲気、新たに制作されたPVについて、MANA、KÖZI、YU~KIに
+      語ってもらいました。
+    romaji: >
+      5-gatsu 20-nichi ni ririisu sareta shinguru "ILLUMINATI". Amaku kiken na kaori to
+      SM-teki na fun'iki, arata ni seisaku sareta PV ni tsuite, Mana, Közi, Yu~ki ni
+      katatte moraimashita.
+    en: >
+      The single "ILLUMINATI" was released on May 20. Mana, Közi, and Yu~ki spoke
+      about its sweet, dangerous scent, its SM-like atmosphere, and the newly produced PV.
+
+  - speaker: interviewer
+    ja: ——アルバム『merveilles』がオリコン2位デビューした時、MANAさんはどこにいらっしゃいました？
+    romaji: ——Arubamu "merveilles" ga Oricon 2-i debyū shita toki, Mana-san wa doko ni irasshaimashita?
+    en: ——When album Merveilles debuted at #2 on Oricon, where were you, Mana?
+
+  - speaker: mana
+    ja: フランスに行っていました。
+    romaji: Furansu ni itte imashita.
+    en: I was in France.
+
+  - speaker: kozi
+    ja: manaちゃん、里帰り中だったもんね（笑）。
+    romaji: Mana-chan, satogaeri-chū datta mon ne (warai).
+    en: Mana was visiting home, right? (laughs)
+
+  - speaker: mana
+    ja: 知らせを聞いた時は、まあ、うれしかったですね。
+    romaji: Shirase o kiita toki wa, maa, ureshikatta desu ne.
+    en: When I heard the news, well, I was happy.
+
+  - speaker: interviewer
+    ja: ——日本武道館2DAYSのステージで、転んだそうですね？
+    romaji: ——Nippon Budōkan 2DAYS no sutēji de, koronda sō desu ne?
+    en: ——I heard someone fell on stage during the two days at Nippon Budokan?
+
+  - speaker: mana
+    ja: コケました。血も出ましたからね（笑）。
+    romaji: Kokemashita. Chi mo demashita kara ne (warai).
+    en: I fell. And I even bled (laughs).
+
+  - speaker: yuki
+    ja: 大変でしたよ、あれ（笑）。
+    romaji: Taihen deshita yo, are (warai).
+    en: That was rough (laughs).
+
+  - speaker: interviewer
+    ja: ——「ILLUMINATI」のPV、かなり危険な内容だと聞きました。
+    romaji: ——"ILLUMINATI" no PV, kanari kiken na naiyō da to kikimashita.
+    en: ——I hear the "ILLUMINATI" PV is quite dangerous in content.
+
+  - speaker: kozi
+    ja: >
+      ピカチュウ並の威力ですよ。あの一瞬のフラッシュみたいな映像が
+      バーンと来る感じ。P-typeとN-type、2つのバージョンがあるんですけど、
+      どっちも相当なものになってます。
+    romaji: >
+      Pikachū-nami no iryoku desu yo. Ano isshun no furasshu mitai na eizō ga
+      bān to kuru kanji. P-type to N-type, futatsu no bājon ga aru n desu kedo,
+      docchi mo sōtō na mono ni nattemasu.
+    en: >
+      It has Pikachu-level impact—that instant flash of imagery that hits you all at once.
+      There are two versions, P-type and N-type, and both are pretty intense.
+
+  - speaker: mana
+    ja: >
+      今回のPVは、単なるホラーじゃなくて「ILLUMINATI」という曲の
+      世界そのものを映像化したものです。
+    romaji: >
+      Konkai no PV wa, tan naru horā ja nakute "ILLUMINATI" to iu kyoku no
+      sekai sono mono o eizō-ka shita mono desu.
+    en: >
+      This PV isn't mere horror—it's the world of the song "ILLUMINATI" itself
+      translated into video.
+
+  # —— Page 59 (scan 03) ——
+  - speaker: kozi
+    ja: >
+      スローで見ると、見ちゃいけないものまで見えちゃうんですよ。
+      Gacktさんのベッドシーン、モニター越しにずっと見てました（笑）。
+    romaji: >
+      Surō de miru to, micha ikenai mono made miechau n desu yo.
+      Gackt-san no beddo shīn, monitā-goshi ni zutto mite mashita (warai).
+    en: >
+      In slow motion you end up seeing things you shouldn't.
+      I watched Gackt's bed scene on the monitor the whole time (laughs).
+
+  - speaker: yuki
+    ja: >
+      僕は血の風呂のシーンでした。服は着てましたけど、相当な量の
+      血糊を使いましたね。
+    romaji: >
+      Boku wa chi no furo no shīn deshita. Fuku wa kitte mashita kedo, sōtō na ryō no
+      chigori o tsukaimashita ne.
+    en: >
+      Mine was the blood-bath scene. I was clothed, but we used a considerable amount
+      of fake blood.
+
+  - speaker: kozi
+    ja: >
+      僕は秘書みたいな役で、Yu~kiさんを捕まえる側。Yu~kiさんは
+      「捕獲されたパンダ」みたいな感じでした（笑）。
+    romaji: >
+      Boku wa hisho mitai na yaku de, Yu~ki-san o tsukamaeru gawa. Yu~ki-san wa
+      "hokaku sareta panda" mitai na kanji deshita (warai).
+    en: >
+      I was in a secretary-like role—the one who captures Yu~ki. Yu~ki was like
+      a "captured panda" (laughs).
+
+  - speaker: interviewer
+    ja: ——撮影は本当の実験室で行われたそうですね。
+    romaji: ——Satsuei wa hontō no jikkenshitsu de okonawareta sō desu ne.
+    en: ——I hear you filmed in a real laboratory.
+
+  - speaker: mana
+    ja: 白衣を着て、研究所っぽい雰囲気で撮りました。
+    romaji: Hakui o kite, kenkyūjo ppoi fun'iki de torimashita.
+    en: We wore lab coats and shot in a research-institute atmosphere.
+
+  - speaker: interviewer
+    ja: ——エログロバイオレンス的な世界観、テレビ放送は大丈夫でしょうか？
+    romaji: ——Ero-guro-baiorensu teki na sekai-kan, terebi hōsō wa daijōbu deshō ka?
+    en: ——With this erotic-grotesque-violent worldview, will it be okay for TV broadcast?
+
+  - speaker: kozi
+    ja: これでダメなら、日本終わりですね（笑）。
+    romaji: Kore de dame nara, Nihon owari desu ne (warai).
+    en: If this isn't allowed, Japan is finished (laughs).
+
+  - speaker: yuki
+    ja: >
+      SM的な世界、サド的な要素もマゾ的な要素も、全部「ILLUMINATI」の
+      歌詞とリンクしているんです。ぜひシングル買ってください。
+    romaji: >
+      SM-teki na sekai, sado-teki na yōso mo mazo-teki na yōso mo, zenbu "ILLUMINATI" no
+      kashi to linku shite iru n desu. Zehi shinguru katte kudasai.
+    en: >
+      The SM-like world—sadistic and masochistic elements alike—all link to the lyrics
+      of "ILLUMINATI." Please buy the single.
+
+  - speaker: kozi
+    ja: >
+      ちなみに僕、小学2年生の時に鉛筆の芯が指に刺さって、ずっと
+      「ほくろ」だと思ってたんですよ。最近やっと抜けました（笑）。
+    romaji: >
+      Chinami ni boku, shōgaku 2-nensei no toki ni enpitsu no shin ga yubi ni sasatte,
+      zutto "hokuro" da to omotteta n desu yo. Saikin yatto nukemashita (warai).
+    en: >
+      By the way, in second grade a piece of pencil lead got stuck in my finger and I
+      thought it was a mole for the longest time. It finally came out recently (laughs).
+
+  # —— Page 60 (scan 04) ——
+  - speaker: interviewer
+    ja: >
+      今は見えなくなってるから内部に進行してるんでしょうね。
+      どんどん手のひらから遠ざかっていく……。
+    romaji: >
+      Ima wa mienakunatte iru kara naibu ni shinkō shite iru n deshō ne.
+      Dondondo tenohira kara tōzakatte iku……
+    en: >
+      You can't see it anymore, so it must be progressing internally—
+      moving further and further from the palm of your hand……
+
+  - speaker: interviewer
+    ja: YU~KI本人も知らない 彼の本性とは？ S？それともM？
+    romaji: Yu~ki honnin mo shiranai kare no honshō to wa? S? Soretomo M?
+    en: What is Yu~ki's true nature that even he doesn't know? S? Or M?
+
+  - speaker: yuki
+    ja: 僕は痛いのはイヤですね。
+    romaji: Boku wa itai no wa iya desu ne.
+    en: I don't like pain.
+
+  - speaker: interviewer
+    ja: 痛めつけるのもイヤ？
+    romaji: Itametsukeru no mo iya?
+    en: Do you dislike hurting others too?
+
+  - speaker: yuki
+    ja: >
+      蹴ったりするのは好きですよ。ムシャクシャした時、蹴ると
+      スッキリするじゃないですか。
+    romaji: >
+      Kerattari suru no wa suki desu yo. Mushakusha shita toki, keru to
+      sukkiri suru ja nai desu ka.
+    en: >
+      I like kicking things. When I'm frustrated, kicking makes you feel refreshed,
+      doesn't it?
+
+  - speaker: interviewer
+    ja: 人を蹴っちゃうの？
+    romaji: Hito o kecchau no?
+    en: Do you kick people?
+
+  - speaker: yuki
+    ja: >
+      （笑）いや、人を蹴るのはいけませんよ。痛めつけるのとは違うけど、
+      自分を酷使する、睡眠をとらないとか、まばたきをしないとか、
+      そっちの方は嫌いじゃないかも。ただSとM、どっちかと言われれば
+      難しいよね。理性が強いから、無意識のうちに自分を抑えているんですよ、きっと。
+    romaji: >
+      (warai) Iya, hito o keru no wa ikemasen yo. Itametsukeru no to wa chigau kedo,
+      jibun o kokushi suru, suimin o toranai toka, mabataki o shinai toka,
+      sotchi no hō wa kirai ja nai kamo. Tada S to M, docchi ka to iwareba
+      muzukashii yo ne. Risei ga tsuyoi kara, muishiki no uchi ni jibun o
+      osaete iru n desu yo, kitto.
+    en: >
+      (laughs) No, you shouldn't kick people. It's different from hurting someone, but
+      overworking myself—not sleeping, not blinking—I might not mind that. But if you
+      ask whether I'm S or M, it's difficult. My rationality is strong, so I'm probably
+      suppressing myself unconsciously.
+
+  - speaker: interviewer
+    ja: 2人は、爆発してるYU~KIさんて見たことないですか？
+    romaji: Futari wa, bakuhatsu shiteru Yu~ki-san tte mita koto nai desu ka?
+    en: Have you two never seen Yu~ki "explode"?
+
+  - speaker: kozi
+    ja: よく見かけますよ（笑）。
+    romaji: Yoku mikakemasu yo (warai).
+    en: I see it often (laughs).
+
+  - speaker: all
+    ja: （爆笑）
+    romaji: (bakushō)
+    en: (burst into laughter)
+
+  - speaker: yuki
+    ja: 全然理性が強くない（笑）。
+    romaji: Zenzen risei ga tsuyokunai (warai).
+    en: My rationality isn't strong at all (laughs).
+
+  - speaker: interviewer
+    ja: 自分で気づいてないだけです。
+    romaji: Jibun de kizuite inai dake desu.
+    en: You just haven't noticed it yourself.
+
+  - speaker: kozi
+    ja: 大きな植木鉢を持ち上げてるのを見たことがあります（笑）。路上で（笑）。
+    romaji: Ōkina uekibachi o motiageteru no o mita koto ga arimasu (warai). Rojō de (warai).
+    en: I've seen him lifting a large flower pot (laughs). On the street (laughs).
+
+  - speaker: kozi
+    ja: その時、吠えていたもんね。「ウァ～～～～ッ！」って（笑）。
+    romaji: Sono toki, hoete ita mon ne. "Uā~~~~!" tte (warai).
+    en: He was howling then too. Like "Waaaaah!" (laughs).
+
+  - speaker: interviewer
+    ja: 普段のYU~KIさんからは想像できないなぁ。MANAさんは？
+    romaji: Fudan no Yu~ki-san kara wa sōzō dekinai nā. Mana-san wa?
+    en: I can't imagine that from the usual Yu~ki. How about you, Mana?
+
+  - speaker: mana
+    ja: 結構ね、爪の間を削るのが好きっていうか、趣味なんです。
+    romaji: Kekkō ne, tsume no aida o kezuru no ga suki tte iu ka, shumi nan desu.
+    en: Well, I quite like scraping between my nails—or rather, it's a hobby.
+
+  - speaker: interviewer
+    ja: 深爪が好きってこと？
+    romaji: Fukazume ga suki tte koto?
+    en: You mean you like cutting them very short?
+
+  - speaker: mana
+    ja: >
+      深爪じゃなくて、指と爪の間に何かを入れて削っていくんです。
+      本があればページを爪の間に入れて削ってました。だから、学生時代の
+      教科書がボロボロなんです。
+    romaji: >
+      Fukazume ja nakute, yubi to tsume no aida ni nanika o irete kezutte iku n desu.
+      Hon ga areba pēji o tsume no aida ni irete kezutte mashita. Dakara, gakusei-jidai no
+      kyōkasho ga boroboro nan desu.
+    en: >
+      Not short nails—I put something between finger and nail and scrape.
+      If there was a book, I'd put the page between my nails and scrape.
+      That's why my school textbooks were in tatters.
+
+  - speaker: interviewer
+    ja: うわっ、痛くないんですか？
+    romaji: Uwa, itakunain desu ka?
+    en: Ugh, doesn't that hurt?
+
+  - speaker: mana
+    ja: >
+      ムチャクチャ痛いです（笑）。ほら、実は右手の親指だけ、削れていってるんですよ。
+      子供の頃からやり続けて、今では、それをやらなければいけない体に
+      なってしまったんです……。
+    romaji: >
+      Muchakucha itai desu (warai). Hora, jitsu wa migite no oyayubi dake, kezurete itteru n desu yo.
+      Kodomo no koro kara yaritsuzukete, ima de wa, sore o yaranakereba ikenai karada ni
+      natte shimatta n desu……
+    en: >
+      It hurts like crazy (laughs). Look—actually only my right thumb is being worn away.
+      I've done it since I was a child, and now my body has become one that *has* to do it……
+
+  - speaker: interviewer
+    ja: ってことは、M体質？
+    romaji: Tte koto wa, M-taishitsu?
+    en: So you have an M disposition?
+
+  - speaker: mana
+    ja: けど、メチャクチャにするのは好きですけどね（微笑）。
+    romaji: Kedo, muchakucha ni suru no wa suki desu kedo ne (bishō).
+    en: But I do like making a mess of things (smiles).
+
+  - speaker: interviewer
+    ja: 何を？
+    romaji: Nani o?
+    en: What?
+
+  - speaker: mana
+    ja: それは、言えない（笑）。
+    romaji: Sore wa, ienai (warai).
+    en: That, I can't say (laughs).
+
+  - speaker: interviewer
+    ja: 私、皆さんが語らなかった主語を探す旅に出させてもらいますっ！（涙）
+    romaji: Watashi, mina-san ga kataranakatta shugo o sagasu tabi ni dasasete moraimasu! (namida)
+    en: I'm going on a journey to find the subjects you all didn't mention! (tears)
+
+  - speaker: kozi
+    ja: いってらっしゃ～い！
+    romaji: Itterasshai!
+    en: Have a safe trip!
+
+sidebar:
+  ja: >
+    MALICE MIZER — Gackt.C (Vo), MANA (G), Közi (G), YU~KI (B), Kami (Ds)
+    1st ALBUM『merveilles』30万枚突破。4th SINGLE「ILLUMINATI」5.20 Release。
+    お便り：Midi:Nette 〒150 渋谷区神南1-11-4 セントラルアパートments 701
+  romaji: >
+    MALICE MIZER — Gackt.C (Vo), Mana (G), Közi (G), Yu~ki (B), Kami (Ds)
+    1st ALBUM "merveilles" 30-man mai tōpa. 4th SINGLE "ILLUMINATI" 5.20 Release.
+    Ofanri: Midi:Nette 〒150 Shibuya-ku Jinnan 1-11-4 Central Apartments 701
+  en: >
+    MALICE MIZER — Gackt.C (Vo), Mana (G), Közi (G), Yu~ki (B), Kami (Ds).
+    1st album Merveilles surpassed 300,000 copies. 4th single "ILLUMINATI" released May 20.
+    Fan mail: Midi:Nette, Central Apartments 701, 1-11-4 Jinnan, Shibuya-ku, Tokyo 150.
+
+photo_spread_note:
+  ja: >
+    p. 61（scan 05）：4分割のメンバー写真のみ。テキストはバンド名「MALICE MIZER」のみ。
+  romaji: >
+    p. 61 (scan 05): Yon-wari no menbā shashin nomi. Tekisuto wa bando-mei "MALICE MIZER" nomi.
+  en: >
+    p. 61 (scan 05): Four-panel member photos only. Text is limited to the band name "MALICE MIZER."

@@ -5,19 +5,52 @@ volume: null
 publication_date: 1997-08
 date_precision: month
 verification_status: verified
-source_notes: >
-  MM pages scanned on Cantavanda (2 images).
-  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/
+source_notes: 'POP BEAT 1997-08
+
+  [vkgy-timeline] https://vk.gy/artists/malice-mizer/
+
+  POP BEAT August 1997. MM pages scanned on Cantavanda (2 images: p. 111 major debut interview + Bel Air ad/tour dates). Local
+  mirror in images/scans/pop-beat/1997-08/. https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/'
 research_targets:
-- interview
-- photo spread
+- verify full issue table of contents
+- locate any additional MM pages beyond Cantavanda clippings
 articles:
 - id: pop-beat-1997-08-001
-  title_ja: null
-  title_en: null
-  type: mention
+  title_ja: 美しき表現者たち
+  title_en: Beautiful expressors
+  type: interview
+  pages: 111
+  members:
+  - gackt
+  - yuki
+  photographer: null
+  writer: 兒玉常利
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: high
+    url: images/scans/pop-beat/1997-08/01.jpg
+  translation:
+    available: true
+    url: data/translations/pop-beat-1997-08-interview.yaml
+  purchase_links: []
+  notes: 'Major debut feature (7/19 Bel Air). Interview with vocal Gackt and bass Yu~ki by Tsunetoshi Kodama (兒玉常利). Subtitle
+    asks what their unique visuals express and what musical world they aim for. Source Cantavanda (Butterfly Rose).
+
+    '
+- id: pop-beat-1997-08-002
+  title_ja: Bel Air デビュー広告
+  title_en: Bel Air debut advertisement
+  type: advertisement
   pages: null
-  members: []
+  members:
+  - gackt
+  - kami
+  - kozi
+  - mana
+  - yuki
   photographer: null
   writer: null
   cover: false
@@ -26,14 +59,28 @@ articles:
   scan:
     available: true
     quality: high
-    url: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/
+    url: images/scans/pop-beat/1997-08/02.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/pop-beat-1997-08-ad.yaml
   purchase_links: []
-  notes: MM clippings only; not full issue. Source Cantavanda (Butterfly Rose).
+  notes: 'Columbia/Maitrize debut single ad for Bel Air (COZA-31~32) and STANDING TOUR ''97 Pays de merveilles schedule. Most
+    dates marked SOLD OUT. Source Cantavanda.
+
+    '
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Scan gallery linked from Cantavanda magazine appearances.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: 'Split interview and ad articles; added English translations with romaji (data/translations/pop-beat-1997-08-interview.yaml,
+    pop-beat-1997-08-ad.yaml).
+
+    '
+- date: '2026-07-06'
+  action: updated
+  source: vkgy-timeline
+  notes: Added vk.gy artist timeline cross-reference.

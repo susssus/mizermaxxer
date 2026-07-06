@@ -1,0 +1,17 @@
+id: popjam-le-ciel-1998
+title_ja: POPJAM — Le ciel
+title_en: POPJAM — Le ciel live (1998-02-10)
+type: tv
+url: https://archive.org/details/nhk-pop-jam-le-ciel-02.10.98
+platform: archive_org
+release_date: '1998-02-10'
+song: le-ciel
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: NHK POPJAM live performance.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added POPJAM — Le ciel live (1998-02-10).

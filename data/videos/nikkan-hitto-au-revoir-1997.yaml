@@ -1,0 +1,17 @@
+id: nikkan-hitto-au-revoir-1997
+title_ja: 日刊ひっと — au revoir
+title_en: Nikkan Hitto — au revoir live
+type: tv
+url: https://archive.org/details/malice-mizer-nikkan-hitto-au-revoir
+platform: archive_org
+release_date: '1997-12-01'
+song: au-revoir
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: 'TV talk + live performance. Fansub mirror on IA: malice-mizer-au-revoir-engromaji.'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Nikkan Hitto — au revoir live.

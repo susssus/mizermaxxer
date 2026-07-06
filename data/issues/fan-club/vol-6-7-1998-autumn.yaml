@@ -5,9 +5,10 @@ volume: null
 publication_date: 1998-09
 date_precision: month
 verification_status: verified
-source_notes: >
-  ma chérie fan club newsletter Vol. 6–7 (Autumn 1998).
-  Scanned by Madame Tarantula; hosted on Cantavanda with permission.
+source_notes: 'ma chérie Vol. 6–7 (Autumn 1998). 40 pages mirrored locally under images/scans/fan-club/1998-09/.
+  Gallery: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-6-7-autumn-1998/
+
+  '
 research_targets:
 - member profiles
 - Le ciel / Merveilles era coverage
@@ -31,14 +32,31 @@ articles:
   scan:
     available: true
     quality: original_scan
-    url: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-6-7-autumn-1998/
+    url: images/scans/fan-club/1998-09/01.jpg
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: 40 page scans. Source Cantavanda / Madame Tarantula.
+  notes: '40 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-09/02.jpg,
+    images/scans/fan-club/1998-09/03.jpg, images/scans/fan-club/1998-09/04.jpg, images/scans/fan-club/1998-09/05.jpg,
+    images/scans/fan-club/1998-09/06.jpg, images/scans/fan-club/1998-09/07.jpg, images/scans/fan-club/1998-09/08.jpg,
+    images/scans/fan-club/1998-09/09.jpg, images/scans/fan-club/1998-09/10.jpg, images/scans/fan-club/1998-09/11.jpg,
+    images/scans/fan-club/1998-09/12.jpg, images/scans/fan-club/1998-09/13.jpg, images/scans/fan-club/1998-09/14.jpg,
+    images/scans/fan-club/1998-09/15.jpg, images/scans/fan-club/1998-09/16.jpg, images/scans/fan-club/1998-09/17.jpg,
+    images/scans/fan-club/1998-09/18.jpg, images/scans/fan-club/1998-09/19.jpg, images/scans/fan-club/1998-09/20.jpg,
+    images/scans/fan-club/1998-09/21.jpg, images/scans/fan-club/1998-09/22.jpg, images/scans/fan-club/1998-09/23.jpg,
+    images/scans/fan-club/1998-09/24.jpg, images/scans/fan-club/1998-09/25.jpg, images/scans/fan-club/1998-09/26.jpg,
+    images/scans/fan-club/1998-09/27.jpg, images/scans/fan-club/1998-09/28.jpg, images/scans/fan-club/1998-09/29.jpg,
+    images/scans/fan-club/1998-09/30.jpg, images/scans/fan-club/1998-09/31.jpg, images/scans/fan-club/1998-09/32.jpg,
+    images/scans/fan-club/1998-09/33.jpg, images/scans/fan-club/1998-09/34.jpg, images/scans/fan-club/1998-09/35.jpg,
+    images/scans/fan-club/1998-09/36.jpg, images/scans/fan-club/1998-09/37.jpg, images/scans/fan-club/1998-09/38.jpg,
+    images/scans/fan-club/1998-09/39.jpg, images/scans/fan-club/1998-09/40.jpg.'
 changelog:
 - date: '2026-07-06'
   action: created
   source: cantavanda
   notes: Full fan club issue scan gallery linked.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: Mirrored 40 scan pages locally.

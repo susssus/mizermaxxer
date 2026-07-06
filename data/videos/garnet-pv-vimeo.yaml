@@ -1,0 +1,20 @@
+id: garnet-pv-vimeo
+title_ja: Garnet～禁断の園へ～
+title_en: Garnet (PV) — Vimeo HD mirror
+type: pv
+url: https://vimeo.com/949352550
+platform: vimeo
+release_date: '2001-11-30'
+song: garnet
+concert: null
+quality: unknown
+verification_status: possible
+notes: >-
+  Fan-uploaded HD mirror by Solomon Dajjal (May 2024). Official PV is on
+  @Malice_Mizer_Official YouTube (garnet-pv). Older low-resolution mirror at
+  vimeo.com/41737864 (myheartdraws, 2012).
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Found via web search; metadata confirmed via Vimeo API (949352550).
