@@ -13,7 +13,12 @@
       "enum": ["official", "tv_broadcast", "pro_shot", "audience", "low", "unknown", null]
     },
     "title": { "type": ["string", "null"] },
-    "notes": { "type": "string" }
+    "notes": { "type": "string" },
+    "trigger_warnings": {
+      "type": "array",
+      "items": { "enum": ["blood", "gore", "violence", "sexual_content"] },
+      "uniqueItems": true
+    }
   },
   "additionalProperties": false
 }

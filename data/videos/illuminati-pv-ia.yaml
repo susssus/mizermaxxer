@@ -9,6 +9,8 @@ song: null
 concert: null
 quality: official
 verification_status: verified
+trigger_warnings:
+- blood
 notes: PV rip from cinq parallele collection.
 changelog:
 - date: '2026-07-06'

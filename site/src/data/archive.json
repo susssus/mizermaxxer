@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:39:02.783673Z",
+  "generated_at": "2026-07-06T17:59:00.696577Z",
   "people": {
     "members": [
       {
@@ -1177,8 +1177,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1992-08-debut-era.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1992-08-debut-era.yaml",
           "notes": "Tetsu-era flyer from 1992. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg (Malice Meezer vintage gallery).",
           "members": [],
           "purchase_links": []
@@ -1219,8 +1219,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1993-06-live-1993.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1993-06-live-1993.yaml",
           "notes": "Live flyer from 1993. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg (Malice Meezer vintage gallery).",
           "members": [],
           "purchase_links": []
@@ -1240,8 +1240,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1993-08-artistic-expression.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1993-08-artistic-expression.yaml",
           "notes": "Flyer with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg (Malice Meezer vintage gallery).",
           "members": [],
           "purchase_links": []
@@ -1261,8 +1261,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1993-12-upcoming-lives.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1993-12-upcoming-lives.yaml",
           "notes": "Flyer advertising upcoming live dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg (Malice Meezer vintage gallery).",
           "members": [],
           "purchase_links": []
@@ -1282,8 +1282,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1994-01-live-1994.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1994-01-live-1994.yaml",
           "notes": "Live flyer from 1994. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer.jpg (Malice Meezer vintage gallery).",
           "members": [],
           "purchase_links": []
@@ -2790,8 +2790,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1994-07-24-memoire.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1994-07-24-memoire.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -2811,8 +2811,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1994-07-24-memoire-ii.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1994-07-24-memoire-ii.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -2832,8 +2832,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1994-12-24-memoire-dx.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1994-12-24-memoire-dx.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -5027,8 +5027,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1995-12-10-uruwashiki-kamen.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1995-12-10-uruwashiki-kamen.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -5984,8 +5984,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1996-06-09-voyage.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1996-06-09-voyage.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -6005,8 +6005,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1996-10-10-ma-cherie.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1996-10-10-ma-cherie.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -6471,8 +6471,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1997-02-11-gekka.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1997-02-11-gekka.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -6492,8 +6492,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1997-06-30-derniere-vhs.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1997-06-30-derniere-vhs.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -8815,8 +8815,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1998-04-01-au-revoir.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1998-04-01-au-revoir.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -8836,8 +8836,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1998-05-20-illuminati.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1998-05-20-illuminati.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -8857,8 +8857,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1998-09-30-le-ciel.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1998-09-30-le-ciel.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -8878,8 +8878,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1998-10-28-lespace.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1998-10-28-lespace.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -8899,8 +8899,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1998-11-27-itan-shinmon.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1998-11-27-itan-shinmon.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -15108,8 +15108,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1999-11-03-saikai-single.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1999-11-03-saikai-single.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -15129,8 +15129,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-1999-12-21-saikai-de-limage.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1999-12-21-saikai-de-limage.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -21194,8 +21194,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2000-02-01-shinwa-back.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2000-02-01-shinwa-back.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -21215,8 +21215,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2000-02-01-shinwa-front.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2000-02-01-shinwa-front.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -21236,8 +21236,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2000-05-31-kyomu.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2000-05-31-kyomu.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -21257,8 +21257,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2000-08-03-bara-no-seidou-back.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2000-08-03-bara-no-seidou-back.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -21278,8 +21278,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2000-08-03-bara-no-seidou-front.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2000-08-03-bara-no-seidou-front.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -21299,8 +21299,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2000-11-22-budokan-vhs.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2000-11-22-budokan-vhs.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -23501,8 +23501,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2001-04-18-derniere-dvd-front.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2001-04-18-derniere-dvd-front.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -23522,8 +23522,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2001-05-30-gardenia.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2001-05-30-gardenia.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -23543,8 +23543,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2001-10-30-bara-no-konrei.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2001-10-30-bara-no-konrei.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -23564,8 +23564,8 @@
           "scan_available": true,
           "scan_quality": "medium",
           "scan_url": "images/flyers/flyers-2001-11-30-garnet.webp",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-2001-11-30-garnet.yaml",
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "members": [],
           "purchase_links": []
@@ -41712,6 +41712,7 @@
           "notes": "Added Live clip (date unknown) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41735,6 +41736,7 @@
           "notes": "Added SADNESS (Live 1993, TV broadcast)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41758,6 +41760,7 @@
           "notes": "Added ma chérie (TV/live clip) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41781,6 +41784,7 @@
           "notes": "Added ma chérie (early live, Tetsu era)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41804,6 +41808,7 @@
           "notes": "Added Cher de memoire II Final (Tetsu last live)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41833,6 +41838,7 @@
           "notes": "Replaced search URL with official watch link (L0_fUEOz3dY)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "gekka-no-yasoukyoku",
         "title_ja": "月下の夜想曲",
@@ -41870,6 +41876,7 @@
           "notes": "Added CDTV appearance (1996) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41893,6 +41900,7 @@
           "notes": "Added Fan event footage — Transylvania (1996) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41916,6 +41924,7 @@
           "notes": "Added Shock Wave '96 message from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41939,6 +41948,7 @@
           "notes": "Added Voyage ~san Retour~ variety show coverage (1996) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41962,6 +41972,7 @@
           "notes": "Added Hot Wave appearance (Jun 1996) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -41985,6 +41996,7 @@
           "notes": "Added Hot Wave appearance (Aug 1996) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42008,6 +42020,7 @@
           "notes": "Added Best Performance 1996 (TV compilation)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42031,6 +42044,7 @@
           "notes": "Added Verte de Aile [Bel Air] preview with new footage (1997) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
         "title_ja": "Bel Air",
@@ -42066,6 +42080,7 @@
           "notes": "Added Break Out TV appearance (Feb 1997)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42089,6 +42104,7 @@
           "notes": "Added Sans retour Voyage derniere (HD IA rip, 1997) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42112,6 +42128,7 @@
           "notes": "Added Sans retour Voyage derniere — TV coverage (1997)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42135,6 +42152,7 @@
           "notes": "Added Apartment / private room TV interview (1997)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42158,6 +42176,7 @@
           "notes": "Added Hot Wave — Bel Air interview + live."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
         "title_ja": "Bel Air",
@@ -42193,6 +42212,7 @@
           "notes": "Added Bel Air-era TV interview (Aug 1997)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
         "title_ja": "Bel Air",
@@ -42228,6 +42248,7 @@
           "notes": "Added Short TV interview (Aug 1997) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42251,6 +42272,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (t1mcnxf8S9A)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
         "title_ja": "Bel Air",
@@ -42286,6 +42308,7 @@
           "notes": "Added Bel Air (PV) — IA rip from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
         "title_ja": "Bel Air",
@@ -42321,6 +42344,7 @@
           "notes": "Added Verte de Aile / Bel Air short film (IA HD rip) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
         "title_ja": "Bel Air",
@@ -42356,6 +42380,7 @@
           "notes": "Added Hot Wave — au revoir (Nov 1997)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
         "title_ja": "au revoir",
@@ -42391,6 +42416,7 @@
           "notes": "Added Hot Wave — La'Cryma Christi crossover (Dec 1997) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42414,6 +42440,7 @@
           "notes": "Added Nikkan Hitto — au revoir live."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
         "title_ja": "au revoir",
@@ -42449,6 +42476,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (RcQCJfK2n-c)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
         "title_ja": "au revoir",
@@ -42484,6 +42512,7 @@
           "notes": "Added au revoir (PV, 2nd version) — IA rip from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
         "title_ja": "au revoir",
@@ -42519,6 +42548,7 @@
           "notes": "Added au revoir TV segment (fansubbed) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
         "title_ja": "au revoir",
@@ -42554,6 +42584,7 @@
           "notes": "Added merveilles l'espace (alternate IA rip) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42577,6 +42608,7 @@
           "notes": "Added POPJAM — Le ciel live (1998-02-10)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
         "title_ja": "Le ciel ～空白の彼方へ～",
@@ -42612,6 +42644,7 @@
           "notes": "Added Gekka no Yasoukyoku (PV) — IA rip from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "gekka-no-yasoukyoku",
         "title_ja": "月下の夜想曲",
@@ -42649,6 +42682,7 @@
           "notes": "Added Pick Up Artist of the Week — at the Park (1998) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42671,6 +42705,9 @@
           "source": "web_research",
           "notes": "Added Illuminati (PV) — IA rip from Internet Archive catalog."
         }
+      ],
+      "trigger_warnings": [
+        "blood"
       ],
       "song_detail": null
     },
@@ -42695,6 +42732,7 @@
           "notes": "Added Nikkan Hitto — Illuminati (IA rip) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42718,6 +42756,7 @@
           "notes": "Added Utaban — Illuminati live (1998)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42741,6 +42780,7 @@
           "notes": "Added Illuminati TV commercial (1998) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42764,6 +42804,7 @@
           "notes": "Added Nikkan Hitto — Illuminati talk + live (1998-05-21)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42787,6 +42828,7 @@
           "notes": "Added Waratte Iitomo appearance (1998)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -42810,6 +42852,7 @@
           "notes": "Added Le ciel talk + live (Sep 1998) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
         "title_ja": "Le ciel ～空白の彼方へ～",
@@ -42845,6 +42888,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (HTDmJcfEHUA)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
         "title_ja": "Le ciel ～空白の彼方へ～",
@@ -42880,6 +42924,7 @@
           "notes": "Added Le ciel (PV) — IA rip from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
         "title_ja": "Le ciel ～空白の彼方へ～",
@@ -42915,6 +42960,7 @@
           "notes": "Added Nikkan Hitto — Le ciel talk + live."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
         "title_ja": "Le ciel ～空白の彼方へ～",
@@ -42956,6 +43002,7 @@
           "notes": "Replaced search URL with official watch link (mAi-0JLjkgg)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "beast-of-blood",
         "title_ja": "Beast of Blood",
@@ -42997,6 +43044,7 @@
           "notes": "Replaced search URL with official watch link (TR4bfD18Ttg)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "saikai-no-chi-to-bara",
         "title_ja": "再会の血と薔薇",
@@ -43032,6 +43080,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (7wynBDVwhrk)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "kyomu-no-naka-de-no-yugi",
         "title_ja": "虚無の中での遊戯",
@@ -43067,6 +43116,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (TaLJscmFOTQ)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "shiroi-hada",
         "title_ja": "白い肌に狂う愛と哀しみの輪舞",
@@ -43102,6 +43152,7 @@
           "notes": "Added Bara ni Irodorareta Akui to Higeki no Makuake (Budokan Live)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -43125,6 +43176,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (XuTknvtvRN0)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "gardenia",
         "title_ja": "Gardenia",
@@ -43160,6 +43212,7 @@
           "notes": "Catalogued from @Malice_Mizer_Official channel (yuQvijmGxH4)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "mayonaka-yakusoku",
         "title_ja": "真夜中に交わした約束",
@@ -43201,6 +43254,7 @@
           "notes": "Added Vimeo mirror URLs from Vimeo API search."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "garnet",
         "title_ja": "Garnet～禁断の園へ～",
@@ -43236,6 +43290,7 @@
           "notes": "Found via web search; metadata confirmed via Vimeo API (949352550)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "garnet",
         "title_ja": "Garnet～禁断の園へ～",
@@ -43271,6 +43326,7 @@
           "notes": "Added Bara no Konrei (Silent Film)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "mayonaka-yakusoku",
         "title_ja": "真夜中に交わした約束",
@@ -43306,6 +43362,7 @@
           "notes": "Added Bara no Konrei — DVD bonus commentary from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": {
         "id": "mayonaka-yakusoku",
         "title_ja": "真夜中に交わした約束",
@@ -43341,6 +43398,9 @@
           "notes": "Added merveilles cinq parallele — bonus clips."
         }
       ],
+      "trigger_warnings": [
+        "blood"
+      ],
       "song_detail": null
     },
     {
@@ -43364,6 +43424,7 @@
           "notes": "Added merveilles l'espace (Full Live)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -43387,6 +43448,7 @@
           "notes": "Added merveilles l'espace (HD upscaled, IA) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -43410,6 +43472,7 @@
           "notes": "Added merveilles l'espace — DVD bonus clip from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -43433,6 +43496,7 @@
           "notes": "Added Deep Sanctuary VI (25th Anniversary Live)."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     },
     {
@@ -43456,6 +43520,7 @@
           "notes": "Added Deep Sanctuary VI (IA HD rip) from Internet Archive catalog."
         }
       ],
+      "trigger_warnings": [],
       "song_detail": null
     }
   ],

@@ -25,6 +25,11 @@
       "enum": ["verified", "possible", "mention_only", "needs_verification", "disputed"]
     },
     "notes": { "type": "string" },
+    "trigger_warnings": {
+      "type": "array",
+      "items": { "enum": ["blood", "gore", "violence", "sexual_content"] },
+      "uniqueItems": true
+    },
     "changelog": {
       "type": "array",
       "minItems": 1,

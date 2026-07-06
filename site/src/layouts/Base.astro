@@ -329,6 +329,19 @@ const jsonLdBlocks = jsonLd
       .badge.verified { color: var(--verified); }
       .badge.possible, .badge.mention_only { color: var(--possible); }
       .badge.needs_verification, .badge.disputed, .badge.unverified { color: var(--needs); }
+      .trigger-warning {
+        display: inline-block;
+        margin-left: 0.35rem;
+        padding: 0.1rem 0.4rem;
+        border-radius: 4px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: #9a3b2e;
+        background: color-mix(in srgb, #c44d34 12%, var(--surface));
+        border: 1px solid color-mix(in srgb, #c44d34 35%, var(--border));
+        white-space: nowrap;
+      }
       .type-chip {
         display: inline-block;
         padding: 0.15rem 0.5rem;

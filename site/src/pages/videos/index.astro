@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import StatCard from "../../components/StatCard.astro";
+import TriggerWarning from "../../components/TriggerWarning.astro";
 import archive from "../../data/archive.json";
 
 const songMap = new Map(archive.songs.map((song) => [song.id, song]));
@@ -38,7 +39,12 @@ const songMap = new Map(archive.songs.map((song) => [song.id, song]));
             <td>{video.type.replaceAll("_", " ")}</td>
             <td>{video.song ? songMap.get(video.song)?.title_en ?? video.song : "—"}</td>
             <td>{video.platform ?? "—"}</td>
-            <td><a href={video.url} target="_blank" rel="noopener noreferrer">Watch</a></td>
+            <td>
+              <a href={video.url} target="_blank" rel="noopener noreferrer">Watch</a>
+              {video.trigger_warnings?.length ? (
+                <> <TriggerWarning warnings={video.trigger_warnings} /></>
+              ) : null}
+            </td>
             <td><span class={`badge ${video.verification_status}`}>{video.verification_status.replaceAll("_", " ")}</span></td>
           </tr>
         ))}
