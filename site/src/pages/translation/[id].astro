@@ -136,6 +136,99 @@ const translationDescription = doc
       </section>
     )}
 
+    {doc.format === "other" && Array.isArray(doc.scan_paths) && doc.scan_paths[0] && (
+      <section class="card translation-block">
+        <ArchiveImage
+          src={doc.scan_paths[0] as string}
+          alt={doc.title_en ?? doc.title_ja ?? "Scan"}
+          caption={doc.title_en ?? doc.title_ja}
+          variant="inline"
+        />
+      </section>
+    )}
+
+    {doc.format === "other" && Array.isArray(doc.content) && (
+      <section class="pages-list">
+        {doc.content.map((block, index) => (
+          <article class="card translation-page" id={`block-${index + 1}`}>
+            {block.type && (
+              <h2 class="section-label">{String(block.type).replaceAll("_", " ")}</h2>
+            )}
+            {block.ja && (
+              <div class="lang-block">
+                <span class="lang-tag">Japanese</span>
+                <p class="ja-text">{block.ja}</p>
+              </div>
+            )}
+            {block.romaji && (
+              <div class="lang-block">
+                <span class="lang-tag">Romaji</span>
+                <p class="romaji-text">{block.romaji}</p>
+              </div>
+            )}
+            {block.en && (
+              <div class="lang-block">
+                <span class="lang-tag">English</span>
+                <p>{block.en}</p>
+              </div>
+            )}
+          </article>
+        ))}
+      </section>
+    )}
+
+    {doc.format === "other" && Array.isArray(doc.tour_dates) && doc.tour_dates.length > 0 && (
+      <section class="card translation-block">
+        <h2>Tour dates</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Day</th>
+              <th>Venue (JA)</th>
+              <th>Venue (EN)</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {doc.tour_dates.map((row) => (
+              <tr>
+                <td>{row.date}</td>
+                <td>{row.day ?? "—"}</td>
+                <td>{row.venue_ja ?? "—"}</td>
+                <td>{row.venue_en ?? "—"}</td>
+                <td>{row.status ? row.status.replaceAll("_", " ") : "—"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
+
+    {doc.format === "other" && doc.footer && (
+      <section class="card translation-block">
+        <h2>Footer</h2>
+        {doc.footer.ja && (
+          <div class="lang-block">
+            <span class="lang-tag">Japanese</span>
+            <p class="ja-text">{doc.footer.ja}</p>
+          </div>
+        )}
+        {doc.footer.romaji && (
+          <div class="lang-block">
+            <span class="lang-tag">Romaji</span>
+            <p class="romaji-text">{doc.footer.romaji}</p>
+          </div>
+        )}
+        {doc.footer.en && (
+          <div class="lang-block">
+            <span class="lang-tag">English</span>
+            <p>{doc.footer.en}</p>
+          </div>
+        )}
+      </section>
+    )}
+
     {doc.format === "pages" && Array.isArray(doc.pages) && (
       <section class="pages-list">
         {doc.pages.map((page) => {

@@ -24,7 +24,33 @@ const issueDescription = issue
   <Base title={issueTitle} description={issueDescription} type="article">
     <a class="back" href={isFlyer ? "/flyers" : "/"}>← Back to {isFlyer ? "flyers" : "archive"}</a>
 
-    {previewArticle?.scan_url && (
+    {isFlyer && issue.articles.some((a) => a.scan_url) && (
+      <section class="card flyer-scans" style="margin-bottom: 1rem;">
+        <h3>Flyer scans</h3>
+        <div class="flyer-scans__grid">
+          {issue.articles.filter((a) => a.scan_url).map((article) => {
+            const tHref = translationHref(article.translation_url);
+            return (
+              <article class="flyer-scans__item">
+                <ArchiveImage
+                  src={article.scan_url}
+                  alt={article.title_en ?? article.title_ja ?? "Flyer scan"}
+                  caption={article.title_en ?? article.title_ja}
+                  variant="inline"
+                />
+                {article.translation_available && tHref && (
+                  <p class="flyer-scans__translation">
+                    <a href={tHref}>English translation →</a>
+                  </p>
+                )}
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    {!isFlyer && previewArticle?.scan_url && (
       <section class="card" style="margin-bottom: 1rem;">
         <ArchiveImage
           src={previewArticle.scan_url}
@@ -123,3 +149,30 @@ const issueDescription = issue
     </section>
   </Base>
 )}
+
+<style>
+  .flyer-scans h3 {
+    margin-top: 0;
+  }
+  .flyer-scans__grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  .flyer-scans__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .flyer-scans__translation {
+    margin: 0;
+    font-size: 0.88rem;
+  }
+  .flyer-scans__translation a {
+    color: var(--rose);
+    text-decoration: none;
+  }
+  .flyer-scans__translation a:hover {
+    text-decoration: underline;
+  }
+</style>

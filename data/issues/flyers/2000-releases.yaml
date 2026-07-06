@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2000-02-01-shinwa-front.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2000-02-01-shinwa-front.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2000-02-01-shinwa-back.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2000-02-01-shinwa-back.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -68,8 +68,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2000-05-31-kyomu.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2000-05-31-kyomu.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -89,8 +89,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2000-08-03-bara-no-seidou-front.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2000-08-03-bara-no-seidou-front.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -110,8 +110,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2000-08-03-bara-no-seidou-back.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2000-08-03-bara-no-seidou-back.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -131,8 +131,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2000-11-22-budokan-vhs.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2000-11-22-budokan-vhs.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

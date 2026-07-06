@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1998-04-01-au-revoir.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1998-04-01-au-revoir.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1998-05-20-illuminati.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1998-05-20-illuminati.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -68,8 +68,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1998-09-30-le-ciel.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1998-09-30-le-ciel.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -89,8 +89,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1998-10-28-lespace.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1998-10-28-lespace.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -110,8 +110,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1998-11-27-itan-shinmon.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1998-11-27-itan-shinmon.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

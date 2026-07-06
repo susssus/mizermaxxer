@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2001-04-18-derniere-dvd-front.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2001-04-18-derniere-dvd-front.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2001-05-30-gardenia.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2001-05-30-gardenia.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -68,8 +68,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2001-10-30-bara-no-konrei.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2001-10-30-bara-no-konrei.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -89,8 +89,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-2001-11-30-garnet.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-2001-11-30-garnet.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

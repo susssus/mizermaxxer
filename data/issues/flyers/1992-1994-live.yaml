@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1992-08-debut-era.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1992-08-debut-era.yaml
   purchase_links: []
   notes: 'Tetsu-era flyer from 1992. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg
     (Malice Meezer vintage gallery).'
@@ -68,8 +68,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1993-06-live-1993.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1993-06-live-1993.yaml
   purchase_links: []
   notes: 'Live flyer from 1993. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg
     (Malice Meezer vintage gallery).'
@@ -89,8 +89,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1994-01-live-1994.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1994-01-live-1994.yaml
   purchase_links: []
   notes: 'Live flyer from 1994. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer.jpg
     (Malice Meezer vintage gallery).'
@@ -110,8 +110,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1993-08-artistic-expression.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1993-08-artistic-expression.yaml
   purchase_links: []
   notes: 'Flyer with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg
     (Malice Meezer vintage gallery).'
@@ -131,8 +131,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1993-12-upcoming-lives.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1993-12-upcoming-lives.yaml
   purchase_links: []
   notes: 'Flyer advertising upcoming live dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg
     (Malice Meezer vintage gallery).'
