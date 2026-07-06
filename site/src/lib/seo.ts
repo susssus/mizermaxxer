@@ -1,6 +1,6 @@
 export const SITE_NAME = "Malice Mizer Research Archive";
 
-export const SITE_URL = "https://mizermaxxer.vercel.app";
+export const SITE_URL = "https://mizermaxxer.org";
 
 export const DEFAULT_DESCRIPTION =
   "Research archive for Malice Mizer — visual kei magazine bibliography, discography, concert setlists, flyers, videos, and member profiles (1992–2001). Verified sources and scans.";
