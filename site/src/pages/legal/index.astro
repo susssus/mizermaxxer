@@ -1,0 +1,128 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE_NAME } from "../../lib/seo";
+
+const repoUrl = "https://github.com/susssus/mizermaxxer";
+const lastUpdated = "2026-07-07";
+---
+
+<Base
+  title="Legal & Licenses"
+  description="Legal notices for the Malice Mizer Research Archive — MIT open-source code, CC BY-NC 4.0 data and translations, third-party scan rights."
+  noindex
+>
+  <section class="card legal-intro">
+    <h2>Legal &amp; licenses</h2>
+    <p class="muted">Last updated: {lastUpdated}</p>
+    <p>
+      {SITE_NAME} is an independent fan research archive. It is
+      <strong>not affiliated</strong> with Malice Mizer, Mana, Midi:Nette, Nippon Columbia, or any
+      official rights holder. Band names, publication titles, and logos remain the property of
+      their respective owners.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Open source plan</h2>
+    <p>We publish this project as open research software with a dual license:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>License</th>
+          <th>You may…</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Code (scripts, Astro site, schemas)</td>
+          <td><a href={`${repoUrl}/blob/main/LICENSE`} target="_blank" rel="noopener noreferrer">MIT</a></td>
+          <td>Use, modify, and distribute with copyright notice — including commercially.</td>
+        </tr>
+        <tr>
+          <td>Bibliographic YAML, English translations, exported datasets</td>
+          <td>
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="license noopener">
+              CC BY-NC 4.0
+            </a>
+          </td>
+          <td>Share and adapt for <strong>non-commercial</strong> purposes with attribution.</td>
+        </tr>
+        <tr>
+          <td>Mirrored scans, covers, magazine pages</td>
+          <td>Third-party rights</td>
+          <td>Cite the original source; we do not grant rights to these files. See <a href="/attribution">attribution</a>.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="muted">
+      Full repository policy:{" "}
+      <a href={`${repoUrl}/blob/main/docs/LICENSE.md`} target="_blank" rel="noopener noreferrer">docs/LICENSE.md</a>
+      {" · "}
+      <a href={`${repoUrl}/blob/main/LICENSE-CC-BY-NC-4.0.md`} target="_blank" rel="noopener noreferrer">LICENSE-CC-BY-NC-4.0.md</a>
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Attribution</h2>
+    <p>Suggested credit when reusing project-contributed data or translations:</p>
+    <blockquote>
+      Mizermaxxer contributors. <em>Malice Mizer Archive.</em> Licensed CC BY-NC 4.0.
+      <a href={repoUrl}>{repoUrl}</a>
+    </blockquote>
+    <p>
+      Each mirrored image on this site includes a per-file source link where available. See the{" "}
+      <a href="/attribution">image attribution catalogue</a>.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Translations</h2>
+    <p>
+      English translations are separate derivative works from Japanese magazine and flyer text.
+      They are offered under CC BY-NC 4.0. Original Japanese articles remain © their publishers.
+    </p>
+    <p>
+      Translation pages display review status, scan provenance, and the CC BY-NC 4.0 notice. Browse
+      the <a href="/translations">translations index</a>.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Contributing</h2>
+    <p>
+      By submitting a pull request you agree to license code under MIT and contributed catalogue or
+      translation text under CC BY-NC 4.0, as described in{" "}
+      <a href={`${repoUrl}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a>.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="/privacy">Privacy policy</a> — no cookies or analytics on this site</li>
+      <li><a href="/attribution">Image attribution</a> — scan and cover provenance</li>
+      <li><a href={`${repoUrl}/blob/main/docs/SOURCES.md`} target="_blank" rel="noopener noreferrer">docs/SOURCES.md</a> — research source catalogue</li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .legal-intro h2 {
+    margin-top: 0;
+  }
+  blockquote {
+    margin: 1rem 0;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--rose);
+    background: color-mix(in srgb, var(--rose) 6%, transparent);
+    font-size: 0.92rem;
+  }
+  section.card ul {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+  section.card li + li {
+    margin-top: 0.35rem;
+  }
+</style>

@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import PerformanceEmbed from "../../components/PerformanceEmbed.astro";
 import TriggerWarning from "../../components/TriggerWarning.astro";
 import archive from "../../data/archive.json";
+import { concertEntityHref, personEntityHref, songEntityHref, venueEntityHref } from "../../lib/entities.ts";
 
 export function getStaticPaths() {
   return archive.concerts.map((concert) => ({ params: { id: concert.id } }));
@@ -22,11 +23,18 @@ const gigTitle = concert?.event_name_en ?? concert?.event_name_ja ?? concert?.id
 const gigDescription = concert
   ? `Malice Mizer live on ${concert.date} at ${concert.venue_detail?.name_en ?? concert.venue ?? "unknown venue"}. Setlist, lineup, and performance links.`
   : undefined;
+const venueEntity = concert?.venue ? venueEntityHref(concert.venue) : null;
+const concertEntity = concert ? concertEntityHref(concert.id) : null;
 ---
 
 {concert && (
   <Base title={gigTitle} description={gigDescription} type="article">
     <a class="back" href="/gigs">← Back to gig list</a>
+    {concertEntity && (
+      <p class="muted entity-link">
+        <a href={concertEntity}>View in entity graph →</a>
+      </p>
+    )}
 
     <section class="detail-grid">
       <div class="card">
@@ -34,8 +42,28 @@ const gigDescription = concert
         {concert.event_name_ja && concert.event_name_en && <p class="muted">{concert.event_name_ja}</p>}
         <p><strong>Date:</strong> {concert.date} ({concert.date_precision})</p>
         <p><strong>Type:</strong> {concert.type}</p>
-        <p><strong>Venue:</strong> {concert.venue_detail?.name_en ?? concert.venue ?? "Unknown"}</p>
-        <p><strong>Members:</strong> {concert.members_present.join(", ") || "—"}</p>
+        <p><strong>Venue:</strong>{" "}
+          {venueEntity ? (
+            <a href={venueEntity}>{concert.venue_detail?.name_en ?? concert.venue}</a>
+          ) : (
+            concert.venue_detail?.name_en ?? concert.venue ?? "Unknown"
+          )}
+        </p>
+        <p><strong>Members:</strong>{" "}
+          {concert.members_present.length ? (
+            concert.members_present.map((member, index) => {
+              const href = personEntityHref(member);
+              return (
+                <>
+                  {index > 0 ? ", " : ""}
+                  {href ? <a href={href}>{member}</a> : member}
+                </>
+              );
+            })
+          ) : (
+            "—"
+          )}
+        </p>
         <p><strong>Status:</strong> <span class={`badge ${concert.verification_status}`}>{concert.verification_status.replaceAll("_", " ")}</span></p>
         {concert.source_notes && <p class="muted">{concert.source_notes}</p>}
       </div>
@@ -44,9 +72,13 @@ const gigDescription = concert
         <h3>Setlist</h3>
         {concert.setlist.length ? (
           <ol>
-            {concert.setlist.map((songId) => (
-              <li>{songMap.get(songId)?.title_en ?? songId}</li>
-            ))}
+            {concert.setlist.map((songId) => {
+              const song = songMap.get(songId);
+              const href = songEntityHref(songId);
+              return (
+                <li>{href ? <a href={href}>{song?.title_en ?? songId}</a> : song?.title_en ?? songId}</li>
+              );
+            })}
           </ol>
         ) : (
           <p class="muted">Setlist not yet catalogued.</p>

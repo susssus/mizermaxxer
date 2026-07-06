@@ -26,6 +26,11 @@ jobs:
           .venv/bin/pip install --upgrade pip
           .venv/bin/pip install -r requirements.txt
 
+      - name: Security audit (Python)
+        run: |
+          .venv/bin/pip install pip-audit
+          .venv/bin/pip-audit -r requirements.txt
+
       - name: Validate and build database
         run: make build
 
@@ -37,4 +42,4 @@ jobs:
 
       - name: Install site dependencies and build
         run: |
-          cd site && npm install && npm run build
+          cd site && npm install && npm audit --audit-level=high && npm run build

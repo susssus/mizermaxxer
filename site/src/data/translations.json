@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T19:50:43.159654Z",
+  "generated_at": "2026-07-06T23:03:59.411196Z",
   "count": 45,
   "ids": [
     "b-pass-1999-06",
@@ -101,7 +101,8 @@
       "source_scan_gallery": "https://archive.org/details/scan-10188",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "review_status": "partial",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
       "license_notes": "Gackt pages only from B-PASS June 1999 (Internet Archive). Translation for research/archival use; verify against physical copy where possible.\n",
       "format": "pages"
     },
@@ -313,7 +314,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-1-autumn-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Madame Tarantula). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Madame Tarantula). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "fan-club-vol-2-3-1997-winter": {
@@ -589,7 +592,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/malice-mizer-scans-fan-club-magazines-ma-cherie-vol-23-winter-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Madame Tarantula). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Madame Tarantula). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "fan-club-vol-4-1998-spring": {
@@ -799,7 +804,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Madame Tarantula). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Madame Tarantula). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "fan-club-vol-5-1998-summer": {
@@ -1011,7 +1018,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-5-summer-1998/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Madame Tarantula). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Madame Tarantula). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "fan-club-vol-6-7-1998-autumn": {
@@ -1349,7 +1358,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-vol-6-7-autumn-1998/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Madame Tarantula). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Madame Tarantula). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1992-08-debut-era": {
@@ -1374,7 +1385,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1993-06-live-1993": {
@@ -1399,7 +1412,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1993-08-artistic-expression": {
@@ -1424,7 +1439,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1993-12-upcoming-lives": {
@@ -1449,7 +1466,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1994-01-live-1994": {
@@ -1474,7 +1493,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1994-07-24-memoire-ii": {
@@ -1499,7 +1520,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1994-07-24-memoire": {
@@ -1524,7 +1547,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1994-12-24-memoire-dx": {
@@ -1549,7 +1574,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1995-12-10-uruwashiki-kamen": {
@@ -1574,7 +1601,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1996-06-09-voyage": {
@@ -1599,7 +1628,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1996-10-10-ma-cherie": {
@@ -1624,7 +1655,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1997-02-11-gekka": {
@@ -1649,7 +1682,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1997-06-30-derniere-vhs": {
@@ -1674,7 +1709,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1998-04-01-au-revoir": {
@@ -1699,7 +1736,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1998-05-20-illuminati": {
@@ -1724,7 +1763,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1998-09-30-le-ciel": {
@@ -1749,7 +1790,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1998-10-28-lespace": {
@@ -1774,7 +1817,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1998-11-27-itan-shinmon": {
@@ -1799,7 +1844,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1999-11-03-saikai-single": {
@@ -1824,7 +1871,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-1999-12-21-saikai-de-limage": {
@@ -1849,7 +1898,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2000-02-01-shinwa-back": {
@@ -1874,7 +1925,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2000-02-01-shinwa-front": {
@@ -1899,7 +1952,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2000-05-31-kyomu": {
@@ -1924,7 +1979,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2000-08-03-bara-no-seidou-back": {
@@ -1949,7 +2006,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2000-08-03-bara-no-seidou-front": {
@@ -1974,7 +2033,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2000-11-22-budokan-vhs": {
@@ -1999,7 +2060,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2001-04-18-derniere-dvd-front": {
@@ -2024,7 +2087,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2001-05-30-gardenia": {
@@ -2049,7 +2114,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2001-10-30-bara-no-konrei": {
@@ -2074,7 +2141,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "flyers-2001-11-30-garnet": {
@@ -2099,7 +2168,9 @@
       ],
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "needs_review",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "fools-mate-1997-07-interview": {
@@ -2121,7 +2192,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "intro": {
         "ja": "6月に初のビデオ作品『sans retour Voyage \"derniere\"～encoure une fois～』をリリースするマリス・ミゼル。 4月1日に行った渋谷公会堂でのインディーズ・ラスト・ライヴのダイジェスト版と銘打たれたこの作品について、 そして夏に控えたスタンディング・ツアー \"Pays de merveilles\" の真相を探るインタヴューだ。\n",
         "romaji": "6-gatsu ni hatsu no bideo sakuhin \"sans retour Voyage 'derniere' ~encoure une fois~\" o ririisu suru Marisu Mizeru. 4-gatsu 1-nichi ni okonatta Shibuya Kōkaidō de no indiizu rasuto raivu no daijesuto-ban to meidai rareta kono sakuhin ni tsuite, soshite natsu ni hikaeta sutandingu tsuā \"Pays de merveilles\" no shinsō o saguru intabyū da.\n",
@@ -2795,7 +2868,7 @@
           "en": "Some things you won't get from the video alone—but if you come to the tour, go home, and watch again, you'll find even more—"
         }
       ],
-      "format": "pages"
+      "format": "dialogue"
     },
     "fools-mate-1997-07-photo-spread": {
       "id": "fools-mate-1997-07-photo-spread",
@@ -2820,7 +2893,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scan © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "pop-beat-1997-08-ad": {
@@ -2841,7 +2916,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scan © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "content": [
         {
           "type": "release",
@@ -2974,7 +3051,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible. Vertical-column layout; some phrasing reconstructed from scan reading where OCR was unreliable.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scan © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible. Vertical-column layout; some phrasing reconstructed from scan reading where OCR was unreliable.\n",
       "intro": {
         "ja": "7月19日、マリス・ミゼルが待望のメジャーデビューを果たす。デビューシングル 『ヴェル・エール ～空白の瞬間の中で～』のリリースを目前に、独特のメイクと 演劇的なステージで築き上げてきた「マリス・ミゼルの世界」について、 ボーカルのGacktとベースのYU~KIに語ってもらった。4月1日の渋谷公会堂での インディーズ・ラスト・ライヴ以降、いよいよ新たな局面を迎える5人の現在地を探る。\n",
         "romaji": "7-gatsu 19-nichi, Marisu Mizeru ga taibō no mejā debiyū o hatasu. Debyū shinguru \"Veru Ēru ~Kūhaku no Shunkan no Naka de~\" no ririisu o mokuzen ni, dokutoku no meiku to engeki teki na sutēji de kizukiagete kita \"Marisu Mizeru no sekai\" ni tsuite, bōkaru no Gackt to bēsu no Yu~ki ni katatte moratta. 4-gatsu 1-nichi no Shibuya Kōkaidō de no indiizu rasuto raivu ikō, iyoiyo arata na kyōmen o mukaeru 5-nin no genzai-chi o saguru.\n",
@@ -3107,7 +3186,7 @@
         "romaji": "MALICE MIZER — Mana (G), Közi (G), Gackt (Vo), Yu~ki (B), Kami (Ds) 7.19 mejā debiyū shinguru \"Veru Ēru ~Kūhaku no Shunkan no Naka de~\" hatsubai. Shokai kanzen gentei BOX (16P bukuretto + supesharu bideo tsuki). STANDING TOUR '97 7.21–22 Akasaka Blitz hoka zenkoku.\n",
         "en": "MALICE MIZER — Mana (G), Közi (G), Gackt (Vo), Yu~ki (B), Kami (Ds). Major debut single Bel Air ~In the Moment of Emptiness~ releases July 19. First-press limited box (16-page booklet + special video). STANDING TOUR '97 from July 21–22 at Akasaka Blitz, then nationwide.\n"
       },
-      "format": "pages"
+      "format": "dialogue"
     },
     "pop-beat-1998-06": {
       "id": "pop-beat-1998-06",
@@ -3132,7 +3211,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible. pp. 58–61 interview; p. 61 (scan 05) is a photo spread with no text beyond the band name.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible. pp. 58–61 interview; p. 61 (scan 05) is a photo spread with no text beyond the band name.\n",
       "intro": {
         "ja": "アルバム『merveilles』から、「ILLUMINATI」を衝撃のシングルカット。 新しく生まれ変わったこの曲、そしてカップリングの「N・p・s N・g・s」に 秘められた世界を覗く……\n",
         "romaji": "Arubamu \"merveilles\" kara, \"ILLUMINATI\" o shōgeki no shinguru katto. Atarashiku umarekawatta kono kyoku, soshite kappuringu no \"N・p・s N・g・s\" ni himerareta sekai o nozoku……\n",
@@ -3448,7 +3529,7 @@
         "romaji": "p. 61 (scan 05): Yon-wari no menbā shashin nomi. Tekisuto wa bando-mei \"MALICE MIZER\" nomi.\n",
         "en": "p. 61 (scan 05): Four-panel member photos only. Text is limited to the band name \"MALICE MIZER.\"\n"
       },
-      "format": "pages"
+      "format": "dialogue"
     },
     "shoxx-1998-05-interview": {
       "id": "shoxx-1998-05-interview",
@@ -3472,7 +3553,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "intro": {
         "ja": "メジャーデビューアルバム『merveilles』と4月1日の日本武道館公演を控え、絶好調のマリス・ミゼル。 本誌大特集の締めくくりに、AからZまで26のキーワードで綴る各メンバーの回答インタヴュー。 回答順は Yu~ki、mana、Gackt、KAMI、Közi。\n",
         "romaji": "Mējā debyū arubamu \"merveilles\" to 4-gatsu 1-nichi no Nippon Budōkan kōen o hikaete, zekkōchō no Marisu Mizeru. Honshi dai tokushū no shimekukuri ni, A kara Z made 26 no kīwādo de tsuzuru kaku menbā no kaitō intabyū. Kaitō jun wa Yu~ki, mana, Gackt, KAMI, Közi.\n",
@@ -4270,7 +4353,7 @@
           "en": "The chain of absurdities in daily life. For me, the underside of everything interests me more than the surface. That's my personality.\n"
         }
       ],
-      "format": "pages"
+      "format": "dialogue"
     },
     "shoxx-1998-05-photo-spread": {
       "id": "shoxx-1998-05-photo-spread",
@@ -4366,7 +4449,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     },
     "vicious-1997-10-interview": {
@@ -4389,7 +4474,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scans © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "intro": {
         "ja": "9月3日に発売されるマリスミゼルのビデオ「ヴェル・エール 〜空白の瞬間の中で〜 ドゥ リマージュ」は、 シングル「ヴェル・エール 〜」の世界をヴィジュアル化した、無声映画のような作品。 マリスミゼルを表現するには映像は欠かせないという彼らにとって、このビデオの存在とは…。 ちょっぴり笑える撮影秘話も交えながら、メンバー5人がそれぞれの想いを語ってくれました。\n",
         "romaji": "9-gatsu 3-nichi ni hatsubai sareru Marisu Mizeru no bideo \"Veru Ēru ~Kūhaku no Shunkan no Naka de~ de l'image\" wa, shinguru \"Veru Ēru ~\" no sekai o vijuaru-ka shita, musei eiga no yō na sakuhin. Marisu Mizeru o hyōgen suru ni wa eizō wa kakasenai to iu karera ni totte, kono bideo no sonzai to wa… Choppiri waraeru satsuei hiwa mo majienagara, menbā 5-nin ga sorezore no omoi o katatte kuremashita.\n",
@@ -4646,7 +4733,7 @@
         "romaji": "(Chū) Hot Disc Indies [P.057] ni keisai no \"sans retour Voyage 'derniere' ~encoure une fois~\" torakku risuto ni ayamari ga arimashita. Tadashiku wa Transylvania, regret, Madrigal, premier amour, ILLUMINATI, N·p·s N·g·s ~No pains No gains~, ichigo, OBITUARY tō. Fukaku owabi mōshiagemasu.\n",
         "en": "(Note) The track listing for sans retour Voyage \"derniere\" ~encoure une fois~ published in Hot Disc Indies [p. 57] contained errors. The correct tracks include Transylvania, regret, Madrigal, premier amour, ILLUMINATI, N·p·s N·g·s ~No pains No gains~, ichigo, OBITUARY, etc. We sincerely apologize.\n"
       },
-      "format": "pages"
+      "format": "dialogue"
     },
     "vicious-1997-10-photo-spread": {
       "id": "vicious-1997-10-photo-spread",
@@ -4673,7 +4760,9 @@
       "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/",
       "translator": "mizermaxxer",
       "translation_date": "2026-07-06",
-      "license_notes": "Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "review_status": "reviewed",
+      "license": "CC-BY-NC-4.0",
+      "license_notes": "Page scan © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.\n",
       "format": "pages"
     }
   }

@@ -10,8 +10,10 @@ scan_paths:
   - images/flyers/flyers-1998-04-01-au-revoir.webp
 translator: mizermaxxer
 translation_date: 2026-07-06
+review_status: needs_review
+license: CC-BY-NC-4.0
 license_notes: >
-  Scan © malice-mizer.info / Malice Meezer (as credited per flyer). Translation for research/archival use; verify against physical copy where possible.
+  Scan © malice-mizer.info / Malice Meezer (as credited per flyer). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.
 
 pages:
   - page: 1

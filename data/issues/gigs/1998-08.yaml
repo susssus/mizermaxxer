@@ -4,7 +4,7 @@ issue_number: null
 volume: null
 publication_date: 1998-08
 date_precision: month
-verification_status: possible
+verification_status: verified
 source_notes: 'GiGS August 1998
 
   [malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main
@@ -41,3 +41,7 @@ changelog:
   action: created
   source: online_catalog_import
   notes: Imported from merged online bibliography catalog.
+- date: '2026-07-07'
+  action: verified
+  source: editorial
+  notes: 'Promoted during site improvement rollout: scan or local translation present.'

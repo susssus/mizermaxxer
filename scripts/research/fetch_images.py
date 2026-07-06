@@ -22,6 +22,9 @@ from typing import Any
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
+SCRIPTS_RESEARCH = Path(__file__).resolve().parent
+if str(SCRIPTS_RESEARCH) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_RESEARCH))
 IMAGES = ROOT / "images"
 MANIFEST_PATH = IMAGES / "manifest.json"
 FLYER_BASE = "https://malice-mizer.info"
@@ -147,6 +150,16 @@ def fetch_url(url: str, dest: Path) -> None:
         img.save(dest, "WEBP", quality=88)
     else:
         dest.write_bytes(raw)
+
+
+def fetch_magazine_scan(url: str, dest: Path) -> None:
+    """Download a magazine page; normalize for git and archive full bytes locally."""
+    from scan_normalize import save_magazine_scan
+
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        raw = response.read()
+    save_magazine_scan(dest, raw)
 
 
 def safe_filename(text: str) -> str:
@@ -346,7 +359,7 @@ def download_magazine_scans(entries: list[dict[str, Any]], index: dict[str, dict
             dest = ROOT / rel_path
             if not dest.exists() or dest.stat().st_size < 50_000:
                 try:
-                    fetch_url(source_url, dest)
+                    fetch_magazine_scan(source_url, dest)
                     print(f"  magazine scan: {rel_path}")
                     time.sleep(0.3)
                 except (urllib.error.URLError, TimeoutError, UnicodeEncodeError) as exc:

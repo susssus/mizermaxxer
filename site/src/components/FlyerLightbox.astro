@@ -11,6 +11,7 @@
       <figcaption class="flyer-lightbox__caption" id="flyer-lightbox-caption">
         <strong data-flyer-lightbox-title></strong>
         <span data-flyer-lightbox-date></span>
+        <span class="flyer-lightbox__source" data-flyer-lightbox-source hidden></span>
         <a data-flyer-lightbox-link href="#" hidden>View details →</a>
       </figcaption>
     </figure>
@@ -22,6 +23,7 @@
   const img = document.querySelector("[data-flyer-lightbox-img]") as HTMLImageElement | null;
   const titleEl = document.querySelector("[data-flyer-lightbox-title]") as HTMLElement | null;
   const dateEl = document.querySelector("[data-flyer-lightbox-date]") as HTMLElement | null;
+  const sourceEl = document.querySelector("[data-flyer-lightbox-source]") as HTMLElement | null;
   const linkEl = document.querySelector("[data-flyer-lightbox-link]") as HTMLAnchorElement | null;
 
   function openFlyerLightbox(button: HTMLButtonElement) {
@@ -31,11 +33,33 @@
     const title = button.dataset.flyerTitle ?? "Flyer scan";
     const date = button.dataset.flyerDate ?? "";
     const href = button.dataset.flyerHref;
+    const sourceName = button.dataset.flyerSourceName;
+    const sourceUrl = button.dataset.flyerSourceUrl;
 
     img.src = src ?? "";
     img.alt = title;
     titleEl.textContent = title;
     dateEl.textContent = date;
+
+    if (sourceEl) {
+      sourceEl.replaceChildren();
+      if (sourceName) {
+        sourceEl.append("Source: ");
+        if (sourceUrl) {
+          const anchor = document.createElement("a");
+          anchor.href = sourceUrl;
+          anchor.target = "_blank";
+          anchor.rel = "noopener noreferrer";
+          anchor.textContent = sourceName;
+          sourceEl.append(anchor);
+        } else {
+          sourceEl.append(sourceName);
+        }
+        sourceEl.hidden = false;
+      } else {
+        sourceEl.hidden = true;
+      }
+    }
 
     if (href) {
       linkEl.href = href;
@@ -145,6 +169,13 @@
   .flyer-lightbox__caption a {
     margin-left: auto;
     font-size: 0.78rem;
+  }
+  .flyer-lightbox__source {
+    width: 100%;
+    font-size: 0.74rem;
+  }
+  .flyer-lightbox__source a {
+    margin-left: 0.15rem;
   }
   .flyer-lightbox__close {
     position: fixed;

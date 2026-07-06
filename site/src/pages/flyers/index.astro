@@ -1,8 +1,10 @@
 ---
 import FlyerLightbox from "../../components/FlyerLightbox.astro";
+import ImageSourceNote from "../../components/ImageSourceNote.astro";
 import StatCard from "../../components/StatCard.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
+import { imageAttributionForSrc } from "../../lib/imageAttribution.ts";
 
 const flyerIssues = archive.issues
   .filter((issue) => issue.publication === "flyers")
@@ -49,7 +51,11 @@ const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
   </div>
 
   <div class="flyer-grid flyer-grid--catalog" id="flyer-grid">
-    {flyerIssues.map(({ issue, article, title, year }) => (
+    {flyerIssues.map(({ issue, article, title, year }) => {
+      const attribution = article.scan_url
+        ? imageAttributionForSrc(article.scan_url)
+        : null;
+      return (
       <article
         class="flyer-card"
         data-flyer-card
@@ -65,6 +71,8 @@ const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
             data-flyer-title={title}
             data-flyer-date={issue.publication_date}
             data-flyer-href={`/issue/${issue.id}`}
+            data-flyer-source-name={attribution?.sourceName}
+            data-flyer-source-url={attribution?.sourceUrl ?? undefined}
             aria-label={`View full scan: ${title}`}
           >
             <img
@@ -84,9 +92,11 @@ const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
         <div class="flyer-card__meta">
           <a href={`/issue/${issue.id}`}><strong>{title}</strong></a>
           <span>{issue.publication_date}</span>
+          {article.scan_url && <ImageSourceNote src={article.scan_url} compact />}
         </div>
       </article>
-    ))}
+    );
+    })}
   </div>
 
   <FlyerLightbox />

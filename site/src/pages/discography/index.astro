@@ -1,4 +1,5 @@
 ---
+import ImageSourceNote from "../../components/ImageSourceNote.astro";
 import Base from "../../layouts/Base.astro";
 import ReleaseRow from "../../components/ReleaseRow.astro";
 import StatCard from "../../components/StatCard.astro";
@@ -27,6 +28,9 @@ const demosMisc = archive.albums.filter(
   title="Discography"
   description="Malice Mizer complete discography — studio albums, singles, compilations, and video releases from Memoire to Gardenia, with track listings and cover art (1992–2001)."
 >
+  <p class="muted page-intro">
+    Browse releases in the <a href="/browse?type=song">entity graph</a> for linked songs and relationships.
+  </p>
   <section class="stats">
     <StatCard value={studioAlbums.length} label="Studio albums" preset="studio" />
     <StatCard value={archive.stats.single_count} label="Singles" preset="singles" />
@@ -101,9 +105,12 @@ const demosMisc = archive.albums.filter(
         <tbody>
           {archive.singles.map((single) => (
             <tr>
-              <td>
+              <td class="cover-cell">
                 {single.cover_image ? (
-                  <img class="cover-thumb" src={coverSrc(single.cover_image)!} alt="" loading="lazy" />
+                  <figure class="cover-thumb-wrap">
+                    <img class="cover-thumb" src={coverSrc(single.cover_image)!} alt="" loading="lazy" />
+                    <ImageSourceNote src={single.cover_image} compact />
+                  </figure>
                 ) : (
                   "—"
                 )}

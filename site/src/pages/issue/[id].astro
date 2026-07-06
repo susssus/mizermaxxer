@@ -1,8 +1,11 @@
 ---
 import ArchiveImage from "../../components/ArchiveImage.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import ImageSourceNote from "../../components/ImageSourceNote.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
-import { scanHref, translationHref } from "../../lib/translations.ts";
+import { scanHref, translationHref, translationReviewLabel, translationReviewStatus } from "../../lib/translations.ts";
+import { personEntityHref } from "../../lib/entities.ts";
 
 export function getStaticPaths() {
   return archive.issues.map((issue) => ({ params: { id: issue.id } }));
@@ -22,7 +25,13 @@ const issueDescription = issue
 
 {issue && (
   <Base title={issueTitle} description={issueDescription} type="article">
-    <a class="back" href={isFlyer ? "/flyers" : "/"}>← Back to {isFlyer ? "flyers" : "archive"}</a>
+    <Breadcrumbs
+      items={[
+        { label: "Archive", href: isFlyer ? "/flyers" : "/" },
+        { label: publication?.name_en ?? issue.publication, href: isFlyer ? "/flyers" : "/" },
+        { label: issue.publication_date },
+      ]}
+    />
 
     {isFlyer && issue.articles.some((a) => a.scan_url) && (
       <section class="card flyer-scans" style="margin-bottom: 1rem;">
@@ -30,6 +39,8 @@ const issueDescription = issue
         <div class="flyer-scans__grid">
           {issue.articles.filter((a) => a.scan_url).map((article) => {
             const tHref = translationHref(article.translation_url);
+            const reviewStatus = translationReviewStatus(article.translation_url);
+            const reviewLabel = translationReviewLabel(reviewStatus);
             return (
               <article class="flyer-scans__item">
                 <ArchiveImage
@@ -41,6 +52,18 @@ const issueDescription = issue
                 {article.translation_available && tHref && (
                   <p class="flyer-scans__translation">
                     <a href={tHref}>English translation →</a>
+                    {reviewLabel && (
+                      <span
+                        class={`badge ${reviewStatus}`}
+                        title={
+                          reviewStatus === "needs_review"
+                            ? "Raw transcription — verify against the Japanese original"
+                            : "Translation reviewed against source"
+                        }
+                      >
+                        {reviewLabel}
+                      </span>
+                    )}
                   </p>
                 )}
               </article>
@@ -56,7 +79,6 @@ const issueDescription = issue
           src={previewArticle.scan_url}
           alt={previewArticle.title_en ?? previewArticle.title_ja ?? "Scan"}
           caption={previewArticle.title_en ?? previewArticle.title_ja}
-          source="malice-mizer.info / Cantavanda"
           variant="inline"
         />
       </section>
@@ -104,15 +126,34 @@ const issueDescription = issue
           {issue.articles.map((article) => {
             const tHref = translationHref(article.translation_url);
             const isExternalTranslation = article.translation_url?.startsWith("http");
+            const reviewStatus = translationReviewStatus(article.translation_url);
+            const reviewLabel = translationReviewLabel(reviewStatus);
             return (
             <tr>
               <td>{article.type.replaceAll("_", " ")}</td>
               <td>{article.title_en ?? article.title_ja ?? "—"}</td>
               <td>{article.pages ?? "—"}</td>
-              <td>{article.members.length ? article.members.join(", ") : "—"}</td>
+              <td>
+                {article.members.length ? (
+                  article.members.map((member, index) => {
+                    const href = personEntityHref(member);
+                    return (
+                      <>
+                        {index > 0 ? ", " : ""}
+                        {href ? <a href={href}>{member}</a> : member}
+                      </>
+                    );
+                  })
+                ) : (
+                  "—"
+                )}
+              </td>
               <td>
                 {article.scan_url ? (
-                  <a href={scanHref(article.scan_url) ?? "#"} target="_blank" rel="noopener">View scan</a>
+                  <div class="scan-cell">
+                    <a href={scanHref(article.scan_url) ?? "#"} target="_blank" rel="noopener">View scan</a>
+                    <ImageSourceNote src={article.scan_url} compact />
+                  </div>
                 ) : article.scan_available ? (
                   "Yes"
                 ) : (
@@ -121,11 +162,25 @@ const issueDescription = issue
               </td>
               <td>
                 {article.translation_available && tHref ? (
-                  isExternalTranslation ? (
-                    <a href={tHref} target="_blank" rel="noopener">English (external)</a>
-                  ) : (
-                    <a href={tHref}>English</a>
-                  )
+                  <span class="translation-cell">
+                    {isExternalTranslation ? (
+                      <a href={tHref} target="_blank" rel="noopener">English (external)</a>
+                    ) : (
+                      <a href={tHref}>English</a>
+                    )}
+                    {reviewLabel && (
+                      <span
+                        class={`badge ${reviewStatus}`}
+                        title={
+                          reviewStatus === "needs_review"
+                            ? "Raw transcription — verify against the Japanese original"
+                            : "Translation reviewed against source"
+                        }
+                      >
+                        {reviewLabel}
+                      </span>
+                    )}
+                  </span>
                 ) : (
                   "—"
                 )}
@@ -167,6 +222,10 @@ const issueDescription = issue
   .flyer-scans__translation {
     margin: 0;
     font-size: 0.88rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
   }
   .flyer-scans__translation a {
     color: var(--rose);
@@ -174,5 +233,17 @@ const issueDescription = issue
   }
   .flyer-scans__translation a:hover {
     text-decoration: underline;
+  }
+  .translation-cell {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .scan-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 7rem;
   }
 </style>

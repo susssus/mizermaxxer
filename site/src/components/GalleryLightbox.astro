@@ -1,0 +1,184 @@
+<dialog class="gallery-lightbox" id="gallery-lightbox" aria-labelledby="gallery-lightbox-caption">
+  <form method="dialog" class="gallery-lightbox__backdrop">
+    <button type="submit" class="gallery-lightbox__backdrop-btn" aria-label="Close preview"></button>
+  </form>
+  <div class="gallery-lightbox__panel" role="document">
+    <button type="button" class="gallery-lightbox__close" data-gallery-close aria-label="Close preview">
+      ×
+    </button>
+    <figure class="gallery-lightbox__figure">
+      <img class="gallery-lightbox__img" data-gallery-lightbox-img src="" alt="" />
+      <figcaption class="gallery-lightbox__caption" id="gallery-lightbox-caption">
+        <strong data-gallery-lightbox-title></strong>
+        <span data-gallery-lightbox-detail></span>
+        <a data-gallery-lightbox-link href="#" hidden target="_blank" rel="noopener">View source →</a>
+        <span class="gallery-lightbox__source" data-gallery-lightbox-source hidden></span>
+      </figcaption>
+    </figure>
+  </div>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("gallery-lightbox") as HTMLDialogElement | null;
+  const img = document.querySelector("[data-gallery-lightbox-img]") as HTMLImageElement | null;
+  const titleEl = document.querySelector("[data-gallery-lightbox-title]") as HTMLElement | null;
+  const detailEl = document.querySelector("[data-gallery-lightbox-detail]") as HTMLElement | null;
+  const linkEl = document.querySelector("[data-gallery-lightbox-link]") as HTMLAnchorElement | null;
+  const sourceEl = document.querySelector("[data-gallery-lightbox-source]") as HTMLElement | null;
+  let opener: HTMLElement | null = null;
+
+  function openGalleryLightbox(button: HTMLButtonElement) {
+    if (!dialog || !img || !titleEl || !detailEl || !linkEl) return;
+
+    opener = button;
+    const src = button.dataset.gallerySrc;
+    const title = button.dataset.galleryTitle ?? "Archive image";
+    const detail = button.dataset.galleryDetail ?? "";
+    const href = button.dataset.galleryHref;
+    const sourceName = button.dataset.gallerySourceName;
+    const sourceUrl = button.dataset.gallerySourceUrl;
+
+    img.src = src ?? "";
+    img.alt = title;
+    titleEl.textContent = title;
+    detailEl.textContent = detail;
+
+    const externalHref = sourceUrl || href;
+    if (externalHref) {
+      linkEl.href = externalHref;
+      linkEl.hidden = false;
+    } else {
+      linkEl.hidden = true;
+    }
+
+    if (sourceEl) {
+      sourceEl.replaceChildren();
+      if (sourceName) {
+        sourceEl.append("Source: ");
+        if (sourceUrl) {
+          const anchor = document.createElement("a");
+          anchor.href = sourceUrl;
+          anchor.target = "_blank";
+          anchor.rel = "noopener noreferrer";
+          anchor.textContent = sourceName;
+          sourceEl.append(anchor);
+        } else {
+          sourceEl.append(sourceName);
+        }
+        sourceEl.hidden = false;
+      } else {
+        sourceEl.hidden = true;
+      }
+    }
+
+    dialog.showModal();
+  }
+
+  function closeGalleryLightbox() {
+    dialog?.close();
+  }
+
+  document.querySelectorAll("[data-gallery-open]").forEach((button) => {
+    button.addEventListener("click", () => openGalleryLightbox(button as HTMLButtonElement));
+  });
+
+  document.querySelectorAll("[data-gallery-close]").forEach((button) => {
+    button.addEventListener("click", closeGalleryLightbox);
+  });
+
+  dialog?.addEventListener("click", (event) => {
+    if (event.target === dialog) closeGalleryLightbox();
+  });
+
+  dialog?.addEventListener("close", () => {
+    if (img) img.src = "";
+    opener?.focus();
+    opener = null;
+  });
+</script>
+
+<style>
+  .gallery-lightbox {
+    padding: 0;
+    border: none;
+    background: transparent;
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .gallery-lightbox::backdrop {
+    background: color-mix(in srgb, #000 72%, transparent);
+  }
+  .gallery-lightbox__backdrop {
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+  .gallery-lightbox__backdrop-btn {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    cursor: default;
+  }
+  .gallery-lightbox__panel {
+    position: fixed;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    max-width: min(92vw, 720px);
+    max-height: 90vh;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+    overflow: auto;
+  }
+  .gallery-lightbox__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.65rem;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .gallery-lightbox__close:focus-visible {
+    outline: 2px solid var(--rose);
+    outline-offset: 2px;
+  }
+  .gallery-lightbox__figure {
+    margin: 0;
+  }
+  .gallery-lightbox__img {
+    display: block;
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+  .gallery-lightbox__caption {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+  }
+  .gallery-lightbox__caption span {
+    color: var(--muted);
+  }
+  .gallery-lightbox__source {
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .gallery-lightbox__source a {
+    color: var(--muted);
+  }
+</style>

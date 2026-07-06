@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T19:50:43.156611Z",
+  "generated_at": "2026-07-06T23:03:59.407300Z",
   "count": 95,
   "items": [
     {
@@ -7,6 +7,7 @@
       "src": "images/vintage/live-full-lineup.webp",
       "caption": "Full lineup (behind Mana)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive8.jpg",
       "era": "1995",
       "category": "member",
       "external": false
@@ -15,7 +16,8 @@
       "title": "Gackt",
       "src": "images/members/gackt.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "1995",
       "category": "member",
       "external": false
@@ -25,6 +27,7 @@
       "src": "images/vintage/live-band-1993.webp",
       "caption": "Early live performance (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -34,6 +37,7 @@
       "src": "images/vintage/live-lineup-1993.webp",
       "caption": "Early lineup (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -43,6 +47,7 @@
       "src": "images/vintage/live-1993.webp",
       "caption": "Live photograph (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -51,7 +56,8 @@
       "title": "Gaz",
       "src": "images/members/gaz.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "1992",
       "category": "member",
       "external": false
@@ -61,6 +67,7 @@
       "src": "images/vintage/live-kami-memoire-final-1994.webp",
       "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive5 (1).jpg",
       "era": "1993",
       "category": "member",
       "external": false
@@ -70,6 +77,7 @@
       "src": "images/vintage/live-band-1993.webp",
       "caption": "With Yuki, Tetsu, and Mana (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
       "era": "1993",
       "category": "member",
       "external": false
@@ -79,6 +87,7 @@
       "src": "images/vintage/live-full-lineup.webp",
       "caption": "Full lineup (Gackt era)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive8.jpg",
       "era": "1993",
       "category": "member",
       "external": false
@@ -88,6 +97,7 @@
       "src": "images/vintage/kami-kozi.webp",
       "caption": "With Kozi",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png",
       "era": "1993",
       "category": "member",
       "external": false
@@ -96,7 +106,8 @@
       "title": "Kami",
       "src": "images/members/kami.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "1993",
       "category": "member",
       "external": false
@@ -105,7 +116,8 @@
       "title": "Klaha",
       "src": "images/members/klaha.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "2000",
       "category": "member",
       "external": false
@@ -115,6 +127,7 @@
       "src": "images/vintage/kozi-memoire-dx.webp",
       "caption": "Memoire DX booklet",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -124,6 +137,7 @@
       "src": "images/vintage/kozi-collage.webp",
       "caption": "Tetsu-era collage",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -133,6 +147,7 @@
       "src": "images/vintage/kozi-interview.webp",
       "caption": "Memoire interview scan",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/koziinterview.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -142,6 +157,7 @@
       "src": "images/vintage/live-kozi-memoire-final-1994.webp",
       "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive6.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -151,6 +167,7 @@
       "src": "images/vintage/kami-kozi.webp",
       "caption": "With Kami",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png",
       "era": "1992",
       "category": "member",
       "external": false
@@ -160,6 +177,7 @@
       "src": "images/vintage/halloween-mana-kozi-yuki.webp",
       "caption": "Halloween (with Mana and Yuki)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -168,7 +186,8 @@
       "title": "Kozi",
       "src": "images/members/kozi.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "1992",
       "category": "member",
       "external": false
@@ -178,6 +197,7 @@
       "src": "images/vintage/mana-memoire-dx.webp",
       "caption": "Memoire DX booklet",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/mana1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -187,6 +207,7 @@
       "src": "images/vintage/mana-collage.webp",
       "caption": "Tetsu-era collage",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/manacollage.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -196,6 +217,7 @@
       "src": "images/vintage/mana-interview.webp",
       "caption": "Memoire interview scan",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/Manainterview.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -205,6 +227,7 @@
       "src": "images/vintage/mana-guitar-jellyfish.webp",
       "caption": "On guitar (jellyfish costume)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/jellymana4.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -214,6 +237,7 @@
       "src": "images/vintage/mana-smiling-gaz.webp",
       "caption": "Rare smiling photograph with Gaz",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/smilemana.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -223,6 +247,7 @@
       "src": "images/vintage/live-memoire-final-1994.webp",
       "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive4.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -232,6 +257,7 @@
       "src": "images/vintage/halloween-mana-kozi-yuki.webp",
       "caption": "Halloween (with Kozi and Yuki)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -240,7 +266,8 @@
       "title": "Mana",
       "src": "images/members/mana.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "1992",
       "category": "member",
       "external": false
@@ -250,6 +277,7 @@
       "src": "images/vintage/tetsu-memoire-dx.webp",
       "caption": "Memoire DX booklet",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/tetsu1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -259,6 +287,7 @@
       "src": "images/vintage/tetsu-collage.webp",
       "caption": "Tetsu-era collage",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsucollage.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -268,6 +297,7 @@
       "src": "images/vintage/tetsu-interview.webp",
       "caption": "Memoire interview scan",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsuinterview.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -277,6 +307,7 @@
       "src": "images/vintage/live-mana-yuki-tetsu.webp",
       "caption": "Live performance (Mana, Yuki, Tetsu)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/perform.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -286,6 +317,7 @@
       "src": "images/vintage/live-memoire-final-1994.webp",
       "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive4.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -295,6 +327,7 @@
       "src": "images/vintage/live-mana-tetsu.webp",
       "caption": "Mana and Tetsu",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -304,6 +337,7 @@
       "src": "images/flyers/flyers-1992-08-debut-era.webp",
       "caption": "Debut-era flyer (1992)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -313,6 +347,7 @@
       "src": "images/flyers/flyers-1993-01-demo-sadness.webp",
       "caption": "Sadness demo tape flyer (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -322,6 +357,7 @@
       "src": "images/flyers/flyers-1993-06-live-1993.webp",
       "caption": "Live flyer (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -331,6 +367,7 @@
       "src": "images/flyers/flyers-1994-01-live-1994.webp",
       "caption": "Live flyer (1994)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -340,6 +377,7 @@
       "src": "images/members/hero.webp",
       "caption": "Band promotional photograph (early era)",
       "source": "Cantavanda via malice-mizer.info",
+      "source_url": "https://www.malice-mizer.info/GK7xiQ1XoAAmE6m.webp",
       "era": "1992",
       "category": "member",
       "external": false
@@ -348,7 +386,8 @@
       "title": "Tetsu",
       "src": "images/members/tetsu.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/tetsu-profile.webp",
       "era": "1992",
       "category": "member",
       "external": false
@@ -358,6 +397,7 @@
       "src": "images/vintage/yuki-memoire-dx.webp",
       "caption": "Memoire DX booklet",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -367,6 +407,7 @@
       "src": "images/vintage/yuki-collage.webp",
       "caption": "Tetsu-era collage",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/yukicollage.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -376,6 +417,7 @@
       "src": "images/vintage/yuki-interview.webp",
       "caption": "Memoire interview scan",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/yukiinterview.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -385,6 +427,7 @@
       "src": "images/vintage/yuki-carrying-mana.webp",
       "caption": "Carrying Mana",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/carry.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -394,6 +437,7 @@
       "src": "images/vintage/live-lineup-1993.webp",
       "caption": "Live lineup (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -403,6 +447,7 @@
       "src": "images/vintage/halloween-mana-kozi-yuki.webp",
       "caption": "Halloween (with Mana and Kozi)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -411,7 +456,8 @@
       "title": "Yu~ki",
       "src": "images/members/yuki.webp",
       "caption": "Portrait",
-      "source": "Archive",
+      "source": "Malice Mizer Throughout The Years reference poster",
+      "source_url": "images/members/source/throughout-the-years.png",
       "era": "1992",
       "category": "member",
       "external": false
@@ -420,7 +466,8 @@
       "title": "薔薇に彩られた悪意と悲劇の幕開け",
       "src": "images/covers/bara-makuake-video.jpg",
       "caption": "dvd",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2000",
       "category": "release",
       "external": false
@@ -429,7 +476,8 @@
       "title": "薔薇の伝承 (序章)",
       "src": "images/covers/bara-no-densho.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2001",
       "category": "release",
       "external": false
@@ -438,7 +486,8 @@
       "title": "薔薇の軌跡",
       "src": "images/covers/bara-no-kiseki-dvd.jpg",
       "caption": "dvd",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2001",
       "category": "release",
       "external": false
@@ -447,7 +496,8 @@
       "title": "薔薇の婚礼～真夜中に交わした約束～",
       "src": "images/covers/bara-no-konrei.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2001",
       "category": "release",
       "external": false
@@ -456,7 +506,8 @@
       "title": "薔薇の聖堂",
       "src": "images/covers/bara-no-seidou.jpg",
       "caption": "album",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive / Cantavanda",
+      "source_url": "https://coverartarchive.org/release/14f8bce9-21f2-40f7-b2be-1289f9803c7a/21937056556-500.jpg",
       "era": "2000",
       "category": "release",
       "external": false
@@ -465,7 +516,8 @@
       "title": "Beast Of Blood ～De L'Image～",
       "src": "images/covers/beast-of-blood-de-limage.jpg",
       "caption": "dvd",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2001",
       "category": "release",
       "external": false
@@ -474,7 +526,8 @@
       "title": "Braintrash",
       "src": "images/covers/braintrash.jpg",
       "caption": "demo",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1993",
       "category": "release",
       "external": false
@@ -483,7 +536,8 @@
       "title": "Cardinal",
       "src": "images/covers/cardinal.jpg",
       "caption": "dvd",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2002",
       "category": "release",
       "external": false
@@ -492,7 +546,8 @@
       "title": "Deep Sanctuary VI - Live At Toyosu Pit September 9 (Malice Mizer 25th Anniversary Special)",
       "src": "images/covers/deep-sanctuary-vi.jpg",
       "caption": "dvd",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2019",
       "category": "release",
       "external": false
@@ -501,7 +556,8 @@
       "title": "La Collection Des Singles",
       "src": "images/covers/la-collection-des-singles.jpg",
       "caption": "compilation",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2006",
       "category": "release",
       "external": false
@@ -510,7 +566,8 @@
       "title": "La Collection \"Merveilles\" -L'édition Limitée-",
       "src": "images/covers/la-collection-merveilles-limited.jpg",
       "caption": "box set",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2005",
       "category": "release",
       "external": false
@@ -519,7 +576,8 @@
       "title": "La Meilleur Selection De Malice Mizer",
       "src": "images/covers/la-meilleur-selection.jpg",
       "caption": "compilation",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2006",
       "category": "release",
       "external": false
@@ -528,7 +586,8 @@
       "title": "Memoire DX",
       "src": "images/covers/memoire-dx.jpg",
       "caption": "album",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1994",
       "category": "release",
       "external": false
@@ -537,7 +596,8 @@
       "title": "Memoire",
       "src": "images/covers/memoire.jpg",
       "caption": "album",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive / Cantavanda",
+      "source_url": "https://coverartarchive.org/release/46e1ff26-b92e-4e65-adc7-9e580ee59e68/44209344797-500.jpg",
       "era": "1994",
       "category": "release",
       "external": false
@@ -546,7 +606,8 @@
       "title": "Merveilles -Cinq Parallèle-",
       "src": "images/covers/merveilles-cinq-parallele.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1999",
       "category": "release",
       "external": false
@@ -555,7 +616,8 @@
       "title": "merveilles ～終焉と帰趨～ l'espace",
       "src": "images/covers/merveilles-lespace.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1998",
       "category": "release",
       "external": false
@@ -564,7 +626,8 @@
       "title": "Merveilles",
       "src": "images/covers/merveilles.jpg",
       "caption": "album",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive / Cantavanda",
+      "source_url": "https://coverartarchive.org/release/7d3b9817-b46c-46e7-a94a-3675134fbcf9/41412130556-500.jpg",
       "era": "1998",
       "category": "release",
       "external": false
@@ -573,7 +636,8 @@
       "title": "Sadness",
       "src": "images/covers/sadness-demo.jpg",
       "caption": "demo",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1993",
       "category": "release",
       "external": false
@@ -582,7 +646,8 @@
       "title": "再会の血と薔薇 ～De L'Image～",
       "src": "images/covers/saikai-de-limage.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1999",
       "category": "release",
       "external": false
@@ -591,7 +656,8 @@
       "title": "Sans Logique",
       "src": "images/covers/sans-logique.jpg",
       "caption": "demo",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1992",
       "category": "release",
       "external": false
@@ -600,7 +666,8 @@
       "title": "Sans Retour Voyage \"Derniere\" ～Encoure Une Fois～",
       "src": "images/covers/sans-retour-voyage-derniere.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1997",
       "category": "release",
       "external": false
@@ -609,7 +676,8 @@
       "title": "Sélection De Performances Live",
       "src": "images/covers/selection-performances-live.jpg",
       "caption": "live album",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2007",
       "category": "release",
       "external": false
@@ -618,7 +686,8 @@
       "title": "神話",
       "src": "images/covers/shinwa.jpg",
       "caption": "ep",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2000",
       "category": "release",
       "external": false
@@ -627,7 +696,8 @@
       "title": "Socìété De Parenté = 新たなる血族との響宴",
       "src": "images/covers/societe-de-parente.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "2001",
       "category": "release",
       "external": false
@@ -636,7 +706,8 @@
       "title": "Speed of Desperate",
       "src": "images/covers/speed-of-desperate.jpg",
       "caption": "demo",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1992",
       "category": "release",
       "external": false
@@ -645,7 +716,8 @@
       "title": "The 1th Anniversary",
       "src": "images/covers/the-1th-anniversary.jpg",
       "caption": "demo",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1993",
       "category": "release",
       "external": false
@@ -654,7 +726,8 @@
       "title": "ヴェル・エール～空白の瞬間の中で～de l'image",
       "src": "images/covers/ver-eair-de-limage.jpg",
       "caption": "vhs",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive",
+      "source_url": null,
       "era": "1997",
       "category": "release",
       "external": false
@@ -663,7 +736,8 @@
       "title": "Voyage Sans Retour",
       "src": "images/covers/voyage-sans-retour.jpg",
       "caption": "album",
-      "source": "Discogs / Cover Art Archive",
+      "source": "Cover Art Archive / Cantavanda",
+      "source_url": "https://coverartarchive.org/release/0908291c-a9f7-4d17-b0cd-a84b5a759c68/43860766006-500.jpg",
       "era": "1996",
       "category": "release",
       "external": false
@@ -673,6 +747,7 @@
       "src": "https://vk.gy/images/109369-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1282/no174/",
       "era": null,
       "category": "promo",
       "external": true
@@ -682,6 +757,7 @@
       "src": "https://vk.gy/images/109371-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1284/no178/",
       "era": null,
       "category": "promo",
       "external": true
@@ -691,6 +767,7 @@
       "src": "https://vk.gy/images/109372-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1285/no184/",
       "era": null,
       "category": "promo",
       "external": true
@@ -700,6 +777,7 @@
       "src": "https://vk.gy/images/109373-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1286/no185/",
       "era": null,
       "category": "promo",
       "external": true
@@ -709,6 +787,7 @@
       "src": "https://vk.gy/images/109374-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/7/no189/",
       "era": null,
       "category": "promo",
       "external": true
@@ -718,6 +797,7 @@
       "src": "https://vk.gy/images/109457-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/8/no190/",
       "era": null,
       "category": "promo",
       "external": true
@@ -727,6 +807,7 @@
       "src": "https://vk.gy/images/109458-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1287/no193/",
       "era": null,
       "category": "promo",
       "external": true
@@ -736,6 +817,7 @@
       "src": "https://vk.gy/images/109459-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1288/no194/",
       "era": null,
       "category": "promo",
       "external": true
@@ -745,6 +827,7 @@
       "src": "https://vk.gy/images/109460-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/10/no195/",
       "era": null,
       "category": "promo",
       "external": true
@@ -754,6 +837,7 @@
       "src": "https://vk.gy/images/109461-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/11/no198/",
       "era": null,
       "category": "promo",
       "external": true
@@ -763,6 +847,7 @@
       "src": "https://vk.gy/images/109462-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/12/no200/",
       "era": null,
       "category": "promo",
       "external": true
@@ -772,6 +857,7 @@
       "src": "https://vk.gy/images/109463-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/13/no201/",
       "era": null,
       "category": "promo",
       "external": true
@@ -781,6 +867,7 @@
       "src": "https://vk.gy/images/109464-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/14/no202/",
       "era": null,
       "category": "promo",
       "external": true
@@ -790,6 +877,7 @@
       "src": "https://vk.gy/images/109465-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1289/no203/",
       "era": null,
       "category": "promo",
       "external": true
@@ -799,6 +887,7 @@
       "src": "https://vk.gy/images/109466-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/25/no204/",
       "era": null,
       "category": "promo",
       "external": true
@@ -808,6 +897,7 @@
       "src": "https://vk.gy/images/109467-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1290/no205/",
       "era": null,
       "category": "promo",
       "external": true
@@ -817,6 +907,7 @@
       "src": "https://vk.gy/images/109468-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1291/no206/",
       "era": null,
       "category": "promo",
       "external": true
@@ -826,6 +917,7 @@
       "src": "https://vk.gy/images/109469-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1292/no207/",
       "era": null,
       "category": "promo",
       "external": true
@@ -835,6 +927,7 @@
       "src": "https://vk.gy/images/109555-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1295/no210/",
       "era": null,
       "category": "promo",
       "external": true
@@ -844,6 +937,7 @@
       "src": "https://vk.gy/images/109557-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/27/no219/",
       "era": null,
       "category": "promo",
       "external": true
@@ -853,6 +947,7 @@
       "src": "https://vk.gy/images/109471-release.medium.jpg",
       "caption": "Magazine cover",
       "source": "vk.gy",
+      "source_url": "https://vk.gy/magazines/fools-mate/1294/no220/",
       "era": null,
       "category": "promo",
       "external": true

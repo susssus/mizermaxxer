@@ -4,7 +4,7 @@ issue_number: '207'
 volume: null
 publication_date: '1999'
 date_precision: year
-verification_status: possible
+verification_status: verified
 source_notes: 'vkgy roles: cover, large_feature
 
   [vkgy] https://vk.gy/magazines/fools-mate/1292/no207/
@@ -40,3 +40,7 @@ changelog:
   action: created
   source: online_catalog_import
   notes: Imported from merged online bibliography catalog.
+- date: '2026-07-07'
+  action: verified
+  source: editorial
+  notes: 'Promoted during site improvement rollout: scan or local translation present.'
