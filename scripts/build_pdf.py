@@ -98,6 +98,7 @@ def main() -> int:
         if issue.get("issue_number"):
             issue_label += f" #{issue['issue_number']}"
         issue_label += f" ({issue['publication_date']})"
+        issue_label = pdf_safe(issue_label)
 
         pdf.set_font("Helvetica", "B", 11)
         pdf.multi_cell(0, 6, issue_label, new_x="LMARGIN", new_y="NEXT")
@@ -117,8 +118,8 @@ def main() -> int:
             title = pdf_safe(article["title_en"] or article["title_ja"] or "(untitled)")
             line = f"  - [{article['type']}] {title}"
             if article.get("pages"):
-                line += f" (p. {article['pages']})"
-            pdf.multi_cell(0, 5, line, new_x="LMARGIN", new_y="NEXT")
+                line += f" (p. {pdf_safe(article['pages'])})"
+            pdf.multi_cell(0, 5, pdf_safe(line), new_x="LMARGIN", new_y="NEXT")
         pdf.ln(2)
 
     output = EXPORTS_DIR / "catalogue.pdf"

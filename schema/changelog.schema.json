@@ -7,7 +7,7 @@
   "properties": {
     "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
     "action": {
-      "enum": ["created", "updated", "verified", "status_change", "research_note"]
+      "enum": ["created", "updated", "verified", "status_change", "research_note", "augmented"]
     },
     "source": { "type": "string" },
     "notes": { "type": "string" }

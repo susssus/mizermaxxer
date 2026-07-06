@@ -2,9 +2,6 @@ id: book-merveilles-band-score
 title: merveilles バンド・スコア
 type: book
 url: http://malice-mizer.co.jp/Publications.html
-notes: 1998 band score book. Listed on vk.gy artist timeline and official publications page.
-changelog:
-- date: '2026-07-06'
-  action: created
-  source: vkgy
-  notes: Publication stub from vk.gy release audit.
+notes: >
+  1998 band score book. Listed on vk.gy artist timeline and official publications page.
+  Stub created 2026-07-06 from vk.gy release audit.

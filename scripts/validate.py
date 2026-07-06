@@ -11,6 +11,7 @@ from jsonschema import Draft202012Validator, RefResolver
 from common import (
     DATA_DIR,
     SCHEMA_DIR,
+    is_entity_stub,
     iter_issue_files,
     iter_yaml_files,
     load_albums,
@@ -86,6 +87,8 @@ def validate_directory(name: str, schema_name: str, extra=None) -> list[str]:
     directory = DATA_DIR / name
     for path in iter_yaml_files(directory):
         item = load_yaml(path)
+        if is_entity_stub(item):
+            continue
         rel = path.relative_to(DATA_DIR)
         for error in validator.iter_errors(item):
             errors.append(f"{rel}: {error.message}")

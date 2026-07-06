@@ -7,7 +7,7 @@
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "title": { "type": "string" },
-    "type": { "enum": ["website", "book", "article", "database", "other"] },
+    "type": { "enum": ["website", "book", "article", "database", "newsletter", "other"] },
     "url": { "type": "string" },
     "notes": { "type": "string" }
   },
