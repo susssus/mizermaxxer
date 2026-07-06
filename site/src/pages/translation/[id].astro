@@ -81,6 +81,18 @@ const translationDescription = doc
       {doc.license_notes && <p class="muted license">{doc.license_notes}</p>}
     </header>
 
+    {doc.format === "dialogue" && Array.isArray(doc.scan_paths) && doc.scan_paths[0] && (
+      <section class="card translation-block">
+        <ArchiveImage
+          src={doc.scan_paths[0] as string}
+          alt={doc.title_en ?? doc.title_ja ?? "Scan"}
+          caption={doc.title_en ?? doc.title_ja}
+          source="Cantavanda"
+          variant="inline"
+        />
+      </section>
+    )}
+
     {doc.format === "dialogue" && doc.intro && (
       <section class="card translation-block">
         <h2>Introduction</h2>
@@ -133,6 +145,54 @@ const translationDescription = doc
             </article>
           ))}
         </div>
+      </section>
+    )}
+
+    {doc.format === "dialogue" && doc.sidebar && (
+      <section class="card translation-block">
+        <h2>Sidebar</h2>
+        {doc.sidebar.ja && (
+          <div class="lang-block">
+            <span class="lang-tag">Japanese</span>
+            <p class="ja-text">{doc.sidebar.ja}</p>
+          </div>
+        )}
+        {doc.sidebar.romaji && (
+          <div class="lang-block">
+            <span class="lang-tag">Romaji</span>
+            <p class="romaji-text">{doc.sidebar.romaji}</p>
+          </div>
+        )}
+        {doc.sidebar.en && (
+          <div class="lang-block">
+            <span class="lang-tag">English</span>
+            <p>{doc.sidebar.en}</p>
+          </div>
+        )}
+      </section>
+    )}
+
+    {doc.format === "dialogue" && doc.photo_spread_note && (
+      <section class="card translation-block">
+        <h2>Photo spread note</h2>
+        {doc.photo_spread_note.ja && (
+          <div class="lang-block">
+            <span class="lang-tag">Japanese</span>
+            <p class="ja-text">{doc.photo_spread_note.ja}</p>
+          </div>
+        )}
+        {doc.photo_spread_note.romaji && (
+          <div class="lang-block">
+            <span class="lang-tag">Romaji</span>
+            <p class="romaji-text">{doc.photo_spread_note.romaji}</p>
+          </div>
+        )}
+        {doc.photo_spread_note.en && (
+          <div class="lang-block">
+            <span class="lang-tag">English</span>
+            <p>{doc.photo_spread_note.en}</p>
+          </div>
+        )}
       </section>
     )}
 

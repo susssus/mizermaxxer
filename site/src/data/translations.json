@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-06T17:59:01.000056Z",
-  "count": 41,
+  "generated_at": "2026-07-06T18:16:11.510019Z",
+  "count": 44,
   "ids": [
     "fan-club-vol-1-1997-autumn",
     "fan-club-vol-2-3-1997-winter",
@@ -38,11 +38,14 @@
     "flyers-2001-10-30-bara-no-konrei",
     "flyers-2001-11-30-garnet",
     "fools-mate-1997-07-interview",
+    "fools-mate-1997-07-photo-spread",
     "pop-beat-1997-08-ad",
     "pop-beat-1997-08-interview",
     "pop-beat-1998-06",
     "shoxx-1998-05-interview",
-    "vicious-1997-10-interview"
+    "shoxx-1998-05-photo-spread",
+    "vicious-1997-10-interview",
+    "vicious-1997-10-photo-spread"
   ],
   "by_id": {
     "fan-club-vol-1-1997-autumn": {
@@ -2737,6 +2740,32 @@
       ],
       "format": "pages"
     },
+    "fools-mate-1997-07-photo-spread": {
+      "id": "fools-mate-1997-07-photo-spread",
+      "article_id": "fools-mate-1997-07-001",
+      "publication": "fools-mate",
+      "issue_number": "189",
+      "publication_date": "1997-07",
+      "pages": [
+        {
+          "page": 1,
+          "section": "Photo spread opener",
+          "ja": null,
+          "romaji": null,
+          "en": "Full-band costume portrait (Voyage era). Közi (purple/black jester look), Mana (white floral dress with green hair and flower accents), Gackt (long white coat, center), Kami (patterned panels), Yu~ki (red/black striped vest and trousers). Header/footer text is band name only in Latin letters — no Japanese caption on this page.\n"
+        }
+      ],
+      "title_ja": "Group photo spread",
+      "title_en": "Group photo spread — Fool's Mate No. 189 (July 1997)",
+      "scan_paths": [
+        "images/scans/fools-mate/1997-07/01.jpg"
+      ],
+      "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/fools-mate-no-189-july-1997/",
+      "translator": "mizermaxxer",
+      "translation_date": "2026-07-06",
+      "license_notes": "Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "format": "pages"
+    },
     "pop-beat-1997-08-ad": {
       "id": "pop-beat-1997-08-ad",
       "article_id": "pop-beat-1997-08-002",
@@ -4186,6 +4215,103 @@
       ],
       "format": "pages"
     },
+    "shoxx-1998-05-photo-spread": {
+      "id": "shoxx-1998-05-photo-spread",
+      "article_id": "shoxx-1998-05-002",
+      "publication": "shoxx",
+      "issue_number": "63",
+      "publication_date": "1998-05",
+      "pages": [
+        {
+          "page": 1,
+          "section": "Magazine p. 99 — feature opener",
+          "ja": "3月18日にメジャーデビューアルバムとなる「merveilles」を発表。4月1日には待望の日本武道館公演を行う MALICE MIZER。そんな現在絶好調の彼等を前号（SHOXX VOL.62）と連動して、大特集！。前号はあっと驚く サイバーチックフォトでしたが、今回は麗しきゴシック・ワールドに皆様を誘います。あわせて特集末の A to Z インタビューもお楽しみください。\n",
+          "romaji": "3-gatsu 18-nichi ni mējā debyū arubamu to naru \"merveilles\" o happyō. 4-gatsu 1-nichi ni wa taibō no Nippon Budōkan kōen o okonau MALICE MIZER. Sonna genzai zekkōchō no karera o zengō (SHOXX VOL.62) to rendō shite, dai tokushū! Zengō wa atto odoroku saibā chikku foto deshita ga, konkai wa uruwashiki goshikku wārudo ni mina-sama o izonimasu. Awasete tokushū-matsu no A to Z intabyū mo o-tanoshimi kudasai.\n",
+          "en": "Malice Mizer released major debut album merveilles on March 18 and will perform at long-awaited Nippon Budokan on April 1. This major feature links to the previous issue (SHOXX Vol. 62): where last time's startling cyber-chic photos left off, this time we invite you into a beautiful gothic world. Enjoy the A to Z interview at the end of the feature as well.\n"
+        },
+        {
+          "page": 2,
+          "section": "Magazine p. 100",
+          "ja": null,
+          "romaji": null,
+          "en": "Mana in a blue Rococo gown with white lace ruffles and matching bonnet, holding a doll in similar dress. Antique room with upholstered chair, easel, and carved chest of drawers. Costumes: Yukari Ohba (Midi Nette). Photo: Sin Watanabe.\n"
+        },
+        {
+          "page": 3,
+          "section": "Magazine p. 101",
+          "ja": null,
+          "romaji": null,
+          "en": "Member in red jester costume with gold trim and large tulle ruff, on a white spiral staircase (high-angle shot). Gothic makeup with pale skin and red lips.\n"
+        },
+        {
+          "page": 4,
+          "section": "Magazine p. 102",
+          "ja": null,
+          "romaji": null,
+          "en": "Member in gold aristocratic/pirate-inspired outfit with tricorn hat, lace cuffs, yellow breeches, and platform boots, seated on an ornate carved wooden throne holding a cane.\n"
+        },
+        {
+          "page": 5,
+          "section": "Magazine p. 103",
+          "ja": null,
+          "romaji": null,
+          "en": "Member in purple military-style jacket with silver embroidery, pink-feathered bicorne hat, and thigh-high black boots, seated with violin and bow. Grand interior with wooden staircase.\n"
+        },
+        {
+          "page": 6,
+          "section": "Magazine p. 104",
+          "ja": null,
+          "romaji": null,
+          "en": "Two members: one in red jester outfit with platform boots standing; one in purple/silver costume with bicorne hat seated on staircase. Gothic arched window in background.\n"
+        },
+        {
+          "page": 7,
+          "section": "Magazine p. 105",
+          "ja": null,
+          "romaji": null,
+          "en": "Three-member tableau: blue Rococo gown (left), gold aristocratic costume on throne (center), member with scythe on upper staircase landing (background right).\n"
+        },
+        {
+          "page": 8,
+          "section": "Magazine p. 106",
+          "ja": null,
+          "romaji": null,
+          "en": "Close portrait: member in black floral-patterned coat with heavy gold embroidery and braided trim, long pointed black nails, holding an ornate golden staff with wing motif.\n"
+        },
+        {
+          "page": 9,
+          "section": "Magazine p. 107 — spread finale",
+          "ja": null,
+          "romaji": null,
+          "en": "Wide ensemble shot from high angle in grand hall with chandelier: five members in full merveilles-era costumes (red jester, gold pirate, blue Rococo gown, purple feathered outfit, and black/gold embroidered look) arranged across staircase and floor.\n"
+        }
+      ],
+      "photographer_ja": "渡邉信",
+      "photographer_en": "Sin Watanabe",
+      "costume_ja": "大庭ゆかり（Midi Nette）",
+      "costume_en": "Yukari Ohba (Midi Nette)",
+      "hair_makeup_ja": "長尾玲子（オティエ）",
+      "hair_makeup_en": "Reiko Hasuo (Otier)",
+      "location_en": "Country House Windsor",
+      "title_ja": "月下の夜想曲",
+      "title_en": "Nocturne Under the Moon — super visual photo spread",
+      "scan_paths": [
+        "images/scans/shoxx/1998-05/01.jpg",
+        "images/scans/shoxx/1998-05/02.jpg",
+        "images/scans/shoxx/1998-05/03.jpg",
+        "images/scans/shoxx/1998-05/04.jpg",
+        "images/scans/shoxx/1998-05/05.jpg",
+        "images/scans/shoxx/1998-05/06.jpg",
+        "images/scans/shoxx/1998-05/07.jpg",
+        "images/scans/shoxx/1998-05/08.jpg",
+        "images/scans/shoxx/1998-05/09.jpg"
+      ],
+      "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
+      "translator": "mizermaxxer",
+      "translation_date": "2026-07-06",
+      "license_notes": "Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
+      "format": "pages"
+    },
     "vicious-1997-10-interview": {
       "id": "vicious-1997-10-interview",
       "article_id": "vicious-1997-10-002",
@@ -4463,6 +4589,34 @@
         "romaji": "(Chū) Hot Disc Indies [P.057] ni keisai no \"sans retour Voyage 'derniere' ~encoure une fois~\" torakku risuto ni ayamari ga arimashita. Tadashiku wa Transylvania, regret, Madrigal, premier amour, ILLUMINATI, N·p·s N·g·s ~No pains No gains~, ichigo, OBITUARY tō. Fukaku owabi mōshiagemasu.\n",
         "en": "(Note) The track listing for sans retour Voyage \"derniere\" ~encoure une fois~ published in Hot Disc Indies [p. 57] contained errors. The correct tracks include Transylvania, regret, Madrigal, premier amour, ILLUMINATI, N·p·s N·g·s ~No pains No gains~, ichigo, OBITUARY, etc. We sincerely apologize.\n"
       },
+      "format": "pages"
+    },
+    "vicious-1997-10-photo-spread": {
+      "id": "vicious-1997-10-photo-spread",
+      "article_id": "vicious-1997-10-001",
+      "publication": "vicious",
+      "issue_number": null,
+      "publication_date": "1997-10",
+      "pages": [
+        {
+          "page": 1,
+          "section": "Magazine p. 119",
+          "ja": null,
+          "romaji": null,
+          "en": "Full-band spread for feature \"V's Break Out\" (Bel Air / Pays de merveilles era). Five members in Victorian/gothic costumes against crinkled metallic foil backdrop. Yu~ki (brown top hat and coat), Mana (teal Victorian gown, seated), Gackt (pinstripe frock coat, standing center), Kami (white face paint and ruffled collar with cane), Közi (maroon velvet coat). Photo: Takaaki Henmi. Footer: \"October 1997 Vicious 119\". No Japanese body text on this page.\n"
+        }
+      ],
+      "photographer_ja": "辺見貴昭",
+      "photographer_en": "Takaaki Henmi",
+      "title_ja": "V's Break Out — group photo spread",
+      "title_en": "V's Break Out — group photo spread (Vicious, October 1997)",
+      "scan_paths": [
+        "images/scans/vicious/1997-10/01.jpg"
+      ],
+      "source_scan_gallery": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/vicious-october-1997/",
+      "translator": "mizermaxxer",
+      "translation_date": "2026-07-06",
+      "license_notes": "Page scan © Cantavanda (Butterfly Rose). Translation for research/archival use; verify against physical copy where possible.\n",
       "format": "pages"
     }
   }

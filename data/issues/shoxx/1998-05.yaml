@@ -64,8 +64,8 @@ articles:
     quality: high
     url: images/scans/shoxx/1998-05/01.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/shoxx-1998-05-photo-spread.yaml
   purchase_links: []
   notes: >
     Super visual photo spread in beautiful gothic world; costumes by Yukari Ohba (Midi Nette).
