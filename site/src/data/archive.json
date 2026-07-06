@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T00:26:18.920888Z",
+  "generated_at": "2026-07-06T00:49:58.132468Z",
   "people": {
     "members": [
       {
@@ -7545,6 +7545,12 @@
           "date": "2026-07-06",
           "action": "updated",
           "source": "cantavanda",
+          "notes": "Mirrored 24 scan pages locally; added English translation with romaji (data/translations/fan-club-vol-1-1997-autumn.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "cantavanda",
           "notes": "Mirrored 24 scan pages locally."
         }
       ],
@@ -7555,17 +7561,17 @@
           "title_ja": "ma chérie Fan Club Magazine Vol. 1",
           "title_en": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)",
           "type": "newsletter",
-          "pages": null,
+          "pages": "24",
           "photographer": null,
           "writer": null,
           "cover": false,
           "poster": false,
           "foldout": false,
           "scan_available": true,
-          "scan_quality": "original_scan",
+          "scan_quality": "high",
           "scan_url": "images/scans/fan-club/1997-09/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/fan-club-vol-1-1997-autumn.yaml",
           "notes": "24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1997-09/02.jpg, images/scans/fan-club/1997-09/03.jpg, images/scans/fan-club/1997-09/04.jpg, images/scans/fan-club/1997-09/05.jpg, images/scans/fan-club/1997-09/06.jpg, images/scans/fan-club/1997-09/07.jpg, images/scans/fan-club/1997-09/08.jpg, images/scans/fan-club/1997-09/09.jpg, images/scans/fan-club/1997-09/10.jpg, images/scans/fan-club/1997-09/11.jpg, images/scans/fan-club/1997-09/12.jpg, images/scans/fan-club/1997-09/13.jpg, images/scans/fan-club/1997-09/14.jpg, images/scans/fan-club/1997-09/15.jpg, images/scans/fan-club/1997-09/16.jpg, images/scans/fan-club/1997-09/17.jpg, images/scans/fan-club/1997-09/18.jpg, images/scans/fan-club/1997-09/19.jpg, images/scans/fan-club/1997-09/20.jpg, images/scans/fan-club/1997-09/21.jpg, images/scans/fan-club/1997-09/22.jpg, images/scans/fan-club/1997-09/23.jpg, images/scans/fan-club/1997-09/24.jpg.",
           "members": [
             "gackt",
@@ -8345,6 +8351,12 @@
           "date": "2026-07-06",
           "action": "updated",
           "source": "cantavanda",
+          "notes": "Mirrored 32 scan pages locally; added English translation with romaji (data/translations/fan-club-vol-2-3-1997-winter.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "cantavanda",
           "notes": "Mirrored 32 scan pages locally."
         }
       ],
@@ -8355,17 +8367,17 @@
           "title_ja": "ma chérie Fan Club Magazine Vol. 2&3",
           "title_en": "ma chérie Fan Club Magazine Vol. 2&3 (Winter 1997)",
           "type": "newsletter",
-          "pages": null,
+          "pages": "32",
           "photographer": null,
           "writer": null,
           "cover": false,
           "poster": false,
           "foldout": false,
           "scan_available": true,
-          "scan_quality": "original_scan",
+          "scan_quality": "high",
           "scan_url": "images/scans/fan-club/1997-12/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/fan-club-vol-2-3-1997-winter.yaml",
           "notes": "32 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1997-12/02.jpg, images/scans/fan-club/1997-12/03.jpg, images/scans/fan-club/1997-12/04.jpg, images/scans/fan-club/1997-12/05.jpg, images/scans/fan-club/1997-12/06.jpg, images/scans/fan-club/1997-12/07.jpg, images/scans/fan-club/1997-12/08.jpg, images/scans/fan-club/1997-12/09.jpg, images/scans/fan-club/1997-12/10.jpg, images/scans/fan-club/1997-12/11.jpg, images/scans/fan-club/1997-12/12.jpg, images/scans/fan-club/1997-12/13.jpg, images/scans/fan-club/1997-12/14.jpg, images/scans/fan-club/1997-12/15.jpg, images/scans/fan-club/1997-12/16.jpg, images/scans/fan-club/1997-12/17.jpg, images/scans/fan-club/1997-12/18.jpg, images/scans/fan-club/1997-12/19.jpg, images/scans/fan-club/1997-12/20.jpg, images/scans/fan-club/1997-12/21.jpg, images/scans/fan-club/1997-12/22.jpg, images/scans/fan-club/1997-12/23.jpg, images/scans/fan-club/1997-12/24.jpg, images/scans/fan-club/1997-12/25.jpg, images/scans/fan-club/1997-12/26.jpg, images/scans/fan-club/1997-12/27.jpg, images/scans/fan-club/1997-12/28.jpg, images/scans/fan-club/1997-12/29.jpg, images/scans/fan-club/1997-12/30.jpg, images/scans/fan-club/1997-12/31.jpg, images/scans/fan-club/1997-12/32.jpg.",
           "members": [
             "gackt",
@@ -9608,6 +9620,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Mirrored 24 scan pages locally."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "mizermaxxer",
+          "notes": "Added English translation with romaji (data/translations/fan-club-vol-4-1998-spring.yaml).\n"
         }
       ],
       "articles": [
@@ -9617,7 +9635,7 @@
           "title_ja": "ma chérie Fan Club Magazine Vol. 4",
           "title_en": "ma chérie Fan Club Magazine Vol. 4 (Spring 1998)",
           "type": "newsletter",
-          "pages": null,
+          "pages": "24",
           "photographer": null,
           "writer": null,
           "cover": false,
@@ -9626,8 +9644,8 @@
           "scan_available": true,
           "scan_quality": "original_scan",
           "scan_url": "images/scans/fan-club/1998-03/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/fan-club-vol-4-1998-spring.yaml",
           "notes": "24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-03/02.jpg, images/scans/fan-club/1998-03/03.jpg, images/scans/fan-club/1998-03/04.jpg, images/scans/fan-club/1998-03/05.jpg, images/scans/fan-club/1998-03/06.jpg, images/scans/fan-club/1998-03/07.jpg, images/scans/fan-club/1998-03/08.jpg, images/scans/fan-club/1998-03/09.jpg, images/scans/fan-club/1998-03/10.jpg, images/scans/fan-club/1998-03/11.jpg, images/scans/fan-club/1998-03/12.jpg, images/scans/fan-club/1998-03/13.jpg, images/scans/fan-club/1998-03/14.jpg, images/scans/fan-club/1998-03/15.jpg, images/scans/fan-club/1998-03/16.jpg, images/scans/fan-club/1998-03/17.jpg, images/scans/fan-club/1998-03/18.jpg, images/scans/fan-club/1998-03/19.jpg, images/scans/fan-club/1998-03/20.jpg, images/scans/fan-club/1998-03/21.jpg, images/scans/fan-club/1998-03/22.jpg, images/scans/fan-club/1998-03/23.jpg, images/scans/fan-club/1998-03/24.jpg.",
           "members": [
             "gackt",
@@ -10881,6 +10899,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Mirrored 24 scan pages locally."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "cantavanda",
+          "notes": "Added English translation with romaji (data/translations/fan-club-vol-5-1998-summer.yaml).\n"
         }
       ],
       "articles": [
@@ -10899,8 +10923,8 @@
           "scan_available": true,
           "scan_quality": "original_scan",
           "scan_url": "images/scans/fan-club/1998-06/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/fan-club-vol-5-1998-summer.yaml",
           "notes": "24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-06/02.jpg, images/scans/fan-club/1998-06/03.jpg, images/scans/fan-club/1998-06/04.jpg, images/scans/fan-club/1998-06/05.jpg, images/scans/fan-club/1998-06/06.jpg, images/scans/fan-club/1998-06/07.jpg, images/scans/fan-club/1998-06/08.jpg, images/scans/fan-club/1998-06/09.jpg, images/scans/fan-club/1998-06/10.jpg, images/scans/fan-club/1998-06/11.jpg, images/scans/fan-club/1998-06/12.jpg, images/scans/fan-club/1998-06/13.jpg, images/scans/fan-club/1998-06/14.jpg, images/scans/fan-club/1998-06/15.jpg, images/scans/fan-club/1998-06/16.jpg, images/scans/fan-club/1998-06/17.jpg, images/scans/fan-club/1998-06/18.jpg, images/scans/fan-club/1998-06/19.jpg, images/scans/fan-club/1998-06/20.jpg, images/scans/fan-club/1998-06/21.jpg, images/scans/fan-club/1998-06/22.jpg, images/scans/fan-club/1998-06/23.jpg, images/scans/fan-club/1998-06/24.jpg.",
           "members": [
             "gackt",
@@ -12359,6 +12383,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Mirrored 40 scan pages locally."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "cantavanda",
+          "notes": "Added English translation with romaji (data/translations/fan-club-vol-6-7-1998-autumn.yaml).\n"
         }
       ],
       "articles": [
@@ -12368,7 +12398,7 @@
           "title_ja": "ma chérie Vol. 6–7",
           "title_en": "ma chérie Vol. 6–7 (Autumn 1998)",
           "type": "newsletter",
-          "pages": null,
+          "pages": "40",
           "photographer": null,
           "writer": null,
           "cover": false,
@@ -12377,8 +12407,8 @@
           "scan_available": true,
           "scan_quality": "original_scan",
           "scan_url": "images/scans/fan-club/1998-09/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/fan-club-vol-6-7-1998-autumn.yaml",
           "notes": "40 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-09/02.jpg, images/scans/fan-club/1998-09/03.jpg, images/scans/fan-club/1998-09/04.jpg, images/scans/fan-club/1998-09/05.jpg, images/scans/fan-club/1998-09/06.jpg, images/scans/fan-club/1998-09/07.jpg, images/scans/fan-club/1998-09/08.jpg, images/scans/fan-club/1998-09/09.jpg, images/scans/fan-club/1998-09/10.jpg, images/scans/fan-club/1998-09/11.jpg, images/scans/fan-club/1998-09/12.jpg, images/scans/fan-club/1998-09/13.jpg, images/scans/fan-club/1998-09/14.jpg, images/scans/fan-club/1998-09/15.jpg, images/scans/fan-club/1998-09/16.jpg, images/scans/fan-club/1998-09/17.jpg, images/scans/fan-club/1998-09/18.jpg, images/scans/fan-club/1998-09/19.jpg, images/scans/fan-club/1998-09/20.jpg, images/scans/fan-club/1998-09/21.jpg, images/scans/fan-club/1998-09/22.jpg, images/scans/fan-club/1998-09/23.jpg, images/scans/fan-club/1998-09/24.jpg, images/scans/fan-club/1998-09/25.jpg, images/scans/fan-club/1998-09/26.jpg, images/scans/fan-club/1998-09/27.jpg, images/scans/fan-club/1998-09/28.jpg, images/scans/fan-club/1998-09/29.jpg, images/scans/fan-club/1998-09/30.jpg, images/scans/fan-club/1998-09/31.jpg, images/scans/fan-club/1998-09/32.jpg, images/scans/fan-club/1998-09/33.jpg, images/scans/fan-club/1998-09/34.jpg, images/scans/fan-club/1998-09/35.jpg, images/scans/fan-club/1998-09/36.jpg, images/scans/fan-club/1998-09/37.jpg, images/scans/fan-club/1998-09/38.jpg, images/scans/fan-club/1998-09/39.jpg, images/scans/fan-club/1998-09/40.jpg.",
           "members": [
             "gackt",
@@ -43747,6 +43777,41 @@
       "type": "article",
       "url": "http://scape.sc/translations/mm-vicious-aug01.php",
       "notes": "Translated by Kurai on scape.sc."
+    },
+    {
+      "id": "translation-fanclub-vol1-1997",
+      "title": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997) — English",
+      "type": "newsletter",
+      "url": "data/translations/fan-club-vol-1-1997-autumn.yaml",
+      "notes": "Full 24-page fan club newsletter translated from Cantavanda scans (Madame Tarantula). Includes Voyage track commentaries by all five members, Gackt childhood column, member corners (Mana photos, Közi/Zaku, Yu~ki Count Catalepsy, Kami perfumes), recording/signing/radio reports, fan art, and Nice Middle Q&A.\n"
+    },
+    {
+      "id": "translation-fanclub-vol23-1997",
+      "title": "ma chérie Fan Club Magazine Vol. 2&3 (Winter 1997) — English",
+      "type": "newsletter",
+      "url": "data/translations/fan-club-vol-2-3-1997-winter.yaml",
+      "notes": "Combined 32-page fan club issue translated from Cantavanda scans (Madame Tarantula). Covers Kigeki no Bansan session reports, Gackt's Seinenkan rehearsal diary (984 hours), FC limited lives, band chronology, early live memories, expanded Nice Middle profiles, fan art museum, pen-pal/opinion corners, and member columns (Mana, Közi/Lala, Yu~ki, Kami, Yu~ki narcissist).\n"
+    },
+    {
+      "id": "translation-fanclub-vol4-1998",
+      "title": "ma chérie Fan Club Magazine Vol. 4 (Spring 1998) — English",
+      "type": "newsletter",
+      "url": "data/translations/fan-club-vol-4-1998-spring.yaml",
+      "notes": "Full 24-page fan club newsletter translated from Cantavanda scans (Madame Tarantula). Covers Hibiya 2-day event announcement, photo gallery, FC strawberry-picking bus tour, Gackt's July 20 BLITZ apology essay (Betty), member columns (Mana stroll/makeup/TIME LIMIT!, Közi Ginza Cozy Corner, Yu~ki Count Catalepsy music picks, Kami soliloquy/photos), Time Limit shoot outtakes, fan art, strange finds, purikura, pen-pal corner, and editor's afterword.\n"
+    },
+    {
+      "id": "translation-fanclub-vol5-1998",
+      "title": "ma chérie Fan Club Magazine Vol. 5 (Summer 1998) — English",
+      "type": "newsletter",
+      "url": "data/translations/fan-club-vol-5-1998-summer.yaml",
+      "notes": "Full 24-page fan club newsletter translated from Cantavanda scans (Madame Tarantula). Merveilles-era issue covering C.E.D.P. cosplay event, Bel Air France shoot off-shots, Gackt's Hibiya Yaon report and school-infiltration diary teaser, member columns (Mana France photos, Közi Paris travelogue, Yu~ki Count Cataplexy collage, Kami soliloquy), military-uniform photo gallery, color fan art, town finds and handmade dolls, Nice Middle Q&A, and editor's afterword with purikura winners.\n"
+    },
+    {
+      "id": "translation-fanclub-vol67-1998",
+      "title": "ma chérie Vol. 6–7 (Autumn 1998) — English",
+      "type": "newsletter",
+      "url": "data/translations/fan-club-vol-6-7-1998-autumn.yaml",
+      "notes": "Combined 40-page fan club issue translated from Cantavanda scans (Madame Tarantula). Covers Merveilles tour schedule, expanded photo gallery, premier screening snapshots, Gackt's movie/manga favorites, Mana collection pages, Yu~ki Count Catalepsy collage, Kami's grandmother essay and Shibuya outing with Mana, Közi's Nekopakushitsu cat comics, merveilles photobook pre-order, fan street-sign and portrait corners, discography through Merveilles/Iluminati, FC notices, and tour goods catalog.\n"
     },
     {
       "id": "malice-mizer-info-fanclub-mags",
