@@ -165,6 +165,7 @@ def main() -> int:
         + validate_concerts()
         + validate_videos()
         + validate_directory("references", "reference.schema.json")
+        + validate_directory("translations", "translation.schema.json")
     )
 
     if errors:

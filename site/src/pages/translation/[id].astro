@@ -2,7 +2,7 @@
 import ArchiveImage from "../../components/ArchiveImage.astro";
 import Base from "../../layouts/Base.astro";
 import translationsData from "../../data/translations.json";
-import { scanHref } from "../../lib/translations.ts";
+import { scanHref, translationReviewLabel } from "../../lib/translations.ts";
 
 export function getStaticPaths() {
   return translationsData.ids.map((id) => ({ params: { id } }));
@@ -29,11 +29,21 @@ const translationTitle = doc?.title_en ?? doc?.title_ja ?? doc?.id;
 const translationDescription = doc
   ? `English translation: ${doc.title_en ?? doc.title_ja} — Malice Mizer magazine interview or article from the research archive.`
   : undefined;
+const needsReview = doc?.review_status === "needs_review";
+const isReviewed = doc?.review_status === "reviewed";
+const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
 ---
 
 {doc && (
   <Base title={translationTitle} description={translationDescription} type="article">
     <a class="back" href="/">← Back to archive</a>
+
+    {needsReview && (
+      <p class="review-notice card" role="status">
+        Raw translation from scan transcriptions — not yet reviewed. Verify against the original
+        Japanese before citing.
+      </p>
+    )}
 
     <header class="translation-header card">
       <h1>{doc.title_en ?? doc.title_ja}</h1>
@@ -75,6 +85,23 @@ const translationDescription = doc
           <>
             <dt>Translator</dt>
             <dd>{doc.translator}</dd>
+          </>
+        )}
+        {reviewLabel && (
+          <>
+            <dt>Review</dt>
+            <dd>
+              <span
+                class={`badge ${doc.review_status}`}
+                title={
+                  isReviewed
+                    ? "Translation reviewed against source"
+                    : "Raw transcription — verify against the Japanese original"
+                }
+              >
+                {reviewLabel}
+              </span>
+            </dd>
           </>
         )}
       </dl>
@@ -343,6 +370,15 @@ const translationDescription = doc
 )}
 
 <style>
+  .review-notice {
+    margin: 0 0 1rem;
+    padding: 0.85rem 1rem;
+    border-left: 3px solid var(--rose);
+    background: color-mix(in srgb, var(--rose) 8%, transparent);
+    color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
   .translation-header h1 {
     margin: 0 0 0.25rem;
     font-size: 1.75rem;

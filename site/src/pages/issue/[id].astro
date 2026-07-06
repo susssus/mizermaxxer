@@ -2,7 +2,7 @@
 import ArchiveImage from "../../components/ArchiveImage.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
-import { scanHref, translationHref } from "../../lib/translations.ts";
+import { scanHref, translationHref, translationReviewLabel, translationReviewStatus } from "../../lib/translations.ts";
 
 export function getStaticPaths() {
   return archive.issues.map((issue) => ({ params: { id: issue.id } }));
@@ -30,6 +30,8 @@ const issueDescription = issue
         <div class="flyer-scans__grid">
           {issue.articles.filter((a) => a.scan_url).map((article) => {
             const tHref = translationHref(article.translation_url);
+            const reviewStatus = translationReviewStatus(article.translation_url);
+            const reviewLabel = translationReviewLabel(reviewStatus);
             return (
               <article class="flyer-scans__item">
                 <ArchiveImage
@@ -41,6 +43,18 @@ const issueDescription = issue
                 {article.translation_available && tHref && (
                   <p class="flyer-scans__translation">
                     <a href={tHref}>English translation →</a>
+                    {reviewLabel && (
+                      <span
+                        class={`badge ${reviewStatus}`}
+                        title={
+                          reviewStatus === "needs_review"
+                            ? "Raw transcription — verify against the Japanese original"
+                            : "Translation reviewed against source"
+                        }
+                      >
+                        {reviewLabel}
+                      </span>
+                    )}
                   </p>
                 )}
               </article>
@@ -104,6 +118,8 @@ const issueDescription = issue
           {issue.articles.map((article) => {
             const tHref = translationHref(article.translation_url);
             const isExternalTranslation = article.translation_url?.startsWith("http");
+            const reviewStatus = translationReviewStatus(article.translation_url);
+            const reviewLabel = translationReviewLabel(reviewStatus);
             return (
             <tr>
               <td>{article.type.replaceAll("_", " ")}</td>
@@ -121,11 +137,25 @@ const issueDescription = issue
               </td>
               <td>
                 {article.translation_available && tHref ? (
-                  isExternalTranslation ? (
-                    <a href={tHref} target="_blank" rel="noopener">English (external)</a>
-                  ) : (
-                    <a href={tHref}>English</a>
-                  )
+                  <span class="translation-cell">
+                    {isExternalTranslation ? (
+                      <a href={tHref} target="_blank" rel="noopener">English (external)</a>
+                    ) : (
+                      <a href={tHref}>English</a>
+                    )}
+                    {reviewLabel && (
+                      <span
+                        class={`badge ${reviewStatus}`}
+                        title={
+                          reviewStatus === "needs_review"
+                            ? "Raw transcription — verify against the Japanese original"
+                            : "Translation reviewed against source"
+                        }
+                      >
+                        {reviewLabel}
+                      </span>
+                    )}
+                  </span>
                 ) : (
                   "—"
                 )}
@@ -167,6 +197,10 @@ const issueDescription = issue
   .flyer-scans__translation {
     margin: 0;
     font-size: 0.88rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
   }
   .flyer-scans__translation a {
     color: var(--rose);
@@ -174,5 +208,11 @@ const issueDescription = issue
   }
   .flyer-scans__translation a:hover {
     text-decoration: underline;
+  }
+  .translation-cell {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
   }
 </style>
