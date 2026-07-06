@@ -1,10 +1,13 @@
 ---
+import TriggerWarning from "./TriggerWarning.astro";
+
 interface Performance {
   url: string;
   platform: string;
   quality?: string | null;
   title?: string | null;
   notes?: string;
+  trigger_warnings?: string[] | null;
 }
 
 interface Props {
@@ -52,6 +55,9 @@ const label = performance.title ?? performance.platform;
     <figcaption>
       {label}
       {performance.quality && <span class="muted"> · {performance.quality.replaceAll("_", " ")}</span>}
+      {performance.trigger_warnings?.length ? (
+        <> <TriggerWarning warnings={performance.trigger_warnings} /></>
+      ) : null}
       {performance.notes && <p class="muted">{performance.notes}</p>}
     </figcaption>
   </figure>

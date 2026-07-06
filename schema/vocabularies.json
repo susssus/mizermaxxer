@@ -37,6 +37,7 @@
   ],
   "scan_quality": ["low", "medium", "high", "original_scan"],
   "publication_status": ["verified", "needs_confirmation"],
+  "trigger_warning": ["blood", "gore", "violence", "sexual_content"],
   "changelog_action": [
     "created",
     "updated",

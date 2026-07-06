@@ -188,6 +188,7 @@ def create_schema(connection: sqlite3.Connection) -> None:
             quality TEXT,
             verification_status TEXT NOT NULL,
             notes TEXT,
+            trigger_warnings_json TEXT NOT NULL DEFAULT '[]',
             changelog_json TEXT NOT NULL
         );
 
@@ -207,6 +208,17 @@ def create_schema(connection: sqlite3.Connection) -> None:
         CREATE INDEX IF NOT EXISTS idx_concerts_date ON concerts(date);
         """
     )
+    migrate_schema(connection)
+
+
+def migrate_schema(connection: sqlite3.Connection) -> None:
+    video_columns = {
+        row[1] for row in connection.execute("PRAGMA table_info(videos)").fetchall()
+    }
+    if video_columns and "trigger_warnings_json" not in video_columns:
+        connection.execute(
+            "ALTER TABLE videos ADD COLUMN trigger_warnings_json TEXT NOT NULL DEFAULT '[]'"
+        )
 
 
 def clear_all(connection: sqlite3.Connection) -> None:
@@ -432,8 +444,9 @@ def insert_music_data(connection: sqlite3.Connection) -> None:
             """
             INSERT INTO videos (
                 id, title_ja, title_en, type, url, platform, release_date,
-                song, concert, quality, verification_status, notes, changelog_json
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                song, concert, quality, verification_status, notes,
+                trigger_warnings_json, changelog_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 video["id"],
@@ -448,6 +461,7 @@ def insert_music_data(connection: sqlite3.Connection) -> None:
                 video.get("quality"),
                 video["verification_status"],
                 video.get("notes", ""),
+                json.dumps(video.get("trigger_warnings", []), ensure_ascii=False),
                 json.dumps(video["changelog"], ensure_ascii=False),
             ),
         )
@@ -502,7 +516,7 @@ def export_site_json(connection: sqlite3.Connection) -> None:
             "changelog_json": "changelog",
         },
     )
-    decode_json_fields(videos, {"changelog_json": "changelog"})
+    decode_json_fields(videos, {"changelog_json": "changelog", "trigger_warnings_json": "trigger_warnings"})
 
     for row in articles:
         row["cover"] = bool(row["cover"])

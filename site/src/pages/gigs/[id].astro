@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import PerformanceEmbed from "../../components/PerformanceEmbed.astro";
+import TriggerWarning from "../../components/TriggerWarning.astro";
 import archive from "../../data/archive.json";
 
 export function getStaticPaths() {
@@ -72,6 +73,9 @@ const gigDescription = concert
                 <a href={performance.url} target="_blank" rel="noopener noreferrer">
                   {performance.title ?? performance.platform}
                 </a>
+                {performance.trigger_warnings?.length ? (
+                  <> <TriggerWarning warnings={performance.trigger_warnings} /></>
+                ) : null}
                 {performance.quality && <span class="muted"> ({performance.quality})</span>}
                 {performance.notes && <p class="muted">{performance.notes}</p>}
               </li>

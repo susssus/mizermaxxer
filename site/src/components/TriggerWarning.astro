@@ -1,0 +1,12 @@
+---
+interface Props {
+  warnings?: string[] | null;
+}
+
+const { warnings } = Astro.props;
+const items = warnings?.filter(Boolean) ?? [];
+---
+
+{items.length > 0 && (
+  <span class="trigger-warning">Trigger warning: {items.join(", ")}</span>
+)}

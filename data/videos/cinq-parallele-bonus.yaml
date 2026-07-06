@@ -9,6 +9,8 @@ song: null
 concert: null
 quality: official
 verification_status: verified
+trigger_warnings:
+- blood
 notes: Bonus footage from COBA-4161 VHS/DVD (PV collection + extras). PV rips also
   on IA individually.
 changelog:

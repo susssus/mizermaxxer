@@ -1,5 +1,6 @@
 ---
 import PersonProfile from "../../components/PersonProfile.astro";
+import TriggerWarning from "../../components/TriggerWarning.astro";
 import Base from "../../layouts/Base.astro";
 import linksIndex from "../../data/links_index.json";
 
@@ -68,7 +69,12 @@ const entityDescription = row
                 <strong>Footage:</strong>
                 <ul>
                   {entity.performances.map((perf) => (
-                    <li><a href={perf.url} target="_blank" rel="noopener">{perf.title ?? perf.url}</a></li>
+                    <li>
+                      <a href={perf.url} target="_blank" rel="noopener">{perf.title ?? perf.url}</a>
+                      {perf.trigger_warnings?.length ? (
+                        <> <TriggerWarning warnings={perf.trigger_warnings} /></>
+                      ) : null}
+                    </li>
                   ))}
                 </ul>
               </div>
