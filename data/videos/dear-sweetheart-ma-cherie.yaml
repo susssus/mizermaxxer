@@ -1,0 +1,17 @@
+id: dear-sweetheart-ma-cherie
+title_ja: ma chérie ～愛しい君へ～
+title_en: ma chérie (TV/live clip)
+type: tv
+url: https://archive.org/details/dear-sweatheart
+platform: archive_org
+release_date: '1994-01-01'
+song: null
+concert: null
+quality: tv_broadcast
+verification_status: possible
+notes: Short ma chérie clip on IA; date uncertain.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added ma chérie (TV/live clip) from Internet Archive catalog.

@@ -1,0 +1,17 @@
+id: cdtv-1996
+title_ja: CDTV
+title_en: CDTV appearance (1996)
+type: tv
+url: https://archive.org/details/malice-mizer-woman-college-live-96
+platform: archive_org
+release_date: '1996-01-01'
+song: null
+concert: null
+quality: tv_broadcast
+verification_status: possible
+notes: Tetsu-era TV live segment (upload titled 'Woman College Live' on IA).
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added CDTV appearance (1996) from Internet Archive catalog.

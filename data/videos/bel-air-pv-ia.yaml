@@ -1,0 +1,18 @@
+id: bel-air-pv-ia
+title_ja: ヴェル・エール～空白の瞬間の中で～
+title_en: Bel Air (PV) — IA rip
+type: pv
+url: https://archive.org/details/malice-mizer-bel-air
+platform: archive_org
+release_date: '1997-08-06'
+song: bel-air
+concert: null
+quality: official
+verification_status: verified
+notes: 'VHS/DVD rip from merveilles cinq parallele (COBA-4161). Official YouTube:
+  bel-air-pv.'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Bel Air (PV) — IA rip from Internet Archive catalog.

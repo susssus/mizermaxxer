@@ -1,0 +1,17 @@
+id: illuminati-pv-ia
+title_ja: ILLUMINATI
+title_en: Illuminati (PV) — IA rip
+type: pv
+url: https://archive.org/details/malice-mizer-illuminati
+platform: archive_org
+release_date: '1998-05-01'
+song: null
+concert: null
+quality: official
+verification_status: verified
+notes: PV rip from cinq parallele collection.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Illuminati (PV) — IA rip from Internet Archive catalog.

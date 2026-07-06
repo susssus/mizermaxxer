@@ -1,0 +1,17 @@
+id: malice-mizer-live-clip-unknown
+title_ja: null
+title_en: Live clip (date unknown)
+type: live_footage
+url: https://archive.org/details/v15044gf0000cq9egqvog65khl9uivag
+platform: archive_org
+release_date: null
+song: null
+concert: null
+quality: unknown
+verification_status: needs_verification
+notes: Unlabelled live clip on Internet Archive; date and venue unconfirmed.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Live clip (date unknown) from Internet Archive catalog.

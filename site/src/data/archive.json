@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T00:24:51.824962Z",
+  "generated_at": "2026-07-06T00:26:18.920888Z",
   "people": {
     "members": [
       {
@@ -41602,6 +41602,29 @@
   ],
   "videos": [
     {
+      "id": "malice-mizer-live-clip-unknown",
+      "title_ja": null,
+      "title_en": "Live clip (date unknown)",
+      "type": "live_footage",
+      "url": "https://archive.org/details/v15044gf0000cq9egqvog65khl9uivag",
+      "platform": "archive_org",
+      "release_date": null,
+      "song": null,
+      "concert": null,
+      "quality": "unknown",
+      "verification_status": "needs_verification",
+      "notes": "Unlabelled live clip on Internet Archive; date and venue unconfirmed.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Live clip (date unknown) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
       "id": "sadness-live-1993-tv",
       "title_ja": "SADNESS",
       "title_en": "SADNESS (Live 1993, TV broadcast)",
@@ -41620,6 +41643,29 @@
           "action": "created",
           "source": "web_research",
           "notes": "Added SADNESS (Live 1993, TV broadcast)."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "dear-sweetheart-ma-cherie",
+      "title_ja": "ma chérie ～愛しい君へ～",
+      "title_en": "ma chérie (TV/live clip)",
+      "type": "tv",
+      "url": "https://archive.org/details/dear-sweatheart",
+      "platform": "archive_org",
+      "release_date": "1994-01-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "possible",
+      "notes": "Short ma chérie clip on IA; date uncertain.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added ma chérie (TV/live clip) from Internet Archive catalog."
         }
       ],
       "song_detail": null
@@ -41714,6 +41760,144 @@
       }
     },
     {
+      "id": "cdtv-1996",
+      "title_ja": "CDTV",
+      "title_en": "CDTV appearance (1996)",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-woman-college-live-96",
+      "platform": "archive_org",
+      "release_date": "1996-01-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "possible",
+      "notes": "Tetsu-era TV live segment (upload titled 'Woman College Live' on IA).",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added CDTV appearance (1996) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "fan-event-transylvania-1996",
+      "title_ja": null,
+      "title_en": "Fan event footage — Transylvania (1996)",
+      "type": "fan_cam",
+      "url": "https://archive.org/details/mm-transylvania",
+      "platform": "archive_org",
+      "release_date": "1996-01-01",
+      "song": null,
+      "concert": null,
+      "quality": "audience",
+      "verification_status": "possible",
+      "notes": "Audience/fan-shot footage from a fan event.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Fan event footage — Transylvania (1996) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "shock-wave-96-message",
+      "title_ja": null,
+      "title_en": "Shock Wave '96 message",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-shock-wave-96-message",
+      "platform": "archive_org",
+      "release_date": "1996-01-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "possible",
+      "notes": "Band message segment from Shock Wave '96 event coverage.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Shock Wave '96 message from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "voyage-promo-1996",
+      "title_ja": "sans retour Voyage",
+      "title_en": "Voyage ~san Retour~ variety show coverage (1996)",
+      "type": "tv",
+      "url": "https://archive.org/details/voyage-live-promo",
+      "platform": "archive_org",
+      "release_date": "1996-01-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Early Voyage sans retour tour TV coverage.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Voyage ~san Retour~ variety show coverage (1996) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "hot-wave-1996-june",
+      "title_ja": "Hot Wave",
+      "title_en": "Hot Wave appearance (Jun 1996)",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-hot-wave-appearance-1996",
+      "platform": "archive_org",
+      "release_date": "1996-06-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Voyage sans retour era Hot Wave segment.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Hot Wave appearance (Jun 1996) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "hot-wave-1996-august",
+      "title_ja": "Hot Wave",
+      "title_en": "Hot Wave appearance (Aug 1996)",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-hot-wave-08-96",
+      "platform": "archive_org",
+      "release_date": "1996-08-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Hot Wave TV segment from mid-1996.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Hot Wave appearance (Aug 1996) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
       "id": "best-performance-1996",
       "title_ja": null,
       "title_en": "Best Performance 1996 (TV compilation)",
@@ -41737,6 +41921,41 @@
       "song_detail": null
     },
     {
+      "id": "verte-de-aile-preview-1997",
+      "title_ja": "Verte de Aile",
+      "title_en": "Verte de Aile [Bel Air] preview with new footage (1997)",
+      "type": "other",
+      "url": "https://archive.org/details/malice-mizer-verte-de-aile-preview-with-new-footage",
+      "platform": "archive_org",
+      "release_date": "1997-01-01",
+      "song": "bel-air",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "Preview for Bel Air short film / Vers Elle era.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Verte de Aile [Bel Air] preview with new footage (1997) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "bel-air",
+        "title_ja": "Bel Air",
+        "title_en": "Bel Air",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
       "id": "break-out-feb-1997",
       "title_ja": "Break Out",
       "title_en": "Break Out TV appearance (Feb 1997)",
@@ -41755,6 +41974,29 @@
           "action": "created",
           "source": "web_research",
           "notes": "Added Break Out TV appearance (Feb 1997)."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "voyage-1997-live-hd-ia",
+      "title_ja": "sans retour Voyage \"derniere\"",
+      "title_en": "Sans retour Voyage derniere (HD IA rip, 1997)",
+      "type": "live_footage",
+      "url": "https://archive.org/details/malice-mizer-moi-dix-mois-ziz-full-live-25th-anniversary-deep-sanc-1080-x-1920",
+      "platform": "archive_org",
+      "release_date": "1997-04-01",
+      "song": null,
+      "concert": "1997-04-01-derniere-final",
+      "quality": "pro_shot",
+      "verification_status": "possible",
+      "notes": "HD rip in multi-file IA collection (file: 'Full live 1997 Voyage'). Official VHS: M:N-005.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Sans retour Voyage derniere (HD IA rip, 1997) from Internet Archive catalog."
         }
       ],
       "song_detail": null
@@ -41876,6 +42118,29 @@
       }
     },
     {
+      "id": "short-comment-1997",
+      "title_ja": null,
+      "title_en": "Short TV interview (Aug 1997)",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-short-comment-97",
+      "platform": "archive_org",
+      "release_date": "1997-08-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Brief comment/interview segment during Bel Air promotion.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Short TV interview (Aug 1997) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
       "id": "bel-air-pv",
       "title_ja": "ヴェル・エール～空白の瞬間の中で～",
       "title_en": "Bel Air (PV)",
@@ -41894,6 +42159,76 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from @Malice_Mizer_Official channel (t1mcnxf8S9A)."
+        }
+      ],
+      "song_detail": {
+        "id": "bel-air",
+        "title_ja": "Bel Air",
+        "title_en": "Bel Air",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
+      "id": "bel-air-pv-ia",
+      "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+      "title_en": "Bel Air (PV) — IA rip",
+      "type": "pv",
+      "url": "https://archive.org/details/malice-mizer-bel-air",
+      "platform": "archive_org",
+      "release_date": "1997-08-06",
+      "song": "bel-air",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "VHS/DVD rip from merveilles cinq parallele (COBA-4161). Official YouTube: bel-air-pv.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Bel Air (PV) — IA rip from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "bel-air",
+        "title_ja": "Bel Air",
+        "title_en": "Bel Air",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
+      "id": "verte-de-aile-film-ia",
+      "title_ja": "Vers Elle ～空白の瞬間の中で～",
+      "title_en": "Verte de Aile / Bel Air short film (IA HD rip)",
+      "type": "documentary",
+      "url": "https://archive.org/details/malice-mizer-moi-dix-mois-ziz-full-live-25th-anniversary-deep-sanc-1080-x-1920",
+      "platform": "archive_org",
+      "release_date": "1997-08-06",
+      "song": "bel-air",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "Bel Air de l'image short film in multi-file IA upload (CODA-1276 era).",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Verte de Aile / Bel Air short film (IA HD rip) from Internet Archive catalog."
         }
       ],
       "song_detail": {
@@ -41944,6 +42279,29 @@
           "mana"
         ]
       }
+    },
+    {
+      "id": "hot-wave-lacryma-christi-1997",
+      "title_ja": "Hot Wave",
+      "title_en": "Hot Wave — La'Cryma Christi crossover (Dec 1997)",
+      "type": "tv",
+      "url": "https://archive.org/details/5-hot-wave-on-lacryma-christi-december-97",
+      "platform": "archive_org",
+      "release_date": "1997-12-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Joint Hot Wave segment with La'Cryma Christi.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Hot Wave — La'Cryma Christi crossover (Dec 1997) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
     },
     {
       "id": "nikkan-hitto-au-revoir-1997",
@@ -42016,6 +42374,99 @@
       }
     },
     {
+      "id": "au-revoir-pv-ia",
+      "title_ja": "au revoir",
+      "title_en": "au revoir (PV, 2nd version) — IA rip",
+      "type": "pv",
+      "url": "https://archive.org/details/malice-mizer-au-revoir-2nd-version",
+      "platform": "archive_org",
+      "release_date": "1997-12-03",
+      "song": "au-revoir",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "Second-version PV rip from cinq parallele. Official YouTube: au-revoir-pv.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added au revoir (PV, 2nd version) — IA rip from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "au-revoir",
+        "title_ja": "au revoir",
+        "title_en": "au revoir",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
+      "id": "au-revoir-fansub-1997",
+      "title_ja": "au revoir",
+      "title_en": "au revoir TV segment (fansubbed)",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-au-revoir-engromaji",
+      "platform": "archive_org",
+      "release_date": "1997-12-03",
+      "song": "au-revoir",
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "English-subtitled TV appearance; alternate to malice-mizer-nikkan-hitto-au-revoir.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added au revoir TV segment (fansubbed) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "au-revoir",
+        "title_ja": "au revoir",
+        "title_en": "au revoir",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
+      "id": "merveilles-lespace-ia-rip",
+      "title_ja": "merveilles l'espace",
+      "title_en": "merveilles l'espace (alternate IA rip)",
+      "type": "live_footage",
+      "url": "https://archive.org/details/malice-mizer-merveilles-lespace",
+      "platform": "archive_org",
+      "release_date": "1998-01-01",
+      "song": null,
+      "concert": "1998-07-22-merveilles-yokohama-arena",
+      "quality": "pro_shot",
+      "verification_status": "verified",
+      "notes": "Alternate Internet Archive upload of merveilles l'espace concert film.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added merveilles l'espace (alternate IA rip) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
       "id": "popjam-le-ciel-1998",
       "title_ja": "POPJAM — Le ciel",
       "title_en": "POPJAM — Le ciel live (1998-02-10)",
@@ -42051,6 +42502,112 @@
       }
     },
     {
+      "id": "gekka-no-yasoukyoku-pv-ia",
+      "title_ja": "月下の夜想曲",
+      "title_en": "Gekka no Yasoukyoku (PV) — IA rip",
+      "type": "pv",
+      "url": "https://archive.org/details/malice-mizer-gekka-no-yasoukyoku",
+      "platform": "archive_org",
+      "release_date": "1998-02-11",
+      "song": "gekka-no-yasoukyoku",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "VHS/DVD rip from merveilles cinq parallele (COBA-4161). Official YouTube: gekka-no-yasoukyoku-pv.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Gekka no Yasoukyoku (PV) — IA rip from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "gekka-no-yasoukyoku",
+        "title_ja": "月下の夜想曲",
+        "title_en": "Gekka no Yasoukyoku",
+        "notes": "",
+        "writers": [
+          "mana",
+          "kozi"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana",
+          "kozi"
+        ]
+      }
+    },
+    {
+      "id": "pick-up-artist-1998",
+      "title_ja": null,
+      "title_en": "Pick Up Artist of the Week — at the Park (1998)",
+      "type": "tv",
+      "url": "https://archive.org/details/malice-mizer-pick-up-artist",
+      "platform": "archive_org",
+      "release_date": "1998-03-19",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "TV feature segment during Merveilles era.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Pick Up Artist of the Week — at the Park (1998) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "illuminati-pv-ia",
+      "title_ja": "ILLUMINATI",
+      "title_en": "Illuminati (PV) — IA rip",
+      "type": "pv",
+      "url": "https://archive.org/details/malice-mizer-illuminati",
+      "platform": "archive_org",
+      "release_date": "1998-05-01",
+      "song": null,
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "PV rip from cinq parallele collection.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Illuminati (PV) — IA rip from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "illuminati-nikkan-hitto-ia-1998",
+      "title_ja": "日刊ひっと — ILLUMINATI",
+      "title_en": "Nikkan Hitto — Illuminati (IA rip)",
+      "type": "tv",
+      "url": "https://archive.org/details/20-malice-mizer-illuminati-nikkan-hitto",
+      "platform": "archive_org",
+      "release_date": "1998-05-01",
+      "song": null,
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Internet Archive rip; YouTube mirror: illuminati-nikkan-hitto-1998.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Nikkan Hitto — Illuminati (IA rip) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
       "id": "utaban-illuminati-1998",
       "title_ja": "うたばん — ILLUMINATI",
       "title_en": "Utaban — Illuminati live (1998)",
@@ -42069,6 +42626,29 @@
           "action": "created",
           "source": "web_research",
           "notes": "Added Utaban — Illuminati live (1998)."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "illuminati-cm-1998",
+      "title_ja": "ILLUMINATI",
+      "title_en": "Illuminati TV commercial (1998)",
+      "type": "tv",
+      "url": "https://archive.org/details/illuminati-commercial",
+      "platform": "archive_org",
+      "release_date": "1998-05-20",
+      "song": null,
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "Single promotion TV spot.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Illuminati TV commercial (1998) from Internet Archive catalog."
         }
       ],
       "song_detail": null
@@ -42120,6 +42700,41 @@
       "song_detail": null
     },
     {
+      "id": "le-ciel-smile-1998",
+      "title_ja": "Le ciel",
+      "title_en": "Le ciel talk + live (Sep 1998)",
+      "type": "tv",
+      "url": "https://archive.org/details/le-ciel-smile",
+      "platform": "archive_org",
+      "release_date": "1998-09-01",
+      "song": "le-ciel",
+      "concert": null,
+      "quality": "tv_broadcast",
+      "verification_status": "verified",
+      "notes": "Le ciel promotion TV segment.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Le ciel talk + live (Sep 1998) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "le-ciel",
+        "title_ja": "Le ciel ～空白の彼方へ～",
+        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
       "id": "le-ciel-pv",
       "title_ja": "Le ciel ～空白の彼方へ～",
       "title_en": "Le ciel (PV)",
@@ -42138,6 +42753,41 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from @Malice_Mizer_Official channel (HTDmJcfEHUA)."
+        }
+      ],
+      "song_detail": {
+        "id": "le-ciel",
+        "title_ja": "Le ciel ～空白の彼方へ～",
+        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "notes": "",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
+      "id": "le-ciel-pv-ia",
+      "title_ja": "Le ciel ～空白の彼方へ～",
+      "title_en": "Le ciel (PV) — IA rip",
+      "type": "pv",
+      "url": "https://archive.org/details/malice-mizer-le-ciel",
+      "platform": "archive_org",
+      "release_date": "1998-10-07",
+      "song": "le-ciel",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "VHS/DVD rip from merveilles cinq parallele. Official YouTube: le-ciel-pv.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Le ciel (PV) — IA rip from Internet Archive catalog."
         }
       ],
       "song_detail": {
@@ -42546,6 +43196,41 @@
       }
     },
     {
+      "id": "bara-no-konrei-bonus",
+      "title_ja": "薔薇の伝承～序章～",
+      "title_en": "Bara no Konrei — DVD bonus commentary",
+      "type": "documentary",
+      "url": "https://archive.org/details/malice-mizer-bara-no-konrei-bonus-footage",
+      "platform": "archive_org",
+      "release_date": "2002-03-22",
+      "song": "mayonaka-yakusoku",
+      "concert": null,
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "Member commentary on Bara no Konrei (Bara no Denshou ~Joshou~, 40 min).",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Bara no Konrei — DVD bonus commentary from Internet Archive catalog."
+        }
+      ],
+      "song_detail": {
+        "id": "mayonaka-yakusoku",
+        "title_ja": "真夜中に交わした約束",
+        "title_en": "真夜中に交わした約束",
+        "notes": "Auto-created from Discogs sync (2026-07-05).",
+        "writers": [
+          "mana"
+        ],
+        "lyricists": [],
+        "composers": [
+          "mana"
+        ]
+      }
+    },
+    {
       "id": "cinq-parallele-bonus",
       "title_ja": "merveilles ～cinq parallele～",
       "title_en": "merveilles cinq parallele — bonus clips",
@@ -42592,6 +43277,52 @@
       "song_detail": null
     },
     {
+      "id": "merveilles-lespace-hd-ia",
+      "title_ja": "merveilles l'espace",
+      "title_en": "merveilles l'espace (HD upscaled, IA)",
+      "type": "live_footage",
+      "url": "https://archive.org/details/malice-mizer-merveilles-lespace-full-live-hd-1080p-1440p-60fps-av-1-128kbit-aac",
+      "platform": "archive_org",
+      "release_date": "2002-03-30",
+      "song": null,
+      "concert": "1998-07-22-merveilles-yokohama-arena",
+      "quality": "pro_shot",
+      "verification_status": "possible",
+      "notes": "Upscaled fan rip of official concert film. Standard rip: merveilles-lespace-live.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added merveilles l'espace (HD upscaled, IA) from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "merveilles-lespace-bonus",
+      "title_ja": "merveilles l'espace",
+      "title_en": "merveilles l'espace — DVD bonus clip",
+      "type": "other",
+      "url": "https://archive.org/details/malice-mizer-merveilles-lespace-bonus",
+      "platform": "archive_org",
+      "release_date": "2002-03-30",
+      "song": null,
+      "concert": "1998-07-22-merveilles-yokohama-arena",
+      "quality": "official",
+      "verification_status": "verified",
+      "notes": "Bonus footage from merveilles l'espace DVD (COBA-4162).",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added merveilles l'espace — DVD bonus clip from Internet Archive catalog."
+        }
+      ],
+      "song_detail": null
+    },
+    {
       "id": "deep-sanctuary-vi-live",
       "title_ja": "Deep Sanctuary VI 25th Anniversary Special",
       "title_en": "Deep Sanctuary VI (25th Anniversary Live)",
@@ -42610,6 +43341,29 @@
           "action": "created",
           "source": "web_research",
           "notes": "Added Deep Sanctuary VI (25th Anniversary Live)."
+        }
+      ],
+      "song_detail": null
+    },
+    {
+      "id": "deep-sanctuary-vi-ia",
+      "title_ja": "Deep Sanctuary VI",
+      "title_en": "Deep Sanctuary VI (IA HD rip)",
+      "type": "live_footage",
+      "url": "https://archive.org/details/malice-mizer-moi-dix-mois-ziz-full-live-25th-anniversary-deep-sanc-1080-x-1920",
+      "platform": "archive_org",
+      "release_date": "2018-09-08",
+      "song": null,
+      "concert": "2018-09-08-deep-sanctuary-vi",
+      "quality": "pro_shot",
+      "verification_status": "possible",
+      "notes": "Multi-file IA upload; includes Deep Sanctuary VI 25th Anniversary live (DS6-0001). YouTube: deep-sanctuary-vi-live.",
+      "changelog": [
+        {
+          "date": "2026-07-06",
+          "action": "created",
+          "source": "web_research",
+          "notes": "Added Deep Sanctuary VI (IA HD rip) from Internet Archive catalog."
         }
       ],
       "song_detail": null
@@ -43095,7 +43849,7 @@
     "single_count": 16,
     "song_count": 133,
     "concert_count": 163,
-    "video_count": 33,
-    "performance_link_count": 52
+    "video_count": 61,
+    "performance_link_count": 80
   }
 }

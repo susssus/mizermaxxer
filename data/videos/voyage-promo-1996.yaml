@@ -1,0 +1,18 @@
+id: voyage-promo-1996
+title_ja: sans retour Voyage
+title_en: Voyage ~san Retour~ variety show coverage (1996)
+type: tv
+url: https://archive.org/details/voyage-live-promo
+platform: archive_org
+release_date: '1996-01-01'
+song: null
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: Early Voyage sans retour tour TV coverage.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Voyage ~san Retour~ variety show coverage (1996) from Internet Archive
+    catalog.
