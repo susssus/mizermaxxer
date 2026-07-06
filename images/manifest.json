@@ -115,51 +115,51 @@
   },
   {
     "path": "images/members/mana.webp",
-    "source_url": "https://www.malice-mizer.info/GIBE9LOWwAEwwIp.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:54.769452Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800384Z"
   },
   {
     "path": "images/members/kozi.webp",
-    "source_url": "https://www.malice-mizer.info/GIBE9LVXQAAhrpr.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:55.700503Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800537Z"
   },
   {
     "path": "images/members/yuki.webp",
-    "source_url": "https://www.malice-mizer.info/20240201_185706.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:56.772247Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800540Z"
   },
   {
     "path": "images/members/kami.webp",
-    "source_url": "https://www.malice-mizer.info/20240201_185708.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:57.844723Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800548Z"
   },
   {
     "path": "images/members/gackt.webp",
-    "source_url": "https://www.malice-mizer.info/GGTOj8ZXkAAFu6R.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:58.991782Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800542Z"
   },
   {
     "path": "images/members/klaha.webp",
-    "source_url": "https://www.malice-mizer.info/GIBE9LQWwAE5Er9.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:30:00.013696Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800544Z"
   },
   {
     "path": "images/members/tetsu.webp",
-    "source_url": "https://www.malice-mizer.info/20240201_185653.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:30:00.917740Z"
+    "source_url": "images/members/tetsu-profile.webp",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800552Z"
   },
   {
     "path": "images/members/gaz.webp",
-    "source_url": "https://www.malice-mizer.info/Gaz-profile.webp",
-    "source_name": "malice-mizer.info",
-    "fetched_at": "2026-07-06T17:30:00.000000Z"
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800546Z"
   },
   {
     "path": "images/flyers/flyers-1992-08-debut-era.webp",
@@ -1594,5 +1594,857 @@
     "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire32.jpg",
     "source_name": "scape-cher-de-memoire",
     "fetched_at": "2026-07-06T18:22:27.176817Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/01.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/01.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:28:09.571511Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/02.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/02.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:28:18.125669Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/03.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/03.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:28:26.048209Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/04.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/04.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:28:34.534951Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/05.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/05.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:28:42.282538Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/06.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/06.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:28:59.680621Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/07.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/07.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:29:08.458210Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/08.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/08.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:29:17.900528Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/09.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/09.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:29:35.168765Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/10.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/10.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:29:47.070319Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/11.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/11.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:30:11.214763Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/12.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/12.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:30:26.322569Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/13.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/13.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:30:39.982935Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/14.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/14.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:30:57.780336Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/15.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/15.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:31:13.043944Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/16.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/16.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:31:38.167209Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/17.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/17.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:31:51.989006Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/18.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/18.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:32:03.898944Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/19.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/19.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:32:12.309767Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/20.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/20.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:32:21.104736Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/21.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/21.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:32:31.401747Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/22.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/22.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:32:42.895123Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/23.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/23.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:32:51.815486Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/24.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/24.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:33:03.315570Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/25.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/25.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:33:12.825323Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/26.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/26.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:33:22.356736Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/27.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/27.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:33:33.240415Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/28.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/28.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:33:45.462071Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/29.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/29.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:33:54.558460Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/30.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/30.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:34:02.165883Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/31.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/31.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:34:09.667473Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/32.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/32.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:34:16.610651Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/33.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/33.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:34:26.645435Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/34.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/34.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:34:37.720000Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/35.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/35.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:34:59.631144Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/36.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/36.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:35:11.239796Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/37.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/37.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:35:20.740122Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/38.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/38.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:35:33.343286Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/39.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/39.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:35:43.933402Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-03/40.jpg",
+    "source_url": "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/40.jpg",
+    "source_name": "The Malice Archive / malice-archive.neocities.org",
+    "fetched_at": "2026-07-06T18:35:55.613577Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/03.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-10-23-56-47-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:36:46.719798Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/04.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-10-37-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:37:05.859323Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/05.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-25-57-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:37:25.121230Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/06.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-27-32-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:37:48.386160Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/07.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-32-54-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:38:11.024608Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/08.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-34-31-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:38:50.801732Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/09.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-36-35-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:39:25.856837Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/10.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-38-48-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:39:41.782204Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/11.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-41-09-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:40:17.927151Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/12.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-43-11-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:40:47.902246Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/13.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-44-34-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:41:24.307692Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/14.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-46-42-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:41:35.914852Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/15.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-00-49-44-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:41:57.725356Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/19.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-01-18-38-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:42:33.885800Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/21.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-01-25-23-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:43:05.684456Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/22.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-01-25-24-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:43:20.001586Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/23.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-01-33-19-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:43:58.943549Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1996/24.jpg",
+    "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-11-01-35-07-01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:30.892329Z"
+  },
+  {
+    "path": "images/scans/arena37/1997-10/01.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B01%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:30.898836Z"
+  },
+  {
+    "path": "images/scans/arena37/1997-10/02.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B02%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:30.898883Z"
+  },
+  {
+    "path": "images/scans/arena37/1997-10/03.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B03%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:49.786643Z"
+  },
+  {
+    "path": "images/scans/arena37/1997-10/04.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B04%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:10.327775Z"
+  },
+  {
+    "path": "images/scans/arena37/1997-10/05.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B05%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:22.703609Z"
+  },
+  {
+    "path": "images/scans/arena37/1997-10/06.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B06%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:37.786134Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/01.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/%21%21%21%21arena194-fc.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:59.041243Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/02.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:12.311571Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/03.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:26.819313Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/04.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:39.055286Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/05.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:52.360386Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/06.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-6.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:04.752225Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/07.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-7.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:20.223579Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/08.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:35.088381Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/09.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:57.924636Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/10.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:48:08.423588Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/11.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:48:22.927036Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/13.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-7.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:48:44.408483Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/14.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-8.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:49:00.614058Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/16.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-feel-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:49:31.916791Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/19.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:07.023263Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/20.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:17.372845Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/21.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:32.162085Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/22.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-gt-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:49.532078Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/23.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-gt-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:51:04.665710Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/24.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:51:25.942971Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/25.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:51:41.355102Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/26.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:04.884143Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/27.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:14.473176Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/28.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:25.040636Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/29.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:37.083459Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/30.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:49.112164Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/31.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:57.796503Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/32.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-6.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:18.622690Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/33.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-7.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:35.329384Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/34.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-8.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:47.421772Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/35.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-9.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:59.902537Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/36.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kyo-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:54:17.687568Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/37.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:54:31.270185Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/38.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:54:46.668906Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/39.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:01.846571Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/40.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:12.933534Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/41.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-maschera-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:26.006667Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/42.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:37.863491Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/43.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-10.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:46.886806Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/44.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-11.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:56.027768Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/45.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-12.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:11.282838Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/46.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-13.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:18.309297Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/48.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-15.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:40.029983Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/49.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-16.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:50.670022Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/50.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-17.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:57:02.798801Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/51.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-18.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:57:21.320384Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/53.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:57:48.868340Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/54.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:01.248759Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/55.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:17.651704Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/56.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:28.726266Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/57.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-6.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:48.308738Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/59.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-8.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:59:23.020981Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/62.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:00:24.389953Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/64.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:01:01.798807Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/65.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:01:17.682166Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/71.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ss-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:02:41.421524Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/72.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ss-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:02:52.148190Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/75.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-tmr-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:03:29.071032Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/76.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-tmr-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:03:40.624400Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/78.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-vdc-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:04:10.527638Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/79.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-vdc-ad.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:04:25.593217Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/01.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/0000Fool%27s%20mate%20%23207%2C%20January%201999_00.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:04:55.646762Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/02.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:05:12.061283Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/03.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_02.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:05:31.454795Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/05.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_04.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:06:15.329881Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/07.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_00.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:07:07.781572Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/09.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_02.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:07:49.396212Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/10.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_03.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:08:15.199593Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/14.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_07.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:09:17.896197Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/15.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_08.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:09:40.732553Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/16.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_09.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:10:03.110954Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/17.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_10.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:10:25.293518Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/19.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_12.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:11:18.948841Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/20.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_13.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:11:39.226273Z"
+  },
+  {
+    "path": "images/scans/fools-mate/1999-01/22.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/img418.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:12:01.079319Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/01.jpg",
+    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10185.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:12:32.575116Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/02.jpg",
+    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10186.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:12:56.648973Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/05.jpg",
+    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10189.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:14:01.046489Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-06T18:16:11.507118Z",
-  "count": 96,
+  "generated_at": "2026-07-06T19:50:43.156611Z",
+  "count": 95,
   "items": [
     {
       "title": "Gackt",
@@ -241,15 +241,6 @@
       "src": "images/members/mana.webp",
       "caption": "Portrait",
       "source": "Archive",
-      "era": "1992",
-      "category": "member",
-      "external": false
-    },
-    {
-      "title": "Tetsu",
-      "src": "images/members/tetsu-profile.webp",
-      "caption": "Profile photograph",
-      "source": "malice-mizer.info",
       "era": "1992",
       "category": "member",
       "external": false
