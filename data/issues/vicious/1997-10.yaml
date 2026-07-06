@@ -67,9 +67,8 @@ articles:
   notes: 'Interview by Hiroko Yamamoto (山本浩子). Subtitle/feature: V''s Break Out. Covers
     the Sept 3 1997 Bel Air de l''image video release, filming anecdotes, and upcoming
     Pays de merveilles tour dates. Costumes by Yukari Ohba (Midi : Nette). Page 121
-    scan: images/scans/vicious/1997-10/03.jpg
-
-    '
+    scan: images/scans/vicious/1997-10/03.jpg Additional pages: images/scans/vicious/1997-10/02.jpg,
+    images/scans/vicious/1997-10/03.jpg.'
 changelog:
 - date: '2026-07-06'
   action: created
@@ -82,3 +81,7 @@ changelog:
     added English translation with romaji (data/translations/vicious-1997-10-interview.yaml).
 
     '
+- date: '2026-07-06'
+  action: updated
+  source: catalog_mirror
+  notes: Mirrored 3 scan pages locally.

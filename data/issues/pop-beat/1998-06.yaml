@@ -5,12 +5,10 @@ volume: null
 publication_date: 1998-06
 date_precision: month
 verification_status: verified
-source_notes: 'POP BEAT 1998-06
+source_notes: 'POP BEAT June 1998. 5 pages mirrored locally under images/scans/pop-beat/1998-06/.
+  Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/
 
-  [vkgy-timeline] https://vk.gy/artists/malice-mizer/
-
-  POP BEAT June 1998. MM pages scanned on Cantavanda (5 images: ILLUMINATI feature pp. 58–61). Local mirror in images/scans/pop-beat/1998-06/.
-  https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/'
+  '
 research_targets:
 - verify full issue table of contents
 - locate any additional MM pages beyond Cantavanda clippings
@@ -39,12 +37,13 @@ articles:
     available: true
     url: data/translations/pop-beat-1998-06.yaml
   purchase_links: []
-  notes: 'ILLUMINATI single feature by Kimiko Masubuchi. Opening splash (scan 01); interview text pp. 58–60 (scans 02–04);
-    four-panel photo spread p. 61 (scan 05, no text). Covers Merveilles #2 chart debut, Budokan stage fall, ILLUMINATI PV
-    (P-type/N-type), and S/M banter. Photos: Masatoshi Makino (pp. 58–59), Masafumi Sawazaki (pp. 60–61). Additional scan
-    pages: images/scans/pop-beat/1998-06/02.jpg through 05.jpg
-
-    '
+  notes: 'ILLUMINATI single feature by Kimiko Masubuchi. Opening splash (scan 01);
+    interview text pp. 58–60 (scans 02–04); four-panel photo spread p. 61 (scan 05,
+    no text). Covers Merveilles #2 chart debut, Budokan stage fall, ILLUMINATI PV
+    (P-type/N-type), and S/M banter. Photos: Masatoshi Makino (pp. 58–59), Masafumi
+    Sawazaki (pp. 60–61). Additional scan pages: images/scans/pop-beat/1998-06/02.jpg
+    through 05.jpg Additional pages: images/scans/pop-beat/1998-06/02.jpg, images/scans/pop-beat/1998-06/03.jpg,
+    images/scans/pop-beat/1998-06/04.jpg, images/scans/pop-beat/1998-06/05.jpg.'
 changelog:
 - date: '2026-07-06'
   action: created
@@ -53,10 +52,15 @@ changelog:
 - date: '2026-07-06'
   action: updated
   source: cantavanda
-  notes: 'Added interview metadata, local scan paths, and English translation with romaji (data/translations/pop-beat-1998-06.yaml).
+  notes: 'Added interview metadata, local scan paths, and English translation with
+    romaji (data/translations/pop-beat-1998-06.yaml).
 
     '
 - date: '2026-07-06'
   action: updated
   source: vkgy-timeline
   notes: Added vk.gy artist timeline cross-reference.
+- date: '2026-07-06'
+  action: updated
+  source: catalog_mirror
+  notes: Mirrored 5 scan pages locally.

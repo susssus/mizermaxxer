@@ -30,6 +30,15 @@ VINTAGE_BASE = "https://malicemeezer.neocities.org"
 VINTAGE_SOURCE = "Malice Meezer / malicemeezer.neocities.org"
 USER_AGENT = "MaliceMizerArchive/1.0 (digital humanities research; local mirroring with attribution)"
 
+SCAN_SOURCE_NAMES = {
+    "cantavanda-magazine-appearances": "Cantavanda / Butterfly Rose",
+    "cantavanda-fan-club-mags": "Cantavanda / Madame Tarantula",
+    "malice-archive-neocities": "The Malice Archive / malice-archive.neocities.org",
+    "internet-archive": "Internet Archive",
+}
+
+SCAN_SKIP_HOSTS = ("vk.gy", "i.redd.it", "redd.it", "1.bp.blogspot.com")
+
 # malicemeezer.neocities.org early-era flyers (article id -> source image path)
 EARLY_FLYER_SOURCES: dict[str, str] = {
     "flyers-1992-08-debut-era": f"{VINTAGE_BASE}/tetsu/oldflyer5.jpg",
@@ -143,10 +152,7 @@ def add_manifest_entry(
 
 def fetch_url(url: str, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
-    parsed = urllib.parse.urlsplit(url)
-    safe_path = urllib.parse.quote(parsed.path, safe="/:@!$&'()*+,;=-._~")
-    safe_url = urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, safe_path, parsed.query, parsed.fragment))
-    request = urllib.request.Request(safe_url, headers={"User-Agent": USER_AGENT})
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=60) as response:
         raw = response.read()
 
@@ -336,8 +342,24 @@ def download_members(entries: list[dict[str, Any]], index: dict[str, dict[str, A
     return count
 
 
+def scan_urls_for_item(item: dict[str, Any]) -> list[str]:
+    """Return direct image URLs to mirror, excluding reference/cover crops."""
+    urls: list[str] = []
+    for url in item.get("image_urls") or []:
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if any(skip in host for skip in SCAN_SKIP_HOSTS):
+            continue
+        if not re.search(r"\.(jpe?g|png|webp)(\?|$)", url, re.I):
+            continue
+        urls.append(url)
+    page_count = item.get("page_count")
+    if page_count:
+        return urls[: int(page_count)]
+    return urls
+
+
 def download_magazine_scans(entries: list[dict[str, Any]], index: dict[str, dict[str, Any]]) -> int:
-    """Mirror Cantavanda / catalog magazine pages listed in scan_sources_catalog.yaml."""
+    """Mirror magazine pages listed in scan_sources_catalog.yaml."""
     catalog_path = ROOT / "scripts" / "research" / "scan_sources_catalog.yaml"
     if not catalog_path.exists():
         return 0
@@ -345,9 +367,11 @@ def download_magazine_scans(entries: list[dict[str, Any]], index: dict[str, dict
     catalog = yaml.safe_load(catalog_path.read_text(encoding="utf-8"))
     count = 0
     for item in catalog.get("items") or []:
-        image_urls = item.get("image_urls") or []
+        image_urls = scan_urls_for_item(item)
         project_path = item.get("project_path")
         if not image_urls or not project_path:
+            continue
+        if not str(project_path).startswith("data/issues/"):
             continue
 
         issue_path = ROOT / project_path
@@ -357,8 +381,8 @@ def download_magazine_scans(entries: list[dict[str, Any]], index: dict[str, dict
         issue = yaml.safe_load(issue_path.read_text(encoding="utf-8"))
         pub = issue.get("publication", item.get("publication", "unknown"))
         date = str(issue.get("publication_date", item.get("issue_date", "unknown")))[:7]
-        scan_dir = ROOT / "images" / "scans" / pub / date
-        changed = False
+        source_name = SCAN_SOURCE_NAMES.get(item.get("source", ""), item.get("source", "Catalog scan"))
+        scan_paths: list[str] = []
 
         for idx, source_url in enumerate(image_urls, start=1):
             ext = Path(urllib.parse.urlparse(source_url).path).suffix or ".jpg"
@@ -369,26 +393,51 @@ def download_magazine_scans(entries: list[dict[str, Any]], index: dict[str, dict
                 try:
                     fetch_url(source_url, dest)
                     print(f"  magazine scan: {rel_path}")
+                    time.sleep(0.3)
                 except (urllib.error.URLError, TimeoutError, UnicodeEncodeError) as exc:
                     print(f"  skip magazine scan {rel_path}: {exc}", file=sys.stderr)
                     continue
-            add_manifest_entry(entries, index, rel_path, source_url, "Cantavanda / Butterfly Rose")
+            add_manifest_entry(entries, index, rel_path, source_url, source_name)
+            scan_paths.append(rel_path)
             count += 1
 
-            for article in issue.get("articles", []):
-                scan = article.setdefault("scan", {"available": False, "quality": None, "url": None})
-                if scan.get("url", "").startswith("http") and idx == 1:
-                    scan["url"] = rel_path
-                    scan["available"] = True
-                    if not scan.get("quality"):
-                        scan["quality"] = "high"
-                    changed = True
+        if not scan_paths:
+            continue
 
-        if changed:
-            issue_path.write_text(
-                yaml.dump(issue, allow_unicode=True, sort_keys=False, default_flow_style=False),
-                encoding="utf-8",
+        for article in issue.get("articles", []):
+            scan = article.setdefault("scan", {"available": False, "quality": None, "url": None})
+            if scan.get("url", "").startswith("http") or not scan.get("url"):
+                scan["url"] = scan_paths[0]
+                scan["available"] = True
+                if not scan.get("quality"):
+                    scan["quality"] = "high"
+
+        extra = ", ".join(scan_paths[1:])
+        gallery = item.get("scan_url", "")
+        issue["source_notes"] = (
+            f"{item.get('title', issue.get('id', 'Scan'))}. "
+            f"{len(scan_paths)} pages mirrored locally under images/scans/{pub}/{date}/. "
+            f"Gallery: {gallery}\n"
+        )
+        changelog = issue.setdefault("changelog", [])
+        if not any(e.get("source") == "catalog_mirror" for e in changelog):
+            changelog.append(
+                {
+                    "date": datetime.now(UTC).strftime("%Y-%m-%d"),
+                    "action": "updated",
+                    "source": "catalog_mirror",
+                    "notes": f"Mirrored {len(scan_paths)} scan pages locally.",
+                }
             )
+        for article in issue.get("articles", []):
+            note = article.get("notes", "") or ""
+            if extra and extra not in note:
+                article["notes"] = (note.rstrip() + f" Additional pages: {extra}.").strip()
+
+        issue_path.write_text(
+            yaml.dump(issue, allow_unicode=True, sort_keys=False, default_flow_style=False),
+            encoding="utf-8",
+        )
     return count
 
 

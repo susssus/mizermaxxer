@@ -10,6 +10,7 @@ Sources:
 
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
 
@@ -19,10 +20,11 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "scripts/research/magazine_references_online.yaml"
 INCOMPLETE_MAGS = ROOT / "scripts/research/malice_archive_incomplete_mags.yaml"
 VKGY_GLOB = "vkgy_*_malice_mizer.yaml"
-VKGY_CACHE = (
-    Path.home()
-    / ".cursor/projects/Users-annasusanna-malice-mizer-print-archive/agent-tools"
-)
+RESEARCH_CACHE = ROOT / "scripts/research/.cache"
+VKGY_CACHE = Path(
+    os.environ.get("VKGY_CACHE_DIR", RESEARCH_CACHE / "vkgy")
+).expanduser()
+MALICE_ARCHIVE_CACHE = RESEARCH_CACHE / "malice-archive-list.txt"
 
 PUB_ALIASES = {
     "fool's mate": "fools-mate",
@@ -271,6 +273,8 @@ def parse_misaolab_shoxx() -> dict[str, dict]:
 
 
 def find_vkgy_file() -> Path | None:
+    if not VKGY_CACHE.is_dir():
+        return None
     candidates = sorted(VKGY_CACHE.glob("*.txt"), key=lambda p: p.stat().st_mtime, reverse=True)
     for p in candidates:
         if "FOOL'S MATE" in p.read_text(encoding="utf-8", errors="ignore")[:50000]:
@@ -467,13 +471,16 @@ def main() -> None:
         vkgy_entries = parse_vkgy(vkgy_file.read_text(encoding="utf-8", errors="ignore"))
 
     archive_text = ""
-    archive_path = Path("/tmp/malice-archive-list.txt")
-    if archive_path.exists():
-        archive_text = archive_path.read_text()
+    if MALICE_ARCHIVE_CACHE.exists():
+        archive_text = MALICE_ARCHIVE_CACHE.read_text(encoding="utf-8", errors="ignore")
     else:
         import urllib.request
 
-        archive_text = urllib.request.urlopen("https://malice-archive.neocities.org/list").read().decode("utf-8", errors="ignore")
+        archive_text = urllib.request.urlopen("https://malice-archive.neocities.org/list").read().decode(
+            "utf-8", errors="ignore"
+        )
+        RESEARCH_CACHE.mkdir(parents=True, exist_ok=True)
+        MALICE_ARCHIVE_CACHE.write_text(archive_text, encoding="utf-8")
     archive_entries = parse_malice_archive_list(archive_text)
     incomplete_entries = parse_incomplete_mags_entries()
     vkgy_catalog_entries = load_vkgy_catalog_entries()

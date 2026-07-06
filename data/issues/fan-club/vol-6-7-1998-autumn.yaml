@@ -17,7 +17,7 @@ articles:
   title_ja: ma chérie Vol. 6–7
   title_en: ma chérie Vol. 6–7 (Autumn 1998)
   type: newsletter
-  pages: "40"
+  pages: '40'
   members:
   - gackt
   - kami
@@ -63,6 +63,10 @@ changelog:
 - date: '2026-07-06'
   action: updated
   source: cantavanda
-  notes: >
-    Added English translation with romaji
-    (data/translations/fan-club-vol-6-7-1998-autumn.yaml).
+  notes: 'Added English translation with romaji (data/translations/fan-club-vol-6-7-1998-autumn.yaml).
+
+    '
+- date: '2026-07-06'
+  action: updated
+  source: catalog_mirror
+  notes: Mirrored 40 scan pages locally.

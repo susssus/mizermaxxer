@@ -18,7 +18,7 @@ articles:
   title_ja: ma chérie Fan Club Magazine Vol. 1
   title_en: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
   type: newsletter
-  pages: "24"
+  pages: '24'
   members:
   - gackt
   - kami
@@ -55,10 +55,14 @@ changelog:
 - date: '2026-07-06'
   action: updated
   source: cantavanda
-  notes: >
-    Mirrored 24 scan pages locally; added English translation with romaji
-    (data/translations/fan-club-vol-1-1997-autumn.yaml).
+  notes: 'Mirrored 24 scan pages locally; added English translation with romaji (data/translations/fan-club-vol-1-1997-autumn.yaml).
+
+    '
 - date: '2026-07-06'
   action: updated
   source: cantavanda
+  notes: Mirrored 24 scan pages locally.
+- date: '2026-07-06'
+  action: updated
+  source: catalog_mirror
   notes: Mirrored 24 scan pages locally.
