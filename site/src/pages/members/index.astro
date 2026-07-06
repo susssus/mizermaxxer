@@ -1,0 +1,52 @@
+---
+import MemberCard from "../../components/MemberCard.astro";
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+const entityIds: Record<string, string> = {
+  mana: "person_mana",
+  kozi: "person_kozi",
+  yuki: "person_yuki",
+  kami: "person_kami",
+  gackt: "person_gackt",
+  klaha: "person_klaha",
+  tetsu: "person_tetsu",
+};
+
+const eraLabels: Record<string, string> = {
+  tetsu: "Tetsu era",
+  gackt: "Gackt era",
+  klaha: "Klaha era",
+  mana: "Gackt era",
+  kozi: "Gackt era",
+  yuki: "Gackt era",
+  kami: "Gackt era",
+};
+
+const memberOrder = ["tetsu", "mana", "kozi", "yuki", "kami", "gackt", "klaha"];
+const members = memberOrder
+  .map((slug) => archive.people.members.find((m) => m.slug === slug))
+  .filter(Boolean);
+---
+
+<Base title="Members — Malice Mizer Research Archive">
+  <p class="muted">
+    Core lineup across the Tetsu, Gackt, and Klaha eras. Select a member for biography, roles, and archive links.
+  </p>
+
+  <section class="members-section">
+    <div class="members-grid">
+      {members.map((member) => (
+        <MemberCard
+          name={member!.name}
+          slug={member!.slug}
+          role={member!.role}
+          active={member!.active}
+          portrait={member!.portrait_image}
+          entityId={entityIds[member!.slug]}
+          era={eraLabels[member!.slug]}
+        />
+      ))}
+    </div>
+  </section>
+</Base>
