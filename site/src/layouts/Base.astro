@@ -1,5 +1,8 @@
 ---
 import Nav from "../components/Nav.astro";
+import "@fontsource/cormorant-garamond/latin-400-italic.css";
+import "@fontsource/cormorant-garamond/latin-500.css";
+import "@fontsource/cormorant-garamond/latin-600.css";
 import {
   absoluteUrl,
   DEFAULT_DESCRIPTION,
@@ -76,9 +79,6 @@ const jsonLdBlocks = jsonLd
     {jsonLdBlocks.map((block) => (
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
     <style is:global>
       :root {
         color-scheme: light dark;
