@@ -34,8 +34,8 @@ articles:
     quality: high
     url: images/scans/vicious/1997-10/01.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/vicious-1997-10-photo-spread.yaml
   purchase_links: []
   notes: 'Full-band costume photo; "MALICE MIZER" / "V''s Break Out" header. No accompanying
     text. Source Cantavanda (Butterfly Rose). Original: https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg

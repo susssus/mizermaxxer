@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:59:00.696577Z",
+  "generated_at": "2026-07-06T18:16:11.188416Z",
   "people": {
     "members": [
       {
@@ -6990,8 +6990,8 @@
           "scan_available": true,
           "scan_quality": "high",
           "scan_url": "images/scans/fools-mate/1997-07/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/fools-mate-1997-07-photo-spread.yaml",
           "notes": "Full-band costume photo; no accompanying text. Source Cantavanda (Butterfly Rose). Original: https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-01-scaled.jpg Additional pages: images/scans/fools-mate/1997-07/02.jpg, images/scans/fools-mate/1997-07/03.jpg.",
           "members": [
             "gackt",
@@ -8070,8 +8070,8 @@
           "scan_available": true,
           "scan_quality": "high",
           "scan_url": "images/scans/vicious/1997-10/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/vicious-1997-10-photo-spread.yaml",
           "notes": "Full-band costume photo; \"MALICE MIZER\" / \"V's Break Out\" header. No accompanying text. Source Cantavanda (Butterfly Rose). Original: https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg Additional pages: images/scans/vicious/1997-10/02.jpg, images/scans/vicious/1997-10/03.jpg.",
           "members": [
             "gackt",
@@ -10828,8 +10828,8 @@
           "scan_available": true,
           "scan_quality": "high",
           "scan_url": "images/scans/shoxx/1998-05/01.jpg",
-          "translation_available": false,
-          "translation_url": null,
+          "translation_available": true,
+          "translation_url": "data/translations/shoxx-1998-05-photo-spread.yaml",
           "notes": "Super visual photo spread in beautiful gothic world; costumes by Yukari Ohba (Midi Nette). Feature intro on p. 99 (scan 01.jpg) notes merveilles major debut (Mar 18 1998) and Apr 1 Nippon Budokan performance; links to previous issue SHOXX Vol. 62 cyber-chic feature. Scans: images/scans/shoxx/1998-05/01.jpg through 09.jpg. Location: Country House Windsor. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/\n",
           "members": [
             "gackt",
