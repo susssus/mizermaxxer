@@ -43,9 +43,11 @@ const Tag = "a";
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.65rem;
+    justify-content: flex-start;
+    gap: 0.75rem;
     width: 100%;
-    padding: 1rem 0.65rem 0.85rem;
+    min-height: 100%;
+    padding: 1.15rem 0.85rem 1rem;
     border: 1px solid var(--border);
     border-radius: 10px;
     background: var(--surface);
@@ -59,12 +61,19 @@ const Tag = "a";
     transform: translateY(-2px);
   }
   .member-card__portrait {
-    width: clamp(72px, 18vw, 96px);
-    height: clamp(72px, 18vw, 96px);
+    width: 5.5rem;
+    height: 5.5rem;
+    flex-shrink: 0;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid color-mix(in srgb, var(--rose) 35%, var(--border));
     background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  }
+  @media (min-width: 640px) {
+    .member-card__portrait {
+      width: 6rem;
+      height: 6rem;
+    }
   }
   .member-card__portrait img {
     width: 100%;
@@ -85,9 +94,11 @@ const Tag = "a";
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 0.15rem;
+    align-items: center;
+    gap: 0.2rem;
     font-size: 0.82rem;
     width: 100%;
+    flex: 1;
   }
   .member-card__meta strong {
     font-size: 0.98rem;
