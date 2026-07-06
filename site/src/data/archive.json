@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:32:12.185380Z",
+  "generated_at": "2026-07-06T17:39:02.783673Z",
   "people": {
     "members": [
       {
@@ -128,6 +128,10 @@
         "original": "GAZ",
         "romanized": "Gaz"
       },
+      "legal_name": {
+        "original": "松村 達明",
+        "romanized": "Tatsuaki Matsumura"
+      },
       "roles": [
         "drums"
       ],
@@ -144,9 +148,9 @@
         "date": "2017-12-22"
       },
       "bio": {
-        "before": "Drummed in the band DATURA before joining Malice Mizer, releasing one demo tape with that project.\n",
-        "during": "Malice Mizer's founding drummer, joining Mana, Közi, Yu~ki, and Tetsu in August or September 1992 to complete the first five-piece lineup. Recorded drums on the early demo tapes Sans Logique (October 1992) and the pre-Kami sessions later compiled as Sadness and related demos; Lafflesia is the only early demo without their drumming. Left after their final show on March 15, 1993, in a straight swap with Kneuklid Romance drummer Kami — Gaz joined KR while Kami joined Malice Mizer. They also briefly supported Baiser on drums from December 1992 to October 1993, overlapping with their Malice Mizer tenure.\n",
-        "after": "Spent most of the 1990s as drummer of Kneuklid Romance, leaving in 1998. Returned for KR reunion performances in 2009, 2011, and 2012. Died on December 22, 2017, from illness. Mana announced their passing the following day.\n"
+        "before": "Began in the scene as a roadie for YOUTHQUAKE, then drummed in DATURA — an obscure early-1990s Japanese visual kei band (not the Eurodance or metal acts of the same name) — which released a self-titled demo tape before disbanding.\n",
+        "during": "Malice Mizer's founding drummer, joining Mana, Közi, Yu~ki, and Tetsu in August or September 1992. Recorded drums on Sans Logique (October 1992) and the pre-Kami sessions behind Sadness and related early demos; Lafflesia is the only early demo without their playing. Also appeared on the 1993 indies compilation Brain Trash via \"Speed of Desperate\". Left after their final show on March 15, 1993, swapping straight with Kneuklid Romance drummer Kami. Briefly supported Baiser on drums from December 1992 to October 1993, overlapping with Malice Mizer.\n",
+        "after": "Joined Kneuklid Romance in May 1993, first as support and from 1994 as an official member in the G. Kenichi / B. Tatsuya / D. Gaz lineup. Remained through the band's indies and major-label period until leaving in 1998. Later played in the Night Breeze Zinnia, Doverman (ドーベルマン), and BUZZ BONE, with additional support stints in Virgin Killer 5, The Veletta, and Pandemic. Returned for Kneuklid Romance reunion performances in 2009, 2011, and 2012. Died on December 22, 2017, from cancer. Mana announced the news publicly the next day; the funeral was private. On July 8, 2018, surviving Kneuklid Romance members and friends held the memorial concert GAZ presents \"Chain\" at Meguro Rockmaykan.\n"
       },
       "portrait_image": "images/members/gaz.webp",
       "gallery_images": [
@@ -168,7 +172,7 @@
       ],
       "facts": [],
       "verification_status": "verified",
-      "notes": "Shares a birthday (February 1, 1972) with Kami."
+      "notes": "Blood type O; about 168 cm / 52 kg (malice-archive). Shares a birthday (February 1, 1972) with Kami. Career summary cross-checked with visualkei.fandom.com, vk.gy, and malice-archive.neocities.org.\n"
     },
     {
       "id": "person_kami",

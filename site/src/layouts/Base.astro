@@ -197,18 +197,16 @@ const jsonLdBlocks = jsonLd
       }
       .members-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(min(100%, 148px), 1fr));
-        gap: 1rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem 1.25rem;
         width: 100%;
+        max-width: 52rem;
+        margin-inline: auto;
       }
       @media (min-width: 640px) {
         .members-grid {
-          grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        }
-      }
-      @media (min-width: 900px) {
-        .members-grid {
-          grid-template-columns: repeat(7, 1fr);
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 1.25rem 1.5rem;
         }
       }
       .flyer-grid {

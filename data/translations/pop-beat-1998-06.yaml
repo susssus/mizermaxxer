@@ -53,7 +53,7 @@ sections:
 
   - id: yuki-nature
     heading_ja: YU~KI本人も知らない 彼の本性とは？ S？それともM？
-    heading_en: What is Yu~ki's true nature that even he doesn't know? S? Or M?
+    heading_en: What is Yu~ki's true nature that even they don't know? S? Or M?
 
 dialogue:
   # —— Page 58 (scan 02) ——
@@ -225,7 +225,7 @@ dialogue:
   - speaker: interviewer
     ja: YU~KI本人も知らない 彼の本性とは？ S？それともM？
     romaji: Yu~ki honnin mo shiranai kare no honshō to wa? S? Soretomo M?
-    en: What is Yu~ki's true nature that even he doesn't know? S? Or M?
+    en: What is Yu~ki's true nature that even they don't know? S? Or M?
 
   - speaker: yuki
     ja: 僕は痛いのはイヤですね。
@@ -299,12 +299,12 @@ dialogue:
   - speaker: kozi
     ja: 大きな植木鉢を持ち上げてるのを見たことがあります（笑）。路上で（笑）。
     romaji: Ōkina uekibachi o motiageteru no o mita koto ga arimasu (warai). Rojō de (warai).
-    en: I've seen him lifting a large flower pot (laughs). On the street (laughs).
+    en: I've seen them lifting a large flower pot (laughs). On the street (laughs).
 
   - speaker: kozi
     ja: その時、吠えていたもんね。「ウァ～～～～ッ！」って（笑）。
     romaji: Sono toki, hoete ita mon ne. "Uā~~~~!" tte (warai).
-    en: He was howling then too. Like "Waaaaah!" (laughs).
+    en: They were howling then too. Like "Waaaaah!" (laughs).
 
   - speaker: interviewer
     ja: 普段のYU~KIさんからは想像できないなぁ。MANAさんは？
