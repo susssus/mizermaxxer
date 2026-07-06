@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:32:58.159759Z",
+  "generated_at": "2026-07-06T19:11:08.756970Z",
   "people": {
     "members": [
       {
@@ -119,7 +119,13 @@
       ],
       "facts": [],
       "verification_status": "verified",
-      "notes": ""
+      "notes": "",
+      "links": [
+        {
+          "url": "https://gackt.com/",
+          "platform": "website"
+        }
+      ]
     },
     {
       "id": "person_gaz",
@@ -327,7 +333,13 @@
       ],
       "facts": [],
       "verification_status": "verified",
-      "notes": ""
+      "notes": "",
+      "links": [
+        {
+          "url": "https://kozi-web.com/",
+          "platform": "website"
+        }
+      ]
     },
     {
       "id": "person_mana",
@@ -394,7 +406,19 @@
       ],
       "facts": [],
       "verification_status": "verified",
-      "notes": ""
+      "notes": "",
+      "links": [
+        {
+          "url": "https://www.manam-ss.com/",
+          "platform": "website",
+          "label": "Moi-même-Moitié"
+        },
+        {
+          "url": "https://www.moixdismois.com/",
+          "platform": "website",
+          "label": "Moi dix Mois"
+        }
+      ]
     },
     {
       "id": "person_tetsu",
@@ -489,7 +513,19 @@
       ],
       "facts": [],
       "verification_status": "verified",
-      "notes": ""
+      "notes": "",
+      "links": [
+        {
+          "url": "https://www.afroskull.com/",
+          "platform": "website",
+          "label": "Afro Skull Records"
+        },
+        {
+          "url": "https://nil-web.net/",
+          "platform": "website",
+          "label": "nil"
+        }
+      ]
     },
     {
       "id": "person_yuki",

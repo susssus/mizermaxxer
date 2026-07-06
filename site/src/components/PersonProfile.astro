@@ -2,6 +2,7 @@
 import ArchiveImage from "./ArchiveImage.astro";
 import PhotoCarousel from "./PhotoCarousel.astro";
 import { linkBioText } from "../lib/bioLinks";
+import { personLinkLabel, type PersonLink } from "../lib/personLinks";
 
 interface BirthInfo {
   date?: string;
@@ -33,6 +34,7 @@ interface PersonEntity {
   birth?: BirthInfo | null;
   death?: DeathInfo | null;
   bio?: BioInfo | null;
+  links?: PersonLink[];
   notes?: string;
 }
 
@@ -142,6 +144,7 @@ const bioSections = [
   { key: "during", label: "In Malice Mizer", text: bio?.during },
   { key: "after", label: "After Malice Mizer", text: bio?.after },
 ].filter((section) => section.text?.trim());
+const links = entity.links ?? [];
 ---
 
 <section class="person-profile">
@@ -207,6 +210,22 @@ const bioSections = [
           <>
             <dt>Birthplace</dt>
             <dd>{entity.birth.place}</dd>
+          </>
+        )}
+
+        {links.length > 0 && (
+          <>
+            <dt>Links</dt>
+            <dd class="person-profile__links">
+              {links.map((link, index) => (
+                <>
+                  {index > 0 && <span class="person-profile__link-sep" aria-hidden="true"> · </span>}
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
+                    {personLinkLabel(link)}
+                  </a>
+                </>
+              ))}
+            </dd>
           </>
         )}
       </dl>
@@ -325,6 +344,18 @@ const bioSections = [
     margin: 0;
     font-weight: 500;
     line-height: 1.45;
+  }
+  .person-profile__links a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .person-profile__links a:hover {
+    color: var(--rose);
+  }
+  .person-profile__link-sep {
+    color: var(--muted);
+    font-weight: 400;
   }
   .person-profile__bio h3,
   .person-profile__gallery h3 {

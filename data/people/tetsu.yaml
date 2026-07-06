@@ -70,3 +70,10 @@ gallery_images:
 facts: []
 verification_status: verified
 notes: ""
+links:
+  - url: https://www.afroskull.com/
+    platform: website
+    label: Afro Skull Records
+  - url: https://nil-web.net/
+    platform: website
+    label: nil
