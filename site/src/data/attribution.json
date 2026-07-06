@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-06T14:03:16.347399Z",
-  "total_count": 232,
+  "generated_at": "2026-07-06T17:32:12.473993Z",
+  "total_count": 233,
   "sources": [
     {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -1464,7 +1464,7 @@
     },
     {
       "source_name": "malice-mizer.info",
-      "count": 12,
+      "count": 13,
       "images": [
         {
           "path": "images/flyers/flyers-1999-11-03-saikai-single.webp",
@@ -1549,6 +1549,13 @@
           "site_url": "/images/flyers/flyers-2001-11-30-garnet.webp",
           "source_url": "https://malice-mizer.info/01.11.30-Garnet-flyer.webp",
           "fetched_at": "2026-07-05T22:29:05.074710Z"
+        },
+        {
+          "path": "images/members/gaz.webp",
+          "filename": "gaz.webp",
+          "site_url": "/images/members/gaz.webp",
+          "source_url": "https://www.malice-mizer.info/Gaz-profile.webp",
+          "fetched_at": "2026-07-06T17:30:00.000000Z"
         }
       ]
     },

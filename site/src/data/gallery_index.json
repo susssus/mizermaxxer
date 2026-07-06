@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-06T14:03:16.346870Z",
-  "count": 92,
+  "generated_at": "2026-07-06T17:32:12.472350Z",
+  "count": 96,
   "items": [
     {
       "title": "Gackt",
@@ -17,6 +17,42 @@
       "caption": "Portrait",
       "source": "Archive",
       "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gaz",
+      "src": "images/vintage/live-band-1993.webp",
+      "caption": "Early live performance (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gaz",
+      "src": "images/vintage/live-lineup-1993.webp",
+      "caption": "Early lineup (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gaz",
+      "src": "images/vintage/live-1993.webp",
+      "caption": "Live photograph (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gaz",
+      "src": "images/members/gaz.webp",
+      "caption": "Portrait",
+      "source": "Archive",
+      "era": "1992",
       "category": "member",
       "external": false
     },

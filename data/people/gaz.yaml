@@ -1,0 +1,47 @@
+id: person_gaz
+type: person
+name:
+  original: GAZ
+  romanized: Gaz
+roles:
+  - drums
+active:
+  start: "1992"
+  end: "1993"
+era: Tetsu era
+birth:
+  date: "1972-02-01"
+  place: Gunma, Japan
+death:
+  date: "2017-12-22"
+bio:
+  before: >
+    Drummed in the band DATURA before joining Malice Mizer, releasing one demo tape
+    with that project.
+  during: >
+    Malice Mizer's founding drummer, joining Mana, Közi, Yu~ki, and Tetsu in August
+    or September 1992 to complete the first five-piece lineup. Recorded drums on the
+    early demo tapes Sans Logique (October 1992) and the pre-Kami sessions later
+    compiled as Sadness and related demos; Lafflesia is the only early demo without
+    their drumming. Left after their final show on March 15, 1993, in a straight swap
+    with Kneuklid Romance drummer Kami — Gaz joined KR while Kami joined Malice Mizer.
+    They also briefly supported Baiser on drums from December 1992 to October 1993,
+    overlapping with their Malice Mizer tenure.
+  after: >
+    Spent most of the 1990s as drummer of Kneuklid Romance, leaving in 1998. Returned
+    for KR reunion performances in 2009, 2011, and 2012. Died on December 22, 2017,
+    from illness. Mana announced their passing the following day.
+portrait_image: images/members/gaz.webp
+gallery_images:
+  - src: images/vintage/live-band-1993.webp
+    caption: Early live performance (1993)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/live-lineup-1993.webp
+    caption: Early lineup (1993)
+    source: Malice Meezer / malicemeezer.neocities.org
+  - src: images/vintage/live-1993.webp
+    caption: Live photograph (1993)
+    source: Malice Meezer / malicemeezer.neocities.org
+facts: []
+verification_status: verified
+notes: Shares a birthday (February 1, 1972) with Kami.

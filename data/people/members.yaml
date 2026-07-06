@@ -34,6 +34,11 @@ members:
   role: vocalist
   active: 1992-1994
   portrait_image: images/members/tetsu.webp
+- slug: gaz
+  name: Gaz
+  role: drums
+  active: 1992-1993
+  portrait_image: images/members/gaz.webp
 - slug: birith
   name: Birith
   role: drums
