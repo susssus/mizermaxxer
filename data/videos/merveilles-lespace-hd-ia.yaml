@@ -1,0 +1,17 @@
+id: merveilles-lespace-hd-ia
+title_ja: merveilles l'espace
+title_en: merveilles l'espace (HD upscaled, IA)
+type: live_footage
+url: https://archive.org/details/malice-mizer-merveilles-lespace-full-live-hd-1080p-1440p-60fps-av-1-128kbit-aac
+platform: archive_org
+release_date: '2002-03-30'
+song: null
+concert: 1998-07-22-merveilles-yokohama-arena
+quality: pro_shot
+verification_status: possible
+notes: 'Upscaled fan rip of official concert film. Standard rip: merveilles-lespace-live.'
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added merveilles l'espace (HD upscaled, IA) from Internet Archive catalog.

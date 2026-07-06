@@ -1,0 +1,17 @@
+id: merveilles-lespace-ia-rip
+title_ja: merveilles l'espace
+title_en: merveilles l'espace (alternate IA rip)
+type: live_footage
+url: https://archive.org/details/malice-mizer-merveilles-lespace
+platform: archive_org
+release_date: '1998-01-01'
+song: null
+concert: 1998-07-22-merveilles-yokohama-arena
+quality: pro_shot
+verification_status: verified
+notes: Alternate Internet Archive upload of merveilles l'espace concert film.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added merveilles l'espace (alternate IA rip) from Internet Archive catalog.

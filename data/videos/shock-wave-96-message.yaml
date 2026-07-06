@@ -1,0 +1,17 @@
+id: shock-wave-96-message
+title_ja: null
+title_en: Shock Wave '96 message
+type: tv
+url: https://archive.org/details/malice-mizer-shock-wave-96-message
+platform: archive_org
+release_date: '1996-01-01'
+song: null
+concert: null
+quality: tv_broadcast
+verification_status: possible
+notes: Band message segment from Shock Wave '96 event coverage.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Shock Wave '96 message from Internet Archive catalog.

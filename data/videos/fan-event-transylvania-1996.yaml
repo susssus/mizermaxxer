@@ -1,0 +1,17 @@
+id: fan-event-transylvania-1996
+title_ja: null
+title_en: Fan event footage — Transylvania (1996)
+type: fan_cam
+url: https://archive.org/details/mm-transylvania
+platform: archive_org
+release_date: '1996-01-01'
+song: null
+concert: null
+quality: audience
+verification_status: possible
+notes: Audience/fan-shot footage from a fan event.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Fan event footage — Transylvania (1996) from Internet Archive catalog.

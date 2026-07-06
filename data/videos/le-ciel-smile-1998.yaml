@@ -1,0 +1,17 @@
+id: le-ciel-smile-1998
+title_ja: Le ciel
+title_en: Le ciel talk + live (Sep 1998)
+type: tv
+url: https://archive.org/details/le-ciel-smile
+platform: archive_org
+release_date: '1998-09-01'
+song: le-ciel
+concert: null
+quality: tv_broadcast
+verification_status: verified
+notes: Le ciel promotion TV segment.
+changelog:
+- date: '2026-07-06'
+  action: created
+  source: web_research
+  notes: Added Le ciel talk + live (Sep 1998) from Internet Archive catalog.
