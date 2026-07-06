@@ -231,11 +231,19 @@ import Nav from "../components/Nav.astro";
         width: 100%;
         transition: border-color 0.15s, background 0.15s;
       }
+      a.stat--action {
+        display: block;
+        text-decoration: none;
+      }
       .stat--action:hover,
       .stat--action:focus-visible {
         border-color: var(--rose);
         background: color-mix(in srgb, var(--rose) 4%, var(--surface));
         outline: none;
+      }
+      .stat--action.stat--active {
+        border-color: var(--rose);
+        background: color-mix(in srgb, var(--rose) 8%, var(--surface));
       }
       .stat strong { display: block; font-size: 1.35rem; }
       .stat span { color: var(--muted); font-size: 0.85rem; }
@@ -349,9 +357,17 @@ import Nav from "../components/Nav.astro";
         <p>
           Images sourced from{" "}
           <a href="https://malice-mizer.info/flyers" target="_blank" rel="noopener">malice-mizer.info</a>,{" "}
-          <a href="https://cantavanda.com/malice-mizer/" target="_blank" rel="noopener">Cantavanda</a>, and{" "}
+          <a href="https://cantavanda.com/malice-mizer/" target="_blank" rel="noopener">Cantavanda</a>,{" "}
+          <a href="https://vk.gy/artists/malice-mizer/" target="_blank" rel="noopener">vk.gy</a>, and{" "}
           <a href="https://coverartarchive.org/" target="_blank" rel="noopener">Cover Art Archive</a>.
-          See project documentation for full attribution.
+          See <a href="/attribution">full attribution</a>.
+        </p>
+        <p>
+          Found an error or missing data?{" "}
+          <a href="https://github.com/susssus/mizermaxxer/issues/new" target="_blank" rel="noopener">
+            Suggest a correction
+          </a>
+          {" "}(include a reputable source).
         </p>
       </footer>
     </div>

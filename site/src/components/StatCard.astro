@@ -1,0 +1,26 @@
+---
+interface Props {
+  value: number | string;
+  label: string;
+  /** Same-page filter preset (wired by page script via data-stat-preset). */
+  preset?: string;
+  /** Navigate to another page or filtered view. */
+  href?: string;
+}
+
+const { value, label, preset, href } = Astro.props;
+---
+
+{
+  href ? (
+    <a class="stat stat--action" href={href}>
+      <strong>{value}</strong>
+      <span>{label}</span>
+    </a>
+  ) : (
+    <button type="button" class="stat stat--action" data-stat-preset={preset}>
+      <strong>{value}</strong>
+      <span>{label}</span>
+    </button>
+  )
+}

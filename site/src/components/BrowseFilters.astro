@@ -98,6 +98,48 @@ const statuses = [...new Set(linksIndex.browse.map((row) => row.status))].sort()
     sorted.forEach((row) => tbody.appendChild(row));
   }
 
+  function resetFilters() {
+    searchInput.value = "";
+    typeSelect.value = "";
+    yearSelect.value = "";
+    statusSelect.value = "";
+  }
+
+  function applyPreset(preset: string) {
+    resetFilters();
+
+    if (preset === "linked") {
+      rows.forEach((row) => {
+        const count = Number((row as HTMLElement).dataset.link_count || 0);
+        (row as HTMLElement).style.display = count > 0 ? "" : "none";
+      });
+      sortKey = "link_count";
+      sortAsc = false;
+      sortRows();
+      updateCount();
+      return;
+    }
+
+    sortKey = "date";
+    sortAsc = true;
+    sortRows();
+    applyFilters();
+  }
+
+  function applyUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get("type");
+    if (type && [...typeSelect.options].some((option) => option.value === type)) {
+      typeSelect.value = type;
+      applyFilters();
+      document.getElementById("browse-table")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  (window as typeof window & { browseFilters?: { applyPreset: typeof applyPreset } }).browseFilters = {
+    applyPreset,
+  };
+
   document.getElementById("browse-filters")?.addEventListener("input", applyFilters);
   document.getElementById("browse-filters")?.addEventListener("change", applyFilters);
 
@@ -115,4 +157,5 @@ const statuses = [...new Set(linksIndex.browse.map((row) => row.status))].sort()
   });
 
   applyFilters();
+  applyUrlParams();
 </script>

@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import StatCard from "../../components/StatCard.astro";
 import archive from "../../data/archive.json";
 
 const venueMap = new Map(archive.venues.map((venue) => [venue.id, venue]));
@@ -47,9 +48,9 @@ function venueName(concert: (typeof sorted)[number]) {
 
 <Base title="Gigs — Malice Mizer Research Archive">
   <section class="stats">
-    <div class="stat"><strong>{archive.stats.concert_count}</strong><span>Concerts tracked</span></div>
-    <div class="stat"><strong>{archive.stats.performance_link_count}</strong><span>Performance links</span></div>
-    <div class="stat"><strong>{years.length}</strong><span>Years covered</span></div>
+    <StatCard value={archive.stats.concert_count} label="Concerts tracked" preset="all" />
+    <StatCard value={archive.stats.performance_link_count} label="Performance links" preset="with-links" />
+    <StatCard value={years.length} label="Years covered" preset="all" />
   </section>
 
   <section class="card" style="margin-bottom: 1rem;">
@@ -66,7 +67,7 @@ function venueName(concert: (typeof sorted)[number]) {
 
   {
     years.map((year) => (
-      <section class="card" style="margin-bottom: 1rem;">
+      <section class="card gigs-year" style="margin-bottom: 1rem;" data-year={year}>
         <h2>{year}</h2>
         <table>
           <thead>
@@ -82,7 +83,7 @@ function venueName(concert: (typeof sorted)[number]) {
           </thead>
           <tbody>
             {byYear[year].map((concert) => (
-              <tr>
+              <tr data-gig-row data-has-links={concert.performances.length > 0 ? "yes" : "no"}>
                 <td>{concert.date}</td>
                 <td>
                   <a href={`/gigs/${concert.id}`}>
@@ -112,3 +113,37 @@ function venueName(concert: (typeof sorted)[number]) {
     ))
   }
 </Base>
+
+<script>
+  const gigRows = Array.from(document.querySelectorAll("[data-gig-row]"));
+  const yearSections = Array.from(document.querySelectorAll(".gigs-year"));
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  function applyGigPreset(preset: string) {
+    gigRows.forEach((row) => {
+      const hasLinks = (row as HTMLElement).dataset.hasLinks === "yes";
+      const visible = preset === "all" || (preset === "with-links" && hasLinks);
+      (row as HTMLElement).style.display = visible ? "" : "none";
+    });
+
+    yearSections.forEach((section) => {
+      const visible = section.querySelector('[data-gig-row]:not([style*="none"])');
+      (section as HTMLElement).style.display = visible ? "" : "none";
+    });
+
+    statButtons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        button.getAttribute("data-stat-preset") === preset
+      );
+    });
+  }
+
+  statButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      applyGigPreset(preset);
+      yearSections[0]?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>

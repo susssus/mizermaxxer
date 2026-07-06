@@ -1,5 +1,6 @@
 ---
 import BrowseFilters from "../../components/BrowseFilters.astro";
+import StatCard from "../../components/StatCard.astro";
 import Base from "../../layouts/Base.astro";
 import linksIndex from "../../data/links_index.json";
 
@@ -8,9 +9,9 @@ const rows = linksIndex.browse;
 
 <Base title="Browse — Malice Mizer Research Archive">
   <section class="stats">
-    <div class="stat"><strong id="browse-count">{rows.length}</strong><span>Entities shown</span></div>
-    <div class="stat"><strong>{linksIndex.entity_count}</strong><span>Total entities</span></div>
-    <div class="stat"><strong>{linksIndex.edge_count}</strong><span>Resolved links</span></div>
+    <StatCard value={rows.length} label="Entities shown" preset="all" />
+    <StatCard value={linksIndex.entity_count} label="Total entities" preset="all" />
+    <StatCard value={linksIndex.edge_count} label="Resolved links" preset="linked" />
   </section>
 
   <BrowseFilters />
@@ -55,6 +56,26 @@ const rows = linksIndex.browse;
   </table>
 
   <p class="muted" style="margin-top:1rem;">
-    Generated {linksIndex.generated_at}. Links column = unique related entities from the resolved graph.
+    <span id="browse-count">{rows.length}</span> entities shown. Generated {linksIndex.generated_at}. Links column = unique related entities from the resolved graph.
   </p>
 </Base>
+
+<script>
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  statButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      window.browseFilters?.applyPreset(preset);
+
+      statButtons.forEach((btn) => {
+        btn.classList.toggle(
+          "stat--active",
+          btn.getAttribute("data-stat-preset") === preset
+        );
+      });
+
+      document.getElementById("browse-table")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>
