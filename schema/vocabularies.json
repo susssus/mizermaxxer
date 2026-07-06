@@ -54,5 +54,6 @@
     "tiktok",
     "threads",
     "other"
-  ]
+  ],
+  "translation_review_status": ["needs_review", "reviewed"]
 }

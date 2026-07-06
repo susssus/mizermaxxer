@@ -328,7 +328,10 @@ const jsonLdBlocks = jsonLd
       }
       .badge.verified { color: var(--verified); }
       .badge.possible, .badge.mention_only { color: var(--possible); }
-      .badge.needs_verification, .badge.disputed, .badge.unverified { color: var(--needs); }
+      .badge.needs_verification, .badge.disputed, .badge.unverified, .badge.needs_review {
+        color: var(--needs);
+      }
+      .badge.reviewed { color: var(--verified); }
       .trigger-warning {
         display: inline-block;
         margin-left: 0.35rem;

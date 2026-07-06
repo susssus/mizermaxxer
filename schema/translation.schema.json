@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "translation.schema.json",
+  "title": "Translation",
+  "type": "object",
+  "required": ["id"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "article_id": { "type": "string" },
+    "publication": { "type": "string" },
+    "issue_number": { "type": ["string", "null"] },
+    "publication_date": {},
+    "translator": { "type": "string" },
+    "translation_date": {},
+    "review_status": {
+      "enum": ["needs_review", "reviewed", null]
+    },
+    "license_notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

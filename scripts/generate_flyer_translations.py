@@ -761,6 +761,7 @@ def render_flyer_yaml(entry: dict) -> str:
         "scan_paths": [entry["scan"]],
         "translator": "mizermaxxer",
         "translation_date": "2026-07-06",
+        "review_status": "needs_review",
         "license_notes": LICENSE,
         "pages_content": [
             {
@@ -786,6 +787,7 @@ def render_flyer_yaml(entry: dict) -> str:
         f"  - {doc['scan_paths'][0]}",
         "translator: mizermaxxer",
         "translation_date: 2026-07-06",
+        "review_status: needs_review",
         "license_notes: >",
         f"  {LICENSE}",
         "",
