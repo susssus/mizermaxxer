@@ -1,0 +1,145 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE_NAME, SITE_URL } from "../../lib/seo";
+
+const lastUpdated = "2026-07-06";
+---
+
+<Base
+  title="Privacy Policy"
+  description="Privacy policy for the Malice Mizer Research Archive — no cookies, no analytics, no identifiable user tracking."
+  noindex
+>
+  <section class="card privacy-intro">
+    <h2>Privacy policy</h2>
+    <p class="muted">Last updated: {lastUpdated}</p>
+    <p>
+      {SITE_NAME} ({SITE_URL}) is a static research archive. We do not run advertising,
+      sell data, or build user profiles. This page explains what happens when you visit the site.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Summary</h2>
+    <ul>
+      <li>We do not set cookies.</li>
+      <li>We do not use analytics, advertising, or other tracking scripts.</li>
+      <li>We do not collect names, email addresses, or other information you submit through this site.</li>
+      <li>We do not use browser storage (localStorage or sessionStorage) to remember you.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>What we do not collect</h2>
+    <p>
+      The site has no accounts, newsletters, contact forms, or comment systems. Browsing pages here
+      does not create a profile tied to you on our side, and we do not receive analytics reports
+      about individual visitors.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Hosting and server logs</h2>
+    <p>
+      The site is hosted on Vercel. Like most web hosts, Vercel may automatically process standard
+      connection data in server logs — for example your IP address, browser type, requested page,
+      and timestamp — to deliver the site, prevent abuse, and maintain reliability. We do not use
+      those logs to identify or track visitors, and we do not have access to per-user analytics
+      dashboards for this archive.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Third-party resources</h2>
+    <p>A few parts of the site load content from other providers:</p>
+    <dl class="privacy-list">
+      <div>
+        <dt>Google Fonts</dt>
+        <dd>
+          Heading typefaces are loaded from Google’s font servers. Your browser sends a request to
+          Google when a page loads; Google’s own privacy policy applies to that request.
+        </dd>
+      </div>
+      <div>
+        <dt>Embedded videos</dt>
+        <dd>
+          Some concert pages include embedded players from YouTube, Internet Archive, Niconico, or
+          Vimeo. Those players load only on the pages where they appear. The embedded service may
+          set its own cookies or collect usage data under its own policy.
+        </dd>
+      </div>
+      <div>
+        <dt>External links</dt>
+        <dd>
+          Pages link out to source archives, GitHub, and other sites. Once you leave this archive,
+          the destination site’s privacy practices apply.
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="card">
+    <h2>Corrections via GitHub</h2>
+    <p>
+      The footer links to GitHub to suggest corrections. If you open an issue there, you are
+      interacting with GitHub under{" "}
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">
+        GitHub’s privacy statement
+      </a>
+      , not submitting data to this archive directly.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Children</h2>
+    <p>
+      This archive is intended for general research use and does not knowingly collect personal
+      information from anyone.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Changes</h2>
+    <p>
+      If our practices change, we will update this page and the date above. Material changes — for
+      example adding analytics or cookies — would be reflected here before or when they take effect.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy can be raised through{" "}
+      <a href="https://github.com/susssus/mizermaxxer/issues" target="_blank" rel="noopener noreferrer">
+        GitHub issues
+      </a>
+      .
+    </p>
+  </section>
+</Base>
+
+<style>
+  .privacy-intro h2 {
+    margin-top: 0;
+  }
+  .privacy-list {
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  .privacy-list dt {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .privacy-list dd {
+    margin: 0;
+    color: var(--muted);
+  }
+  section.card ul {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+  section.card li + li {
+    margin-top: 0.35rem;
+  }
+</style>
