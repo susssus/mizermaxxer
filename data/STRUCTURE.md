@@ -23,7 +23,8 @@ This repository is a unified **Malice Mizer Archive**. The layout below maps the
 | `images/covers/` | [`images/covers/`](../../images/covers/) | Release artwork |
 | `images/flyers/` | [`images/flyers/`](../../images/flyers/) | Live flyers |
 | `images/tickets/` | [`images/tickets/`](../../images/tickets/) | Ticket scans |
-| `images/scans/` | [`images/scans/`](../../images/scans/) | Magazine page scans |
+| `images/scans/` | [`images/scans/`](../../images/scans/) | Magazine page scans (normalized for git/site) |
+| `images/scans-original/` | *(local only, gitignored)* | Full-resolution scan masters before normalization |
 | `website/` | [`site/`](../../site/) | Astro static site (Bibliography, Discography, Gigs, Videos) |
 | `bibliography/` | [`exports/`](../exports/) + [`data/issues/`](../issues/) | Generated CSV/XLSX/PDF + YAML source |
 | `docs/` | [`docs/`](../../docs/) | Research workflow and source lists |

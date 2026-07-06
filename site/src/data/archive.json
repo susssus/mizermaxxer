@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T19:50:42.852505Z",
+  "generated_at": "2026-07-06T21:08:05.631111Z",
   "people": {
     "members": [
       {
@@ -20266,15 +20266,14 @@
     {
       "id": "b-pass-1999-06",
       "publication": "b-pass",
-      "issue_number": null,
+      "issue_number": "161",
       "volume": null,
       "publication_date": "1999-06",
       "date_precision": "month",
       "verification_status": "verified",
-      "source_notes": "B-PASS June 1999 — Gackt solo pages only (MM-adjacent). Internet Archive: https://archive.org/details/scan-10188\n",
+      "source_notes": "B-PASS June 1999 No. 161 — Gackt solo pages only (MM-adjacent). Partial local mirror under images/scans/b-pass/1999-06/. Internet Archive: https://archive.org/details/scan-10188\n",
       "research_targets": [
-        "confirm issue number",
-        "Gackt solo feature pages"
+        "confirm remaining Gackt feature pages on IA"
       ],
       "changelog": [
         {
@@ -20282,27 +20281,33 @@
           "action": "created",
           "source": "internet_archive",
           "notes": "Partial issue scan linked from IA survey."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Linked partial local mirror and English translation."
         }
       ],
       "articles": [
         {
           "id": "b-pass-1999-06-001",
           "issue_id": "b-pass-1999-06",
-          "title_ja": null,
-          "title_en": "Gackt feature (Gackt solo era)",
+          "title_ja": "表現者の使命",
+          "title_en": "The mission of an artist — Gackt Mizérable feature",
           "type": "interview",
-          "pages": null,
-          "photographer": null,
-          "writer": null,
+          "pages": "31–34",
+          "photographer": "William Hames",
+          "writer": "Yoshiko Funami",
           "cover": false,
           "poster": false,
           "foldout": false,
           "scan_available": true,
           "scan_quality": "medium",
-          "scan_url": "https://archive.org/details/scan-10188",
-          "translation_available": false,
-          "translation_url": null,
-          "notes": "Gackt pages only; not full issue. Source Internet Archive.",
+          "scan_url": "images/scans/b-pass/1999-06/03.jpg",
+          "translation_available": true,
+          "translation_url": "data/translations/b-pass-1999-06.yaml",
+          "notes": "Gackt pages only; not full issue. Local scans 03–04 (magazine pp. 31–32 area). Additional pages pending from IA catalog.\n",
           "members": [
             "gackt"
           ],
