@@ -1,0 +1,272 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatCard from "../../components/StatCard.astro";
+import archive from "../../data/archive.json";
+
+const pubMap = new Map(archive.publications.map((p) => [p.slug, p]));
+
+type TimelineEvent = {
+  date: string;
+  kind: "release" | "live" | "magazine" | "video";
+  title: string;
+  detail?: string;
+  href?: string;
+};
+
+const events: TimelineEvent[] = [];
+
+for (const album of archive.albums) {
+  events.push({
+    date: album.release_date,
+    kind: "release",
+    title: album.title_en || album.title_ja,
+    detail: album.type.replaceAll("_", " "),
+    href: `/discography/${album.id}`,
+  });
+}
+
+for (const single of archive.singles) {
+  events.push({
+    date: single.release_date,
+    kind: "release",
+    title: single.title_en || single.title_ja,
+    detail: "single",
+    href: `/discography/${single.id}`,
+  });
+}
+
+for (const concert of archive.concerts) {
+  const venue = concert.venue_detail?.name_en ?? concert.venue ?? "";
+  events.push({
+    date: concert.date,
+    kind: "live",
+    title: concert.event_name_en ?? concert.event_name_ja ?? "Live",
+    detail: venue,
+    href: `/gigs/${concert.id}`,
+  });
+}
+
+for (const video of archive.videos) {
+  events.push({
+    date: video.release_date ?? video.date ?? "1999",
+    kind: "video",
+    title: video.title_en ?? video.title_ja ?? video.id,
+    detail: video.type?.replaceAll("_", " "),
+    href: `/videos`,
+  });
+}
+
+const seenIssues = new Set<string>();
+for (const issue of archive.issues) {
+  if (issue.publication === "flyers" || issue.publication === "fan-club") continue;
+  const key = `${issue.publication}-${issue.publication_date}`;
+  if (seenIssues.has(key)) continue;
+  seenIssues.add(key);
+  const pub = pubMap.get(issue.publication);
+  events.push({
+    date: issue.publication_date.length === 7 ? `${issue.publication_date}-01` : issue.publication_date,
+    kind: "magazine",
+    title: pub?.name_en ?? issue.publication,
+    detail: issue.issue_number ? `#${issue.issue_number}` : issue.verification_status.replaceAll("_", " "),
+    href: `/issue/${issue.id}`,
+  });
+}
+
+events.sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+
+const byYear = events.reduce<Record<string, TimelineEvent[]>>((acc, event) => {
+  const year = event.date.slice(0, 4);
+  (acc[year] ??= []).push(event);
+  return acc;
+}, {});
+
+const years = Object.keys(byYear).sort();
+const kindLabels: Record<TimelineEvent["kind"], string> = {
+  release: "Release",
+  live: "Live",
+  magazine: "Magazine",
+  video: "Video",
+};
+---
+
+<Base title="Timeline — Malice Mizer Research Archive">
+  <p class="muted">
+    Unified chronology of releases, concerts, and print coverage — inspired by{" "}
+    <a href="https://vk.gy/artists/malice-mizer/" target="_blank" rel="noopener">vk.gy</a> history view.
+  </p>
+
+  <div class="filters timeline-filters" id="timeline-filters">
+    <label>
+      Filter
+      <select id="timelineKind">
+        <option value="">All activity</option>
+        <option value="release">Releases only</option>
+        <option value="live">Live only</option>
+        <option value="magazine">Magazines only</option>
+        <option value="video">Videos only</option>
+      </select>
+    </label>
+    <label>
+      Year from
+      <select id="timelineYearFrom">
+        <option value="">Any</option>
+        {years.map((y) => <option value={y}>{y}</option>)}
+      </select>
+    </label>
+    <label>
+      Year to
+      <select id="timelineYearTo">
+        <option value="">Any</option>
+        {years.map((y) => <option value={y}>{y}</option>)}
+      </select>
+    </label>
+  </div>
+
+  <section class="stats">
+    <StatCard value={events.length} label="Timeline events" preset="all" />
+    <StatCard value={events.filter((e) => e.kind === "release").length} label="Releases" preset="release" />
+    <StatCard value={events.filter((e) => e.kind === "live").length} label="Concerts" preset="live" />
+    <StatCard value={events.filter((e) => e.kind === "magazine").length} label="Magazine issues" preset="magazine" />
+  </section>
+
+  {years.map((year) => (
+    <section class="timeline-year" data-year={year}>
+      <h2 class="section-heading">{year}</h2>
+      <ul class="timeline-list">
+        {byYear[year].map((event) => (
+          <li
+            class="timeline-item"
+            data-kind={event.kind}
+            data-year={year}
+          >
+            <span class={`type-chip timeline-kind timeline-kind--${event.kind}`}>{kindLabels[event.kind]}</span>
+            <time datetime={event.date}>{event.date.slice(0, 10)}</time>
+            {event.href ? (
+              <a href={event.href}>{event.title}</a>
+            ) : (
+              <span>{event.title}</span>
+            )}
+            {event.detail && <span class="muted timeline-detail">{event.detail}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .timeline-filters {
+    margin-bottom: 1.25rem;
+  }
+  .timeline-list {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 5.5rem 6.5rem 1fr auto;
+    gap: 0.65rem 1rem;
+    align-items: baseline;
+    padding: 0.55rem 0.85rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+  }
+  .timeline-item:last-child {
+    border-bottom: none;
+  }
+  .timeline-item time {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  .timeline-detail {
+    font-size: 0.78rem;
+    text-align: right;
+  }
+  .timeline-kind {
+    font-size: 0.65rem;
+  }
+  .timeline-kind--release { background: color-mix(in srgb, #c9a227 18%, var(--surface)); color: #96750f; }
+  .timeline-kind--live { background: color-mix(in srgb, #e07a5f 18%, var(--surface)); color: #c44d34; }
+  .timeline-kind--magazine { background: color-mix(in srgb, #7b6dd6 18%, var(--surface)); color: #5a4bb8; }
+  .timeline-kind--video { background: color-mix(in srgb, #4a9e8e 18%, var(--surface)); color: #2d7a6b; }
+  @media (max-width: 640px) {
+    .timeline-item {
+      grid-template-columns: 1fr 1fr;
+    }
+    .timeline-detail {
+      grid-column: 1 / -1;
+      text-align: left;
+    }
+  }
+</style>
+
+<script>
+  const kindSelect = document.getElementById("timelineKind") as HTMLSelectElement;
+  const yearFrom = document.getElementById("timelineYearFrom") as HTMLSelectElement;
+  const yearTo = document.getElementById("timelineYearTo") as HTMLSelectElement;
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  function applyFilters() {
+    const kind = kindSelect.value;
+    const from = yearFrom.value ? Number(yearFrom.value) : null;
+    const to = yearTo.value ? Number(yearTo.value) : null;
+
+    document.querySelectorAll(".timeline-item").forEach((row) => {
+      const el = row as HTMLElement;
+      const rowKind = el.dataset.kind ?? "";
+      const rowYear = Number(el.dataset.year);
+      const kindOk = !kind || rowKind === kind;
+      const fromOk = from === null || rowYear >= from;
+      const toOk = to === null || rowYear <= to;
+      el.style.display = kindOk && fromOk && toOk ? "" : "none";
+    });
+
+    document.querySelectorAll(".timeline-year").forEach((section) => {
+      const el = section as HTMLElement;
+      const visible = el.querySelector('.timeline-item:not([style*="none"])');
+      el.style.display = visible ? "" : "none";
+    });
+  }
+
+  function applyTimelinePreset(preset: string) {
+    kindSelect.value = preset === "all" ? "" : preset;
+    yearFrom.value = "";
+    yearTo.value = "";
+    applyFilters();
+
+    statButtons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        button.getAttribute("data-stat-preset") === preset
+      );
+    });
+
+    document.querySelector(".timeline-year")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  kindSelect?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyFilters();
+  });
+  yearFrom?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyFilters();
+  });
+  yearTo?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyFilters();
+  });
+
+  statButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      applyTimelinePreset(preset);
+    });
+  });
+</script>

@@ -1,0 +1,141 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatCard from "../../components/StatCard.astro";
+import gallery from "../../data/gallery_index.json";
+
+const categories = [
+  { id: "", label: "All" },
+  { id: "member", label: "Members" },
+  { id: "release", label: "Releases" },
+  { id: "promo", label: "Promo / vk.gy" },
+];
+
+const eras = [...new Set(gallery.items.map((i) => i.era).filter(Boolean))].sort();
+---
+
+<Base title="Gallery — Malice Mizer Research Archive">
+  <p class="muted">
+    Promotional photos, release covers, and member portraits. vk.gy magazine covers linked externally.
+  </p>
+
+  <div class="filters" id="gallery-filters">
+    <label>
+      Category
+      <select id="galleryCategory">
+        {categories.map((c) => <option value={c.id}>{c.label}</option>)}
+      </select>
+    </label>
+    <label>
+      Era
+      <select id="galleryEra">
+        <option value="">All years</option>
+        {eras.map((era) => <option value={era}>{era}</option>)}
+      </select>
+    </label>
+  </div>
+
+  <section class="stats">
+    <StatCard value={gallery.count} label="Images indexed" preset="all" />
+  </section>
+
+  <div class="gallery-grid" id="gallery-grid">
+    {gallery.items.map((item) => (
+      <figure
+        class="gallery-card"
+        data-category={item.category}
+        data-era={item.era ?? ""}
+      >
+        <img
+          src={item.external ? item.src : `/${item.src}`}
+          alt={item.title ?? "Archive image"}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <strong>{item.title}</strong>
+          {item.caption && <span>{item.caption}</span>}
+          {item.source && <span class="muted">{item.source}</span>}
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  .gallery-card {
+    margin: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .gallery-card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+  }
+  .gallery-card figcaption {
+    padding: 0.55rem 0.65rem;
+    font-size: 0.78rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .gallery-card figcaption strong {
+    font-size: 0.82rem;
+  }
+</style>
+
+<script>
+  const cat = document.getElementById("galleryCategory") as HTMLSelectElement;
+  const era = document.getElementById("galleryEra") as HTMLSelectElement;
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  function filterGallery() {
+    const c = cat.value;
+    const e = era.value;
+    document.querySelectorAll(".gallery-card").forEach((card) => {
+      const el = card as HTMLElement;
+      const okCat = !c || el.dataset.category === c;
+      const okEra = !e || el.dataset.era === e;
+      el.style.display = okCat && okEra ? "" : "none";
+    });
+  }
+
+  function applyGalleryPreset(preset: string) {
+    cat.value = "";
+    era.value = "";
+    filterGallery();
+
+    statButtons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        button.getAttribute("data-stat-preset") === preset
+      );
+    });
+
+    document.getElementById("gallery-grid")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  cat?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    filterGallery();
+  });
+  era?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    filterGallery();
+  });
+
+  statButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      applyGalleryPreset(preset);
+    });
+  });
+</script>

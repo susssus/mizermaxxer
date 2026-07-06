@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import ReleaseRow from "../../components/ReleaseRow.astro";
+import StatCard from "../../components/StatCard.astro";
 import archive from "../../data/archive.json";
 
 const songMap = new Map(archive.songs.map((song) => [song.id, song]));
@@ -24,93 +25,125 @@ const demosMisc = archive.albums.filter(
 
 <Base title="Discography — Malice Mizer Research Archive">
   <section class="stats">
-    <div class="stat"><strong>{studioAlbums.length}</strong><span>Studio albums</span></div>
-    <div class="stat"><strong>{archive.stats.single_count}</strong><span>Singles</span></div>
-    <div class="stat"><strong>{compilations.length}</strong><span>Compilations</span></div>
-    <div class="stat"><strong>{videoReleases.length}</strong><span>Video releases</span></div>
-    <div class="stat"><strong>{demosMisc.length}</strong><span>Demos & misc</span></div>
-    <div class="stat"><strong>{archive.stats.song_count}</strong><span>Songs</span></div>
+    <StatCard value={studioAlbums.length} label="Studio albums" preset="studio" />
+    <StatCard value={archive.stats.single_count} label="Singles" preset="singles" />
+    <StatCard value={compilations.length} label="Compilations" preset="compilations" />
+    <StatCard value={videoReleases.length} label="Video releases" preset="video" />
+    <StatCard value={demosMisc.length} label="Demos & misc" preset="demos" />
+    <StatCard value={archive.stats.song_count} label="Songs" href="/browse?type=song" />
   </section>
 
-  <section class="card">
-    <h2>Studio albums & EP</h2>
-    <table>
-      <thead>
-        <tr>
-          <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
-        </tr>
-      </thead>
-      <tbody>{studioAlbums.map((album) => <ReleaseRow album={album} />)}</tbody>
-    </table>
-  </section>
-
-  <section class="card" style="margin-top: 1rem;">
-    <h2>Compilations & box sets</h2>
-    <table>
-      <thead>
-        <tr>
-          <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
-        </tr>
-      </thead>
-      <tbody>{compilations.map((album) => <ReleaseRow album={album} />)}</tbody>
-    </table>
-  </section>
-
-  <section class="card" style="margin-top: 1rem;">
-    <h2>Video releases (VHS / DVD / Blu-ray)</h2>
-    <table>
-      <thead>
-        <tr>
-          <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
-        </tr>
-      </thead>
-      <tbody>{videoReleases.map((album) => <ReleaseRow album={album} />)}</tbody>
-    </table>
-  </section>
-
-  <section class="card" style="margin-top: 1rem;">
-    <h2>Early demos & miscellaneous</h2>
-    <table>
-      <thead>
-        <tr>
-          <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
-        </tr>
-      </thead>
-      <tbody>{demosMisc.map((album) => <ReleaseRow album={album} />)}</tbody>
-    </table>
-  </section>
-
-  <section class="card" style="margin-top: 1rem;">
-    <h2>Singles</h2>
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th>Date</th>
-          <th>Title</th>
-          <th>A-side</th>
-          <th>B-side</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        {archive.singles.map((single) => (
+  <div id="discography-list">
+    <section class="card" data-discography-section="studio">
+      <h2>Studio albums & EP</h2>
+      <table>
+        <thead>
           <tr>
-            <td>
-              {single.cover_image ? (
-                <img class="cover-thumb" src={coverSrc(single.cover_image)!} alt="" loading="lazy" />
-              ) : (
-                "—"
-              )}
-            </td>
-            <td>{single.release_date}</td>
-            <td>{single.title_en}<br /><span class="muted">{single.title_ja}</span></td>
-            <td>{single.a_side ? songMap.get(single.a_side)?.title_en ?? single.a_side : "—"}</td>
-            <td>{single.b_side ? songMap.get(single.b_side)?.title_en ?? single.b_side : "—"}</td>
-            <td><span class={`badge ${single.verification_status}`}>{single.verification_status.replaceAll("_", " ")}</span></td>
+            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
-  </section>
+        </thead>
+        <tbody>{studioAlbums.map((album) => <ReleaseRow album={album} />)}</tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top: 1rem;" data-discography-section="compilations">
+      <h2>Compilations & box sets</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+          </tr>
+        </thead>
+        <tbody>{compilations.map((album) => <ReleaseRow album={album} />)}</tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top: 1rem;" data-discography-section="video">
+      <h2>Video releases (VHS / DVD / Blu-ray)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+          </tr>
+        </thead>
+        <tbody>{videoReleases.map((album) => <ReleaseRow album={album} />)}</tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top: 1rem;" data-discography-section="demos">
+      <h2>Early demos & miscellaneous</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+          </tr>
+        </thead>
+        <tbody>{demosMisc.map((album) => <ReleaseRow album={album} />)}</tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top: 1rem;" data-discography-section="singles">
+      <h2>Singles</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Date</th>
+            <th>Title</th>
+            <th>A-side</th>
+            <th>B-side</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {archive.singles.map((single) => (
+            <tr>
+              <td>
+                {single.cover_image ? (
+                  <img class="cover-thumb" src={coverSrc(single.cover_image)!} alt="" loading="lazy" />
+                ) : (
+                  "—"
+                )}
+              </td>
+              <td>{single.release_date}</td>
+              <td>{single.title_en}<br /><span class="muted">{single.title_ja}</span></td>
+              <td>{single.a_side ? songMap.get(single.a_side)?.title_en ?? single.a_side : "—"}</td>
+              <td>{single.b_side ? songMap.get(single.b_side)?.title_en ?? single.b_side : "—"}</td>
+              <td><span class={`badge ${single.verification_status}`}>{single.verification_status.replaceAll("_", " ")}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
 </Base>
+
+<script>
+  const sections = Array.from(document.querySelectorAll("[data-discography-section]"));
+  const buttons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  function applyDiscographyPreset(preset: string) {
+    sections.forEach((section) => {
+      const key = (section as HTMLElement).dataset.discographySection ?? "";
+      const visible = preset === "all" || key === preset;
+      (section as HTMLElement).style.display = visible ? "" : "none";
+    });
+
+    buttons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        preset !== "all" && button.getAttribute("data-stat-preset") === preset
+      );
+    });
+
+    document.getElementById("discography-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      const isActive = button.classList.contains("stat--active");
+      applyDiscographyPreset(isActive ? "all" : preset);
+    });
+  });
+</script>

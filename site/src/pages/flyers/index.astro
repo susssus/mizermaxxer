@@ -1,5 +1,6 @@
 ---
 import FlyerLightbox from "../../components/FlyerLightbox.astro";
+import StatCard from "../../components/StatCard.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
 
@@ -21,9 +22,9 @@ const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
 
 <Base title="Flyers — Malice Mizer Research Archive">
   <section class="stats">
-    <div class="stat"><strong>{flyerIssues.length}</strong><span>Flyers catalogued</span></div>
-    <div class="stat"><strong>{withScans}</strong><span>Scans available</span></div>
-    <div class="stat"><strong>{years.length}</strong><span>Years covered</span></div>
+    <StatCard value={flyerIssues.length} label="Flyers catalogued" preset="all" />
+    <StatCard value={withScans} label="Scans available" preset="scans" />
+    <StatCard value={years.length} label="Years covered" preset="all" />
   </section>
 
   <div class="filters" id="flyer-filters">
@@ -144,6 +145,7 @@ const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
 
 <script>
   const cards = Array.from(document.querySelectorAll("[data-flyer-card]"));
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
 
   function applyFlyerFilters() {
     const year = (document.getElementById("flyerYear") as HTMLSelectElement).value;
@@ -157,6 +159,37 @@ const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
     });
   }
 
-  document.getElementById("flyerYear")?.addEventListener("change", applyFlyerFilters);
-  document.getElementById("flyerScan")?.addEventListener("change", applyFlyerFilters);
+  function applyFlyerPreset(preset: string) {
+    const yearSelect = document.getElementById("flyerYear") as HTMLSelectElement;
+    const scanSelect = document.getElementById("flyerScan") as HTMLSelectElement;
+
+    yearSelect.value = "";
+    scanSelect.value = preset === "scans" ? "yes" : "";
+    applyFlyerFilters();
+
+    statButtons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        button.getAttribute("data-stat-preset") === preset
+      );
+    });
+
+    document.getElementById("flyer-grid")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  document.getElementById("flyerYear")?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyFlyerFilters();
+  });
+  document.getElementById("flyerScan")?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyFlyerFilters();
+  });
+
+  statButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      applyFlyerPreset(preset);
+    });
+  });
 </script>

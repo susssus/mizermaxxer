@@ -1,6 +1,8 @@
 ---
 import FilterBar from "../components/FilterBar.astro";
 import MemberCard from "../components/MemberCard.astro";
+import ProfileMeta from "../components/ProfileMeta.astro";
+import StatCard from "../components/StatCard.astro";
 import Base from "../layouts/Base.astro";
 import archive from "../data/archive.json";
 
@@ -19,10 +21,23 @@ const rows = archive.issues
 const byPublication = archive.publications
   .map((pub) => ({
     name: pub.name_en,
+    slug: pub.slug,
     count: archive.issues.filter((issue) => issue.publication === pub.slug).length,
+    priority: pub.priority,
   }))
   .filter((entry) => entry.count > 0)
   .sort((a, b) => b.count - a.count);
+
+const coverageGaps = archive.publications
+  .map((pub) => ({
+    name: pub.name_en,
+    slug: pub.slug,
+    priority: pub.priority,
+  }))
+  .filter((pub) => archive.issues.every((issue) => issue.publication !== pub.slug))
+  .sort((a, b) => a.priority - b.priority);
+
+const vkgyPriorityGaps = ["uv", "m-gazette", "j-rock-magazine", "pop-beat", "pati-pati", "b-pass", "vicious", "band-yarouze"];
 
 const entityIds: Record<string, string> = {
   mana: "person_mana",
@@ -81,12 +96,15 @@ const featuredFlyers = archive.issues
     </figure>
   </section>
 
+  <ProfileMeta stats={archive.stats} />
+
   <section class="members-section">
     <h2 class="section-heading">Members</h2>
     <div class="members-grid">
       {featuredMembers.map((member) => (
         <MemberCard
           name={member!.name}
+          slug={member!.slug}
           role={member!.role}
           active={member!.active}
           portrait={member!.portrait_image}
@@ -98,18 +116,11 @@ const featuredFlyers = archive.issues
   </section>
 
   <section class="stats">
-    <button type="button" class="stat stat--action" data-stat-preset="all">
-      <strong>{archive.stats.issue_count}</strong><span>Issues tracked</span>
-    </button>
-    <button type="button" class="stat stat--action" data-stat-preset="all">
-      <strong>{archive.stats.article_count}</strong><span>Article entries</span>
-    </button>
-    <button type="button" class="stat stat--action" data-stat-preset="verified">
-      <strong>{archive.stats.verified_issue_count}</strong><span>Verified issues</span>
-    </button>
-    <button type="button" class="stat stat--action" data-stat-preset="scans">
-      <strong>{archive.stats.scan_count}</strong><span>Scans available</span>
-    </button>
+    <StatCard value={archive.stats.issue_count} label="Issues tracked" preset="all" />
+    <StatCard value={archive.stats.album_count + archive.stats.single_count} label="Releases" href="/discography" />
+    <StatCard value={archive.stats.concert_count} label="Concerts" href="/gigs" />
+    <StatCard value={archive.stats.verified_issue_count} label="Verified issues" preset="verified" />
+    <StatCard value={archive.stats.scan_count} label="Scans available" preset="scans" />
   </section>
 
   {featuredFlyers.length > 0 && (
@@ -174,15 +185,46 @@ const featuredFlyers = archive.issues
         <li>{entry.name}: {entry.count} issue stubs</li>
       ))}
     </ul>
+    {coverageGaps.length > 0 && (
+      <>
+        <h3 style="margin-top: 1.25rem; font-size: 1rem;">Research gaps</h3>
+        <p class="muted" style="margin-top: 0;">
+          Publications in catalog with no issue stubs yet. Priority targets flagged by{" "}
+          <a href="https://vk.gy/artists/malice-mizer/" target="_blank" rel="noopener">vk.gy</a> timeline:
+        </p>
+        <ul>
+          {coverageGaps.map((entry) => (
+            <li>
+              {entry.name}
+              {vkgyPriorityGaps.includes(entry.slug) && (
+                <span class="badge needs_verification" style="margin-left: 0.35rem;">vk.gy priority</span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
     <p class="muted">Generated {archive.generated_at}</p>
   </section>
 </Base>
 
 <script>
-  document.querySelectorAll("[data-stat-preset]").forEach((button) => {
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  function setActiveStat(preset: string) {
+    statButtons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        button.getAttribute("data-stat-preset") === preset
+      );
+    });
+  }
+
+  statButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const preset = button.getAttribute("data-stat-preset") ?? "all";
       window.bibliographyFilters?.applyPreset(preset);
+      setActiveStat(preset);
       document.getElementById("bibliography")?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });

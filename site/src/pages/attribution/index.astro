@@ -1,0 +1,297 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatCard from "../../components/StatCard.astro";
+import attribution from "../../data/attribution.json";
+
+const repoUrl = "https://github.com/susssus/mizermaxxer";
+const sourcesDocUrl = `${repoUrl}/blob/main/docs/SOURCES.md`;
+
+const sourceNames = attribution.sources.map((group) => group.source_name);
+---
+
+<Base title="Image Attribution — Malice Mizer Research Archive">
+  <section class="card attribution-intro">
+    <h2>About this archive</h2>
+    <p>
+      This is an independent research archive cataloguing Malice Mizer print coverage, discography,
+      flyers, and related media from 1992–2001. It is <strong>not</strong> affiliated with the band,
+      Mana, or any official rights holder. Images are mirrored locally for study and citation; rights
+      remain with the original photographers, publishers, and archivists.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Image sources</h2>
+    <p class="muted">
+      Local copies under <code>images/</code> are fetched with documented provenance. Primary web
+      archives:
+    </p>
+    <dl class="source-list">
+      <div>
+        <dt>
+          <a href="https://malice-mizer.info/flyers" target="_blank" rel="noopener noreferrer">malice-mizer.info</a>
+        </dt>
+        <dd>
+          Fan-maintained archive of release flyers, member photos, and video catalogues. Primary
+          source for flyer scans on this site.
+        </dd>
+      </div>
+      <div>
+        <dt>
+          <a href="https://cantavanda.com/malice-mizer/" target="_blank" rel="noopener noreferrer">Cantavanda</a>
+          (Butterfly Rose)
+        </dt>
+        <dd>
+          Discography scans, magazine appearances, fan-club magazines (<em>ma chérie</em>), and
+          print materials. Many Cover Art Archive uploads are attributed to Cantavanda.
+        </dd>
+      </div>
+      <div>
+        <dt>
+          <a href="https://coverartarchive.org/" target="_blank" rel="noopener noreferrer">Cover Art Archive</a>
+        </dt>
+        <dd>
+          Community-maintained release artwork linked to MusicBrainz. Album and single covers on this
+          site are sourced from CAA entries attributed to Cantavanda where noted.
+        </dd>
+      </div>
+      <div>
+        <dt>
+          <a href="https://vk.gy/artists/malice-mizer/" target="_blank" rel="noopener noreferrer">vk.gy</a>
+        </dt>
+        <dd>
+          Visual kei release metadata and timeline cross-reference. Used for bibliographic verification,
+          not primary image hosting.
+        </dd>
+      </div>
+      <div>
+        <dt>
+          <a href="https://malicemeezer.neocities.org/vintage" target="_blank" rel="noopener noreferrer">Malice Meezer</a>
+        </dt>
+        <dd>
+          Early-era flyers and vintage materials from the Tetsu period, mirrored where catalogued in
+          the manifest below.
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="card">
+    <h2>Project documentation</h2>
+    <p class="muted">
+      For the full source catalog (libraries, auction archives, Internet Archive holdings, research
+      scripts, and fetch workflow), see the repository documentation:
+    </p>
+    <ul class="doc-links">
+      <li><a href={sourcesDocUrl} target="_blank" rel="noopener noreferrer">docs/SOURCES.md</a> — complete source list</li>
+      <li><a href={`${repoUrl}/blob/main/docs/RESEARCH.md`} target="_blank" rel="noopener noreferrer">docs/RESEARCH.md</a> — research rules</li>
+      <li><a href={repoUrl} target="_blank" rel="noopener noreferrer">GitHub repository</a></li>
+    </ul>
+  </section>
+
+  <section class="stats">
+    <StatCard value={attribution.total_count} label="Mirrored images" preset="all" />
+    <StatCard value={attribution.sources.length} label="Source groups" preset="all" />
+  </section>
+
+  <div class="filters" id="attribution-filters">
+    <label>
+      Search
+      <input type="search" id="attributionSearch" placeholder="Filename or path…" autocomplete="off" />
+    </label>
+    <label>
+      Source
+      <select id="attributionSource">
+        <option value="">All sources</option>
+        {sourceNames.map((name) => (
+          <option value={name}>{name}</option>
+        ))}
+      </select>
+    </label>
+  </div>
+
+  <p class="muted attribution-meta">
+    Manifest generated {new Date(attribution.generated_at).toLocaleDateString("en-GB", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })}
+  </p>
+
+  {attribution.sources.map((group) => (
+    <section
+      class="card attribution-group"
+      id={`source-${group.source_name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+      data-attribution-group
+      data-source={group.source_name}
+    >
+      <h3>
+        {group.source_name}
+        <span class="attribution-group__count">({group.count})</span>
+      </h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Local file</th>
+              <th>Original URL</th>
+              <th>Fetched</th>
+            </tr>
+          </thead>
+          <tbody>
+            {group.images.map((image) => (
+              <tr
+                data-attribution-row
+                data-source={group.source_name}
+                data-search={`${image.filename} ${image.path} ${image.source_url ?? ""}`.toLowerCase()}
+              >
+                <td>
+                  <a href={image.site_url} target="_blank" rel="noopener noreferrer">
+                    <code>{image.filename}</code>
+                  </a>
+                </td>
+                <td class="source-url">
+                  {image.source_url ? (
+                    <a href={image.source_url} target="_blank" rel="noopener noreferrer">
+                      {image.source_url}
+                    </a>
+                  ) : (
+                    <span class="muted">—</span>
+                  )}
+                </td>
+                <td class="muted fetched-at">
+                  {image.fetched_at
+                    ? new Date(image.fetched_at).toLocaleDateString("en-GB")
+                    : "—"}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  {attribution.total_count === 0 && (
+    <section class="card">
+      <p class="muted">No mirrored images in manifest. Run <code>make build</code> after fetching images.</p>
+    </section>
+  )}
+</Base>
+
+<style>
+  .attribution-intro p:last-child {
+    margin-bottom: 0;
+  }
+  .source-list {
+    margin: 1rem 0 0;
+    display: grid;
+    gap: 1rem;
+  }
+  .source-list dt {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .source-list dd {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .doc-links {
+    margin: 0.75rem 0 0;
+    padding-left: 1.25rem;
+  }
+  .doc-links li + li {
+    margin-top: 0.35rem;
+  }
+  .attribution-meta {
+    margin: 0 0 1rem;
+    font-size: 0.85rem;
+  }
+  .attribution-group h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+  }
+  .attribution-group__count {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 0.9em;
+  }
+  .table-wrap {
+    overflow-x: auto;
+  }
+  .source-url a {
+    word-break: break-all;
+    font-size: 0.85rem;
+  }
+  .fetched-at {
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+  code {
+    font-size: 0.85em;
+  }
+  .attribution-group[hidden] {
+    display: none;
+  }
+</style>
+
+<script>
+  const searchInput = document.getElementById("attributionSearch") as HTMLInputElement;
+  const sourceSelect = document.getElementById("attributionSource") as HTMLSelectElement;
+  const groups = Array.from(document.querySelectorAll("[data-attribution-group]"));
+  const statButtons = Array.from(document.querySelectorAll("[data-stat-preset]"));
+
+  function applyAttributionFilters() {
+    const query = searchInput.value.trim().toLowerCase();
+    const source = sourceSelect.value;
+
+    for (const group of groups) {
+      const groupSource = group.getAttribute("data-source") ?? "";
+      const rows = Array.from(group.querySelectorAll("[data-attribution-row]"));
+      let visibleCount = 0;
+
+      for (const row of rows) {
+        const haystack = row.getAttribute("data-search") ?? "";
+        const matchesQuery = !query || haystack.includes(query);
+        const matchesSource = !source || groupSource === source;
+        const visible = matchesQuery && matchesSource;
+        (row as HTMLElement).hidden = !visible;
+        if (visible) visibleCount += 1;
+      }
+
+      (group as HTMLElement).hidden = visibleCount === 0;
+    }
+  }
+
+  function applyAttributionPreset(preset: string) {
+    searchInput.value = "";
+    sourceSelect.value = "";
+    applyAttributionFilters();
+
+    statButtons.forEach((button) => {
+      button.classList.toggle(
+        "stat--active",
+        button.getAttribute("data-stat-preset") === preset
+      );
+    });
+
+    groups[0]?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  searchInput?.addEventListener("input", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyAttributionFilters();
+  });
+  sourceSelect?.addEventListener("change", () => {
+    statButtons.forEach((button) => button.classList.remove("stat--active"));
+    applyAttributionFilters();
+  });
+
+  statButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.getAttribute("data-stat-preset") ?? "all";
+      applyAttributionPreset(preset);
+    });
+  });
+</script>

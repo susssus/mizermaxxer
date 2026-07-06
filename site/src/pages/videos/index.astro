@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import StatCard from "../../components/StatCard.astro";
 import archive from "../../data/archive.json";
 
 const songMap = new Map(archive.songs.map((song) => [song.id, song]));
@@ -11,10 +12,10 @@ const songMap = new Map(archive.songs.map((song) => [song.id, song]));
     <a href="/discography">discography page</a>. This page lists online promotional videos (PVs).
   </p>
   <section class="stats">
-    <div class="stat"><strong>{archive.stats.video_count}</strong><span>Videos catalogued</span></div>
+    <StatCard value={archive.stats.video_count} label="Videos catalogued" preset="all" />
   </section>
 
-  <section class="card">
+  <section class="card" id="videos-list">
     <h2>Promotional videos & footage</h2>
     <table>
       <thead>
@@ -51,3 +52,12 @@ const songMap = new Map(archive.songs.map((song) => [song.id, song]));
     </ul>
   </section>
 </Base>
+
+<script>
+  document.querySelectorAll("[data-stat-preset]").forEach((button) => {
+    button.addEventListener("click", () => {
+      button.classList.add("stat--active");
+      document.getElementById("videos-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>
