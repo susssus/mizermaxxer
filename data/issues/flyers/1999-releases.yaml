@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1999-11-03-saikai-single.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1999-11-03-saikai-single.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1999-12-21-saikai-de-limage.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1999-12-21-saikai-de-limage.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

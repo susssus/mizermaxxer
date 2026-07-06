@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1994-07-24-memoire.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1994-07-24-memoire.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1994-07-24-memoire-ii.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1994-07-24-memoire-ii.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -68,8 +68,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1994-12-24-memoire-dx.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1994-12-24-memoire-dx.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

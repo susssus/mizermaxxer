@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1996-06-09-voyage.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1996-06-09-voyage.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1996-10-10-ma-cherie.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1996-10-10-ma-cherie.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

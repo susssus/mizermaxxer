@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1995-12-10-uruwashiki-kamen.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1995-12-10-uruwashiki-kamen.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'

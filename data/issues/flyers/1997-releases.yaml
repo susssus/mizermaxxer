@@ -26,8 +26,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1997-02-11-gekka.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1997-02-11-gekka.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
@@ -47,8 +47,8 @@ articles:
     quality: medium
     url: images/flyers/flyers-1997-06-30-derniere-vhs.webp
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/flyers-1997-06-30-derniere-vhs.yaml
   purchase_links: []
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
     catalog).'
