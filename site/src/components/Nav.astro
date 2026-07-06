@@ -1,7 +1,9 @@
 ---
 import archive from "../data/archive.json";
 
-const flyerCount = archive.issues.filter((issue) => issue.publication === "flyers").length;
+const flyerCount = archive.issues
+  .filter((issue) => issue.publication === "flyers")
+  .reduce((count, issue) => count + issue.articles.length, 0);
 const releaseCount = archive.stats.album_count + archive.stats.single_count;
 
 const links = [
