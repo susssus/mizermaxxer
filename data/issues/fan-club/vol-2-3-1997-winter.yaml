@@ -17,7 +17,7 @@ articles:
   title_ja: ma chérie Fan Club Magazine Vol. 2&3
   title_en: ma chérie Fan Club Magazine Vol. 2&3 (Winter 1997)
   type: newsletter
-  pages: null
+  pages: "32"
   members:
   - gackt
   - kami
@@ -31,11 +31,11 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: original_scan
+    quality: high
     url: images/scans/fan-club/1997-12/01.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/fan-club-vol-2-3-1997-winter.yaml
   purchase_links: []
   notes: '32 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1997-12/02.jpg,
     images/scans/fan-club/1997-12/03.jpg, images/scans/fan-club/1997-12/04.jpg, images/scans/fan-club/1997-12/05.jpg,
@@ -53,6 +53,12 @@ changelog:
   action: created
   source: cantavanda
   notes: Full fan club issue scan gallery linked.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: >
+    Mirrored 32 scan pages locally; added English translation with romaji
+    (data/translations/fan-club-vol-2-3-1997-winter.yaml).
 - date: '2026-07-06'
   action: updated
   source: cantavanda

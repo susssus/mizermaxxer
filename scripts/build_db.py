@@ -28,12 +28,25 @@ from common import (
 )
 
 GALLERY_PREVIEWS_PATH = ROOT / "site" / "src" / "data" / "gallery_previews.json"
+TRANSLATIONS_DIR = ROOT / "data" / "translations"
+TRANSLATIONS_PATH = ROOT / "site" / "src" / "data" / "translations.json"
 GALLERY_INDEX_PATH = ROOT / "site" / "src" / "data" / "gallery_index.json"
 ATTRIBUTION_PATH = ROOT / "site" / "src" / "data" / "attribution.json"
 MANIFEST_PATH = ROOT / "images" / "manifest.json"
 SCAN_SOURCES_CATALOG = ROOT / "scripts" / "research" / "scan_sources_catalog.yaml"
 SHOXX_VOL61_GALLERY = "https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html"
 SHOXX_VOL61_COVER = "https://file.garden/Zts7YeM0Ki6DRAfG/Shoxx/March%201998/01.jpg"
+
+
+def _json_safe(value: Any) -> Any:
+    """Recursively convert YAML date/datetime values for JSON export."""
+    if isinstance(value, dict):
+        return {key: _json_safe(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [_json_safe(item) for item in value]
+    if hasattr(value, "isoformat"):
+        return value.isoformat()
+    return value
 
 
 def create_schema(connection: sqlite3.Connection) -> None:
@@ -690,6 +703,36 @@ def export_promo_gallery(albums: list[dict[str, Any]], profiles: list[dict[str, 
     GALLERY_INDEX_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def export_translations() -> None:
+    """Export data/translations/*.yaml for the site /translation/[id] pages."""
+    generated_at = (
+        __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat().replace("+00:00", "Z")
+    )
+    by_id: dict[str, dict[str, Any]] = {}
+
+    if TRANSLATIONS_DIR.exists():
+        for path in sorted(TRANSLATIONS_DIR.glob("*.yaml")):
+            doc = load_yaml(path)
+            if not doc or not doc.get("id"):
+                continue
+            entry = dict(doc)
+            if entry.get("pages"):
+                entry["format"] = "pages"
+            elif entry.get("dialogue"):
+                entry["format"] = "dialogue"
+            else:
+                entry["format"] = "other"
+            by_id[entry["id"]] = _json_safe(entry)
+
+    payload = {
+        "generated_at": generated_at,
+        "count": len(by_id),
+        "ids": sorted(by_id),
+        "by_id": by_id,
+    }
+    TRANSLATIONS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     ensure_dirs()
     connection = sqlite3.connect(DB_PATH)
@@ -704,6 +747,7 @@ def main() -> int:
         export_gallery_previews()
         export_promo_gallery(load_albums(), load_people_profiles())
         export_attribution()
+        export_translations()
     finally:
         connection.close()
 
@@ -715,6 +759,7 @@ def main() -> int:
     print(f"Exported gallery previews to {GALLERY_PREVIEWS_PATH}.")
     print(f"Exported promo gallery to {GALLERY_INDEX_PATH}.")
     print(f"Exported image attribution to {ATTRIBUTION_PATH}.")
+    print(f"Exported translations to {TRANSLATIONS_PATH}.")
     return 0
 
 

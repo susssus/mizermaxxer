@@ -1,0 +1,284 @@
+---
+import ArchiveImage from "../../components/ArchiveImage.astro";
+import Base from "../../layouts/Base.astro";
+import translationsData from "../../data/translations.json";
+import { scanHref } from "../../lib/translations.ts";
+
+export function getStaticPaths() {
+  return translationsData.ids.map((id) => ({ params: { id } }));
+}
+
+const { id } = Astro.params;
+const doc = translationsData.by_id[id as keyof typeof translationsData.by_id];
+
+function pageScan(doc: Record<string, unknown>, pageNum: number): string | null {
+  const paths = doc.scan_paths as string[] | undefined;
+  if (!paths?.length) return null;
+  const idx = pageNum - 1;
+  if (idx >= 0 && idx < paths.length) return paths[idx];
+  return null;
+}
+
+function speakerLabel(speaker: string): string {
+  if (speaker === "interviewer") return "——";
+  if (speaker === "all") return "All";
+  return speaker.charAt(0).toUpperCase() + speaker.slice(1);
+}
+---
+
+{doc && (
+  <Base title={doc.title_en ?? doc.title_ja ?? doc.id}>
+    <a class="back" href="/">← Back to archive</a>
+
+    <header class="translation-header card">
+      <h1>{doc.title_en ?? doc.title_ja}</h1>
+      {doc.title_ja && doc.title_en && doc.title_ja !== doc.title_en && (
+        <p class="title-ja">{doc.title_ja}</p>
+      )}
+      {doc.subtitle && <p class="subtitle">{doc.subtitle}</p>}
+      <dl class="meta">
+        {doc.publication && (
+          <>
+            <dt>Publication</dt>
+            <dd>{doc.publication}{doc.issue_number ? ` #${doc.issue_number}` : ""}</dd>
+          </>
+        )}
+        {doc.publication_date && (
+          <>
+            <dt>Date</dt>
+            <dd>{doc.publication_date}</dd>
+          </>
+        )}
+        {(doc.page_count || (!Array.isArray(doc.pages) && doc.pages) || doc.scan_paths?.length) && (
+          <>
+            <dt>Pages</dt>
+            <dd>
+              {doc.page_count
+                ?? (!Array.isArray(doc.pages) ? doc.pages : null)
+                ?? (Array.isArray(doc.pages) ? doc.pages.length : null)
+                ?? doc.scan_paths?.length}
+            </dd>
+          </>
+        )}
+        {(doc.writer_en || doc.writer_ja || doc.writers_en) && (
+          <>
+            <dt>Writer</dt>
+            <dd>{doc.writer_en ?? doc.writers_en ?? doc.writer_ja}</dd>
+          </>
+        )}
+        {doc.translator && (
+          <>
+            <dt>Translator</dt>
+            <dd>{doc.translator}</dd>
+          </>
+        )}
+      </dl>
+      {doc.license_notes && <p class="muted license">{doc.license_notes}</p>}
+    </header>
+
+    {doc.format === "dialogue" && doc.intro && (
+      <section class="card translation-block">
+        <h2>Introduction</h2>
+        {doc.intro.ja && (
+          <div class="lang-block">
+            <span class="lang-tag">Japanese</span>
+            <p class="ja-text">{doc.intro.ja}</p>
+          </div>
+        )}
+        {doc.intro.romaji && (
+          <div class="lang-block">
+            <span class="lang-tag">Romaji</span>
+            <p class="romaji-text">{doc.intro.romaji}</p>
+          </div>
+        )}
+        {doc.intro.en && (
+          <div class="lang-block">
+            <span class="lang-tag">English</span>
+            <p>{doc.intro.en}</p>
+          </div>
+        )}
+      </section>
+    )}
+
+    {doc.format === "dialogue" && doc.dialogue && (
+      <section class="card translation-block">
+        <h2>Interview</h2>
+        <div class="dialogue-list">
+          {doc.dialogue.map((line) => (
+            <article class="dialogue-line">
+              <p class="speaker">{speakerLabel(line.speaker ?? "unknown")}</p>
+              {line.ja && (
+                <div class="lang-block">
+                  <span class="lang-tag">JA</span>
+                  <p class="ja-text">{line.ja}</p>
+                </div>
+              )}
+              {line.romaji && (
+                <div class="lang-block">
+                  <span class="lang-tag">Romaji</span>
+                  <p class="romaji-text">{line.romaji}</p>
+                </div>
+              )}
+              {line.en && (
+                <div class="lang-block">
+                  <span class="lang-tag">EN</span>
+                  <p>{line.en}</p>
+                </div>
+              )}
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {doc.format === "pages" && Array.isArray(doc.pages) && (
+      <section class="pages-list">
+        {doc.pages.map((page) => {
+          const scan = pageScan(doc, page.page as number);
+          return (
+            <article class="card translation-page" id={`page-${page.page}`}>
+              <h2>
+                Page {page.page}
+                {page.section && <span class="section-label"> — {page.section}</span>}
+              </h2>
+              {scan && (
+                <ArchiveImage
+                  src={scan}
+                  alt={`Page ${page.page}`}
+                  caption={`Page ${page.page}`}
+                  source="Cantavanda"
+                  variant="inline"
+                />
+              )}
+              {page.ja && (
+                <div class="lang-block">
+                  <span class="lang-tag">Japanese</span>
+                  <p class="ja-text">{page.ja}</p>
+                </div>
+              )}
+              {page.romaji && (
+                <div class="lang-block">
+                  <span class="lang-tag">Romaji</span>
+                  <p class="romaji-text">{page.romaji}</p>
+                </div>
+              )}
+              {page.en && (
+                <div class="lang-block">
+                  <span class="lang-tag">English</span>
+                  <p>{page.en}</p>
+                </div>
+              )}
+            </article>
+          );
+        })}
+      </section>
+    )}
+
+    {doc.source_scan_gallery && (
+      <p class="muted source-link">
+        <a href={doc.source_scan_gallery as string} target="_blank" rel="noopener">
+          Original scan gallery on Cantavanda
+        </a>
+      </p>
+    )}
+  </Base>
+)}
+
+<style>
+  .translation-header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 1.75rem;
+  }
+  .title-ja {
+    font-size: 1.1rem;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+  }
+  .subtitle {
+    font-style: italic;
+    color: var(--rose);
+    margin: 0 0 1rem;
+  }
+  .meta {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem 1rem;
+    margin: 1rem 0 0;
+    font-size: 0.95rem;
+  }
+  .meta dt {
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .meta dd {
+    margin: 0;
+  }
+  .license {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+  }
+  .translation-block {
+    margin-top: 1rem;
+  }
+  .translation-block h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+  .pages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .translation-page h2 {
+    margin-top: 0;
+    font-size: 1.15rem;
+  }
+  .section-label {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .lang-block {
+    margin: 0.75rem 0;
+  }
+  .lang-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--rose);
+    margin-bottom: 0.25rem;
+  }
+  .ja-text {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+    line-height: 1.7;
+  }
+  .romaji-text {
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+  .dialogue-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .dialogue-line {
+    border-left: 3px solid var(--border);
+    padding-left: 1rem;
+  }
+  .speaker {
+    font-weight: 600;
+    margin: 0 0 0.35rem;
+    color: var(--accent);
+  }
+  .source-link {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+</style>

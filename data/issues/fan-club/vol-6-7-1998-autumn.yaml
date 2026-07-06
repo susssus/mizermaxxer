@@ -17,7 +17,7 @@ articles:
   title_ja: ma chérie Vol. 6–7
   title_en: ma chérie Vol. 6–7 (Autumn 1998)
   type: newsletter
-  pages: null
+  pages: "40"
   members:
   - gackt
   - kami
@@ -34,8 +34,8 @@ articles:
     quality: original_scan
     url: images/scans/fan-club/1998-09/01.jpg
   translation:
-    available: false
-    url: null
+    available: true
+    url: data/translations/fan-club-vol-6-7-1998-autumn.yaml
   purchase_links: []
   notes: '40 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-09/02.jpg,
     images/scans/fan-club/1998-09/03.jpg, images/scans/fan-club/1998-09/04.jpg, images/scans/fan-club/1998-09/05.jpg,
@@ -60,3 +60,9 @@ changelog:
   action: updated
   source: cantavanda
   notes: Mirrored 40 scan pages locally.
+- date: '2026-07-06'
+  action: updated
+  source: cantavanda
+  notes: >
+    Added English translation with romaji
+    (data/translations/fan-club-vol-6-7-1998-autumn.yaml).
