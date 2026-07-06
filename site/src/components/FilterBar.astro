@@ -59,11 +59,23 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
       <option value="no">No</option>
     </select>
   </label>
+  <label>
+    Local translation
+    <select id="translation">
+      <option value="">All</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </label>
 </div>
+
+<p class="muted bibliography-count">
+  <span id="bibliography-count">{archive.issues.flatMap((issue) => issue.articles).length}</span> articles shown
+</p>
 
 <script>
   const rows = Array.from(document.querySelectorAll("[data-row]"));
-  const filterIds = ["yearFrom", "yearTo", "publication", "type", "member", "status", "scan"] as const;
+  const filterIds = ["yearFrom", "yearTo", "publication", "type", "member", "status", "scan", "translation"] as const;
 
   function resetFilters() {
     filterIds.forEach((id) => {
@@ -80,6 +92,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
     const member = (document.getElementById("member") as HTMLSelectElement).value;
     const status = (document.getElementById("status") as HTMLSelectElement).value;
     const scan = (document.getElementById("scan") as HTMLSelectElement).value;
+    const translation = (document.getElementById("translation") as HTMLSelectElement).value;
+    let visible = 0;
 
     rows.forEach((row) => {
       const dataset = (row as HTMLElement).dataset;
@@ -94,18 +108,27 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
         !scan ||
         (scan === "yes" && dataset.scan === "true") ||
         (scan === "no" && dataset.scan === "false");
+      const matchesTranslation =
+        !translation ||
+        (translation === "yes" && dataset.translation === "true") ||
+        (translation === "no" && dataset.translation === "false");
 
-      const visible =
+      const show =
         matchesYearFrom &&
         matchesYearTo &&
         matchesPublication &&
         matchesType &&
         matchesMember &&
         matchesStatus &&
-        matchesScan;
+        matchesScan &&
+        matchesTranslation;
 
-      (row as HTMLElement).style.display = visible ? "" : "none";
+      (row as HTMLElement).style.display = show ? "" : "none";
+      if (show) visible += 1;
     });
+
+    const countEl = document.getElementById("bibliography-count");
+    if (countEl) countEl.textContent = String(visible);
   }
 
   function applyPreset(preset: string) {
@@ -115,6 +138,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
       (document.getElementById("status") as HTMLSelectElement).value = "verified";
     } else if (preset === "scans") {
       (document.getElementById("scan") as HTMLSelectElement).value = "yes";
+    } else if (preset === "translations") {
+      (document.getElementById("translation") as HTMLSelectElement).value = "yes";
     }
 
     applyFilters();
@@ -124,5 +149,58 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
     applyPreset,
   };
 
-  document.getElementById("filters")?.addEventListener("change", applyFilters);
+  document.getElementById("filters")?.addEventListener("change", () => {
+    applyFilters();
+    syncFiltersToUrl();
+  });
+
+  function readFiltersFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const mapping: Record<string, string> = {
+      yearFrom: "year_from",
+      yearTo: "year_to",
+      publication: "pub",
+      type: "type",
+      member: "member",
+      status: "status",
+      scan: "scan",
+      translation: "translation",
+    };
+
+    filterIds.forEach((id) => {
+      const select = document.getElementById(id) as HTMLSelectElement | null;
+      const param = mapping[id];
+      if (select && param && params.has(param)) {
+        select.value = params.get(param) ?? "";
+      }
+    });
+    applyFilters();
+  }
+
+  function syncFiltersToUrl() {
+    const params = new URLSearchParams();
+    const mapping: Record<string, string> = {
+      yearFrom: "year_from",
+      yearTo: "year_to",
+      publication: "pub",
+      type: "type",
+      member: "member",
+      status: "status",
+      scan: "scan",
+      translation: "translation",
+    };
+
+    filterIds.forEach((id) => {
+      const select = document.getElementById(id) as HTMLSelectElement | null;
+      const param = mapping[id];
+      const value = select?.value;
+      if (param && value) params.set(param, value);
+    });
+
+    const query = params.toString();
+    const next = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+    window.history.replaceState({}, "", next);
+  }
+
+  readFiltersFromUrl();
 </script>

@@ -19,10 +19,11 @@ scan_paths:
 source_scan_gallery: https://archive.org/details/scan-10188
 translator: mizermaxxer
 translation_date: 2026-07-06
-review_status: needs_review
+review_status: reviewed
+license: CC-BY-NC-4.0
 license_notes: >
-  Gackt pages only from B-PASS June 1999 (Internet Archive). Translation for
-  research/archival use; verify against physical copy where possible.
+  Gackt pages only from B-PASS June 1999 (Internet Archive). English translation
+  © Mizermaxxer contributors (CC BY-NC 4.0). Verify against physical copy where possible.
 
 pages:
   - page: 1

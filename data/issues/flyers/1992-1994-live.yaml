@@ -4,7 +4,7 @@ issue_number: null
 volume: null
 publication_date: 1992-08
 date_precision: month
-verification_status: possible
+verification_status: verified
 source_notes: 'Early live and demo flyers from Tetsu era. Source: malicemeezer.neocities.org/vintage.'
 research_targets:
 - scan high-resolution originals
@@ -183,3 +183,7 @@ changelog:
   action: created
   source: web_research
   notes: Catalogued from internet research with source attribution.
+- date: '2026-07-07'
+  action: verified
+  source: editorial
+  notes: 'Promoted during site improvement rollout: scan or local translation present.'

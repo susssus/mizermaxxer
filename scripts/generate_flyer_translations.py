@@ -13,7 +13,8 @@ ISSUES_DIR = ROOT / "data" / "issues" / "flyers"
 
 LICENSE = (
     "Scan © malice-mizer.info / Malice Meezer (as credited per flyer). "
-    "Translation for research/archival use; verify against physical copy where possible."
+    "English translation © Mizermaxxer contributors (CC BY-NC 4.0). "
+    "Verify against physical copy where possible."
 )
 
 FLYERS: list[dict] = [
@@ -762,6 +763,7 @@ def render_flyer_yaml(entry: dict) -> str:
         "translator": "mizermaxxer",
         "translation_date": "2026-07-06",
         "review_status": "needs_review",
+        "license": "CC-BY-NC-4.0",
         "license_notes": LICENSE,
         "pages_content": [
             {
@@ -788,6 +790,7 @@ def render_flyer_yaml(entry: dict) -> str:
         "translator: mizermaxxer",
         "translation_date: 2026-07-06",
         "review_status: needs_review",
+        "license: CC-BY-NC-4.0",
         "license_notes: >",
         f"  {LICENSE}",
         "",

@@ -1,8 +1,35 @@
 /** Helpers for local translation YAML paths → site routes. */
 
+import archive from "../data/archive.json";
 import translationsData from "../data/translations.json";
 
 export type TranslationReviewStatus = "needs_review" | "reviewed";
+
+export interface IssueRef {
+  issueId: string;
+  publication: string;
+  publicationDate: string;
+}
+
+const issueByArticleId = new Map<string, IssueRef>();
+for (const issue of archive.issues) {
+  for (const article of issue.articles) {
+    issueByArticleId.set(article.id, {
+      issueId: issue.id,
+      publication: issue.publication,
+      publicationDate: issue.publication_date,
+    });
+  }
+}
+
+export function issueForArticle(articleId: string | null | undefined): IssueRef | null {
+  if (!articleId) return null;
+  return issueByArticleId.get(articleId) ?? null;
+}
+
+export function publicationName(slug: string): string {
+  return archive.publications.find((pub) => pub.slug === slug)?.name_en ?? slug;
+}
 
 export function translationSlug(url: string | null | undefined): string | null {
   if (!url) return null;

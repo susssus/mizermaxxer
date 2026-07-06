@@ -11,6 +11,7 @@ from jsonschema import Draft202012Validator, RefResolver
 from common import (
     DATA_DIR,
     SCHEMA_DIR,
+    infer_translation_format,
     is_entity_stub,
     iter_issue_files,
     iter_yaml_files,
@@ -23,6 +24,7 @@ from common import (
     load_venues,
     load_yaml,
     song_slugs,
+    translation_has_renderable_content,
     venue_slugs,
 )
 
@@ -141,6 +143,105 @@ def validate_concerts() -> list[str]:
     return validate_directory("concerts", "concert.schema.json", extra)
 
 
+def translation_slug_from_url(url: str) -> str | None:
+    prefix = "data/translations/"
+    if url.startswith(prefix) and url.endswith(".yaml"):
+        return url[len(prefix) : -len(".yaml")]
+    return None
+
+
+def build_article_index() -> tuple[dict[str, dict], dict[str, str]]:
+    """Map article_id → {issue, article, path}; article_id → local translation slug."""
+    articles_by_id: dict[str, dict] = {}
+    article_translation_slugs: dict[str, str] = {}
+
+    for path in iter_issue_files():
+        issue = load_yaml(path)
+        rel = path.relative_to(DATA_DIR)
+        for article in issue.get("articles", []):
+            articles_by_id[article["id"]] = {
+                "issue": issue,
+                "article": article,
+                "path": str(rel),
+            }
+            translation = article.get("translation") or {}
+            if translation.get("available") and translation.get("url"):
+                slug = translation_slug_from_url(translation["url"])
+                if slug:
+                    article_translation_slugs[article["id"]] = slug
+
+    return articles_by_id, article_translation_slugs
+
+
+def normalize_yaml_dates(value: object) -> object:
+    """Convert date/datetime objects from PyYAML into ISO strings for schema checks."""
+    if isinstance(value, dict):
+        return {key: normalize_yaml_dates(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [normalize_yaml_dates(item) for item in value]
+    if hasattr(value, "isoformat"):
+        return value.isoformat()
+    return value
+
+
+def validate_translations() -> list[str]:
+    errors: list[str] = []
+    validator = make_validator("translation.schema.json")
+    translations_dir = DATA_DIR / "translations"
+
+    translations_by_id: dict[str, dict] = {}
+    for path in iter_yaml_files(translations_dir):
+        doc = normalize_yaml_dates(load_yaml(path))
+        rel = path.relative_to(DATA_DIR)
+        for error in validator.iter_errors(doc):
+            errors.append(f"{rel}: {error.message}")
+        translation_id = doc.get("id")
+        if not translation_id:
+            continue
+        if translation_id in translations_by_id:
+            errors.append(f"{rel}: duplicate translation id '{translation_id}'")
+        translations_by_id[translation_id] = doc
+
+    articles_by_id, article_translation_slugs = build_article_index()
+    linked_translation_ids = set(article_translation_slugs.values())
+
+    for translation_id, doc in translations_by_id.items():
+        rel = f"translations/{translation_id}.yaml"
+        article_id = doc.get("article_id")
+        if article_id and article_id not in articles_by_id:
+            errors.append(f"{rel}: unknown article_id '{article_id}'")
+            continue
+
+        expected_slug = article_translation_slugs.get(article_id or "")
+        if article_id:
+            if expected_slug is None:
+                errors.append(
+                    f"{rel}: article '{article_id}' has no local translation.url pointing to this file"
+                )
+            elif expected_slug != translation_id:
+                errors.append(
+                    f"{rel}: article '{article_id}' points to translation '{expected_slug}', not '{translation_id}'"
+                )
+
+        if translation_id not in linked_translation_ids:
+            errors.append(f"{rel}: orphan translation (no issue article links to it)")
+
+        if not translation_has_renderable_content(doc):
+            fmt = infer_translation_format(doc)
+            errors.append(f"{rel}: no renderable translation body for format '{fmt}'")
+
+        license_notes = doc.get("license_notes") or ""
+        if doc.get("license") == "CC-BY-NC-4.0" and "CC BY-NC" not in license_notes:
+            errors.append(f"{rel}: license_notes must mention CC BY-NC 4.0 for the English translation")
+
+    for article_id, slug in article_translation_slugs.items():
+        if slug not in translations_by_id:
+            article_path = articles_by_id[article_id]["path"]
+            errors.append(f"{article_path}: translation.url points to missing file '{slug}'")
+
+    return errors
+
+
 def validate_videos() -> list[str]:
     songs = song_slugs()
 
@@ -165,7 +266,7 @@ def main() -> int:
         + validate_concerts()
         + validate_videos()
         + validate_directory("references", "reference.schema.json")
-        + validate_directory("translations", "translation.schema.json")
+        + validate_translations()
     )
 
     if errors:

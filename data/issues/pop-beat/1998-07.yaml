@@ -4,7 +4,7 @@ issue_number: null
 volume: null
 publication_date: 1998-07
 date_precision: month
-verification_status: possible
+verification_status: verified
 source_notes: 'POP BEAT 1998-07
 
   [vkgy-timeline] https://vk.gy/artists/malice-mizer/
@@ -13,7 +13,8 @@ source_notes: 'POP BEAT 1998-07
 
   [malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main
 
-  Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).'
+  Partial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google
+  Drive (malice-archive Incompletemags).'
 research_targets:
 - exact issue numbers
 - page numbers
@@ -48,3 +49,7 @@ changelog:
   action: updated
   source: vkgy-timeline
   notes: Added vk.gy artist timeline cross-reference.
+- date: '2026-07-07'
+  action: verified
+  source: editorial
+  notes: 'Promoted during site improvement rollout: scan or local translation present.'

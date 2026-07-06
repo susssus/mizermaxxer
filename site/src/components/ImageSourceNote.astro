@@ -1,0 +1,56 @@
+---
+import { imageAttributionForSrc, type ImageAttribution } from "../lib/imageAttribution.ts";
+
+interface Props {
+  src?: string | null;
+  sourceName?: string | null;
+  sourceUrl?: string | null;
+  compact?: boolean;
+  class?: string;
+}
+
+const { src, sourceName, sourceUrl, compact = false, class: className = "" } = Astro.props;
+
+const attribution: ImageAttribution | null = imageAttributionForSrc(src, {
+  sourceName,
+  sourceUrl,
+});
+---
+
+{attribution && (
+  <p class:list={["image-source", { "image-source--compact": compact }, className]}>
+    <span class="image-source__label">Source:</span>
+    {attribution.sourceUrl ? (
+      <a href={attribution.sourceUrl} target="_blank" rel="noopener noreferrer">
+        {attribution.sourceName}
+      </a>
+    ) : (
+      <span>{attribution.sourceName}</span>
+    )}
+  </p>
+)}
+
+<style>
+  .image-source {
+    margin: 0.35rem 0 0;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+  .image-source--compact {
+    margin: 0.2rem 0 0;
+    font-size: 0.65rem;
+  }
+  .image-source__label {
+    margin-right: 0.25rem;
+  }
+  .image-source a {
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    word-break: break-word;
+  }
+  .image-source a:hover {
+    color: var(--accent);
+  }
+</style>

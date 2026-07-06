@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T21:08:05.631111Z",
+  "generated_at": "2026-07-06T23:03:59.099214Z",
   "people": {
     "members": [
       {
@@ -1177,7 +1177,7 @@
       "volume": null,
       "publication_date": "1992-08",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Early live and demo flyers from Tetsu era. Source: malicemeezer.neocities.org/vintage.",
       "research_targets": [
         "scan high-resolution originals",
@@ -1189,6 +1189,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -2790,7 +2796,7 @@
       "volume": null,
       "publication_date": "1994",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -2802,6 +2808,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -5033,7 +5045,7 @@
       "volume": null,
       "publication_date": "1995",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -5045,6 +5057,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -5990,7 +6008,7 @@
       "volume": null,
       "publication_date": "1996",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -6002,6 +6020,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -6109,7 +6133,7 @@
       "volume": null,
       "publication_date": "1996-03",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "SHOXX March 1996\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -6122,6 +6146,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -6201,7 +6231,7 @@
       "volume": null,
       "publication_date": "1996-05",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "SHOXX May 1996\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -6214,6 +6244,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -6477,7 +6513,7 @@
       "volume": null,
       "publication_date": "1997",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -6489,6 +6525,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -8851,7 +8893,7 @@
       "volume": null,
       "publication_date": "1998",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -8863,6 +8905,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -9682,7 +9730,7 @@
       "volume": null,
       "publication_date": "1998-03",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "CD Data March 20, 1998\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -9695,6 +9743,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -10745,7 +10799,7 @@
       "volume": null,
       "publication_date": "1998-05",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Myojo May 1998\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -10758,6 +10812,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -10973,7 +11033,7 @@
       "volume": null,
       "publication_date": "1998-06",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "B-PASS June 1998\n[malice-archive] https://malice-archive.neocities.org/list\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\n[vkgy] https://vk.gy/magazines/b-pass/1388/1998-06/\nPartial scan on Google Drive (malice-archive Incompletemags).\nvkgy: https://vk.gy/magazines/b-pass/1388/1998-06/",
       "research_targets": [
         "exact issue numbers",
@@ -10986,6 +11046,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -11439,7 +11505,7 @@
       "volume": null,
       "publication_date": "1998-07",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "B-PASS July 1998\n[malice-archive] https://malice-archive.neocities.org/list\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\n[vkgy] https://vk.gy/magazines/b-pass/829/1998-07/\nPartial scan on Google Drive (malice-archive Incompletemags).\nvkgy: https://vk.gy/magazines/b-pass/829/1998-07/",
       "research_targets": [
         "exact issue numbers",
@@ -11452,6 +11518,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -11715,7 +11787,7 @@
       "volume": null,
       "publication_date": "1998-07",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "POP BEAT 1998-07\n[vkgy-timeline] https://vk.gy/artists/malice-mizer/\nPOP BEAT July 1998\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -11734,6 +11806,12 @@
           "action": "updated",
           "source": "vkgy-timeline",
           "notes": "Added vk.gy artist timeline cross-reference."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -12049,7 +12127,7 @@
       "volume": null,
       "publication_date": "1998-08",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "GB August 1998\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -12062,6 +12140,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -12095,7 +12179,7 @@
       "volume": null,
       "publication_date": "1998-08",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "GiGS August 1998\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -12108,6 +12192,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -14668,7 +14758,7 @@
       "volume": null,
       "publication_date": "1999",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "CD SKiT! Vol. 11\n[malice-archive] https://malice-archive.neocities.org/list\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -14681,6 +14771,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -14714,7 +14810,7 @@
       "volume": null,
       "publication_date": "1999",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "CD SKiT! Vol. 12\n[malice-archive] https://malice-archive.neocities.org/list\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -14727,6 +14823,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -15174,7 +15276,7 @@
       "volume": null,
       "publication_date": "1999",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -15186,6 +15288,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -16344,7 +16452,7 @@
       "volume": null,
       "publication_date": "1999",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "vkgy roles: cover, large_feature\n[vkgy] https://vk.gy/magazines/fools-mate/1292/no207/\nvkgy: https://vk.gy/magazines/fools-mate/1292/no207/",
       "research_targets": [
         "exact issue numbers",
@@ -16357,6 +16465,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -16620,7 +16734,7 @@
       "volume": null,
       "publication_date": "1999",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "vkgy roles: large_feature\n[vkgy] https://vk.gy/magazines/fools-mate/1304/no226/\nvkgy: https://vk.gy/magazines/fools-mate/1304/no226/",
       "research_targets": [
         "exact issue numbers",
@@ -16633,6 +16747,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -18966,7 +19086,7 @@
       "volume": null,
       "publication_date": "1999",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Quick Japan Vol. 23\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -18979,6 +19099,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -19107,7 +19233,7 @@
       "volume": null,
       "publication_date": "1999-01",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "GB January 1999\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -19120,6 +19246,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -19245,7 +19377,7 @@
       "volume": null,
       "publication_date": "1999-01",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "PATi PATi January 1999\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -19258,6 +19390,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -19527,7 +19665,7 @@
       "volume": null,
       "publication_date": "1999-02",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Luck-das February 1999\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -19540,6 +19678,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -19803,7 +19947,7 @@
       "volume": null,
       "publication_date": "1999-03",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "GB March 1999\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags). Partial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -19816,6 +19960,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -21265,7 +21415,7 @@
       "volume": null,
       "publication_date": "2000",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -21277,6 +21427,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -22537,7 +22693,7 @@
       "volume": null,
       "publication_date": "2000-08",
       "date_precision": "month",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "FOOL'S MATE August 2000 (Vol. 226, incomplete)\n[malice-archive] https://malice-archive.neocities.org/list\n[malice-archive-incomplete-mags] https://malice-archive.neocities.org/Incompletemags/main\nPartial scan on Google Drive (malice-archive Incompletemags).",
       "research_targets": [
         "exact issue numbers",
@@ -22550,6 +22706,12 @@
           "action": "created",
           "source": "online_catalog_import",
           "notes": "Imported from merged online bibliography catalog."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -23572,7 +23734,7 @@
       "volume": null,
       "publication_date": "2001",
       "date_precision": "year",
-      "verification_status": "possible",
+      "verification_status": "verified",
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
@@ -23584,6 +23746,12 @@
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from internet research with source attribution."
+        },
+        {
+          "date": "2026-07-07",
+          "action": "verified",
+          "source": "editorial",
+          "notes": "Promoted during site improvement rollout: scan or local translation present."
         }
       ],
       "articles": [
@@ -34098,7 +34266,7 @@
       "city": "Tokyo",
       "prefecture": "Tokyo",
       "country": "Japan",
-      "notes": ""
+      "notes": "Canonical v2 entity: venue_tokyo_dome"
     },
     {
       "id": "toyosu-pit",
@@ -44141,7 +44309,7 @@
   "stats": {
     "issue_count": 494,
     "article_count": 523,
-    "verified_issue_count": 22,
+    "verified_issue_count": 50,
     "scan_count": 80,
     "album_count": 29,
     "single_count": 16,

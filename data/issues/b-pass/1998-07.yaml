@@ -4,7 +4,7 @@ issue_number: null
 volume: null
 publication_date: 1998-07
 date_precision: month
-verification_status: possible
+verification_status: verified
 source_notes: 'B-PASS July 1998
 
   [malice-archive] https://malice-archive.neocities.org/list
@@ -46,3 +46,7 @@ changelog:
   action: created
   source: online_catalog_import
   notes: Imported from merged online bibliography catalog.
+- date: '2026-07-07'
+  action: verified
+  source: editorial
+  notes: 'Promoted during site improvement rollout: scan or local translation present.'
