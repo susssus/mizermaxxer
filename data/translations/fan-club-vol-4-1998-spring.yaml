@@ -34,9 +34,10 @@ scan_paths:
 source_scan_gallery: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/
 translator: mizermaxxer
 translation_date: 2026-07-06
+review_status: needs_review
+license: CC-BY-NC-4.0
 license_notes: >
-  Page scans © Cantavanda (Madame Tarantula). Translation for research/archival use;
-  verify against physical copy where possible.
+  Page scans © Cantavanda (Madame Tarantula). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.
 
 pages:
   - page: 1

@@ -256,15 +256,38 @@ const kindLabels: Record<TimelineEvent["kind"], string> = {
   kindSelect?.addEventListener("change", () => {
     statButtons.forEach((button) => button.classList.remove("stat--active"));
     applyFilters();
+    syncTimelineFiltersToUrl();
   });
   yearFrom?.addEventListener("change", () => {
     statButtons.forEach((button) => button.classList.remove("stat--active"));
     applyFilters();
+    syncTimelineFiltersToUrl();
   });
   yearTo?.addEventListener("change", () => {
     statButtons.forEach((button) => button.classList.remove("stat--active"));
     applyFilters();
+    syncTimelineFiltersToUrl();
   });
+
+  function readTimelineFiltersFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("kind")) kindSelect.value = params.get("kind") ?? "";
+    if (params.has("year_from")) yearFrom.value = params.get("year_from") ?? "";
+    if (params.has("year_to")) yearTo.value = params.get("year_to") ?? "";
+    applyFilters();
+  }
+
+  function syncTimelineFiltersToUrl() {
+    const params = new URLSearchParams();
+    if (kindSelect.value) params.set("kind", kindSelect.value);
+    if (yearFrom.value) params.set("year_from", yearFrom.value);
+    if (yearTo.value) params.set("year_to", yearTo.value);
+    const query = params.toString();
+    const next = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+    window.history.replaceState({}, "", next);
+  }
+
+  readTimelineFiltersFromUrl();
 
   statButtons.forEach((button) => {
     button.addEventListener("click", () => {

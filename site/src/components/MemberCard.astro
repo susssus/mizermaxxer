@@ -1,4 +1,6 @@
 ---
+import ImageSourceNote from "./ImageSourceNote.astro";
+
 interface Props {
   name: string;
   slug: string;
@@ -35,6 +37,7 @@ const Tag = "a";
     <strong>{name}</strong>
     <span class="member-card__role">{role}</span>
     {active && <span class="member-card__years">{active}</span>}
+    {portrait && <ImageSourceNote src={portrait} compact />}
   </div>
 </Tag>
 

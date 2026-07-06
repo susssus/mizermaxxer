@@ -79,6 +79,7 @@ const jsonLdBlocks = jsonLd
     {jsonLdBlocks.map((block) => (
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
+    <a class="skip-link" href="#main">Skip to content</a>
     <style is:global>
       :root {
         color-scheme: light dark;
@@ -106,6 +107,21 @@ const jsonLdBlocks = jsonLd
         }
       }
       * { box-sizing: border-box; }
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        z-index: 1000;
+        padding: 0.65rem 1rem;
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 0 0 6px 0;
+        text-decoration: none;
+      }
+      .skip-link:focus {
+        left: 0;
+      }
       body {
         margin: 0;
         font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
@@ -120,6 +136,24 @@ const jsonLdBlocks = jsonLd
       a { color: var(--accent); }
       .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
       header { margin-bottom: 2rem; }
+      .site-title {
+        display: inline-block;
+        margin: 0 0 0.25rem;
+        font-family: var(--heading-font);
+        font-size: 2.25rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: var(--text);
+        text-decoration: none;
+      }
+      .site-title::after {
+        content: "";
+        display: block;
+        width: 3rem;
+        height: 2px;
+        margin-top: 0.5rem;
+        background: linear-gradient(90deg, var(--rose), var(--accent));
+      }
       header h1 {
         margin: 0 0 0.25rem;
         font-size: 2.25rem;
@@ -225,7 +259,16 @@ const jsonLdBlocks = jsonLd
         background: var(--surface);
         transition: border-color 0.15s, transform 0.15s;
       }
-      .flyer-card:hover {
+      .flyer-card--featured {
+        margin: 0;
+      }
+      .flyer-card__link {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
+      .flyer-card:hover,
+      .flyer-card--featured:hover {
         border-color: color-mix(in srgb, var(--rose) 45%, var(--border));
         transform: translateY(-2px);
       }
@@ -268,6 +311,16 @@ const jsonLdBlocks = jsonLd
         border-radius: 4px;
         border: 1px solid var(--border);
         vertical-align: middle;
+      }
+      .cover-cell {
+        vertical-align: top;
+        min-width: 5.5rem;
+      }
+      .cover-thumb-wrap {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.15rem;
       }
       .stats {
         display: grid;
@@ -328,7 +381,10 @@ const jsonLdBlocks = jsonLd
       }
       .badge.verified { color: var(--verified); }
       .badge.possible, .badge.mention_only { color: var(--possible); }
-      .badge.needs_verification, .badge.disputed, .badge.unverified { color: var(--needs); }
+      .badge.needs_verification, .badge.disputed, .badge.unverified, .badge.needs_review {
+        color: var(--needs);
+      }
+      .badge.reviewed { color: var(--verified); }
       .trigger-warning {
         display: inline-block;
         margin-left: 0.35rem;
@@ -405,6 +461,21 @@ const jsonLdBlocks = jsonLd
       .card h2, .card h3 { margin-top: 0; }
       .muted { color: var(--muted); }
       .back { display: inline-block; margin-bottom: 1rem; }
+      .entity-link { margin: 0 0 1rem; font-size: 0.9rem; }
+      .page-intro { margin: 0 0 1.25rem; }
+      .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 1rem;
+      }
+      .table-scroll table {
+        min-width: 640px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html:focus-within {
+          scroll-behavior: auto;
+        }
+      }
       .site-footer {
         margin-top: 3rem;
         padding-top: 1.25rem;
@@ -414,17 +485,25 @@ const jsonLdBlocks = jsonLd
       }
       .site-footer a { color: var(--muted); }
       .site-footer a:hover { color: var(--accent); }
+      .site-disclaimer {
+        margin-bottom: 0.65rem;
+      }
     </style>
   </head>
   <body>
     <div class="wrap">
       <header>
-        <h1>Malice Mizer Research Archive</h1>
+        <a class="site-title" href="/">Malice Mizer Research Archive</a>
         <p>Magazines, discography, flyers, gigs, videos, and linked catalog · 1992–2001</p>
       </header>
-      <Nav />
-      <slot />
+      <main id="main">
+        <Nav />
+        <slot />
+      </main>
       <footer class="site-footer">
+        <p class="site-disclaimer">
+          Independent fan research archive — not affiliated with Malice Mizer or official rights holders.
+        </p>
         <p>
           Images sourced from{" "}
           <a href="https://malice-mizer.info/flyers" target="_blank" rel="noopener">malice-mizer.info</a>,{" "}
@@ -441,7 +520,15 @@ const jsonLdBlocks = jsonLd
           {" "}(include a reputable source).
         </p>
         <p>
+          <a href="/legal">Legal &amp; licenses</a>
+          {" · "}
           <a href="/privacy">Privacy policy</a>
+          {" · "}
+          <a href="https://github.com/susssus/mizermaxxer/blob/main/LICENSE">Code (MIT)</a>
+          {" · "}
+          <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="license noopener">
+            Data &amp; translations (CC BY-NC 4.0)
+          </a>
         </p>
       </footer>
     </div>

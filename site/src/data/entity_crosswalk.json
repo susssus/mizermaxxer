@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-07-06T23:03:59.612128Z",
+  "songs": {
+    "au-revoir": "song_au_revoir",
+    "beast-of-blood": "song_beast_of_blood",
+    "gekka-no-yasoukyoku": "song_gekka_no_yasoukyoku",
+    "illuminati": "song_illuminati"
+  },
+  "venues": {
+    "nippon-budokan": "venue_nippon_budokan",
+    "tokyo-dome": "venue_tokyo_dome"
+  },
+  "people": {
+    "klaha": "person_klaha",
+    "mana": "person_mana",
+    "kozi": "person_kozi",
+    "yuki": "person_yuki",
+    "kami": "person_kami",
+    "gackt": "person_gackt",
+    "tetsu": "person_tetsu",
+    "gaz": "person_gaz"
+  },
+  "albums": {
+    "merveilles": "album_merveilles"
+  },
+  "concerts": {}
+}

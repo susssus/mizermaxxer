@@ -131,6 +131,39 @@ def venue_slugs() -> set[str]:
     return {venue["id"] for venue in load_venues()}
 
 
+def infer_translation_format(doc: dict[str, Any]) -> str:
+    """Match export/render logic: page-range strings are metadata, not page content."""
+    pages = doc.get("pages")
+    if isinstance(pages, list) and pages:
+        return "pages"
+    if doc.get("dialogue"):
+        return "dialogue"
+    if doc.get("content"):
+        return "other"
+    return "other"
+
+
+def translation_has_renderable_content(doc: dict[str, Any]) -> bool:
+    fmt = infer_translation_format(doc)
+    if fmt == "pages":
+        pages = doc.get("pages")
+        if not isinstance(pages, list):
+            return False
+        return any(
+            isinstance(block, dict) and (block.get("ja") or block.get("romaji") or block.get("en"))
+            for block in pages
+        )
+    if fmt == "dialogue":
+        dialogue = doc.get("dialogue")
+        if not isinstance(dialogue, list):
+            return False
+        return any(
+            isinstance(line, dict) and (line.get("ja") or line.get("romaji") or line.get("en"))
+            for line in dialogue
+        )
+    return bool(doc.get("content") or doc.get("footer") or doc.get("tour_dates"))
+
+
 def ensure_dirs() -> None:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     EXPORTS_DIR.mkdir(parents=True, exist_ok=True)

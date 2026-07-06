@@ -211,3 +211,15 @@ Legacy v1 and v2 coexist: `make validate` runs the bibliography validator; `make
 4. **Entity pages** ✅ (partial) — `/entity/[id]` renders type chips, facts with provenance, linked-entity grid; appearance and person layouts expanded
 5. **Timeline** — needs broadest date coverage across concerts, appearances, and releases
 6. **Magazine migration** — `data/issues/` stubs → `ref_*` references + `published_in` links
+
+## v1 / v2 slug crosswalk
+
+Some records exist in both models during migration:
+
+| v1 slug (catalog) | v2 entity ID | Notes |
+|-------------------|--------------|-------|
+| `tokyo-dome` | `venue_tokyo_dome` | Concerts reference v1 slug; browse graph uses v2 ID |
+
+The site generates `site/src/data/entity_crosswalk.json` during `make build` to connect catalog pages (`/gigs`, `/discography`) with `/entity/[id]` routes when a matching v2 record exists.
+
+Duplicate venue YAML files should not diverge in naming — prefer the v2 entity as canonical and keep the v1 stub for concert foreign keys until concerts migrate to entity IDs.

@@ -1,11 +1,15 @@
 ---
 import galleryPreviews from "../data/gallery_previews.json";
+import ImageSourceNote from "./ImageSourceNote.astro";
+import { imageAttributionForSrc } from "../lib/imageAttribution.ts";
 
 interface Props {
   src?: string | null;
   alt: string;
   caption?: string | null;
+  /** @deprecated Use automatic manifest lookup; pass sourceUrl to override. */
   source?: string | null;
+  sourceUrl?: string | null;
   class?: string;
   variant?: "inline" | "hero" | "thumb" | "cover";
 }
@@ -15,6 +19,7 @@ const {
   alt,
   caption,
   source,
+  sourceUrl,
   class: className = "",
   variant = "inline",
 } = Astro.props;
@@ -50,6 +55,8 @@ function resolveSrc(path?: string | null): string | null {
 }
 
 const resolved = resolveSrc(src);
+const attribution = imageAttributionForSrc(src, { sourceName: source, sourceUrl });
+const showCaption = Boolean(caption || attribution);
 ---
 
 <figure class={`archive-image archive-image--${variant} ${className}`.trim()}>
@@ -61,10 +68,16 @@ const resolved = resolveSrc(src);
       <span>Scan pending</span>
     </div>
   )}
-  {(caption || source) && (
+  {showCaption && (
     <figcaption>
       {caption && <span>{caption}</span>}
-      {source && <span class="archive-image__source">Source: {source}</span>}
+      {attribution && (
+        <ImageSourceNote
+          src={src}
+          sourceName={attribution.sourceName}
+          sourceUrl={attribution.sourceUrl}
+        />
+      )}
     </figcaption>
   )}
 </figure>
@@ -121,7 +134,7 @@ const resolved = resolveSrc(src);
     flex-direction: column;
     gap: 0.15rem;
   }
-  .archive-image__source {
-    font-style: italic;
+  figcaption :global(.image-source) {
+    margin-top: 0.1rem;
   }
 </style>

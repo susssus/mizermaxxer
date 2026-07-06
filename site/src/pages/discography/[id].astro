@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import ArchiveImage from "../../components/ArchiveImage.astro";
 import archive from "../../data/archive.json";
 import { absoluteUrl } from "../../lib/seo";
+import { albumEntityHref, songEntityHref } from "../../lib/entities.ts";
 
 export function getStaticPaths() {
   return archive.albums.map((album) => ({ params: { id: album.id } }));
@@ -41,6 +42,11 @@ const albumImage = album?.cover_image
     }}
   >
     <a class="back" href="/discography">← Back to discography</a>
+    {albumEntityHref(album.id) && (
+      <p class="muted entity-link">
+        <a href={albumEntityHref(album.id)!}>View in entity graph →</a>
+      </p>
+    )}
 
     <section class="detail-grid">
       <div class="card">
@@ -48,7 +54,6 @@ const albumImage = album?.cover_image
           <ArchiveImage
             src={album.cover_image}
             alt={`${album.title_en} cover art`}
-            source="Discogs"
             variant="inline"
           />
         )}
@@ -66,14 +71,23 @@ const albumImage = album?.cover_image
         <h3>Track listing</h3>
         {album.tracks.length ? (
           <ol>
-            {album.tracks.map((track) => (
+            {album.tracks.map((track) => {
+              const song = songMap.get(track.song);
+              const songEntity = songEntityHref(track.song);
+              return (
               <li>
-                {track.position}. {songMap.get(track.song)?.title_en ?? track.song}
-                {songMap.get(track.song)?.title_ja && (
-                  <span class="muted"> — {songMap.get(track.song)?.title_ja}</span>
+                {track.position}.{" "}
+                {songEntity ? (
+                  <a href={songEntity}>{song?.title_en ?? track.song}</a>
+                ) : (
+                  song?.title_en ?? track.song
+                )}
+                {song?.title_ja && (
+                  <span class="muted"> — {song.title_ja}</span>
                 )}
               </li>
-            ))}
+            );
+            })}
           </ol>
         ) : (
           <p class="muted">Track listing not yet catalogued.</p>

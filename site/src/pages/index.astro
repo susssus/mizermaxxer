@@ -1,11 +1,13 @@
 ---
 import FilterBar from "../components/FilterBar.astro";
+import ImageSourceNote from "../components/ImageSourceNote.astro";
 import MemberCard from "../components/MemberCard.astro";
 import ProfileMeta from "../components/ProfileMeta.astro";
 import StatCard from "../components/StatCard.astro";
 import Base from "../layouts/Base.astro";
 import archive from "../data/archive.json";
 import { absoluteUrl, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "../lib/seo";
+import { translationSlug } from "../lib/translations.ts";
 
 const pubMap = new Map(archive.publications.map((pub) => [pub.slug, pub]));
 
@@ -18,6 +20,10 @@ const rows = archive.issues
     }))
   )
   .sort((a, b) => a.issue.publication_date.localeCompare(b.issue.publication_date));
+
+const localTranslationCount = rows.filter(({ article }) =>
+  Boolean(translationSlug(article.translation_url))
+).length;
 
 const byPublication = archive.publications
   .map((pub) => ({
@@ -116,6 +122,7 @@ const jsonLd = [
   description={DEFAULT_DESCRIPTION}
   jsonLd={jsonLd}
 >
+  <h1 class="page-heading visually-hidden">Bibliography</h1>
   <section class="hero hero--split">
     <div class="hero__intro">
       <h2 class="hero__title">MALICE MIZER</h2>
@@ -157,6 +164,7 @@ const jsonLd = [
     <StatCard value={archive.stats.concert_count} label="Concerts" href="/gigs" />
     <StatCard value={archive.stats.verified_issue_count} label="Verified issues" preset="verified" />
     <StatCard value={archive.stats.scan_count} label="Scans available" preset="scans" />
+    <StatCard value={localTranslationCount} label="Local translations" preset="translations" />
   </section>
 
   {featuredFlyers.length > 0 && (
@@ -164,13 +172,16 @@ const jsonLd = [
       <h2 class="section-heading">Featured flyers</h2>
       <div class="flyer-grid">
         {featuredFlyers.map(({ issue, article, title }) => (
-          <a class="flyer-card" href={`/issue/${issue.id}`}>
-            <img src={`/${article.scan_url}`} alt={title} loading="lazy" />
-            <div class="flyer-card__meta">
-              <strong>{title}</strong>
+          <figure class="flyer-card flyer-card--featured">
+            <a class="flyer-card__link" href={`/issue/${issue.id}`}>
+              <img src={`/${article.scan_url}`} alt={title} loading="lazy" />
+            </a>
+            <figcaption class="flyer-card__meta">
+              <a href={`/issue/${issue.id}`}><strong>{title}</strong></a>
               <span>{issue.publication_date}</span>
-            </div>
-          </a>
+              <ImageSourceNote src={article.scan_url} compact />
+            </figcaption>
+          </figure>
         ))}
       </div>
       <p><a href="/flyers">View all flyers →</a></p>
@@ -180,6 +191,7 @@ const jsonLd = [
   <section id="bibliography">
     <FilterBar />
 
+    <div class="table-scroll">
     <table>
     <thead>
       <tr>
@@ -201,6 +213,7 @@ const jsonLd = [
           data-members={article.members.join(",")}
           data-status={issue.verification_status}
           data-scan={String(article.scan_available)}
+          data-translation={String(Boolean(translationSlug(article.translation_url)))}
         >
           <td>{issue.publication_date}</td>
           <td>{publication?.name_en ?? issue.publication}</td>
@@ -212,6 +225,7 @@ const jsonLd = [
       ))}
     </tbody>
     </table>
+    </div>
   </section>
 
   <section class="card" style="margin-top: 2rem;">
@@ -249,19 +263,37 @@ const jsonLd = [
 
   function setActiveStat(preset: string) {
     statButtons.forEach((button) => {
-      button.classList.toggle(
-        "stat--active",
-        button.getAttribute("data-stat-preset") === preset
-      );
+      const active = button.getAttribute("data-stat-preset") === preset;
+      button.classList.toggle("stat--active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
     });
   }
+
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   statButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const preset = button.getAttribute("data-stat-preset") ?? "all";
       window.bibliographyFilters?.applyPreset(preset);
       setActiveStat(preset);
-      document.getElementById("bibliography")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById("bibliography")?.scrollIntoView({
+        behavior: prefersReducedMotion ? "auto" : "smooth",
+        block: "start",
+      });
     });
   });
 </script>
+
+<style>
+  .page-heading.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
