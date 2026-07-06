@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:16:11.188416Z",
+  "generated_at": "2026-07-06T18:32:58.159759Z",
   "people": {
     "members": [
       {
@@ -2848,7 +2848,7 @@
       "publication_date": "1994",
       "date_precision": "year",
       "verification_status": "verified",
-      "source_notes": "First tour pamphlet (Cher de memoire ～懐かしい記憶を辿って～), late 1994. Page scans on scape.sc; English translation by Kurai.\n",
+      "source_notes": "Cher de memoire ～懐かしい記憶を辿って～ (1994 tour pamphlet). 33 pages mirrored locally under images/scans/tour-pamphlets/1994/. Gallery: http://www.scape.sc/pamphlets/cherdememoire/\n",
       "research_targets": [
         "member profiles",
         "song commentary",
@@ -2860,6 +2860,12 @@
           "action": "created",
           "source": "scape_sc",
           "notes": "Pamphlet scan gallery and translation linked."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 33 scan pages locally."
         }
       ],
       "articles": [
@@ -2877,10 +2883,10 @@
           "foldout": false,
           "scan_available": true,
           "scan_quality": "high",
-          "scan_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire00.jpg",
+          "scan_url": "images/scans/tour-pamphlets/1994/01.jpg",
           "translation_available": true,
           "translation_url": "https://www.scape.sc/translations/mm-cherdememoire-sep94.php",
-          "notes": "33 page thumbnails on scape.sc (view.php?page=N for full size). Gallery: http://www.scape.sc/pamphlets/cherdememoire/ Collaboration with indies magazine Imperfection. Source scape.sc.\n",
+          "notes": "33 page thumbnails on scape.sc (view.php?page=N for full size). Gallery: http://www.scape.sc/pamphlets/cherdememoire/ Collaboration with indies magazine Imperfection. Source scape.sc. Additional pages: images/scans/tour-pamphlets/1994/02.jpg, images/scans/tour-pamphlets/1994/03.jpg, images/scans/tour-pamphlets/1994/04.jpg, images/scans/tour-pamphlets/1994/05.jpg, images/scans/tour-pamphlets/1994/06.jpg, images/scans/tour-pamphlets/1994/07.jpg, images/scans/tour-pamphlets/1994/08.jpg, images/scans/tour-pamphlets/1994/09.jpg, images/scans/tour-pamphlets/1994/10.jpg, images/scans/tour-pamphlets/1994/11.jpg, images/scans/tour-pamphlets/1994/12.jpg, images/scans/tour-pamphlets/1994/13.jpg, images/scans/tour-pamphlets/1994/14.jpg, images/scans/tour-pamphlets/1994/15.jpg, images/scans/tour-pamphlets/1994/16.jpg, images/scans/tour-pamphlets/1994/17.jpg, images/scans/tour-pamphlets/1994/18.jpg, images/scans/tour-pamphlets/1994/19.jpg, images/scans/tour-pamphlets/1994/20.jpg, images/scans/tour-pamphlets/1994/21.jpg, images/scans/tour-pamphlets/1994/22.jpg, images/scans/tour-pamphlets/1994/23.jpg, images/scans/tour-pamphlets/1994/24.jpg, images/scans/tour-pamphlets/1994/25.jpg, images/scans/tour-pamphlets/1994/26.jpg, images/scans/tour-pamphlets/1994/27.jpg, images/scans/tour-pamphlets/1994/28.jpg, images/scans/tour-pamphlets/1994/29.jpg, images/scans/tour-pamphlets/1994/30.jpg, images/scans/tour-pamphlets/1994/31.jpg, images/scans/tour-pamphlets/1994/32.jpg, images/scans/tour-pamphlets/1994/33.jpg.",
           "members": [
             "kami",
             "kozi",
@@ -6972,6 +6978,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Mirrored 3 scan pages locally; split photo spread and interview articles; added English translation with romaji (data/translations/fools-mate-1997-07-interview.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 3 scan pages locally."
         }
       ],
       "articles": [
@@ -7019,7 +7031,7 @@
           "scan_url": "images/scans/fools-mate/1997-07/02.jpg",
           "translation_available": true,
           "translation_url": "data/translations/fools-mate-1997-07-interview.yaml",
-          "notes": "Interview & text by Yuki Sugie (杉江由紀). Subtitle: crème de la crème of creatures. Covers the Apr 1 1997 Shibuya Kokaido indies last live, the sans retour Voyage \"derniere\" ~encoure une fois~ video (June 1997), and the upcoming Pays de merveilles standing tour. Page 44 scan: images/scans/fools-mate/1997-07/03.jpg\n",
+          "notes": "Interview & text by Yuki Sugie (杉江由紀). Subtitle: crème de la crème of creatures. Covers the Apr 1 1997 Shibuya Kokaido indies last live, the sans retour Voyage \"derniere\" ~encoure une fois~ video (June 1997), and the upcoming Pays de merveilles standing tour. Page 44 scan: images/scans/fools-mate/1997-07/03.jpg Additional pages: images/scans/fools-mate/1997-07/02.jpg, images/scans/fools-mate/1997-07/03.jpg.",
           "members": [
             "gackt",
             "kami",
@@ -7363,7 +7375,7 @@
       "publication_date": "1997-08",
       "date_precision": "month",
       "verification_status": "verified",
-      "source_notes": "POP BEAT 1997-08\n[vkgy-timeline] https://vk.gy/artists/malice-mizer/\nPOP BEAT August 1997. MM pages scanned on Cantavanda (2 images: p. 111 major debut interview + Bel Air ad/tour dates). Local mirror in images/scans/pop-beat/1997-08/. https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/",
+      "source_notes": "POP BEAT August 1997. 2 pages mirrored locally under images/scans/pop-beat/1997-08/. Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/\n",
       "research_targets": [
         "verify full issue table of contents",
         "locate any additional MM pages beyond Cantavanda clippings"
@@ -7386,6 +7398,12 @@
           "action": "updated",
           "source": "vkgy-timeline",
           "notes": "Added vk.gy artist timeline cross-reference."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 2 scan pages locally."
         }
       ],
       "articles": [
@@ -7406,7 +7424,7 @@
           "scan_url": "images/scans/pop-beat/1997-08/01.jpg",
           "translation_available": true,
           "translation_url": "data/translations/pop-beat-1997-08-interview.yaml",
-          "notes": "Major debut feature (7/19 Bel Air). Interview with vocal Gackt and bass Yu~ki by Tsunetoshi Kodama (兒玉常利). Subtitle asks what their unique visuals express and what musical world they aim for. Source Cantavanda (Butterfly Rose).\n",
+          "notes": "Major debut feature (7/19 Bel Air). Interview with vocal Gackt and bass Yu~ki by Tsunetoshi Kodama (兒玉常利). Subtitle asks what their unique visuals express and what musical world they aim for. Source Cantavanda (Butterfly Rose). Additional pages: images/scans/pop-beat/1997-08/02.jpg.",
           "members": [
             "gackt",
             "yuki"
@@ -7430,7 +7448,7 @@
           "scan_url": "images/scans/pop-beat/1997-08/02.jpg",
           "translation_available": true,
           "translation_url": "data/translations/pop-beat-1997-08-ad.yaml",
-          "notes": "Columbia/Maitrize debut single ad for Bel Air (COZA-31~32) and STANDING TOUR '97 Pays de merveilles schedule. Most dates marked SOLD OUT. Source Cantavanda.\n",
+          "notes": "Columbia/Maitrize debut single ad for Bel Air (COZA-31~32) and STANDING TOUR '97 Pays de merveilles schedule. Most dates marked SOLD OUT. Source Cantavanda. Additional pages: images/scans/pop-beat/1997-08/02.jpg.",
           "members": [
             "gackt",
             "kami",
@@ -7611,6 +7629,12 @@
           "date": "2026-07-06",
           "action": "updated",
           "source": "cantavanda",
+          "notes": "Mirrored 24 scan pages locally."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
           "notes": "Mirrored 24 scan pages locally."
         }
       ],
@@ -8052,6 +8076,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Mirrored 3 scan pages locally; split photo spread and interview articles; added English translation with romaji (data/translations/vicious-1997-10-interview.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 3 scan pages locally."
         }
       ],
       "articles": [
@@ -8099,7 +8129,7 @@
           "scan_url": "images/scans/vicious/1997-10/02.jpg",
           "translation_available": true,
           "translation_url": "data/translations/vicious-1997-10-interview.yaml",
-          "notes": "Interview by Hiroko Yamamoto (山本浩子). Subtitle/feature: V's Break Out. Covers the Sept 3 1997 Bel Air de l'image video release, filming anecdotes, and upcoming Pays de merveilles tour dates. Costumes by Yukari Ohba (Midi : Nette). Page 121 scan: images/scans/vicious/1997-10/03.jpg\n",
+          "notes": "Interview by Hiroko Yamamoto (山本浩子). Subtitle/feature: V's Break Out. Covers the Sept 3 1997 Bel Air de l'image video release, filming anecdotes, and upcoming Pays de merveilles tour dates. Costumes by Yukari Ohba (Midi : Nette). Page 121 scan: images/scans/vicious/1997-10/03.jpg Additional pages: images/scans/vicious/1997-10/02.jpg, images/scans/vicious/1997-10/03.jpg.",
           "members": [
             "gackt",
             "kami",
@@ -8417,6 +8447,12 @@
           "date": "2026-07-06",
           "action": "updated",
           "source": "cantavanda",
+          "notes": "Mirrored 32 scan pages locally."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
           "notes": "Mirrored 32 scan pages locally."
         }
       ],
@@ -9686,6 +9722,12 @@
           "action": "updated",
           "source": "mizermaxxer",
           "notes": "Added English translation with romaji (data/translations/fan-club-vol-4-1998-spring.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 24 scan pages locally."
         }
       ],
       "articles": [
@@ -10766,7 +10808,7 @@
       "publication_date": "1998-05",
       "date_precision": "month",
       "verification_status": "verified",
-      "source_notes": "SHOXX Vol. 63 (May 1998). MM pages scanned on Cantavanda (13 images). MIsaO Lab: カラー13p、スーパービジュアルフォト集（衣装：月下の夜想曲）&A to Zインタビュー https://misaolab.hateblo.jp/entry/20000302/1356327963 Local mirror in images/scans/shoxx/1998-05/. https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/\n",
+      "source_notes": "SHOXX May 1998. 13 pages mirrored locally under images/scans/shoxx/1998-05/. Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/\n",
       "research_targets": [
         "verify full issue table of contents",
         "locate any additional MM pages beyond Cantavanda clippings"
@@ -10783,6 +10825,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Mirrored 13 scan pages locally; split photo spread (002) and A-to-Z interview (001); added English translation with romaji (data/translations/shoxx-1998-05-interview.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 13 scan pages locally."
         }
       ],
       "articles": [
@@ -10803,7 +10851,7 @@
           "scan_url": "images/scans/shoxx/1998-05/10.jpg",
           "translation_available": true,
           "translation_url": "data/translations/shoxx-1998-05-interview.yaml",
-          "notes": "A-to-Z interview; writers Yuki Sugie (Gackt, kozi, mana) and Kimiko Masubuchi (Yu~ki, KAMI). Hair & makeup Reiko Hasuo (Otier). Scans: images/scans/shoxx/1998-05/10.jpg through 13.jpg. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/\n",
+          "notes": "A-to-Z interview; writers Yuki Sugie (Gackt, kozi, mana) and Kimiko Masubuchi (Yu~ki, KAMI). Hair & makeup Reiko Hasuo (Otier). Scans: images/scans/shoxx/1998-05/10.jpg through 13.jpg. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/ Additional pages: images/scans/shoxx/1998-05/02.jpg, images/scans/shoxx/1998-05/03.jpg, images/scans/shoxx/1998-05/04.jpg, images/scans/shoxx/1998-05/05.jpg, images/scans/shoxx/1998-05/06.jpg, images/scans/shoxx/1998-05/07.jpg, images/scans/shoxx/1998-05/08.jpg, images/scans/shoxx/1998-05/09.jpg, images/scans/shoxx/1998-05/10.jpg, images/scans/shoxx/1998-05/11.jpg, images/scans/shoxx/1998-05/12.jpg, images/scans/shoxx/1998-05/13.jpg.",
           "members": [
             "gackt",
             "kami",
@@ -10830,7 +10878,7 @@
           "scan_url": "images/scans/shoxx/1998-05/01.jpg",
           "translation_available": true,
           "translation_url": "data/translations/shoxx-1998-05-photo-spread.yaml",
-          "notes": "Super visual photo spread in beautiful gothic world; costumes by Yukari Ohba (Midi Nette). Feature intro on p. 99 (scan 01.jpg) notes merveilles major debut (Mar 18 1998) and Apr 1 Nippon Budokan performance; links to previous issue SHOXX Vol. 62 cyber-chic feature. Scans: images/scans/shoxx/1998-05/01.jpg through 09.jpg. Location: Country House Windsor. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/\n",
+          "notes": "Super visual photo spread in beautiful gothic world; costumes by Yukari Ohba (Midi Nette). Feature intro on p. 99 (scan 01.jpg) notes merveilles major debut (Mar 18 1998) and Apr 1 Nippon Budokan performance; links to previous issue SHOXX Vol. 62 cyber-chic feature. Scans: images/scans/shoxx/1998-05/01.jpg through 09.jpg. Location: Country House Windsor. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/ Additional pages: images/scans/shoxx/1998-05/02.jpg, images/scans/shoxx/1998-05/03.jpg, images/scans/shoxx/1998-05/04.jpg, images/scans/shoxx/1998-05/05.jpg, images/scans/shoxx/1998-05/06.jpg, images/scans/shoxx/1998-05/07.jpg, images/scans/shoxx/1998-05/08.jpg, images/scans/shoxx/1998-05/09.jpg, images/scans/shoxx/1998-05/10.jpg, images/scans/shoxx/1998-05/11.jpg, images/scans/shoxx/1998-05/12.jpg, images/scans/shoxx/1998-05/13.jpg.",
           "members": [
             "gackt",
             "kami",
@@ -10965,6 +11013,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Added English translation with romaji (data/translations/fan-club-vol-5-1998-summer.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 24 scan pages locally."
         }
       ],
       "articles": [
@@ -11097,7 +11151,7 @@
       "publication_date": "1998-06",
       "date_precision": "month",
       "verification_status": "verified",
-      "source_notes": "POP BEAT 1998-06\n[vkgy-timeline] https://vk.gy/artists/malice-mizer/\nPOP BEAT June 1998. MM pages scanned on Cantavanda (5 images: ILLUMINATI feature pp. 58–61). Local mirror in images/scans/pop-beat/1998-06/. https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
+      "source_notes": "POP BEAT June 1998. 5 pages mirrored locally under images/scans/pop-beat/1998-06/. Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/\n",
       "research_targets": [
         "verify full issue table of contents",
         "locate any additional MM pages beyond Cantavanda clippings"
@@ -11120,6 +11174,12 @@
           "action": "updated",
           "source": "vkgy-timeline",
           "notes": "Added vk.gy artist timeline cross-reference."
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 5 scan pages locally."
         }
       ],
       "articles": [
@@ -11140,7 +11200,7 @@
           "scan_url": "images/scans/pop-beat/1998-06/01.jpg",
           "translation_available": true,
           "translation_url": "data/translations/pop-beat-1998-06.yaml",
-          "notes": "ILLUMINATI single feature by Kimiko Masubuchi. Opening splash (scan 01); interview text pp. 58–60 (scans 02–04); four-panel photo spread p. 61 (scan 05, no text). Covers Merveilles #2 chart debut, Budokan stage fall, ILLUMINATI PV (P-type/N-type), and S/M banter. Photos: Masatoshi Makino (pp. 58–59), Masafumi Sawazaki (pp. 60–61). Additional scan pages: images/scans/pop-beat/1998-06/02.jpg through 05.jpg\n",
+          "notes": "ILLUMINATI single feature by Kimiko Masubuchi. Opening splash (scan 01); interview text pp. 58–60 (scans 02–04); four-panel photo spread p. 61 (scan 05, no text). Covers Merveilles #2 chart debut, Budokan stage fall, ILLUMINATI PV (P-type/N-type), and S/M banter. Photos: Masatoshi Makino (pp. 58–59), Masafumi Sawazaki (pp. 60–61). Additional scan pages: images/scans/pop-beat/1998-06/02.jpg through 05.jpg Additional pages: images/scans/pop-beat/1998-06/02.jpg, images/scans/pop-beat/1998-06/03.jpg, images/scans/pop-beat/1998-06/04.jpg, images/scans/pop-beat/1998-06/05.jpg.",
           "members": [
             "gackt",
             "kami",
@@ -12449,6 +12509,12 @@
           "action": "updated",
           "source": "cantavanda",
           "notes": "Added English translation with romaji (data/translations/fan-club-vol-6-7-1998-autumn.yaml).\n"
+        },
+        {
+          "date": "2026-07-06",
+          "action": "updated",
+          "source": "catalog_mirror",
+          "notes": "Mirrored 40 scan pages locally."
         }
       ],
       "articles": [
@@ -43736,6 +43802,13 @@
       "notes": "Personal collection log with detailed Japanese coverage notes. MM issues from vol.13 (1993) through vol.120 (2003); includes cover/features for vol.61, 67, 83, 88, 92, 95, 106.\n"
     },
     {
+      "id": "malace-mizer-impersonator",
+      "title": "Malace Mizer — streaming impersonator & DMCA claimant (not MALICE MIZER)",
+      "type": "other",
+      "url": "https://cantavanda.com/malice-mizer/links/listen-to-malice-mizer/",
+      "notes": "IMPERSONATOR — fraudulent actor, not affiliated with MALICE MIZER, Midi:Nette, Nippon Columbia, or any band member. Publishes under the misspelled name \"Malace Mizer\" and sometimes \"MALICE MIZER\" on streaming platforms via indie distributor shells (9559586 Records DK, 3761571 Records DK).\nDMCA / COPYRIGHT CLAIMS — registers MM recordings in platform copyright databases under this identity and files copyright claims against fan uploads (YouTube, TikTok, Instagram, cover videos), monetizing content the actor does not own. Cantavanda documents automatic claims on social posts using MM audio; JROCK ONE and fan communities report the same pattern.\nMONETIZATION — unauthorized Spotify/Tidal uploads profit the impersonator, not the band. Mana/Moi dix Mois staff confirmed (Natalie, 2025) that current streaming uploads are not authorized.\nDO NOT LINK to Spotify/Tidal uploads. Platform IDs for research identification only — see spotify-malace-mizer-catalog.yaml and tidal-malace-mizer-catalog.yaml.\nSources: Cantavanda listen guidance & discography notes; Natalie (2025); JROCK ONE forum thread \"Fake Malice Mizer on digital platforms\".\n"
+    },
+    {
       "id": "malicemeezer-vintage",
       "title": "Malice Meezer — Tetsu Era Gallery + Translations",
       "type": "website",
@@ -43849,17 +43922,17 @@
     },
     {
       "id": "spotify-malace-mizer-catalog",
-      "title": "Spotify — Malace Mizer (unauthorized uploads)",
+      "title": "Spotify — Malace Mizer impersonator catalog (unauthorized)",
       "type": "database",
-      "url": "https://open.spotify.com/search/Malice%20Mizer",
-      "notes": "Unauthorized catalog found July 2026 under artist name \"Malace Mizer\" (misspelling). Not linked to Midi:Nette/Nippon Columbia. Example albums: -merveilles- (2vLTmWIK6BMEpOCcLilhft, © undated), Bara no seidou (3Nsm00nPPOWscPKMVNMedC, © 2025 9559586 Records DK), Beast of Blood single (7CjP4tT088kAmmzBqqCNDu, © 2025 9559586 Records DK). Voyage Sans Retour appears as \"MALICE MIZER\" (1qZoqKRcKhZuP6Wt8VCqpq, © 2022 3761571 Records DK). Track example: ma chérie (0qj9fvyFA0qYsh7eQW356T, © 2025 9559586 Records DK). Do not treat as official discography.\n"
+      "url": "https://cantavanda.com/malice-mizer/links/listen-to-malice-mizer/",
+      "notes": "Catalog of unauthorized Spotify uploads by the Malace Mizer impersonator (see malace-mizer-impersonator.yaml). IMPERSONATOR — not MALICE MIZER; not linked to Midi:Nette/Nippon Columbia. DMCA CLAIMANT — same actor files copyright claims against fan MM uploads on YouTube and social platforms. Do not link to Spotify URLs — streams profit the impersonator. Platform IDs retained for identification only: -merveilles- (2vLTmWIK6BMEpOCcLilhft, © undated), Bara no seidou (3Nsm00nPPOWscPKMVNMedC, © 2025 9559586 Records DK), Beast of Blood single (7CjP4tT088kAmmzBqqCNDu, © 2025 9559586 Records DK). Voyage Sans Retour appears as \"MALICE MIZER\" (1qZoqKRcKhZuP6Wt8VCqpq, © 2022 3761571 Records DK). Track example: ma chérie (0qj9fvyFA0qYsh7eQW356T, © 2025 9559586 Records DK). Do not treat as official discography.\n"
     },
     {
       "id": "streaming-platforms-malace-mizer",
-      "title": "Streaming Platforms — Malace Mizer (unauthorized) vs MALICE MIZER (official)",
+      "title": "Streaming Platforms — Malace Mizer impersonator vs MALICE MIZER (official)",
       "type": "other",
       "url": "https://natalie.mu/music/news/638907",
-      "notes": "Checked Spotify and Tidal July 2026. There is NO official MALICE MIZER artist page on either platform. Mana/Moi dix Mois staff confirmed (Natalie, 2025) that current streaming uploads are not authorized; official digital release will be announced via official channels. Unauthorized uploads appear under the misspelled name \"Malace Mizer\" (also \"MALICE MIZER\" on some releases), distributed via indie labels such as 9559586 Records DK and 3761571 Records DK. Streams do not benefit the band. Cantavanda documents the impersonator monetizing uploads and copyright claims. See also cantavanda.com/malice-mizer/links/listen-to-malice-mizer/\n"
+      "notes": "Checked Spotify and Tidal July 2026. There is NO official MALICE MIZER artist page on either platform. Mana/Moi dix Mois staff confirmed (Natalie, 2025) that current streaming uploads are not authorized; official digital release will be announced via official channels.\nIMPERSONATOR — unauthorized uploads by \"Malace Mizer\" (misspelling; also \"MALICE MIZER\" on some releases), distributed via indie shells 9559586 Records DK and 3761571 Records DK. See malace-mizer-impersonator.yaml for full actor profile.\nDMCA CLAIMANT — the impersonator registers MM recordings in platform copyright databases and files claims against fan uploads (YouTube, TikTok, Instagram, covers). Streams and claims profit the actor, not the band. Cantavanda documents this pattern; JROCK ONE forum corroborates.\nDo not link to Spotify/Tidal uploads — use Cantavanda for fan guidance on authorized listening.\n"
     },
     {
       "id": "malice-archive-neocities",
@@ -43877,10 +43950,10 @@
     },
     {
       "id": "tidal-malace-mizer-catalog",
-      "title": "Tidal — Malace Mizer (partial unauthorized uploads)",
+      "title": "Tidal — Malace Mizer impersonator catalog (partial, unauthorized)",
       "type": "database",
-      "url": "https://listen.tidal.com/search?q=Malace+Mizer",
-      "notes": "Checked July 2026 via song.link cross-reference. No dedicated official MALICE MIZER artist page found in search. Some Malace Mizer tracks/albums exist (e.g. ma chérie track 490778848, Gardenia album 514021384) but major Spotify-only uploads (merveilles, Bara no seidou full album, Beast of Blood) did not cross-link to Tidal at time of check. Availability is partial and region-dependent. Same impersonator/licensing concerns as Spotify apply.\n"
+      "url": "https://cantavanda.com/malice-mizer/links/listen-to-malice-mizer/",
+      "notes": "Partial Tidal mirror of the Malace Mizer impersonator catalog (see malace-mizer-impersonator.yaml). Checked July 2026 via song.link cross-reference. IMPERSONATOR — no official MALICE MIZER artist page. DMCA CLAIMANT — same actor as Spotify uploads; files copyright claims against fan MM content. Do not link to Tidal URLs. Platform IDs retained for identification only: ma chérie track 490778848, Gardenia album 514021384. Major Spotify-only uploads (merveilles, Bara no seidou full album, Beast of Blood) did not cross-link to Tidal at time of check. Availability is partial and region-dependent.\n"
     },
     {
       "id": "book-uv-file",
