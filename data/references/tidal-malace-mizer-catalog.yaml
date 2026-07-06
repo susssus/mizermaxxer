@@ -1,10 +1,11 @@
 id: tidal-malace-mizer-catalog
-title: Tidal — Malace Mizer (partial unauthorized uploads)
+title: Tidal — Malace Mizer impersonator catalog (partial, unauthorized)
 type: database
-url: https://listen.tidal.com/search?q=Malace+Mizer
+url: https://cantavanda.com/malice-mizer/links/listen-to-malice-mizer/
 notes: >
-  Checked July 2026 via song.link cross-reference. No dedicated official MALICE MIZER artist page
-  found in search. Some Malace Mizer tracks/albums exist (e.g. ma chérie track 490778848, Gardenia
-  album 514021384) but major Spotify-only uploads (merveilles, Bara no seidou full album, Beast of
+  Partial Tidal mirror of the Malace Mizer impersonator catalog (see malace-mizer-impersonator.yaml).
+  Checked July 2026 via song.link cross-reference. IMPERSONATOR — no official MALICE MIZER artist page.
+  DMCA CLAIMANT — same actor as Spotify uploads; files copyright claims against fan MM content. Do not
+  link to Tidal URLs. Platform IDs retained for identification only: ma chérie track 490778848,
+  Gardenia album 514021384. Major Spotify-only uploads (merveilles, Bara no seidou full album, Beast of
   Blood) did not cross-link to Tidal at time of check. Availability is partial and region-dependent.
-  Same impersonator/licensing concerns as Spotify apply.

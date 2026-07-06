@@ -291,12 +291,22 @@ Regenerate the web catalog after editing source lists:
 |--------|--------|
 | Official MALICE MIZER | **Not on Spotify or Tidal** as of July 2026 |
 | Mana statement | [Natalie (2025)](https://natalie.mu/music/news/638907) — neither MALICE MIZER nor Moi dix Mois currently stream officially; future releases will be announced officially |
-| Impersonator | Uploads under **"Malace Mizer"** (misspelling); distributor labels include `9559586 Records DK`, `3761571 Records DK` |
+| Impersonator | **Malace Mizer** — fraudulent actor, not the band; see profile below |
 | Fan guidance | [Cantavanda — Listen to MALICE MIZER](https://cantavanda.com/malice-mizer/links/listen-to-malice-mizer/) |
 
-YAML stubs: `data/references/streaming-platforms.yaml`, `spotify-malace-mizer-catalog.yaml`, `tidal-malace-mizer-catalog.yaml`.
+YAML stubs: `data/references/malace-mizer-impersonator.yaml` (canonical actor profile), `streaming-platforms.yaml`, `spotify-malace-mizer-catalog.yaml`, `tidal-malace-mizer-catalog.yaml`.
 
-**Do not link to Spotify or Tidal uploads.** Streams profit the impersonator; platform IDs below are for research identification only.
+### Malace Mizer impersonator profile
+
+| Flag | Detail |
+|------|--------|
+| **IMPERSONATOR** | Publishes under misspelled **"Malace Mizer"** (sometimes **"MALICE MIZER"**). Not affiliated with Midi:Nette, Nippon Columbia, or any band member. |
+| **DMCA / copyright claimant** | Registers MM recordings in platform copyright databases under this identity. Files copyright claims against fan uploads — YouTube videos, TikTok/Instagram posts using MM audio, cover performances — monetizing content the actor does not own. |
+| **Distributor shells** | `9559586 Records DK`, `3761571 Records DK` |
+| **Monetization** | Spotify/Tidal streams and copyright claims profit the impersonator, not the band. |
+| **Sources** | [Cantavanda](https://cantavanda.com/malice-mizer/links/listen-to-malice-mizer/), [Natalie (2025)](https://natalie.mu/music/news/638907), [JROCK ONE forum](https://forum.jrockone.com/t/fake-malice-mizer-on-digital-platforms/14459) |
+
+**Do not link to Spotify or Tidal uploads.** Platform IDs below are for research identification only.
 
 ### Spotify examples (unauthorized)
 
