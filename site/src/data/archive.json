@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T14:03:16.057446Z",
+  "generated_at": "2026-07-06T17:32:12.185380Z",
   "people": {
     "members": [
       {
@@ -50,6 +50,13 @@
         "role": "vocalist",
         "active": "1992-1994",
         "portrait_image": "images/members/tetsu.webp"
+      },
+      {
+        "slug": "gaz",
+        "name": "Gaz",
+        "role": "drums",
+        "active": "1992-1993",
+        "portrait_image": "images/members/gaz.webp"
       },
       {
         "slug": "birith",
@@ -115,6 +122,55 @@
       "notes": ""
     },
     {
+      "id": "person_gaz",
+      "type": "person",
+      "name": {
+        "original": "GAZ",
+        "romanized": "Gaz"
+      },
+      "roles": [
+        "drums"
+      ],
+      "active": {
+        "start": "1992",
+        "end": "1993"
+      },
+      "era": "Tetsu era",
+      "birth": {
+        "date": "1972-02-01",
+        "place": "Gunma, Japan"
+      },
+      "death": {
+        "date": "2017-12-22"
+      },
+      "bio": {
+        "before": "Drummed in the band DATURA before joining Malice Mizer, releasing one demo tape with that project.\n",
+        "during": "Malice Mizer's founding drummer, joining Mana, Közi, Yu~ki, and Tetsu in August or September 1992 to complete the first five-piece lineup. Recorded drums on the early demo tapes Sans Logique (October 1992) and the pre-Kami sessions later compiled as Sadness and related demos; Lafflesia is the only early demo without their drumming. Left after their final show on March 15, 1993, in a straight swap with Kneuklid Romance drummer Kami — Gaz joined KR while Kami joined Malice Mizer. They also briefly supported Baiser on drums from December 1992 to October 1993, overlapping with their Malice Mizer tenure.\n",
+        "after": "Spent most of the 1990s as drummer of Kneuklid Romance, leaving in 1998. Returned for KR reunion performances in 2009, 2011, and 2012. Died on December 22, 2017, from illness. Mana announced their passing the following day.\n"
+      },
+      "portrait_image": "images/members/gaz.webp",
+      "gallery_images": [
+        {
+          "src": "images/vintage/live-band-1993.webp",
+          "caption": "Early live performance (1993)",
+          "source": "Malice Meezer / malicemeezer.neocities.org"
+        },
+        {
+          "src": "images/vintage/live-lineup-1993.webp",
+          "caption": "Early lineup (1993)",
+          "source": "Malice Meezer / malicemeezer.neocities.org"
+        },
+        {
+          "src": "images/vintage/live-1993.webp",
+          "caption": "Live photograph (1993)",
+          "source": "Malice Meezer / malicemeezer.neocities.org"
+        }
+      ],
+      "facts": [],
+      "verification_status": "verified",
+      "notes": "Shares a birthday (February 1, 1972) with Kami."
+    },
+    {
       "id": "person_kami",
       "type": "person",
       "name": {
@@ -142,7 +198,7 @@
       },
       "bio": {
         "before": "Drummed in the punk band 3PMayonnaise during high school (1989–1991), then moved to Tokyo and joined Kneuklid Romance in September 1992.\n",
-        "during": "Swapped bands with Gaz and joined Malice Mizer on March 17, 1993. Drummed through the Gackt era and the band's major-label peak. After his death he was credited as \"eternal blood relative\" on all subsequent releases.\n",
+        "during": "Swapped bands with Gaz and joined Malice Mizer on March 17, 1993. Drummed through the Gackt era and the band's major-label peak. After their death they were credited as \"eternal blood relative\" on all subsequent releases.\n",
         "after": "Died of a subarachnoid hemorrhage on June 21, 1999, aged 27. Left behind unfinished compositions released on the Shinwa EP and memorial releases.\n"
       },
       "portrait_image": "images/members/kami.webp",
@@ -361,8 +417,8 @@
       },
       "bio": {
         "before": "Briefly performed with Ner-vous in 1992 before becoming Malice Mizer's founding vocalist when the band formed in August that year.\n",
-        "during": "Fronted the band's first era (1992–1994), shaping its early gothic and classical sound. Sang on Memoire and numerous demos and compilations. Left after his final show on December 27, 1994, unwilling to pursue the visual kei direction the other members wanted.\n",
-        "after": "Moved toward straight rock with Mega8Ball (1995–1997), the supergroup Zigzo (1999–2002), and his primary band nil (2002–present). Also active in The JuneJulyAugust, The Black Comet Club Band, and Disco Volante via his label Afro Skull Records.\n"
+        "during": "Fronted the band's first era (1992–1994), shaping its early gothic and classical sound. Sang on Memoire and numerous demos and compilations. Left after their final show on December 27, 1994, unwilling to pursue the visual kei direction the other members wanted.\n",
+        "after": "Moved toward straight rock with Mega8Ball (1995–1997), the supergroup Zigzo (1999–2002), and their primary band nil (2002–present). Also active in The JuneJulyAugust, The Black Comet Club Band, and Disco Volante via their label Afro Skull Records.\n"
       },
       "portrait_image": "images/members/tetsu.webp",
       "gallery_images": [
@@ -451,7 +507,7 @@
       },
       "bio": {
         "before": "Played bass in the visual kei band Ze:ro (as Yû-KI) until the group disbanded in June 1992, shortly before Malice Mizer formed.\n",
-        "during": "Recruited by Mana and Közi as founding bassist in August 1992. One of only three members present for the band's entire nine-year run. Known for his aristocratic/vampire stage persona and composition of \"Syunikiss\" on Merveilles.\n",
+        "during": "Recruited by Mana and Közi as founding bassist in August 1992. One of only three members present for the band's entire nine-year run. Known for their aristocratic/vampire stage persona and composition of \"Syunikiss\" on Merveilles.\n",
         "after": "Has largely stepped back from music since 2001. Wrote lyrics for Közi's 2004 single \"Memento\". Appeared at Deep Sanctuary reunion shows from 2010 onward and later sold handcrafted jewelry through Midi:Nette.\n"
       },
       "portrait_image": "images/members/yuki.webp",

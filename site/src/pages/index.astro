@@ -48,6 +48,7 @@ const entityIds: Record<string, string> = {
   gackt: "person_gackt",
   klaha: "person_klaha",
   tetsu: "person_tetsu",
+  gaz: "person_gaz",
 };
 
 const eraLabels: Record<string, string> = {
@@ -58,9 +59,10 @@ const eraLabels: Record<string, string> = {
   kozi: "Gackt era",
   yuki: "Gackt era",
   kami: "Gackt era",
+  gaz: "Tetsu era",
 };
 
-const memberOrder = ["tetsu", "mana", "kozi", "yuki", "kami", "gackt", "klaha"];
+const memberOrder = ["tetsu", "mana", "kozi", "yuki", "gaz", "kami", "gackt", "klaha"];
 const featuredMembers = memberOrder
   .map((slug) => archive.people.members.find((m) => m.slug === slug))
   .filter(Boolean);

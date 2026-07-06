@@ -94,6 +94,7 @@ MEMBER_PHOTOS: dict[str, str] = {
     "gackt": "GGTOj8ZXkAAFu6R.webp",
     "klaha": "GIBE9LQWwAE5Er9.webp",
     "tetsu": "20240201_185653.webp",
+    "gaz": "Gaz-profile.webp",
 }
 
 PERSON_SLUGS = {
@@ -103,6 +104,7 @@ PERSON_SLUGS = {
     "kami": "person_kami",
     "gackt": "person_gackt",
     "klaha": "person_klaha",
+    "gaz": "person_gaz",
 }
 
 

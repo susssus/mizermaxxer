@@ -11,6 +11,7 @@ const entityIds: Record<string, string> = {
   gackt: "person_gackt",
   klaha: "person_klaha",
   tetsu: "person_tetsu",
+  gaz: "person_gaz",
 };
 
 const eraLabels: Record<string, string> = {
@@ -21,9 +22,10 @@ const eraLabels: Record<string, string> = {
   kozi: "Gackt era",
   yuki: "Gackt era",
   kami: "Gackt era",
+  gaz: "Tetsu era",
 };
 
-const memberOrder = ["tetsu", "mana", "kozi", "yuki", "kami", "gackt", "klaha"];
+const memberOrder = ["tetsu", "mana", "kozi", "yuki", "gaz", "kami", "gackt", "klaha"];
 const members = memberOrder
   .map((slug) => archive.people.members.find((m) => m.slug === slug))
   .filter(Boolean);
@@ -31,7 +33,7 @@ const members = memberOrder
 
 <Base
   title="Members"
-  description="Malice Mizer band members — Mana, Közi, Yu~ki, Kami, Gackt, Klaha, and Tetsu. Roles, eras, and profile pages for the visual kei group (1992–2001)."
+  description="Malice Mizer band members — Mana, Közi, Yu~ki, Gaz, Kami, Gackt, Klaha, and Tetsu. Roles, eras, and profile pages for the visual kei group (1992–2001)."
 >
   <p class="muted">
     Core lineup across the Tetsu, Gackt, and Klaha eras. Select a member for biography, roles, and archive links.
