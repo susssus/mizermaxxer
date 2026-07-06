@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T19:11:08.756970Z",
+  "generated_at": "2026-07-06T19:50:42.852505Z",
   "people": {
     "members": [
       {
@@ -450,11 +450,6 @@
       },
       "portrait_image": "images/members/tetsu.webp",
       "gallery_images": [
-        {
-          "src": "images/members/tetsu-profile.webp",
-          "caption": "Profile photograph",
-          "source": "malice-mizer.info"
-        },
         {
           "src": "images/vintage/tetsu-memoire-dx.webp",
           "caption": "Memoire DX booklet",

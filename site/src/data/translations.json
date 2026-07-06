@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-07-06T18:16:11.510019Z",
-  "count": 44,
+  "generated_at": "2026-07-06T19:50:43.159654Z",
+  "count": 45,
   "ids": [
+    "b-pass-1999-06",
     "fan-club-vol-1-1997-autumn",
     "fan-club-vol-2-3-1997-winter",
     "fan-club-vol-4-1998-spring",
@@ -48,6 +49,62 @@
     "vicious-1997-10-photo-spread"
   ],
   "by_id": {
+    "b-pass-1999-06": {
+      "id": "b-pass-1999-06",
+      "article_id": "b-pass-1999-06-001",
+      "publication": "b-pass",
+      "issue_number": "161",
+      "publication_date": "1999-06",
+      "pages": [
+        {
+          "page": 1,
+          "section": "Magazine p. 31 — feature opener",
+          "ja": "表現者の使命",
+          "romaji": "Hyōgensha no shimei",
+          "en": "The mission of an artist. Gackt seated at a pool table, red-lit bar with pop-art backdrop. Credits: text Yoshiko Funami, photo William Hames.\n"
+        },
+        {
+          "page": 2,
+          "section": "Magazine p. 32 — interview (1/2)",
+          "ja": "もう僕の生き様は、そのまま曲になってると思う",
+          "romaji": "Mō boku no ikizama wa, sono mama kyoku ni natteru to omou",
+          "en": "\"I think my way of life itself has already become my songs.\" LA recording session for debut solo album Mizérable (released May 12, 1999): Gackt working through the night in a candlelit booth on four album tracks. Interview on his new first step as a solo artist — creative process, leaving the band, harmony, and what it means to be a musician. Three small portraits along the right margin.\n"
+        },
+        {
+          "page": 3,
+          "section": "Magazine p. 33 — photo spread",
+          "ja": "表現者の使命",
+          "romaji": "Hyōgensha no shimei",
+          "en": "Full-page photograph: Gackt with pool cue at a pool table, Bud Light sign and pop-art woman poster behind him. Feature title repeated.\n"
+        },
+        {
+          "page": 4,
+          "section": "Magazine p. 34 — interview (2/2)",
+          "ja": "やれることはすべて、やりたいと思うことは全部やる",
+          "romaji": "Yareru koto wa subete, yaritai to omou koto wa zenbu yaru",
+          "en": "\"Do everything I can; do everything I want to do.\" Continued LA interview around the pool-table shoot. Discusses Mizérable, dry recording sound, returning to activity after Malice Mizer, and pursuing all he can and wants as a solo artist.\n"
+        }
+      ],
+      "writer_ja": "舟見佳子",
+      "writer_en": "Yoshiko Funami",
+      "photographer_ja": "ウイリアム・ヘイムズ",
+      "photographer_en": "William Hames",
+      "title_ja": "表現者の使命",
+      "title_en": "The mission of an artist",
+      "subtitle": "Gackt solo — Mizérable recording in LA",
+      "scan_paths": [
+        "images/scans/b-pass/1999-06/03.jpg",
+        "images/scans/b-pass/1999-06/04.jpg",
+        "images/scans/b-pass/1999-06/01.jpg",
+        "images/scans/b-pass/1999-06/02.jpg"
+      ],
+      "source_scan_gallery": "https://archive.org/details/scan-10188",
+      "translator": "mizermaxxer",
+      "translation_date": "2026-07-06",
+      "review_status": "partial",
+      "license_notes": "Gackt pages only from B-PASS June 1999 (Internet Archive). Translation for research/archival use; verify against physical copy where possible.\n",
+      "format": "pages"
+    },
     "fan-club-vol-1-1997-autumn": {
       "id": "fan-club-vol-1-1997-autumn",
       "article_id": "fan-club-vol-1-1997-autumn-001",

@@ -93,29 +93,11 @@ COVER_RELEASE_GROUPS: dict[str, tuple[str, str]] = {
     "78ffcb41-64fa-39cc-98fc-b71454f8484e": ("single", "beast-of-blood-single"),
 }
 
-# malice-mizer.info photo gallery (Cantavanda scans)
+# malice-mizer.info band hero image only. Member portraits are curated locally;
+# run scripts/research/build_member_portraits.py after updating the reference poster.
 MEMBER_PHOTOS: dict[str, str] = {
     "hero": "GK7xiQ1XoAAmE6m.webp",
-    "mana": "GIBE9LOWwAEwwIp.webp",
-    "kozi": "GIBE9LVXQAAhrpr.webp",
-    "yuki": "20240201_185706.webp",
-    "kami": "20240201_185708.webp",
-    "gackt": "GGTOj8ZXkAAFu6R.webp",
-    "klaha": "GIBE9LQWwAE5Er9.webp",
-    "tetsu": "20240201_185653.webp",
-    "gaz": "Gaz-profile.webp",
 }
-
-PERSON_SLUGS = {
-    "mana": "person_mana",
-    "kozi": "person_kozi",
-    "yuki": "person_yuki",
-    "kami": "person_kami",
-    "gackt": "person_gackt",
-    "klaha": "person_klaha",
-    "gaz": "person_gaz",
-}
-
 
 def load_manifest() -> list[dict[str, Any]]:
     if MANIFEST_PATH.exists():
@@ -312,33 +294,6 @@ def download_members(entries: list[dict[str, Any]], index: dict[str, dict[str, A
                 continue
         add_manifest_entry(entries, index, rel_path, source_url, "malice-mizer.info / Cantavanda")
         count += 1
-
-    for slug, person_id in PERSON_SLUGS.items():
-        rel_path = f"images/members/{slug}.webp"
-        if not (ROOT / rel_path).exists():
-            continue
-        yaml_path = ROOT / "data" / "people" / f"{slug}.yaml"
-        if yaml_path.exists():
-            doc = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
-            doc["portrait_image"] = rel_path
-            yaml_path.write_text(
-                yaml.dump(doc, allow_unicode=True, sort_keys=False, default_flow_style=False),
-                encoding="utf-8",
-            )
-
-    members_path = ROOT / "data" / "people" / "members.yaml"
-    if members_path.exists():
-        doc = yaml.safe_load(members_path.read_text(encoding="utf-8"))
-        portrait_map = {slug: f"images/members/{slug}.webp" for slug in PERSON_SLUGS}
-        portrait_map["tetsu"] = "images/members/tetsu.webp"
-        for member in doc.get("members", []):
-            slug = member.get("slug")
-            if slug in portrait_map and (ROOT / portrait_map[slug]).exists():
-                member["portrait_image"] = portrait_map[slug]
-        members_path.write_text(
-            yaml.dump(doc, allow_unicode=True, sort_keys=False, default_flow_style=False),
-            encoding="utf-8",
-        )
     return count
 
 
