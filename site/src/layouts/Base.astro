@@ -1,11 +1,45 @@
 ---
-interface Props {
-  title?: string;
-}
-
-const { title = "Malice Mizer Research Archive" } = Astro.props;
 import Analytics from "@vercel/analytics/astro";
 import Nav from "../components/Nav.astro";
+import {
+  absoluteUrl,
+  DEFAULT_DESCRIPTION,
+  DEFAULT_KEYWORDS,
+  DEFAULT_OG_IMAGE,
+  DEFAULT_OG_IMAGE_ALT,
+  pageTitle,
+  SITE_NAME,
+  SITE_URL,
+} from "../lib/seo";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  noindex?: boolean;
+  type?: "website" | "article" | "profile";
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = DEFAULT_DESCRIPTION,
+  image = DEFAULT_OG_IMAGE,
+  imageAlt = DEFAULT_OG_IMAGE_ALT,
+  noindex = false,
+  type = "website",
+  jsonLd,
+} = Astro.props;
+
+const resolvedTitle = pageTitle(title);
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? SITE_URL).href;
+const ogImageUrl = absoluteUrl(image, Astro.site?.href ?? SITE_URL);
+const jsonLdBlocks = jsonLd
+  ? Array.isArray(jsonLd)
+    ? jsonLd
+    : [jsonLd]
+  : [];
 ---
 
 <!doctype html>
@@ -13,8 +47,35 @@ import Nav from "../components/Nav.astro";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
+    <title>{resolvedTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={DEFAULT_KEYWORDS} />
+    <meta name="author" content="Malice Mizer Research Archive" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    )}
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={resolvedTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:alt" content={imageAlt} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={resolvedTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    <meta name="twitter:image:alt" content={imageAlt} />
+    <meta name="theme-color" content="#5c2d4a" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {jsonLdBlocks.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />

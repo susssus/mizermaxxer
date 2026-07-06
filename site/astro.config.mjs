@@ -1,6 +1,10 @@
 import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
+
+const site = process.env.SITE_URL ?? "https://mizermaxxer.vercel.app";
 
 export default defineConfig({
-  site: "https://example.com",
+  site,
   output: "static",
+  integrations: [sitemap()],
 });

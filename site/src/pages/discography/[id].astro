@@ -1,7 +1,8 @@
 ---
-import ArchiveImage from "../../components/ArchiveImage.astro";
 import Base from "../../layouts/Base.astro";
+import ArchiveImage from "../../components/ArchiveImage.astro";
 import archive from "../../data/archive.json";
+import { absoluteUrl } from "../../lib/seo";
 
 export function getStaticPaths() {
   return archive.albums.map((album) => ({ params: { id: album.id } }));
@@ -10,10 +11,35 @@ export function getStaticPaths() {
 const { id } = Astro.params;
 const album = archive.albums.find((entry) => entry.id === id);
 const songMap = new Map(archive.songs.map((song) => [song.id, song]));
+
+const albumDescription = album
+  ? `${album.title_en} (${album.title_ja}) — Malice Mizer ${album.type} released ${album.release_date ?? "date unknown"}. Track listing, cover art, and release details.`
+  : undefined;
+const albumImage = album?.cover_image
+  ? album.cover_image.startsWith("/")
+    ? album.cover_image
+    : `/${album.cover_image}`
+  : undefined;
 ---
 
 {album && (
-  <Base title={`${album.title_en} — Discography`}>
+  <Base
+    title={album.title_en}
+    description={albumDescription}
+    image={albumImage}
+    imageAlt={`${album.title_en} cover art`}
+    type="article"
+    jsonLd={{
+      "@context": "https://schema.org",
+      "@type": "MusicAlbum",
+      name: album.title_en,
+      alternateName: album.title_ja,
+      byArtist: { "@type": "MusicGroup", name: "Malice Mizer" },
+      datePublished: album.release_date ?? undefined,
+      image: albumImage ? absoluteUrl(albumImage) : undefined,
+      numTracks: album.tracks?.length,
+    }}
+  >
     <a class="back" href="/discography">← Back to discography</a>
 
     <section class="detail-grid">

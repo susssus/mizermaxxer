@@ -7,7 +7,10 @@ import linksIndex from "../../data/links_index.json";
 const rows = linksIndex.browse;
 ---
 
-<Base title="Browse — Malice Mizer Research Archive">
+<Base
+  title="Browse"
+  description="Browse the Malice Mizer entity graph — songs, releases, people, venues, and linked relationships across the research archive."
+>
   <section class="stats">
     <StatCard value={rows.length} label="Entities shown" preset="all" />
     <StatCard value={linksIndex.entity_count} label="Total entities" preset="all" />

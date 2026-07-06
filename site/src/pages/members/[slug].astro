@@ -34,10 +34,13 @@ const eraLabels: Record<string, string> = {
 
 const title = profile?.name?.romanized ?? profile?.name?.original ?? slug;
 const entityId = profile?.id ?? `person_${slug}`;
+const memberDescription = profile
+  ? `${title} — Malice Mizer ${profile.role ?? "member"} (${profile.years_active ?? "1992–2001"}). Band biography, photos, and linked archive entries.`
+  : undefined;
 ---
 
 {profile ? (
-  <Base title={`${title} — Malice Mizer Research Archive`}>
+  <Base title={title} description={memberDescription} type="profile">
     <a class="back" href="/">← Back to bibliography</a>
     <a class="back" href={`/entity/${entityId}`} style="margin-left: 1rem;">Entity graph →</a>
 
@@ -52,7 +55,7 @@ const entityId = profile?.id ?? `person_${slug}`;
     />
   </Base>
 ) : (
-  <Base title="Member not found">
+  <Base title="Member not found" noindex>
     <p>Member profile not found.</p>
     <a href="/">← Back</a>
   </Base>

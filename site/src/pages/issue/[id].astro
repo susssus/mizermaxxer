@@ -14,10 +14,14 @@ const publication = archive.publications.find((pub) => pub.slug === issue?.publi
 const isFlyer = issue?.publication === "flyers";
 const previewArticle = issue?.articles.find((article) => article.scan_url);
 
+const issueTitle = `${publication?.name_en ?? issue?.publication ?? "Issue"} — ${issue?.publication_date ?? ""}`.trim();
+const issueDescription = issue
+  ? `Malice Mizer coverage in ${publication?.name_en ?? issue.publication} (${issue.publication_date}) — articles, scans, and bibliography details.`
+  : undefined;
 ---
 
 {issue && (
-  <Base title={`${publication?.name_en ?? issue.publication} — ${issue.publication_date}`}>
+  <Base title={issueTitle} description={issueDescription} type="article">
     <a class="back" href={isFlyer ? "/flyers" : "/"}>← Back to {isFlyer ? "flyers" : "archive"}</a>
 
     {previewArticle?.scan_url && (
