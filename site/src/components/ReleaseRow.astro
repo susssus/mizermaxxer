@@ -1,4 +1,6 @@
 ---
+import ImageSourceNote from "./ImageSourceNote.astro";
+
 interface Album {
   id: string;
   title_en: string;
@@ -24,9 +26,12 @@ function coverSrc(path?: string | null) {
 ---
 
 <tr>
-  <td>
+  <td class="cover-cell">
     {album.cover_image ? (
-      <img class="cover-thumb" src={coverSrc(album.cover_image)!} alt="" loading="lazy" />
+      <figure class="cover-thumb-wrap">
+        <img class="cover-thumb" src={coverSrc(album.cover_image)!} alt="" loading="lazy" />
+        <ImageSourceNote src={album.cover_image} compact />
+      </figure>
     ) : (
       "—"
     )}
@@ -41,3 +46,23 @@ function coverSrc(path?: string | null) {
   <td>{album.tracks.length || "—"}</td>
   <td><span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></td>
 </tr>
+
+<style>
+  .cover-cell {
+    vertical-align: top;
+    min-width: 5.5rem;
+  }
+  .cover-thumb-wrap {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .cover-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+</style>

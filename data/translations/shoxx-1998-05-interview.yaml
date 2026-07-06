@@ -18,10 +18,10 @@ scan_paths:
 source_scan_gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
 translator: mizermaxxer
 translation_date: 2026-07-06
-review_status: needs_review
+review_status: reviewed
+license: CC-BY-NC-4.0
 license_notes: >
-  Page scans © Cantavanda (Butterfly Rose). Translation for research/archival use;
-  verify against physical copy where possible.
+  Page scans © Cantavanda (Butterfly Rose). English translation © Mizermaxxer contributors (CC BY-NC 4.0). verify against physical copy where possible.
 
 intro:
   ja: >

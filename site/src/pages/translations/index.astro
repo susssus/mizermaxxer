@@ -1,0 +1,144 @@
+---
+import Base from "../../layouts/Base.astro";
+import translationsData from "../../data/translations.json";
+import archive from "../../data/archive.json";
+import { translationReviewLabel } from "../../lib/translations.ts";
+
+const pubMap = new Map(archive.publications.map((pub) => [pub.slug, pub.name_en]));
+
+type TranslationEntry = (typeof translationsData.by_id)[keyof typeof translationsData.by_id];
+
+const rows = translationsData.ids
+  .map((id) => {
+    const doc = translationsData.by_id[id as keyof typeof translationsData.by_id] as TranslationEntry;
+    return {
+      id,
+      doc,
+      title: doc.title_en ?? doc.title_ja ?? id,
+      publication: doc.publication ?? "",
+      publicationName: pubMap.get(doc.publication ?? "") ?? doc.publication ?? "—",
+      date: doc.publication_date ?? "",
+      format: doc.format ?? "other",
+      reviewStatus: doc.review_status ?? "needs_review",
+    };
+  })
+  .sort((a, b) => (b.date || "").localeCompare(a.date || "") || a.title.localeCompare(b.title));
+
+const reviewedCount = rows.filter((row) => row.reviewStatus === "reviewed").length;
+const publications = [...new Set(rows.map((row) => row.publication).filter(Boolean))].sort();
+const formats = [...new Set(rows.map((row) => row.format))].sort();
+---
+
+<Base
+  title="Translations"
+  description="English translations of Malice Mizer magazine articles, interviews, flyers, and fan-club newsletters from the research archive."
+>
+  <h1 class="page-heading">Translations</h1>
+    <p class="muted page-intro">
+    Local English translations linked to bibliography entries. {reviewedCount} reviewed, {rows.length - reviewedCount} awaiting review.
+    Project translation text is <a href="/legal">CC BY-NC 4.0</a> (non-commercial use with attribution).
+  </p>
+
+  <div class="filters" id="translation-filters">
+    <label>
+      Publication
+      <select id="translation-publication">
+        <option value="">All</option>
+        {publications.map((slug) => (
+          <option value={slug}>{pubMap.get(slug) ?? slug}</option>
+        ))}
+      </select>
+    </label>
+    <label>
+      Format
+      <select id="translation-format">
+        <option value="">All</option>
+        {formats.map((format) => (
+          <option value={format}>{format.replaceAll("_", " ")}</option>
+        ))}
+      </select>
+    </label>
+    <label>
+      Review status
+      <select id="translation-review">
+        <option value="">All</option>
+        <option value="reviewed">Reviewed</option>
+        <option value="needs_review">Unreviewed</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Publication</th>
+          <th>Title</th>
+          <th>Format</th>
+          <th>Review</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            data-translation-row
+            data-publication={row.publication}
+            data-format={row.format}
+            data-review={row.reviewStatus}
+          >
+            <td>{row.date || "—"}</td>
+            <td>{row.publicationName}</td>
+            <td><a href={`/translation/${row.id}`}>{row.title}</a></td>
+            <td>{row.format.replaceAll("_", " ")}</td>
+            <td>
+              <span class={`badge ${row.reviewStatus}`}>
+                {translationReviewLabel(row.reviewStatus as "needs_review" | "reviewed") ?? row.reviewStatus}
+              </span>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="muted">
+    <span id="translation-count">{rows.length}</span> translations shown. Generated {translationsData.generated_at}.
+  </p>
+</Base>
+
+<script>
+  const rows = Array.from(document.querySelectorAll("[data-translation-row]"));
+  const countEl = document.getElementById("translation-count");
+
+  function applyTranslationFilters() {
+    const publication = (document.getElementById("translation-publication") as HTMLSelectElement).value;
+    const format = (document.getElementById("translation-format") as HTMLSelectElement).value;
+    const review = (document.getElementById("translation-review") as HTMLSelectElement).value;
+    let visible = 0;
+
+    rows.forEach((row) => {
+      const dataset = (row as HTMLElement).dataset;
+      const matchesPublication = !publication || dataset.publication === publication;
+      const matchesFormat = !format || dataset.format === format;
+      const matchesReview = !review || dataset.review === review;
+      const show = matchesPublication && matchesFormat && matchesReview;
+      (row as HTMLElement).style.display = show ? "" : "none";
+      if (show) visible += 1;
+    });
+
+    if (countEl) countEl.textContent = String(visible);
+  }
+
+  document.getElementById("translation-filters")?.addEventListener("change", applyTranslationFilters);
+</script>
+
+<style>
+  .page-heading {
+    margin: 0 0 0.5rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+  }
+  .page-intro {
+    margin: 0 0 1.5rem;
+  }
+</style>

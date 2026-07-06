@@ -326,3 +326,13 @@ YAML stubs: `data/references/malace-mizer-impersonator.yaml` (canonical actor pr
 | Gardenia | `514021384` |
 
 Tidal did not cross-link the full Spotify album set at time of check; treat as incomplete mirror of the same unauthorized uploads.
+
+## Licensing
+
+| Material | License | Notes |
+|----------|---------|-------|
+| Repository code | [MIT](../LICENSE) | Scripts, Astro site, JSON schemas |
+| Bibliographic YAML & English translations | [CC BY-NC 4.0](../LICENSE-CC-BY-NC-4.0.md) | Project-contributed research data |
+| Mirrored scans & magazine pages | Third-party | Cantavanda, malice-mizer.info, CAA, etc. — attribute, do not re-license |
+
+See [docs/LICENSE.md](LICENSE.md) for the full policy.

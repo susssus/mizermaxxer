@@ -9,4 +9,5 @@ location:
   prefecture: Tokyo
   country: Japan
 facts: []
-notes: ""
+notes: "Canonical v2 venue record. v1 catalog slug: tokyo-dome"
+legacy_v1_slug: tokyo-dome

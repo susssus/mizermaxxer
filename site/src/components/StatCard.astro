@@ -18,7 +18,7 @@ const { value, label, preset, href } = Astro.props;
       <span>{label}</span>
     </a>
   ) : (
-    <button type="button" class="stat stat--action" data-stat-preset={preset}>
+    <button type="button" class="stat stat--action" data-stat-preset={preset} aria-pressed="false">
       <strong>{value}</strong>
       <span>{label}</span>
     </button>

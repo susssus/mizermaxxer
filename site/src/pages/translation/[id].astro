@@ -1,8 +1,9 @@
 ---
 import ArchiveImage from "../../components/ArchiveImage.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import Base from "../../layouts/Base.astro";
 import translationsData from "../../data/translations.json";
-import { scanHref, translationReviewLabel } from "../../lib/translations.ts";
+import { issueForArticle, publicationName, scanHref, translationReviewLabel } from "../../lib/translations.ts";
 
 export function getStaticPaths() {
   return translationsData.ids.map((id) => ({ params: { id } }));
@@ -32,11 +33,42 @@ const translationDescription = doc
 const needsReview = doc?.review_status === "needs_review";
 const isReviewed = doc?.review_status === "reviewed";
 const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
+const isDialogue =
+  doc?.format === "dialogue" || (Array.isArray(doc?.dialogue) && doc.dialogue.length > 0);
+const isPages = doc?.format === "pages" && Array.isArray(doc.pages);
+const isOther = doc?.format === "other" || (!isDialogue && !isPages);
+const issueRef = issueForArticle(doc?.article_id as string | undefined);
+const breadcrumbItems = [
+  { label: "Archive", href: "/" },
+  ...(issueRef
+    ? [
+        {
+          label: publicationName(issueRef.publication),
+          href: issueRef.publication === "flyers" ? "/flyers" : "/",
+        },
+        { label: issueRef.publicationDate, href: `/issue/${issueRef.issueId}` },
+      ]
+    : []),
+  { label: translationTitle as string },
+];
+const pageToc =
+  doc?.format === "pages" && Array.isArray(doc.pages)
+    ? doc.pages.map((page) => ({
+        id: `page-${page.page}`,
+        label: page.section ? `Page ${page.page}: ${page.section}` : `Page ${page.page}`,
+      }))
+    : [];
 ---
 
 {doc && (
   <Base title={translationTitle} description={translationDescription} type="article">
-    <a class="back" href="/">← Back to archive</a>
+    <Breadcrumbs items={breadcrumbItems} />
+
+    {issueRef && (
+      <p class="issue-link muted">
+        Source issue: <a href={`/issue/${issueRef.issueId}`}>{publicationName(issueRef.publication)} · {issueRef.publicationDate}</a>
+      </p>
+    )}
 
     {needsReview && (
       <p class="review-notice card" role="status">
@@ -106,27 +138,36 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
         )}
       </dl>
       {doc.license_notes && <p class="muted license">{doc.license_notes}</p>}
+      {doc.license === "CC-BY-NC-4.0" && (
+        <p class="muted license">
+          English translation © Mizermaxxer contributors ·{" "}
+          <a href="/legal">CC BY-NC 4.0</a>
+          {" · "}
+          <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="license noopener">
+            license text
+          </a>
+        </p>
+      )}
     </header>
 
-    {doc.format === "dialogue" && Array.isArray(doc.scan_paths) && doc.scan_paths[0] && (
+    {isDialogue && Array.isArray(doc.scan_paths) && doc.scan_paths[0] && (
       <section class="card translation-block">
         <ArchiveImage
           src={doc.scan_paths[0] as string}
           alt={doc.title_en ?? doc.title_ja ?? "Scan"}
           caption={doc.title_en ?? doc.title_ja}
-          source="Cantavanda"
           variant="inline"
         />
       </section>
     )}
 
-    {doc.format === "dialogue" && doc.intro && (
+    {isDialogue && doc.intro && (
       <section class="card translation-block">
         <h2>Introduction</h2>
         {doc.intro.ja && (
           <div class="lang-block">
             <span class="lang-tag">Japanese</span>
-            <p class="ja-text">{doc.intro.ja}</p>
+            <p class="ja-text" lang="ja">{doc.intro.ja}</p>
           </div>
         )}
         {doc.intro.romaji && (
@@ -144,7 +185,7 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "dialogue" && doc.dialogue && (
+    {isDialogue && doc.dialogue && (
       <section class="card translation-block">
         <h2>Interview</h2>
         <div class="dialogue-list">
@@ -154,7 +195,7 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
               {line.ja && (
                 <div class="lang-block">
                   <span class="lang-tag">JA</span>
-                  <p class="ja-text">{line.ja}</p>
+                  <p class="ja-text" lang="ja">{line.ja}</p>
                 </div>
               )}
               {line.romaji && (
@@ -175,13 +216,13 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "dialogue" && doc.sidebar && (
+    {isDialogue && doc.sidebar && (
       <section class="card translation-block">
         <h2>Sidebar</h2>
         {doc.sidebar.ja && (
           <div class="lang-block">
             <span class="lang-tag">Japanese</span>
-            <p class="ja-text">{doc.sidebar.ja}</p>
+            <p class="ja-text" lang="ja">{doc.sidebar.ja}</p>
           </div>
         )}
         {doc.sidebar.romaji && (
@@ -199,13 +240,13 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "dialogue" && doc.photo_spread_note && (
+    {isDialogue && doc.photo_spread_note && (
       <section class="card translation-block">
         <h2>Photo spread note</h2>
         {doc.photo_spread_note.ja && (
           <div class="lang-block">
             <span class="lang-tag">Japanese</span>
-            <p class="ja-text">{doc.photo_spread_note.ja}</p>
+            <p class="ja-text" lang="ja">{doc.photo_spread_note.ja}</p>
           </div>
         )}
         {doc.photo_spread_note.romaji && (
@@ -223,7 +264,7 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "other" && Array.isArray(doc.scan_paths) && doc.scan_paths[0] && (
+    {isOther && Array.isArray(doc.scan_paths) && doc.scan_paths[0] && (
       <section class="card translation-block">
         <ArchiveImage
           src={doc.scan_paths[0] as string}
@@ -234,7 +275,7 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "other" && Array.isArray(doc.content) && (
+    {isOther && Array.isArray(doc.content) && (
       <section class="pages-list">
         {doc.content.map((block, index) => (
           <article class="card translation-page" id={`block-${index + 1}`}>
@@ -244,7 +285,7 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
             {block.ja && (
               <div class="lang-block">
                 <span class="lang-tag">Japanese</span>
-                <p class="ja-text">{block.ja}</p>
+                <p class="ja-text" lang="ja">{block.ja}</p>
               </div>
             )}
             {block.romaji && (
@@ -264,7 +305,7 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "other" && Array.isArray(doc.tour_dates) && doc.tour_dates.length > 0 && (
+    {isOther && Array.isArray(doc.tour_dates) && doc.tour_dates.length > 0 && (
       <section class="card translation-block">
         <h2>Tour dates</h2>
         <table>
@@ -292,13 +333,13 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "other" && doc.footer && (
+    {isOther && doc.footer && (
       <section class="card translation-block">
         <h2>Footer</h2>
         {doc.footer.ja && (
           <div class="lang-block">
             <span class="lang-tag">Japanese</span>
-            <p class="ja-text">{doc.footer.ja}</p>
+            <p class="ja-text" lang="ja">{doc.footer.ja}</p>
           </div>
         )}
         {doc.footer.romaji && (
@@ -316,7 +357,18 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
       </section>
     )}
 
-    {doc.format === "pages" && Array.isArray(doc.pages) && (
+    {pageToc.length > 1 && (
+      <nav class="card page-toc" aria-label="Page contents">
+        <h2 class="toc-heading">Contents</h2>
+        <ol>
+          {pageToc.map((entry) => (
+            <li><a href={`#${entry.id}`}>{entry.label}</a></li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
+    {isPages && (
       <section class="pages-list">
         {doc.pages.map((page) => {
           const scan = pageScan(doc, page.page as number);
@@ -331,14 +383,13 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
                   src={scan}
                   alt={`Page ${page.page}`}
                   caption={`Page ${page.page}`}
-                  source="Cantavanda"
                   variant="inline"
                 />
               )}
               {page.ja && (
                 <div class="lang-block">
                   <span class="lang-tag">Japanese</span>
-                  <p class="ja-text">{page.ja}</p>
+                  <p class="ja-text" lang="ja">{page.ja}</p>
                 </div>
               )}
               {page.romaji && (
@@ -474,5 +525,23 @@ const reviewLabel = translationReviewLabel(doc?.review_status ?? null);
     margin-top: 2rem;
     text-align: center;
     font-size: 0.9rem;
+  }
+  .issue-link {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+  }
+  .page-toc {
+    margin-top: 1rem;
+  }
+  .toc-heading {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+  }
+  .page-toc ol {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+  .page-toc li + li {
+    margin-top: 0.35rem;
   }
 </style>

@@ -35,9 +35,25 @@ make all
 | URL | Content |
 |-----|---------|
 | `/` | Magazine bibliography with filters |
+| `/timeline` | Unified chronology (releases, gigs, magazine issues) |
 | `/discography` | Albums and singles |
 | `/gigs` | Concert list with performance links |
+| `/members` | Member profiles |
+| `/gallery` | Curated promo and portrait gallery |
+| `/flyers` | Flyer catalog |
 | `/videos` | PVs and standalone footage |
+| `/translations` | English translations index |
+| `/browse` | Entity graph explorer |
+| `/attribution` | Image and scan provenance |
+| `/legal` | Licenses, affiliation notice, and reuse terms |
+
+## Licensing
+
+Project source code is licensed under the [MIT License](LICENSE). Archive content
+(bibliographic YAML, English translations, exported datasets) is licensed under
+[CC BY-NC 4.0](LICENSE-CC-BY-NC-4.0.md). Third-party scans and magazine pages remain
+subject to original rights holders — see [docs/LICENSE.md](docs/LICENSE.md),
+[docs/SOURCES.md](docs/SOURCES.md), and the site [attribution page](https://mizermaxxer.org/attribution).
 
 ## Data entry
 

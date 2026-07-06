@@ -13,6 +13,7 @@ from common import (
     ROOT,
     SITE_DATA_PATH,
     ensure_dirs,
+    infer_translation_format,
     load_albums,
     load_concerts,
     load_issues,
@@ -30,6 +31,8 @@ from common import (
 GALLERY_PREVIEWS_PATH = ROOT / "site" / "src" / "data" / "gallery_previews.json"
 TRANSLATIONS_DIR = ROOT / "data" / "translations"
 TRANSLATIONS_PATH = ROOT / "site" / "src" / "data" / "translations.json"
+ENTITY_CROSSWALK_PATH = ROOT / "site" / "src" / "data" / "entity_crosswalk.json"
+LINKS_INDEX_PATH = ROOT / "site" / "src" / "data" / "links_index.json"
 GALLERY_INDEX_PATH = ROOT / "site" / "src" / "data" / "gallery_index.json"
 ATTRIBUTION_PATH = ROOT / "site" / "src" / "data" / "attribution.json"
 MANIFEST_PATH = ROOT / "images" / "manifest.json"
@@ -589,7 +592,7 @@ def export_attribution() -> None:
     )
 
     if not MANIFEST_PATH.exists():
-        payload = {"generated_at": generated_at, "total_count": 0, "sources": []}
+        payload = {"generated_at": generated_at, "total_count": 0, "sources": [], "by_path": {}, "by_source_url": {}}
     else:
         manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
         by_source: dict[str, list[dict[str, str | None]]] = {}
@@ -610,7 +613,26 @@ def export_attribution() -> None:
             images = sorted(by_source[name], key=lambda item: item["path"] or "")
             sources.append({"source_name": name, "count": len(images), "images": images})
 
-        payload = {"generated_at": generated_at, "total_count": len(manifest), "sources": sources}
+        by_path: dict[str, dict[str, str | None]] = {}
+        by_source_url: dict[str, dict[str, str | None]] = {}
+        for entry in manifest:
+            path = entry["path"]
+            record = {
+                "source_name": entry.get("source_name"),
+                "source_url": entry.get("source_url"),
+            }
+            by_path[path] = record
+            source_url = entry.get("source_url")
+            if source_url:
+                by_source_url[source_url] = {**record, "path": path}
+
+        payload = {
+            "generated_at": generated_at,
+            "total_count": len(manifest),
+            "sources": sources,
+            "by_path": by_path,
+            "by_source_url": by_source_url,
+        }
 
     ATTRIBUTION_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -638,29 +660,48 @@ def export_gallery_previews() -> None:
 def export_promo_gallery(albums: list[dict[str, Any]], profiles: list[dict[str, Any]]) -> None:
     """Promo / cover / member images for the site gallery page."""
     items: list[dict[str, Any]] = []
+    manifest_by_path: dict[str, dict[str, Any]] = {}
+    if MANIFEST_PATH.exists():
+        for entry in json.loads(MANIFEST_PATH.read_text(encoding="utf-8")):
+            manifest_by_path[entry["path"]] = entry
+
+    def attribution_for_local(path: str | None) -> tuple[str | None, str | None]:
+        if not path or path.startswith("http"):
+            return None, None
+        normalized = path.lstrip("/")
+        entry = manifest_by_path.get(normalized)
+        if not entry:
+            return None, None
+        return entry.get("source_name"), entry.get("source_url")
 
     for profile in profiles:
         name = (profile.get("name") or {}).get("romanized") or profile.get("id", "")
         era = (profile.get("active") or {}).get("start")
         for img in profile.get("gallery_images") or []:
+            src = img.get("src")
+            manifest_name, manifest_url = attribution_for_local(src)
             items.append(
                 {
                     "title": name,
-                    "src": img.get("src"),
+                    "src": src,
                     "caption": img.get("caption"),
-                    "source": img.get("source"),
+                    "source": img.get("source") or manifest_name,
+                    "source_url": manifest_url,
                     "era": era,
                     "category": "member",
-                    "external": str(img.get("src", "")).startswith("http"),
+                    "external": str(src or "").startswith("http"),
                 }
             )
         if profile.get("portrait_image"):
+            portrait = profile["portrait_image"]
+            manifest_name, manifest_url = attribution_for_local(portrait)
             items.append(
                 {
                     "title": name,
-                    "src": profile["portrait_image"],
+                    "src": portrait,
                     "caption": "Portrait",
-                    "source": "Archive",
+                    "source": manifest_name or "Archive",
+                    "source_url": manifest_url,
                     "era": era,
                     "category": "member",
                     "external": False,
@@ -671,12 +712,14 @@ def export_promo_gallery(albums: list[dict[str, Any]], profiles: list[dict[str, 
         cover = album.get("cover_image")
         if not cover:
             continue
+        manifest_name, manifest_url = attribution_for_local(cover)
         items.append(
             {
                 "title": album.get("title_en") or album.get("title_ja"),
                 "src": cover,
                 "caption": album.get("type", "").replace("_", " "),
-                "source": "Discogs / Cover Art Archive",
+                "source": manifest_name or "Cover Art Archive",
+                "source_url": manifest_url,
                 "era": (album.get("release_date") or "")[:4] or None,
                 "category": "release",
                 "external": False,
@@ -701,6 +744,7 @@ def export_promo_gallery(albums: list[dict[str, Any]], profiles: list[dict[str, 
                         "src": url,
                         "caption": "Magazine cover",
                         "source": "vk.gy",
+                        "source_url": entry.get("gallery_url") or url,
                         "era": None,
                         "category": "promo",
                         "external": True,
@@ -730,12 +774,7 @@ def export_translations() -> None:
             if not doc or not doc.get("id"):
                 continue
             entry = dict(doc)
-            if entry.get("pages"):
-                entry["format"] = "pages"
-            elif entry.get("dialogue"):
-                entry["format"] = "dialogue"
-            else:
-                entry["format"] = "other"
+            entry["format"] = infer_translation_format(entry)
             by_id[entry["id"]] = _json_safe(entry)
 
     payload = {
@@ -745,6 +784,33 @@ def export_translations() -> None:
         "by_id": by_id,
     }
     TRANSLATIONS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def export_entity_crosswalk() -> None:
+    """Export v1 slug → v2 entity ID mappings for site cross-links."""
+    generated_at = (
+        __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat().replace("+00:00", "Z")
+    )
+    entity_ids: set[str] = set()
+    if LINKS_INDEX_PATH.exists():
+        links_index = json.loads(LINKS_INDEX_PATH.read_text(encoding="utf-8"))
+        entity_ids = {row["id"] for row in links_index.get("browse", [])}
+
+    def keep(mapping: dict[str, str]) -> dict[str, str]:
+        if not entity_ids:
+            return mapping
+        return {key: value for key, value in mapping.items() if value in entity_ids}
+
+    members = load_people().get("members", [])
+    payload = {
+        "generated_at": generated_at,
+        "songs": keep({song["id"]: f"song_{song['id'].replace('-', '_')}" for song in load_songs()}),
+        "venues": keep({venue["id"]: f"venue_{venue['id'].replace('-', '_')}" for venue in load_venues()}),
+        "people": keep({member["slug"]: f"person_{member['slug']}" for member in members}),
+        "albums": keep({album["id"]: f"album_{album['id'].replace('-', '_')}" for album in load_albums()}),
+        "concerts": keep({concert["id"]: f"concert_{concert['id'].replace('-', '_')}" for concert in load_concerts()}),
+    }
+    ENTITY_CROSSWALK_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> int:
@@ -762,6 +828,7 @@ def main() -> int:
         export_promo_gallery(load_albums(), load_people_profiles())
         export_attribution()
         export_translations()
+        export_entity_crosswalk()
     finally:
         connection.close()
 
@@ -774,6 +841,7 @@ def main() -> int:
     print(f"Exported promo gallery to {GALLERY_INDEX_PATH}.")
     print(f"Exported image attribution to {ATTRIBUTION_PATH}.")
     print(f"Exported translations to {TRANSLATIONS_PATH}.")
+    print(f"Exported entity crosswalk to {ENTITY_CROSSWALK_PATH}.")
     return 0
 
 

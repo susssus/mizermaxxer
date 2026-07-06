@@ -1,5 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
+import GalleryLightbox from "../../components/GalleryLightbox.astro";
+import ImageSourceNote from "../../components/ImageSourceNote.astro";
 import StatCard from "../../components/StatCard.astro";
 import gallery from "../../data/gallery_index.json";
 
@@ -42,26 +44,50 @@ const eras = [...new Set(gallery.items.map((i) => i.era).filter(Boolean))].sort(
   </section>
 
   <div class="gallery-grid" id="gallery-grid">
-    {gallery.items.map((item) => (
+    {gallery.items.map((item) => {
+      const src = item.external ? item.src : `/${item.src}`;
+      const detail = [item.caption, item.source].filter(Boolean).join(" · ");
+      return (
       <figure
         class="gallery-card"
         data-category={item.category}
         data-era={item.era ?? ""}
       >
-        <img
-          src={item.external ? item.src : `/${item.src}`}
-          alt={item.title ?? "Archive image"}
-          loading="lazy"
-          decoding="async"
-        />
+        <button
+          type="button"
+          class="gallery-card__button"
+          data-gallery-open
+          data-gallery-src={src}
+          data-gallery-title={item.title ?? "Archive image"}
+          data-gallery-detail={detail}
+          data-gallery-href={item.source_url ?? (item.external ? item.src : undefined)}
+          data-gallery-source-name={item.source}
+          data-gallery-source-url={item.source_url}
+          aria-label={`Open preview: ${item.title ?? "Archive image"}`}
+        >
+          <img
+            src={src}
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </button>
         <figcaption>
           <strong>{item.title}</strong>
           {item.caption && <span>{item.caption}</span>}
-          {item.source && <span class="muted">{item.source}</span>}
+          <ImageSourceNote
+            src={item.external ? item.src : item.src}
+            sourceName={item.source}
+            sourceUrl={item.source_url}
+            compact
+          />
         </figcaption>
       </figure>
-    ))}
+    );
+    })}
   </div>
+
+  <GalleryLightbox />
 </Base>
 
 <style>
@@ -76,6 +102,18 @@ const eras = [...new Set(gallery.items.map((i) => i.era).filter(Boolean))].sort(
     border-radius: 8px;
     overflow: hidden;
     background: var(--surface);
+  }
+  .gallery-card__button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: zoom-in;
+  }
+  .gallery-card__button:focus-visible {
+    outline: 2px solid var(--rose);
+    outline-offset: -2px;
   }
   .gallery-card img {
     width: 100%;

@@ -19,13 +19,13 @@ This repository is a unified **Malice Mizer Archive**. The layout below maps the
 | `data/references/` | [`data/references/`](references/) | External bibliographic sources |
 | `data/interviews/` | *planned* | Standalone interview transcripts (currently in magazine articles) |
 | `data/books/` | *planned* | Book citations |
-| `data/translations/` | *planned* | Translation files keyed to articles/songs |
+| `data/translations/` | [`data/translations/`](translations/) | English translation YAML keyed to issue articles (`article_id` + local `/translation/[id]` routes) |
 | `images/covers/` | [`images/covers/`](../../images/covers/) | Release artwork |
 | `images/flyers/` | [`images/flyers/`](../../images/flyers/) | Live flyers |
 | `images/tickets/` | [`images/tickets/`](../../images/tickets/) | Ticket scans |
 | `images/scans/` | [`images/scans/`](../../images/scans/) | Magazine page scans (normalized for git/site) |
 | `images/scans-original/` | *(local only, gitignored)* | Full-resolution scan masters before normalization |
-| `website/` | [`site/`](../../site/) | Astro static site (Bibliography, Discography, Gigs, Videos) |
+| `website/` | [`site/`](../../site/) | Astro static site (bibliography, timeline, discography, gigs, translations, browse, gallery) |
 | `bibliography/` | [`exports/`](../exports/) + [`data/issues/`](../issues/) | Generated CSV/XLSX/PDF + YAML source |
 | `docs/` | [`docs/`](../../docs/) | Research workflow and source lists |
 | `scripts/` | [`scripts/`](../../scripts/) | Validation and build pipeline |
@@ -66,3 +66,13 @@ changelog:
 ```
 
 Run `make build` after editing YAML.
+
+## Licensing
+
+- **Code** — MIT ([LICENSE](../../LICENSE))
+- **YAML data and English translations** — CC BY-NC 4.0 ([LICENSE-CC-BY-NC-4.0.md](../../LICENSE-CC-BY-NC-4.0.md))
+- **Mirrored scans** — third-party rights; see [docs/SOURCES.md](../../docs/SOURCES.md)
+
+## Appearances (v2, research-only)
+
+Files under [`data/appearances/`](appearances/) use the v2 entity schema (`appearance_*` IDs). They are validated by `make entities` but are **not** exported to `archive.json` until the v1→v2 migration completes. Use them for research and entity graph work via [`data/links.yaml`](links.yaml).
