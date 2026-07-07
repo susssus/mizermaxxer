@@ -1,0 +1,16 @@
+id: song_bel_air
+type: song
+legacy_v1_slug: bel-air
+title:
+  original: Bel Air
+  romanized: Bel Air
+duration_seconds: null
+appears_on:
+- album_merveilles
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: v2 entity stub migrated from v1 song catalog.

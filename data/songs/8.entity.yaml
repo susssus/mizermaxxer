@@ -1,0 +1,15 @@
+id: song_8
+type: song
+legacy_v1_slug: '8'
+title:
+  original: →<<8>>←
+  romanized: →<<8>>←
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

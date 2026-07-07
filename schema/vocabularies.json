@@ -1,60 +1,97 @@
 {
-  "verification_status": [
-    "verified",
-    "possible",
-    "mention_only",
-    "needs_verification",
-    "disputed"
-  ],
-  "date_precision": ["year", "month", "day"],
-  "article_type": [
-    "interview",
-    "live_report",
-    "review",
-    "advertisement",
-    "photo_spread",
-    "live_listing",
-    "mention",
-    "instrument_interview",
-    "release_calendar",
-    "cover",
-    "poster",
-    "flyer",
-    "newsletter",
-    "pamphlet"
-  ],
-  "member_slug": [
-    "klaha",
-    "mana",
-    "kozi",
-    "yuki",
-    "kami",
-    "gackt",
-    "gaz",
-    "tetsu",
-    "birith",
-    "karis",
-    "unknown"
-  ],
-  "scan_quality": ["low", "medium", "high", "original_scan"],
-  "publication_status": ["verified", "needs_confirmation"],
-  "trigger_warning": ["blood", "gore", "violence", "sexual_content"],
-  "changelog_action": [
-    "created",
-    "updated",
-    "verified",
-    "status_change",
-    "research_note"
-  ],
-  "link_platform": [
-    "website",
-    "youtube",
-    "twitter",
-    "instagram",
-    "facebook",
-    "tiktok",
-    "threads",
-    "other"
-  ],
-  "translation_review_status": ["needs_review", "reviewed"]
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vocabularies.json",
+  "title": "Controlled vocabularies",
+  "$defs": {
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "possible",
+        "mention_only",
+        "unverified",
+        "needs_verification",
+        "disputed"
+      ]
+    },
+    "date_precision": {
+      "type": "string",
+      "enum": ["year", "month", "day"]
+    },
+    "article_type": {
+      "type": "string",
+      "enum": [
+        "interview",
+        "live_report",
+        "review",
+        "advertisement",
+        "photo_spread",
+        "live_listing",
+        "mention",
+        "instrument_interview",
+        "release_calendar",
+        "cover",
+        "poster",
+        "flyer",
+        "newsletter",
+        "pamphlet"
+      ]
+    },
+    "member_slug": {
+      "type": "string",
+      "enum": [
+        "klaha",
+        "mana",
+        "kozi",
+        "yuki",
+        "kami",
+        "gackt",
+        "gaz",
+        "tetsu",
+        "birith",
+        "karis",
+        "unknown"
+      ]
+    },
+    "scan_quality": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "original_scan"]
+    },
+    "publication_status": {
+      "type": "string",
+      "enum": ["verified", "needs_confirmation"]
+    },
+    "trigger_warning": {
+      "type": "string",
+      "enum": ["blood", "gore", "violence", "sexual_content"]
+    },
+    "changelog_action": {
+      "type": "string",
+      "enum": [
+        "created",
+        "updated",
+        "verified",
+        "status_change",
+        "research_note",
+        "augmented"
+      ]
+    },
+    "link_platform": {
+      "type": "string",
+      "enum": [
+        "website",
+        "youtube",
+        "twitter",
+        "instagram",
+        "facebook",
+        "tiktok",
+        "threads",
+        "other"
+      ]
+    },
+    "translation_review_status": {
+      "type": "string",
+      "enum": ["needs_review", "reviewed"]
+    }
+  }
 }

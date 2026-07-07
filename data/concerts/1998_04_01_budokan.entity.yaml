@@ -1,5 +1,6 @@
 id: concert_1998_04_01_budokan
 type: concert
+legacy_v1_slug: 1998-04-01-merveilles-budokan
 title:
   original: merveilles ～終焉と帰趨～
   romanized: merveilles ~Shuuen to kisuu~
@@ -10,8 +11,8 @@ venue: venue_nippon_budokan
 concert_type: oneman
 setlist:
   - song_gekka_no_yasoukyoku
-  - song_illuminati
   - song_au_revoir
+  - song_illuminati
 members_present:
   - person_mana
   - person_kozi
@@ -31,4 +32,7 @@ performances:
     notes: Fan upload of official VHS/DVD edit.
 verification_status: verified
 facts: []
-notes: SOLD OUT in 2 minutes after album release.
+notes: >
+  SOLD OUT in 2 minutes after album release. merveilles-1998 tour. Full v1 setlist
+  (18 songs) in catalog gig 1998-04-01-merveilles-budokan; v2 graph links the
+  three flagship tracks with entity records.

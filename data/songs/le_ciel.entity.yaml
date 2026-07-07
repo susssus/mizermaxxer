@@ -1,0 +1,16 @@
+id: song_le_ciel
+type: song
+legacy_v1_slug: le-ciel
+title:
+  original: Le ciel ～空白の彼方へ～
+  romanized: Le ciel ~Kuuhaku no Kanata e~
+duration_seconds: null
+appears_on:
+- album_merveilles
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: v2 entity stub migrated from v1 song catalog.

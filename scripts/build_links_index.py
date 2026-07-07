@@ -192,6 +192,20 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
                         seen,
                     )
 
+        if entity_type == "article":
+            ref_id = entity.get("published_in")
+            if ref_id:
+                add_edge(
+                    edges,
+                    Edge(entity_id, ref_id, "published_in", "entity_field", "outgoing"),
+                    seen,
+                )
+                add_edge(
+                    edges,
+                    Edge(ref_id, entity_id, "includes_article", "entity_field", "outgoing"),
+                    seen,
+                )
+
     return edges
 
 
@@ -302,6 +316,7 @@ TYPE_UI: dict[str, dict[str, str]] = {
     "video": {"category": "media", "color": "gold", "label": "Video"},
     "organization": {"category": "meta", "color": "gray", "label": "Organization"},
     "image": {"category": "media", "color": "gold", "label": "Image"},
+    "article": {"category": "press", "color": "pink", "label": "Article"},
 }
 
 STATUS_PRIORITY = {
@@ -327,6 +342,8 @@ def extract_date(entity: dict[str, Any]) -> str | None:
         return entity.get("release_date")
     if entity_type == "video":
         return entity.get("release_date")
+    if entity_type == "article":
+        return None
     return None
 
 

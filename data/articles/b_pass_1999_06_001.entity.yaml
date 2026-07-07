@@ -1,0 +1,25 @@
+id: article_b_pass_1999_06_001
+type: article
+legacy_v1_slug: b-pass-1999-06-001
+title:
+  romanized: The mission of an artist — Gackt Mizérable feature
+  original: 表現者の使命
+article_type: interview
+published_in: ref_b_pass_1999_06
+pages: 31–34
+members:
+- gackt
+photographer: William Hames
+writer: Yoshiko Funami
+cover: false
+poster: false
+foldout: false
+facts: []
+notes: Gackt pages only; not full issue. Local scans 03–04 (magazine pp. 31–32 area).
+  Additional pages pending from IA catalog.
+scan:
+  available: true
+  quality: medium
+  url: images/scans/b-pass/1999-06/03.jpg
+translation_slug: b-pass-1999-06
+verification_status: verified

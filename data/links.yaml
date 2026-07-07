@@ -6,10 +6,38 @@
   to: concert_1998_04_01_budokan
   relation: performed_at
 
+- from: song_gekka_no_yasoukyoku
+  to: concert_1998_04_01_budokan
+  relation: performed_at
+
+- from: song_illuminati
+  to: concert_1998_04_01_budokan
+  relation: performed_at
+
 - from: song_au_revoir
   to: song_illuminati
   relation: related_song
   note: shares a chord progression in the bridge
+
+- from: song_gekka_no_yasoukyoku
+  to: album_merveilles
+  relation: references
+  note: track 11 on major debut album (appears_on is derived from song entity)
+
+- from: song_illuminati
+  to: album_merveilles
+  relation: references
+  note: track 4 on major debut album
+
+- from: concert_1998_04_01_budokan
+  to: venue_nippon_budokan
+  relation: references
+  note: April 1998 merveilles oneman
+
+- from: song_beast_of_blood
+  to: appearance_1999_beast_of_blood_cm
+  relation: references
+  note: TV commercial for 1999 single
 
 - from: ref_shoxx_061
   to: song_au_revoir
@@ -23,3 +51,7 @@
   to: appearance_1995_12_music_station
   relation: discusses
   note: likely coverage of major debut TV period
+
+- from: ref_beast_of_blood_single
+  to: song_beast_of_blood
+  relation: discusses

@@ -16,7 +16,7 @@
     "notes": { "type": "string" },
     "trigger_warnings": {
       "type": "array",
-      "items": { "enum": ["blood", "gore", "violence", "sexual_content"] },
+      "items": { "$ref": "vocabularies.json#/$defs/trigger_warning" },
       "uniqueItems": true
     }
   },

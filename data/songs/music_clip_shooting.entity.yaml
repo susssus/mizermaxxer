@@ -1,0 +1,15 @@
+id: song_music_clip_shooting
+type: song
+legacy_v1_slug: music-clip-shooting
+title:
+  original: Music Clip Shooting
+  romanized: Music Clip Shooting
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

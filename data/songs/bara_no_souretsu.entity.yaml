@@ -1,0 +1,15 @@
+id: song_bara_no_souretsu
+type: song
+legacy_v1_slug: bara-no-souretsu
+title:
+  original: 薇の葬列
+  romanized: 薇の葬列
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Catalogued from Discogs tracklist.

@@ -18,6 +18,7 @@ data/
   singles/gekka-no-yasoukyoku.yaml  # v1 release stubs; v2 singles use type: single
   people/mana.yaml                  # type: person, id: person_mana
   references/shoxx_061.yaml         # type: reference, id: ref_shoxx_061
+  articles/pop_beat_1997_08_001.entity.yaml  # type: article, id: article_pop_beat_1997_08_001
   concerts/1998_04_14_tokyo.yaml
   appearances/1995_12_music_station.yaml
   organizations/tv_asahi.yaml
@@ -27,7 +28,7 @@ data/
   references/relation_types.yaml
 ```
 
-A file is a **v2 entity** when it has top-level `id` and `type` with a recognized prefix (`song_`, `album_`, `single_`, `person_`, `concert_`, `appearance_`, `venue_`, `ref_`, `video_`, `org_`, `image_`). Legacy v1 files (slug `id`, no `type`) remain for the print bibliography pipeline until migrated.
+A file is a **v2 entity** when it has top-level `id` and `type` with a recognized prefix (`song_`, `album_`, `single_`, `person_`, `concert_`, `appearance_`, `venue_`, `ref_`, `video_`, `org_`, `image_`, `article_`). Legacy v1 files (slug `id`, no `type`) remain for the print bibliography pipeline until migrated.
 
 ## Song example
 
@@ -67,6 +68,26 @@ publisher: SHOXX
 date: 1998-03
 pages_cited: [12, 13]
 scan: images/scans/shoxx_061_p12.jpg
+```
+
+## Article example (magazine piece)
+
+Bibliography articles (`data/issues/...` nested `articles[]`) migrate to v2 `article_*` entities. The `published_in` field points at the parent issue's `ref_*` entity; the link resolver derives `published_in` / `includes_article` edges automatically.
+
+```yaml
+id: article_pop_beat_1997_08_001
+type: article
+legacy_v1_slug: pop-beat-1997-08-001
+title:
+  original: 美しき表現者たち
+  romanized: Beautiful expressors
+article_type: interview
+published_in: ref_pop_beat_1997_08
+pages: "111"
+members:
+  - gackt
+  - yuki
+translation_slug: pop-beat-1997-08-interview
 ```
 
 ## Appearance example (TV / radio / variety / CM)
@@ -129,9 +150,9 @@ The build script infers these from entity fields — **do not** duplicate them i
 | `appearance.songs_performed[]` | `performed_at` (song→appearance) + `features_performance` |
 | `appearance.members_present[]` | `appeared_at` (person→appearance) + `featured_appearance` |
 | `appearance.broadcast.network` | `broadcast_on` (appearance→org) + `aired` (org→appearance) |
+| `article.published_in` | `published_in` (article→ref) + `includes_article` (ref→article) |
 
-Explicit link `discusses` (reference→entity) also generates inverse `cited_by`.  
-Explicit link `published_in` (article→magazine issue) is reserved for magazine migration.
+Explicit link `discusses` (reference→entity) also generates inverse `cited_by`.
 
 ## Relation vocabulary
 
@@ -184,6 +205,7 @@ Definitions live in [`schema/entity/`](../schema/entity/):
 | `album.schema.json` | `album_*`, `single_*` |
 | `person.schema.json` | `person_*` |
 | `reference.schema.json` | `ref_*`, `video_*` |
+| `article.schema.json` | `article_*` |
 | `concert.schema.json` | `concert_*` |
 | `appearance.schema.json` | `appearance_*` |
 | `organization.schema.json` | `org_*` |
@@ -194,12 +216,12 @@ Definitions live in [`schema/entity/`](../schema/entity/):
 
 ## Migration from v1
 
-| v1 | v2 |
-|----|-----|
-| `data/songs/au-revoir.yaml` (`id: au-revoir`) | `data/songs/au_revoir.yaml` (`id: song_au_revoir`) |
-| `data/issues/` magazine stubs | `ref_*` references + `published_in` links (planned) |
-| `data/people/members.yaml` (bulk) | one `person_*.yaml` per member |
-| Performance URLs on concerts | unchanged; also linkable via `links.yaml` |
+| v1 | v2 | Status |
+|----|-----|--------|
+| `data/songs/au-revoir.yaml` (`id: au-revoir`) | `data/songs/au_revoir.entity.yaml` (`id: song_au_revoir`) | ✅ 133/133 migrated |
+| `data/issues/` magazine stubs | `ref_*` references + `article_*` entities | ✅ 482 refs, ~488 articles (`published_in` derived) |
+| `data/people/members.yaml` (bulk) | one `person_*.yaml` per member | partial (8 members) |
+| Performance URLs on concerts | unchanged; also linkable via `links.yaml` | — |
 
 Legacy v1 and v2 coexist: `make validate` runs the bibliography validator; `make entities` runs the entity validator.
 
@@ -210,7 +232,7 @@ Legacy v1 and v2 coexist: `make validate` runs the bibliography validator; `make
 3. **Browse table** ✅ — `/browse` reads `links_index.browse`
 4. **Entity pages** ✅ (partial) — `/entity/[id]` renders type chips, facts with provenance, linked-entity grid; appearance and person layouts expanded
 5. **Timeline** — needs broadest date coverage across concerts, appearances, and releases
-6. **Magazine migration** — `data/issues/` stubs → `ref_*` references + `published_in` links
+6. **Magazine migration** ✅ — `ref_*` references, `article_*` entities, derived `published_in` links (`make migrate-v2-catalog`)
 
 ## v1 / v2 slug crosswalk
 
@@ -219,7 +241,9 @@ Some records exist in both models during migration:
 | v1 slug (catalog) | v2 entity ID | Notes |
 |-------------------|--------------|-------|
 | `tokyo-dome` | `venue_tokyo_dome` | Concerts reference v1 slug; browse graph uses v2 ID |
+| `pop-beat-1997-08` | `ref_pop_beat_1997_08` | Magazine issue → reference entity |
+| `pop-beat-1997-08-001` | `article_pop_beat_1997_08_001` | Bibliography article → article entity |
 
-The site generates `site/src/data/entity_crosswalk.json` during `make build` to connect catalog pages (`/gigs`, `/discography`) with `/entity/[id]` routes when a matching v2 record exists.
+The site generates `site/src/data/entity_crosswalk.json` during `make build`. Keys: `songs`, `venues`, `people`, `albums`, `concerts`, `issues` (magazine issue id → `ref_*`).
 
 Duplicate venue YAML files should not diverge in naming — prefer the v2 entity as canonical and keep the v1 stub for concert foreign keys until concerts migrate to entity IDs.

@@ -1,6 +1,7 @@
 ---
 import ArchiveImage from "../../components/ArchiveImage.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import NotFound from "../../components/NotFound.astro";
 import ImageSourceNote from "../../components/ImageSourceNote.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
@@ -23,7 +24,7 @@ const issueDescription = issue
   : undefined;
 ---
 
-{issue && (
+{issue ? (
   <Base title={issueTitle} description={issueDescription} type="article">
     <Breadcrumbs
       items={[
@@ -203,6 +204,13 @@ const issueDescription = issue
       </ul>
     </section>
   </Base>
+) : (
+  <NotFound
+    title="Issue not found"
+    message="No magazine issue or flyer matches that ID."
+    backHref="/"
+    backLabel="← Back to bibliography"
+  />
 )}
 
 <style>

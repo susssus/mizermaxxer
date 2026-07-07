@@ -1,0 +1,62 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatCard from "../../components/StatCard.astro";
+import archive from "../../data/archive.json";
+---
+
+<Base
+  title="TV & media appearances"
+  description="Malice Mizer television, radio, and variety show appearances — research catalog with links to the entity graph (1995–2001)."
+>
+  <h1 class="page-heading">TV &amp; media appearances</h1>
+  <p class="muted page-intro">
+    TV performances, radio interviews, and variety appearances tracked in the v2 entity graph.
+    Full relationship data lives on each <a href="/browse?type=appearance">entity page</a>.
+  </p>
+
+  <section class="stats">
+    <StatCard value={archive.appearances.length} label="Appearances catalogued" preset="all" />
+    <StatCard
+      value={archive.appearances.filter((row) => row.verification_status === "verified").length}
+      label="Verified"
+      preset="verified"
+    />
+  </section>
+
+  <section class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Title</th>
+          <th>Type</th>
+          <th>Format</th>
+          <th>Status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {archive.appearances.map((row) => (
+          <tr>
+            <td>{row.date ?? "—"}</td>
+            <td>{row.title}</td>
+            <td>{row.appearance_type ?? "—"}</td>
+            <td>{row.format ?? "—"}</td>
+            <td>
+              <span class={`badge ${row.verification_status}`}>
+                {row.verification_status.replaceAll("_", " ")}
+              </span>
+            </td>
+            <td><a href={`/entity/${row.id}`}>Entity graph →</a></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+</Base>
+
+<style>
+  .page-intro {
+    margin: 0 0 1.5rem;
+  }
+</style>

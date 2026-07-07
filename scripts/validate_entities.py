@@ -9,8 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from jsonschema import Draft202012Validator, RefResolver
-
+from common import load_concerts, load_issues, load_songs, load_venues
 from entities.common import (
     DATA_DIR,
     ENTITY_SCHEMA_BY_TYPE,
@@ -22,41 +21,12 @@ from entities.common import (
     load_relation_types,
     load_yaml,
 )
+from schema_registry import entity_validator
 
 
-def load_schema(name: str) -> dict:
-    with (SCHEMA_ENTITY_DIR / name).open(encoding="utf-8") as handle:
-        return json.load(handle)
-
-
-def schema_store() -> dict[str, dict]:
-    names = [
-        "entity.schema.json",
-        "title.schema.json",
-        "fact.schema.json",
-        "song.schema.json",
-        "album.schema.json",
-        "person.schema.json",
-        "reference.schema.json",
-        "concert.schema.json",
-        "appearance.schema.json",
-        "organization.schema.json",
-        "venue.schema.json",
-        "link.schema.json",
-    ]
-    return {name: load_schema(name) for name in names}
-
-
-def validator_for(entity_type: str) -> Draft202012Validator:
+def validator_for(entity_type: str):
     schema_name = ENTITY_SCHEMA_BY_TYPE.get(entity_type, "entity.schema.json")
-    store = schema_store()
-    primary = store[schema_name]
-    resolver = RefResolver(
-        base_uri="file://" + str(SCHEMA_ENTITY_DIR) + "/",
-        referrer=primary,
-        store=store,
-    )
-    return Draft202012Validator(primary, resolver=resolver)
+    return entity_validator(schema_name)
 
 
 def validate_entities() -> list[str]:
@@ -113,10 +83,89 @@ def validate_entities() -> list[str]:
         if entity["type"] == "organization":
             pass
 
+        if entity["type"] == "article":
+            published_in = entity.get("published_in")
+            if published_in and published_in not in ids:
+                errors.append(f"{rel_path}: published_in references unknown entity '{published_in}'")
+            elif published_in:
+                ref = entities.get(published_in, {})
+                if ref.get("type") != "reference" or ref.get("reference_type") != "magazine":
+                    errors.append(
+                        f"{rel_path}: published_in must reference a magazine ref_* entity, not '{published_in}'"
+                    )
+
         for fact in entity.get("facts", []):
             for source in fact.get("sources", []):
                 if source not in ids:
                     errors.append(f"{rel_path}: fact source references unknown entity '{source}'")
+
+    return errors
+
+
+def build_v1_article_ids() -> set[str]:
+    article_ids: set[str] = set()
+    for issue in load_issues():
+        if issue.get("publication") == "flyers":
+            continue
+        for article in issue.get("articles") or []:
+            article_ids.add(article["id"])
+    return article_ids
+
+
+def validate_legacy_v1_slugs(entities: dict[str, dict]) -> list[str]:
+    errors: list[str] = []
+    v1_venue_ids = {venue["id"] for venue in load_venues()}
+    v1_concert_ids = {concert["id"] for concert in load_concerts()}
+    v1_song_ids = {song["id"] for song in load_songs()}
+    v1_issue_ids = {
+        issue["id"]
+        for issue in load_issues()
+        if issue.get("publication") != "flyers"
+    }
+    v1_article_ids = build_v1_article_ids()
+    seen: dict[str, str] = {}
+
+    for entity_id, entity in entities.items():
+        entity_type = entity.get("type")
+        rel_path = entity.get("_path", entity_id)
+        legacy = entity.get("legacy_v1_slug")
+
+        if entity_type in ("venue", "concert", "song"):
+            if not legacy:
+                errors.append(f"{rel_path}: missing legacy_v1_slug (required for {entity_type} entities)")
+                continue
+            catalog = {
+                "venue": v1_venue_ids,
+                "concert": v1_concert_ids,
+                "song": v1_song_ids,
+            }[entity_type]
+            if legacy not in catalog:
+                errors.append(f"{rel_path}: legacy_v1_slug '{legacy}' not found in v1 catalog")
+            if legacy in seen:
+                errors.append(f"{rel_path}: duplicate legacy_v1_slug '{legacy}' (also used by {seen[legacy]})")
+            seen[legacy] = entity_id
+            continue
+
+        if entity_type == "reference" and entity.get("reference_type") == "magazine":
+            if not legacy:
+                errors.append(f"{rel_path}: missing legacy_v1_slug (required for magazine reference entities)")
+                continue
+            if legacy not in v1_issue_ids:
+                errors.append(f"{rel_path}: legacy_v1_slug '{legacy}' not found in v1 issue catalog")
+            if legacy in seen:
+                errors.append(f"{rel_path}: duplicate legacy_v1_slug '{legacy}' (also used by {seen[legacy]})")
+            seen[legacy] = entity_id
+            continue
+
+        if entity_type == "article":
+            if not legacy:
+                errors.append(f"{rel_path}: missing legacy_v1_slug (required for article entities)")
+                continue
+            if legacy not in v1_article_ids:
+                errors.append(f"{rel_path}: legacy_v1_slug '{legacy}' not found in v1 article catalog")
+            if legacy in seen:
+                errors.append(f"{rel_path}: duplicate legacy_v1_slug '{legacy}' (also used by {seen[legacy]})")
+            seen[legacy] = entity_id
 
     return errors
 
@@ -129,8 +178,7 @@ def validate_links() -> list[str]:
     entities = load_entities()
     relation_types = load_relation_types()
     allowed = {item["id"] for item in relation_types.values() if item.get("origin") == "explicit"}
-    store = schema_store()
-    link_validator = Draft202012Validator(store["link.schema.json"])
+    link_validator = entity_validator("link.schema.json")
 
     for index, link in enumerate(load_explicit_links()):
         for error in link_validator.iter_errors(link):
@@ -162,7 +210,13 @@ def validate_relation_types() -> list[str]:
 
 
 def main() -> int:
-    errors = validate_relation_types() + validate_entities() + validate_links()
+    entities = load_entities()
+    errors = (
+        validate_relation_types()
+        + validate_entities()
+        + validate_legacy_v1_slugs(entities)
+        + validate_links()
+    )
     if errors:
         print("Entity validation failed:", file=sys.stderr)
         for error in errors:

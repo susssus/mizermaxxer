@@ -6,21 +6,22 @@ title:
 duration_seconds: null
 appears_on: []
 personnel:
-  - person: person_klaha
-    role: vocals
-  - person: person_mana
-    role: guitar
-  - person: person_kozi
-    role: guitar
-  - person: person_yuki
-    role: bass
-  - person: person_kami
-    role: drums
+- person: person_klaha
+  role: vocals
+- person: person_mana
+  role: guitar
+- person: person_kozi
+  role: guitar
+- person: person_yuki
+  role: bass
+- person: person_kami
+  role: drums
 verification_status: verified
 facts:
-  - statement: A-side of Midi:Nette single MMCD-022, released 2001-06-21.
-    sources:
-      - ref_beast_of_blood_single
-    confidence: high
-    status: verified
+- statement: A-side of Midi:Nette single MMCD-022, released 2001-06-21.
+  sources:
+  - ref_beast_of_blood_single
+  confidence: high
+  status: verified
 notes: Third-period vocal lineup (Klaha). v2 entity for appearance linking.
+legacy_v1_slug: beast-of-blood

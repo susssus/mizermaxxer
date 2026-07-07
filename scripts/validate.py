@@ -5,8 +5,7 @@ from __future__ import annotations
 
 import json
 import sys
-
-from jsonschema import Draft202012Validator, RefResolver
+from pathlib import Path
 
 from common import (
     DATA_DIR,
@@ -22,32 +21,21 @@ from common import (
     load_songs,
     load_videos,
     load_venues,
+    load_vocabularies,
     load_yaml,
     song_slugs,
     translation_has_renderable_content,
     venue_slugs,
 )
 
-
-def load_schema(name: str) -> dict:
-    with (SCHEMA_DIR / name).open(encoding="utf-8") as handle:
-        return json.load(handle)
-
-
-def make_validator(*schema_names: str) -> Draft202012Validator:
-    primary = load_schema(schema_names[0])
-    store = {name: load_schema(name) for name in schema_names}
-    resolver = RefResolver(
-        base_uri="file://" + str(SCHEMA_DIR) + "/",
-        referrer=primary,
-        store=store,
-    )
-    return Draft202012Validator(primary, resolver=resolver)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from manifest_coverage import validate_manifest_coverage
+from schema_registry import v1_validator
 
 
 def validate_publications() -> list[str]:
     errors: list[str] = []
-    validator = Draft202012Validator(load_schema("publication.schema.json"))
+    validator = v1_validator("publication.schema.json")
     for index, publication in enumerate(load_publications()):
         for error in validator.iter_errors(publication):
             errors.append(f"publications.yaml[{index}]: {error.message}")
@@ -56,7 +44,7 @@ def validate_publications() -> list[str]:
 
 def validate_issues() -> list[str]:
     errors: list[str] = []
-    validator = make_validator("issue.schema.json", "article.schema.json")
+    validator = v1_validator("issue.schema.json", "article.schema.json", "changelog.schema.json")
     slugs = publication_slugs()
 
     for path in iter_issue_files():
@@ -85,7 +73,7 @@ def validate_directory(name: str, schema_name: str, extra=None) -> list[str]:
         schemas.append("changelog.schema.json")
     if schema_name == "concert.schema.json":
         schemas.append("performance.schema.json")
-    validator = make_validator(*schemas)
+    validator = v1_validator(*schemas)
     directory = DATA_DIR / name
     for path in iter_yaml_files(directory):
         item = load_yaml(path)
@@ -186,7 +174,7 @@ def normalize_yaml_dates(value: object) -> object:
 
 def validate_translations() -> list[str]:
     errors: list[str] = []
-    validator = make_validator("translation.schema.json")
+    validator = v1_validator("translation.schema.json")
     translations_dir = DATA_DIR / "translations"
 
     translations_by_id: dict[str, dict] = {}
@@ -255,9 +243,46 @@ def validate_videos() -> list[str]:
     return validate_directory("videos", "video.schema.json", extra)
 
 
+def validate_vocabularies() -> list[str]:
+    errors: list[str] = []
+    vocab_path = SCHEMA_DIR / "vocabularies.json"
+    if not vocab_path.exists():
+        errors.append("vocabularies.json: missing vocabulary file")
+        return errors
+
+    vocabularies = load_vocabularies()
+    if not vocabularies:
+        errors.append("vocabularies.json: no vocabulary definitions found")
+        return errors
+
+    for name, values in vocabularies.items():
+        if not values:
+            errors.append(f"vocabularies.json $defs/{name}: enum must not be empty")
+        elif len(values) != len(set(values)):
+            errors.append(f"vocabularies.json $defs/{name}: duplicate enum values")
+
+    required_defs = {
+        "verification_status",
+        "date_precision",
+        "article_type",
+        "member_slug",
+        "scan_quality",
+        "publication_status",
+        "trigger_warning",
+        "changelog_action",
+        "translation_review_status",
+    }
+    missing = sorted(required_defs - set(vocabularies))
+    for name in missing:
+        errors.append(f"vocabularies.json: missing required $defs/{name}")
+
+    return errors
+
+
 def main() -> int:
     errors = (
-        validate_publications()
+        validate_vocabularies()
+        + validate_publications()
         + validate_issues()
         + validate_directory("songs", "song.schema.json")
         + validate_directory("venues", "venue.schema.json")
@@ -267,6 +292,7 @@ def main() -> int:
         + validate_videos()
         + validate_directory("references", "reference.schema.json")
         + validate_translations()
+        + validate_manifest_coverage()
     )
 
     if errors:

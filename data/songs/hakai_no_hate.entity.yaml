@@ -1,0 +1,15 @@
+id: song_hakai_no_hate
+type: song
+legacy_v1_slug: hakai-no-hate
+title:
+  original: 破誡の果て
+  romanized: 破誡の果て
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

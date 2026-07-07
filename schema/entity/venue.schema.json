@@ -20,6 +20,11 @@
             "country": { "type": "string" }
           },
           "additionalProperties": false
+        },
+        "legacy_v1_slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "v1 catalog slug (data/venues/<slug>.yaml) for crosswalk to /gigs and /discography pages."
         }
       }
     }

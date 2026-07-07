@@ -1,0 +1,15 @@
+id: song_chikasuimyaku_no_meiro
+type: song
+legacy_v1_slug: chikasuimyaku-no-meiro
+title:
+  original: 地下水脈の迷路
+  romanized: 地下水脈の迷路
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

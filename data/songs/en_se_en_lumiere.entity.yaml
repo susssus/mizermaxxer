@@ -1,0 +1,15 @@
+id: song_en_se_en_lumiere
+type: song
+legacy_v1_slug: en-se-en-lumiere
+title:
+  original: (EN SE) En Lumiere
+  romanized: (EN SE) En Lumiere
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

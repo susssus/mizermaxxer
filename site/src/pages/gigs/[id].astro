@@ -1,6 +1,8 @@
 ---
 import Base from "../../layouts/Base.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import PerformanceEmbed from "../../components/PerformanceEmbed.astro";
+import NotFound from "../../components/NotFound.astro";
 import TriggerWarning from "../../components/TriggerWarning.astro";
 import archive from "../../data/archive.json";
 import { concertEntityHref, personEntityHref, songEntityHref, venueEntityHref } from "../../lib/entities.ts";
@@ -27,9 +29,14 @@ const venueEntity = concert?.venue ? venueEntityHref(concert.venue) : null;
 const concertEntity = concert ? concertEntityHref(concert.id) : null;
 ---
 
-{concert && (
+{concert ? (
   <Base title={gigTitle} description={gigDescription} type="article">
-    <a class="back" href="/gigs">← Back to gig list</a>
+    <Breadcrumbs
+      items={[
+        { label: "Gigs", href: "/gigs" },
+        { label: gigTitle },
+      ]}
+    />
     {concertEntity && (
       <p class="muted entity-link">
         <a href={concertEntity}>View in entity graph →</a>
@@ -38,7 +45,7 @@ const concertEntity = concert ? concertEntityHref(concert.id) : null;
 
     <section class="detail-grid">
       <div class="card">
-        <h2>{concert.event_name_en ?? concert.event_name_ja ?? "Untitled event"}</h2>
+        <h1>{concert.event_name_en ?? concert.event_name_ja ?? "Untitled event"}</h1>
         {concert.event_name_ja && concert.event_name_en && <p class="muted">{concert.event_name_ja}</p>}
         <p><strong>Date:</strong> {concert.date} ({concert.date_precision})</p>
         <p><strong>Type:</strong> {concert.type}</p>
@@ -69,7 +76,7 @@ const concertEntity = concert ? concertEntityHref(concert.id) : null;
       </div>
 
       <div class="card">
-        <h3>Setlist</h3>
+        <h2>Setlist</h2>
         {concert.setlist.length ? (
           <ol>
             {concert.setlist.map((songId) => {
@@ -88,7 +95,7 @@ const concertEntity = concert ? concertEntityHref(concert.id) : null;
 
     {embeddablePerformances.length > 0 && (
       <section class="card" style="margin-top: 1rem;">
-        <h3>Footage</h3>
+        <h2>Footage</h2>
         {embeddablePerformances.map((performance) => (
           <PerformanceEmbed performance={performance} />
         ))}
@@ -96,7 +103,7 @@ const concertEntity = concert ? concertEntityHref(concert.id) : null;
     )}
 
     <section class="card" style="margin-top: 1rem;">
-      <h3>Performance links</h3>
+      <h2>Performance links</h2>
       {concert.performances.length ? (
         linkOnlyPerformances.length > 0 ? (
           <ul>
@@ -123,4 +130,11 @@ const concertEntity = concert ? concertEntityHref(concert.id) : null;
       )}
     </section>
   </Base>
+) : (
+  <NotFound
+    title="Concert not found"
+    message="No gig matches that ID."
+    backHref="/gigs"
+    backLabel="← Back to gigs"
+  />
 )}

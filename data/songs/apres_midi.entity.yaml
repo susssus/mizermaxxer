@@ -1,0 +1,15 @@
+id: song_apres_midi
+type: song
+legacy_v1_slug: apres-midi
+title:
+  original: Apres Midi - あるパリの午後で
+  romanized: Apres Midi - あるパリの午後で
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

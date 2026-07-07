@@ -21,13 +21,11 @@
     "quality": {
       "enum": ["official", "tv_broadcast", "pro_shot", "audience", "low", "unknown", null]
     },
-    "verification_status": {
-      "enum": ["verified", "possible", "mention_only", "needs_verification", "disputed"]
-    },
+    "verification_status": { "$ref": "vocabularies.json#/$defs/verification_status" },
     "notes": { "type": "string" },
     "trigger_warnings": {
       "type": "array",
-      "items": { "enum": ["blood", "gore", "violence", "sexual_content"] },
+      "items": { "$ref": "vocabularies.json#/$defs/trigger_warning" },
       "uniqueItems": true
     },
     "changelog": {

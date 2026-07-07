@@ -1,0 +1,15 @@
+id: song_beast_of_blood_live
+type: song
+legacy_v1_slug: beast-of-blood-live
+title:
+  original: Beast Of Blood (Live)
+  romanized: Beast Of Blood (Live)
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

@@ -22,8 +22,11 @@
         },
         "url": { "type": ["string", "null"] },
         "scan": { "type": ["string", "null"] },
-        "verification_status": {
-          "enum": ["verified", "possible", "unverified", "needs_verification", "disputed"]
+        "verification_status": { "$ref": "vocabularies.json#/$defs/verification_status" },
+        "legacy_v1_slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "v1 bibliography issue id (data/issues/...) for magazine issues migrated to ref_* entities."
         }
       }
     }

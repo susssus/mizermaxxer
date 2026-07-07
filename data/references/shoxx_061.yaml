@@ -1,22 +1,38 @@
 id: ref_shoxx_061
 type: reference
 reference_type: magazine
-title: "SHOXX Vol. 61"
+title: SHOXX Vol. 61
 publisher: SHOXX
 date: 1998-03
-pages_cited: [16, 17, 18, 24, 30, 36, 42, 48, 49, 50, 51, 53]
+pages_cited:
+- 16
+- 17
+- 18
+- 24
+- 30
+- 36
+- 42
+- 48
+- 49
+- 50
+- 51
+- 53
 url: https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61
 scan: https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61
 verification_status: verified
 facts: []
-notes: >
-  MIsaO Lab (1998/03 vol.061): joint La'cryma Christi cover; カラー38p; パート別対談、Q&A（衣装：au revoir）.
-  "au revoir" names the costume theme for the 38pp 聖邪の共宴 session — not magazine pages 12–13.
-  TOC (gallery file 02) lists feature pp. 16–53: five SESSION pairings (018/024/030/036/042) plus Q&A.
+notes: 'MIsaO Lab (1998/03 vol.061): joint La''cryma Christi cover; カラー38p; パート別対談、Q&A（衣装：au
+  revoir）. "au revoir" names the costume theme for the 38pp 聖邪の共宴 session — not magazine
+  pages 12–13. TOC (gallery file 02) lists feature pp. 16–53: five SESSION pairings
+  (018/024/030/036/042) plus Q&A.
 
-  Scan status (July 2026): 40 MM pages on The Malice Archive / file.garden (Anna scan; cover by Morgianasama).
-  Gallery file index ≠ printed page numbers (e.g. gallery 12–13 are solo portraits, not mag. pp. 12–13).
-  Page mapping and Reddit crop matches: scripts/research/shoxx_061_scan_hunt.yaml#page_mapping.
+  Scan status (July 2026): 40 MM pages on The Malice Archive / file.garden (Anna scan;
+  cover by Morgianasama). Gallery file index ≠ printed page numbers (e.g. gallery
+  12–13 are solo portraits, not mag. pp. 12–13). Page mapping and Reddit crop matches:
+  scripts/research/shoxx_061_scan_hunt.yaml#page_mapping.
 
-  Full issue RAR (Eternal Silence 2009, 84 JPEGs) re-upload not found.
-  Cantavanda has May 1998 vol.63 only.
+  Full issue RAR (Eternal Silence 2009, 84 JPEGs) re-upload not found. Cantavanda
+  has May 1998 vol.63 only.
+
+  '
+legacy_v1_slug: shoxx-1998-03

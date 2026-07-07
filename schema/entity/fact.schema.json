@@ -12,9 +12,7 @@
       "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
     },
     "confidence": { "enum": ["high", "medium", "low", "speculative"] },
-    "status": {
-      "enum": ["verified", "possible", "unverified", "disputed", "needs_verification"]
-    },
+    "status": { "$ref": "vocabularies.json#/$defs/verification_status" },
     "notes": { "type": "string" }
   },
   "additionalProperties": false

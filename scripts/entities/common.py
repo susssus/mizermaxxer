@@ -26,6 +26,7 @@ ENTITY_TYPE_DIRS: dict[str, Path] = {
     "reference": DATA_DIR / "references",
     "video": DATA_DIR / "videos",
     "venue": DATA_DIR / "venues",
+    "article": DATA_DIR / "articles",
 }
 
 ENTITY_SCHEMA_BY_TYPE = {
@@ -39,6 +40,7 @@ ENTITY_SCHEMA_BY_TYPE = {
     "organization": "organization.schema.json",
     "video": "reference.schema.json",
     "venue": "venue.schema.json",
+    "article": "article.schema.json",
 }
 
 SKIP_FILENAMES = {"relation_types.yaml", "members.yaml"}
@@ -61,6 +63,7 @@ V2_ID_PREFIXES = (
     "video_",
     "org_",
     "image_",
+    "article_",
 )
 
 

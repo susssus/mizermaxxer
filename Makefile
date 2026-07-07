@@ -1,4 +1,4 @@
-.PHONY: venv validate build export site pdf all clean
+.PHONY: venv validate sync-manifest migrate-v2-catalog build export site pdf all clean
 
 PYTHON := .venv/bin/python
 PIP := .venv/bin/pip
@@ -23,6 +23,12 @@ venv:
 validate:
 	$(PYTHON) scripts/validate.py
 	$(PYTHON) scripts/validate_entities.py
+
+sync-manifest:
+	$(PYTHON) scripts/manifest_coverage.py --sync
+
+migrate-v2-catalog:
+	$(PYTHON) scripts/migrate_v2_catalog.py
 
 entities-validate:
 	$(PYTHON) scripts/validate_entities.py

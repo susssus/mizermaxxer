@@ -1,0 +1,15 @@
+id: song_shijin_no_shouzou
+type: song
+legacy_v1_slug: shijin-no-shouzou
+title:
+  original: 詩人の肖像
+  romanized: Shijin no Shouzou
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: v2 entity stub migrated from v1 song catalog.

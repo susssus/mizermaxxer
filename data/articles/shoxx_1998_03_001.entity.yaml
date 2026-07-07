@@ -1,0 +1,30 @@
+id: article_shoxx_1998_03_001
+type: article
+legacy_v1_slug: shoxx-1998-03-001
+title:
+  romanized: MALICE MIZER & La'cryma Christi — Special Talking Session
+  original: 聖邪の共宴
+article_type: photo_spread
+published_in: ref_shoxx_061
+pages: 16-53
+members:
+- gackt
+- kami
+- kozi
+- mana
+- yuki
+photographer: null
+writer: null
+cover: true
+poster: false
+foldout: false
+facts: []
+notes: 'MM clippings only (40 pages); not full 84-page issue. Source: The Malice Archive
+  (Anna scan; cover by Morgianasama). Costume theme au revoir (MIsaO Lab). Reddit
+  r/visualkei crops (reddit-1ibrtct) are 2-page spread composites from SESSION photo
+  pages — not gallery files 12–13 (those are solo Gackt/Mana portraits). See shoxx_061_scan_hunt.yaml#reddit_crop_matches.'
+scan:
+  available: true
+  quality: medium
+  url: https://malice-archive.neocities.org/Gackt%20Era/Shoxx/main.html#vol61
+verification_status: verified

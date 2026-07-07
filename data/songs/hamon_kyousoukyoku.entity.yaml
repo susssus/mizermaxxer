@@ -1,0 +1,15 @@
+id: song_hamon_kyousoukyoku
+type: song
+legacy_v1_slug: hamon-kyousoukyoku
+title:
+  original: 波紋 / 協奏曲
+  romanized: 波紋 / 協奏曲
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Catalogued from Discogs tracklist.

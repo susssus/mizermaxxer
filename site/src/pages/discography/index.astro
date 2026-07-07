@@ -28,6 +28,7 @@ const demosMisc = archive.albums.filter(
   title="Discography"
   description="Malice Mizer complete discography — studio albums, singles, compilations, and video releases from Memoire to Gardenia, with track listings and cover art (1992–2001)."
 >
+  <h1 class="page-heading">Discography</h1>
   <p class="muted page-intro">
     Browse releases in the <a href="/browse?type=song">entity graph</a> for linked songs and relationships.
   </p>
@@ -116,7 +117,10 @@ const demosMisc = archive.albums.filter(
                 )}
               </td>
               <td>{single.release_date}</td>
-              <td>{single.title_en}<br /><span class="muted">{single.title_ja}</span></td>
+              <td>
+                <a href={`/discography/${single.id}`}>{single.title_en}</a>
+                <br /><span class="muted">{single.title_ja}</span>
+              </td>
               <td>{single.a_side ? songMap.get(single.a_side)?.title_en ?? single.a_side : "—"}</td>
               <td>{single.b_side ? songMap.get(single.b_side)?.title_en ?? single.b_side : "—"}</td>
               <td><span class={`badge ${single.verification_status}`}>{single.verification_status.replaceAll("_", " ")}</span></td>

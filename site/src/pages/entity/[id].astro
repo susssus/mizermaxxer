@@ -1,6 +1,7 @@
 ---
 import PersonProfile from "../../components/PersonProfile.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import NotFound from "../../components/NotFound.astro";
 import TriggerWarning from "../../components/TriggerWarning.astro";
 import Base from "../../layouts/Base.astro";
 import linksIndex from "../../data/links_index.json";
@@ -19,7 +20,7 @@ const entityDescription = row
   : undefined;
 ---
 
-{row && entity && (
+{row && entity ? (
   <Base title={row.title} description={entityDescription} type="article">
     <Breadcrumbs
       items={[
@@ -141,4 +142,11 @@ const entityDescription = row
       )}
     </section>
   </Base>
+) : (
+  <NotFound
+    title="Entity not found"
+    message="No entity matches that ID in the research graph."
+    backHref="/browse"
+    backLabel="← Back to browse"
+  />
 )}
