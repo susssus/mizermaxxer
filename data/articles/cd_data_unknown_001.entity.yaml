@@ -1,0 +1,21 @@
+id: article_cd_data_unknown_001
+type: article
+legacy_v1_slug: cd-data-unknown-001
+title:
+  romanized: cd-data-unknown-001
+article_type: mention
+published_in: ref_cd_data_unknown
+pages: null
+members: []
+photographer: null
+writer: null
+cover: false
+poster: false
+foldout: false
+facts: []
+notes: Migrated from bibliography article cd-data-unknown-001 in issue cd-data-unknown.
+scan:
+  available: false
+  quality: null
+  url: null
+verification_status: mention_only

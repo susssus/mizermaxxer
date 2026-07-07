@@ -1,0 +1,15 @@
+id: song_ma_cherie
+type: song
+legacy_v1_slug: ma-cherie
+title:
+  original: ma chérie ～愛しい君へ～
+  romanized: ma chérie ~Itoshii Kimi e~
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: v2 entity stub migrated from v1 song catalog.

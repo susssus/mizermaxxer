@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+
+interface Props {
+  title?: string;
+  message?: string;
+  backHref?: string;
+  backLabel?: string;
+}
+
+const {
+  title = "Page not found",
+  message = "That archive entry does not exist or may have moved.",
+  backHref = "/",
+  backLabel = "← Back to archive",
+} = Astro.props;
+---
+
+<Base title={title} noindex>
+  <h1 class="page-heading">{title}</h1>
+  <p>{message}</p>
+  <p><a href={backHref}>{backLabel}</a></p>
+</Base>

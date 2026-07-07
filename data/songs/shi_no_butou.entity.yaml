@@ -1,0 +1,15 @@
+id: song_shi_no_butou
+type: song
+legacy_v1_slug: shi-no-butou
+title:
+  original: 死の舞踏～A Romance Of The "Cendrillon"～
+  romanized: 死の舞踏～A Romance Of The "Cendrillon"～
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

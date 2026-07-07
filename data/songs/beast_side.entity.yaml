@@ -1,0 +1,15 @@
+id: song_beast_side
+type: song
+legacy_v1_slug: beast-side
+title:
+  original: Beast Side
+  romanized: Beast Side
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

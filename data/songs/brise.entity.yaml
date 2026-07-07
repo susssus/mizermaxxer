@@ -1,0 +1,16 @@
+id: song_brise
+type: song
+legacy_v1_slug: brise
+title:
+  original: Brise
+  romanized: Brise
+duration_seconds: null
+appears_on:
+- album_merveilles
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

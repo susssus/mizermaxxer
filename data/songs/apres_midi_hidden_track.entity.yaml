@@ -1,0 +1,15 @@
+id: song_apres_midi_hidden_track
+type: song
+legacy_v1_slug: apres-midi-hidden-track
+title:
+  original: Apres Midi (Hidden Track)
+  romanized: Apres Midi (Hidden Track)
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

@@ -28,6 +28,10 @@ from common import (
     load_yaml,
 )
 
+SCRIPTS_DIR = ROOT / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
 GALLERY_PREVIEWS_PATH = ROOT / "site" / "src" / "data" / "gallery_previews.json"
 TRANSLATIONS_DIR = ROOT / "data" / "translations"
 TRANSLATIONS_PATH = ROOT / "site" / "src" / "data" / "translations.json"
@@ -554,6 +558,7 @@ def export_site_json(connection: sqlite3.Connection) -> None:
         video["song_detail"] = song_map.get(video["song"]) if video.get("song") else None
 
     performance_count = sum(len(concert.get("performances", [])) for concert in concerts)
+    appearances = export_appearances_rows()
 
     payload = {
         "generated_at": __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat().replace("+00:00", "Z"),
@@ -568,6 +573,7 @@ def export_site_json(connection: sqlite3.Connection) -> None:
         "concerts": concerts,
         "videos": videos,
         "references": references,
+        "appearances": appearances,
         "stats": {
             "issue_count": len(enriched_issues),
             "article_count": len(articles),
@@ -578,6 +584,7 @@ def export_site_json(connection: sqlite3.Connection) -> None:
             "song_count": len(songs),
             "concert_count": len(concerts),
             "video_count": len(videos),
+            "appearance_count": len(appearances),
             "performance_link_count": performance_count + len(videos),
         },
     }
@@ -786,6 +793,56 @@ def export_translations() -> None:
     TRANSLATIONS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def export_appearances_rows() -> list[dict[str, Any]]:
+    """Summarize v2 appearance entities for the public /appearances index."""
+    from entities.common import load_entities
+
+    rows: list[dict[str, Any]] = []
+    for entity_id, entity in load_entities().items():
+        if entity.get("type") != "appearance":
+            continue
+        title = entity.get("title") or {}
+        rows.append(
+            {
+                "id": entity_id,
+                "title": title.get("english") or title.get("romanized") or title.get("original") or entity_id,
+                "appearance_type": entity.get("appearance_type"),
+                "format": entity.get("format"),
+                "date": entity.get("date"),
+                "date_precision": entity.get("date_precision"),
+                "verification_status": entity.get("verification_status", "unverified"),
+            }
+        )
+    rows.sort(key=lambda row: row.get("date") or "")
+    return rows
+
+
+def _legacy_v1_slug_map(entity_type: str) -> dict[str, str]:
+    from entities.common import load_entities
+
+    mapping: dict[str, str] = {}
+    for entity_id, entity in load_entities().items():
+        if entity.get("type") != entity_type:
+            continue
+        legacy = entity.get("legacy_v1_slug")
+        if legacy:
+            mapping[str(legacy)] = entity_id
+    return mapping
+
+
+def _magazine_issue_crosswalk() -> dict[str, str]:
+    from entities.common import load_entities
+
+    mapping: dict[str, str] = {}
+    for entity_id, entity in load_entities().items():
+        if entity.get("type") != "reference" or entity.get("reference_type") != "magazine":
+            continue
+        legacy = entity.get("legacy_v1_slug")
+        if legacy:
+            mapping[str(legacy)] = entity_id
+    return mapping
+
+
 def export_entity_crosswalk() -> None:
     """Export v1 slug → v2 entity ID mappings for site cross-links."""
     generated_at = (
@@ -801,14 +858,35 @@ def export_entity_crosswalk() -> None:
             return mapping
         return {key: value for key, value in mapping.items() if value in entity_ids}
 
+    def merge_legacy(auto: dict[str, str], entity_type: str) -> dict[str, str]:
+        merged = dict(auto)
+        merged.update(_legacy_v1_slug_map(entity_type))
+        return merged
+
     members = load_people().get("members", [])
     payload = {
         "generated_at": generated_at,
-        "songs": keep({song["id"]: f"song_{song['id'].replace('-', '_')}" for song in load_songs()}),
-        "venues": keep({venue["id"]: f"venue_{venue['id'].replace('-', '_')}" for venue in load_venues()}),
+        "songs": keep(
+            merge_legacy(
+                {song["id"]: f"song_{song['id'].replace('-', '_')}" for song in load_songs()},
+                "song",
+            )
+        ),
+        "venues": keep(
+            merge_legacy(
+                {venue["id"]: f"venue_{venue['id'].replace('-', '_')}" for venue in load_venues()},
+                "venue",
+            )
+        ),
         "people": keep({member["slug"]: f"person_{member['slug']}" for member in members}),
         "albums": keep({album["id"]: f"album_{album['id'].replace('-', '_')}" for album in load_albums()}),
-        "concerts": keep({concert["id"]: f"concert_{concert['id'].replace('-', '_')}" for concert in load_concerts()}),
+        "concerts": keep(
+            merge_legacy(
+                {concert["id"]: f"concert_{concert['id'].replace('-', '_')}" for concert in load_concerts()},
+                "concert",
+            )
+        ),
+        "issues": keep(_magazine_issue_crosswalk()),
     }
     ENTITY_CROSSWALK_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

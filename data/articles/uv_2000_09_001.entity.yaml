@@ -1,0 +1,21 @@
+id: article_uv_2000_09_001
+type: article
+legacy_v1_slug: uv-2000-09-001
+title:
+  romanized: uv-2000-09-001
+article_type: cover
+published_in: ref_uv_2000_09
+pages: cover
+members: []
+photographer: null
+writer: null
+cover: true
+poster: false
+foldout: false
+facts: []
+notes: 'vkgy roles: cover, large_feature'
+scan:
+  available: false
+  quality: null
+  url: null
+verification_status: verified

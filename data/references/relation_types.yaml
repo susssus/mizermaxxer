@@ -65,6 +65,21 @@ derived:
     direction: incoming
     description: Broadcaster → appearance
 
+  - id: published_in
+    label: Published in
+    category: press
+    color: pink
+    direction: outgoing
+    description: Article → magazine issue (from article.published_in)
+    inverse: includes_article
+
+  - id: includes_article
+    label: Includes article
+    category: press
+    color: pink
+    direction: incoming
+    description: Magazine issue → article (inverse of published_in)
+
 explicit:
   - id: performed_at
     label: Performed at
@@ -130,13 +145,6 @@ explicit:
     color: gold
     direction: outgoing
     description: Photo/image → event or venue
-
-  - id: published_in
-    label: Published in
-    category: press
-    color: pink
-    direction: outgoing
-    description: Article/interview → magazine issue
 
 # UI category → default color (used when relation has no color override)
 categories:

@@ -38,6 +38,7 @@ make all
 | `/timeline` | Unified chronology (releases, gigs, magazine issues) |
 | `/discography` | Albums and singles |
 | `/gigs` | Concert list with performance links |
+| `/appearances` | TV, radio, and variety appearances (entity graph) |
 | `/members` | Member profiles |
 | `/gallery` | Curated promo and portrait gallery |
 | `/flyers` | Flyer catalog |
@@ -63,7 +64,7 @@ subject to original rights holders — see [docs/LICENSE.md](docs/LICENSE.md),
 - **Footage:** `performances[]` on concerts, or `data/videos/`
 - **Images:** `images/covers/`, `images/flyers/`, etc. (link via `cover_image` fields)
 
-Research rules: [docs/RESEARCH.md](docs/RESEARCH.md) · Sources: [docs/SOURCES.md](docs/SOURCES.md) · **Entity schema:** [docs/SCHEMA.md](docs/SCHEMA.md)
+Research rules: [docs/RESEARCH.md](docs/RESEARCH.md) · Sources: [docs/SOURCES.md](docs/SOURCES.md) · **Entity schema:** [docs/SCHEMA.md](docs/SCHEMA.md) · **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Entity graph (v2)
 
@@ -74,6 +75,8 @@ make entities    # validate + build links_index.json
 ```
 
 See [docs/SCHEMA.md](docs/SCHEMA.md) for ID conventions, relation vocabulary, and migration from v1.
+
+`data/appearances/` is validated by `make entities` and summarized on the public `/appearances` index (full relationship data on entity pages).
 
 ## Research tools
 

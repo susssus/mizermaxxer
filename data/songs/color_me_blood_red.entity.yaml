@@ -1,0 +1,15 @@
+id: song_color_me_blood_red
+type: song
+legacy_v1_slug: color-me-blood-red
+title:
+  original: Color Me Blood Red
+  romanized: Color Me Blood Red
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

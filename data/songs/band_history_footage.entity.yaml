@@ -1,0 +1,15 @@
+id: song_band_history_footage
+type: song
+legacy_v1_slug: band-history-footage
+title:
+  original: Band History Footage
+  romanized: Band History Footage
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

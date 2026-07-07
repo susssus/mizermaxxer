@@ -13,7 +13,7 @@
     "years_active_start": { "type": ["integer", "null"], "minimum": 1980, "maximum": 2010 },
     "years_active_end": { "type": ["integer", "null"], "minimum": 1980, "maximum": 2010 },
     "priority": { "type": "integer", "minimum": 1, "maximum": 99 },
-    "status": { "enum": ["verified", "needs_confirmation"] },
+    "status": { "$ref": "vocabularies.json#/$defs/publication_status" },
     "notes": { "type": "string" }
   },
   "additionalProperties": false

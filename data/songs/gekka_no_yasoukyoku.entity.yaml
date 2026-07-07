@@ -5,26 +5,28 @@ title:
   romanized: Gekka no Yasoukyoku
 duration_seconds: null
 appears_on:
-  - album_merveilles
+- album_merveilles
 personnel:
-  - person: person_gackt
-    role: vocals
-  - person: person_mana
-    role: guitar
-  - person: person_kozi
-    role: guitar
-  - person: person_yuki
-    role: bass
-  - person: person_kami
-    role: drums
-  - person: person_kozi
-    role: composer
+- person: person_gackt
+  role: vocals
+- person: person_mana
+  role: guitar
+- person: person_kozi
+  role: guitar
+- person: person_yuki
+  role: bass
+- person: person_kami
+  role: drums
+- person: person_kozi
+  role: composer
 verification_status: verified
 facts:
-  - statement: Track 11 on album Merveilles (COCA-14866, released 1998-03-18).
-    sources:
-      - album_merveilles
-    confidence: high
-    status: verified
-notes: >
-  Major-label single released 1998-02-11 (CODA-1415). v2 entity for graph linking.
+- statement: Track 11 on album Merveilles (COCA-14866, released 1998-03-18).
+  sources:
+  - album_merveilles
+  confidence: high
+  status: verified
+notes: 'Major-label single released 1998-02-11 (CODA-1415). v2 entity for graph linking.
+
+  '
+legacy_v1_slug: gekka-no-yasoukyoku

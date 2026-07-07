@@ -1,0 +1,15 @@
+id: song_kyomu_no_naka_de_no_yugi
+type: song
+legacy_v1_slug: kyomu-no-naka-de-no-yugi
+title:
+  original: 虚無の中での遊戯
+  romanized: 虚無の中での遊戯
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

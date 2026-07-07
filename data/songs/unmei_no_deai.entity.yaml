@@ -1,0 +1,15 @@
+id: song_unmei_no_deai
+type: song
+legacy_v1_slug: unmei-no-deai
+title:
+  original: 運命の出会い
+  romanized: 運命の出会い
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Catalogued from Discogs tracklist.

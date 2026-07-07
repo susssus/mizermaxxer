@@ -1,0 +1,15 @@
+id: song_pv_short_version
+type: song
+legacy_v1_slug: pv-short-version
+title:
+  original: PV Short Version
+  romanized: PV Short Version
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

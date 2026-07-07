@@ -1,0 +1,29 @@
+id: article_vicious_1997_10_001
+type: article
+legacy_v1_slug: vicious-1997-10-001
+title:
+  romanized: Group photo spread — V's Break Out
+article_type: photo_spread
+published_in: ref_vicious_1997_10
+pages: '119'
+members:
+- gackt
+- kami
+- kozi
+- mana
+- yuki
+photographer: Takaaki Henmi
+writer: null
+cover: false
+poster: false
+foldout: false
+facts: []
+notes: 'Full-band costume photo; "MALICE MIZER" / "V''s Break Out" header. No accompanying
+  text. Source Cantavanda (Butterfly Rose). Original: https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg
+  Additional pages: images/scans/vicious/1997-10/02.jpg, images/scans/vicious/1997-10/03.jpg.'
+scan:
+  available: true
+  quality: high
+  url: images/scans/vicious/1997-10/01.jpg
+translation_slug: vicious-1997-10-photo-spread
+verification_status: verified

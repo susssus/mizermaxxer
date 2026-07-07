@@ -13,6 +13,10 @@
       "type": ["string", "null"]
     },
     "page_count": { "type": ["integer", "null"] },
+    "page_range": {
+      "type": ["string", "null"],
+      "description": "Magazine page number or range (e.g. 58–61) when distinct from translated page blocks."
+    },
     "title_ja": { "type": ["string", "null"] },
     "title_en": { "type": ["string", "null"] },
     "subtitle": { "type": ["string", "null"] },
@@ -24,9 +28,7 @@
     "photographer_en": { "type": ["string", "null"] },
     "translator": { "type": "string" },
     "translation_date": { "type": ["string", "null"] },
-    "review_status": {
-      "enum": ["needs_review", "reviewed"]
-    },
+    "review_status": { "$ref": "vocabularies.json#/$defs/translation_review_status" },
     "license": {
       "type": "string",
       "const": "CC-BY-NC-4.0",
@@ -44,28 +46,21 @@
     "photo_spread_note": { "$ref": "#/$defs/triLingualBlock" },
     "footer": { "$ref": "#/$defs/triLingualBlock" },
     "pages": {
-      "oneOf": [
-        { "type": "null" },
-        { "type": "string" },
-        { "type": "integer" },
-        {
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "type": "object",
-            "required": ["page"],
-            "properties": {
-              "page": { "type": "integer", "minimum": 1 },
-              "section": { "type": ["string", "null"] },
-              "content_type": { "type": ["string", "null"] },
-              "ja": { "type": ["string", "null"] },
-              "romaji": { "type": ["string", "null"] },
-              "en": { "type": ["string", "null"] }
-            },
-            "additionalProperties": true
-          }
-        }
-      ]
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["page"],
+        "properties": {
+          "page": { "type": "integer", "minimum": 1 },
+          "section": { "type": ["string", "null"] },
+          "content_type": { "type": ["string", "null"] },
+          "ja": { "type": ["string", "null"] },
+          "romaji": { "type": ["string", "null"] },
+          "en": { "type": ["string", "null"] }
+        },
+        "additionalProperties": true
+      }
     },
     "dialogue": {
       "type": "array",

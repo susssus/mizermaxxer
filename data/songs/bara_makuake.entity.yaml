@@ -1,0 +1,15 @@
+id: song_bara_makuake
+type: song
+legacy_v1_slug: bara-makuake
+title:
+  original: 薔薇に彩られた悪意と悲劇の幕開け
+  romanized: 薔薇に彩られた悪意と悲劇の幕開け
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

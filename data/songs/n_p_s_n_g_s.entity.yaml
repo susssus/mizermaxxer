@@ -1,0 +1,15 @@
+id: song_n_p_s_n_g_s
+type: song
+legacy_v1_slug: n-p-s-n-g-s
+title:
+  original: N・p・s N・g・s
+  romanized: N・p・s N・g・s
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

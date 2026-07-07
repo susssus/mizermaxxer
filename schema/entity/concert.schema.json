@@ -12,7 +12,7 @@
         "id": { "pattern": "^concert_[a-z0-9_]+$" },
         "title": { "$ref": "title.schema.json" },
         "date": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
-        "date_precision": { "enum": ["year", "month", "day"] },
+        "date_precision": { "$ref": "vocabularies.json#/$defs/date_precision" },
         "venue": { "type": ["string", "null"], "pattern": "^venue_[a-z0-9_]+$" },
         "concert_type": {
           "enum": ["live", "oneman", "festival", "event", "secret", "tv", "unknown"]
@@ -44,8 +44,11 @@
             "additionalProperties": false
           }
         },
-        "verification_status": {
-          "enum": ["verified", "possible", "unverified", "needs_verification", "disputed"]
+        "verification_status": { "$ref": "vocabularies.json#/$defs/verification_status" },
+        "legacy_v1_slug": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$",
+          "description": "v1 catalog concert id (data/concerts/<slug>.yaml) for crosswalk to /gigs pages."
         }
       }
     }

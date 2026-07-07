@@ -1,0 +1,15 @@
+id: song_mori_no_naka_no_tenshi
+type: song
+legacy_v1_slug: mori-no-naka-no-tenshi
+title:
+  original: 森の中の天使
+  romanized: 森の中の天使
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

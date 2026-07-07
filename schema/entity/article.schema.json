@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "article.schema.json",
+  "title": "ArticleEntity",
+  "allOf": [
+    { "$ref": "entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["title", "article_type", "published_in", "legacy_v1_slug"],
+      "properties": {
+        "type": { "const": "article" },
+        "id": { "pattern": "^article_[a-z0-9_]+$" },
+        "legacy_v1_slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "v1 bibliography article id (nested under data/issues/...)."
+        },
+        "title": { "$ref": "title.schema.json" },
+        "article_type": { "$ref": "vocabularies.json#/$defs/article_type" },
+        "published_in": {
+          "type": "string",
+          "pattern": "^ref_[a-z0-9_]+$",
+          "description": "Magazine issue reference entity (ref_*)."
+        },
+        "pages": { "type": ["string", "null"] },
+        "members": {
+          "type": "array",
+          "items": { "$ref": "vocabularies.json#/$defs/member_slug" }
+        },
+        "photographer": { "type": ["string", "null"] },
+        "writer": { "type": ["string", "null"] },
+        "cover": { "type": "boolean" },
+        "poster": { "type": "boolean" },
+        "foldout": { "type": "boolean" },
+        "scan": {
+          "type": ["object", "null"],
+          "properties": {
+            "available": { "type": "boolean" },
+            "quality": {
+              "oneOf": [
+                { "$ref": "vocabularies.json#/$defs/scan_quality" },
+                { "type": "null" }
+              ]
+            },
+            "url": { "type": ["string", "null"] }
+          },
+          "additionalProperties": false
+        },
+        "translation_slug": {
+          "type": ["string", "null"],
+          "description": "Local translation file slug (data/translations/{slug}.yaml)."
+        },
+        "verification_status": { "$ref": "vocabularies.json#/$defs/verification_status" }
+      }
+    }
+  ]
+}

@@ -24,7 +24,15 @@ def load_yaml(path: Path) -> Any:
 
 def load_vocabularies() -> dict[str, list[str]]:
     with (SCHEMA_DIR / "vocabularies.json").open(encoding="utf-8") as handle:
-        return json.load(handle)
+        data = json.load(handle)
+    defs = data.get("$defs")
+    if isinstance(defs, dict):
+        return {
+            name: list(defn["enum"])
+            for name, defn in defs.items()
+            if isinstance(defn, dict) and isinstance(defn.get("enum"), list)
+        }
+    return data
 
 
 ENTITY_STUB_PREFIXES = ("song_", "album_", "concert_", "venue_", "ref_", "person_")

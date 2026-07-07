@@ -1,0 +1,15 @@
+id: song_baptism_of_blood
+type: song
+legacy_v1_slug: baptism-of-blood
+title:
+  original: Baptism Of Blood
+  romanized: Baptism Of Blood
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

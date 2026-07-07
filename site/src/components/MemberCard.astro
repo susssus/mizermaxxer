@@ -21,27 +21,40 @@ function resolveSrc(path?: string | null): string | null {
 
 const href = `/members/${slug}`;
 const imgSrc = resolveSrc(portrait);
-const Tag = "a";
 ---
 
-<Tag class="member-card" href={href}>
-  <div class="member-card__portrait">
-    {imgSrc ? (
-      <img src={imgSrc} alt={name} loading="lazy" decoding="async" />
-    ) : (
-      <span class="member-card__initial" aria-hidden="true">{name.charAt(0)}</span>
-    )}
-  </div>
-  <div class="member-card__meta">
-    {era && <span class="member-card__era">{era}</span>}
-    <strong>{name}</strong>
-    <span class="member-card__role">{role}</span>
-    {active && <span class="member-card__years">{active}</span>}
-    {portrait && <ImageSourceNote src={portrait} compact />}
-  </div>
-</Tag>
+<div class="member-card-wrap">
+  <a class="member-card" href={href}>
+    <div class="member-card__portrait">
+      {imgSrc ? (
+        <img src={imgSrc} alt={name} loading="lazy" decoding="async" />
+      ) : (
+        <span class="member-card__initial" aria-hidden="true">{name.charAt(0)}</span>
+      )}
+    </div>
+    <div class="member-card__meta">
+      {era && <span class="member-card__era">{era}</span>}
+      <strong>{name}</strong>
+      <span class="member-card__role">{role}</span>
+      {active && <span class="member-card__years">{active}</span>}
+    </div>
+  </a>
+  {portrait && <ImageSourceNote src={portrait} compact class="member-card__source" />}
+</div>
 
 <style>
+  .member-card-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+  }
+  .member-card__source {
+    width: 100%;
+    padding: 0 0.35rem;
+    text-align: center;
+  }
   .member-card {
     display: flex;
     flex-direction: column;
@@ -49,7 +62,8 @@ const Tag = "a";
     justify-content: flex-start;
     gap: 0.75rem;
     width: 100%;
-    min-height: 100%;
+    flex: 1;
+    min-height: 0;
     padding: 1.15rem 0.85rem 1rem;
     border: 1px solid var(--border);
     border-radius: 10px;

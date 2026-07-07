@@ -1,0 +1,15 @@
+id: song_merveilles_cinq_parell_le
+type: song
+legacy_v1_slug: merveilles-cinq-parell-le
+title:
+  original: Merveilles -Cinq Parelléle-
+  romanized: Merveilles -Cinq Parelléle-
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

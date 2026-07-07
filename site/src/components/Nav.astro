@@ -12,6 +12,7 @@ const links = [
   { href: "/timeline", label: "Timeline", count: null },
   { href: "/discography", label: "Discography", count: releaseCount },
   { href: "/gigs", label: "Gigs", count: archive.stats.concert_count },
+  { href: "/appearances", label: "Appearances", count: archive.stats.appearance_count ?? null },
   { href: "/members", label: "Members", count: archive.people.members.filter((m) => !["birith", "karis", "unknown"].includes(m.slug)).length },
   { href: "/gallery", label: "Gallery", count: null },
   { href: "/flyers", label: "Flyers", count: flyerCount },
@@ -25,6 +26,7 @@ function isActive(href: string) {
   if (href === "/") return path === "/";
   if (href === "/members") return path.startsWith("/members");
   if (href === "/translations") return path.startsWith("/translation");
+  if (href === "/appearances") return path.startsWith("/appearances") || path.startsWith("/entity/appearance_");
   return path === href || path.startsWith(`${href}/`);
 }
 ---

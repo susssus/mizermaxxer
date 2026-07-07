@@ -79,7 +79,6 @@ const jsonLdBlocks = jsonLd
     {jsonLdBlocks.map((block) => (
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
-    <a class="skip-link" href="#main">Skip to content</a>
     <style is:global>
       :root {
         color-scheme: light dark;
@@ -488,9 +487,14 @@ const jsonLdBlocks = jsonLd
       .site-disclaimer {
         margin-bottom: 0.65rem;
       }
+      .page-heading {
+        margin: 0 0 0.5rem;
+        font-size: clamp(1.75rem, 4vw, 2.25rem);
+      }
     </style>
   </head>
   <body>
+    <a class="skip-link" href="#content">Skip to content</a>
     <div class="wrap">
       <header>
         <a class="site-title" href="/">Malice Mizer Research Archive</a>
@@ -498,7 +502,9 @@ const jsonLdBlocks = jsonLd
       </header>
       <main id="main">
         <Nav />
-        <slot />
+        <div id="content">
+          <slot />
+        </div>
       </main>
       <footer class="site-footer">
         <p class="site-disclaimer">

@@ -22,7 +22,8 @@
         "reference",
         "video",
         "venue",
-        "image"
+        "image",
+        "article"
       ]
     },
     "facts": {

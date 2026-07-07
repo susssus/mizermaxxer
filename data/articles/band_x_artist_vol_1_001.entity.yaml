@@ -1,0 +1,21 @@
+id: article_band_x_artist_vol_1_001
+type: article
+legacy_v1_slug: band-x-artist-vol-1-001
+title:
+  romanized: band-x-artist-vol-1-001
+article_type: mention
+published_in: ref_band_x_artist_vol_1
+pages: null
+members: []
+photographer: null
+writer: null
+cover: false
+poster: false
+foldout: false
+facts: []
+notes: Migrated from bibliography article band-x-artist-vol-1-001 in issue band-x-artist-vol-1.
+scan:
+  available: false
+  quality: null
+  url: null
+verification_status: mention_only

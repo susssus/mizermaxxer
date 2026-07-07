@@ -782,7 +782,7 @@ def render_flyer_yaml(entry: dict) -> str:
         f"publication: {doc['publication']}",
         "issue_number: null",
         f"publication_date: {doc['publication_date']}",
-        "pages: 1",
+        "page_count: 1",
         f"title_ja: {doc['title_ja']}",
         f"title_en: {doc['title_en']}",
         "scan_paths:",

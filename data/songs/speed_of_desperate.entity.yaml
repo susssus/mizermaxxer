@@ -1,0 +1,15 @@
+id: song_speed_of_desperate
+type: song
+legacy_v1_slug: speed-of-desperate
+title:
+  original: Speed Of Desperate
+  romanized: Speed Of Desperate
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

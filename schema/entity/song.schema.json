@@ -27,6 +27,11 @@
             },
             "additionalProperties": false
           }
+        },
+        "legacy_v1_slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "v1 catalog song id (data/songs/<slug>.yaml)."
         }
       }
     }

@@ -1,0 +1,15 @@
+id: song_kagami_no_butou
+type: song
+legacy_v1_slug: kagami-no-butou
+title:
+  original: 鏡の舞踏　幻惑の夜
+  romanized: 鏡の舞踏　幻惑の夜
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

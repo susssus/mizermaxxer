@@ -1,0 +1,15 @@
+id: song_le_ciel_instrumental
+type: song
+legacy_v1_slug: le-ciel-instrumental
+title:
+  original: Le Ciel～空白の彼方へ～ (Instrumental)
+  romanized: Le Ciel～空白の彼方へ～ (Instrumental)
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

@@ -1,0 +1,15 @@
+id: song_gensou_rakuen
+type: song
+legacy_v1_slug: gensou-rakuen
+title:
+  original: 幻想楽園
+  romanized: 幻想楽園
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

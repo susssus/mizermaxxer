@@ -1,0 +1,15 @@
+id: song_ino_no_rumania
+type: song
+legacy_v1_slug: ino-no-rumania
+title:
+  original: 古のルーマニア
+  romanized: 古のルーマニア
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Catalogued from Discogs tracklist.

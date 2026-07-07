@@ -1,5 +1,377 @@
 [
   {
+    "path": "images/covers/au-revoir-single.jpg",
+    "source_url": "https://www.discogs.com/master/2483698-Malice-Mizer-Au-Revoir",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/bara-makuake-video.jpg",
+    "source_url": "https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/bara-no-densho.jpg",
+    "source_url": "https://www.discogs.com/master/3454586-Malice-Mizer-薔薇の伝承-序章",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/bara-no-kiseki-dvd.jpg",
+    "source_url": "https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/bara-no-konrei.jpg",
+    "source_url": "https://www.discogs.com/master/3454598-Malice-Mizer-薔薇の婚礼真夜中に交わした約束",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/bara-no-seidou.jpg",
+    "source_url": "https://coverartarchive.org/release/14f8bce9-21f2-40f7-b2be-1289f9803c7a/21937056556-500.jpg",
+    "source_name": "Cover Art Archive / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:38.651132Z"
+  },
+  {
+    "path": "images/covers/beast-of-blood-de-limage.jpg",
+    "source_url": "https://www.discogs.com/master/1222381-Malice-Mizer-Beast-Of-Blood-De-LImage",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/beast-of-blood-single.jpg",
+    "source_url": "https://coverartarchive.org/release/5bc9e5f3-d41c-4fba-af8c-ac943c1a0372/41095250361-500.jpg",
+    "source_name": "Cover Art Archive / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:52.511171Z"
+  },
+  {
+    "path": "images/covers/bel-air-single.jpg",
+    "source_url": "https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/braintrash.jpg",
+    "source_url": "https://www.discogs.com/master/3663375-Various-Braintrash",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/cardinal.jpg",
+    "source_url": "https://www.discogs.com/master/1222328-Malice-Mizer-Cardinal",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/deep-sanctuary-vi.jpg",
+    "source_url": "https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/gardenia-single.jpg",
+    "source_url": "https://www.discogs.com/master/231792-Malice-Mizer-Gardenia",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/garnet-single.jpg",
+    "source_url": "https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/gekka-no-yasoukyoku-single.jpg",
+    "source_url": "https://coverartarchive.org/release/093808d3-3320-45c8-8ce7-7bff70df6f55/11886780379-500.jpg",
+    "source_name": "Cover Art Archive / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:45.653713Z"
+  },
+  {
+    "path": "images/covers/illuminati-single.jpg",
+    "source_url": "https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/kyomu-no-naka-de-no-yugi-single.jpg",
+    "source_url": "https://www.discogs.com/master/3123438-Malice-Mizer-虚無の中での遊戯",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/la-collection-des-singles.jpg",
+    "source_url": "https://www.discogs.com/master/375579-Malice-Mizer-La-Collection-Des-Singles",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/la-collection-merveilles-limited.jpg",
+    "source_url": "https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/la-meilleur-selection.jpg",
+    "source_url": "https://www.discogs.com/release/8708164-Malice-Mizer-La-Meilleur-Selection-De-Malice-Mizer",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/le-ciel-single.jpg",
+    "source_url": "https://www.discogs.com/master/3724368-Malice-Mizer-Le-Ciel空白の彼方へ",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/ma-cherie-single.jpg",
+    "source_url": "https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/mayonaka-yakusoku-single.jpg",
+    "source_url": "https://www.discogs.com/release/2496481-Malice-Mizer-真夜中に交わした約束薔薇の婚礼",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/memoire-dx.jpg",
+    "source_url": "https://www.discogs.com/release/575231-Malice-Mizer-Memoire-DX",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/memoire.jpg",
+    "source_url": "https://coverartarchive.org/release/46e1ff26-b92e-4e65-adc7-9e580ee59e68/44209344797-500.jpg",
+    "source_name": "Cover Art Archive / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:12.227005Z"
+  },
+  {
+    "path": "images/covers/merveilles-cinq-parallele.jpg",
+    "source_url": "https://www.discogs.com/master/1467998-Malice-Mizer-Merveilles-Cinq-Parallèle-",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/merveilles-lespace.jpg",
+    "source_url": "https://www.discogs.com/master/1450860-Malice-Mizer-merveilles-終焉と帰趨-lespace",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/merveilles.jpg",
+    "source_url": "https://coverartarchive.org/release/7d3b9817-b46c-46e7-a94a-3675134fbcf9/41412130556-500.jpg",
+    "source_name": "Cover Art Archive / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:31.637105Z"
+  },
+  {
+    "path": "images/covers/sadness-demo.jpg",
+    "source_url": "https://www.discogs.com/release/2610662-Malice-Mizer-Sadness",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/saikai-de-limage.jpg",
+    "source_url": "https://www.discogs.com/release/10694776-Malice-Mizer-再会の血と薔薇-De-LImage",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/saikai-no-chi-to-bara-single.jpg",
+    "source_url": "https://www.discogs.com/master/219965-Malice-Mizer-再会の血と薔薇",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/sans-logique.jpg",
+    "source_url": "https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/sans-retour-voyage-derniere.jpg",
+    "source_url": "https://www.discogs.com/master/1222590-Malice-Mizer-Sans-Retour-Voyage-Derniere-Encoure-Une-Fois",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/selection-performances-live.jpg",
+    "source_url": "https://www.discogs.com/release/27572085-Malice-Mizer-Sélection-De-Performances-Live",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/shinwa.jpg",
+    "source_url": "https://www.discogs.com/release/2175459-Malice-Mizer-神話",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/shiroi-hada-single.jpg",
+    "source_url": "https://www.discogs.com/release/3158217-Malice-Mizer-白い肌に狂う愛と哀しみの輪舞",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/societe-de-parente.jpg",
+    "source_url": "https://www.discogs.com/release/15937484-Malice-Mizer-Socìété-De-Parenté-新たなる血族との響宴",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/speed-of-desperate.jpg",
+    "source_url": "https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/the-1th-anniversary.jpg",
+    "source_url": "https://www.discogs.com/release/2610648-Malice-Mizer-The-1th-Anniversary",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/uruwashii-kamen-single.jpg",
+    "source_url": "https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/ver-eair-de-limage.jpg",
+    "source_url": "https://www.discogs.com/release/12406247-Malice-Mizer-ヴェルエール空白の瞬間の中でde-limage",
+    "source_name": "Cover Art Archive / Discogs",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/covers/voyage-sans-retour.jpg",
+    "source_url": "https://coverartarchive.org/release/0908291c-a9f7-4d17-b0cd-a84b5a759c68/43860766006-500.jpg",
+    "source_name": "Cover Art Archive / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:24.107708Z"
+  },
+  {
+    "path": "images/flyers/flyers-1992-08-debut-era.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:02:29.916331Z"
+  },
+  {
+    "path": "images/flyers/flyers-1993-01-demo-sadness.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:02:29.916331Z"
+  },
+  {
+    "path": "images/flyers/flyers-1993-06-live-1993.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:02:29.916331Z"
+  },
+  {
+    "path": "images/flyers/flyers-1993-08-artistic-expression.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:53.887893Z"
+  },
+  {
+    "path": "images/flyers/flyers-1993-12-upcoming-lives.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:55.652083Z"
+  },
+  {
+    "path": "images/flyers/flyers-1994-01-live-1994.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:02:29.916331Z"
+  },
+  {
+    "path": "images/flyers/flyers-1994-07-24-memoire-ii.webp",
+    "source_url": "https://malice-mizer.info/94.7.24-memoire-flyer-II.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1994-07-24-memoire.webp",
+    "source_url": "https://malice-mizer.info/94.7.24-memoire-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1994-12-24-memoire-dx.webp",
+    "source_url": "https://malice-mizer.info/94.12.24-memoire-DX-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1995-12-10-uruwashiki-kamen.webp",
+    "source_url": "https://malice-mizer.info/95.12.10-Uruwashiki-Kamen-no-Shoutaijou-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1996-06-09-voyage.webp",
+    "source_url": "https://malice-mizer.info/96.6.9Voyage~sans-retour~flyer-cropped.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1996-10-10-ma-cherie.webp",
+    "source_url": "https://malice-mizer.info/96.10.10-ma-cherie-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1997-02-11-gekka.webp",
+    "source_url": "https://malice-mizer.info/97.2.11-Gekka-no-Yasoukyoku-release-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1997-06-30-derniere-vhs.webp",
+    "source_url": "https://malice-mizer.info/97.6.30-sans-retour-Voyage-LIVE-VIDEO-6-30-RELEASE-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1997-07-19-vers-elle.webp",
+    "source_url": "https://malice-mizer.info/97.7.19-Debut-Single-Release-flyer-cropped.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1998-04-01-au-revoir.webp",
+    "source_url": "https://malice-mizer.info/98.4.1-au-revoir-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1998-05-20-illuminati.webp",
+    "source_url": "https://malice-mizer.info/98.5.20-ILLUMINATI-flyer-cropped.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1998-09-30-le-ciel.webp",
+    "source_url": "https://malice-mizer.info/98.9.30-Le-ciel-flyer.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1998-10-28-lespace.webp",
+    "source_url": "https://malice-mizer.info/98.10.28-lespace-release.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/flyers/flyers-1998-11-27-itan-shinmon.webp",
+    "source_url": "https://malice-mizer.info/98.11.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
     "path": "images/flyers/flyers-1999-11-03-saikai-single.webp",
     "source_url": "https://malice-mizer.info/99.11.3-再会の血と薔薇-flyer.webp",
     "source_name": "malice-mizer.info",
@@ -12,16 +384,16 @@
     "fetched_at": "2026-07-05T22:28:50.120790Z"
   },
   {
-    "path": "images/flyers/flyers-2000-02-01-shinwa-front.webp",
-    "source_url": "https://malice-mizer.info/00.2.1-神話-flyer-front.webp",
-    "source_name": "malice-mizer.info",
-    "fetched_at": "2026-07-05T22:28:51.459710Z"
-  },
-  {
     "path": "images/flyers/flyers-2000-02-01-shinwa-back.webp",
     "source_url": "https://malice-mizer.info/00.2.1-神話-flyer-back.webp",
     "source_name": "malice-mizer.info",
     "fetched_at": "2026-07-05T22:28:52.785242Z"
+  },
+  {
+    "path": "images/flyers/flyers-2000-02-01-shinwa-front.webp",
+    "source_url": "https://malice-mizer.info/00.2.1-神話-flyer-front.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-05T22:28:51.459710Z"
   },
   {
     "path": "images/flyers/flyers-2000-05-31-kyomu.webp",
@@ -30,16 +402,16 @@
     "fetched_at": "2026-07-05T22:28:54.534858Z"
   },
   {
-    "path": "images/flyers/flyers-2000-08-03-bara-no-seidou-front.webp",
-    "source_url": "https://malice-mizer.info/00.8.3-薔薇の聖堂-flyer-front.webp",
-    "source_name": "malice-mizer.info",
-    "fetched_at": "2026-07-05T22:28:56.010714Z"
-  },
-  {
     "path": "images/flyers/flyers-2000-08-03-bara-no-seidou-back.webp",
     "source_url": "https://malice-mizer.info/00.8.3-薔薇の聖堂-flyer-back.webp",
     "source_name": "malice-mizer.info",
     "fetched_at": "2026-07-05T22:28:57.553138Z"
+  },
+  {
+    "path": "images/flyers/flyers-2000-08-03-bara-no-seidou-front.webp",
+    "source_url": "https://malice-mizer.info/00.8.3-薔薇の聖堂-flyer-front.webp",
+    "source_name": "malice-mizer.info",
+    "fetched_at": "2026-07-05T22:28:56.010714Z"
   },
   {
     "path": "images/flyers/flyers-2000-11-22-budokan-vhs.webp",
@@ -72,130 +444,10 @@
     "fetched_at": "2026-07-05T22:29:05.074710Z"
   },
   {
-    "path": "images/covers/memoire.jpg",
-    "source_url": "https://coverartarchive.org/release/46e1ff26-b92e-4e65-adc7-9e580ee59e68/44209344797-500.jpg",
-    "source_name": "Cover Art Archive / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:12.227005Z"
-  },
-  {
-    "path": "images/covers/voyage-sans-retour.jpg",
-    "source_url": "https://coverartarchive.org/release/0908291c-a9f7-4d17-b0cd-a84b5a759c68/43860766006-500.jpg",
-    "source_name": "Cover Art Archive / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:24.107708Z"
-  },
-  {
-    "path": "images/covers/merveilles.jpg",
-    "source_url": "https://coverartarchive.org/release/7d3b9817-b46c-46e7-a94a-3675134fbcf9/41412130556-500.jpg",
-    "source_name": "Cover Art Archive / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:31.637105Z"
-  },
-  {
-    "path": "images/covers/bara-no-seidou.jpg",
-    "source_url": "https://coverartarchive.org/release/14f8bce9-21f2-40f7-b2be-1289f9803c7a/21937056556-500.jpg",
-    "source_name": "Cover Art Archive / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:38.651132Z"
-  },
-  {
-    "path": "images/covers/gekka-no-yasoukyoku-single.jpg",
-    "source_url": "https://coverartarchive.org/release/093808d3-3320-45c8-8ce7-7bff70df6f55/11886780379-500.jpg",
-    "source_name": "Cover Art Archive / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:45.653713Z"
-  },
-  {
-    "path": "images/covers/beast-of-blood-single.jpg",
-    "source_url": "https://coverartarchive.org/release/5bc9e5f3-d41c-4fba-af8c-ac943c1a0372/41095250361-500.jpg",
-    "source_name": "Cover Art Archive / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:52.511171Z"
-  },
-  {
-    "path": "images/members/hero.webp",
-    "source_url": "https://www.malice-mizer.info/GK7xiQ1XoAAmE6m.webp",
-    "source_name": "malice-mizer.info / Cantavanda",
-    "fetched_at": "2026-07-05T22:29:53.552295Z"
-  },
-  {
-    "path": "images/members/mana.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800384Z"
-  },
-  {
-    "path": "images/members/kozi.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800537Z"
-  },
-  {
-    "path": "images/members/yuki.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800540Z"
-  },
-  {
-    "path": "images/members/kami.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800548Z"
-  },
-  {
-    "path": "images/members/gackt.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800542Z"
-  },
-  {
-    "path": "images/members/klaha.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800544Z"
-  },
-  {
-    "path": "images/members/tetsu.webp",
-    "source_url": "images/members/tetsu-profile.webp",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800552Z"
-  },
-  {
-    "path": "images/members/gaz.webp",
-    "source_url": "images/members/source/throughout-the-years.png",
-    "source_name": "Malice Mizer Throughout The Years reference poster",
-    "fetched_at": "2026-07-06T19:35:43.800546Z"
-  },
-  {
-    "path": "images/flyers/flyers-1992-08-debut-era.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg",
+    "path": "images/flyers/flyers-unknown-oldflyer4.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/Oldflyer4.png",
     "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:02:29.916331Z"
-  },
-  {
-    "path": "images/flyers/flyers-1993-01-demo-sadness.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:02:29.916331Z"
-  },
-  {
-    "path": "images/flyers/flyers-1993-06-live-1993.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:02:29.916331Z"
-  },
-  {
-    "path": "images/flyers/flyers-1994-01-live-1994.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:02:29.916331Z"
-  },
-  {
-    "path": "images/flyers/flyers-1993-08-artistic-expression.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:53.887893Z"
-  },
-  {
-    "path": "images/flyers/flyers-1993-12-upcoming-lives.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:55.652083Z"
+    "fetched_at": "2026-07-05T23:04:56.872202Z"
   },
   {
     "path": "images/flyers/flyers-unknown-oldflyer9.webp",
@@ -204,334 +456,484 @@
     "fetched_at": "2026-07-05T23:04:56.518854Z"
   },
   {
-    "path": "images/flyers/flyers-unknown-oldflyer4.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/Oldflyer4.png",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:56.872202Z"
+    "path": "images/members/gackt.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800542Z"
   },
   {
-    "path": "images/vintage/mana-memoire-dx.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/mana1a.jpeg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:57.181386Z"
+    "path": "images/members/gaz.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800546Z"
   },
   {
-    "path": "images/vintage/kozi-memoire-dx.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:57.451574Z"
+    "path": "images/members/hero.webp",
+    "source_url": "https://www.malice-mizer.info/GK7xiQ1XoAAmE6m.webp",
+    "source_name": "malice-mizer.info / Cantavanda",
+    "fetched_at": "2026-07-05T22:29:53.552295Z"
   },
   {
-    "path": "images/vintage/yuki-memoire-dx.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:57.711296Z"
+    "path": "images/members/kami.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800548Z"
   },
   {
-    "path": "images/vintage/tetsu-memoire-dx.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/tetsu1a.jpeg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:57.981006Z"
+    "path": "images/members/klaha.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800544Z"
   },
   {
-    "path": "images/vintage/mana-collage.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/manacollage.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:58.552776Z"
+    "path": "images/members/kozi.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800537Z"
   },
   {
-    "path": "images/vintage/kozi-collage.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:59.022496Z"
+    "path": "images/members/mana.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800384Z"
   },
   {
-    "path": "images/vintage/yuki-collage.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/yukicollage.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:59.455455Z"
+    "path": "images/members/tetsu.webp",
+    "source_url": "images/members/tetsu-profile.webp",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800552Z"
   },
   {
-    "path": "images/vintage/tetsu-collage.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsucollage.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:04:59.928854Z"
+    "path": "images/members/yuki.webp",
+    "source_url": "images/members/source/throughout-the-years.png",
+    "source_name": "Malice Mizer Throughout The Years reference poster",
+    "fetched_at": "2026-07-06T19:35:43.800540Z"
   },
   {
-    "path": "images/vintage/mana-interview.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/Manainterview.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:00.525272Z"
+    "path": "images/scans/arena37/1997-10/01.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B01%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:30.898836Z"
   },
   {
-    "path": "images/vintage/tetsu-interview.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsuinterview.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:01.074355Z"
+    "path": "images/scans/arena37/1997-10/02.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B02%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:30.898883Z"
   },
   {
-    "path": "images/vintage/yuki-interview.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/yukiinterview.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:01.610049Z"
+    "path": "images/scans/arena37/1997-10/03.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B03%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:44:49.786643Z"
   },
   {
-    "path": "images/vintage/kozi-interview.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/koziinterview.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:02.187869Z"
+    "path": "images/scans/arena37/1997-10/04.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B04%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:10.327775Z"
   },
   {
-    "path": "images/vintage/live-1993.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:02.434573Z"
+    "path": "images/scans/arena37/1997-10/05.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B05%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:22.703609Z"
   },
   {
-    "path": "images/vintage/live-lineup-1993.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:02.943691Z"
+    "path": "images/scans/arena37/1997-10/06.jpg",
+    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B06%5D.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:37.786134Z"
   },
   {
-    "path": "images/vintage/live-band-1993.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:03.398998Z"
+    "path": "images/scans/arena37/1998-11/01.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/%21%21%21%21arena194-fc.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:45:59.041243Z"
   },
   {
-    "path": "images/vintage/live-mana-yuki-tetsu.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/perform.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:03.622728Z"
+    "path": "images/scans/arena37/1998-11/02.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:12.311571Z"
   },
   {
-    "path": "images/vintage/live-tetsu-kami-yuki.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive7.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:03.978678Z"
+    "path": "images/scans/arena37/1998-11/03.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:26.819313Z"
   },
   {
-    "path": "images/vintage/live-full-lineup.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive8.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:04.245736Z"
+    "path": "images/scans/arena37/1998-11/04.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:39.055286Z"
   },
   {
-    "path": "images/vintage/live-mana-yuki.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive9.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:04.440755Z"
+    "path": "images/scans/arena37/1998-11/05.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:46:52.360386Z"
   },
   {
-    "path": "images/vintage/live-mana-tetsu.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:05.461187Z"
+    "path": "images/scans/arena37/1998-11/06.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-6.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:04.752225Z"
   },
   {
-    "path": "images/vintage/live-memoire-final-1994.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive4.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:05.739681Z"
+    "path": "images/scans/arena37/1998-11/07.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-7.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:20.223579Z"
   },
   {
-    "path": "images/vintage/live-kami-memoire-final-1994.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive5 (1).jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:06.020492Z"
+    "path": "images/scans/arena37/1998-11/08.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:35.088381Z"
   },
   {
-    "path": "images/vintage/live-kozi-memoire-final-1994.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive6.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:06.363498Z"
+    "path": "images/scans/arena37/1998-11/09.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:47:57.924636Z"
   },
   {
-    "path": "images/vintage/mana-guitar-jellyfish.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/jellymana4.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:06.678853Z"
+    "path": "images/scans/arena37/1998-11/10.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:48:08.423588Z"
   },
   {
-    "path": "images/vintage/mana-smiling-gaz.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/smilemana.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:06.972759Z"
+    "path": "images/scans/arena37/1998-11/11.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:48:22.927036Z"
   },
   {
-    "path": "images/vintage/yuki-carrying-mana.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/carry.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:07.155775Z"
+    "path": "images/scans/arena37/1998-11/13.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-7.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:48:44.408483Z"
   },
   {
-    "path": "images/vintage/halloween-mana-kozi-yuki.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:07.504605Z"
+    "path": "images/scans/arena37/1998-11/14.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-8.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:49:00.614058Z"
   },
   {
-    "path": "images/vintage/kami-kozi.webp",
-    "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png",
-    "source_name": "Malice Meezer / malicemeezer.neocities.org",
-    "fetched_at": "2026-07-05T23:05:07.954455Z"
+    "path": "images/scans/arena37/1998-11/16.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-feel-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:49:31.916791Z"
   },
   {
-    "path": "images/scans/fools-mate/1997-07/01.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-01-scaled.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-05T23:43:00.357735Z"
+    "path": "images/scans/arena37/1998-11/19.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:07.023263Z"
   },
   {
-    "path": "images/scans/fools-mate/1997-07/02.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-02-scaled.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-05T23:43:00.357735Z"
+    "path": "images/scans/arena37/1998-11/20.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:17.372845Z"
   },
   {
-    "path": "images/scans/fools-mate/1997-07/03.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-03-scaled.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-05T23:43:00.357735Z"
+    "path": "images/scans/arena37/1998-11/21.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:32.162085Z"
   },
   {
-    "path": "images/scans/pop-beat/1997-08/01.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.08.xx-POP-BEAT-August-1997-01.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.627750Z"
+    "path": "images/scans/arena37/1998-11/22.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-gt-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:50:49.532078Z"
   },
   {
-    "path": "images/scans/pop-beat/1997-08/02.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.08.xx-POP-BEAT-August-1997-02.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.627916Z"
+    "path": "images/scans/arena37/1998-11/23.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-gt-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:51:04.665710Z"
   },
   {
-    "path": "images/scans/vicious/1997-10/01.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.631569Z"
+    "path": "images/scans/arena37/1998-11/24.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:51:25.942971Z"
   },
   {
-    "path": "images/scans/vicious/1997-10/02.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-02.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.631582Z"
+    "path": "images/scans/arena37/1998-11/25.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:51:41.355102Z"
   },
   {
-    "path": "images/scans/vicious/1997-10/03.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-03.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.631592Z"
+    "path": "images/scans/arena37/1998-11/26.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:04.884143Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/01.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-01.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634770Z"
+    "path": "images/scans/arena37/1998-11/27.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:14.473176Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/02.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-02.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634781Z"
+    "path": "images/scans/arena37/1998-11/28.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:25.040636Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/03.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-03.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634790Z"
+    "path": "images/scans/arena37/1998-11/29.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:37.083459Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/04.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-04.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634799Z"
+    "path": "images/scans/arena37/1998-11/30.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:49.112164Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/05.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-05.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634808Z"
+    "path": "images/scans/arena37/1998-11/31.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:52:57.796503Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/06.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-06.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634817Z"
+    "path": "images/scans/arena37/1998-11/32.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-6.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:18.622690Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/07.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-07.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634825Z"
+    "path": "images/scans/arena37/1998-11/33.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-7.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:35.329384Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/08.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-08.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634834Z"
+    "path": "images/scans/arena37/1998-11/34.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-8.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:47.421772Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/09.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-09.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634842Z"
+    "path": "images/scans/arena37/1998-11/35.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-9.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:53:59.902537Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/10.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-10.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634850Z"
+    "path": "images/scans/arena37/1998-11/36.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kyo-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:54:17.687568Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/11.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-11.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634858Z"
+    "path": "images/scans/arena37/1998-11/37.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:54:31.270185Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/12.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-12.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634866Z"
+    "path": "images/scans/arena37/1998-11/38.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:54:46.668906Z"
   },
   {
-    "path": "images/scans/shoxx/1998-05/13.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-13.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.634874Z"
+    "path": "images/scans/arena37/1998-11/39.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:01.846571Z"
   },
   {
-    "path": "images/scans/pop-beat/1998-06/01.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-01.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.637541Z"
+    "path": "images/scans/arena37/1998-11/40.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:12.933534Z"
   },
   {
-    "path": "images/scans/pop-beat/1998-06/02.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-02.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.637553Z"
+    "path": "images/scans/arena37/1998-11/41.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-maschera-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:26.006667Z"
   },
   {
-    "path": "images/scans/pop-beat/1998-06/03.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-03.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.637562Z"
+    "path": "images/scans/arena37/1998-11/42.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-1.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:37.863491Z"
   },
   {
-    "path": "images/scans/pop-beat/1998-06/04.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-04.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.637573Z"
+    "path": "images/scans/arena37/1998-11/43.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-10.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:46.886806Z"
   },
   {
-    "path": "images/scans/pop-beat/1998-06/05.jpg",
-    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-05.jpg",
-    "source_name": "Cantavanda / Butterfly Rose",
-    "fetched_at": "2026-07-06T00:01:52.637582Z"
+    "path": "images/scans/arena37/1998-11/44.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-11.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:55:56.027768Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/45.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-12.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:11.282838Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/46.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-13.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:18.309297Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/48.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-15.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:40.029983Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/49.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-16.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:56:50.670022Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/50.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-17.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:57:02.798801Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/51.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-18.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:57:21.320384Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/53.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:57:48.868340Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/54.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:01.248759Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/55.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:17.651704Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/56.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:28.726266Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/57.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-6.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:58:48.308738Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/59.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-8.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T18:59:23.020981Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/62.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:00:24.389953Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/64.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-4.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:01:01.798807Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/65.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-5.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:01:17.682166Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/71.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ss-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:02:41.421524Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/72.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ss-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:02:52.148190Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/75.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-tmr-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:03:29.071032Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/76.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-tmr-3.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:03:40.624400Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/78.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-vdc-2.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:04:10.527638Z"
+  },
+  {
+    "path": "images/scans/arena37/1998-11/79.jpg",
+    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-vdc-ad.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:04:25.593217Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/01.jpg",
+    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10185.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:12:32.575116Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/02.jpg",
+    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10186.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:12:56.648973Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/03.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/",
+    "source_name": "Cantavanda (Butterfly Rose)",
+    "fetched_at": "2026-07-07T01:30:26.728146Z"
+  },
+  {
+    "path": "images/scans/b-pass/1999-06/05.jpg",
+    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10189.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:14:01.046489Z"
   },
   {
     "path": "images/scans/fan-club/1997-09/01.jpg",
@@ -1398,202 +1800,148 @@
     "fetched_at": "2026-07-06T00:01:52.654093Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/01.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire00.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:20:58.403252Z"
+    "path": "images/scans/fools-mate/1997-07/01.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-01-scaled.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-05T23:43:00.357735Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/02.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire01.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:01.414842Z"
+    "path": "images/scans/fools-mate/1997-07/02.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-02-scaled.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-05T23:43:00.357735Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/03.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire02.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:03.690793Z"
+    "path": "images/scans/fools-mate/1997-07/03.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/12/MALICE-MIZER-Scans-Magazine-Appearances-1997.07.01-FOOLS-MATE-No.-189-July-1997-03-scaled.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-05T23:43:00.357735Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/04.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire03.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:06.226013Z"
+    "path": "images/scans/fools-mate/1999-01/01.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/0000Fool%27s%20mate%20%23207%2C%20January%201999_00.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:04:55.646762Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/05.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire04.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:08.564024Z"
+    "path": "images/scans/fools-mate/1999-01/02.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_01.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:05:12.061283Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/06.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire05.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:11.291407Z"
+    "path": "images/scans/fools-mate/1999-01/03.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_02.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:05:31.454795Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/07.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire06.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:13.715940Z"
+    "path": "images/scans/fools-mate/1999-01/05.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_04.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:06:15.329881Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/08.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire07.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:17.684225Z"
+    "path": "images/scans/fools-mate/1999-01/07.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_00.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:07:07.781572Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/09.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire08.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:20.669704Z"
+    "path": "images/scans/fools-mate/1999-01/09.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_02.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:07:49.396212Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/10.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire09.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:22.864593Z"
+    "path": "images/scans/fools-mate/1999-01/10.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_03.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:08:15.199593Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/11.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire10.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:26.139642Z"
+    "path": "images/scans/fools-mate/1999-01/14.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_07.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:09:17.896197Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/12.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire11.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:28.722583Z"
+    "path": "images/scans/fools-mate/1999-01/15.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_08.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:09:40.732553Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/13.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire12.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:31.851272Z"
+    "path": "images/scans/fools-mate/1999-01/16.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_09.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:10:03.110954Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/14.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire13.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:34.249181Z"
+    "path": "images/scans/fools-mate/1999-01/17.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_10.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:10:25.293518Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/15.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire14.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:37.747790Z"
+    "path": "images/scans/fools-mate/1999-01/19.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_12.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:11:18.948841Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/16.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire15.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:40.410010Z"
+    "path": "images/scans/fools-mate/1999-01/20.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_13.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:11:39.226273Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/17.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire16.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:43.739516Z"
+    "path": "images/scans/fools-mate/1999-01/22.jpg",
+    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/img418.jpg",
+    "source_name": "Internet Archive",
+    "fetched_at": "2026-07-06T19:12:01.079319Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/18.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire17.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:46.312110Z"
+    "path": "images/scans/pop-beat/1997-08/01.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.08.xx-POP-BEAT-August-1997-01.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.627750Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/19.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire18.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:49.653494Z"
+    "path": "images/scans/pop-beat/1997-08/02.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.08.xx-POP-BEAT-August-1997-02.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.627916Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/20.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire19.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:52.423335Z"
+    "path": "images/scans/pop-beat/1998-06/01.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-01.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.637541Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/21.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire20.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:55.596862Z"
+    "path": "images/scans/pop-beat/1998-06/02.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-02.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.637553Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/22.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire21.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:21:57.817630Z"
+    "path": "images/scans/pop-beat/1998-06/03.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-03.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.637562Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/23.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire22.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:01.128882Z"
+    "path": "images/scans/pop-beat/1998-06/04.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-04.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.637573Z"
   },
   {
-    "path": "images/scans/tour-pamphlets/1994/24.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire23.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:03.756860Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/25.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire24.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:06.675899Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/26.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire25.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:08.923876Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/27.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire26.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:12.431746Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/28.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire27.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:14.925788Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/29.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire28.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:17.315836Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/30.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire29.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:19.492719Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/31.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire30.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:21.814947Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/32.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire31.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:24.540262Z"
-  },
-  {
-    "path": "images/scans/tour-pamphlets/1994/33.jpg",
-    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire32.jpg",
-    "source_name": "scape-cher-de-memoire",
-    "fetched_at": "2026-07-06T18:22:27.176817Z"
+    "path": "images/scans/pop-beat/1998-06/05.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1998.06.xx-POP-BEAT-June-1998-05.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.637582Z"
   },
   {
     "path": "images/scans/shoxx/1998-03/01.jpg",
@@ -1836,6 +2184,282 @@
     "fetched_at": "2026-07-06T18:35:55.613577Z"
   },
   {
+    "path": "images/scans/shoxx/1998-05/01.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-01.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634770Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/02.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-02.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634781Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/03.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-199-03.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634790Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/04.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-04.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634799Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/05.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-05.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634808Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/06.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-06.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634817Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/07.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-07.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634825Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/08.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-08.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634834Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/09.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-09.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634842Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/10.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-10.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634850Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/11.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-11.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634858Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/12.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-12.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634866Z"
+  },
+  {
+    "path": "images/scans/shoxx/1998-05/13.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/06/MALICE-MIZER-Scans-Magazine-Appearances-1998.05-SHOXX-May-1998-May-1998-13.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.634874Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/01.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire00.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:20:58.403252Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/02.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire01.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:01.414842Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/03.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire02.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:03.690793Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/04.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire03.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:06.226013Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/05.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire04.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:08.564024Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/06.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire05.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:11.291407Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/07.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire06.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:13.715940Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/08.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire07.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:17.684225Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/09.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire08.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:20.669704Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/10.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire09.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:22.864593Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/11.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire10.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:26.139642Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/12.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire11.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:28.722583Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/13.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire12.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:31.851272Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/14.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire13.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:34.249181Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/15.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire14.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:37.747790Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/16.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire15.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:40.410010Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/17.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire16.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:43.739516Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/18.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire17.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:46.312110Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/19.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire18.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:49.653494Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/20.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire19.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:52.423335Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/21.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire20.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:55.596862Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/22.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire21.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:21:57.817630Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/23.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire22.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:01.128882Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/24.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire23.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:03.756860Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/25.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire24.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:06.675899Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/26.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire25.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:08.923876Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/27.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire26.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:12.431746Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/28.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire27.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:14.925788Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/29.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire28.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:17.315836Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/30.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire29.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:19.492719Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/31.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire30.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:21.814947Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/32.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire31.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:24.540262Z"
+  },
+  {
+    "path": "images/scans/tour-pamphlets/1994/33.jpg",
+    "source_url": "http://www.scape.sc/pamphlets/cherdememoire/cherdememoire32.jpg",
+    "source_name": "scape-cher-de-memoire",
+    "fetched_at": "2026-07-06T18:22:27.176817Z"
+  },
+  {
     "path": "images/scans/tour-pamphlets/1996/03.jpg",
     "source_url": "https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-10-23-56-47-01.jpg",
     "source_name": "Internet Archive",
@@ -1944,507 +2568,189 @@
     "fetched_at": "2026-07-06T18:44:30.892329Z"
   },
   {
-    "path": "images/scans/arena37/1997-10/01.jpg",
-    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B01%5D.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:44:30.898836Z"
+    "path": "images/scans/vicious/1997-10/01.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-01.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.631569Z"
   },
   {
-    "path": "images/scans/arena37/1997-10/02.jpg",
-    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B02%5D.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:44:30.898883Z"
+    "path": "images/scans/vicious/1997-10/02.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-02.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.631582Z"
   },
   {
-    "path": "images/scans/arena37/1997-10/03.jpg",
-    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B03%5D.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:44:49.786643Z"
+    "path": "images/scans/vicious/1997-10/03.jpg",
+    "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-03.jpg",
+    "source_name": "Cantavanda / Butterfly Rose",
+    "fetched_at": "2026-07-06T00:01:52.631592Z"
   },
   {
-    "path": "images/scans/arena37/1997-10/04.jpg",
-    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B04%5D.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:45:10.327775Z"
+    "path": "images/vintage/halloween-mana-kozi-yuki.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:07.504605Z"
   },
   {
-    "path": "images/scans/arena37/1997-10/05.jpg",
-    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B05%5D.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:45:22.703609Z"
+    "path": "images/vintage/kami-kozi.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:07.954455Z"
   },
   {
-    "path": "images/scans/arena37/1997-10/06.jpg",
-    "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B06%5D.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:45:37.786134Z"
+    "path": "images/vintage/kozi-collage.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:59.022496Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/01.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/%21%21%21%21arena194-fc.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:45:59.041243Z"
+    "path": "images/vintage/kozi-interview.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/koziinterview.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:02.187869Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/02.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:46:12.311571Z"
+    "path": "images/vintage/kozi-memoire-dx.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:57.451574Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/03.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:46:26.819313Z"
+    "path": "images/vintage/live-1993.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:02.434573Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/04.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-4.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:46:39.055286Z"
+    "path": "images/vintage/live-band-1993.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:03.398998Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/05.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-5.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:46:52.360386Z"
+    "path": "images/vintage/live-full-lineup.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive8.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:04.245736Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/06.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-6.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:47:04.752225Z"
+    "path": "images/vintage/live-kami-memoire-final-1994.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive5 (1).jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:06.020492Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/07.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-deg-7.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:47:20.223579Z"
+    "path": "images/vintage/live-kozi-memoire-final-1994.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive6.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:06.363498Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/08.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:47:35.088381Z"
+    "path": "images/vintage/live-lineup-1993.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:02.943691Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/09.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:47:57.924636Z"
+    "path": "images/vintage/live-mana-tetsu.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:05.461187Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/10.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-4.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:48:08.423588Z"
+    "path": "images/vintage/live-mana-yuki-tetsu.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/perform.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:03.622728Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/11.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-5.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:48:22.927036Z"
+    "path": "images/vintage/live-mana-yuki.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive9.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:04.440755Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/13.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-7.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:48:44.408483Z"
+    "path": "images/vintage/live-memoire-final-1994.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive4.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:05.739681Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/14.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ds-8.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:49:00.614058Z"
+    "path": "images/vintage/live-tetsu-kami-yuki.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive7.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:03.978678Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/16.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-feel-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:49:31.916791Z"
+    "path": "images/vintage/mana-collage.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/manacollage.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:58.552776Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/19.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:50:07.023263Z"
+    "path": "images/vintage/mana-guitar-jellyfish.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/jellymana4.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:06.678853Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/20.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:50:17.372845Z"
+    "path": "images/vintage/mana-interview.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/Manainterview.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:00.525272Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/21.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ftc-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:50:32.162085Z"
+    "path": "images/vintage/mana-memoire-dx.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/mana1a.jpeg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:57.181386Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/22.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-gt-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:50:49.532078Z"
+    "path": "images/vintage/mana-smiling-gaz.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/smilemana.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:06.972759Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/23.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-gt-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:51:04.665710Z"
+    "path": "images/vintage/tetsu-collage.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsucollage.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:59.928854Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/24.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:51:25.942971Z"
+    "path": "images/vintage/tetsu-interview.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/Tetsuinterview.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:01.074355Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/25.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:51:41.355102Z"
+    "path": "images/vintage/tetsu-memoire-dx.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/tetsu1a.jpeg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:57.981006Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/26.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kh-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:52:04.884143Z"
+    "path": "images/vintage/yuki-carrying-mana.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/carry.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:07.155775Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/27.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:52:14.473176Z"
+    "path": "images/vintage/yuki-collage.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/yukicollage.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:59.455455Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/28.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:52:25.040636Z"
+    "path": "images/vintage/yuki-interview.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/yukiinterview.jpg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:05:01.610049Z"
   },
   {
-    "path": "images/scans/arena37/1998-11/29.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:52:37.083459Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/30.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-4.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:52:49.112164Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/31.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-5.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:52:57.796503Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/32.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-6.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:53:18.622690Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/33.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-7.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:53:35.329384Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/34.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-8.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:53:47.421772Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/35.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ky-9.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:53:59.902537Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/36.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-kyo-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:54:17.687568Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/37.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:54:31.270185Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/38.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:54:46.668906Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/39.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:55:01.846571Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/40.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-lcc-4.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:55:12.933534Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/41.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-maschera-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:55:26.006667Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/42.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-1.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:55:37.863491Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/43.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-10.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:55:46.886806Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/44.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-11.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:55:56.027768Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/45.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-12.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:56:11.282838Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/46.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-13.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:56:18.309297Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/48.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-15.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:56:40.029983Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/49.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-16.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:56:50.670022Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/50.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-17.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:57:02.798801Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/51.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-18.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:57:21.320384Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/53.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:57:48.868340Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/54.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:58:01.248759Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/55.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-4.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:58:17.651704Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/56.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-5.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:58:28.726266Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/57.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-6.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:58:48.308738Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/59.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-mm-8.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T18:59:23.020981Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/62.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:00:24.389953Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/64.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-4.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:01:01.798807Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/65.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-pierrot-5.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:01:17.682166Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/71.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ss-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:02:41.421524Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/72.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-ss-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:02:52.148190Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/75.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-tmr-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:03:29.071032Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/76.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-tmr-3.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:03:40.624400Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/78.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-vdc-2.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:04:10.527638Z"
-  },
-  {
-    "path": "images/scans/arena37/1998-11/79.jpg",
-    "source_url": "https://archive.org/download/arena194-ss-2/Arena%2037c%20November%201998/arena194-vdc-ad.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:04:25.593217Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/01.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/0000Fool%27s%20mate%20%23207%2C%20January%201999_00.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:04:55.646762Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/02.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_01.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:05:12.061283Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/03.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_02.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:05:31.454795Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/05.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999%20Luna%20Sea_04.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:06:15.329881Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/07.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_00.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:07:07.781572Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/09.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_02.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:07:49.396212Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/10.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_03.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:08:15.199593Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/14.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_07.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:09:17.896197Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/15.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_08.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:09:40.732553Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/16.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_09.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:10:03.110954Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/17.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_10.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:10:25.293518Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/19.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_12.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:11:18.948841Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/20.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/Fool%27s%20mate%20%23207%2C%20January%201999_13.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:11:39.226273Z"
-  },
-  {
-    "path": "images/scans/fools-mate/1999-01/22.jpg",
-    "source_url": "https://archive.org/download/fools-mate-207-january-1999-13/Fool%27s%20Mate%20%23207%20January%201999%20MM%26LS/img418.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:12:01.079319Z"
-  },
-  {
-    "path": "images/scans/b-pass/1999-06/01.jpg",
-    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10185.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:12:32.575116Z"
-  },
-  {
-    "path": "images/scans/b-pass/1999-06/02.jpg",
-    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10186.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:12:56.648973Z"
-  },
-  {
-    "path": "images/scans/b-pass/1999-06/05.jpg",
-    "source_url": "https://archive.org/download/scan-10188/BPASS%20June%201999/Scan10189.jpg",
-    "source_name": "Internet Archive",
-    "fetched_at": "2026-07-06T19:14:01.046489Z"
+    "path": "images/vintage/yuki-memoire-dx.webp",
+    "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
+    "source_name": "Malice Meezer / malicemeezer.neocities.org",
+    "fetched_at": "2026-07-05T23:04:57.711296Z"
   }
 ]

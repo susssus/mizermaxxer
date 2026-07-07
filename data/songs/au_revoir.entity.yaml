@@ -5,25 +5,27 @@ title:
   romanized: Au Revoir
 duration_seconds: 292
 appears_on:
-  - album_merveilles
+- album_merveilles
 personnel:
-  - person: person_gackt
-    role: vocals
-  - person: person_mana
-    role: guitar
-  - person: person_kozi
-    role: guitar
-  - person: person_yuki
-    role: bass
-  - person: person_kami
-    role: drums
+- person: person_gackt
+  role: vocals
+- person: person_mana
+  role: guitar
+- person: person_kozi
+  role: guitar
+- person: person_yuki
+  role: bass
+- person: person_kami
+  role: drums
 facts:
-  - statement: >
-      Kami first performed this arrangement live before its studio
-      recording, with a slightly different bridge section.
-    sources:
-      - ref_shoxx_061
-      - ref_foolsmate_188
-    confidence: high
-    status: verified
-notes: ""
+- statement: 'Kami first performed this arrangement live before its studio recording,
+    with a slightly different bridge section.
+
+    '
+  sources:
+  - ref_shoxx_061
+  - ref_foolsmate_188
+  confidence: high
+  status: verified
+notes: ''
+legacy_v1_slug: au-revoir

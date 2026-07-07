@@ -1,5 +1,6 @@
 id: venue_nippon_budokan
 type: venue
+legacy_v1_slug: nippon-budokan
 title:
   original: 日本武道館
   romanized: Nippon Budokan
@@ -9,4 +10,4 @@ location:
   prefecture: Tokyo
   country: Japan
 facts: []
-notes: ""
+notes: "Canonical v2 venue record. v1 catalog slug: nippon-budokan"

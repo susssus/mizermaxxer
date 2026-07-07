@@ -1,0 +1,21 @@
+id: article_artist_fan_vol_3_001
+type: article
+legacy_v1_slug: artist-fan-vol-3-001
+title:
+  romanized: artist-fan-vol-3-001
+article_type: mention
+published_in: ref_artist_fan_vol_3
+pages: null
+members: []
+photographer: null
+writer: null
+cover: false
+poster: false
+foldout: false
+facts: []
+notes: Migrated from bibliography article artist-fan-vol-3-001 in issue artist-fan-vol-3.
+scan:
+  available: false
+  quality: null
+  url: null
+verification_status: mention_only

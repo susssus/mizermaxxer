@@ -1,0 +1,15 @@
+id: song_nps_ngs
+type: song
+legacy_v1_slug: nps-ngs
+title:
+  original: N.p.s N.g.s. ～No Pains No Gains～
+  romanized: N.p.s N.g.s. ～No Pains No Gains～
+duration_seconds: null
+appears_on: []
+personnel:
+- person: person_mana
+  role: writer
+- person: person_mana
+  role: composer
+facts: []
+notes: Auto-created from Discogs sync (2026-07-05).

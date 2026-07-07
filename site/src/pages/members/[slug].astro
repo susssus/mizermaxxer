@@ -1,5 +1,6 @@
 ---
 import PersonProfile from "../../components/PersonProfile.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
 
@@ -42,8 +43,15 @@ const memberDescription = profile
 
 {profile ? (
   <Base title={title} description={memberDescription} type="profile">
-    <a class="back" href="/">← Back to bibliography</a>
-    <a class="back" href={`/entity/${entityId}`} style="margin-left: 1rem;">Entity graph →</a>
+    <Breadcrumbs
+      items={[
+        { label: "Members", href: "/members" },
+        { label: title },
+      ]}
+    />
+    <p class="muted entity-link">
+      <a href={`/entity/${entityId}`}>Entity graph →</a>
+    </p>
 
     <PersonProfile
       entity={{

@@ -1,6 +1,7 @@
 ---
 import ArchiveImage from "../../components/ArchiveImage.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import NotFound from "../../components/NotFound.astro";
 import Base from "../../layouts/Base.astro";
 import translationsData from "../../data/translations.json";
 import { issueForArticle, publicationName, scanHref, translationReviewLabel } from "../../lib/translations.ts";
@@ -60,7 +61,7 @@ const pageToc =
     : [];
 ---
 
-{doc && (
+{doc ? (
   <Base title={translationTitle} description={translationDescription} type="article">
     <Breadcrumbs items={breadcrumbItems} />
 
@@ -96,13 +97,13 @@ const pageToc =
             <dd>{doc.publication_date}</dd>
           </>
         )}
-        {(doc.page_count || (!Array.isArray(doc.pages) && doc.pages) || doc.scan_paths?.length) && (
+        {(doc.page_count || doc.page_range || doc.pages?.length || doc.scan_paths?.length) && (
           <>
             <dt>Pages</dt>
             <dd>
               {doc.page_count
-                ?? (!Array.isArray(doc.pages) ? doc.pages : null)
-                ?? (Array.isArray(doc.pages) ? doc.pages.length : null)
+                ?? doc.page_range
+                ?? doc.pages?.length
                 ?? doc.scan_paths?.length}
             </dd>
           </>
@@ -418,6 +419,13 @@ const pageToc =
       </p>
     )}
   </Base>
+) : (
+  <NotFound
+    title="Translation not found"
+    message="No translation matches that ID."
+    backHref="/translations"
+    backLabel="← Back to translations"
+  />
 )}
 
 <style>

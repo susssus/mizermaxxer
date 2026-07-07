@@ -1,0 +1,27 @@
+id: article_tour_pamphlet_sans_retour_voyage_1996_001
+type: article
+legacy_v1_slug: tour-pamphlet-sans-retour-voyage-1996-001
+title:
+  romanized: Sans retour Voyage tour pamphlet
+  original: Sans retour Voyage ツアーパンフレット
+article_type: pamphlet
+published_in: ref_tour_pamphlet_sans_retour_voyage_1996
+pages: null
+members:
+- gackt
+- kami
+- kozi
+- mana
+- yuki
+photographer: null
+writer: null
+cover: false
+poster: false
+foldout: false
+facts: []
+notes: 'Full pamphlet scan on Internet Archive (2012 upload). Gallery: https://archive.org/details/2012-07-11-01-33-19-01'
+scan:
+  available: true
+  quality: high
+  url: https://archive.org/download/2012-07-11-01-33-19-01/Malice%20Mizer%20-%20Sans%20Retour%20Voyage%20Pamphlet/2012-07-10-23-41-31-01.jpg
+verification_status: verified

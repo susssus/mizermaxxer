@@ -1,33 +1,43 @@
 ---
-import Base from "../../layouts/Base.astro";
 import ArchiveImage from "../../components/ArchiveImage.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import Base from "../../layouts/Base.astro";
+import NotFound from "../../components/NotFound.astro";
 import archive from "../../data/archive.json";
 import { absoluteUrl } from "../../lib/seo";
 import { albumEntityHref, songEntityHref } from "../../lib/entities.ts";
 
 export function getStaticPaths() {
-  return archive.albums.map((album) => ({ params: { id: album.id } }));
+  return [
+    ...archive.albums.map((album) => ({ params: { id: album.id } })),
+    ...archive.singles.map((single) => ({ params: { id: single.id } })),
+  ];
 }
 
 const { id } = Astro.params;
 const album = archive.albums.find((entry) => entry.id === id);
+const single = archive.singles.find((entry) => entry.id === id);
 const songMap = new Map(archive.songs.map((song) => [song.id, song]));
 
-const albumDescription = album
+const releaseTitle = album?.title_en ?? single?.title_en ?? id;
+const releaseDescription = album
   ? `${album.title_en} (${album.title_ja}) — Malice Mizer ${album.type} released ${album.release_date ?? "date unknown"}. Track listing, cover art, and release details.`
+  : single
+    ? `${single.title_en} (${single.title_ja}) — Malice Mizer single released ${single.release_date ?? "date unknown"}. A-side, B-side, and release details.`
+    : undefined;
+const coverImage = (album?.cover_image ?? single?.cover_image)
+  ? (album?.cover_image ?? single?.cover_image)!.startsWith("/")
+    ? (album?.cover_image ?? single?.cover_image)!
+    : `/${album?.cover_image ?? single?.cover_image}`
   : undefined;
-const albumImage = album?.cover_image
-  ? album.cover_image.startsWith("/")
-    ? album.cover_image
-    : `/${album.cover_image}`
-  : undefined;
+const entityHref = album ? albumEntityHref(album.id) : null;
 ---
 
-{album && (
+{album ? (
   <Base
     title={album.title_en}
-    description={albumDescription}
-    image={albumImage}
+    description={releaseDescription}
+    image={coverImage}
     imageAlt={`${album.title_en} cover art`}
     type="article"
     jsonLd={{
@@ -37,14 +47,19 @@ const albumImage = album?.cover_image
       alternateName: album.title_ja,
       byArtist: { "@type": "MusicGroup", name: "Malice Mizer" },
       datePublished: album.release_date ?? undefined,
-      image: albumImage ? absoluteUrl(albumImage) : undefined,
+      image: coverImage ? absoluteUrl(coverImage) : undefined,
       numTracks: album.tracks?.length,
     }}
   >
-    <a class="back" href="/discography">← Back to discography</a>
-    {albumEntityHref(album.id) && (
+    <Breadcrumbs
+      items={[
+        { label: "Discography", href: "/discography" },
+        { label: album.title_en },
+      ]}
+    />
+    {entityHref && (
       <p class="muted entity-link">
-        <a href={albumEntityHref(album.id)!}>View in entity graph →</a>
+        <a href={entityHref}>View in entity graph →</a>
       </p>
     )}
 
@@ -57,7 +72,7 @@ const albumImage = album?.cover_image
             variant="inline"
           />
         )}
-        <h2>{album.title_en}</h2>
+        <h1>{album.title_en}</h1>
         <p class="muted">{album.title_ja}</p>
         <p><strong>Released:</strong> {album.release_date} ({album.date_precision})</p>
         <p><strong>Type:</strong> {album.type.replaceAll("_", " ")}</p>
@@ -68,7 +83,7 @@ const albumImage = album?.cover_image
       </div>
 
       <div class="card">
-        <h3>Track listing</h3>
+        <h2>Track listing</h2>
         {album.tracks.length ? (
           <ol>
             {album.tracks.map((track) => {
@@ -95,4 +110,105 @@ const albumImage = album?.cover_image
       </div>
     </section>
   </Base>
+) : single ? (
+  <Base
+    title={single.title_en}
+    description={releaseDescription}
+    image={coverImage}
+    imageAlt={`${single.title_en} cover art`}
+    type="article"
+    jsonLd={{
+      "@context": "https://schema.org",
+      "@type": "MusicRelease",
+      name: single.title_en,
+      alternateName: single.title_ja,
+      byArtist: { "@type": "MusicGroup", name: "Malice Mizer" },
+      datePublished: single.release_date ?? undefined,
+      image: coverImage ? absoluteUrl(coverImage) : undefined,
+    }}
+  >
+    <Breadcrumbs
+      items={[
+        { label: "Discography", href: "/discography" },
+        { label: single.title_en },
+      ]}
+    />
+    <p class="muted entity-link">
+      Related songs:{" "}
+      {single.a_side && songEntityHref(single.a_side) ? (
+        <a href={songEntityHref(single.a_side)!}>{songMap.get(single.a_side)?.title_en ?? single.a_side}</a>
+      ) : (
+        single.a_side ?? "—"
+      )}
+      {single.b_side ? (
+        <>
+          {" · "}
+          {songEntityHref(single.b_side) ? (
+            <a href={songEntityHref(single.b_side)!}>{songMap.get(single.b_side)?.title_en ?? single.b_side}</a>
+          ) : (
+            songMap.get(single.b_side)?.title_en ?? single.b_side
+          )}
+        </>
+      ) : null}
+      {" · "}
+      <a href="/browse?type=song">Browse songs →</a>
+    </p>
+
+    <section class="detail-grid">
+      <div class="card">
+        {single.cover_image && (
+          <ArchiveImage
+            src={single.cover_image}
+            alt={`${single.title_en} cover art`}
+            variant="inline"
+          />
+        )}
+        <h1>{single.title_en}</h1>
+        <p class="muted">{single.title_ja}</p>
+        <p><strong>Released:</strong> {single.release_date} ({single.date_precision})</p>
+        <p><strong>Label:</strong> {single.label ?? "Unknown"}</p>
+        <p><strong>Catalog:</strong> {single.catalog_number ?? "Unknown"}</p>
+        <p><strong>Format:</strong> {single.format ?? "—"}</p>
+        <p><strong>Status:</strong> <span class={`badge ${single.verification_status}`}>{single.verification_status.replaceAll("_", " ")}</span></p>
+        {single.notes && <p>{single.notes}</p>}
+      </div>
+
+      <div class="card">
+        <h2>Tracks</h2>
+        <dl class="meta-list">
+          <dt>A-side</dt>
+          <dd>
+            {single.a_side ? (
+              songEntityHref(single.a_side) ? (
+                <a href={songEntityHref(single.a_side)!}>{songMap.get(single.a_side)?.title_en ?? single.a_side}</a>
+              ) : (
+                songMap.get(single.a_side)?.title_en ?? single.a_side
+              )
+            ) : (
+              "—"
+            )}
+          </dd>
+          <dt>B-side</dt>
+          <dd>
+            {single.b_side ? (
+              songEntityHref(single.b_side) ? (
+                <a href={songEntityHref(single.b_side)!}>{songMap.get(single.b_side)?.title_en ?? single.b_side}</a>
+              ) : (
+                songMap.get(single.b_side)?.title_en ?? single.b_side
+              )
+            ) : (
+              "—"
+            )}
+          </dd>
+        </dl>
+      </div>
+    </section>
+  </Base>
+) : (
+  <NotFound
+    title="Release not found"
+    message="No album or single matches that ID."
+    backHref="/discography"
+    backLabel="← Back to discography"
+  />
 )}
