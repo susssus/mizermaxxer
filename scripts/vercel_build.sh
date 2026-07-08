@@ -15,3 +15,7 @@ python3 -m venv .venv --clear
 cd site
 npm install
 npm run build
+
+cd "$ROOT"
+rm -rf .vercel/output
+cp -R site/.vercel/output .vercel/output
