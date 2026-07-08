@@ -81,6 +81,9 @@ const jsonLdBlocks = jsonLd
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
     <Analytics />
+    <script>
+      import "../scripts/botid-client.ts";
+    </script>
     <style is:global>
       :root {
         color-scheme: light dark;
