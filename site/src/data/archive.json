@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:15:15.253213Z",
+  "generated_at": "2026-07-15T22:44:43.404194Z",
   "people": {
     "members": [
       {
@@ -870,22 +870,29 @@
   "pets": [
     {
       "id": "angie",
+      "type": "pet",
+      "legacy_v1_slug": "angie",
+      "name": {
+        "romanized": "Angie",
+        "original": "アンジー"
+      },
       "name_en": "Angie",
       "name_ja": "アンジー",
       "species": "dog",
       "breed": null,
       "sex": "unknown",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "2010–",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "One of two dogs adopted September 2010 after a friend spotted them in a pet shop — Gackt agreed sight-unseen. Pair with Dolce.\n",
-      "source_urls": [
-        "https://www.jprime.jp/articles/-/20137"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -893,16 +900,28 @@
           "source": "web_research",
           "notes": "Catalogued from Weekly Josei PRIME Gackt pet history."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.jprime.jp/articles/-/20137"
+      ],
+      "entity_id": "pet_angie",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "belle",
+      "type": "pet",
+      "legacy_v1_slug": "belle",
+      "name": {
+        "romanized": "Belle",
+        "original": "ベル"
+      },
       "name_en": "Belle",
       "name_ja": "ベル",
       "species": "dog",
       "breed": "miniature dachshund",
       "sex": "female",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "1998–2007",
       "status": "deceased",
@@ -911,11 +930,8 @@
       "gallery_images": [],
       "summary": "Miniature dachshund Belle Constantine Chappy (ベル), Gackt’s companion from 1998 while still in Malice Mizer through his solo career. Staff memorial text (via fan translations of gackt-and-dears.com) described nine years at his side, studio photo shoots, and answering to “Bell!” Died December 2007.\n",
       "notes": "Overlaps the late MM / solo transition (after Betty, 1997). No local portrait yet — historically appeared in magazine shoots. Staff memorial quoted on Camui fan blogs.\n",
-      "source_urls": [
-        "http://camuigakuto.blogspot.com/2007/12/in-memorium.html",
-        "https://www.jprime.jp/articles/-/20137"
-      ],
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -923,16 +939,29 @@
           "source": "web_research",
           "notes": "Catalogued from staff memorial rehosts and Weekly Josei PRIME pet history."
         }
-      ]
+      ],
+      "source_urls": [
+        "http://camuigakuto.blogspot.com/2007/12/in-memorium.html",
+        "https://www.jprime.jp/articles/-/20137"
+      ],
+      "entity_id": "pet_belle",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "betty",
+      "type": "pet",
+      "legacy_v1_slug": "betty",
+      "name": {
+        "romanized": "Betty",
+        "original": "ベティー"
+      },
       "name_en": "Betty",
       "name_ja": "ベティー",
       "species": "dog",
       "breed": null,
       "sex": "female",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "–1997",
       "status": "deceased",
@@ -952,10 +981,8 @@
       ],
       "summary": "Gackt’s beloved dog, described as irreplaceable family who always waited at home. On 20 July 1997 she suffered a sudden seizure before the Akasaka BLITZ live; emergency surgery failed after more than five hours. Gackt’s grief essay in ma chérie Vol. 4 apologizes to that night’s audience and promises to repay them through performance.\n",
       "notes": "No clear Betty portrait appears in the Vol. 4 essay pages (text feature). Entry uses the source essay scans until a dedicated photo is located.\n",
-      "translation_ids": [
-        "fan-club-vol-4-1998-spring"
-      ],
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -963,16 +990,28 @@
           "source": "fan_club_translations",
           "notes": "Catalogued from Gackt’s July 20 essay in FC Vol. 4."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-4-1998-spring"
+      ],
+      "entity_id": "pet_betty",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "dolce",
+      "type": "pet",
+      "legacy_v1_slug": "dolce",
+      "name": {
+        "romanized": "Dolce",
+        "original": "ドルチェ"
+      },
       "name_en": "Dolce",
       "name_ja": "ドルチェ",
       "species": "dog",
       "breed": null,
       "sex": "unknown",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "2010",
       "status": "deceased",
@@ -980,10 +1019,9 @@
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Adopted with Angie in September 2010; died suddenly about one month later (sudden death reported in Weekly Josei PRIME’s pet history).\n",
-      "source_urls": [
-        "https://www.jprime.jp/articles/-/20137"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -991,16 +1029,28 @@
           "source": "web_research",
           "notes": "Catalogued from Weekly Josei PRIME Gackt pet history."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.jprime.jp/articles/-/20137"
+      ],
+      "entity_id": "pet_dolce",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "eneru",
+      "type": "pet",
+      "legacy_v1_slug": "eneru",
+      "name": {
+        "romanized": "Eneru",
+        "original": "エネル"
+      },
       "name_en": "Eneru",
       "name_ja": "エネル",
       "species": "dog",
       "breed": "Chihuahua",
       "sex": "unknown",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "c. 2007–2018",
       "status": "deceased",
@@ -1008,11 +1058,9 @@
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Chihuahua nicknamed Ene-tan / Ener, acquired after Belle’s death when Gackt began multi-dog households. Death announced on SNS in 2018 (per Weekly Josei PRIME).\n",
-      "source_urls": [
-        "https://www.jprime.jp/articles/-/20137",
-        "https://camuilove.wordpress.com/fackts/"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1020,28 +1068,39 @@
           "source": "web_research",
           "notes": "Catalogued from press pet history and Camui Love FACKTS."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.jprime.jp/articles/-/20137",
+        "https://camuilove.wordpress.com/fackts/"
+      ],
+      "entity_id": "pet_eneru",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "fendi",
+      "type": "pet",
+      "legacy_v1_slug": "fendi",
+      "name": {
+        "romanized": "Fendi",
+        "original": "フェンディ"
+      },
       "name_en": "Fendi",
       "name_ja": "フェンディ",
       "species": "dog",
       "breed": null,
       "sex": "unknown",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "c. 2020–2021",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Dog kept briefly by Gackt and gifted in a February 2021 YouTube surprise to friends grieving a prior pet loss — the transfer drew public criticism. Included for completeness of Gackt’s documented dog history; later household also cited Daisy, Milky, and others without full primary timelines here.\n",
       "notes": "Post-MM / solo-era. Status after rehoming unknown to this archive.\n",
-      "source_urls": [
-        "https://www.jprime.jp/articles/-/20137",
-        "https://no-magazine.com/gackt-dog/"
-      ],
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1049,19 +1108,32 @@
           "source": "web_research",
           "notes": "Catalogued from weekly press coverage of the 2021 rehoming video."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.jprime.jp/articles/-/20137",
+        "https://no-magazine.com/gackt-dog/"
+      ],
+      "entity_id": "pet_fendi",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "france-great-dane",
+      "type": "pet",
+      "legacy_v1_slug": "france-great-dane",
+      "name": {
+        "romanized": "France Great Dane"
+      },
       "name_en": "France Great Dane",
       "name_ja": null,
       "species": "dog",
       "breed": "Great Dane",
       "sex": "unknown",
       "owner": "kami",
+      "owner_slug": "kami",
       "relationship": "set_companion",
       "years_noted": "1997",
       "status": "unknown",
+      "died": null,
       "portrait_image": "images/pets/great-dane-with-kami-1998.webp",
       "gallery_images": [
         {
@@ -1076,10 +1148,9 @@
         }
       ],
       "summary": "Large spotted dog befriended by Kami during Malice Mizer’s France shoot. Caption on the ma chérie Vol. 5 off-shots page: chased to tears on day one, then best friends. Set / location companion rather than a band-member household pet.\n",
-      "translation_ids": [
-        "fan-club-vol-5-1998-summer"
-      ],
+      "notes": "",
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1087,16 +1158,28 @@
           "source": "fan_club_translations",
           "notes": "Catalogued from FC Vol. 5 France off-shots Great Dane photo."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-5-1998-summer"
+      ],
+      "entity_id": "pet_france_great_dane",
+      "owner_entity_id": "person_kami"
     },
     {
       "id": "geek",
+      "type": "pet",
+      "legacy_v1_slug": "geek",
+      "name": {
+        "romanized": "Geek",
+        "original": "ヂーク"
+      },
       "name_en": "Geek",
       "name_ja": "ヂーク",
       "species": "cat",
       "breed": null,
       "sex": "male",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2015–",
       "status": "unknown",
@@ -1104,11 +1187,9 @@
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Male cat born May 2015, listed with Zeon on Japanese Wikipedia. Appears in Közi’s October 2017 tweet promoting a Death Disco gig (“ヂーク！ヂヲン！”).\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "https://x.com/kzi_official"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1116,27 +1197,39 @@
           "source": "web_research",
           "notes": "Catalogued from Wikipedia pet list citing May 2015 birth and Twitter mentions."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "https://x.com/kzi_official"
+      ],
+      "entity_id": "pet_geek",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "hamon",
+      "type": "pet",
+      "legacy_v1_slug": "hamon",
+      "name": {
+        "romanized": "Hamon",
+        "original": "ハモン"
+      },
       "name_en": "Hamon",
       "name_ja": "ハモン",
       "species": "cat",
       "breed": null,
       "sex": "female",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2022–",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Female cat from Hakata, estimated born April 2022, listed on Japanese Wikipedia’s summary of Közi’s pets (alongside Zeon and Geek). Name continues the Gundam theme (Hamon).\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "https://x.com/kzi_official"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1144,27 +1237,38 @@
           "source": "web_research",
           "notes": "Catalogued from Wikipedia pet list citing Közi Twitter profile/posts."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "https://x.com/kzi_official"
+      ],
+      "entity_id": "pet_hamon",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "kami-family-dog",
+      "type": "pet",
+      "legacy_v1_slug": "kami-family-dog",
+      "name": {
+        "romanized": "Kami’s family dog"
+      },
       "name_en": "Kami’s family dog",
       "name_ja": null,
       "species": "dog",
       "breed": null,
       "sex": "unknown",
       "owner": "kami",
+      "owner_slug": "kami",
       "relationship": "childhood_family",
       "years_noted": "childhood",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Unnamed family dog from circulating “77 Malice Mizer fun-facts” lists — Kami dreamed the dog was acting strangely, called home, and learned his grandmother was ill. Not the France set dogs Nike / Great Dane, and distinct from hamster Miyashita-kun.\n",
       "notes": "Anecdote only appears in secondary trivia roundups; name and breed unknown. Marked mention_only until a primary interview is located.\n",
-      "source_urls": [
-        "https://jrockrae.wordpress.com/2007/09/02/77-malice-mizer-fun-facts/"
-      ],
       "verification_status": "mention_only",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1172,28 +1276,38 @@
           "source": "web_research",
           "notes": "Stub from widely copied MM trivia lists; needs primary source."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://jrockrae.wordpress.com/2007/09/02/77-malice-mizer-fun-facts/"
+      ],
+      "entity_id": "pet_kami_family_dog",
+      "owner_entity_id": "person_kami"
     },
     {
       "id": "katsu",
+      "type": "pet",
+      "legacy_v1_slug": "katsu",
+      "name": {
+        "romanized": "Katsu",
+        "original": "カツ"
+      },
       "name_en": "Katsu",
       "name_ja": "カツ",
       "species": "hamster",
       "breed": null,
       "sex": "male",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2010–",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Male hamster in Közi’s household, listed alongside Kikka on Japanese Wikipedia’s pet summary (with two offspring). Named in September 2010 diary commentary translated by Ippai Yakka together with Chibi and Kochibi.\n",
       "notes": "Secondary sources only; no dedicated portrait located yet.\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
-      ],
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1201,19 +1315,33 @@
           "source": "web_research",
           "notes": "Catalogued from Wikipedia pet list and Ippai Yakka diary summary."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+      ],
+      "entity_id": "pet_katsu",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "kikka",
+      "type": "pet",
+      "legacy_v1_slug": "kikka",
+      "name": {
+        "romanized": "Kikka",
+        "original": "キッカ"
+      },
       "name_en": "Kikka",
       "name_ja": "キッカ",
       "species": "hamster",
       "breed": null,
       "sex": "female",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2009–",
       "status": "unknown",
+      "died": null,
       "portrait_image": "images/pets/kikka-2009.webp",
       "gallery_images": [
         {
@@ -1224,11 +1352,8 @@
       ],
       "summary": "Hamster brought home on 18 August 2009 as a new companion for Lala after Zaku’s death. Közi described their relationship as like Tom & Jerry. Later joined by male hamster Katsu and, per diary translations, two pups (Chibi and Kochibi).\n",
       "notes": "Catalogued from Japanese Wikipedia pet list (citing Közi’s Twitter/diary) and Ippai Yakka Portuguese translations of Közi’s August 2009 diary. Primary diary page not yet mirrored.\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
-      ],
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1236,16 +1361,29 @@
           "source": "web_research",
           "notes": "Added from Wikipedia + Ippai Yakka diary digest; cage photo from fan rehost."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+      ],
+      "entity_id": "pet_kikka",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "lala",
+      "type": "pet",
+      "legacy_v1_slug": "lala",
+      "name": {
+        "romanized": "Lala",
+        "original": "ララァ"
+      },
       "name_en": "Lala",
       "name_ja": "ララァ",
       "species": "cat",
       "breed": "grey tabby",
       "sex": "female",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "1997–2015",
       "status": "deceased",
@@ -1290,15 +1428,8 @@
       ],
       "summary": "Közi’s female kitten, added at two months old from a pet shop (“take it, thief”). Zaku hissed for the first few days, then they became friends. Both cats star in the autumn 1998 Nekopakushitsu photo comics. After Zaku’s 2009 death she was joined by hamster Kikka (Tom & Jerry household). Lived with Közi about 19 years 7 months; died 15 December 2015 (his Twitter memorial). Japanese sources often write ララァ (Lalah).\n",
       "notes": "Primary introduction: FC Vol. 2–3. Death confirmed via Japanese Wikipedia citing Közi’s 2015-12-15 Twitter post.\n",
-      "translation_ids": [
-        "fan-club-vol-2-3-1997-winter",
-        "fan-club-vol-6-7-1998-autumn"
-      ],
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
-      ],
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1312,28 +1443,43 @@
           "source": "web_research",
           "notes": "Added 2015 death date, ララァ spelling, adult photo, and later-household links."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-2-3-1997-winter",
+        "fan-club-vol-6-7-1998-autumn"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+      ],
+      "entity_id": "pet_lala",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "mei",
+      "type": "pet",
+      "legacy_v1_slug": "mei",
+      "name": {
+        "romanized": "Mei",
+        "original": "メイ"
+      },
       "name_en": "Mei",
       "name_ja": "メイ",
       "species": "cat",
       "breed": "Maine Coon",
       "sex": "unknown",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "owned_by",
       "years_noted": "c. late 1990s–2000s",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Maine Coon cat associated with Gackt in fan fact lists from the same period as Belle. Later interviews note he owned no cats at the time of speaking, so Mei’s later status (ran away / deceased / rehomed) is unclear.\n",
       "notes": "Weaker sourcing than Belle/Betty; retained as possible pending primary magazine confirmation. Weekly Josei PRIME notes information dried up.\n",
-      "source_urls": [
-        "https://camuilove.wordpress.com/fackts/",
-        "https://www.jprime.jp/articles/-/20137"
-      ],
       "verification_status": "mention_only",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1341,16 +1487,29 @@
           "source": "web_research",
           "notes": "Catalogued from Camui Love FACKTS and weekly press pet roundup."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://camuilove.wordpress.com/fackts/",
+        "https://www.jprime.jp/articles/-/20137"
+      ],
+      "entity_id": "pet_mei",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "miyashita",
+      "type": "pet",
+      "legacy_v1_slug": "miyashita",
+      "name": {
+        "romanized": "Miyashita-kun",
+        "original": "宮下君"
+      },
       "name_en": "Miyashita-kun",
       "name_ja": "宮下君",
       "species": "hamster",
       "breed": null,
       "sex": "male",
       "owner": "kami",
+      "owner_slug": "kami",
       "relationship": "owned_by",
       "years_noted": "1997",
       "status": "deceased",
@@ -1365,10 +1524,8 @@
       ],
       "summary": "Kami’s pet hamster. In the winter 1997 “Kami’s Soliloquy,” Kami writes of wailing when Miyashita-kun died after he forgot to feed him while busy — grief at life’s fragility — and announced a fan naming contest for a second-generation hamster via the ma chérie “Hamster Naming Desk.”\n",
       "notes": "Text-forward column; no dedicated hamster photo identified in local FC scans.\n",
-      "translation_ids": [
-        "fan-club-vol-2-3-1997-winter"
-      ],
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1376,19 +1533,32 @@
           "source": "fan_club_translations",
           "notes": "Catalogued from Kami’s Soliloquy in FC Vol. 2–3."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-2-3-1997-winter"
+      ],
+      "entity_id": "pet_miyashita",
+      "owner_entity_id": "person_kami"
     },
     {
       "id": "mu",
+      "type": "pet",
+      "legacy_v1_slug": "mu",
+      "name": {
+        "romanized": "Mu",
+        "original": "ムー"
+      },
       "name_en": "Mu",
       "name_ja": "ムー",
       "species": "ferret",
       "breed": null,
       "sex": "unknown",
       "owner": "yuki",
+      "owner_slug": "yuki",
       "relationship": "owned_by",
       "years_noted": "1997",
       "status": "unknown",
+      "died": null,
       "portrait_image": "images/pets/mu-ferret-1997.webp",
       "gallery_images": [
         {
@@ -1403,10 +1573,9 @@
         }
       ],
       "summary": "Yu~ki’s mischievous ferret, shown in the first ma chérie “Count Is Catalepsy” antiques column. Won’t listen, loves pranks, chaotic when loose in the room — only quiet during baths. Spoiled to the point of refusing food unless placed in Yu~ki’s hand.\n",
-      "translation_ids": [
-        "fan-club-vol-1-1997-autumn"
-      ],
+      "notes": "",
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1414,19 +1583,32 @@
           "source": "fan_club_translations",
           "notes": "Catalogued from FC Vol. 1 Count Is Catalepsy with portrait crop."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-1-1997-autumn"
+      ],
+      "entity_id": "pet_mu",
+      "owner_entity_id": "person_yuki"
     },
     {
       "id": "nike",
+      "type": "pet",
+      "legacy_v1_slug": "nike",
+      "name": {
+        "romanized": "Nike",
+        "original": "ナイキ"
+      },
       "name_en": "Nike",
       "name_ja": "ナイキ",
       "species": "dog",
       "breed": null,
       "sex": "unknown",
       "owner": "kami",
+      "owner_slug": "kami",
       "relationship": "set_companion",
       "years_noted": "1997",
       "status": "unknown",
+      "died": null,
       "portrait_image": "images/pets/nike-with-kami-1998.webp",
       "gallery_images": [
         {
@@ -1441,11 +1623,9 @@
         }
       ],
       "summary": "Dog on the France film / location set (au revoir era). Kami jokes about being rejected by the heroine, the prostitutes, and finally Nike. In the Vicious October 1997 interview, the set dog Nike is recalled coming over whenever the clapperboard snapped — even to Mana’s costumes. Not a personal household pet; catalogued as a memorable companion from the shoot.\n",
-      "translation_ids": [
-        "fan-club-vol-5-1998-summer",
-        "vicious-1997-10-interview"
-      ],
+      "notes": "",
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1453,16 +1633,29 @@
           "source": "fan_club_translations",
           "notes": "Catalogued from France off-shots and Vicious 1997-10 Nike anecdote."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-5-1998-summer",
+        "vicious-1997-10-interview"
+      ],
+      "entity_id": "pet_nike",
+      "owner_entity_id": "person_kami"
     },
     {
       "id": "peko-chan",
+      "type": "pet",
+      "legacy_v1_slug": "peko-chan",
+      "name": {
+        "romanized": "Peko-chan",
+        "original": "ペコちゃん"
+      },
       "name_en": "Peko-chan",
       "name_ja": "ペコちゃん",
       "species": "dog",
       "breed": "Shiba Inu",
       "sex": "female",
       "owner": "gackt",
+      "owner_slug": "gackt",
       "relationship": "childhood_family",
       "years_noted": "childhood–1990s",
       "status": "deceased",
@@ -1471,10 +1664,8 @@
       "gallery_images": [],
       "summary": "Gackt’s childhood family Shiba Inu, loved since elementary school. She died while he was living in Tokyo; he dreamed of her wagging her tail, then going still, woke in tears, and called home to learn she had died — “she must have come to say goodbye.” Told in the SHOXX May 1998 Country House Windsor interview.\n",
       "notes": "Interview text only in-archive; no photograph located in local scans yet.\n",
-      "translation_ids": [
-        "shoxx-1998-05-interview"
-      ],
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1482,27 +1673,38 @@
           "source": "shoxx_1998_05_interview",
           "notes": "Catalogued from SHOXX May 1998 tears / farewell-dream anecdote."
         }
-      ]
+      ],
+      "translation_ids": [
+        "shoxx-1998-05-interview"
+      ],
+      "entity_id": "pet_peko_chan",
+      "owner_entity_id": "person_gackt"
     },
     {
       "id": "pyonyoshi",
+      "type": "pet",
+      "legacy_v1_slug": "pyonyoshi",
+      "name": {
+        "romanized": "Pyon-kichi",
+        "original": "ピョン吉"
+      },
       "name_en": "Pyon-kichi",
       "name_ja": "ピョン吉",
       "species": "frog",
       "breed": "Japanese tree frog (ニホンアマガエル)",
       "sex": "unknown",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2010–",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Japanese tree frog (ニホンアマガエル) in Közi’s menagerie. Diary translations render the name as PyonYoshitTsuan / ピョン吉っつぁん; Japanese Wikipedia lists ピョン吉.\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1510,16 +1712,29 @@
           "source": "web_research",
           "notes": "Catalogued from Wikipedia pet list and September 2010 diary digest."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+      ],
+      "entity_id": "pet_pyonyoshi",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "zaku",
+      "type": "pet",
+      "legacy_v1_slug": "zaku",
+      "name": {
+        "romanized": "Zaku",
+        "original": "ザク"
+      },
       "name_en": "Zaku",
       "name_ja": "ザク",
       "species": "cat",
       "breed": "mixed-breed tabby",
       "sex": "male",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "1997–2009",
       "status": "deceased",
@@ -1589,16 +1804,8 @@
       ],
       "summary": "Közi’s mixed-breed male tabby, introduced in the first ma chérie fan-club magazine as his “private-room partner.” Named after a Gundam Zaku mobile suit. Profile at six months listed hobbies as sleep, scratching walls, and sunbathing; he waited at the genkan and followed Közi even into the bath. Later joined by Lala; both appear in the Nekopakushitsu photo comics. Died 8 July 2009 at about fourteen. Közi’s July 2009 diary (summarized by fan translators) and later Twitter memorials confirm the date; Japanese Wikipedia cites a 2019 anniversary tweet with 1995 photos of Zaku.\n",
       "notes": "Primary sources: FC Vol. 1–3 and Vol. 6–7. Death cross-checked via Wikipedia (Twitter citations) and Ippai Yakka diary digests.\n",
-      "translation_ids": [
-        "fan-club-vol-1-1997-autumn",
-        "fan-club-vol-2-3-1997-winter",
-        "fan-club-vol-6-7-1998-autumn"
-      ],
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
-      ],
       "verification_status": "verified",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1612,29 +1819,44 @@
           "source": "web_research",
           "notes": "Strengthened death citation via Wikipedia/Twitter; linked later household pets."
         }
-      ]
+      ],
+      "translation_ids": [
+        "fan-club-vol-1-1997-autumn",
+        "fan-club-vol-2-3-1997-winter",
+        "fan-club-vol-6-7-1998-autumn"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+      ],
+      "entity_id": "pet_zaku",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "zeon",
+      "type": "pet",
+      "legacy_v1_slug": "zeon",
+      "name": {
+        "romanized": "Zeon",
+        "original": "ヂヲン"
+      },
       "name_en": "Zeon",
       "name_ja": "ヂヲン",
       "species": "cat",
       "breed": null,
       "sex": "male",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2013–",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Male kitten announced by Közi on Twitter/diary around 6 September 2013 (“Zeon ♂ 3 months”). Continues the Gundam naming chain after Zaku and Lala (Zeon). Still listed on Japanese Wikipedia’s live pet roster with Geek (ヂーク).\n",
       "notes": "Early fan posts briefly misread the name as “Devon” before Közi wrote Zeon in romaji.\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/09/a-proposito-familia-cresceu_8.html",
-        "https://x.com/kzi_official"
-      ],
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1642,27 +1864,40 @@
           "source": "web_research",
           "notes": "Catalogued from Wikipedia (citing Twitter) and Ippai Yakka Twitter digest."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/09/a-proposito-familia-cresceu_8.html",
+        "https://x.com/kzi_official"
+      ],
+      "entity_id": "pet_zeon",
+      "owner_entity_id": "person_kozi"
     },
     {
       "id": "zokku",
+      "type": "pet",
+      "legacy_v1_slug": "zokku",
+      "name": {
+        "romanized": "Zokku",
+        "original": "ゾック"
+      },
       "name_en": "Zokku",
       "name_ja": "ゾック",
       "species": "turtle",
       "breed": null,
       "sex": "unknown",
       "owner": "kozi",
+      "owner_slug": "kozi",
       "relationship": "owned_by",
       "years_noted": "2010–",
       "status": "unknown",
+      "died": null,
       "portrait_image": null,
       "gallery_images": [],
       "summary": "Turtle kept by Közi, mentioned in his 19 September 2010 diary alongside frog Pyon-kichi and the hamsters. Name continues Közi’s Gundam-flavored pet naming (Zock).\n",
-      "source_urls": [
-        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
-        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
-      ],
+      "notes": "",
       "verification_status": "possible",
+      "facts": [],
       "changelog": [
         {
           "date": "2026-07-16",
@@ -1670,7 +1905,13 @@
           "source": "web_research",
           "notes": "Catalogued from Wikipedia and Ippai Yakka diary digest."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/K%C3%B6zi",
+        "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+      ],
+      "entity_id": "pet_zokku",
+      "owner_entity_id": "person_kozi"
     }
   ],
   "publications": [

@@ -1,28 +1,38 @@
-id: mei
+id: pet_mei
+type: pet
+legacy_v1_slug: mei
+name:
+  romanized: Mei
+  original: メイ
 name_en: Mei
 name_ja: メイ
 species: cat
 breed: Maine Coon
 sex: unknown
-owner: gackt
+owner: person_gackt
+owner_slug: gackt
 relationship: owned_by
-years_noted: "c. late 1990s–2000s"
+years_noted: c. late 1990s–2000s
 status: unknown
+died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Maine Coon cat associated with Gackt in fan fact lists from the same period as Belle.
-  Later interviews note he owned no cats at the time of speaking, so Mei’s later status
-  (ran away / deceased / rehomed) is unclear.
-notes: >
-  Weaker sourcing than Belle/Betty; retained as possible pending primary magazine
-  confirmation. Weekly Josei PRIME notes information dried up.
-source_urls:
-  - https://camuilove.wordpress.com/fackts/
-  - https://www.jprime.jp/articles/-/20137
+summary: 'Maine Coon cat associated with Gackt in fan fact lists from the same period as Belle. Later
+  interviews note he owned no cats at the time of speaking, so Mei’s later status (ran away / deceased
+  / rehomed) is unclear.
+
+  '
+notes: 'Weaker sourcing than Belle/Betty; retained as possible pending primary magazine confirmation.
+  Weekly Josei PRIME notes information dried up.
+
+  '
 verification_status: mention_only
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from Camui Love FACKTS and weekly press pet roundup.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from Camui Love FACKTS and weekly press pet roundup.
+source_urls:
+- https://camuilove.wordpress.com/fackts/
+- https://www.jprime.jp/articles/-/20137

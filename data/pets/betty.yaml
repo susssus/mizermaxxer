@@ -1,35 +1,44 @@
-id: betty
+id: pet_betty
+type: pet
+legacy_v1_slug: betty
+name:
+  romanized: Betty
+  original: ベティー
 name_en: Betty
 name_ja: ベティー
 species: dog
 breed: null
 sex: female
-owner: gackt
+owner: person_gackt
+owner_slug: gackt
 relationship: owned_by
-years_noted: "–1997"
+years_noted: –1997
 status: deceased
-died: "1997-07-20"
+died: '1997-07-20'
 portrait_image: images/scans/fan-club/1998-03/08.jpg
 gallery_images:
-  - src: images/scans/fan-club/1998-03/08.jpg
-    caption: Looking Back on July 20th — essay page 1
-    source: ma chérie Fan Club Magazine Vol. 4 (Spring 1998)
-  - src: images/scans/fan-club/1998-03/09.jpg
-    caption: Looking Back on July 20th — essay page 2
-    source: ma chérie Fan Club Magazine Vol. 4 (Spring 1998)
-summary: >
-  Gackt’s beloved dog, described as irreplaceable family who always waited at home.
-  On 20 July 1997 she suffered a sudden seizure before the Akasaka BLITZ live; emergency
-  surgery failed after more than five hours. Gackt’s grief essay in ma chérie Vol. 4
-  apologizes to that night’s audience and promises to repay them through performance.
-notes: >
-  No clear Betty portrait appears in the Vol. 4 essay pages (text feature). Entry uses
-  the source essay scans until a dedicated photo is located.
-translation_ids:
-  - fan-club-vol-4-1998-spring
+- src: images/scans/fan-club/1998-03/08.jpg
+  caption: Looking Back on July 20th — essay page 1
+  source: ma chérie Fan Club Magazine Vol. 4 (Spring 1998)
+- src: images/scans/fan-club/1998-03/09.jpg
+  caption: Looking Back on July 20th — essay page 2
+  source: ma chérie Fan Club Magazine Vol. 4 (Spring 1998)
+summary: 'Gackt’s beloved dog, described as irreplaceable family who always waited at home. On 20 July
+  1997 she suffered a sudden seizure before the Akasaka BLITZ live; emergency surgery failed after more
+  than five hours. Gackt’s grief essay in ma chérie Vol. 4 apologizes to that night’s audience and promises
+  to repay them through performance.
+
+  '
+notes: 'No clear Betty portrait appears in the Vol. 4 essay pages (text feature). Entry uses the source
+  essay scans until a dedicated photo is located.
+
+  '
 verification_status: verified
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: fan_club_translations
-    notes: Catalogued from Gackt’s July 20 essay in FC Vol. 4.
+- date: '2026-07-16'
+  action: created
+  source: fan_club_translations
+  notes: Catalogued from Gackt’s July 20 essay in FC Vol. 4.
+translation_ids:
+- fan-club-vol-4-1998-spring

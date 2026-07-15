@@ -1,25 +1,34 @@
-id: eneru
+id: pet_eneru
+type: pet
+legacy_v1_slug: eneru
+name:
+  romanized: Eneru
+  original: エネル
 name_en: Eneru
 name_ja: エネル
 species: dog
 breed: Chihuahua
 sex: unknown
-owner: gackt
+owner: person_gackt
+owner_slug: gackt
 relationship: owned_by
-years_noted: "c. 2007–2018"
+years_noted: c. 2007–2018
 status: deceased
-died: "2018"
+died: '2018'
 portrait_image: null
 gallery_images: []
-summary: >
-  Chihuahua nicknamed Ene-tan / Ener, acquired after Belle’s death when Gackt began
-  multi-dog households. Death announced on SNS in 2018 (per Weekly Josei PRIME).
-source_urls:
-  - https://www.jprime.jp/articles/-/20137
-  - https://camuilove.wordpress.com/fackts/
+summary: 'Chihuahua nicknamed Ene-tan / Ener, acquired after Belle’s death when Gackt began multi-dog
+  households. Death announced on SNS in 2018 (per Weekly Josei PRIME).
+
+  '
+notes: ''
 verification_status: possible
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from press pet history and Camui Love FACKTS.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from press pet history and Camui Love FACKTS.
+source_urls:
+- https://www.jprime.jp/articles/-/20137
+- https://camuilove.wordpress.com/fackts/

@@ -1,28 +1,37 @@
-id: fendi
+id: pet_fendi
+type: pet
+legacy_v1_slug: fendi
+name:
+  romanized: Fendi
+  original: フェンディ
 name_en: Fendi
 name_ja: フェンディ
 species: dog
 breed: null
 sex: unknown
-owner: gackt
+owner: person_gackt
+owner_slug: gackt
 relationship: owned_by
-years_noted: "c. 2020–2021"
+years_noted: c. 2020–2021
 status: unknown
+died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Dog kept briefly by Gackt and gifted in a February 2021 YouTube surprise to friends
-  grieving a prior pet loss — the transfer drew public criticism. Included for completeness
-  of Gackt’s documented dog history; later household also cited Daisy, Milky, and others
-  without full primary timelines here.
-notes: >
-  Post-MM / solo-era. Status after rehoming unknown to this archive.
-source_urls:
-  - https://www.jprime.jp/articles/-/20137
-  - https://no-magazine.com/gackt-dog/
+summary: 'Dog kept briefly by Gackt and gifted in a February 2021 YouTube surprise to friends grieving
+  a prior pet loss — the transfer drew public criticism. Included for completeness of Gackt’s documented
+  dog history; later household also cited Daisy, Milky, and others without full primary timelines here.
+
+  '
+notes: 'Post-MM / solo-era. Status after rehoming unknown to this archive.
+
+  '
 verification_status: possible
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from weekly press coverage of the 2021 rehoming video.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from weekly press coverage of the 2021 rehoming video.
+source_urls:
+- https://www.jprime.jp/articles/-/20137
+- https://no-magazine.com/gackt-dog/

@@ -87,13 +87,31 @@ def relation_table_rows(relation_types: dict[str, dict[str, Any]]) -> list[str]:
 
 def entity_type_table_rows(ontology: dict[str, Any]) -> list[str]:
     rows: list[str] = []
-    rows.append("| Type | Label | Prefix | Category |")
-    rows.append("|------|-------|--------|----------|")
+    rows.append("| Type | Label | Prefix | Category | Subtype of |")
+    rows.append("|------|-------|--------|----------|------------|")
     for entity_type, meta in sorted(ontology.get("entity_types", {}).items()):
+        parent = meta.get("subtype_of")
+        parent_cell = f"`{parent}`" if parent else "—"
         rows.append(
-            f"| `{entity_type}` | {meta.get('label', entity_type)} | `{meta.get('prefix', '')}` | {meta.get('category', '')} |"
+            f"| `{entity_type}` | {meta.get('label', entity_type)} | `{meta.get('prefix', '')}` | "
+            f"{meta.get('category', '')} | {parent_cell} |"
         )
     return rows
+
+
+def build_subtype_mermaid(ontology: dict[str, Any]) -> str:
+    lines = ["classDiagram"]
+    for entity_type, meta in sorted(ontology.get("entity_types", {}).items()):
+        parent = meta.get("subtype_of")
+        if not parent:
+            continue
+        lines.append(f"    {parent} <|-- {entity_type}")
+        lines.append(f"    class {entity_type} {{")
+        lines.append(f"      +{meta.get('prefix', '')}")
+        lines.append("    }")
+    if len(lines) == 1:
+        return ""
+    return "\n".join(lines)
 
 
 def build_markdown(
@@ -120,6 +138,23 @@ def build_markdown(
         "",
         f"**{len(ontology.get('entity_types', {}))}** entity types defined.",
         "",
+    ]
+
+    subtype_mermaid = build_subtype_mermaid(ontology)
+    if subtype_mermaid:
+        sections.extend(
+            [
+                "### Subtypes",
+                "",
+                "```mermaid",
+                subtype_mermaid,
+                "```",
+                "",
+            ]
+        )
+
+    sections.extend(
+        [
         "## Relations",
         "",
         *relation_table_rows(relation_types),
@@ -147,7 +182,8 @@ def build_markdown(
         "",
         "Personnel credits use the `role` sub-label (see `personnel_role` in [`schema/vocabularies.json`](../schema/vocabularies.json)).",
         "",
-    ]
+        ]
+    )
     return "\n".join(sections)
 
 

@@ -75,7 +75,6 @@ def validate_directory(name: str, schema_name: str, extra=None) -> list[str]:
         "single.schema.json",
         "concert.schema.json",
         "video.schema.json",
-        "pet.schema.json",
     }:
         schemas.append("changelog.schema.json")
     if schema_name == "concert.schema.json":
@@ -251,6 +250,8 @@ def validate_videos() -> list[str]:
 
 
 def validate_pets() -> list[str]:
+    """Pets are v2 entities; schema checked by validate_entities. Soft checks only here."""
+    errors: list[str] = []
     translation_ids: set[str] = set()
     translations_dir = DATA_DIR / "translations"
     if translations_dir.exists():
@@ -259,21 +260,22 @@ def validate_pets() -> list[str]:
             if doc.get("id"):
                 translation_ids.add(doc["id"])
 
-    def extra(pet, rel):
-        found = []
+    for pet in load_pets():
+        rel = f"pets/{pet.get('legacy_v1_slug') or pet['id']}.yaml"
         for translation_id in pet.get("translation_ids") or []:
             if translation_id not in translation_ids:
-                found.append(f"{rel}: unknown translation id '{translation_id}'")
+                errors.append(f"{rel}: unknown translation id '{translation_id}'")
         for index, image in enumerate(pet.get("gallery_images") or []):
             src = image.get("src")
             if src and src.startswith("images/") and not (DATA_DIR.parent / src).exists():
-                found.append(f"{rel}: gallery_images[{index}].src file not found '{src}'")
+                errors.append(f"{rel}: gallery_images[{index}].src file not found '{src}'")
         portrait = pet.get("portrait_image")
         if portrait and portrait.startswith("images/") and not (DATA_DIR.parent / portrait).exists():
-            found.append(f"{rel}: portrait_image file not found '{portrait}'")
-        return found
-
-    return validate_directory("pets", "pet.schema.json", extra)
+            errors.append(f"{rel}: portrait_image file not found '{portrait}'")
+        owner = pet.get("owner_entity_id") or pet.get("owner")
+        if owner and not str(owner).startswith("person_"):
+            errors.append(f"{rel}: owner should resolve to person_* id")
+    return errors
 
 
 def validate_vocabularies() -> list[str]:

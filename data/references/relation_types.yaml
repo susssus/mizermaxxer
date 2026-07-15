@@ -250,6 +250,39 @@ derived:
       - from: ref_pop_beat_1997_08
         to: article_pop_beat_1997_08_001
 
+  - id: owned_by
+    label: Owned by
+    label_ja: 飼い主
+    category: person
+    color: teal
+    direction: outgoing
+    status: active
+    domain: [pet]
+    range: [person]
+    source_field: pet.owner
+    inverse: has_pet
+    description: >
+      Pet is associated with a person (household owner, childhood family, or set companion host).
+      Pets are an ontological subtype of person.
+    examples:
+      - from: pet_zaku
+        to: person_kozi
+        note: Közi's cat Zaku
+
+  - id: has_pet
+    label: Has pet
+    label_ja: ペット
+    category: person
+    color: teal
+    direction: incoming
+    status: active
+    domain: [person]
+    range: [pet]
+    description: Person is associated with a pet (inverse of owned_by).
+    examples:
+      - from: person_kozi
+        to: pet_zaku
+
 explicit:
   - id: discusses
     label: Discusses

@@ -1,27 +1,38 @@
 # Entity ontology
 
-_Generated at 2026-07-15T21:54:40.910372Z by `make ontology`. Edit [`data/ontology.yaml`](../data/ontology.yaml) and [`data/references/relation_types.yaml`](../data/references/relation_types.yaml), then regenerate._
+_Generated at 2026-07-15T22:44:36.618556Z by `make ontology`. Edit [`data/ontology.yaml`](../data/ontology.yaml) and [`data/references/relation_types.yaml`](../data/references/relation_types.yaml), then regenerate._
 
 The archive models Malice Mizer research data as a typed entity graph. This document shows the **type-level** relationships (ontology), not individual entity instances.
 
 ## Entity types
 
-| Type | Label | Prefix | Category |
-|------|-------|--------|----------|
-| `album` | Album | `album_` | release |
-| `appearance` | Appearance | `appearance_` | appearance |
-| `article` | Article | `article_` | press |
-| `concert` | Concert | `concert_` | concert |
-| `image` | Image | `image_` | media |
-| `organization` | Organization | `org_` | meta |
-| `person` | Person | `person_` | person |
-| `reference` | Reference | `ref_` | press |
-| `single` | Single | `single_` | release |
-| `song` | Song | `song_` | song |
-| `venue` | Venue | `venue_` | meta |
-| `video` | Video | `video_` | media |
+| Type | Label | Prefix | Category | Subtype of |
+|------|-------|--------|----------|------------|
+| `album` | Album | `album_` | release | — |
+| `appearance` | Appearance | `appearance_` | appearance | — |
+| `article` | Article | `article_` | press | — |
+| `concert` | Concert | `concert_` | concert | — |
+| `image` | Image | `image_` | media | — |
+| `organization` | Organization | `org_` | meta | — |
+| `person` | Person | `person_` | person | — |
+| `pet` | Pet | `pet_` | person | `person` |
+| `reference` | Reference | `ref_` | press | — |
+| `single` | Single | `single_` | release | — |
+| `song` | Song | `song_` | song | — |
+| `venue` | Venue | `venue_` | meta | — |
+| `video` | Video | `video_` | media | — |
 
-**12** entity types defined.
+**13** entity types defined.
+
+### Subtypes
+
+```mermaid
+classDiagram
+    person <|-- pet
+    class pet {
+      +pet_
+    }
+```
 
 ## Relations
 
@@ -39,11 +50,13 @@ The archive models Malice Mizer research data as a typed entity graph. This docu
 | `features_appearance` | Features appearance performance | appearance → song | derived | active |
 | `features_concert` | Features concert performance | concert → song, person | derived | active |
 | `has_member` | Has member | organization → person | explicit | active |
+| `has_pet` | Has pet | person → pet | derived | active |
 | `held_at` | Held at | concert, appearance → venue | derived | active |
 | `hosted` | Hosted | venue → concert, appearance | derived | active |
 | `includes_article` | Includes article | reference → article | derived | active |
 | `includes_song` | Includes song | album, single → song | derived | active |
 | `member_of` | Member of | person → organization | explicit | active |
+| `owned_by` | Owned by | pet → person | derived | active |
 | `performed_at_appearance` | Performed on appearance | song → appearance | derived | active |
 | `performed_at_concert` | Performed at concert | song, person → concert | derived | active |
 | `personnel` | Personnel credit | song → person | derived | active |
@@ -52,7 +65,7 @@ The archive models Malice Mizer research data as a typed entity graph. This docu
 | `references` | References | song, concert, appearance, reference → song, album, single, appearance, venue, concert | explicit | active |
 | `related_song` | Related song | song → song | explicit | active |
 
-**22** active relations, **2** planned (defined but not yet used in data).
+**24** active relations, **2** planned (defined but not yet used in data).
 
 ### Type-level diagram
 
@@ -91,6 +104,7 @@ erDiagram
     concert ||--o{ song : "Features concert performance [derived]"
     concert ||--o{ person : "Features concert performance [derived]"
     organization ||--o{ person : "Has member"
+    person ||--o{ pet : "Has pet [derived]"
     concert ||--o{ venue : "Held at [derived]"
     appearance ||--o{ venue : "Held at [derived]"
     venue ||--o{ concert : "Hosted [derived]"
@@ -99,6 +113,7 @@ erDiagram
     album ||--o{ song : "Includes song [derived]"
     single ||--o{ song : "Includes song [derived]"
     person ||--o{ organization : "Member of"
+    pet ||--o{ person : "Owned by [derived]"
     song ||--o{ appearance : "Performed on appearance [derived]"
     song ||--o{ concert : "Performed at concert [derived]"
     person ||--o{ concert : "Performed at concert [derived]"

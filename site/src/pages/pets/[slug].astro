@@ -23,6 +23,7 @@ type Pet = {
   gallery_images?: PetImage[];
   summary: string;
   notes?: string | null;
+  entity_id?: string;
   translation_ids?: string[];
   source_urls?: string[];
   verification_status: string;
@@ -93,6 +94,12 @@ const description = pet
         { label: title },
       ]}
     />
+
+    <p class="muted entity-link">
+      {pet.entity_id && <a href={`/entity/${pet.entity_id}`}>Entity graph →</a>}
+      {" · "}
+      subtype of person
+    </p>
 
     <header class="pet-profile__header">
       <div class="pet-profile__intro">
