@@ -14,7 +14,7 @@
     "@fontsource/cormorant-garamond": "^5.2.11",
     "@vercel/analytics": "^2.0.1",
     "3d-force-graph": "^1.80.0",
-    "astro": "^7.0.6",
+    "astro": "^7.0.9",
     "botid": "^1.5.11",
     "three": "^0.185.1"
   },
