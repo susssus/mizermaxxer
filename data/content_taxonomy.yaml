@@ -178,6 +178,7 @@ article_type_defaults:
   instrument_interview: editorial
   cover: editorial
   magazine_clipping: editorial
+  profile: editorial
   mention: null
   advertisement: promotional
   flyer: promotional

@@ -35,7 +35,8 @@
         "flyer",
         "magazine_clipping",
         "newsletter",
-        "pamphlet"
+        "pamphlet",
+        "profile"
       ]
     },
     "member_slug": {
