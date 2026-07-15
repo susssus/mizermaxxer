@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T01:41:20.700899Z",
-  "count": 95,
+  "generated_at": "2026-07-15T16:11:14.720751Z",
+  "count": 96,
   "items": [
     {
       "title": "Gackt",
@@ -24,30 +24,10 @@
     },
     {
       "title": "Gaz",
-      "src": "images/vintage/live-band-1993.webp",
-      "caption": "Early live performance (1993)",
+      "src": "images/vintage/mana-smiling-gaz.webp",
+      "caption": "Rare photograph with Mana",
       "source": "Malice Meezer / malicemeezer.neocities.org",
-      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
-      "era": "1992",
-      "category": "member",
-      "external": false
-    },
-    {
-      "title": "Gaz",
-      "src": "images/vintage/live-lineup-1993.webp",
-      "caption": "Early lineup (1993)",
-      "source": "Malice Meezer / malicemeezer.neocities.org",
-      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
-      "era": "1992",
-      "category": "member",
-      "external": false
-    },
-    {
-      "title": "Gaz",
-      "src": "images/vintage/live-1993.webp",
-      "caption": "Live photograph (1993)",
-      "source": "Malice Meezer / malicemeezer.neocities.org",
-      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive.jpg",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/smilemana.jpg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -74,10 +54,40 @@
     },
     {
       "title": "Kami",
+      "src": "images/vintage/live-1993.webp",
+      "caption": "Live performance (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive.jpg",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/live-lineup-1993.webp",
+      "caption": "With Yuki, Tetsu, and Mana (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive2.jpg",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
       "src": "images/vintage/live-band-1993.webp",
       "caption": "With Yuki, Tetsu, and Mana (1993)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive3.jpg",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/live-tetsu-kami-yuki.webp",
+      "caption": "With Tetsu and Yuki (1993)",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive7.jpg",
       "era": "1993",
       "category": "member",
       "external": false
@@ -174,6 +184,16 @@
     },
     {
       "title": "Kozi",
+      "src": "images/vintage/live-mana-tetsu.webp",
+      "caption": "With Mana",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
       "src": "images/vintage/halloween-mana-kozi-yuki.webp",
       "caption": "Halloween (with Mana and Yuki)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
@@ -184,10 +204,10 @@
     },
     {
       "title": "Kozi",
-      "src": "images/members/kozi.webp",
+      "src": "images/vintage/kozi-memoire-dx.webp",
       "caption": "Portrait",
-      "source": "Malice Mizer Throughout The Years reference poster",
-      "source_url": "images/members/source/throughout-the-years.png",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -254,6 +274,16 @@
     },
     {
       "title": "Mana",
+      "src": "images/vintage/live-mana-tetsu.webp",
+      "caption": "With Kozi",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
       "src": "images/vintage/halloween-mana-kozi-yuki.webp",
       "caption": "Halloween (with Kozi and Yuki)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
@@ -264,10 +294,10 @@
     },
     {
       "title": "Mana",
-      "src": "images/members/mana.webp",
+      "src": "images/vintage/mana-memoire-dx.webp",
       "caption": "Portrait",
-      "source": "Malice Mizer Throughout The Years reference poster",
-      "source_url": "images/members/source/throughout-the-years.png",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/mana1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false
@@ -324,16 +354,6 @@
     },
     {
       "title": "Tetsu",
-      "src": "images/vintage/live-mana-tetsu.webp",
-      "caption": "Mana and Tetsu",
-      "source": "Malice Meezer / malicemeezer.neocities.org",
-      "source_url": "https://malicemeezer.neocities.org/tetsu/tetsumana.jpg",
-      "era": "1992",
-      "category": "member",
-      "external": false
-    },
-    {
-      "title": "Tetsu",
       "src": "images/flyers/flyers-1992-08-debut-era.webp",
       "caption": "Debut-era flyer (1992)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
@@ -368,16 +388,6 @@
       "caption": "Live flyer (1994)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer.jpg",
-      "era": "1992",
-      "category": "member",
-      "external": false
-    },
-    {
-      "title": "Tetsu",
-      "src": "images/members/hero.webp",
-      "caption": "Band promotional photograph (early era)",
-      "source": "Cantavanda via malice-mizer.info",
-      "source_url": "https://www.malice-mizer.info/GK7xiQ1XoAAmE6m.webp",
       "era": "1992",
       "category": "member",
       "external": false
@@ -454,10 +464,10 @@
     },
     {
       "title": "Yu~ki",
-      "src": "images/members/yuki.webp",
+      "src": "images/vintage/yuki-memoire-dx.webp",
       "caption": "Portrait",
-      "source": "Malice Mizer Throughout The Years reference poster",
-      "source_url": "images/members/source/throughout-the-years.png",
+      "source": "Malice Meezer / malicemeezer.neocities.org",
+      "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
       "era": "1992",
       "category": "member",
       "external": false

@@ -46,9 +46,6 @@ gallery_images:
   - src: images/vintage/live-memoire-final-1994.webp
     caption: Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)
     source: Malice Meezer / malicemeezer.neocities.org
-  - src: images/vintage/live-mana-tetsu.webp
-    caption: Mana and Tetsu
-    source: Malice Meezer / malicemeezer.neocities.org
   - src: images/flyers/flyers-1992-08-debut-era.webp
     caption: Debut-era flyer (1992)
     source: Malice Meezer / malicemeezer.neocities.org
@@ -61,9 +58,6 @@ gallery_images:
   - src: images/flyers/flyers-1994-01-live-1994.webp
     caption: Live flyer (1994)
     source: Malice Meezer / malicemeezer.neocities.org
-  - src: images/members/hero.webp
-    caption: Band promotional photograph (early era)
-    source: Cantavanda via malice-mizer.info
 facts: []
 verification_status: verified
 notes: ""

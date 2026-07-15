@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-1995-12-10-uruwashiki-kamen.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

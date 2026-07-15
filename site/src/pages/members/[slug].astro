@@ -3,6 +3,7 @@ import PersonProfile from "../../components/PersonProfile.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
+import { memberEraLabels } from "../../lib/memberEras.ts";
 
 type PersonProfile = {
   id: string;
@@ -22,17 +23,6 @@ export function getStaticPaths() {
 
 const { slug } = Astro.params;
 const profile = profiles.find((p) => p.id === `person_${slug}` || p.id === slug);
-
-const eraLabels: Record<string, string> = {
-  tetsu: "Tetsu era",
-  gackt: "Gackt era",
-  klaha: "Klaha era",
-  mana: "Gackt era",
-  kozi: "Gackt era",
-  yuki: "Gackt era",
-  kami: "Gackt era",
-  gaz: "Tetsu era",
-};
 
 const title = profile?.name?.romanized ?? profile?.name?.original ?? slug;
 const entityId = profile?.id ?? `person_${slug}`;
@@ -56,7 +46,7 @@ const memberDescription = profile
     <PersonProfile
       entity={{
         ...profile,
-        era: eraLabels[slug ?? ""] ?? profile.era ?? null,
+        era: memberEraLabels(profile.active) ?? profile.era ?? null,
       }}
       title={title}
       typeLabel="Member"

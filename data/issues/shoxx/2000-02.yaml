@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー6p、メンバー全員写真&Manaインタビュー
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

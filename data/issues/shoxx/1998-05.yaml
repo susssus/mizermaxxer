@@ -5,8 +5,7 @@ volume: null
 publication_date: 1998-05
 date_precision: month
 verification_status: verified
-source_notes: 'SHOXX May 1998. 13 pages mirrored locally under images/scans/shoxx/1998-05/.
-  Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
+source_notes: 'SHOXX May 1998. 13 pages mirrored locally under images/scans/shoxx/1998-05/. Gallery: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
 
   '
 research_targets:
@@ -37,14 +36,8 @@ articles:
     available: true
     url: data/translations/shoxx-1998-05-interview.yaml
   purchase_links: []
-  notes: 'A-to-Z interview; writers Yuki Sugie (Gackt, kozi, mana) and Kimiko Masubuchi
-    (Yu~ki, KAMI). Hair & makeup Reiko Hasuo (Otier). Scans: images/scans/shoxx/1998-05/10.jpg
-    through 13.jpg. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
-    Additional pages: images/scans/shoxx/1998-05/02.jpg, images/scans/shoxx/1998-05/03.jpg,
-    images/scans/shoxx/1998-05/04.jpg, images/scans/shoxx/1998-05/05.jpg, images/scans/shoxx/1998-05/06.jpg,
-    images/scans/shoxx/1998-05/07.jpg, images/scans/shoxx/1998-05/08.jpg, images/scans/shoxx/1998-05/09.jpg,
-    images/scans/shoxx/1998-05/10.jpg, images/scans/shoxx/1998-05/11.jpg, images/scans/shoxx/1998-05/12.jpg,
-    images/scans/shoxx/1998-05/13.jpg.'
+  notes: 'A-to-Z interview; writers Yuki Sugie (Gackt, kozi, mana) and Kimiko Masubuchi (Yu~ki, KAMI). Hair & makeup Reiko Hasuo (Otier). Scans: images/scans/shoxx/1998-05/10.jpg through 13.jpg. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/ Additional pages: images/scans/shoxx/1998-05/02.jpg, images/scans/shoxx/1998-05/03.jpg, images/scans/shoxx/1998-05/04.jpg, images/scans/shoxx/1998-05/05.jpg, images/scans/shoxx/1998-05/06.jpg, images/scans/shoxx/1998-05/07.jpg, images/scans/shoxx/1998-05/08.jpg, images/scans/shoxx/1998-05/09.jpg, images/scans/shoxx/1998-05/10.jpg, images/scans/shoxx/1998-05/11.jpg, images/scans/shoxx/1998-05/12.jpg, images/scans/shoxx/1998-05/13.jpg.'
+  content_nature: editorial
 - id: shoxx-1998-05-002
   title_ja: 月下の夜想曲
   title_en: Nocturne Under the Moon
@@ -69,16 +62,8 @@ articles:
     available: true
     url: data/translations/shoxx-1998-05-photo-spread.yaml
   purchase_links: []
-  notes: 'Super visual photo spread in beautiful gothic world; costumes by Yukari
-    Ohba (Midi Nette). Feature intro on p. 99 (scan 01.jpg) notes merveilles major
-    debut (Mar 18 1998) and Apr 1 Nippon Budokan performance; links to previous issue
-    SHOXX Vol. 62 cyber-chic feature. Scans: images/scans/shoxx/1998-05/01.jpg through
-    09.jpg. Location: Country House Windsor. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/
-    Additional pages: images/scans/shoxx/1998-05/02.jpg, images/scans/shoxx/1998-05/03.jpg,
-    images/scans/shoxx/1998-05/04.jpg, images/scans/shoxx/1998-05/05.jpg, images/scans/shoxx/1998-05/06.jpg,
-    images/scans/shoxx/1998-05/07.jpg, images/scans/shoxx/1998-05/08.jpg, images/scans/shoxx/1998-05/09.jpg,
-    images/scans/shoxx/1998-05/10.jpg, images/scans/shoxx/1998-05/11.jpg, images/scans/shoxx/1998-05/12.jpg,
-    images/scans/shoxx/1998-05/13.jpg.'
+  notes: 'Super visual photo spread in beautiful gothic world; costumes by Yukari Ohba (Midi Nette). Feature intro on p. 99 (scan 01.jpg) notes merveilles major debut (Mar 18 1998) and Apr 1 Nippon Budokan performance; links to previous issue SHOXX Vol. 62 cyber-chic feature. Scans: images/scans/shoxx/1998-05/01.jpg through 09.jpg. Location: Country House Windsor. Source: https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/ Additional pages: images/scans/shoxx/1998-05/02.jpg, images/scans/shoxx/1998-05/03.jpg, images/scans/shoxx/1998-05/04.jpg, images/scans/shoxx/1998-05/05.jpg, images/scans/shoxx/1998-05/06.jpg, images/scans/shoxx/1998-05/07.jpg, images/scans/shoxx/1998-05/08.jpg, images/scans/shoxx/1998-05/09.jpg, images/scans/shoxx/1998-05/10.jpg, images/scans/shoxx/1998-05/11.jpg, images/scans/shoxx/1998-05/12.jpg, images/scans/shoxx/1998-05/13.jpg.'
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created
@@ -87,8 +72,7 @@ changelog:
 - date: '2026-07-06'
   action: updated
   source: cantavanda
-  notes: 'Mirrored 13 scan pages locally; split photo spread (002) and A-to-Z interview
-    (001); added English translation with romaji (data/translations/shoxx-1998-05-interview.yaml).
+  notes: 'Mirrored 13 scan pages locally; split photo spread (002) and A-to-Z interview (001); added English translation with romaji (data/translations/shoxx-1998-05-interview.yaml).
 
     '
 - date: '2026-07-06'

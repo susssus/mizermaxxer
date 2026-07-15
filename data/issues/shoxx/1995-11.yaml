@@ -35,6 +35,11 @@ articles:
     url: null
   purchase_links: []
   notes: 'vkgy roles: flyer'
+  content_nature: promotional
+  promotional_subtype: magazine_inset
+  promotional_carrier: magazine_inset
+  vkgy_roles:
+  - flyer
 changelog:
 - date: '2026-07-06'
   action: created

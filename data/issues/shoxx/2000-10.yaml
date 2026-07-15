@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: 表紙。カラー26p、フォトギャラリー（衣装：白い肌に狂う愛と哀しみの輪舞）&インタビュー
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

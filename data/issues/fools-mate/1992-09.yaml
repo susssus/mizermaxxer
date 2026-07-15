@@ -1,41 +1,44 @@
 id: fools-mate-1992-09
 publication: fools-mate
-issue_number: "131"
-volume: "15(9)"
+issue_number: '131'
+volume: 15(9)
 publication_date: 1992-09
 date_precision: month
 verification_status: possible
 source_notes: Live listings likely. NDL confirms September 1992 issue exists (vol. 15 no. 9, 通号 131).
 articles:
-  - id: fools-mate-1992-09-001
-    title_ja: null
-    title_en: null
-    type: live_listing
-    pages: null
-    members: []
-    photographer: null
-    writer: null
-    cover: false
-    poster: false
-    foldout: false
-    scan:
-      available: false
-      quality: null
-      url: null
-    translation:
-      available: false
-      url: null
-    purchase_links:
-      - url: https://ndlsearch.ndl.go.jp/books/R100000002-I000000043030-i6924468
-        platform: ndl
-        notes: NDL bibliographic record for vol. 15(9)-15(12) bound volume
-    notes: Suspected indie live listing mention. Malice Mizer band coverage not yet confirmed in TOC.
+- id: fools-mate-1992-09-001
+  title_ja: null
+  title_en: null
+  type: live_listing
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: false
+    quality: null
+    url: null
+  translation:
+    available: false
+    url: null
+  purchase_links:
+  - url: https://ndlsearch.ndl.go.jp/books/R100000002-I000000043030-i6924468
+    platform: ndl
+    notes: NDL bibliographic record for vol. 15(9)-15(12) bound volume
+  notes: Suspected indie live listing mention. Malice Mizer band coverage not yet confirmed in TOC.
+  content_nature: promotional
+  promotional_subtype: gig_listing
+  promotional_carrier: magazine_page
 changelog:
-  - date: "2026-07-06"
-    action: created
-    source: user_bibliography
-    notes: Initial stub from Phase 1 master bibliography
-  - date: "2026-07-06"
-    action: status_change
-    source: ndl
-    notes: "NDL record R100000002-I000000043030-i6924468 confirms vol. 15(9) (通号 131). Promoted mention_only → possible."
+- date: '2026-07-06'
+  action: created
+  source: user_bibliography
+  notes: Initial stub from Phase 1 master bibliography
+- date: '2026-07-06'
+  action: status_change
+  source: ndl
+  notes: NDL record R100000002-I000000043030-i6924468 confirms vol. 15(9) (通号 131). Promoted mention_only → possible.

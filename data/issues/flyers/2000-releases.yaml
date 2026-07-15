@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-2000-02-01-shinwa-front.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-2000-02-01-shinwa-back
   title_ja: 神話 release flyer (back)
   title_en: null
@@ -50,8 +52,10 @@ articles:
     available: true
     url: data/translations/flyers-2000-02-01-shinwa-back.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-2000-05-31-kyomu
   title_ja: 虚無の中での遊戯 release flyer
   title_en: null
@@ -71,8 +75,10 @@ articles:
     available: true
     url: data/translations/flyers-2000-05-31-kyomu.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-2000-08-03-bara-no-seidou-front
   title_ja: 薔薇の聖堂 release flyer (front)
   title_en: null
@@ -92,8 +98,10 @@ articles:
     available: true
     url: data/translations/flyers-2000-08-03-bara-no-seidou-front.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-2000-08-03-bara-no-seidou-back
   title_ja: 薔薇の聖堂 release flyer (back)
   title_en: null
@@ -113,8 +121,10 @@ articles:
     available: true
     url: data/translations/flyers-2000-08-03-bara-no-seidou-back.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-2000-11-22-budokan-vhs
   title_ja: 薔薇に彩られた悪意と悲劇の幕開け VHS/DVD flyer
   title_en: null
@@ -134,8 +144,10 @@ articles:
     available: true
     url: data/translations/flyers-2000-11-22-budokan-vhs.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

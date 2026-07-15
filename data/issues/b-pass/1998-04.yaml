@@ -37,6 +37,10 @@ articles:
     url: null
   purchase_links: []
   notes: 'vkgy roles: large_feature, flyer'
+  content_nature: editorial
+  vkgy_roles:
+  - large_feature
+  - flyer
 changelog:
 - date: '2026-07-06'
   action: created

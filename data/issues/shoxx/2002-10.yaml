@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー2p、2002/7/31 渋谷AXレポ
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

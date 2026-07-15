@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー12p、メンバー全員パーソナルインタビュー（衣装：軍服）
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

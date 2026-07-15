@@ -27,6 +27,9 @@ articles:
     url: null
   purchase_links: []
   notes: Indies concert listing mention.
+  content_nature: promotional
+  promotional_subtype: gig_listing
+  promotional_carrier: magazine_page
 changelog:
 - date: '2026-07-06'
   action: created

@@ -1,0 +1,774 @@
+{
+  "generated_at": "2026-07-07T12:38:54.398995Z",
+  "entity_types": {
+    "song": {
+      "label": "Song",
+      "label_ja": "楽曲",
+      "prefix": "song_",
+      "schema": "song.schema.json",
+      "category": "song",
+      "color": "lavender",
+      "description": "Musical composition in the archive discography."
+    },
+    "album": {
+      "label": "Album",
+      "label_ja": "アルバム",
+      "prefix": "album_",
+      "schema": "album.schema.json",
+      "category": "release",
+      "color": "purple",
+      "description": "Studio or live album release."
+    },
+    "single": {
+      "label": "Single",
+      "label_ja": "シングル",
+      "prefix": "single_",
+      "schema": "album.schema.json",
+      "category": "release",
+      "color": "purple",
+      "description": "Single or maxi-single release."
+    },
+    "concert": {
+      "label": "Concert",
+      "label_ja": "ライブ",
+      "prefix": "concert_",
+      "schema": "concert.schema.json",
+      "category": "concert",
+      "color": "coral",
+      "description": "Live concert or oneman performance."
+    },
+    "appearance": {
+      "label": "Appearance",
+      "label_ja": "出演",
+      "prefix": "appearance_",
+      "schema": "appearance.schema.json",
+      "category": "appearance",
+      "color": "amber",
+      "description": "TV, radio, variety, or commercial broadcast appearance."
+    },
+    "person": {
+      "label": "Person",
+      "label_ja": "メンバー",
+      "prefix": "person_",
+      "schema": "person.schema.json",
+      "category": "person",
+      "color": "teal",
+      "description": "Band member, collaborator, or credited individual."
+    },
+    "reference": {
+      "label": "Reference",
+      "label_ja": "資料",
+      "prefix": "ref_",
+      "schema": "reference.schema.json",
+      "category": "press",
+      "color": "pink",
+      "description": "Magazine issue, book, scan source, or bibliographic reference."
+    },
+    "video": {
+      "label": "Video",
+      "label_ja": "映像",
+      "prefix": "video_",
+      "schema": "reference.schema.json",
+      "category": "media",
+      "color": "gold",
+      "description": "Music video, concert film, or standalone video release."
+    },
+    "venue": {
+      "label": "Venue",
+      "label_ja": "会場",
+      "prefix": "venue_",
+      "schema": "venue.schema.json",
+      "category": "meta",
+      "color": "gray",
+      "description": "Concert hall, dome, or performance venue."
+    },
+    "organization": {
+      "label": "Organization",
+      "label_ja": "組織",
+      "prefix": "org_",
+      "schema": "organization.schema.json",
+      "category": "meta",
+      "color": "gray",
+      "description": "Broadcaster, label, or publisher organization."
+    },
+    "article": {
+      "label": "Article",
+      "label_ja": "記事",
+      "prefix": "article_",
+      "schema": "article.schema.json",
+      "category": "press",
+      "color": "pink",
+      "description": "Magazine article entry within a bibliography issue."
+    },
+    "image": {
+      "label": "Image",
+      "label_ja": "画像",
+      "prefix": "image_",
+      "schema": "entity.schema.json",
+      "category": "media",
+      "color": "gold",
+      "description": "Photograph, scan, or image asset."
+    }
+  },
+  "relation_types": {
+    "appears_on": {
+      "id": "appears_on",
+      "label": "Appears on",
+      "label_ja": "収録",
+      "category": "release",
+      "color": "purple",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "song"
+      ],
+      "range": [
+        "album",
+        "single"
+      ],
+      "source_field": "song.appears_on",
+      "description": "Song appears on an album or single release.",
+      "inverse": "includes_song",
+      "examples": [
+        {
+          "from": "song_au_revoir",
+          "to": "album_merveilles"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "includes_song": {
+      "id": "includes_song",
+      "label": "Includes song",
+      "label_ja": "収録曲",
+      "category": "release",
+      "color": "purple",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "album",
+        "single"
+      ],
+      "range": [
+        "song"
+      ],
+      "description": "Album or single includes a track (inverse of appears_on).",
+      "examples": [
+        {
+          "from": "album_merveilles",
+          "to": "song_au_revoir"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "personnel": {
+      "id": "personnel",
+      "label": "Personnel credit",
+      "label_ja": "クレジット",
+      "category": "person",
+      "color": "teal",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "song"
+      ],
+      "range": [
+        "person"
+      ],
+      "source_field": "song.personnel",
+      "description": "Song credits a person with an optional role (guitar, drums, …).",
+      "inverse": "credited_on",
+      "examples": [
+        {
+          "from": "song_au_revoir",
+          "to": "person_mana",
+          "role": "guitar"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "credited_on": {
+      "id": "credited_on",
+      "label": "Credited on",
+      "label_ja": "参加曲",
+      "category": "person",
+      "color": "teal",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "person"
+      ],
+      "range": [
+        "song"
+      ],
+      "description": "Person is credited on a song (inverse of personnel).",
+      "examples": [
+        {
+          "from": "person_mana",
+          "to": "song_au_revoir",
+          "role": "guitar"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "performed_at_concert": {
+      "id": "performed_at_concert",
+      "label": "Performed at concert",
+      "label_ja": "ライブ演奏",
+      "category": "concert",
+      "color": "coral",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "song",
+        "person"
+      ],
+      "range": [
+        "concert"
+      ],
+      "source_field": "concert.setlist, concert.members_present",
+      "description": "Song or person performed at a live concert.",
+      "inverse": "features_concert",
+      "examples": [
+        {
+          "from": "song_au_revoir",
+          "to": "concert_1998_04_01_budokan"
+        },
+        {
+          "from": "person_mana",
+          "to": "concert_1998_04_01_budokan"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "features_concert": {
+      "id": "features_concert",
+      "label": "Features concert performance",
+      "label_ja": "ライブ出演",
+      "category": "concert",
+      "color": "coral",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "concert"
+      ],
+      "range": [
+        "song",
+        "person"
+      ],
+      "description": "Concert features a song performance or participating member.",
+      "examples": [
+        {
+          "from": "concert_1998_04_01_budokan",
+          "to": "song_au_revoir"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "performed_at_appearance": {
+      "id": "performed_at_appearance",
+      "label": "Performed on appearance",
+      "label_ja": "出演演奏",
+      "category": "appearance",
+      "color": "amber",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "song"
+      ],
+      "range": [
+        "appearance"
+      ],
+      "source_field": "appearance.songs_performed",
+      "description": "Song performed during a TV, radio, or variety appearance.",
+      "inverse": "features_appearance",
+      "examples": [
+        {
+          "from": "song_gekka_no_yasoukyoku",
+          "to": "appearance_1995_12_music_station"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "features_appearance": {
+      "id": "features_appearance",
+      "label": "Features appearance performance",
+      "label_ja": "出演曲目",
+      "category": "appearance",
+      "color": "amber",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "appearance"
+      ],
+      "range": [
+        "song"
+      ],
+      "description": "Appearance features a performed song.",
+      "examples": [
+        {
+          "from": "appearance_1995_12_music_station",
+          "to": "song_gekka_no_yasoukyoku"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "appeared_at": {
+      "id": "appeared_at",
+      "label": "Appeared at",
+      "label_ja": "出演",
+      "category": "appearance",
+      "color": "amber",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "person"
+      ],
+      "range": [
+        "appearance"
+      ],
+      "source_field": "appearance.members_present",
+      "description": "Person appeared on a TV, radio, or variety broadcast.",
+      "inverse": "featured_appearance",
+      "examples": [
+        {
+          "from": "person_mana",
+          "to": "appearance_1995_12_music_station"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "featured_appearance": {
+      "id": "featured_appearance",
+      "label": "Featured appearance",
+      "label_ja": "出演メンバー",
+      "category": "appearance",
+      "color": "amber",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "appearance"
+      ],
+      "range": [
+        "person"
+      ],
+      "description": "Appearance features a participating member.",
+      "examples": [
+        {
+          "from": "appearance_1995_12_music_station",
+          "to": "person_mana"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "held_at": {
+      "id": "held_at",
+      "label": "Held at",
+      "label_ja": "開催地",
+      "category": "meta",
+      "color": "gray",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "concert",
+        "appearance"
+      ],
+      "range": [
+        "venue"
+      ],
+      "source_field": "concert.venue, appearance.venue",
+      "description": "Concert or appearance took place at a venue.",
+      "inverse": "hosted",
+      "examples": [
+        {
+          "from": "concert_1998_04_01_budokan",
+          "to": "venue_nippon_budokan"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "hosted": {
+      "id": "hosted",
+      "label": "Hosted",
+      "label_ja": "開催",
+      "category": "meta",
+      "color": "gray",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "venue"
+      ],
+      "range": [
+        "concert",
+        "appearance"
+      ],
+      "description": "Venue hosted a concert or appearance.",
+      "examples": [
+        {
+          "from": "venue_nippon_budokan",
+          "to": "concert_1998_04_01_budokan"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "broadcast_on": {
+      "id": "broadcast_on",
+      "label": "Broadcast on",
+      "label_ja": "放送局",
+      "category": "media",
+      "color": "gold",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "appearance"
+      ],
+      "range": [
+        "organization"
+      ],
+      "source_field": "appearance.broadcast.network",
+      "description": "Appearance was broadcast on a network organization.",
+      "inverse": "aired",
+      "examples": [
+        {
+          "from": "appearance_1995_12_music_station",
+          "to": "org_tv_asahi"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "aired": {
+      "id": "aired",
+      "label": "Aired",
+      "label_ja": "放送",
+      "category": "media",
+      "color": "gold",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "organization"
+      ],
+      "range": [
+        "appearance"
+      ],
+      "description": "Broadcaster aired an appearance.",
+      "examples": [
+        {
+          "from": "org_tv_asahi",
+          "to": "appearance_1995_12_music_station"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "published_in": {
+      "id": "published_in",
+      "label": "Published in",
+      "label_ja": "掲載誌",
+      "category": "press",
+      "color": "pink",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "article"
+      ],
+      "range": [
+        "reference"
+      ],
+      "source_field": "article.published_in",
+      "description": "Article was published in a magazine issue reference.",
+      "inverse": "includes_article",
+      "examples": [
+        {
+          "from": "article_pop_beat_1997_08_001",
+          "to": "ref_pop_beat_1997_08"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "includes_article": {
+      "id": "includes_article",
+      "label": "Includes article",
+      "label_ja": "掲載記事",
+      "category": "press",
+      "color": "pink",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "reference"
+      ],
+      "range": [
+        "article"
+      ],
+      "description": "Magazine issue includes an article entry.",
+      "examples": [
+        {
+          "from": "ref_pop_beat_1997_08",
+          "to": "article_pop_beat_1997_08_001"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "discusses": {
+      "id": "discusses",
+      "label": "Discusses",
+      "label_ja": "言及",
+      "category": "press",
+      "color": "pink",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "reference"
+      ],
+      "range": [
+        "song",
+        "album",
+        "single",
+        "person",
+        "concert",
+        "appearance",
+        "article",
+        "video"
+      ],
+      "source_field": "reference.facts.targets",
+      "description": "Reference source discusses or mentions an entity (explicit or from facts.targets).",
+      "inverse": "cited_by",
+      "examples": [
+        {
+          "from": "ref_shoxx_061",
+          "to": "song_au_revoir"
+        }
+      ],
+      "origins": [
+        "derived",
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "cited_by": {
+      "id": "cited_by",
+      "label": "Cited by",
+      "label_ja": "出典",
+      "category": "press",
+      "color": "pink",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "song",
+        "album",
+        "single",
+        "person",
+        "concert",
+        "appearance",
+        "article",
+        "video"
+      ],
+      "range": [
+        "reference"
+      ],
+      "description": "Entity is cited or mentioned by a reference source.",
+      "examples": [
+        {
+          "from": "song_au_revoir",
+          "to": "ref_shoxx_061"
+        }
+      ],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "related_song": {
+      "id": "related_song",
+      "label": "Related song",
+      "label_ja": "関連曲",
+      "category": "song",
+      "color": "lavender",
+      "direction": "symmetric",
+      "status": "active",
+      "domain": [
+        "song"
+      ],
+      "range": [
+        "song"
+      ],
+      "description": "Musical or thematic relationship between two songs.",
+      "examples": [
+        {
+          "from": "song_au_revoir",
+          "to": "song_illuminati",
+          "note": "shares a chord progression in the bridge"
+        }
+      ],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "references": {
+      "id": "references",
+      "label": "References",
+      "label_ja": "参照",
+      "category": "meta",
+      "color": "gray",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "song",
+        "concert",
+        "appearance",
+        "reference"
+      ],
+      "range": [
+        "song",
+        "album",
+        "single",
+        "appearance",
+        "venue",
+        "concert"
+      ],
+      "description": "Editorial or bibliographic cross-reference between entities (explicit only).",
+      "examples": [
+        {
+          "from": "song_gekka_no_yasoukyoku",
+          "to": "album_merveilles",
+          "note": "track 11 on major debut album"
+        },
+        {
+          "from": "song_beast_of_blood",
+          "to": "appearance_1999_beast_of_blood_cm",
+          "note": "TV commercial for 1999 single"
+        }
+      ],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "member_of": {
+      "id": "member_of",
+      "label": "Member of",
+      "label_ja": "所属",
+      "category": "person",
+      "color": "teal",
+      "direction": "outgoing",
+      "status": "planned",
+      "domain": [
+        "person"
+      ],
+      "range": [
+        "organization"
+      ],
+      "description": "Person was a member of a band or organization (not yet wired in data).",
+      "examples": [],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "covers": {
+      "id": "covers",
+      "label": "Covers",
+      "label_ja": "カバー",
+      "category": "song",
+      "color": "lavender",
+      "direction": "outgoing",
+      "status": "planned",
+      "domain": [
+        "concert",
+        "appearance",
+        "album",
+        "single"
+      ],
+      "range": [
+        "song"
+      ],
+      "description": "Performance or release is a cover of another song (not yet wired in data).",
+      "examples": [],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "photographed_at": {
+      "id": "photographed_at",
+      "label": "Photographed at",
+      "label_ja": "撮影地",
+      "category": "media",
+      "color": "gold",
+      "direction": "outgoing",
+      "status": "planned",
+      "domain": [
+        "image"
+      ],
+      "range": [
+        "concert",
+        "appearance",
+        "venue"
+      ],
+      "description": "Photo or image was taken at an event or venue (not yet wired in data).",
+      "examples": [],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    }
+  },
+  "categories": {
+    "concert": "coral",
+    "appearance": "amber",
+    "release": "purple",
+    "press": "pink",
+    "song": "lavender",
+    "person": "teal",
+    "media": "gold",
+    "meta": "gray"
+  },
+  "mermaid_er": "erDiagram\n    organization ||--o{ appearance : \"Aired [derived]\"\n    person ||--o{ appearance : \"Appeared at [derived]\"\n    song ||--o{ album : \"Appears on [derived]\"\n    song ||--o{ single : \"Appears on [derived]\"\n    appearance ||--o{ organization : \"Broadcast on [derived]\"\n    song ||--o{ reference : \"Cited by\"\n    album ||--o{ reference : \"Cited by\"\n    single ||--o{ reference : \"Cited by\"\n    person ||--o{ reference : \"Cited by\"\n    concert ||--o{ reference : \"Cited by\"\n    appearance ||--o{ reference : \"Cited by\"\n    article ||--o{ reference : \"Cited by\"\n    video ||--o{ reference : \"Cited by\"\n    concert ||--o{ song : \"Covers (planned)\"\n    appearance ||--o{ song : \"Covers (planned)\"\n    album ||--o{ song : \"Covers (planned)\"\n    single ||--o{ song : \"Covers (planned)\"\n    person ||--o{ song : \"Credited on [derived]\"\n    reference ||--o{ song : \"Discusses [derived+explicit]\"\n    reference ||--o{ album : \"Discusses [derived+explicit]\"\n    reference ||--o{ single : \"Discusses [derived+explicit]\"\n    reference ||--o{ person : \"Discusses [derived+explicit]\"\n    reference ||--o{ concert : \"Discusses [derived+explicit]\"\n    reference ||--o{ appearance : \"Discusses [derived+explicit]\"\n    reference ||--o{ article : \"Discusses [derived+explicit]\"\n    reference ||--o{ video : \"Discusses [derived+explicit]\"\n    appearance ||--o{ person : \"Featured appearance [derived]\"\n    appearance ||--o{ song : \"Features appearance performance [derived]\"\n    concert ||--o{ song : \"Features concert performance [derived]\"\n    concert ||--o{ person : \"Features concert performance [derived]\"\n    concert ||--o{ venue : \"Held at [derived]\"\n    appearance ||--o{ venue : \"Held at [derived]\"\n    venue ||--o{ concert : \"Hosted [derived]\"\n    venue ||--o{ appearance : \"Hosted [derived]\"\n    reference ||--o{ article : \"Includes article [derived]\"\n    album ||--o{ song : \"Includes song [derived]\"\n    single ||--o{ song : \"Includes song [derived]\"\n    person ||--o{ organization : \"Member of (planned)\"\n    song ||--o{ appearance : \"Performed on appearance [derived]\"\n    song ||--o{ concert : \"Performed at concert [derived]\"\n    person ||--o{ concert : \"Performed at concert [derived]\"\n    song ||--o{ person : \"Personnel credit [derived]\"\n    image ||--o{ concert : \"Photographed at (planned)\"\n    image ||--o{ appearance : \"Photographed at (planned)\"\n    image ||--o{ venue : \"Photographed at (planned)\"\n    article ||--o{ reference : \"Published in [derived]\"\n    song ||--o{ song : \"References\"\n    song ||--o{ album : \"References\"\n    song ||--o{ single : \"References\"\n    song ||--o{ appearance : \"References\"\n    song ||--o{ venue : \"References\"\n    song ||--o{ concert : \"References\"\n    concert ||--o{ song : \"References\"\n    concert ||--o{ album : \"References\"\n    concert ||--o{ single : \"References\"\n    concert ||--o{ appearance : \"References\"\n    concert ||--o{ venue : \"References\"\n    concert ||--o{ concert : \"References\"\n    appearance ||--o{ song : \"References\"\n    appearance ||--o{ album : \"References\"\n    appearance ||--o{ single : \"References\"\n    appearance ||--o{ appearance : \"References\"\n    appearance ||--o{ venue : \"References\"\n    appearance ||--o{ concert : \"References\"\n    reference ||--o{ song : \"References\"\n    reference ||--o{ album : \"References\"\n    reference ||--o{ single : \"References\"\n    reference ||--o{ appearance : \"References\"\n    reference ||--o{ venue : \"References\"\n    reference ||--o{ concert : \"References\"\n    song }o--o{ song : \"Related song\""
+}

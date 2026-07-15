@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-1996-06-09-voyage.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-1996-10-10-ma-cherie
   title_ja: null
   title_en: ma chérie ～Itoshii Kimi e～ release flyer
@@ -50,8 +52,10 @@ articles:
     available: true
     url: data/translations/flyers-1996-10-10-ma-cherie.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

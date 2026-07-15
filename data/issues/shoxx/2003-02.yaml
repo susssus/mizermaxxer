@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー4p、メンバー全員インタビュー
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

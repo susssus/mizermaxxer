@@ -5,9 +5,9 @@ volume: null
 publication_date: 1998-11
 date_precision: month
 verification_status: verified
-source_notes: >
-  Le ciel / Merveilles era. Incomplete issue with MM cover on Internet Archive:
-  https://archive.org/details/arena194-ss-2
+source_notes: 'Le ciel / Merveilles era. Incomplete issue with MM cover on Internet Archive: https://archive.org/details/arena194-ss-2
+
+  '
 research_targets:
 - cover
 - poster
@@ -36,6 +36,7 @@ articles:
     url: null
   purchase_links: []
   notes: Incomplete November 1998 issue scan; MM cover confirmed.
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

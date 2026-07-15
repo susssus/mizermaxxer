@@ -27,6 +27,7 @@ from common import (
     load_videos,
     load_yaml,
 )
+from content_taxonomy import enrich_article
 
 SCRIPTS_DIR = ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
@@ -93,6 +94,10 @@ def create_schema(connection: sqlite3.Connection) -> None:
             title_ja TEXT,
             title_en TEXT,
             type TEXT NOT NULL,
+            content_nature TEXT,
+            promotional_subtype TEXT,
+            promotional_carrier TEXT,
+            vkgy_roles_json TEXT,
             pages TEXT,
             members_json TEXT NOT NULL,
             photographer TEXT,
@@ -227,6 +232,19 @@ def migrate_schema(connection: sqlite3.Connection) -> None:
             "ALTER TABLE videos ADD COLUMN trigger_warnings_json TEXT NOT NULL DEFAULT '[]'"
         )
 
+    article_columns = {
+        row[1] for row in connection.execute("PRAGMA table_info(articles)").fetchall()
+    }
+    if article_columns:
+        for column, ddl in (
+            ("content_nature", "ALTER TABLE articles ADD COLUMN content_nature TEXT"),
+            ("promotional_subtype", "ALTER TABLE articles ADD COLUMN promotional_subtype TEXT"),
+            ("promotional_carrier", "ALTER TABLE articles ADD COLUMN promotional_carrier TEXT"),
+            ("vkgy_roles_json", "ALTER TABLE articles ADD COLUMN vkgy_roles_json TEXT"),
+        ):
+            if column not in article_columns:
+                connection.execute(ddl)
+
 
 def clear_all(connection: sqlite3.Connection) -> None:
     for table in (
@@ -294,15 +312,17 @@ def insert_issues_and_articles(connection: sqlite3.Connection) -> None:
         for article in issue["articles"]:
             scan = article.get("scan", {"available": False, "quality": None, "url": None})
             translation = article.get("translation", {"available": False, "url": None})
+            classified = enrich_article(article, issue.get("publication"))
             connection.execute(
                 """
                 INSERT INTO articles (
-                    id, issue_id, title_ja, title_en, type, pages,
-                    members_json, photographer, writer, cover, poster, foldout,
+                    id, issue_id, title_ja, title_en, type, content_nature,
+                    promotional_subtype, promotional_carrier, vkgy_roles_json,
+                    pages, members_json, photographer, writer, cover, poster, foldout,
                     scan_available, scan_quality, scan_url,
                     translation_available, translation_url,
                     purchase_links_json, notes
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     article["id"],
@@ -310,6 +330,12 @@ def insert_issues_and_articles(connection: sqlite3.Connection) -> None:
                     article.get("title_ja"),
                     article.get("title_en"),
                     article["type"],
+                    classified.get("content_nature"),
+                    classified.get("promotional_subtype"),
+                    classified.get("promotional_carrier"),
+                    json.dumps(classified.get("vkgy_roles", []), ensure_ascii=False)
+                    if classified.get("vkgy_roles")
+                    else None,
                     article.get("pages"),
                     json.dumps(article.get("members", []), ensure_ascii=False),
                     article.get("photographer"),
@@ -511,6 +537,12 @@ def export_site_json(connection: sqlite3.Connection) -> None:
 
     decode_json_fields(issues, {"research_targets_json": "research_targets", "changelog_json": "changelog"})
     decode_json_fields(articles, {"members_json": "members", "purchase_links_json": "purchase_links"})
+    for row in articles:
+        if row.get("vkgy_roles_json"):
+            row["vkgy_roles"] = json.loads(row.pop("vkgy_roles_json"))
+        elif "vkgy_roles_json" in row:
+            row.pop("vkgy_roles_json", None)
+            row["vkgy_roles"] = []
     decode_json_fields(songs, {"writers_json": "writers", "lyricists_json": "lyricists", "composers_json": "composers"})
     decode_json_fields(albums, {"tracks_json": "tracks", "changelog_json": "changelog"})
     decode_json_fields(singles, {"coupling_tracks_json": "coupling_tracks", "changelog_json": "changelog"})

@@ -37,6 +37,8 @@ articles:
     url: null
   purchase_links: []
   notes: 'vkgy roles: other_appearance'
+  vkgy_roles:
+  - other_appearance
 changelog:
 - date: '2026-07-06'
   action: created

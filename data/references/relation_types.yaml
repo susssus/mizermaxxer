@@ -1,150 +1,354 @@
 # Controlled relation vocabulary
 #
-# All relations in data/links.yaml MUST use an id listed here.
-# Derived relations (appears_on, personnel) are inferred by the build script
-# from entity fields and are also defined here for consistent rendering.
+# All relations in data/links.yaml MUST use an id listed under `explicit` with status active.
+# Derived relations are inferred by build_links_index.py from entity fields.
+#
+# Each relation defines domain/range (allowed entity types), labels, and worked examples.
 
 derived:
   - id: appears_on
     label: Appears on
+    label_ja: 収録
     category: release
     color: purple
     direction: outgoing
-    description: Song → album/EP (from song.appears_on)
+    status: active
+    domain: [song]
+    range: [album, single]
+    source_field: song.appears_on
+    description: Song appears on an album or single release.
     inverse: includes_song
+    examples:
+      - from: song_au_revoir
+        to: album_merveilles
 
   - id: includes_song
     label: Includes song
+    label_ja: 収録曲
     category: release
     color: purple
     direction: incoming
-    description: Album → song (inverse of appears_on)
+    status: active
+    domain: [album, single]
+    range: [song]
+    description: Album or single includes a track (inverse of appears_on).
+    examples:
+      - from: album_merveilles
+        to: song_au_revoir
 
   - id: personnel
     label: Personnel credit
+    label_ja: クレジット
     category: person
     color: teal
     direction: outgoing
-    description: Song → person (from song.personnel)
+    status: active
+    domain: [song]
+    range: [person]
+    source_field: song.personnel
+    description: Song credits a person with an optional role (guitar, drums, …).
     inverse: credited_on
+    examples:
+      - from: song_au_revoir
+        to: person_mana
+        role: guitar
 
   - id: credited_on
     label: Credited on
+    label_ja: 参加曲
     category: person
     color: teal
     direction: incoming
-    description: Person → song (inverse of personnel)
+    status: active
+    domain: [person]
+    range: [song]
+    description: Person is credited on a song (inverse of personnel).
+    examples:
+      - from: person_mana
+        to: song_au_revoir
+        role: guitar
+
+  - id: performed_at_concert
+    label: Performed at concert
+    label_ja: ライブ演奏
+    category: concert
+    color: coral
+    direction: outgoing
+    status: active
+    domain: [song, person]
+    range: [concert]
+    source_field: concert.setlist, concert.members_present
+    description: Song or person performed at a live concert.
+    inverse: features_concert
+    examples:
+      - from: song_au_revoir
+        to: concert_1998_04_01_budokan
+      - from: person_mana
+        to: concert_1998_04_01_budokan
+
+  - id: features_concert
+    label: Features concert performance
+    label_ja: ライブ出演
+    category: concert
+    color: coral
+    direction: incoming
+    status: active
+    domain: [concert]
+    range: [song, person]
+    description: Concert features a song performance or participating member.
+    examples:
+      - from: concert_1998_04_01_budokan
+        to: song_au_revoir
+
+  - id: performed_at_appearance
+    label: Performed on appearance
+    label_ja: 出演演奏
+    category: appearance
+    color: amber
+    direction: outgoing
+    status: active
+    domain: [song]
+    range: [appearance]
+    source_field: appearance.songs_performed
+    description: Song performed during a TV, radio, or variety appearance.
+    inverse: features_appearance
+    examples:
+      - from: song_gekka_no_yasoukyoku
+        to: appearance_1995_12_music_station
+
+  - id: features_appearance
+    label: Features appearance performance
+    label_ja: 出演曲目
+    category: appearance
+    color: amber
+    direction: incoming
+    status: active
+    domain: [appearance]
+    range: [song]
+    description: Appearance features a performed song.
+    examples:
+      - from: appearance_1995_12_music_station
+        to: song_gekka_no_yasoukyoku
 
   - id: appeared_at
     label: Appeared at
+    label_ja: 出演
     category: appearance
     color: amber
     direction: outgoing
-    description: Person → TV/radio/variety appearance (from appearance.members_present)
+    status: active
+    domain: [person]
+    range: [appearance]
+    source_field: appearance.members_present
+    description: Person appeared on a TV, radio, or variety broadcast.
     inverse: featured_appearance
+    examples:
+      - from: person_mana
+        to: appearance_1995_12_music_station
 
   - id: featured_appearance
     label: Featured appearance
+    label_ja: 出演メンバー
     category: appearance
     color: amber
     direction: incoming
-    description: Appearance → person
+    status: active
+    domain: [appearance]
+    range: [person]
+    description: Appearance features a participating member.
+    examples:
+      - from: appearance_1995_12_music_station
+        to: person_mana
 
-  - id: broadcast_on
-    label: Broadcast on
-    category: media
-    color: gold
-    direction: outgoing
-    description: Appearance → broadcaster organization
-    inverse: aired
-
-  - id: aired
-    label: Aired
-    category: media
-    color: gold
-    direction: incoming
-    description: Broadcaster → appearance
-
-  - id: published_in
-    label: Published in
-    category: press
-    color: pink
-    direction: outgoing
-    description: Article → magazine issue (from article.published_in)
-    inverse: includes_article
-
-  - id: includes_article
-    label: Includes article
-    category: press
-    color: pink
-    direction: incoming
-    description: Magazine issue → article (inverse of published_in)
-
-explicit:
-  - id: performed_at
-    label: Performed at
-    category: concert
-    color: coral
-    direction: outgoing
-    description: Song or person → concert
-    inverse: features_performance
-
-  - id: features_performance
-    label: Features performance
-    category: concert
-    color: coral
-    direction: incoming
-    description: Concert → song or person
-
-  - id: related_song
-    label: Related song
-    category: song
-    color: lavender
-    direction: symmetric
-    description: Musical or thematic relationship between songs
-
-  - id: discusses
-    label: Discusses
-    category: press
-    color: pink
-    direction: outgoing
-    description: Reference (magazine/book) → entity discussed
-    inverse: cited_by
-
-  - id: cited_by
-    label: Cited by
-    category: press
-    color: pink
-    direction: incoming
-    description: Entity → reference that mentions it
-
-  - id: member_of
-    label: Member of
-    category: person
-    color: teal
-    direction: outgoing
-    description: Person → band/organization
-
-  - id: covers
-    label: Covers
-    category: song
-    color: lavender
-    direction: outgoing
-    description: Performance or release → song covered
-
-  - id: references
-    label: References
+  - id: held_at
+    label: Held at
+    label_ja: 開催地
     category: meta
     color: gray
     direction: outgoing
-    description: Generic bibliographic reference
+    status: active
+    domain: [concert, appearance]
+    range: [venue]
+    source_field: concert.venue, appearance.venue
+    description: Concert or appearance took place at a venue.
+    inverse: hosted
+    examples:
+      - from: concert_1998_04_01_budokan
+        to: venue_nippon_budokan
 
-  - id: photographed_at
-    label: Photographed at
+  - id: hosted
+    label: Hosted
+    label_ja: 開催
+    category: meta
+    color: gray
+    direction: incoming
+    status: active
+    domain: [venue]
+    range: [concert, appearance]
+    description: Venue hosted a concert or appearance.
+    examples:
+      - from: venue_nippon_budokan
+        to: concert_1998_04_01_budokan
+
+  - id: broadcast_on
+    label: Broadcast on
+    label_ja: 放送局
     category: media
     color: gold
     direction: outgoing
-    description: Photo/image → event or venue
+    status: active
+    domain: [appearance]
+    range: [organization]
+    source_field: appearance.broadcast.network
+    description: Appearance was broadcast on a network organization.
+    inverse: aired
+    examples:
+      - from: appearance_1995_12_music_station
+        to: org_tv_asahi
+
+  - id: aired
+    label: Aired
+    label_ja: 放送
+    category: media
+    color: gold
+    direction: incoming
+    status: active
+    domain: [organization]
+    range: [appearance]
+    description: Broadcaster aired an appearance.
+    examples:
+      - from: org_tv_asahi
+        to: appearance_1995_12_music_station
+
+  - id: published_in
+    label: Published in
+    label_ja: 掲載誌
+    category: press
+    color: pink
+    direction: outgoing
+    status: active
+    domain: [article]
+    range: [reference]
+    source_field: article.published_in
+    description: Article was published in a magazine issue reference.
+    inverse: includes_article
+    examples:
+      - from: article_pop_beat_1997_08_001
+        to: ref_pop_beat_1997_08
+
+  - id: includes_article
+    label: Includes article
+    label_ja: 掲載記事
+    category: press
+    color: pink
+    direction: incoming
+    status: active
+    domain: [reference]
+    range: [article]
+    description: Magazine issue includes an article entry.
+    examples:
+      - from: ref_pop_beat_1997_08
+        to: article_pop_beat_1997_08_001
+
+explicit:
+  - id: discusses
+    label: Discusses
+    label_ja: 言及
+    category: press
+    color: pink
+    direction: outgoing
+    status: active
+    domain: [reference]
+    range: [song, album, single, person, concert, appearance, article, video]
+    source_field: reference.facts.targets
+    description: Reference source discusses or mentions an entity (explicit or from facts.targets).
+    inverse: cited_by
+    examples:
+      - from: ref_shoxx_061
+        to: song_au_revoir
+
+  - id: cited_by
+    label: Cited by
+    label_ja: 出典
+    category: press
+    color: pink
+    direction: incoming
+    status: active
+    domain: [song, album, single, person, concert, appearance, article, video]
+    range: [reference]
+    description: Entity is cited or mentioned by a reference source.
+    examples:
+      - from: song_au_revoir
+        to: ref_shoxx_061
+
+  - id: related_song
+    label: Related song
+    label_ja: 関連曲
+    category: song
+    color: lavender
+    direction: symmetric
+    status: active
+    domain: [song]
+    range: [song]
+    description: Musical or thematic relationship between two songs.
+    examples:
+      - from: song_au_revoir
+        to: song_illuminati
+        note: shares a chord progression in the bridge
+
+  - id: references
+    label: References
+    label_ja: 参照
+    category: meta
+    color: gray
+    direction: outgoing
+    status: active
+    domain: [song, concert, appearance, reference]
+    range: [song, album, single, appearance, venue, concert]
+    description: Editorial or bibliographic cross-reference between entities (explicit only).
+    examples:
+      - from: song_gekka_no_yasoukyoku
+        to: album_merveilles
+        note: track 11 on major debut album
+      - from: song_beast_of_blood
+        to: appearance_1999_beast_of_blood_cm
+        note: TV commercial for 1999 single
+
+  - id: member_of
+    label: Member of
+    label_ja: 所属
+    category: person
+    color: teal
+    direction: outgoing
+    status: planned
+    domain: [person]
+    range: [organization]
+    description: Person was a member of a band or organization (not yet wired in data).
+    examples: []
+
+  - id: covers
+    label: Covers
+    label_ja: カバー
+    category: song
+    color: lavender
+    direction: outgoing
+    status: planned
+    domain: [concert, appearance, album, single]
+    range: [song]
+    description: Performance or release is a cover of another song (not yet wired in data).
+    examples: []
+
+  - id: photographed_at
+    label: Photographed at
+    label_ja: 撮影地
+    category: media
+    color: gold
+    direction: outgoing
+    status: planned
+    domain: [image]
+    range: [concert, appearance, venue]
+    description: Photo or image was taken at an event or venue (not yet wired in data).
+    examples: []
 
 # UI category → default color (used when relation has no color override)
 categories:

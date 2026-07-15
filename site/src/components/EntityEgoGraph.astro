@@ -1,0 +1,232 @@
+---
+interface LinkEntry {
+  entity_id: string;
+  relation: string;
+  label?: string;
+  color?: string;
+  direction: string;
+}
+
+interface Props {
+  centerId: string;
+  centerTitle: string;
+  links: LinkEntry[];
+  titleById: Record<string, string>;
+  typeColorById?: Record<string, string>;
+  maxNodes?: number;
+}
+
+const {
+  centerId,
+  centerTitle,
+  links,
+  titleById,
+  typeColorById = {},
+  maxNodes = 24,
+} = Astro.props;
+
+const visibleLinks = links.slice(0, maxNodes);
+const hiddenCount = Math.max(0, links.length - visibleLinks.length);
+const graphData = {
+  centerId,
+  centerTitle,
+  links: visibleLinks.map((link) => ({
+    id: link.entity_id,
+    title: titleById[link.entity_id] ?? link.entity_id,
+    relation: link.label || link.relation,
+    color: link.color || typeColorById[link.entity_id] || "gray",
+    direction: link.direction,
+  })),
+  hiddenCount,
+};
+---
+
+{links.length > 0 ? (
+  <section class="card ego-graph-section">
+    <h3>Relationship map</h3>
+    <p class="muted" style="font-size:0.88rem;">
+      One-hop neighborhood around this entity. Use the table below for the full link list.
+    </p>
+    <div class="ego-graph" data-graph={JSON.stringify(graphData)} aria-label={`Relationship map for ${centerTitle}`}>
+      <svg class="ego-graph__svg" role="img" aria-hidden="true"></svg>
+      <div class="ego-graph__legend muted"></div>
+    </div>
+    {hiddenCount > 0 && (
+      <p class="muted" style="font-size:0.82rem; margin-top:0.5rem;">
+        Showing {visibleLinks.length} of {links.length} links.
+      </p>
+    )}
+  </section>
+) : null}
+
+<script>
+  function initEgoGraphs() {
+    document.querySelectorAll(".ego-graph[data-graph]").forEach((container) => {
+      container.querySelectorAll(".ego-graph__hit").forEach((hit) => hit.remove());
+      const raw = container.getAttribute("data-graph");
+      if (!raw) return;
+      const data = JSON.parse(raw);
+      const svg = container.querySelector(".ego-graph__svg");
+      const legend = container.querySelector(".ego-graph__legend");
+      if (!svg || !legend) return;
+
+      const width = Math.min(container.clientWidth || 640, 720);
+      const height = 380;
+      const cx = width / 2;
+      const cy = height / 2;
+      const radius = Math.min(width, height) * 0.34;
+      const nodes = data.links;
+      const ns = "http://www.w3.org/2000/svg";
+
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      svg.setAttribute("width", String(width));
+      svg.setAttribute("height", String(height));
+      svg.innerHTML = "";
+
+      function el(name: string, attrs: Record<string, string> = {}) {
+        const node = document.createElementNS(ns, name);
+        for (const [key, value] of Object.entries(attrs)) {
+          node.setAttribute(key, value);
+        }
+        return node;
+      }
+
+      nodes.forEach((node: { id: string }, index: number) => {
+        const angle = (index / nodes.length) * Math.PI * 2 - Math.PI / 2;
+        const x = cx + radius * Math.cos(angle);
+        const y = cy + radius * Math.sin(angle);
+        const line = el("line", {
+          x1: String(cx),
+          y1: String(cy),
+          x2: String(x),
+          y2: String(y),
+          class: "ego-graph__edge",
+        });
+        svg.appendChild(line);
+      });
+
+      const center = el("circle", {
+        cx: String(cx),
+        cy: String(cy),
+        r: "36",
+        class: "ego-graph__node ego-graph__node--center",
+      });
+      svg.appendChild(center);
+
+      const centerText = el("text", {
+        x: String(cx),
+        y: String(cy + 4),
+        class: "ego-graph__label ego-graph__label--center",
+        "text-anchor": "middle",
+      });
+      centerText.textContent = data.centerTitle.length > 18
+        ? `${data.centerTitle.slice(0, 16)}…`
+        : data.centerTitle;
+      svg.appendChild(centerText);
+
+      nodes.forEach((node: { id: string; title: string; color: string }, index: number) => {
+        const angle = (index / nodes.length) * Math.PI * 2 - Math.PI / 2;
+        const x = cx + radius * Math.cos(angle);
+        const y = cy + radius * Math.sin(angle);
+        const circle = el("circle", {
+          cx: String(x),
+          cy: String(y),
+          r: "28",
+          class: `ego-graph__node ego-graph__node--${node.color}`,
+        });
+        const title = el("title");
+        title.textContent = `${node.title} (${node.relation})`;
+        circle.appendChild(title);
+        svg.appendChild(circle);
+
+        const label = el("text", {
+          x: String(x),
+          y: String(y + 42),
+          class: "ego-graph__label",
+          "text-anchor": "middle",
+        });
+        const short = node.title.length > 14 ? `${node.title.slice(0, 12)}…` : node.title;
+        label.textContent = short;
+        svg.appendChild(label);
+
+        const link = document.createElement("a");
+        link.href = `/entity/${node.id}`;
+        link.className = "ego-graph__hit";
+        link.style.left = `${((x - 28) / width) * 100}%`;
+        link.style.top = `${((y - 28) / height) * 100}%`;
+        link.style.width = `${(56 / width) * 100}%`;
+        link.style.height = `${(56 / height) * 100}%`;
+        link.setAttribute("aria-label", `Open ${node.title}`);
+        container.appendChild(link);
+      });
+
+      legend.textContent = `${nodes.length} linked entit${nodes.length === 1 ? "y" : "ies"} shown`;
+    });
+  }
+
+  initEgoGraphs();
+  window.addEventListener("resize", initEgoGraphs);
+</script>
+
+<style>
+  .ego-graph-section {
+    margin-top: 1rem;
+  }
+  .ego-graph {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+    margin: 0.75rem auto 0;
+  }
+  .ego-graph__svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .ego-graph__edge {
+    stroke: var(--border);
+    stroke-width: 1.5;
+  }
+  .ego-graph__node {
+    fill: color-mix(in srgb, var(--muted) 20%, var(--surface));
+    stroke: var(--border);
+    stroke-width: 1.5;
+  }
+  .ego-graph__node--center {
+    fill: color-mix(in srgb, var(--accent) 25%, var(--surface));
+    stroke: var(--accent);
+    stroke-width: 2;
+  }
+  .ego-graph__node--coral { fill: color-mix(in srgb, #e07a5f 22%, var(--surface)); stroke: #e07a5f; }
+  .ego-graph__node--purple { fill: color-mix(in srgb, #7b6dd6 22%, var(--surface)); stroke: #7b6dd6; }
+  .ego-graph__node--pink { fill: color-mix(in srgb, #d65a8a 22%, var(--surface)); stroke: #d65a8a; }
+  .ego-graph__node--lavender { fill: color-mix(in srgb, #9b8ec4 22%, var(--surface)); stroke: #9b8ec4; }
+  .ego-graph__node--teal { fill: color-mix(in srgb, #4a9e8e 22%, var(--surface)); stroke: #4a9e8e; }
+  .ego-graph__node--gold { fill: color-mix(in srgb, #c9a227 22%, var(--surface)); stroke: #c9a227; }
+  .ego-graph__node--amber { fill: color-mix(in srgb, #e9a319 22%, var(--surface)); stroke: #e9a319; }
+  .ego-graph__node--gray { fill: color-mix(in srgb, var(--muted) 15%, var(--surface)); stroke: var(--muted); }
+  .ego-graph__label {
+    font-size: 11px;
+    fill: var(--muted);
+    pointer-events: none;
+  }
+  .ego-graph__label--center {
+    font-size: 12px;
+    font-weight: 600;
+    fill: var(--text);
+  }
+  .ego-graph__hit {
+    position: absolute;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  .ego-graph__hit:focus-visible {
+    outline: 2px solid var(--rose);
+    outline-offset: 2px;
+  }
+  .ego-graph__legend {
+    text-align: center;
+    font-size: 0.82rem;
+    margin-top: 0.35rem;
+  }
+</style>

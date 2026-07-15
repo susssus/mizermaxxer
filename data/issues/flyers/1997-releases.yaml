@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-1997-02-11-gekka.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-1997-06-30-derniere-vhs
   title_ja: null
   title_en: sans retour Voyage derniere VHS release flyer
@@ -50,8 +52,10 @@ articles:
     available: true
     url: data/translations/flyers-1997-06-30-derniere-vhs.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-1997-07-19-vers-elle
   title_ja: null
   title_en: Vers Elle debut single release flyer
@@ -71,8 +75,10 @@ articles:
     available: false
     url: null
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

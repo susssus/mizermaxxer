@@ -5,8 +5,7 @@ volume: null
 publication_date: '1994'
 date_precision: year
 verification_status: verified
-source_notes: 'Cher de memoire ～懐かしい記憶を辿って～ (1994 tour pamphlet). 33 pages mirrored
-  locally under images/scans/tour-pamphlets/1994/. Gallery: http://www.scape.sc/pamphlets/cherdememoire/
+source_notes: 'Cher de memoire ～懐かしい記憶を辿って～ (1994 tour pamphlet). 33 pages mirrored locally under images/scans/tour-pamphlets/1994/. Gallery: http://www.scape.sc/pamphlets/cherdememoire/
 
   '
 research_targets:
@@ -38,25 +37,9 @@ articles:
     available: true
     url: https://www.scape.sc/translations/mm-cherdememoire-sep94.php
   purchase_links: []
-  notes: '33 page thumbnails on scape.sc (view.php?page=N for full size). Gallery:
-    http://www.scape.sc/pamphlets/cherdememoire/ Collaboration with indies magazine
-    Imperfection. Source scape.sc. Additional pages: images/scans/tour-pamphlets/1994/02.jpg,
-    images/scans/tour-pamphlets/1994/03.jpg, images/scans/tour-pamphlets/1994/04.jpg,
-    images/scans/tour-pamphlets/1994/05.jpg, images/scans/tour-pamphlets/1994/06.jpg,
-    images/scans/tour-pamphlets/1994/07.jpg, images/scans/tour-pamphlets/1994/08.jpg,
-    images/scans/tour-pamphlets/1994/09.jpg, images/scans/tour-pamphlets/1994/10.jpg,
-    images/scans/tour-pamphlets/1994/11.jpg, images/scans/tour-pamphlets/1994/12.jpg,
-    images/scans/tour-pamphlets/1994/13.jpg, images/scans/tour-pamphlets/1994/14.jpg,
-    images/scans/tour-pamphlets/1994/15.jpg, images/scans/tour-pamphlets/1994/16.jpg,
-    images/scans/tour-pamphlets/1994/17.jpg, images/scans/tour-pamphlets/1994/18.jpg,
-    images/scans/tour-pamphlets/1994/19.jpg, images/scans/tour-pamphlets/1994/20.jpg,
-    images/scans/tour-pamphlets/1994/21.jpg, images/scans/tour-pamphlets/1994/22.jpg,
-    images/scans/tour-pamphlets/1994/23.jpg, images/scans/tour-pamphlets/1994/24.jpg,
-    images/scans/tour-pamphlets/1994/25.jpg, images/scans/tour-pamphlets/1994/26.jpg,
-    images/scans/tour-pamphlets/1994/27.jpg, images/scans/tour-pamphlets/1994/28.jpg,
-    images/scans/tour-pamphlets/1994/29.jpg, images/scans/tour-pamphlets/1994/30.jpg,
-    images/scans/tour-pamphlets/1994/31.jpg, images/scans/tour-pamphlets/1994/32.jpg,
-    images/scans/tour-pamphlets/1994/33.jpg.'
+  notes: '33 page thumbnails on scape.sc (view.php?page=N for full size). Gallery: http://www.scape.sc/pamphlets/cherdememoire/ Collaboration with indies magazine Imperfection. Source scape.sc. Additional pages: images/scans/tour-pamphlets/1994/02.jpg, images/scans/tour-pamphlets/1994/03.jpg, images/scans/tour-pamphlets/1994/04.jpg, images/scans/tour-pamphlets/1994/05.jpg, images/scans/tour-pamphlets/1994/06.jpg, images/scans/tour-pamphlets/1994/07.jpg, images/scans/tour-pamphlets/1994/08.jpg, images/scans/tour-pamphlets/1994/09.jpg, images/scans/tour-pamphlets/1994/10.jpg, images/scans/tour-pamphlets/1994/11.jpg, images/scans/tour-pamphlets/1994/12.jpg, images/scans/tour-pamphlets/1994/13.jpg, images/scans/tour-pamphlets/1994/14.jpg, images/scans/tour-pamphlets/1994/15.jpg, images/scans/tour-pamphlets/1994/16.jpg, images/scans/tour-pamphlets/1994/17.jpg, images/scans/tour-pamphlets/1994/18.jpg, images/scans/tour-pamphlets/1994/19.jpg, images/scans/tour-pamphlets/1994/20.jpg, images/scans/tour-pamphlets/1994/21.jpg,
+    images/scans/tour-pamphlets/1994/22.jpg, images/scans/tour-pamphlets/1994/23.jpg, images/scans/tour-pamphlets/1994/24.jpg, images/scans/tour-pamphlets/1994/25.jpg, images/scans/tour-pamphlets/1994/26.jpg, images/scans/tour-pamphlets/1994/27.jpg, images/scans/tour-pamphlets/1994/28.jpg, images/scans/tour-pamphlets/1994/29.jpg, images/scans/tour-pamphlets/1994/30.jpg, images/scans/tour-pamphlets/1994/31.jpg, images/scans/tour-pamphlets/1994/32.jpg, images/scans/tour-pamphlets/1994/33.jpg.'
+  content_nature: promotional
 changelog:
 - date: '2026-07-06'
   action: created

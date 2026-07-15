@@ -3,18 +3,6 @@
 # All `relation` values must appear in data/references/relation_types.yaml under `explicit`.
 
 - from: song_au_revoir
-  to: concert_1998_04_01_budokan
-  relation: performed_at
-
-- from: song_gekka_no_yasoukyoku
-  to: concert_1998_04_01_budokan
-  relation: performed_at
-
-- from: song_illuminati
-  to: concert_1998_04_01_budokan
-  relation: performed_at
-
-- from: song_au_revoir
   to: song_illuminati
   relation: related_song
   note: shares a chord progression in the bridge
@@ -28,11 +16,6 @@
   to: album_merveilles
   relation: references
   note: track 4 on major debut album
-
-- from: concert_1998_04_01_budokan
-  to: venue_nippon_budokan
-  relation: references
-  note: April 1998 merveilles oneman
 
 - from: song_beast_of_blood
   to: appearance_1999_beast_of_blood_cm

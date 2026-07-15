@@ -12,8 +12,11 @@ DATA_DIR = ROOT / "data"
 SCHEMA_ENTITY_DIR = ROOT / "schema" / "entity"
 LINKS_PATH = DATA_DIR / "links.yaml"
 RELATION_TYPES_PATH = DATA_DIR / "references" / "relation_types.yaml"
+ONTOLOGY_PATH = DATA_DIR / "ontology.yaml"
 LINKS_INDEX_PATH = ROOT / "site" / "src" / "data" / "links_index.json"
 EXPORTS_LINKS_PATH = ROOT / "exports" / "links_index.json"
+ONTOLOGY_JSON_PATH = ROOT / "site" / "src" / "data" / "ontology.json"
+EXPORTS_ONTOLOGY_MMD_PATH = ROOT / "exports" / "ontology.mmd"
 
 ENTITY_TYPE_DIRS: dict[str, Path] = {
     "song": DATA_DIR / "songs",
@@ -108,15 +111,61 @@ def load_explicit_links() -> list[dict[str, Any]]:
     return data if isinstance(data, list) else []
 
 
+def load_ontology() -> dict[str, Any]:
+    if not ONTOLOGY_PATH.exists():
+        return {"entity_types": {}}
+    data = load_yaml(ONTOLOGY_PATH)
+    return data if isinstance(data, dict) else {"entity_types": {}}
+
+
+def load_entity_type_ui() -> dict[str, dict[str, str]]:
+    ontology = load_ontology()
+    ui: dict[str, dict[str, str]] = {}
+    for entity_type, meta in ontology.get("entity_types", {}).items():
+        ui[entity_type] = {
+            "category": meta.get("category", "meta"),
+            "color": meta.get("color", "gray"),
+            "label": meta.get("label", entity_type),
+        }
+    return ui
+
+
 def load_relation_types() -> dict[str, dict[str, Any]]:
     data = load_yaml(RELATION_TYPES_PATH)
     index: dict[str, dict[str, Any]] = {}
     for section in ("derived", "explicit"):
         for item in data.get(section, []):
-            index[item["id"]] = {**item, "origin": section}
+            rel_id = item["id"]
+            existing = index.get(rel_id, {})
+            origins = list(existing.get("origins", []))
+            if section not in origins:
+                origins.append(section)
+            merged = {**existing, **item, "origins": origins, "origin": origins[0]}
+            if merged.get("source_field") and "derived" not in merged["origins"]:
+                merged["origins"] = ["derived", *merged["origins"]]
+            index[rel_id] = merged
     return index
+
+
+def active_explicit_relations(relation_types: dict[str, dict[str, Any]] | None = None) -> set[str]:
+    types = relation_types or load_relation_types()
+    return {
+        rel_id
+        for rel_id, meta in types.items()
+        if "explicit" in meta.get("origins", [meta.get("origin")])
+        and meta.get("status", "active") == "active"
+    }
+
+
+def entity_type_for_id(entity_id: str, entities: dict[str, dict[str, Any]]) -> str | None:
+    entity = entities.get(entity_id)
+    if entity:
+        return entity.get("type")
+    return None
 
 
 def ensure_links_output_dirs() -> None:
     LINKS_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
     EXPORTS_LINKS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    ONTOLOGY_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+    EXPORTS_ONTOLOGY_MMD_PATH.parent.mkdir(parents=True, exist_ok=True)

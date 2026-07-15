@@ -1,14 +1,13 @@
 id: b-pass-1999-06
 publication: b-pass
-issue_number: "161"
+issue_number: '161'
 volume: null
 publication_date: 1999-06
 date_precision: month
 verification_status: verified
-source_notes: >
-  B-PASS June 1999 No. 161 — Gackt solo pages only (MM-adjacent).
-  Partial local mirror under images/scans/b-pass/1999-06/.
-  Internet Archive: https://archive.org/details/scan-10188
+source_notes: 'B-PASS June 1999 No. 161 — Gackt solo pages only (MM-adjacent). Partial local mirror under images/scans/b-pass/1999-06/. Internet Archive: https://archive.org/details/scan-10188
+
+  '
 research_targets:
 - confirm remaining Gackt feature pages on IA
 articles:
@@ -32,9 +31,10 @@ articles:
     available: true
     url: data/translations/b-pass-1999-06.yaml
   purchase_links: []
-  notes: >
-    Gackt pages only; not full issue. Local scans 03–04 (magazine pp. 31–32 area).
-    Additional pages pending from IA catalog.
+  notes: 'Gackt pages only; not full issue. Local scans 03–04 (magazine pp. 31–32 area). Additional pages pending from IA catalog.
+
+    '
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

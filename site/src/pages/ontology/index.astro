@@ -1,0 +1,149 @@
+---
+import Base from "../../layouts/Base.astro";
+import ontology from "../../data/ontology.json";
+
+const entityTypes = Object.entries(ontology.entity_types).sort(([a], [b]) => a.localeCompare(b));
+const relations = Object.entries(ontology.relation_types).sort(([a], [b]) => a.localeCompare(b));
+const activeRelations = relations.filter(([, meta]) => meta.status !== "planned");
+const plannedRelations = relations.filter(([, meta]) => meta.status === "planned");
+---
+
+<Base
+  title="Ontology"
+  description="Type-level entity graph for the Malice Mizer research archive — entity types, relation vocabulary, and ontological constraints."
+>
+  <h1 class="page-heading">Ontology</h1>
+  <p class="muted" style="margin-top: -0.5rem; margin-bottom: 1.5rem;">
+    Type-level map of entity types and allowed relationships. Instance data lives on
+    <a href="/browse">Browse</a> and individual entity pages.
+  </p>
+
+  <section class="stats" style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+    <div class="card" style="flex: 1; min-width: 8rem; padding: 1rem;">
+      <div style="font-size: 1.75rem; font-weight: 600;">{entityTypes.length}</div>
+      <div class="muted">Entity types</div>
+    </div>
+    <div class="card" style="flex: 1; min-width: 8rem; padding: 1rem;">
+      <div style="font-size: 1.75rem; font-weight: 600;">{activeRelations.length}</div>
+      <div class="muted">Active relations</div>
+    </div>
+    <div class="card" style="flex: 1; min-width: 8rem; padding: 1rem;">
+      <div style="font-size: 1.75rem; font-weight: 600;">{plannedRelations.length}</div>
+      <div class="muted">Planned relations</div>
+    </div>
+  </section>
+
+  <section class="card" style="margin-bottom: 1.5rem;">
+    <h2>Entity types</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Label</th>
+          <th>ID prefix</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        {entityTypes.map(([type, meta]) => (
+          <tr>
+            <td><code>{type}</code></td>
+            <td>
+              {meta.label}
+              {meta.label_ja ? <span class="muted"> · {meta.label_ja}</span> : null}
+            </td>
+            <td><code>{meta.prefix}</code></td>
+            <td><span class={`type-chip ${meta.color}`}>{meta.category}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card" style="margin-bottom: 1.5rem;">
+    <h2>Relations</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Relation</th>
+          <th>Label</th>
+          <th>Domain → Range</th>
+          <th>Origin</th>
+        </tr>
+      </thead>
+      <tbody>
+        {activeRelations.map(([relId, meta]) => (
+          <tr>
+            <td><code>{relId}</code></td>
+            <td>
+              <span class={`type-chip ${meta.color || "gray"}`} style="font-size:0.65rem;">
+                {meta.label}
+              </span>
+            </td>
+            <td class="muted" style="font-size:0.85rem;">
+              {(meta.domain || []).join(", ")} → {(meta.range || []).join(", ")}
+            </td>
+            <td class="muted">{(meta.origins || [meta.origin]).join(", ")}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    {plannedRelations.length > 0 && (
+      <>
+        <h3 style="margin-top: 1.5rem;">Planned relations</h3>
+        <p class="muted">Defined in the vocabulary but not yet used in entity data.</p>
+        <ul>
+          {plannedRelations.map(([relId, meta]) => (
+            <li><code>{relId}</code> — {meta.label}: {meta.description}</li>
+          ))}
+        </ul>
+      </>
+    )}
+  </section>
+
+  <section class="card">
+    <h2>Type-level diagram</h2>
+    <p class="muted">
+      Derived edges are inferred from entity fields; explicit edges are stated in <code>data/links.yaml</code>.
+    </p>
+    <div class="ontology-diagram" id="ontology-mermaid" data-mermaid={ontology.mermaid_er}></div>
+  </section>
+</Base>
+
+<script>
+  async function renderMermaid() {
+    const container = document.getElementById("ontology-mermaid");
+    if (!container) return;
+    const source = container.dataset.mermaid;
+    if (!source) return;
+
+    const { default: mermaid } = await import("https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: prefersDark ? "dark" : "neutral",
+      er: { useMaxWidth: true },
+    });
+
+    const { svg } = await mermaid.render(`ontology-${Date.now()}`, source);
+    container.innerHTML = svg;
+  }
+
+  renderMermaid().catch(() => {
+    const container = document.getElementById("ontology-mermaid");
+    if (container) {
+      container.innerHTML = "<pre class=\"muted\">Diagram could not be rendered. See docs/ONTOLOGY.md in the repository.</pre>";
+    }
+  });
+</script>
+
+<style>
+  .ontology-diagram {
+    overflow-x: auto;
+    margin-top: 1rem;
+  }
+  .ontology-diagram :global(svg) {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
