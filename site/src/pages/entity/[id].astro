@@ -56,7 +56,9 @@ const entityDescription = row
           </p>
           {entity.person && (
             <p>
-              <strong>Owns human:</strong>{" "}
+              <strong>
+                {entity.relationship === "set_companion" ? "Appears with:" : "Owns human:"}
+              </strong>{" "}
               <a href={`/entity/${entity.person}`}>
                 {titleById[entity.person] ?? entity.person}
               </a>
@@ -68,7 +70,9 @@ const entityDescription = row
           )}
           {!entity.person && entity.owner && (
             <p>
-              <strong>Owns human:</strong>{" "}
+              <strong>
+                {entity.relationship === "set_companion" ? "Appears with:" : "Owns human:"}
+              </strong>{" "}
               <a href={`/entity/${entity.owner}`}>
                 {titleById[entity.owner] ?? entity.owner}
               </a>

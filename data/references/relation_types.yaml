@@ -262,8 +262,9 @@ derived:
     source_field: pet.person
     inverse: owned_by
     description: >
-      Pet owns their human (companion association). Ontological pets-first modeling —
-      band members are owned by their pets, not the reverse.
+      Pet owns their human when there is a real household or childhood-family bond
+      (pet.relationship is household or childhood_family). Pets-first modeling —
+      companions own people, not the reverse. Set / photo-only animals use appears_with instead.
     examples:
       - from: pet_zaku
         to: person_kozi
@@ -271,18 +272,54 @@ derived:
 
   - id: owned_by
     label: Owned by
-    label_ja: 飼い主（ペット）
+    label_ja: 飼われている
     category: person
     color: teal
     direction: incoming
     status: active
     domain: [person]
     range: [pet]
-    description: Person is owned by their pet (inverse of owns).
+    description: >
+      Person is owned by their household or childhood-family pet (inverse of owns).
+      Not used for set / photo-only companions.
     examples:
       - from: person_kozi
         to: pet_zaku
         note: Közi is owned by Zaku
+
+  - id: appears_with
+    label: Appears with
+    label_ja: 一緒に写る
+    category: person
+    color: teal
+    direction: outgoing
+    status: active
+    domain: [pet]
+    range: [person]
+    source_field: pet.person
+    inverse: appeared_with
+    description: >
+      Soft co-appearance — pet is pictured or noted with a person without a household
+      ownership bond (e.g. film-set dogs). Derived when pet.relationship is set_companion.
+    examples:
+      - from: pet_nike
+        to: person_kami
+        note: Nike appears with Kami on the France set
+
+  - id: appeared_with
+    label: Appeared with
+    label_ja: 一緒に写った
+    category: person
+    color: teal
+    direction: incoming
+    status: active
+    domain: [person]
+    range: [pet]
+    description: Person co-appears with a pet that does not own them (inverse of appears_with).
+    examples:
+      - from: person_kami
+        to: pet_nike
+        note: Kami appeared with set dog Nike
 
 explicit:
   - id: discusses

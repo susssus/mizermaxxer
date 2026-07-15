@@ -222,7 +222,8 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
 
         if entity_type == "pet":
             person_id = entity.get("person") or entity.get("owner")
-            if person_id:
+            relationship = entity.get("relationship")
+            if person_id and relationship in ("household", "childhood_family"):
                 add_edge(
                     edges,
                     Edge(entity_id, person_id, "owns", "entity_field", "outgoing"),
@@ -231,6 +232,17 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
                 add_edge(
                     edges,
                     Edge(person_id, entity_id, "owned_by", "entity_field", "outgoing"),
+                    seen,
+                )
+            elif person_id and relationship == "set_companion":
+                add_edge(
+                    edges,
+                    Edge(entity_id, person_id, "appears_with", "entity_field", "outgoing"),
+                    seen,
+                )
+                add_edge(
+                    edges,
+                    Edge(person_id, entity_id, "appeared_with", "entity_field", "outgoing"),
                     seen,
                 )
 

@@ -28,12 +28,12 @@
         "person": {
           "type": "string",
           "pattern": "^person_[a-z0-9_]+$",
-          "description": "Human this pet owns (band member person_* entity)"
+          "description": "Associated band member. For household/childhood_family, the human this pet owns; for set_companion, the human they appear with in photos or set notes."
         },
         "relationship": {
           "type": "string",
           "enum": ["household", "childhood_family", "set_companion"],
-          "description": "Kind of companion bond (not graph direction)"
+          "description": "Bond kind: household and childhood_family emit owns/owned_by; set_companion emits appears_with/appeared_with only."
         },
         "years_noted": { "type": ["string", "null"] },
         "status": {
