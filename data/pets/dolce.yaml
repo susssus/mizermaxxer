@@ -9,9 +9,7 @@ name_ja: ドルチェ
 species: dog
 breed: null
 sex: unknown
-owner: person_gackt
-owner_slug: gackt
-relationship: owned_by
+relationship: household
 years_noted: '2010'
 status: deceased
 died: '2010'
@@ -31,3 +29,5 @@ changelog:
   notes: Catalogued from Weekly Josei PRIME Gackt pet history.
 source_urls:
 - https://www.jprime.jp/articles/-/20137
+person: person_gackt
+person_slug: gackt

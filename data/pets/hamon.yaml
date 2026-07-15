@@ -9,9 +9,7 @@ name_ja: ハモン
 species: cat
 breed: null
 sex: female
-owner: person_kozi
-owner_slug: kozi
-relationship: owned_by
+relationship: household
 years_noted: 2022–
 status: unknown
 died: null
@@ -32,3 +30,5 @@ changelog:
 source_urls:
 - https://ja.wikipedia.org/wiki/K%C3%B6zi
 - https://x.com/kzi_official
+person: person_kozi
+person_slug: kozi

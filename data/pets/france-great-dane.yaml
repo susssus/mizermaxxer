@@ -8,8 +8,6 @@ name_ja: null
 species: dog
 breed: Great Dane
 sex: unknown
-owner: person_kami
-owner_slug: kami
 relationship: set_companion
 years_noted: '1997'
 status: unknown
@@ -37,3 +35,5 @@ changelog:
   notes: Catalogued from FC Vol. 5 France off-shots Great Dane photo.
 translation_ids:
 - fan-club-vol-5-1998-summer
+person: person_kami
+person_slug: kami

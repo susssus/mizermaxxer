@@ -9,9 +9,7 @@ name_ja: 宮下君
 species: hamster
 breed: null
 sex: male
-owner: person_kami
-owner_slug: kami
-relationship: owned_by
+relationship: household
 years_noted: '1997'
 status: deceased
 died: null
@@ -37,3 +35,5 @@ changelog:
   notes: Catalogued from Kami’s Soliloquy in FC Vol. 2–3.
 translation_ids:
 - fan-club-vol-2-3-1997-winter
+person: person_kami
+person_slug: kami

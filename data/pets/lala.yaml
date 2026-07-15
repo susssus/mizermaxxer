@@ -9,9 +9,7 @@ name_ja: ララァ
 species: cat
 breed: grey tabby
 sex: female
-owner: person_kozi
-owner_slug: kozi
-relationship: owned_by
+relationship: household
 years_noted: 1997–2015
 status: deceased
 died: '2015-12-15'
@@ -66,3 +64,5 @@ translation_ids:
 source_urls:
 - https://ja.wikipedia.org/wiki/K%C3%B6zi
 - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
+person: person_kozi
+person_slug: kozi

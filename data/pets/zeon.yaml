@@ -9,9 +9,7 @@ name_ja: ヂヲン
 species: cat
 breed: null
 sex: male
-owner: person_kozi
-owner_slug: kozi
-relationship: owned_by
+relationship: household
 years_noted: 2013–
 status: unknown
 died: null
@@ -36,3 +34,5 @@ source_urls:
 - https://ja.wikipedia.org/wiki/K%C3%B6zi
 - http://ippaiyakka.blogspot.com/2013/09/a-proposito-familia-cresceu_8.html
 - https://x.com/kzi_official
+person: person_kozi
+person_slug: kozi

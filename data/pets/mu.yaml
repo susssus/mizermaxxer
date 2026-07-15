@@ -9,9 +9,7 @@ name_ja: ムー
 species: ferret
 breed: null
 sex: unknown
-owner: person_yuki
-owner_slug: yuki
-relationship: owned_by
+relationship: household
 years_noted: '1997'
 status: unknown
 died: null
@@ -38,3 +36,5 @@ changelog:
   notes: Catalogued from FC Vol. 1 Count Is Catalepsy with portrait crop.
 translation_ids:
 - fan-club-vol-1-1997-autumn
+person: person_yuki
+person_slug: yuki

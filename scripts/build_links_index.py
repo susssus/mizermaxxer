@@ -221,16 +221,16 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
                 )
 
         if entity_type == "pet":
-            owner_id = entity.get("owner")
-            if owner_id:
+            person_id = entity.get("person") or entity.get("owner")
+            if person_id:
                 add_edge(
                     edges,
-                    Edge(entity_id, owner_id, "owned_by", "entity_field", "outgoing"),
+                    Edge(entity_id, person_id, "owns", "entity_field", "outgoing"),
                     seen,
                 )
                 add_edge(
                     edges,
-                    Edge(owner_id, entity_id, "has_pet", "entity_field", "outgoing"),
+                    Edge(person_id, entity_id, "owned_by", "entity_field", "outgoing"),
                     seen,
                 )
 

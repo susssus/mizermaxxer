@@ -272,9 +272,9 @@ def validate_pets() -> list[str]:
         portrait = pet.get("portrait_image")
         if portrait and portrait.startswith("images/") and not (DATA_DIR.parent / portrait).exists():
             errors.append(f"{rel}: portrait_image file not found '{portrait}'")
-        owner = pet.get("owner_entity_id") or pet.get("owner")
+        owner = pet.get("owner_entity_id") or pet.get("person") or pet.get("owner")
         if owner and not str(owner).startswith("person_"):
-            errors.append(f"{rel}: owner should resolve to person_* id")
+            errors.append(f"{rel}: person/owner should resolve to person_* id")
     return errors
 
 

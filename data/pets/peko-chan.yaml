@@ -9,8 +9,6 @@ name_ja: ペコちゃん
 species: dog
 breed: Shiba Inu
 sex: female
-owner: person_gackt
-owner_slug: gackt
 relationship: childhood_family
 years_noted: childhood–1990s
 status: deceased
@@ -35,3 +33,5 @@ changelog:
   notes: Catalogued from SHOXX May 1998 tears / farewell-dream anecdote.
 translation_ids:
 - shoxx-1998-05-interview
+person: person_gackt
+person_slug: gackt

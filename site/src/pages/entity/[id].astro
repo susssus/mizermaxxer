@@ -54,15 +54,23 @@ const entityDescription = row
             {entity.breed ? ` · ${entity.breed}` : ""}
             {entity.sex && entity.sex !== "unknown" ? ` · ${entity.sex}` : ""}
           </p>
-          {entity.owner && (
+          {entity.person && (
             <p>
-              <strong>Owner / associated member:</strong>{" "}
-              <a href={`/entity/${entity.owner}`}>
-                {titleById[entity.owner] ?? entity.owner}
+              <strong>Owns human:</strong>{" "}
+              <a href={`/entity/${entity.person}`}>
+                {titleById[entity.person] ?? entity.person}
               </a>
               {" · "}
               <a href={`/pets/${entity.legacy_v1_slug || entity.id.replace(/^pet_/, "").replaceAll("_", "-")}`}>
                 Pets page →
+              </a>
+            </p>
+          )}
+          {!entity.person && entity.owner && (
+            <p>
+              <strong>Owns human:</strong>{" "}
+              <a href={`/entity/${entity.owner}`}>
+                {titleById[entity.owner] ?? entity.owner}
               </a>
             </p>
           )}

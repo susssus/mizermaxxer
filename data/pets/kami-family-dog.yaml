@@ -8,8 +8,6 @@ name_ja: null
 species: dog
 breed: null
 sex: unknown
-owner: person_kami
-owner_slug: kami
 relationship: childhood_family
 years_noted: childhood
 status: unknown
@@ -34,3 +32,5 @@ changelog:
   notes: Stub from widely copied MM trivia lists; needs primary source.
 source_urls:
 - https://jrockrae.wordpress.com/2007/09/02/77-malice-mizer-fun-facts/
+person: person_kami
+person_slug: kami
