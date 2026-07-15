@@ -1,0 +1,246 @@
+---
+import {
+  MM_BAND_YEARS,
+  boundsForMemberships,
+  formatActiveRange,
+  layoutMembershipBars,
+  membershipsForPerson,
+  phaseLabel,
+  type CareerMembership,
+  type CareerPhase,
+} from "../lib/careerTimeline";
+
+interface Props {
+  personId: string;
+  memberships?: CareerMembership[];
+}
+
+const { personId, memberships: membershipsProp } = Astro.props;
+const memberships = membershipsProp ?? membershipsForPerson(personId);
+const bounds = boundsForMemberships(memberships, 1);
+const trackWidth = 720;
+const labelWidth = 0;
+const { bars, laneCount } = layoutMembershipBars(memberships, bounds, trackWidth);
+
+const laneHeight = 28;
+const laneGap = 6;
+const topPad = 28;
+const bottomPad = 28;
+const height = topPad + laneCount * (laneHeight + laneGap) + bottomPad;
+const mmX =
+  ((MM_BAND_YEARS.start - bounds.minYear) / (bounds.maxYear - bounds.minYear || 1)) * trackWidth;
+const mmW = Math.max(
+  ((MM_BAND_YEARS.end - MM_BAND_YEARS.start) / (bounds.maxYear - bounds.minYear || 1)) * trackWidth,
+  2
+);
+
+const tickYears: number[] = [];
+for (let y = bounds.minYear; y <= bounds.maxYear; y += 1) {
+  if (y % 5 === 0 || y === bounds.minYear || y === bounds.maxYear) tickYears.push(y);
+}
+
+const phaseClass: Record<CareerPhase, string> = {
+  before: "career-bar--before",
+  during: "career-bar--during",
+  after: "career-bar--after",
+};
+---
+
+{memberships.length > 0 ? (
+  <section class="card career-timeline">
+    <h3>Career timeline</h3>
+    <p class="muted career-timeline__lede">
+      Band memberships before, during, and after Malice Mizer (mother band zone shaded).
+    </p>
+
+    <div class="career-timeline__scroll">
+      <svg
+        class="career-timeline__svg"
+        viewBox={`0 0 ${trackWidth + labelWidth} ${height}`}
+        role="img"
+        aria-label="Career timeline of band memberships"
+      >
+        <rect
+          class="career-timeline__mm-zone"
+          x={mmX}
+          y={topPad - 8}
+          width={mmW}
+          height={height - topPad - bottomPad + 16}
+          rx="4"
+        />
+        <text
+          class="career-timeline__mm-label"
+          x={mmX + mmW / 2}
+          y={14}
+          text-anchor="middle"
+        >
+          Malice Mizer
+        </text>
+
+        {tickYears.map((year) => {
+          const x =
+            ((year - bounds.minYear) / (bounds.maxYear - bounds.minYear || 1)) * trackWidth;
+          return (
+            <g>
+              <line
+                class="career-timeline__tick"
+                x1={x}
+                y1={topPad - 4}
+                x2={x}
+                y2={height - bottomPad + 4}
+              />
+              <text class="career-timeline__tick-label" x={x} y={height - 8} text-anchor="middle">
+                {year}
+              </text>
+            </g>
+          );
+        })}
+
+        {bars.map((bar) => {
+          const y = topPad + bar.lane * (laneHeight + laneGap);
+          const label = bar.orgName.length > 22 ? `${bar.orgName.slice(0, 20)}…` : bar.orgName;
+          return (
+            <g class={`career-bar ${phaseClass[bar.phase]} ${bar.isMotherBand ? "career-bar--mother" : ""}`}>
+              <a href={`/entity/${bar.orgId}`}>
+                <title>{`${bar.orgName} · ${formatActiveRange(bar.active, bar.openEnded)} · ${phaseLabel(bar.phase)}`}</title>
+                <rect x={bar.x} y={y} width={bar.width} height={laneHeight} rx="5" />
+                {bar.width > 48 && (
+                  <text
+                    x={bar.x + 8}
+                    y={y + laneHeight / 2 + 4}
+                    class="career-bar__label"
+                  >
+                    {label}
+                  </text>
+                )}
+              </a>
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+
+    <ul class="career-timeline__list">
+      {memberships.map((m) => (
+        <li>
+          <span class={`career-phase career-phase--${m.phase}`}>{phaseLabel(m.phase)}</span>
+          <a href={`/entity/${m.orgId}`}>{m.orgName}</a>
+          <span class="muted">
+            {m.role ? `${m.role} · ` : ""}
+            {formatActiveRange(m.active, m.openEnded)}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </section>
+) : null}
+
+<style>
+  .career-timeline h3 {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    font-size: 1.1rem;
+    color: var(--accent);
+  }
+  .career-timeline__lede {
+    margin: 0 0 0.85rem;
+    font-size: 0.88rem;
+  }
+  .career-timeline__scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -0.25rem 1rem;
+    padding: 0 0.25rem;
+  }
+  .career-timeline__svg {
+    display: block;
+    width: 100%;
+    min-width: 520px;
+    height: auto;
+  }
+  .career-timeline__mm-zone {
+    fill: color-mix(in srgb, var(--rose) 14%, transparent);
+    stroke: color-mix(in srgb, var(--rose) 35%, var(--border));
+    stroke-width: 1;
+  }
+  .career-timeline__mm-label {
+    fill: var(--rose);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .career-timeline__tick {
+    stroke: var(--border);
+    stroke-width: 1;
+    stroke-dasharray: 2 3;
+  }
+  .career-timeline__tick-label {
+    fill: var(--muted);
+    font-size: 10px;
+  }
+  .career-bar rect {
+    stroke: color-mix(in srgb, #1a1410 35%, transparent);
+    stroke-width: 1;
+  }
+  .career-bar--before rect {
+    fill: #6b635c;
+  }
+  .career-bar--during rect {
+    fill: #9a3d55;
+  }
+  .career-bar--after rect {
+    fill: #2f7a6c;
+  }
+  .career-bar--mother rect {
+    fill: #b44560;
+    stroke: #f0c4ce;
+    stroke-width: 1.5;
+  }
+  .career-bar__label {
+    fill: #fff8f2;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    pointer-events: none;
+    paint-order: stroke fill;
+    stroke: rgba(18, 14, 12, 0.55);
+    stroke-width: 2.5px;
+  }
+  .career-bar a:focus-visible rect {
+    outline: 2px solid var(--rose);
+    outline-offset: 2px;
+  }
+  .career-timeline__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    font-size: 0.88rem;
+  }
+  .career-timeline__list li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.65rem;
+    align-items: baseline;
+  }
+  .career-phase {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .career-phase--during {
+    color: var(--rose);
+  }
+  .career-phase--after {
+    color: #2f7a6c;
+  }
+  .career-timeline__list a {
+    color: var(--accent);
+    font-weight: 500;
+  }
+</style>

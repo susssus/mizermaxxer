@@ -320,11 +320,34 @@ explicit:
     category: person
     color: teal
     direction: outgoing
-    status: planned
+    status: active
     domain: [person]
     range: [organization]
-    description: Person was a member of a band or organization (not yet wired in data).
-    examples: []
+    description: Person was a member of a band or organization, optionally with an activity date range.
+    inverse: has_member
+    examples:
+      - from: person_mana
+        to: org_malice_mizer
+        role: guitar
+        note: co-founder
+      - from: person_mana
+        to: org_moi_dix_mois
+        role: guitar
+
+  - id: has_member
+    label: Has member
+    label_ja: メンバー
+    category: person
+    color: teal
+    direction: incoming
+    status: active
+    domain: [organization]
+    range: [person]
+    description: Organization has a person as a member (inverse of member_of).
+    examples:
+      - from: org_malice_mizer
+        to: person_mana
+        role: guitar
 
   - id: covers
     label: Covers

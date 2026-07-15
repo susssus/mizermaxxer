@@ -33,6 +33,7 @@ class Edge:
     role: str | None = None
     note: str | None = None
     sources: list[str] = field(default_factory=list)
+    active: dict[str, Any] | None = None
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -43,10 +44,20 @@ class Edge:
             "role": self.role,
             "note": self.note,
             "sources": self.sources,
+            "active": self.active,
         }
 
     def key(self) -> tuple:
-        return (self.from_id, self.to_id, self.relation, self.role or "", self.note or "")
+        active = self.active or {}
+        return (
+            self.from_id,
+            self.to_id,
+            self.relation,
+            self.role or "",
+            self.note or "",
+            active.get("start") or "",
+            active.get("end") or "",
+        )
 
 
 def add_edge(edges: list[Edge], edge: Edge, seen: set[tuple]) -> None:
@@ -237,6 +248,7 @@ def explicit_edges(links: list[dict[str, Any]], entities: dict[str, dict[str, An
         role = link.get("role")
         note = link.get("note")
         sources = link.get("sources", [])
+        active = link.get("active")
 
         if from_id not in entities:
             raise ValueError(f"Link from unknown entity '{from_id}'")
@@ -245,7 +257,17 @@ def explicit_edges(links: list[dict[str, Any]], entities: dict[str, dict[str, An
 
         add_edge(
             edges,
-            Edge(from_id, to_id, relation, "links_yaml", "outgoing", role=role, note=note, sources=sources),
+            Edge(
+                from_id,
+                to_id,
+                relation,
+                "links_yaml",
+                "outgoing",
+                role=role,
+                note=note,
+                sources=sources,
+                active=active,
+            ),
             seen,
         )
 
@@ -254,13 +276,33 @@ def explicit_edges(links: list[dict[str, Any]], entities: dict[str, dict[str, An
         if meta.get("direction") == "symmetric":
             add_edge(
                 edges,
-                Edge(to_id, from_id, relation, "links_yaml", "outgoing", role=role, note=note, sources=sources),
+                Edge(
+                    to_id,
+                    from_id,
+                    relation,
+                    "links_yaml",
+                    "outgoing",
+                    role=role,
+                    note=note,
+                    sources=sources,
+                    active=active,
+                ),
                 seen,
             )
         elif inverse:
             add_edge(
                 edges,
-                Edge(to_id, from_id, inverse, "links_yaml", "outgoing", role=role, note=note, sources=sources),
+                Edge(
+                    to_id,
+                    from_id,
+                    inverse,
+                    "links_yaml",
+                    "outgoing",
+                    role=role,
+                    note=note,
+                    sources=sources,
+                    active=active,
+                ),
                 seen,
             )
 
@@ -293,10 +335,35 @@ def build_linked_entities_index(
 
     relation_types = load_relation_types()
 
+    # member_of ↔ has_member, discusses ↔ cited_by, etc.
+    inverse_of: dict[str, str] = {}
+    for rel_id, meta in relation_types.items():
+        inv = meta.get("inverse")
+        if isinstance(inv, str):
+            inverse_of[rel_id] = inv
+            inverse_of.setdefault(inv, rel_id)
+
     for entity_id, bucket in index.items():
         merged: dict[tuple, dict[str, Any]] = {}
+
+        def entry_key(entry: dict[str, Any], relation: str | None = None) -> tuple:
+            active = entry.get("active") or {}
+            return (
+                entry["entity_id"],
+                relation if relation is not None else entry["relation"],
+                entry.get("role") or "",
+                entry.get("note") or "",
+                active.get("start") or "",
+                active.get("end") or "",
+            )
+
+        # Prefer outgoing so org pages show "Has member" and person pages show
+        # "Member of", not both directions of the same edge.
         for entry in bucket["outgoing"] + bucket["incoming"]:
-            key = (entry["entity_id"], entry["relation"], entry.get("role") or "", entry.get("note") or "")
+            key = entry_key(entry)
+            inv = inverse_of.get(entry["relation"])
+            if inv and entry_key(entry, inv) in merged:
+                continue
             if key not in merged:
                 relation_meta = relation_types.get(entry["relation"], {})
                 merged[key] = {

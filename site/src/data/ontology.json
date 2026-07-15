@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T12:38:54.398995Z",
+  "generated_at": "2026-07-15T21:54:40.910537Z",
   "entity_types": {
     "song": {
       "label": "Song",
@@ -698,15 +698,55 @@
       "category": "person",
       "color": "teal",
       "direction": "outgoing",
-      "status": "planned",
+      "status": "active",
       "domain": [
         "person"
       ],
       "range": [
         "organization"
       ],
-      "description": "Person was a member of a band or organization (not yet wired in data).",
-      "examples": [],
+      "description": "Person was a member of a band or organization, optionally with an activity date range.",
+      "inverse": "has_member",
+      "examples": [
+        {
+          "from": "person_mana",
+          "to": "org_malice_mizer",
+          "role": "guitar",
+          "note": "co-founder"
+        },
+        {
+          "from": "person_mana",
+          "to": "org_moi_dix_mois",
+          "role": "guitar"
+        }
+      ],
+      "origins": [
+        "explicit"
+      ],
+      "origin": "explicit"
+    },
+    "has_member": {
+      "id": "has_member",
+      "label": "Has member",
+      "label_ja": "メンバー",
+      "category": "person",
+      "color": "teal",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "organization"
+      ],
+      "range": [
+        "person"
+      ],
+      "description": "Organization has a person as a member (inverse of member_of).",
+      "examples": [
+        {
+          "from": "org_malice_mizer",
+          "to": "person_mana",
+          "role": "guitar"
+        }
+      ],
       "origins": [
         "explicit"
       ],
@@ -770,5 +810,5 @@
     "media": "gold",
     "meta": "gray"
   },
-  "mermaid_er": "erDiagram\n    organization ||--o{ appearance : \"Aired [derived]\"\n    person ||--o{ appearance : \"Appeared at [derived]\"\n    song ||--o{ album : \"Appears on [derived]\"\n    song ||--o{ single : \"Appears on [derived]\"\n    appearance ||--o{ organization : \"Broadcast on [derived]\"\n    song ||--o{ reference : \"Cited by\"\n    album ||--o{ reference : \"Cited by\"\n    single ||--o{ reference : \"Cited by\"\n    person ||--o{ reference : \"Cited by\"\n    concert ||--o{ reference : \"Cited by\"\n    appearance ||--o{ reference : \"Cited by\"\n    article ||--o{ reference : \"Cited by\"\n    video ||--o{ reference : \"Cited by\"\n    concert ||--o{ song : \"Covers (planned)\"\n    appearance ||--o{ song : \"Covers (planned)\"\n    album ||--o{ song : \"Covers (planned)\"\n    single ||--o{ song : \"Covers (planned)\"\n    person ||--o{ song : \"Credited on [derived]\"\n    reference ||--o{ song : \"Discusses [derived+explicit]\"\n    reference ||--o{ album : \"Discusses [derived+explicit]\"\n    reference ||--o{ single : \"Discusses [derived+explicit]\"\n    reference ||--o{ person : \"Discusses [derived+explicit]\"\n    reference ||--o{ concert : \"Discusses [derived+explicit]\"\n    reference ||--o{ appearance : \"Discusses [derived+explicit]\"\n    reference ||--o{ article : \"Discusses [derived+explicit]\"\n    reference ||--o{ video : \"Discusses [derived+explicit]\"\n    appearance ||--o{ person : \"Featured appearance [derived]\"\n    appearance ||--o{ song : \"Features appearance performance [derived]\"\n    concert ||--o{ song : \"Features concert performance [derived]\"\n    concert ||--o{ person : \"Features concert performance [derived]\"\n    concert ||--o{ venue : \"Held at [derived]\"\n    appearance ||--o{ venue : \"Held at [derived]\"\n    venue ||--o{ concert : \"Hosted [derived]\"\n    venue ||--o{ appearance : \"Hosted [derived]\"\n    reference ||--o{ article : \"Includes article [derived]\"\n    album ||--o{ song : \"Includes song [derived]\"\n    single ||--o{ song : \"Includes song [derived]\"\n    person ||--o{ organization : \"Member of (planned)\"\n    song ||--o{ appearance : \"Performed on appearance [derived]\"\n    song ||--o{ concert : \"Performed at concert [derived]\"\n    person ||--o{ concert : \"Performed at concert [derived]\"\n    song ||--o{ person : \"Personnel credit [derived]\"\n    image ||--o{ concert : \"Photographed at (planned)\"\n    image ||--o{ appearance : \"Photographed at (planned)\"\n    image ||--o{ venue : \"Photographed at (planned)\"\n    article ||--o{ reference : \"Published in [derived]\"\n    song ||--o{ song : \"References\"\n    song ||--o{ album : \"References\"\n    song ||--o{ single : \"References\"\n    song ||--o{ appearance : \"References\"\n    song ||--o{ venue : \"References\"\n    song ||--o{ concert : \"References\"\n    concert ||--o{ song : \"References\"\n    concert ||--o{ album : \"References\"\n    concert ||--o{ single : \"References\"\n    concert ||--o{ appearance : \"References\"\n    concert ||--o{ venue : \"References\"\n    concert ||--o{ concert : \"References\"\n    appearance ||--o{ song : \"References\"\n    appearance ||--o{ album : \"References\"\n    appearance ||--o{ single : \"References\"\n    appearance ||--o{ appearance : \"References\"\n    appearance ||--o{ venue : \"References\"\n    appearance ||--o{ concert : \"References\"\n    reference ||--o{ song : \"References\"\n    reference ||--o{ album : \"References\"\n    reference ||--o{ single : \"References\"\n    reference ||--o{ appearance : \"References\"\n    reference ||--o{ venue : \"References\"\n    reference ||--o{ concert : \"References\"\n    song }o--o{ song : \"Related song\""
+  "mermaid_er": "erDiagram\n    organization ||--o{ appearance : \"Aired [derived]\"\n    person ||--o{ appearance : \"Appeared at [derived]\"\n    song ||--o{ album : \"Appears on [derived]\"\n    song ||--o{ single : \"Appears on [derived]\"\n    appearance ||--o{ organization : \"Broadcast on [derived]\"\n    song ||--o{ reference : \"Cited by\"\n    album ||--o{ reference : \"Cited by\"\n    single ||--o{ reference : \"Cited by\"\n    person ||--o{ reference : \"Cited by\"\n    concert ||--o{ reference : \"Cited by\"\n    appearance ||--o{ reference : \"Cited by\"\n    article ||--o{ reference : \"Cited by\"\n    video ||--o{ reference : \"Cited by\"\n    concert ||--o{ song : \"Covers (planned)\"\n    appearance ||--o{ song : \"Covers (planned)\"\n    album ||--o{ song : \"Covers (planned)\"\n    single ||--o{ song : \"Covers (planned)\"\n    person ||--o{ song : \"Credited on [derived]\"\n    reference ||--o{ song : \"Discusses [derived+explicit]\"\n    reference ||--o{ album : \"Discusses [derived+explicit]\"\n    reference ||--o{ single : \"Discusses [derived+explicit]\"\n    reference ||--o{ person : \"Discusses [derived+explicit]\"\n    reference ||--o{ concert : \"Discusses [derived+explicit]\"\n    reference ||--o{ appearance : \"Discusses [derived+explicit]\"\n    reference ||--o{ article : \"Discusses [derived+explicit]\"\n    reference ||--o{ video : \"Discusses [derived+explicit]\"\n    appearance ||--o{ person : \"Featured appearance [derived]\"\n    appearance ||--o{ song : \"Features appearance performance [derived]\"\n    concert ||--o{ song : \"Features concert performance [derived]\"\n    concert ||--o{ person : \"Features concert performance [derived]\"\n    organization ||--o{ person : \"Has member\"\n    concert ||--o{ venue : \"Held at [derived]\"\n    appearance ||--o{ venue : \"Held at [derived]\"\n    venue ||--o{ concert : \"Hosted [derived]\"\n    venue ||--o{ appearance : \"Hosted [derived]\"\n    reference ||--o{ article : \"Includes article [derived]\"\n    album ||--o{ song : \"Includes song [derived]\"\n    single ||--o{ song : \"Includes song [derived]\"\n    person ||--o{ organization : \"Member of\"\n    song ||--o{ appearance : \"Performed on appearance [derived]\"\n    song ||--o{ concert : \"Performed at concert [derived]\"\n    person ||--o{ concert : \"Performed at concert [derived]\"\n    song ||--o{ person : \"Personnel credit [derived]\"\n    image ||--o{ concert : \"Photographed at (planned)\"\n    image ||--o{ appearance : \"Photographed at (planned)\"\n    image ||--o{ venue : \"Photographed at (planned)\"\n    article ||--o{ reference : \"Published in [derived]\"\n    song ||--o{ song : \"References\"\n    song ||--o{ album : \"References\"\n    song ||--o{ single : \"References\"\n    song ||--o{ appearance : \"References\"\n    song ||--o{ venue : \"References\"\n    song ||--o{ concert : \"References\"\n    concert ||--o{ song : \"References\"\n    concert ||--o{ album : \"References\"\n    concert ||--o{ single : \"References\"\n    concert ||--o{ appearance : \"References\"\n    concert ||--o{ venue : \"References\"\n    concert ||--o{ concert : \"References\"\n    appearance ||--o{ song : \"References\"\n    appearance ||--o{ album : \"References\"\n    appearance ||--o{ single : \"References\"\n    appearance ||--o{ appearance : \"References\"\n    appearance ||--o{ venue : \"References\"\n    appearance ||--o{ concert : \"References\"\n    reference ||--o{ song : \"References\"\n    reference ||--o{ album : \"References\"\n    reference ||--o{ single : \"References\"\n    reference ||--o{ appearance : \"References\"\n    reference ||--o{ venue : \"References\"\n    reference ||--o{ concert : \"References\"\n    song }o--o{ song : \"Related song\""
 }
