@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:34:02.029167Z",
+  "generated_at": "2026-07-15T17:52:12.579873Z",
   "count": 152,
   "items": [
     {
@@ -384,10 +384,10 @@
     },
     {
       "title": "Gackt",
-      "src": "images/members/gackt.webp",
+      "src": "images/vintage/gackt-merveilles-gold-military.webp",
       "caption": "Portrait",
-      "source": "Malice Mizer Throughout The Years reference poster",
-      "source_url": "images/members/source/throughout-the-years.png",
+      "source": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
       "era": "1995",
       "category": "member",
       "external": false
@@ -594,10 +594,10 @@
     },
     {
       "title": "Kami",
-      "src": "images/members/kami.webp",
+      "src": "images/vintage/kami-merveilles-feather-collar.webp",
       "caption": "Portrait",
-      "source": "Malice Mizer Throughout The Years reference poster",
-      "source_url": "images/members/source/throughout-the-years.png",
+      "source": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
       "era": "1993",
       "category": "member",
       "external": false
