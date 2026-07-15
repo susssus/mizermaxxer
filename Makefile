@@ -33,10 +33,16 @@ migrate-v2-catalog:
 entities-validate:
 	$(PYTHON) scripts/validate_entities.py
 
+ontology:
+	$(PYTHON) scripts/build_ontology_diagram.py
+
+classify-content:
+	$(PYTHON) scripts/apply_content_classification.py
+
 links:
 	$(PYTHON) scripts/build_links_index.py
 
-entities: entities-validate links
+entities: entities-validate ontology links
 
 build: validate links
 	$(PYTHON) scripts/build_db.py

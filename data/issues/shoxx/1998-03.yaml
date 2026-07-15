@@ -1,19 +1,13 @@
 id: shoxx-1998-03
 publication: shoxx
-issue_number: "61"
+issue_number: '61'
 volume: null
 publication_date: 1998-03
 date_precision: month
 verification_status: verified
-source_notes: >
-  SHOXX Vol. 61 (March 1998). Identified by r/visualkei community (u/CatKingClay, Jan 2025):
-  https://www.reddit.com/r/visualkei/comments/1ibrtct/where_are_these_scans_from/
-  MIsaO Lab: La'cryma Christi joint cover; カラー38p; パート別対談、Q&A（衣装：au revoir）.
-  Malice Archive 40 scans cover magazine pp. 1–3, 16–53 (see shoxx_061_scan_hunt.yaml#page_mapping).
-  "au revoir" is the costume theme for the whole 38pp session — not magazine pp. 12–13.
-  MM clippings (40 JPEG pages) on The Malice Archive / file.garden (July 2026).
-  Full 84-page issue RAR (Eternal Silence 2009) still not re-uploaded.
-  See ref_shoxx_061 and scripts/research/scan_sources_catalog.yaml#shoxx-vol-61-partial.
+source_notes: 'SHOXX Vol. 61 (March 1998). Identified by r/visualkei community (u/CatKingClay, Jan 2025): https://www.reddit.com/r/visualkei/comments/1ibrtct/where_are_these_scans_from/ MIsaO Lab: La''cryma Christi joint cover; カラー38p; パート別対談、Q&A（衣装：au revoir）. Malice Archive 40 scans cover magazine pp. 1–3, 16–53 (see shoxx_061_scan_hunt.yaml#page_mapping). "au revoir" is the costume theme for the whole 38pp session — not magazine pp. 12–13. MM clippings (40 JPEG pages) on The Malice Archive / file.garden (July 2026). Full 84-page issue RAR (Eternal Silence 2009) still not re-uploaded. See ref_shoxx_061 and scripts/research/scan_sources_catalog.yaml#shoxx-vol-61-partial.
+
+  '
 research_targets:
 - trace Eternal Silence RAR re-upload if any
 - locate missing magazine pp. 16–17 opener and color poster (not in 40-page set)
@@ -22,7 +16,7 @@ articles:
   title_ja: 聖邪の共宴
   title_en: MALICE MIZER & La'cryma Christi — Special Talking Session
   type: photo_spread
-  pages: "16-53"
+  pages: 16-53
   members:
   - gackt
   - kami
@@ -42,11 +36,10 @@ articles:
     available: false
     url: null
   purchase_links: []
-  notes: >
-    MM clippings only (40 pages); not full 84-page issue. Source: The Malice Archive (Anna scan;
-    cover by Morgianasama). Costume theme au revoir (MIsaO Lab). Reddit r/visualkei crops
-    (reddit-1ibrtct) are 2-page spread composites from SESSION photo pages — not gallery
-    files 12–13 (those are solo Gackt/Mana portraits). See shoxx_061_scan_hunt.yaml#reddit_crop_matches.
+  notes: 'MM clippings only (40 pages); not full 84-page issue. Source: The Malice Archive (Anna scan; cover by Morgianasama). Costume theme au revoir (MIsaO Lab). Reddit r/visualkei crops (reddit-1ibrtct) are 2-page spread composites from SESSION photo pages — not gallery files 12–13 (those are solo Gackt/Mana portraits). See shoxx_061_scan_hunt.yaml#reddit_crop_matches.
+
+    '
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: updated

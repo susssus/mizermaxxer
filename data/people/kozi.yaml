@@ -29,7 +29,7 @@ bio:
     anniversary performances.
 
     '
-portrait_image: images/members/kozi.webp
+portrait_image: images/vintage/kozi-memoire-dx.webp
 gallery_images:
 - src: images/vintage/kozi-memoire-dx.webp
   caption: Memoire DX booklet
@@ -45,6 +45,9 @@ gallery_images:
   source: Malice Meezer / malicemeezer.neocities.org
 - src: images/vintage/kami-kozi.webp
   caption: With Kami
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-mana-tetsu.webp
+  caption: With Mana
   source: Malice Meezer / malicemeezer.neocities.org
 - src: images/vintage/halloween-mana-kozi-yuki.webp
   caption: Halloween (with Mana and Yuki)

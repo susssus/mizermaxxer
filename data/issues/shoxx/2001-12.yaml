@@ -37,6 +37,7 @@ articles:
     url: null
   purchase_links: []
   notes: 表紙。カラー24p、フォトギャラリー&インタビュー&「薔薇の婚礼」レビュー
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

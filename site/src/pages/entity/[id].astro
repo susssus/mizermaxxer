@@ -1,6 +1,7 @@
 ---
 import PersonProfile from "../../components/PersonProfile.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import EntityEgoGraph from "../../components/EntityEgoGraph.astro";
 import NotFound from "../../components/NotFound.astro";
 import TriggerWarning from "../../components/TriggerWarning.astro";
 import Base from "../../layouts/Base.astro";
@@ -15,6 +16,9 @@ const row = linksIndex.browse.find((entry) => entry.id === id);
 const entity = linksIndex.entities_by_id[id as string];
 const links = linksIndex.linked_entities[id as string]?.all ?? [];
 const titleById = Object.fromEntries(linksIndex.browse.map((entry) => [entry.id, entry.title]));
+const typeColorById = Object.fromEntries(
+  linksIndex.browse.map((entry) => [entry.id, entry.type_color]),
+);
 const entityDescription = row
   ? `${row.title} — ${row.type_label} in the Malice Mizer research archive. Linked releases, performances, and related entities.`
   : undefined;
@@ -108,6 +112,14 @@ const entityDescription = row
         </div>
       )}
     </section>
+
+    <EntityEgoGraph
+      centerId={row.id}
+      centerTitle={row.title}
+      links={links}
+      titleById={titleById}
+      typeColorById={typeColorById}
+    />
 
     <section class="card" style="margin-top: 1rem;">
       <h3>Linked entities</h3>

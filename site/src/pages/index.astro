@@ -7,6 +7,7 @@ import StatCard from "../components/StatCard.astro";
 import Base from "../layouts/Base.astro";
 import archive from "../data/archive.json";
 import { absoluteUrl, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "../lib/seo";
+import { memberEraLabels } from "../lib/memberEras.ts";
 import { translationSlug } from "../lib/translations.ts";
 
 const pubMap = new Map(archive.publications.map((pub) => [pub.slug, pub]));
@@ -55,17 +56,6 @@ const entityIds: Record<string, string> = {
   klaha: "person_klaha",
   tetsu: "person_tetsu",
   gaz: "person_gaz",
-};
-
-const eraLabels: Record<string, string> = {
-  tetsu: "Tetsu era",
-  gackt: "Gackt era",
-  klaha: "Klaha era",
-  mana: "Gackt era",
-  kozi: "Gackt era",
-  yuki: "Gackt era",
-  kami: "Gackt era",
-  gaz: "Tetsu era",
 };
 
 const memberOrder = ["tetsu", "mana", "kozi", "yuki", "gaz", "kami", "gackt", "klaha"];
@@ -152,7 +142,7 @@ const jsonLd = [
           active={member!.active}
           portrait={member!.portrait_image}
           entityId={entityIds[member!.slug]}
-          era={eraLabels[member!.slug]}
+          era={memberEraLabels(member!.active)}
         />
       ))}
     </div>
@@ -199,6 +189,7 @@ const jsonLd = [
         <th>Publication</th>
         <th>Issue</th>
         <th>Type</th>
+        <th>Nature</th>
         <th>Title</th>
         <th>Status</th>
       </tr>
@@ -210,6 +201,8 @@ const jsonLd = [
           data-year={issue.publication_date.slice(0, 4)}
           data-publication={issue.publication}
           data-type={article.type}
+          data-content-nature={article.content_nature ?? ""}
+          data-promo-subtype={article.promotional_subtype ?? ""}
           data-members={article.members.join(",")}
           data-status={issue.verification_status}
           data-scan={String(article.scan_available)}
@@ -218,7 +211,13 @@ const jsonLd = [
           <td>{issue.publication_date}</td>
           <td>{publication?.name_en ?? issue.publication}</td>
           <td><a href={`/issue/${issue.id}`}>{issue.issue_number ?? issue.id}</a></td>
-          <td>{article.type.replaceAll("_", " ")}</td>
+          <td>
+            {article.type.replaceAll("_", " ")}
+            {article.promotional_subtype ? (
+              <div class="muted" style="font-size:0.78rem;">{article.promotional_subtype.replaceAll("_", " ")}</div>
+            ) : null}
+          </td>
+          <td>{article.content_nature?.replaceAll("_", " ") ?? "—"}</td>
           <td>{article.title_en ?? article.title_ja ?? "—"}</td>
           <td><span class={`badge ${issue.verification_status}`}>{issue.verification_status.replaceAll("_", " ")}</span></td>
         </tr>

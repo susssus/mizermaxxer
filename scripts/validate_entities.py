@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -14,10 +15,14 @@ from entities.common import (
     DATA_DIR,
     ENTITY_SCHEMA_BY_TYPE,
     LINKS_PATH,
+    ONTOLOGY_PATH,
     RELATION_TYPES_PATH,
     SCHEMA_ENTITY_DIR,
+    active_explicit_relations,
+    entity_type_for_id,
     load_entities,
     load_explicit_links,
+    load_ontology,
     load_relation_types,
     load_yaml,
 )
@@ -170,6 +175,71 @@ def validate_legacy_v1_slugs(entities: dict[str, dict]) -> list[str]:
     return errors
 
 
+def validate_relation_types() -> list[str]:
+    errors: list[str] = []
+    data = load_yaml(RELATION_TYPES_PATH)
+    ontology = load_ontology()
+    seen: set[str] = set()
+    required_fields = ("id", "label", "category", "domain", "range", "status")
+
+    for section in ("derived", "explicit"):
+        for item in data.get(section, []):
+            rel_id = item.get("id")
+            if not rel_id:
+                errors.append(f"relation_types.yaml: missing id in {section}")
+                continue
+            if rel_id in seen:
+                errors.append(f"relation_types.yaml: duplicate relation id '{rel_id}'")
+            seen.add(rel_id)
+            for field in required_fields:
+                if field not in item:
+                    errors.append(f"relation_types.yaml: relation '{rel_id}' missing required field '{field}'")
+            status = item.get("status", "active")
+            if status == "planned" and item.get("examples") is None:
+                errors.append(f"relation_types.yaml: planned relation '{rel_id}' must include examples: []")
+            elif status == "active" and not item.get("examples"):
+                errors.append(f"relation_types.yaml: active relation '{rel_id}' must include at least one example")
+
+    for entity_type, meta in ontology.get("entity_types", {}).items():
+        for field in ("label", "prefix", "schema", "category", "color"):
+            if field not in meta:
+                errors.append(f"ontology.yaml: entity type '{entity_type}' missing required field '{field}'")
+
+    return errors
+
+
+def validate_domain_range(
+    from_id: str,
+    to_id: str,
+    relation: str,
+    relation_types: dict[str, dict[str, Any]],
+    entities: dict[str, dict[str, Any]],
+    context: str,
+) -> list[str]:
+    errors: list[str] = []
+    meta = relation_types.get(relation)
+    if not meta:
+        errors.append(f"{context}: unknown relation '{relation}'")
+        return errors
+
+    from_type = entity_type_for_id(from_id, entities)
+    to_type = entity_type_for_id(to_id, entities)
+    if not from_type or not to_type:
+        return errors
+
+    domain = meta.get("domain", [])
+    range_types = meta.get("range", [])
+    if domain and from_type not in domain:
+        errors.append(
+            f"{context}: relation '{relation}' domain mismatch — '{from_id}' is type '{from_type}', expected {domain}"
+        )
+    if range_types and to_type not in range_types:
+        errors.append(
+            f"{context}: relation '{relation}' range mismatch — '{to_id}' is type '{to_type}', expected {range_types}"
+        )
+    return errors
+
+
 def validate_links() -> list[str]:
     errors: list[str] = []
     if not LINKS_PATH.exists():
@@ -177,7 +247,7 @@ def validate_links() -> list[str]:
 
     entities = load_entities()
     relation_types = load_relation_types()
-    allowed = {item["id"] for item in relation_types.values() if item.get("origin") == "explicit"}
+    allowed = active_explicit_relations(relation_types)
     link_validator = entity_validator("link.schema.json")
 
     for index, link in enumerate(load_explicit_links()):
@@ -188,24 +258,75 @@ def validate_links() -> list[str]:
         if link["to"] not in entities:
             errors.append(f"links.yaml[{index}]: unknown to entity '{link['to']}'")
         if link["relation"] not in allowed:
-            errors.append(f"links.yaml[{index}]: relation '{link['relation']}' not in relation_types explicit list")
+            errors.append(
+                f"links.yaml[{index}]: relation '{link['relation']}' not in active explicit relation list"
+            )
+        errors.extend(
+            validate_domain_range(
+                link["from"],
+                link["to"],
+                link["relation"],
+                relation_types,
+                entities,
+                f"links.yaml[{index}]",
+            )
+        )
 
     return errors
 
 
-def validate_relation_types() -> list[str]:
+def validate_derived_domain_range(entities: dict[str, dict[str, Any]]) -> list[str]:
+    """Validate that entity fields produce edges within ontology domain/range."""
     errors: list[str] = []
-    data = load_yaml(RELATION_TYPES_PATH)
-    seen: set[str] = set()
-    for section in ("derived", "explicit"):
-        for item in data.get(section, []):
-            rel_id = item.get("id")
-            if not rel_id:
-                errors.append(f"relation_types.yaml: missing id in {section}")
-                continue
-            if rel_id in seen:
-                errors.append(f"relation_types.yaml: duplicate relation id '{rel_id}'")
-            seen.add(rel_id)
+    relation_types = load_relation_types()
+    ids = set(entities)
+
+    def check(from_id: str, to_id: str, relation: str, context: str) -> None:
+        if from_id in ids and to_id in ids:
+            errors.extend(validate_domain_range(from_id, to_id, relation, relation_types, entities, context))
+
+    for entity_id, entity in entities.items():
+        rel_path = entity.get("_path", entity_id)
+        entity_type = entity.get("type")
+
+        if entity_type == "song":
+            for album_id in entity.get("appears_on", []):
+                check(entity_id, album_id, "appears_on", rel_path)
+            for credit in entity.get("personnel", []):
+                check(entity_id, credit["person"], "personnel", rel_path)
+
+        if entity_type == "album":
+            for track in entity.get("tracklist", []):
+                check(entity_id, track["song"], "includes_song", rel_path)
+
+        if entity_type == "concert":
+            for song_id in entity.get("setlist", []):
+                check(song_id, entity_id, "performed_at_concert", rel_path)
+            for person_id in entity.get("members_present", []):
+                check(person_id, entity_id, "performed_at_concert", rel_path)
+            if entity.get("venue"):
+                check(entity_id, entity["venue"], "held_at", rel_path)
+
+        if entity_type == "appearance":
+            for song_id in entity.get("songs_performed", []):
+                check(song_id, entity_id, "performed_at_appearance", rel_path)
+            for person_id in entity.get("members_present", []):
+                check(person_id, entity_id, "appeared_at", rel_path)
+            broadcast = entity.get("broadcast") or {}
+            if broadcast.get("network"):
+                check(entity_id, broadcast["network"], "broadcast_on", rel_path)
+            if entity.get("venue"):
+                check(entity_id, entity["venue"], "held_at", rel_path)
+
+        if entity_type == "reference":
+            for fact in entity.get("facts", []):
+                for target in fact.get("targets", []):
+                    check(entity_id, target, "discusses", rel_path)
+
+        if entity_type == "article":
+            if entity.get("published_in"):
+                check(entity_id, entity["published_in"], "published_in", rel_path)
+
     return errors
 
 
@@ -215,6 +336,7 @@ def main() -> int:
         validate_relation_types()
         + validate_entities()
         + validate_legacy_v1_slugs(entities)
+        + validate_derived_domain_range(entities)
         + validate_links()
     )
     if errors:

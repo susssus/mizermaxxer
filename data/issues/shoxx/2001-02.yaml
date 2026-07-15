@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー3p、2000/11/19 Zepp Tokyoレポ
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

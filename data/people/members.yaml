@@ -8,17 +8,17 @@ members:
   name: Mana
   role: guitar
   active: 1992-2001
-  portrait_image: images/members/mana.webp
+  portrait_image: images/vintage/mana-memoire-dx.webp
 - slug: kozi
   name: Közi
   role: guitar
   active: 1992-2001
-  portrait_image: images/members/kozi.webp
+  portrait_image: images/vintage/kozi-memoire-dx.webp
 - slug: yuki
   name: Yu~ki
   role: bass
   active: 1992-2001
-  portrait_image: images/members/yuki.webp
+  portrait_image: images/vintage/yuki-memoire-dx.webp
 - slug: kami
   name: Kami
   role: drums

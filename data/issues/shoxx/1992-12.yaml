@@ -5,9 +5,9 @@ volume: null
 publication_date: 1992-12
 date_precision: month
 verification_status: possible
-source_notes: >
-  Earliest known magazine interview (Dec 1992). English translation on scape.sc;
-  original page scan not located in public archives as of July 2026.
+source_notes: 'Earliest known magazine interview (Dec 1992). English translation on scape.sc; original page scan not located in public archives as of July 2026.
+
+  '
 research_targets:
 - confirm issue number
 - locate page scan
@@ -33,6 +33,7 @@ articles:
     url: http://scape.sc/translations/mm-shoxx-dec92.php
   purchase_links: []
   notes: Text translation by Kurai on scape.sc; page scan still sought.
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

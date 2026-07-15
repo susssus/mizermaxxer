@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-1994-07-24-memoire.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-1994-07-24-memoire-ii
   title_ja: null
   title_en: Mémoire release flyer (variant II)
@@ -50,8 +52,10 @@ articles:
     available: true
     url: data/translations/flyers-1994-07-24-memoire-ii.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-1994-12-24-memoire-dx
   title_ja: null
   title_en: Mémoire DX release flyer
@@ -71,8 +75,10 @@ articles:
     available: true
     url: data/translations/flyers-1994-12-24-memoire-dx.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

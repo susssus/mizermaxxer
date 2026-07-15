@@ -2,6 +2,7 @@
 import MemberCard from "../../components/MemberCard.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
+import { memberEraLabels } from "../../lib/memberEras.ts";
 
 const entityIds: Record<string, string> = {
   mana: "person_mana",
@@ -12,17 +13,6 @@ const entityIds: Record<string, string> = {
   klaha: "person_klaha",
   tetsu: "person_tetsu",
   gaz: "person_gaz",
-};
-
-const eraLabels: Record<string, string> = {
-  tetsu: "Tetsu era",
-  gackt: "Gackt era",
-  klaha: "Klaha era",
-  mana: "Gackt era",
-  kozi: "Gackt era",
-  yuki: "Gackt era",
-  kami: "Gackt era",
-  gaz: "Tetsu era",
 };
 
 const memberOrder = ["tetsu", "mana", "kozi", "yuki", "gaz", "kami", "gackt", "klaha"];
@@ -50,7 +40,7 @@ const members = memberOrder
           active={member!.active}
           portrait={member!.portrait_image}
           entityId={entityIds[member!.slug]}
-          era={eraLabels[member!.slug]}
+          era={memberEraLabels(member!.active)}
         />
       ))}
     </div>

@@ -1,0 +1,111 @@
+# Entity type registry — single source of truth for type labels and UI metadata.
+# Consumed by build_links_index.py, build_ontology_diagram.py, and validate_entities.py.
+
+entity_types:
+  song:
+    label: Song
+    label_ja: 楽曲
+    prefix: song_
+    schema: song.schema.json
+    category: song
+    color: lavender
+    description: Musical composition in the archive discography.
+
+  album:
+    label: Album
+    label_ja: アルバム
+    prefix: album_
+    schema: album.schema.json
+    category: release
+    color: purple
+    description: Studio or live album release.
+
+  single:
+    label: Single
+    label_ja: シングル
+    prefix: single_
+    schema: album.schema.json
+    category: release
+    color: purple
+    description: Single or maxi-single release.
+
+  concert:
+    label: Concert
+    label_ja: ライブ
+    prefix: concert_
+    schema: concert.schema.json
+    category: concert
+    color: coral
+    description: Live concert or oneman performance.
+
+  appearance:
+    label: Appearance
+    label_ja: 出演
+    prefix: appearance_
+    schema: appearance.schema.json
+    category: appearance
+    color: amber
+    description: TV, radio, variety, or commercial broadcast appearance.
+
+  person:
+    label: Person
+    label_ja: メンバー
+    prefix: person_
+    schema: person.schema.json
+    category: person
+    color: teal
+    description: Band member, collaborator, or credited individual.
+
+  reference:
+    label: Reference
+    label_ja: 資料
+    prefix: ref_
+    schema: reference.schema.json
+    category: press
+    color: pink
+    description: Magazine issue, book, scan source, or bibliographic reference.
+
+  video:
+    label: Video
+    label_ja: 映像
+    prefix: video_
+    schema: reference.schema.json
+    category: media
+    color: gold
+    description: Music video, concert film, or standalone video release.
+
+  venue:
+    label: Venue
+    label_ja: 会場
+    prefix: venue_
+    schema: venue.schema.json
+    category: meta
+    color: gray
+    description: Concert hall, dome, or performance venue.
+
+  organization:
+    label: Organization
+    label_ja: 組織
+    prefix: org_
+    schema: organization.schema.json
+    category: meta
+    color: gray
+    description: Broadcaster, label, or publisher organization.
+
+  article:
+    label: Article
+    label_ja: 記事
+    prefix: article_
+    schema: article.schema.json
+    category: press
+    color: pink
+    description: Magazine article entry within a bibliography issue.
+
+  image:
+    label: Image
+    label_ja: 画像
+    prefix: image_
+    schema: entity.schema.json
+    category: media
+    color: gold
+    description: Photograph, scan, or image asset.

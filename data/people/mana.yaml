@@ -29,7 +29,7 @@ bio:
     concerts, including Malice Mizer''s 25th-anniversary shows in 2018.
 
     '
-portrait_image: images/members/mana.webp
+portrait_image: images/vintage/mana-memoire-dx.webp
 gallery_images:
 - src: images/vintage/mana-memoire-dx.webp
   caption: Memoire DX booklet
@@ -48,6 +48,9 @@ gallery_images:
   source: Malice Meezer / malicemeezer.neocities.org
 - src: images/vintage/live-memoire-final-1994.webp
   caption: Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)
+  source: Malice Meezer / malicemeezer.neocities.org
+- src: images/vintage/live-mana-tetsu.webp
+  caption: With Kozi
   source: Malice Meezer / malicemeezer.neocities.org
 - src: images/vintage/halloween-mana-kozi-yuki.webp
   caption: Halloween (with Kozi and Yuki)

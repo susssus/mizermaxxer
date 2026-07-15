@@ -41,6 +41,7 @@ articles:
     url: null
   purchase_links: []
   notes: B-PASS June 1998
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

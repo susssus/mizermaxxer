@@ -37,6 +37,7 @@ articles:
     url: null
   purchase_links: []
   notes: 表紙。カラー32p、世界5大美女図鑑、Q&Aインタビュー
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

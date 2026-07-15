@@ -4,6 +4,12 @@ import archive from "../data/archive.json";
 const publications = archive.publications.sort((a, b) => a.priority - b.priority);
 const years = [...new Set(archive.issues.map((issue) => issue.publication_date.slice(0, 4)))].sort();
 const types = [...new Set(archive.issues.flatMap((issue) => issue.articles.map((a) => a.type)))].sort();
+const contentNatures = [...new Set(
+  archive.issues.flatMap((issue) => issue.articles.map((a) => a.content_nature).filter(Boolean))
+)].sort();
+const promotionalSubtypes = [...new Set(
+  archive.issues.flatMap((issue) => issue.articles.map((a) => a.promotional_subtype).filter(Boolean))
+)].sort();
 const members = [...new Set(archive.issues.flatMap((issue) => issue.articles.flatMap((a) => a.members)))].sort();
 const statuses = [...new Set(archive.issues.map((issue) => issue.verification_status))].sort();
 ---
@@ -28,6 +34,20 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
     <select id="publication">
       <option value="">All</option>
       {publications.map((pub) => <option value={pub.slug}>{pub.name_en}</option>)}
+    </select>
+  </label>
+  <label>
+    Content
+    <select id="contentNature">
+      <option value="">All</option>
+      {contentNatures.map((nature) => <option value={nature}>{nature}</option>)}
+    </select>
+  </label>
+  <label>
+    Promo type
+    <select id="promoSubtype">
+      <option value="">All</option>
+      {promotionalSubtypes.map((subtype) => <option value={subtype}>{subtype.replaceAll("_", " ")}</option>)}
     </select>
   </label>
   <label>
@@ -75,7 +95,7 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
 
 <script>
   const rows = Array.from(document.querySelectorAll("[data-row]"));
-  const filterIds = ["yearFrom", "yearTo", "publication", "type", "member", "status", "scan", "translation"] as const;
+  const filterIds = ["yearFrom", "yearTo", "publication", "contentNature", "promoSubtype", "type", "member", "status", "scan", "translation"] as const;
 
   function resetFilters() {
     filterIds.forEach((id) => {
@@ -88,6 +108,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
     const yearFrom = (document.getElementById("yearFrom") as HTMLSelectElement).value;
     const yearTo = (document.getElementById("yearTo") as HTMLSelectElement).value;
     const publication = (document.getElementById("publication") as HTMLSelectElement).value;
+    const contentNature = (document.getElementById("contentNature") as HTMLSelectElement).value;
+    const promoSubtype = (document.getElementById("promoSubtype") as HTMLSelectElement).value;
     const type = (document.getElementById("type") as HTMLSelectElement).value;
     const member = (document.getElementById("member") as HTMLSelectElement).value;
     const status = (document.getElementById("status") as HTMLSelectElement).value;
@@ -101,6 +123,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
       const matchesYearFrom = !yearFrom || year >= yearFrom;
       const matchesYearTo = !yearTo || year <= yearTo;
       const matchesPublication = !publication || dataset.publication === publication;
+      const matchesContentNature = !contentNature || dataset.contentNature === contentNature;
+      const matchesPromoSubtype = !promoSubtype || dataset.promoSubtype === promoSubtype;
       const matchesType = !type || dataset.type === type;
       const matchesMember = !member || (dataset.members || "").split(",").includes(member);
       const matchesStatus = !status || dataset.status === status;
@@ -117,6 +141,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
         matchesYearFrom &&
         matchesYearTo &&
         matchesPublication &&
+        matchesContentNature &&
+        matchesPromoSubtype &&
         matchesType &&
         matchesMember &&
         matchesStatus &&
@@ -160,6 +186,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
       yearFrom: "year_from",
       yearTo: "year_to",
       publication: "pub",
+      contentNature: "nature",
+      promoSubtype: "promo",
       type: "type",
       member: "member",
       status: "status",
@@ -183,6 +211,8 @@ const statuses = [...new Set(archive.issues.map((issue) => issue.verification_st
       yearFrom: "year_from",
       yearTo: "year_to",
       publication: "pub",
+      contentNature: "nature",
+      promoSubtype: "promo",
       type: "type",
       member: "member",
       status: "status",

@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー4p、インタビュー振り返り。年賀状（Mana）。
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

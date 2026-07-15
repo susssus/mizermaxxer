@@ -5,8 +5,7 @@ volume: null
 publication_date: 1998-03
 date_precision: month
 verification_status: verified
-source_notes: 'ma chérie Fan Club Magazine Vol. 4 (Spring 1998). 24 pages mirrored
-  locally under images/scans/fan-club/1998-03/. Gallery: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/
+source_notes: 'ma chérie Fan Club Magazine Vol. 4 (Spring 1998). 24 pages mirrored locally under images/scans/fan-club/1998-03/. Gallery: https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/
 
   '
 research_targets:
@@ -37,15 +36,8 @@ articles:
     available: true
     url: data/translations/fan-club-vol-4-1998-spring.yaml
   purchase_links: []
-  notes: '24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-03/02.jpg,
-    images/scans/fan-club/1998-03/03.jpg, images/scans/fan-club/1998-03/04.jpg, images/scans/fan-club/1998-03/05.jpg,
-    images/scans/fan-club/1998-03/06.jpg, images/scans/fan-club/1998-03/07.jpg, images/scans/fan-club/1998-03/08.jpg,
-    images/scans/fan-club/1998-03/09.jpg, images/scans/fan-club/1998-03/10.jpg, images/scans/fan-club/1998-03/11.jpg,
-    images/scans/fan-club/1998-03/12.jpg, images/scans/fan-club/1998-03/13.jpg, images/scans/fan-club/1998-03/14.jpg,
-    images/scans/fan-club/1998-03/15.jpg, images/scans/fan-club/1998-03/16.jpg, images/scans/fan-club/1998-03/17.jpg,
-    images/scans/fan-club/1998-03/18.jpg, images/scans/fan-club/1998-03/19.jpg, images/scans/fan-club/1998-03/20.jpg,
-    images/scans/fan-club/1998-03/21.jpg, images/scans/fan-club/1998-03/22.jpg, images/scans/fan-club/1998-03/23.jpg,
-    images/scans/fan-club/1998-03/24.jpg.'
+  notes: '24 page scans. Source Cantavanda / Madame Tarantula. Additional pages: images/scans/fan-club/1998-03/02.jpg, images/scans/fan-club/1998-03/03.jpg, images/scans/fan-club/1998-03/04.jpg, images/scans/fan-club/1998-03/05.jpg, images/scans/fan-club/1998-03/06.jpg, images/scans/fan-club/1998-03/07.jpg, images/scans/fan-club/1998-03/08.jpg, images/scans/fan-club/1998-03/09.jpg, images/scans/fan-club/1998-03/10.jpg, images/scans/fan-club/1998-03/11.jpg, images/scans/fan-club/1998-03/12.jpg, images/scans/fan-club/1998-03/13.jpg, images/scans/fan-club/1998-03/14.jpg, images/scans/fan-club/1998-03/15.jpg, images/scans/fan-club/1998-03/16.jpg, images/scans/fan-club/1998-03/17.jpg, images/scans/fan-club/1998-03/18.jpg, images/scans/fan-club/1998-03/19.jpg, images/scans/fan-club/1998-03/20.jpg, images/scans/fan-club/1998-03/21.jpg, images/scans/fan-club/1998-03/22.jpg, images/scans/fan-club/1998-03/23.jpg, images/scans/fan-club/1998-03/24.jpg.'
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

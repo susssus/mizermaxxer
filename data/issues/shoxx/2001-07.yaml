@@ -33,6 +33,7 @@ articles:
     url: null
   purchase_links: []
   notes: Parsonal Series Klaha 撮り下ろし&インタビュー
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

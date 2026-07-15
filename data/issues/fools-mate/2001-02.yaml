@@ -35,6 +35,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー3p、2000/11/19 Zepp Tokyoレポ&インタビュー（Klaha,Mana）
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

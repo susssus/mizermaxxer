@@ -5,9 +5,9 @@ volume: null
 publication_date: 1997-07
 date_precision: month
 verification_status: verified
-source_notes: >
-  vkgy roles: large_feature. Canonical issue data: data/issues/fools-mate/1997-07.yaml
-  [vkgy] https://vk.gy/magazines/fools-mate/7/no189/
+source_notes: 'vkgy roles: large_feature. Canonical issue data: data/issues/fools-mate/1997-07.yaml [vkgy] https://vk.gy/magazines/fools-mate/7/no189/
+
+  '
 research_targets: []
 articles:
 - id: fools-mate-vol-189-001
@@ -35,6 +35,7 @@ articles:
     url: data/translations/fools-mate-1997-07-interview.yaml
   purchase_links: []
   notes: Duplicate stub; see fools-mate-1997-07 for full article list and local scans.
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

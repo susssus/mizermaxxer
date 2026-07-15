@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-1992-08-debut-era.yaml
   purchase_links: []
-  notes: 'Tetsu-era flyer from 1992. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Tetsu-era flyer from 1992. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: other
+  promotional_carrier: standalone
 - id: flyers-1993-01-demo-sadness
   title_ja: null
   title_en: Sadness demo tape flyer
@@ -50,8 +52,10 @@ articles:
     available: false
     url: null
   purchase_links: []
-  notes: 'Sadness demo tape flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Sadness demo tape flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: demo_flyer
+  promotional_carrier: standalone
 - id: flyers-1993-06-live-1993
   title_ja: null
   title_en: Malice Mizer live flyer (1993)
@@ -71,8 +75,10 @@ articles:
     available: true
     url: data/translations/flyers-1993-06-live-1993.yaml
   purchase_links: []
-  notes: 'Live flyer from 1993. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Live flyer from 1993. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: gig_flyer
+  promotional_carrier: standalone
 - id: flyers-1994-01-live-1994
   title_ja: null
   title_en: Malice Mizer live flyer (1994)
@@ -92,8 +98,10 @@ articles:
     available: true
     url: data/translations/flyers-1994-01-live-1994.yaml
   purchase_links: []
-  notes: 'Live flyer from 1994. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Live flyer from 1994. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: gig_flyer
+  promotional_carrier: standalone
 - id: flyers-1993-08-artistic-expression
   title_ja: null
   title_en: Artistic expression flyer (translated quote)
@@ -113,8 +121,10 @@ articles:
     available: true
     url: data/translations/flyers-1993-08-artistic-expression.yaml
   purchase_links: []
-  notes: 'Flyer with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Flyer with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: other
+  promotional_carrier: standalone
 - id: flyers-1993-12-upcoming-lives
   title_ja: null
   title_en: Upcoming lives flyer
@@ -134,8 +144,10 @@ articles:
     available: true
     url: data/translations/flyers-1993-12-upcoming-lives.yaml
   purchase_links: []
-  notes: 'Flyer advertising upcoming live dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Flyer advertising upcoming live dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: gig_flyer
+  promotional_carrier: standalone
 - id: flyers-unknown-oldflyer9
   title_ja: null
   title_en: Malice Mizer flyer (date unknown)
@@ -155,8 +167,10 @@ articles:
     available: false
     url: null
   purchase_links: []
-  notes: 'Undated Tetsu-era flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer9.jpg
-    (Malice Meezer vintage gallery).'
+  notes: 'Undated Tetsu-era flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer9.jpg (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: other
+  promotional_carrier: standalone
 - id: flyers-unknown-oldflyer4
   title_ja: null
   title_en: Malice Mizer flyer (date unknown, variant)
@@ -176,8 +190,10 @@ articles:
     available: false
     url: null
   purchase_links: []
-  notes: 'Undated Tetsu-era flyer. Source scan: https://malicemeezer.neocities.org/tetsu/Oldflyer4.png
-    (Malice Meezer vintage gallery).'
+  notes: 'Undated Tetsu-era flyer. Source scan: https://malicemeezer.neocities.org/tetsu/Oldflyer4.png (Malice Meezer vintage gallery).'
+  content_nature: promotional
+  promotional_subtype: other
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

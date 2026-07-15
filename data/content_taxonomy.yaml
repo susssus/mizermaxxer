@@ -1,0 +1,98 @@
+# Content taxonomy — editorial vs promotional classification
+#
+# Applied on bibliography articles (v1 issues) and v2 article entities.
+# See docs/CONTENT_TAXONOMY.md for usage guidance.
+
+content_natures:
+  editorial:
+    label: Editorial
+    label_ja: 編集記事
+    description: Journalistic or fan-facing editorial content (interviews, features, reviews).
+
+  promotional:
+    label: Promotional
+    label_ja: 広告・宣伝
+    description: Advertising, flyers, listings, or other promotional material.
+
+promotional_subtypes:
+  gig_flyer:
+    label: Gig flyer
+    label_ja: ライブチラシ
+    description: Standalone flyer advertising live concerts or tour dates.
+    carrier: standalone
+
+  release_flyer:
+    label: Release flyer
+    label_ja: 発売チラシ
+    description: Standalone flyer for a single, album, video, or book release.
+    carrier: standalone
+
+  demo_flyer:
+    label: Demo flyer
+    label_ja: デモチラシ
+    description: Flyer promoting a demo tape or early independent release.
+    carrier: standalone
+
+  tour_ad:
+    label: Tour advertisement
+    label_ja: ツアー広告
+    description: Magazine or print ad primarily promoting tour dates (may include release info).
+    carrier: magazine_page
+
+  release_ad:
+    label: Release advertisement
+    label_ja: 発売広告
+    description: Magazine or print ad for a single, album, or video release.
+    carrier: magazine_page
+
+  gig_listing:
+    label: Gig listing
+    label_ja: ライブ情報
+    description: Magazine live schedule or venue listing entry.
+    carrier: magazine_page
+
+  magazine_inset:
+    label: Magazine inset flyer
+    label_ja: 誌面チラシ
+    description: Flyer or mini-poster printed inside a magazine issue (vk.gy role flyer).
+    carrier: magazine_inset
+
+  goods_ad:
+    label: Goods advertisement
+    label_ja: グッズ広告
+    description: Ad for merchandise, photobooks, or non-music goods.
+    carrier: magazine_page
+
+  poster_ad:
+    label: Poster
+    label_ja: ポスター
+    description: Poster material (magazine pull-out or standalone).
+    carrier: standalone
+
+  other:
+    label: Other promotional
+    label_ja: その他宣伝
+    description: Promotional material that does not fit a finer subtype.
+    carrier: standalone
+
+# Default content_nature when not explicitly set (by article type)
+article_type_defaults:
+  interview: editorial
+  live_report: editorial
+  review: editorial
+  photo_spread: editorial
+  instrument_interview: editorial
+  cover: editorial
+  mention: null
+  advertisement: promotional
+  flyer: promotional
+  live_listing: promotional
+  poster: promotional
+  pamphlet: promotional
+  newsletter: editorial
+  release_calendar: editorial
+
+# Default promotional_subtype when not explicitly set (by article type)
+promotional_type_defaults:
+  live_listing: gig_listing
+  poster: poster_ad

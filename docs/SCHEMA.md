@@ -125,10 +125,6 @@ Broadcasters are `organization` entities with `id: org_*` and `organization_type
 
 ```yaml
 - from: song_au_revoir
-  to: concert_1998_04_14_tokyo
-  relation: performed_at
-
-- from: song_au_revoir
   to: song_illuminati
   relation: related_song
   note: shares a chord progression in the bridge
@@ -145,10 +141,12 @@ The build script infers these from entity fields — **do not** duplicate them i
 | `song.appears_on[]` | `appears_on` (song→album) + `includes_song` (album→song) |
 | `song.personnel[]` | `personnel` (song→person) + `credited_on` (person→song) |
 | `album.tracklist[]` | `includes_song` / `appears_on` |
-| `concert.setlist[]` | `performed_at` (song→concert) + `features_performance` |
-| `concert.members_present[]` | `performed_at` (person→concert) |
-| `appearance.songs_performed[]` | `performed_at` (song→appearance) + `features_performance` |
+| `concert.setlist[]` | `performed_at_concert` (song→concert) + `features_concert` |
+| `concert.members_present[]` | `performed_at_concert` (person→concert) |
+| `concert.venue` | `held_at` (concert→venue) + `hosted` |
+| `appearance.songs_performed[]` | `performed_at_appearance` (song→appearance) + `features_appearance` |
 | `appearance.members_present[]` | `appeared_at` (person→appearance) + `featured_appearance` |
+| `appearance.venue` | `held_at` (appearance→venue) + `hosted` |
 | `appearance.broadcast.network` | `broadcast_on` (appearance→org) + `aired` (org→appearance) |
 | `article.published_in` | `published_in` (article→ref) + `includes_article` (ref→article) |
 
@@ -160,7 +158,8 @@ See [`data/references/relation_types.yaml`](../data/references/relation_types.ya
 
 Each relation defines:
 
-- `label` — UI display name
+- `label` / `label_ja` — UI display names (English and Japanese)
+- `domain` / `range` — allowed entity type pairs (enforced by validation)
 - `category` — concert / release / press / song / person / …
 - `color` — coral, purple, pink, … (consistent across browse, entity page, timeline)
 - `direction` — outgoing, incoming, or symmetric
@@ -169,14 +168,17 @@ Each relation defines:
 ## Build pipeline
 
 ```bash
-make entities          # validate v2 entities + build links index
-make entities-validate # JSON Schema + referential checks only
+make entities          # validate v2 entities + build ontology + links index
+make ontology          # regenerate docs/ONTOLOGY.md and site ontology.json
+make entities-validate # JSON Schema + referential + domain/range checks only
 make links             # build links index only
 ```
 
 Outputs (generated; gitignored — run `make entities` or `make links` before `make site`):
 
 - `site/src/data/links_index.json` — feeds UI (`linked_entities`, `link_count`, `browse`, `entities_by_id`)
+- `site/src/data/ontology.json` — type-level ontology for `/ontology` page
+- `docs/ONTOLOGY.md` — generated ontology reference with Mermaid diagram
 - `exports/links_index.json` — same data for export/research
 
 ### `linked_entities` shape

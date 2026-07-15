@@ -9,6 +9,13 @@
     "title_ja": { "type": ["string", "null"] },
     "title_en": { "type": ["string", "null"] },
     "type": { "$ref": "vocabularies.json#/$defs/article_type" },
+    "content_nature": { "$ref": "vocabularies.json#/$defs/content_nature" },
+    "promotional_subtype": { "$ref": "vocabularies.json#/$defs/promotional_subtype" },
+    "promotional_carrier": { "$ref": "vocabularies.json#/$defs/promotional_carrier" },
+    "vkgy_roles": {
+      "type": "array",
+      "items": { "$ref": "vocabularies.json#/$defs/vkgy_role" }
+    },
     "pages": { "type": ["string", "null"] },
     "members": {
       "type": "array",

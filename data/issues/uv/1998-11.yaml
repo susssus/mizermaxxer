@@ -36,6 +36,10 @@ articles:
     url: null
   purchase_links: []
   notes: 'vkgy roles: cover, large_feature'
+  content_nature: editorial
+  vkgy_roles:
+  - cover
+  - large_feature
 changelog:
 - date: '2026-07-06'
   action: created

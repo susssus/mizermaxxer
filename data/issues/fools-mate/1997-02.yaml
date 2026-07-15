@@ -35,6 +35,7 @@ articles:
     url: null
   purchase_links: []
   notes: カラー4p、1996/11/18 O-WEST「喜劇の晩餐」、目黒学園女子短大レポ&個別インタビュー（Kami欠席）
+  content_nature: editorial
 changelog:
 - date: '2026-07-06'
   action: created

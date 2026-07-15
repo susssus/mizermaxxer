@@ -89,9 +89,59 @@
         "other"
       ]
     },
+    "personnel_role": {
+      "type": "string",
+      "enum": [
+        "vocals",
+        "guitar",
+        "bass",
+        "drums",
+        "keyboard",
+        "programming",
+        "composition",
+        "lyrics",
+        "arrangement",
+        "producer",
+        "other"
+      ]
+    },
     "translation_review_status": {
       "type": "string",
       "enum": ["needs_review", "reviewed"]
+    },
+    "content_nature": {
+      "type": "string",
+      "enum": ["editorial", "promotional"]
+    },
+    "promotional_subtype": {
+      "type": "string",
+      "enum": [
+        "gig_flyer",
+        "release_flyer",
+        "demo_flyer",
+        "tour_ad",
+        "release_ad",
+        "gig_listing",
+        "magazine_inset",
+        "goods_ad",
+        "poster_ad",
+        "other"
+      ]
+    },
+    "promotional_carrier": {
+      "type": "string",
+      "enum": ["standalone", "magazine_page", "magazine_inset"]
+    },
+    "vkgy_role": {
+      "type": "string",
+      "enum": [
+        "cover",
+        "large_feature",
+        "other_appearance",
+        "flyer",
+        "poster",
+        "mention"
+      ]
     }
   }
 }

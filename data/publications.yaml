@@ -120,7 +120,7 @@ publications:
     years_active_end: 2001
     priority: 9
     status: verified
-    notes: Non-magazine promotional material.
+    notes: Non-magazine promotional material (standalone flyers, gig handbills, release promos). Use promotional_subtype to distinguish gig vs release flyers.
 
   - slug: tour-pamphlets
     name_ja: ツアーパンフレット

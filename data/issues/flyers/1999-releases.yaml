@@ -29,8 +29,10 @@ articles:
     available: true
     url: data/translations/flyers-1999-11-03-saikai-single.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 - id: flyers-1999-12-21-saikai-de-limage
   title_ja: 再会の血と薔薇 de l'image release flyer
   title_en: null
@@ -50,8 +52,10 @@ articles:
     available: true
     url: data/translations/flyers-1999-12-21-saikai-de-limage.yaml
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan
-    catalog).'
+  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  content_nature: promotional
+  promotional_subtype: release_flyer
+  promotional_carrier: standalone
 changelog:
 - date: '2026-07-06'
   action: created

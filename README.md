@@ -45,6 +45,7 @@ make all
 | `/videos` | PVs and standalone footage |
 | `/translations` | English translations index |
 | `/browse` | Entity graph explorer |
+| `/ontology` | Type-level ontology map and relation vocabulary |
 | `/attribution` | Image and scan provenance |
 | `/legal` | Licenses, affiliation notice, and reuse terms |
 
@@ -71,10 +72,11 @@ Research rules: [docs/RESEARCH.md](docs/RESEARCH.md) · Sources: [docs/SOURCES.m
 Relationships live in [`data/links.yaml`](data/links.yaml) plus derived fields (`appears_on`, `personnel`, setlists). Build the resolved index with:
 
 ```bash
-make entities    # validate + build links_index.json
+make entities    # validate + ontology docs + build links_index.json
+make ontology    # regenerate docs/ONTOLOGY.md only
 ```
 
-See [docs/SCHEMA.md](docs/SCHEMA.md) for ID conventions, relation vocabulary, and migration from v1.
+See [docs/SCHEMA.md](docs/SCHEMA.md) for ID conventions, relation vocabulary, and migration from v1. The formal type-level ontology is documented in [docs/ONTOLOGY.md](docs/ONTOLOGY.md).
 
 `data/appearances/` is validated by `make entities` and summarized on the public `/appearances` index (full relationship data on entity pages).
 

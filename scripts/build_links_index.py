@@ -14,8 +14,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from entities.common import (
     EXPORTS_LINKS_PATH,
     LINKS_INDEX_PATH,
+    active_explicit_relations,
     ensure_links_output_dirs,
     load_entities,
+    load_entity_type_ui,
     load_explicit_links,
     load_relation_types,
 )
@@ -112,30 +114,35 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
             for song_id in entity.get("setlist", []):
                 add_edge(
                     edges,
-                    Edge(song_id, entity_id, "performed_at", "entity_field", "outgoing"),
+                    Edge(song_id, entity_id, "performed_at_concert", "entity_field", "outgoing"),
                     seen,
                 )
                 add_edge(
                     edges,
-                    Edge(entity_id, song_id, "features_performance", "entity_field", "outgoing"),
+                    Edge(entity_id, song_id, "features_concert", "entity_field", "outgoing"),
                     seen,
                 )
             for person_id in entity.get("members_present", []):
                 add_edge(
                     edges,
-                    Edge(person_id, entity_id, "performed_at", "entity_field", "outgoing"),
+                    Edge(person_id, entity_id, "performed_at_concert", "entity_field", "outgoing"),
                     seen,
                 )
                 add_edge(
                     edges,
-                    Edge(entity_id, person_id, "features_performance", "entity_field", "outgoing"),
+                    Edge(entity_id, person_id, "features_concert", "entity_field", "outgoing"),
                     seen,
                 )
             venue_id = entity.get("venue")
             if venue_id:
                 add_edge(
                     edges,
-                    Edge(entity_id, venue_id, "references", "entity_field", "outgoing", note="held at venue"),
+                    Edge(entity_id, venue_id, "held_at", "entity_field", "outgoing", note="held at venue"),
+                    seen,
+                )
+                add_edge(
+                    edges,
+                    Edge(venue_id, entity_id, "hosted", "entity_field", "outgoing"),
                     seen,
                 )
 
@@ -143,12 +150,12 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
             for song_id in entity.get("songs_performed", []):
                 add_edge(
                     edges,
-                    Edge(song_id, entity_id, "performed_at", "entity_field", "outgoing"),
+                    Edge(song_id, entity_id, "performed_at_appearance", "entity_field", "outgoing"),
                     seen,
                 )
                 add_edge(
                     edges,
-                    Edge(entity_id, song_id, "features_performance", "entity_field", "outgoing"),
+                    Edge(entity_id, song_id, "features_appearance", "entity_field", "outgoing"),
                     seen,
                 )
             for person_id in entity.get("members_present", []):
@@ -179,7 +186,12 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
             if venue_id:
                 add_edge(
                     edges,
-                    Edge(entity_id, venue_id, "references", "entity_field", "outgoing", note="recorded at venue"),
+                    Edge(entity_id, venue_id, "held_at", "entity_field", "outgoing", note="recorded at venue"),
+                    seen,
+                )
+                add_edge(
+                    edges,
+                    Edge(venue_id, entity_id, "hosted", "entity_field", "outgoing"),
                     seen,
                 )
 
@@ -189,6 +201,11 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
                     add_edge(
                         edges,
                         Edge(entity_id, target, "discusses", "entity_field", "outgoing"),
+                        seen,
+                    )
+                    add_edge(
+                        edges,
+                        Edge(target, entity_id, "cited_by", "entity_field", "outgoing"),
                         seen,
                     )
 
@@ -304,20 +321,7 @@ def entity_title(entity: dict[str, Any]) -> str:
     return entity["id"]
 
 
-TYPE_UI: dict[str, dict[str, str]] = {
-    "song": {"category": "song", "color": "lavender", "label": "Song"},
-    "album": {"category": "release", "color": "purple", "label": "Album"},
-    "single": {"category": "release", "color": "purple", "label": "Single"},
-    "concert": {"category": "concert", "color": "coral", "label": "Concert"},
-    "appearance": {"category": "appearance", "color": "amber", "label": "Appearance"},
-    "reference": {"category": "press", "color": "pink", "label": "Reference"},
-    "person": {"category": "person", "color": "teal", "label": "Person"},
-    "venue": {"category": "meta", "color": "gray", "label": "Venue"},
-    "video": {"category": "media", "color": "gold", "label": "Video"},
-    "organization": {"category": "meta", "color": "gray", "label": "Organization"},
-    "image": {"category": "media", "color": "gold", "label": "Image"},
-    "article": {"category": "press", "color": "pink", "label": "Article"},
-}
+TYPE_UI = load_entity_type_ui()
 
 STATUS_PRIORITY = {
     "verified": 5,
@@ -400,7 +404,7 @@ def main() -> int:
         relation_types = load_relation_types()
         explicit = load_explicit_links()
 
-        allowed_explicit = {item["id"] for item in relation_types.values() if item.get("origin") == "explicit"}
+        allowed_explicit = active_explicit_relations(relation_types)
         for link in explicit:
             if link["relation"] not in allowed_explicit:
                 raise ValueError(
