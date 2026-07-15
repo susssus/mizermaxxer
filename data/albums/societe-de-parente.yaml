@@ -1,6 +1,6 @@
 id: societe-de-parente
 title_ja: Socìété De Parenté = 新たなる血族との響宴
-title_en: Socìété De Parenté = 新たなる血族との響宴
+title_en: Socìété De Parenté = Banquet of Resonance with New Kindred
 type: vhs
 release_date: '2001-11-19'
 date_precision: day
@@ -18,3 +18,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/release/15937484-Malice-Mizer-Socìété-De-Parenté-新たなる血族との響宴
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

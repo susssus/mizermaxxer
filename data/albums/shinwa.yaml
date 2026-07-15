@@ -1,6 +1,6 @@
 id: shinwa
 title_ja: 神話
-title_en: Shinwa
+title_en: Shinwa (Myth)
 type: box_set
 release_date: '2000-02-01'
 date_precision: day
@@ -26,3 +26,7 @@ changelog:
   action: updated
   source: editorial
   notes: Reclassified as memorial box set; removed VHS footage from CD tracklist; title_en romanized.
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

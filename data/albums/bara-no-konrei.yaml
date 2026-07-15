@@ -1,6 +1,6 @@
 id: bara-no-konrei
 title_ja: 薔薇の婚礼～真夜中に交わした約束～
-title_en: 薔薇の婚礼～真夜中に交わした約束～
+title_en: Wedding of the Rose ~Promise Exchanged at Midnight~
 type: vhs
 release_date: '2001'
 date_precision: year
@@ -18,3 +18,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/master/3454598-Malice-Mizer-薔薇の婚礼真夜中に交わした約束
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

@@ -1,6 +1,6 @@
 id: merveilles-lespace
 title_ja: merveilles ～終焉と帰趨～ l'espace
-title_en: merveilles ～終焉と帰趨～ l'espace
+title_en: merveilles ~End and Outcome~ l'espace
 type: vhs
 release_date: '1998-10-28'
 date_precision: day
@@ -50,3 +50,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/master/1450860-Malice-Mizer-merveilles-終焉と帰趨-lespace
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

@@ -1,6 +1,6 @@
 id: bel-air-single
 title_ja: ヴェル・エール～空白の瞬間の中で～
-title_en: ヴェル・エール～空白の瞬間の中で～
+title_en: Bel Air ~In the Moment of Emptiness~
 release_date: '1997-08-06'
 date_precision: day
 label: Maitrize
@@ -21,3 +21,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

@@ -1,6 +1,6 @@
 id: uruwashii-kamen-single
 title_ja: 麗しき仮面の招待状
-title_en: 麗しき仮面の招待状
+title_en: Uruwashiki Kamen no Shōtaijō (Invitation of the Beautiful Mask)
 release_date: '1995-12-10'
 date_precision: day
 label: Midi:Nette
@@ -21,3 +21,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

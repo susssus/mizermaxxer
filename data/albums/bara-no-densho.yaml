@@ -1,6 +1,6 @@
 id: bara-no-densho
 title_ja: 薔薇の伝承 (序章)
-title_en: 薔薇の伝承 (序章)
+title_en: Bara no Denshō (Prologue) — Lore of the Rose
 type: vhs
 release_date: '2001'
 date_precision: year
@@ -18,3 +18,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/master/3454586-Malice-Mizer-薔薇の伝承-序章
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

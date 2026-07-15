@@ -40,7 +40,9 @@ function coverSrc(path?: string | null) {
   <td><span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></td>
   <td>
     <a href={`/discography/${album.id}`}>{album.title_en}</a>
-    <br /><span class="muted">{album.title_ja}</span>
+    {album.title_ja && album.title_ja !== album.title_en && (
+      <><br /><span class="muted">{album.title_ja}</span></>
+    )}
   </td>
   <td>{album.type.replaceAll("_", " ")}</td>
   <td>{album.label ?? "—"}</td>

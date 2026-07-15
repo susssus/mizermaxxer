@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T21:48:13.997537Z",
+  "generated_at": "2026-07-15T21:57:08.452056Z",
   "people": {
     "members": [
       {
@@ -32280,7 +32280,7 @@
     {
       "id": "ver-eair-de-limage",
       "title_ja": "ヴェル・エール～空白の瞬間の中で～de l'image",
-      "title_en": "ヴェル・エール～空白の瞬間の中で～de l'image",
+      "title_en": "Bel Air ~In the Moment of Emptiness~ de l'image",
       "type": "vhs",
       "release_date": "1997-09-03",
       "date_precision": "day",
@@ -32302,6 +32302,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/12406247-Malice-Mizer-ヴェルエール空白の瞬間の中でde-limage"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -32621,7 +32627,7 @@
     {
       "id": "merveilles-lespace",
       "title_ja": "merveilles ～終焉と帰趨～ l'espace",
-      "title_en": "merveilles ～終焉と帰趨～ l'espace",
+      "title_en": "merveilles ~End and Outcome~ l'espace",
       "type": "vhs",
       "release_date": "1998-10-28",
       "date_precision": "day",
@@ -32707,6 +32713,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/master/1450860-Malice-Mizer-merveilles-終焉と帰趨-lespace"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -33143,7 +33155,7 @@
     {
       "id": "saikai-de-limage",
       "title_ja": "再会の血と薔薇 ～De L'Image～",
-      "title_en": "再会の血と薔薇 ～De L'Image～",
+      "title_en": "Saikai no Chi to Bara ~De L'Image~ (Blood and Roses of Reunion)",
       "type": "vhs",
       "release_date": "1999-12-21",
       "date_precision": "day",
@@ -33165,6 +33177,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/10694776-Malice-Mizer-再会の血と薔薇-De-LImage"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -33190,7 +33208,7 @@
     {
       "id": "shinwa",
       "title_ja": "神話",
-      "title_en": "Shinwa",
+      "title_en": "Shinwa (Myth)",
       "type": "box_set",
       "release_date": "2000-02-01",
       "date_precision": "day",
@@ -33226,6 +33244,12 @@
           "action": "updated",
           "source": "editorial",
           "notes": "Reclassified as memorial box set; removed VHS footage from CD tracklist; title_en romanized."
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -33285,7 +33309,7 @@
     {
       "id": "bara-no-seidou",
       "title_ja": "薔薇の聖堂",
-      "title_en": "薔薇の聖堂",
+      "title_en": "Bara no Seidō (Sanctuary of the Rose)",
       "type": "album",
       "release_date": "2000-08-23",
       "date_precision": "day",
@@ -33355,6 +33379,12 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -33533,7 +33563,7 @@
     {
       "id": "bara-makuake-video",
       "title_ja": "薔薇に彩られた悪意と悲劇の幕開け",
-      "title_en": "薔薇に彩られた悪意と悲劇の幕開け",
+      "title_en": "The Beginning of Malice and Tragedy Colored by Roses",
       "type": "dvd",
       "release_date": "2000-11-22",
       "date_precision": "day",
@@ -33619,6 +33649,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -33916,7 +33952,7 @@
     {
       "id": "bara-no-densho",
       "title_ja": "薔薇の伝承 (序章)",
-      "title_en": "薔薇の伝承 (序章)",
+      "title_en": "Bara no Denshō (Prologue) — Lore of the Rose",
       "type": "vhs",
       "release_date": "2001",
       "date_precision": "year",
@@ -33938,6 +33974,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/master/3454586-Malice-Mizer-薔薇の伝承-序章"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -33963,7 +34005,7 @@
     {
       "id": "bara-no-konrei",
       "title_ja": "薔薇の婚礼～真夜中に交わした約束～",
-      "title_en": "薔薇の婚礼～真夜中に交わした約束～",
+      "title_en": "Wedding of the Rose ~Promise Exchanged at Midnight~",
       "type": "vhs",
       "release_date": "2001",
       "date_precision": "year",
@@ -33985,6 +34027,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/master/3454598-Malice-Mizer-薔薇の婚礼真夜中に交わした約束"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -34010,7 +34058,7 @@
     {
       "id": "bara-no-kiseki-dvd",
       "title_ja": "薔薇の軌跡",
-      "title_en": "薔薇の軌跡",
+      "title_en": "Bara no Kiseki (Traces of the Rose)",
       "type": "dvd",
       "release_date": "2001-04-25",
       "date_precision": "day",
@@ -34044,6 +34092,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -34188,7 +34242,7 @@
     {
       "id": "societe-de-parente",
       "title_ja": "Socìété De Parenté = 新たなる血族との響宴",
-      "title_en": "Socìété De Parenté = 新たなる血族との響宴",
+      "title_en": "Socìété De Parenté = Banquet of Resonance with New Kindred",
       "type": "vhs",
       "release_date": "2001-11-19",
       "date_precision": "day",
@@ -34210,6 +34264,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/15937484-Malice-Mizer-Socìété-De-Parenté-新たなる血族との響宴"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ],
       "track_details": [
@@ -36830,7 +36890,7 @@
     {
       "id": "uruwashii-kamen-single",
       "title_ja": "麗しき仮面の招待状",
-      "title_en": "麗しき仮面の招待状",
+      "title_en": "Uruwashiki Kamen no Shōtaijō (Invitation of the Beautiful Mask)",
       "release_date": "1995-12-10",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -36854,13 +36914,19 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
     {
       "id": "ma-cherie-single",
       "title_ja": "Ma Chérie～愛しい君へ～",
-      "title_en": "Ma Chérie～愛しい君へ～",
+      "title_en": "Ma Chérie ~To My Beloved You~",
       "release_date": "1996-10-10",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -36884,13 +36950,19 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
     {
       "id": "bel-air-single",
       "title_ja": "ヴェル・エール～空白の瞬間の中で～",
-      "title_en": "ヴェル・エール～空白の瞬間の中で～",
+      "title_en": "Bel Air ~In the Moment of Emptiness~",
       "release_date": "1997-08-06",
       "date_precision": "day",
       "label": "Maitrize",
@@ -36914,6 +36986,12 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
@@ -36950,7 +37028,7 @@
     {
       "id": "gekka-no-yasoukyoku-single",
       "title_ja": "月下の夜想曲",
-      "title_en": "月下の夜想曲",
+      "title_en": "Gekka no Yasōkyoku (Nocturne Under the Moon)",
       "release_date": "1998-02-11",
       "date_precision": "day",
       "label": "Maitrize",
@@ -36980,6 +37058,12 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/2483713-Malice-Mizer-月下の夜想曲"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
@@ -37016,7 +37100,7 @@
     {
       "id": "le-ciel-single",
       "title_ja": "Le Ciel～空白の彼方へ～",
-      "title_en": "Le Ciel～空白の彼方へ～",
+      "title_en": "Le Ciel ~To the Other Side of the Void~",
       "release_date": "1998-09-30",
       "date_precision": "day",
       "label": "Maitrize",
@@ -37040,6 +37124,12 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/3724368-Malice-Mizer-Le-Ciel空白の彼方へ"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
@@ -37070,7 +37160,7 @@
     {
       "id": "saikai-no-chi-to-bara-single",
       "title_ja": "再会の血と薔薇",
-      "title_en": "再会の血と薔薇",
+      "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
       "release_date": "1999-11-03",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -37088,13 +37178,19 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/219965-Malice-Mizer-再会の血と薔薇"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
     {
       "id": "kyomu-no-naka-de-no-yugi-single",
       "title_ja": "虚無の中での遊戯",
-      "title_en": "虚無の中での遊戯",
+      "title_en": "Kyomu no Naka de no Yūgi (A Game in the Void)",
       "release_date": "2000-05-31",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -37112,13 +37208,19 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/3123438-Malice-Mizer-虚無の中での遊戯"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
     {
       "id": "shiroi-hada-single",
       "title_ja": "白い肌に狂う愛と哀しみの輪舞",
-      "title_en": "白い肌に狂う愛と哀しみの輪舞",
+      "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rinbu (A Rondo of Love and Sorrow Gone Mad on White Skin)",
       "release_date": "2000-07-26",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -37136,6 +37238,12 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/release/3158217-Malice-Mizer-白い肌に狂う愛と哀しみの輪舞"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
@@ -37206,7 +37314,7 @@
     {
       "id": "mayonaka-yakusoku-single",
       "title_ja": "真夜中に交わした約束～薔薇の婚礼～",
-      "title_en": "真夜中に交わした約束～薔薇の婚礼～",
+      "title_en": "Promise Exchanged at Midnight ~Wedding of the Rose~",
       "release_date": "2001-10-30",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -37224,13 +37332,19 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/release/2496481-Malice-Mizer-真夜中に交わした約束薔薇の婚礼"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     },
     {
       "id": "garnet-single",
       "title_ja": "Garnet～禁断の園へ～",
-      "title_en": "Garnet～禁断の園へ～",
+      "title_en": "Garnet ~To the Forbidden Garden~",
       "release_date": "2001-11-30",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -37248,6 +37362,12 @@
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ"
+        },
+        {
+          "date": "2026-07-16",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Set title_en to English translation (was identical to title_ja)."
         }
       ]
     }

@@ -1,6 +1,6 @@
 id: garnet-single
 title_ja: Garnet～禁断の園へ～
-title_en: Garnet～禁断の園へ～
+title_en: Garnet ~To the Forbidden Garden~
 release_date: '2001-11-30'
 date_precision: day
 label: Midi:Nette
@@ -17,3 +17,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

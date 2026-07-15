@@ -1,6 +1,6 @@
 id: ver-eair-de-limage
 title_ja: ヴェル・エール～空白の瞬間の中で～de l'image
-title_en: ヴェル・エール～空白の瞬間の中で～de l'image
+title_en: Bel Air ~In the Moment of Emptiness~ de l'image
 type: vhs
 release_date: '1997-09-03'
 date_precision: day
@@ -18,3 +18,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/release/12406247-Malice-Mizer-ヴェルエール空白の瞬間の中でde-limage
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).
