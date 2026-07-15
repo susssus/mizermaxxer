@@ -1,0 +1,67 @@
+id: zaku
+name_en: Zaku
+name_ja: ザク
+species: cat
+breed: mixed-breed tabby
+sex: male
+owner: kozi
+relationship: owned_by
+years_noted: "1997–2009"
+status: deceased
+died: "2009-07-08"
+portrait_image: images/pets/zaku-sleeping-1997.webp
+gallery_images:
+  - src: images/pets/zaku-kitten-1mo-1997.webp
+    caption: About one month old — “stuffed animal?”
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/pets/zaku-kitten-upright-1997.webp
+    caption: Kitten growth series
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/pets/zaku-standing-1997.webp
+    caption: Growing fast — mouth half-open
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/pets/zaku-cabinet-1997.webp
+    caption: Trapped in a cabinet as ornament
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/pets/zaku-closeup-1997.webp
+    caption: Latest photo — “fat cat confirmed”
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/pets/zaku-held-by-kozi-1997.webp
+    caption: With Közi
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/pets/zaku-and-lala-1997.webp
+    caption: With new kitten Lala
+    source: ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)
+  - src: images/pets/nekopakushitsu-zaku-rainbow-1998.webp
+    caption: Nekopakushitsu comic panel
+    source: ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)
+  - src: images/pets/lala-zaku-niramekko-1998.webp
+    caption: Nekopakushitsu staring contest with Lala
+    source: ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)
+  - src: images/scans/fan-club/1997-09/12.jpg
+    caption: Ginza Cozy Corner — full Zaku profile page
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/scans/fan-club/1997-09/13.jpg
+    caption: Ginza Cozy Corner — growth photos & with Közi
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+summary: >
+  Közi’s mixed-breed male tabby, introduced in the first ma chérie fan-club magazine
+  as his “private-room partner.” Named after a Gundam Zaku mobile suit. Profile at six
+  months listed hobbies as sleep, scratching walls, and sunbathing; he waited at the
+  genkan and followed Közi even into the bath. Later joined by Lala; both appear in the
+  Nekopakushitsu photo comics. Died 8 July 2009 at about fourteen (Közi diary via
+  secondary reports).
+notes: >
+  Primary sources: FC Vol. 1 Ginza Cozy Corner profile and photos; FC Vol. 2–3 Lala
+  introduction; FC Vol. 6–7 Nekopakushitsu. Death date cited from fan summaries of
+  Közi’s July 2009 diary — treat as possible pending primary diary capture.
+translation_ids:
+  - fan-club-vol-1-1997-autumn
+  - fan-club-vol-2-3-1997-winter
+  - fan-club-vol-6-7-1998-autumn
+verification_status: verified
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: fan_club_translations
+    notes: Catalogued from ma chérie Vol. 1–3 and Vol. 6–7 with cropped FC photos.

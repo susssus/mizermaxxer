@@ -1,11 +1,123 @@
 {
-  "generated_at": "2026-07-15T17:52:12.580533Z",
-  "total_count": 506,
+  "generated_at": "2026-07-15T21:48:14.340135Z",
+  "total_count": 522,
   "sources": [
     {
       "source_name": "Cantavanda / Madame Tarantula",
-      "count": 144,
+      "count": 160,
       "images": [
+        {
+          "path": "images/pets/great-dane-with-kami-1998.webp",
+          "filename": "great-dane-with-kami-1998.webp",
+          "site_url": "/images/pets/great-dane-with-kami-1998.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/lala-kitten-1997.webp",
+          "filename": "lala-kitten-1997.webp",
+          "site_url": "/images/pets/lala-kitten-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/lala-zaku-niramekko-1998.webp",
+          "filename": "lala-zaku-niramekko-1998.webp",
+          "site_url": "/images/pets/lala-zaku-niramekko-1998.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/mu-ferret-1997.webp",
+          "filename": "mu-ferret-1997.webp",
+          "site_url": "/images/pets/mu-ferret-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/nekopakushitsu-cat-panel1-1998.webp",
+          "filename": "nekopakushitsu-cat-panel1-1998.webp",
+          "site_url": "/images/pets/nekopakushitsu-cat-panel1-1998.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/nekopakushitsu-zaku-rainbow-1998.webp",
+          "filename": "nekopakushitsu-zaku-rainbow-1998.webp",
+          "site_url": "/images/pets/nekopakushitsu-zaku-rainbow-1998.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/nike-with-kami-1998.webp",
+          "filename": "nike-with-kami-1998.webp",
+          "site_url": "/images/pets/nike-with-kami-1998.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-and-lala-1997.webp",
+          "filename": "zaku-and-lala-1997.webp",
+          "site_url": "/images/pets/zaku-and-lala-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-cabinet-1997.webp",
+          "filename": "zaku-cabinet-1997.webp",
+          "site_url": "/images/pets/zaku-cabinet-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-closeup-1997.webp",
+          "filename": "zaku-closeup-1997.webp",
+          "site_url": "/images/pets/zaku-closeup-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-held-by-kozi-1997.webp",
+          "filename": "zaku-held-by-kozi-1997.webp",
+          "site_url": "/images/pets/zaku-held-by-kozi-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-kitten-1mo-1997.webp",
+          "filename": "zaku-kitten-1mo-1997.webp",
+          "site_url": "/images/pets/zaku-kitten-1mo-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-kitten-upright-1997.webp",
+          "filename": "zaku-kitten-upright-1997.webp",
+          "site_url": "/images/pets/zaku-kitten-upright-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-sleeping-1997.webp",
+          "filename": "zaku-sleeping-1997.webp",
+          "site_url": "/images/pets/zaku-sleeping-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-standing-1997.webp",
+          "filename": "zaku-standing-1997.webp",
+          "site_url": "/images/pets/zaku-standing-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
+        {
+          "path": "images/pets/zaku-with-kozi-1997.webp",
+          "filename": "zaku-with-kozi-1997.webp",
+          "site_url": "/images/pets/zaku-with-kozi-1997.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+          "fetched_at": "2026-07-15T21:45:27.647431Z"
+        },
         {
           "path": "images/scans/fan-club/1997-09/01.jpg",
           "filename": "01.jpg",
@@ -4126,6 +4238,70 @@
       "source_name": "Malice Mizer Throughout The Years reference poster",
       "source_url": "images/members/source/throughout-the-years.png"
     },
+    "images/pets/great-dane-with-kami-1998.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg"
+    },
+    "images/pets/lala-kitten-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg"
+    },
+    "images/pets/lala-zaku-niramekko-1998.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg"
+    },
+    "images/pets/mu-ferret-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg"
+    },
+    "images/pets/nekopakushitsu-cat-panel1-1998.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg"
+    },
+    "images/pets/nekopakushitsu-zaku-rainbow-1998.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg"
+    },
+    "images/pets/nike-with-kami-1998.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg"
+    },
+    "images/pets/zaku-and-lala-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg"
+    },
+    "images/pets/zaku-cabinet-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
+    "images/pets/zaku-closeup-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
+    "images/pets/zaku-held-by-kozi-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
+    "images/pets/zaku-kitten-1mo-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg"
+    },
+    "images/pets/zaku-kitten-upright-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
+    "images/pets/zaku-sleeping-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg"
+    },
+    "images/pets/zaku-standing-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
+    "images/pets/zaku-with-kozi-1997.webp": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
     "images/scans/arena37/1997-10/01.jpg": {
       "source_name": "Internet Archive",
       "source_url": "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B01%5D.jpg"
@@ -5534,6 +5710,14 @@
       "source_name": "POP BEAT (June 1998) / Cantavanda",
       "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/"
     },
+    "images/vintage/gackt-le-ciel-feather-wings-live.webp": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension"
+    },
+    "images/vintage/gackt-mana-au-revoir-carry.webp": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) — au revoir, Budokan 1998-04-01",
+      "source_url": "https://malice-mizer.info/a-deux-dimension"
+    },
     "images/vintage/gackt-mars-military-live.webp": {
       "source_name": "Mars tour (2000)",
       "source_url": "https://vk.gy/artists/gackt/"
@@ -5549,6 +5733,10 @@
     "images/vintage/gackt-merveilles-gold-military.webp": {
       "source_name": "Gekka no Yasoukyoku promo / vk.gy",
       "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/"
+    },
+    "images/vintage/gackt-merveilles-illuminati-crouch.webp": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension"
     },
     "images/vintage/gackt-merveilles-lespace-live.webp": {
       "source_name": "Merveilles l'espace live (1998)",
@@ -5634,13 +5822,61 @@
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg"
     },
+    "images/vintage/kami-bw-sunglasses-candid.webp": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-cafe-notebook.webp": {
+      "source_name": "L'image de Merveilles sur TV (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52"
+    },
+    "images/vintage/kami-hysteric-mini-candid.webp": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
     "images/vintage/kami-kozi.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png"
     },
+    "images/vintage/kami-leopard-candid.webp": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-live-pearls-mic.webp": {
+      "source_name": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-live-studded-vest.webp": {
+      "source_name": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-live-white-bow.webp": {
+      "source_name": "merveilles l'espace (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52"
+    },
+    "images/vintage/kami-merveilles-feather-collar.webp": {
+      "source_name": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/"
+    },
+    "images/vintage/kami-silver-sleeve-portrait.webp": {
+      "source_name": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/"
+    },
+    "images/vintage/kami-vicious-1999-profile.webp": {
+      "source_name": "Vicious (February 1999)",
+      "source_url": "https://vk.gy/artists/malice-mizer/"
+    },
     "images/vintage/kozi-collage.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg"
+    },
+    "images/vintage/kozi-gackt-backstage-candid.webp": {
+      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "source_url": "https://mm-backstage.livejournal.com/"
+    },
+    "images/vintage/kozi-gackt-merveilles-live.webp": {
+      "source_name": "Fan scan (yueyaogai); original publication unverified — Merveilles tour live, ca. 1998",
+      "source_url": null
     },
     "images/vintage/kozi-interview.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
@@ -5649,6 +5885,10 @@
     "images/vintage/kozi-memoire-dx.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg"
+    },
+    "images/vintage/lineup-cbc-silv-plait-recording.webp": {
+      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495"
     },
     "images/vintage/live-1993.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
@@ -5734,6 +5974,10 @@
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/yukicollage.jpg"
     },
+    "images/vintage/yuki-gackt-kozi-backstage.webp": {
+      "source_name": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
+      "source_url": null
+    },
     "images/vintage/yuki-interview.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/yukiinterview.jpg"
@@ -5741,74 +5985,6 @@
     "images/vintage/yuki-memoire-dx.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg"
-    },
-    "images/vintage/kami-vicious-1999-profile.webp": {
-      "source_name": "Vicious (February 1999)",
-      "source_url": "https://vk.gy/artists/malice-mizer/"
-    },
-    "images/vintage/kami-merveilles-feather-collar.webp": {
-      "source_name": "merveilles promo / vk.gy",
-      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/"
-    },
-    "images/vintage/kami-cafe-notebook.webp": {
-      "source_name": "L'image de Merveilles sur TV (1998)",
-      "source_url": "https://www.scape.sc/release.php?id=52"
-    },
-    "images/vintage/kami-silver-sleeve-portrait.webp": {
-      "source_name": "merveilles promo / vk.gy",
-      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/"
-    },
-    "images/vintage/kami-live-white-bow.webp": {
-      "source_name": "merveilles l'espace (1998)",
-      "source_url": "https://www.scape.sc/release.php?id=52"
-    },
-    "images/vintage/kami-live-pearls-mic.webp": {
-      "source_name": "Merveilles era live / vk.gy",
-      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
-    },
-    "images/vintage/kami-live-studded-vest.webp": {
-      "source_name": "Merveilles era live / vk.gy",
-      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
-    },
-    "images/vintage/kami-bw-sunglasses-candid.webp": {
-      "source_name": "Merveilles era offshot / vk.gy",
-      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
-    },
-    "images/vintage/kami-hysteric-mini-candid.webp": {
-      "source_name": "Merveilles era offshot / vk.gy",
-      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
-    },
-    "images/vintage/kami-leopard-candid.webp": {
-      "source_name": "Merveilles era offshot / vk.gy",
-      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
-    },
-    "images/vintage/gackt-merveilles-illuminati-crouch.webp": {
-      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30)",
-      "source_url": "https://malice-mizer.info/a-deux-dimension"
-    },
-    "images/vintage/gackt-mana-au-revoir-carry.webp": {
-      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) — au revoir, Budokan 1998-04-01",
-      "source_url": "https://malice-mizer.info/a-deux-dimension"
-    },
-    "images/vintage/gackt-le-ciel-feather-wings-live.webp": {
-      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
-      "source_url": "https://malice-mizer.info/a-deux-dimension"
-    },
-    "images/vintage/kozi-gackt-backstage-candid.webp": {
-      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
-      "source_url": "https://mm-backstage.livejournal.com/"
-    },
-    "images/vintage/kozi-gackt-merveilles-live.webp": {
-      "source_name": "Fan scan (yueyaogai); original publication unverified — Merveilles tour live, ca. 1998",
-      "source_url": null
-    },
-    "images/vintage/lineup-cbc-silv-plait-recording.webp": {
-      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
-      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495"
-    },
-    "images/vintage/yuki-gackt-kozi-backstage.webp": {
-      "source_name": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
-      "source_url": null
     }
   },
   "by_source_url": {
@@ -6206,6 +6382,46 @@
       "source_name": "Malice Mizer Throughout The Years reference poster",
       "source_url": "images/members/tetsu-profile.webp",
       "path": "images/members/tetsu.webp"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg",
+      "path": "images/scans/fan-club/1998-06/06.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg",
+      "path": "images/scans/fan-club/1997-12/12.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg",
+      "path": "images/scans/fan-club/1998-09/26.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg",
+      "path": "images/scans/fan-club/1997-09/15.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg",
+      "path": "images/scans/fan-club/1998-09/25.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg",
+      "path": "images/scans/fan-club/1998-06/07.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
+      "path": "images/scans/fan-club/1997-09/13.jpg"
+    },
+    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg": {
+      "source_name": "Cantavanda / Madame Tarantula",
+      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg",
+      "path": "images/scans/fan-club/1997-09/12.jpg"
     },
     "https://archive.org/download/arena-37-c-oct-97-01/%5BMalice%20Mizer%20Only%5D%20Arena%2037C%20October%201997/Arena%2037%20C_oct97%5B01%5D.jpg": {
       "source_name": "Internet Archive",
@@ -6617,25 +6833,10 @@
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-11.jpg",
       "path": "images/scans/fan-club/1997-09/11.jpg"
     },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-12.jpg",
-      "path": "images/scans/fan-club/1997-09/12.jpg"
-    },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg",
-      "path": "images/scans/fan-club/1997-09/13.jpg"
-    },
     "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-14.jpg": {
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-14.jpg",
       "path": "images/scans/fan-club/1997-09/14.jpg"
-    },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-15.jpg",
-      "path": "images/scans/fan-club/1997-09/15.jpg"
     },
     "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-16.jpg": {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -6736,11 +6937,6 @@
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-11.jpg",
       "path": "images/scans/fan-club/1997-12/11.jpg"
-    },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg",
-      "path": "images/scans/fan-club/1997-12/12.jpg"
     },
     "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-13.jpg": {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -6987,16 +7183,6 @@
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/05-1.jpg",
       "path": "images/scans/fan-club/1998-06/05.jpg"
     },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg",
-      "path": "images/scans/fan-club/1998-06/06.jpg"
-    },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/07-1.jpg",
-      "path": "images/scans/fan-club/1998-06/07.jpg"
-    },
     "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/08-1.jpg": {
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/08-1.jpg",
@@ -7201,16 +7387,6 @@
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/24-2.jpg",
       "path": "images/scans/fan-club/1998-09/24.jpg"
-    },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/25.jpg",
-      "path": "images/scans/fan-club/1998-09/25.jpg"
-    },
-    "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg": {
-      "source_name": "Cantavanda / Madame Tarantula",
-      "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/26.jpg",
-      "path": "images/scans/fan-club/1998-09/26.jpg"
     },
     "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/27.jpg": {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -7962,6 +8138,11 @@
       "source_url": "https://archive.org/details/scan-10188",
       "path": "images/vintage/gackt-mizerable-white-princely.webp"
     },
+    "https://malice-mizer.info/a-deux-dimension": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension",
+      "path": "images/vintage/gackt-merveilles-illuminati-crouch.webp"
+    },
     "https://vk.gy/artists/gackt/": {
       "source_name": "Mars tour (2000)",
       "source_url": "https://vk.gy/artists/gackt/",
@@ -7997,15 +8178,35 @@
       "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
       "path": "images/vintage/halloween-mana-kozi-yuki.webp"
     },
+    "https://vk.gy/images/&artist_id=1882&type=musician": {
+      "source_name": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "path": "images/vintage/kami-live-studded-vest.webp"
+    },
+    "https://www.scape.sc/release.php?id=52": {
+      "source_name": "merveilles l'espace (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52",
+      "path": "images/vintage/kami-live-white-bow.webp"
+    },
     "https://malicemeezer.neocities.org/tetsu/unknown-2.png": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/unknown-2.png",
       "path": "images/vintage/kami-kozi.webp"
     },
+    "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/": {
+      "source_name": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
+      "path": "images/vintage/kami-silver-sleeve-portrait.webp"
+    },
     "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/Kozicollage.jpg",
       "path": "images/vintage/kozi-collage.webp"
+    },
+    "https://mm-backstage.livejournal.com/": {
+      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "source_url": "https://mm-backstage.livejournal.com/",
+      "path": "images/vintage/kozi-gackt-backstage-candid.webp"
     },
     "https://malicemeezer.neocities.org/tetsu/koziinterview.jpg": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
@@ -8016,6 +8217,11 @@
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/kozi1a.jpeg",
       "path": "images/vintage/kozi-memoire-dx.webp"
+    },
+    "https://misaolab.hateblo.jp/entry/20000111/1355235495": {
+      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
+      "path": "images/vintage/lineup-cbc-silv-plait-recording.webp"
     },
     "https://malicemeezer.neocities.org/tetsu/oldlive.jpg": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
@@ -8131,36 +8337,6 @@
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
       "path": "images/vintage/yuki-memoire-dx.webp"
-    },
-    "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/": {
-      "source_name": "merveilles promo / vk.gy",
-      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
-      "path": "images/vintage/kami-silver-sleeve-portrait.webp"
-    },
-    "https://www.scape.sc/release.php?id=52": {
-      "source_name": "merveilles l'espace (1998)",
-      "source_url": "https://www.scape.sc/release.php?id=52",
-      "path": "images/vintage/kami-live-white-bow.webp"
-    },
-    "https://vk.gy/images/&artist_id=1882&type=musician": {
-      "source_name": "Merveilles era offshot / vk.gy",
-      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
-      "path": "images/vintage/kami-leopard-candid.webp"
-    },
-    "https://malice-mizer.info/a-deux-dimension": {
-      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
-      "source_url": "https://malice-mizer.info/a-deux-dimension",
-      "path": "images/vintage/gackt-le-ciel-feather-wings-live.webp"
-    },
-    "https://mm-backstage.livejournal.com/": {
-      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
-      "source_url": "https://mm-backstage.livejournal.com/",
-      "path": "images/vintage/kozi-gackt-backstage-candid.webp"
-    },
-    "https://misaolab.hateblo.jp/entry/20000111/1355235495": {
-      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
-      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
-      "path": "images/vintage/lineup-cbc-silv-plait-recording.webp"
     }
   }
 }

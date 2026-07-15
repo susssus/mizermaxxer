@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:52:12.271664Z",
+  "generated_at": "2026-07-15T21:48:13.997537Z",
   "people": {
     "members": [
       {
@@ -865,6 +865,374 @@
       "facts": [],
       "verification_status": "verified",
       "notes": ""
+    }
+  ],
+  "pets": [
+    {
+      "id": "betty",
+      "name_en": "Betty",
+      "name_ja": "ベティー",
+      "species": "dog",
+      "breed": null,
+      "sex": "female",
+      "owner": "gackt",
+      "relationship": "owned_by",
+      "years_noted": "–1997",
+      "status": "deceased",
+      "died": "1997-07-20",
+      "portrait_image": "images/scans/fan-club/1998-03/08.jpg",
+      "gallery_images": [
+        {
+          "src": "images/scans/fan-club/1998-03/08.jpg",
+          "caption": "Looking Back on July 20th — essay page 1",
+          "source": "ma chérie Fan Club Magazine Vol. 4 (Spring 1998)"
+        },
+        {
+          "src": "images/scans/fan-club/1998-03/09.jpg",
+          "caption": "Looking Back on July 20th — essay page 2",
+          "source": "ma chérie Fan Club Magazine Vol. 4 (Spring 1998)"
+        }
+      ],
+      "summary": "Gackt’s beloved dog, described as irreplaceable family who always waited at home. On 20 July 1997 she suffered a sudden seizure before the Akasaka BLITZ live; emergency surgery failed after more than five hours. Gackt’s grief essay in ma chérie Vol. 4 apologizes to that night’s audience and promises to repay them through performance.\n",
+      "notes": "No clear Betty portrait appears in the Vol. 4 essay pages (text feature). Entry uses the source essay scans until a dedicated photo is located.\n",
+      "translation_ids": [
+        "fan-club-vol-4-1998-spring"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from Gackt’s July 20 essay in FC Vol. 4."
+        }
+      ]
+    },
+    {
+      "id": "france-great-dane",
+      "name_en": "France Great Dane",
+      "name_ja": null,
+      "species": "dog",
+      "breed": "Great Dane",
+      "sex": "unknown",
+      "owner": "kami",
+      "relationship": "set_companion",
+      "years_noted": "1997",
+      "status": "unknown",
+      "portrait_image": "images/pets/great-dane-with-kami-1998.webp",
+      "gallery_images": [
+        {
+          "src": "images/pets/great-dane-with-kami-1998.webp",
+          "caption": "“On the first day this dog chased me and I cried—but now we’re best friends”",
+          "source": "ma chérie Fan Club Magazine Vol. 5 (Summer 1998)"
+        },
+        {
+          "src": "images/scans/fan-club/1998-06/06.jpg",
+          "caption": "France off-shots page with Kami and the Great Dane",
+          "source": "ma chérie Fan Club Magazine Vol. 5 (Summer 1998)"
+        }
+      ],
+      "summary": "Large spotted dog befriended by Kami during Malice Mizer’s France shoot. Caption on the ma chérie Vol. 5 off-shots page: chased to tears on day one, then best friends. Set / location companion rather than a band-member household pet.\n",
+      "translation_ids": [
+        "fan-club-vol-5-1998-summer"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from FC Vol. 5 France off-shots Great Dane photo."
+        }
+      ]
+    },
+    {
+      "id": "lala",
+      "name_en": "Lala",
+      "name_ja": "ララ",
+      "species": "cat",
+      "breed": "grey tabby",
+      "sex": "female",
+      "owner": "kozi",
+      "relationship": "owned_by",
+      "years_noted": "1997–",
+      "status": "unknown",
+      "portrait_image": "images/pets/lala-kitten-1997.webp",
+      "gallery_images": [
+        {
+          "src": "images/pets/lala-kitten-1997.webp",
+          "caption": "Kitten at two months",
+          "source": "ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)"
+        },
+        {
+          "src": "images/pets/zaku-and-lala-1997.webp",
+          "caption": "With Zaku after they became friends",
+          "source": "ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)"
+        },
+        {
+          "src": "images/pets/lala-zaku-niramekko-1998.webp",
+          "caption": "Nekopakushitsu niramekko with Zaku",
+          "source": "ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)"
+        },
+        {
+          "src": "images/pets/nekopakushitsu-cat-panel1-1998.webp",
+          "caption": "Nekopakushitsu — Burning Fighting Spirit",
+          "source": "ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)"
+        },
+        {
+          "src": "images/scans/fan-club/1997-12/12.jpg",
+          "caption": "Ginza Cozy Corner",
+          "source": "ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)"
+        },
+        {
+          "src": "images/scans/fan-club/1998-09/26.jpg",
+          "caption": "Nekopakushitsu full page with both cats",
+          "source": "ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)"
+        }
+      ],
+      "summary": "Közi’s female kitten, added at two months old from a pet shop (“take it, thief”). Zaku hissed for the first few days, then they became friends — after which Közi joked that the house was collapsing. Both cats star in the autumn 1998 Nekopakushitsu photo-comic strips. Still mentioned with Közi years later in fan accounts of his household.\n",
+      "notes": "Primary introduction: FC Vol. 2–3 Ginza Cozy Corner. Later diary pets (e.g. hamster Kikka as companion for Lala after Zaku’s death) are secondary and not yet catalogued as separate entries.\n",
+      "translation_ids": [
+        "fan-club-vol-2-3-1997-winter",
+        "fan-club-vol-6-7-1998-autumn"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from ma chérie Vol. 2–3 and Nekopakushitsu Vol. 6–7."
+        }
+      ]
+    },
+    {
+      "id": "miyashita",
+      "name_en": "Miyashita-kun",
+      "name_ja": "宮下君",
+      "species": "hamster",
+      "breed": null,
+      "sex": "male",
+      "owner": "kami",
+      "relationship": "owned_by",
+      "years_noted": "1997",
+      "status": "deceased",
+      "died": null,
+      "portrait_image": "images/scans/fan-club/1997-12/16.jpg",
+      "gallery_images": [
+        {
+          "src": "images/scans/fan-club/1997-12/16.jpg",
+          "caption": "Kami’s Soliloquy — includes Miyashita mourning & naming contest",
+          "source": "ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)"
+        }
+      ],
+      "summary": "Kami’s pet hamster. In the winter 1997 “Kami’s Soliloquy,” Kami writes of wailing when Miyashita-kun died after he forgot to feed him while busy — grief at life’s fragility — and announced a fan naming contest for a second-generation hamster via the ma chérie “Hamster Naming Desk.”\n",
+      "notes": "Text-forward column; no dedicated hamster photo identified in local FC scans.\n",
+      "translation_ids": [
+        "fan-club-vol-2-3-1997-winter"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from Kami’s Soliloquy in FC Vol. 2–3."
+        }
+      ]
+    },
+    {
+      "id": "mu",
+      "name_en": "Mu",
+      "name_ja": "ムー",
+      "species": "ferret",
+      "breed": null,
+      "sex": "unknown",
+      "owner": "yuki",
+      "relationship": "owned_by",
+      "years_noted": "1997",
+      "status": "unknown",
+      "portrait_image": "images/pets/mu-ferret-1997.webp",
+      "gallery_images": [
+        {
+          "src": "images/pets/mu-ferret-1997.webp",
+          "caption": "Pet Mu held against a dark background",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/scans/fan-club/1997-09/15.jpg",
+          "caption": "The Count Is Catalepsy — magazine rack, mirror, and Mu",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        }
+      ],
+      "summary": "Yu~ki’s mischievous ferret, shown in the first ma chérie “Count Is Catalepsy” antiques column. Won’t listen, loves pranks, chaotic when loose in the room — only quiet during baths. Spoiled to the point of refusing food unless placed in Yu~ki’s hand.\n",
+      "translation_ids": [
+        "fan-club-vol-1-1997-autumn"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from FC Vol. 1 Count Is Catalepsy with portrait crop."
+        }
+      ]
+    },
+    {
+      "id": "nike",
+      "name_en": "Nike",
+      "name_ja": "ナイキ",
+      "species": "dog",
+      "breed": null,
+      "sex": "unknown",
+      "owner": "kami",
+      "relationship": "set_companion",
+      "years_noted": "1997",
+      "status": "unknown",
+      "portrait_image": "images/pets/nike-with-kami-1998.webp",
+      "gallery_images": [
+        {
+          "src": "images/pets/nike-with-kami-1998.webp",
+          "caption": "“Rejected… even by Nike” — with Kami in France",
+          "source": "ma chérie Fan Club Magazine Vol. 5 (Summer 1998)"
+        },
+        {
+          "src": "images/scans/fan-club/1998-06/07.jpg",
+          "caption": "France off-shots page featuring Nike",
+          "source": "ma chérie Fan Club Magazine Vol. 5 (Summer 1998)"
+        }
+      ],
+      "summary": "Dog on the France film / location set (au revoir era). Kami jokes about being rejected by the heroine, the prostitutes, and finally Nike. In the Vicious October 1997 interview, the set dog Nike is recalled coming over whenever the clapperboard snapped — even to Mana’s costumes. Not a personal household pet; catalogued as a memorable companion from the shoot.\n",
+      "translation_ids": [
+        "fan-club-vol-5-1998-summer",
+        "vicious-1997-10-interview"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from France off-shots and Vicious 1997-10 Nike anecdote."
+        }
+      ]
+    },
+    {
+      "id": "peko-chan",
+      "name_en": "Peko-chan",
+      "name_ja": "ペコちゃん",
+      "species": "dog",
+      "breed": "Shiba Inu",
+      "sex": "female",
+      "owner": "gackt",
+      "relationship": "childhood_family",
+      "years_noted": "childhood–1990s",
+      "status": "deceased",
+      "died": null,
+      "portrait_image": null,
+      "gallery_images": [],
+      "summary": "Gackt’s childhood family Shiba Inu, loved since elementary school. She died while he was living in Tokyo; he dreamed of her wagging her tail, then going still, woke in tears, and called home to learn she had died — “she must have come to say goodbye.” Told in the SHOXX May 1998 Country House Windsor interview.\n",
+      "notes": "Interview text only in-archive; no photograph located in local scans yet.\n",
+      "translation_ids": [
+        "shoxx-1998-05-interview"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "shoxx_1998_05_interview",
+          "notes": "Catalogued from SHOXX May 1998 tears / farewell-dream anecdote."
+        }
+      ]
+    },
+    {
+      "id": "zaku",
+      "name_en": "Zaku",
+      "name_ja": "ザク",
+      "species": "cat",
+      "breed": "mixed-breed tabby",
+      "sex": "male",
+      "owner": "kozi",
+      "relationship": "owned_by",
+      "years_noted": "1997–2009",
+      "status": "deceased",
+      "died": "2009-07-08",
+      "portrait_image": "images/pets/zaku-sleeping-1997.webp",
+      "gallery_images": [
+        {
+          "src": "images/pets/zaku-kitten-1mo-1997.webp",
+          "caption": "About one month old — “stuffed animal?”",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/pets/zaku-kitten-upright-1997.webp",
+          "caption": "Kitten growth series",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/pets/zaku-standing-1997.webp",
+          "caption": "Growing fast — mouth half-open",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/pets/zaku-cabinet-1997.webp",
+          "caption": "Trapped in a cabinet as ornament",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/pets/zaku-closeup-1997.webp",
+          "caption": "Latest photo — “fat cat confirmed”",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/pets/zaku-held-by-kozi-1997.webp",
+          "caption": "With Közi",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/pets/zaku-and-lala-1997.webp",
+          "caption": "With new kitten Lala",
+          "source": "ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)"
+        },
+        {
+          "src": "images/pets/nekopakushitsu-zaku-rainbow-1998.webp",
+          "caption": "Nekopakushitsu comic panel",
+          "source": "ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)"
+        },
+        {
+          "src": "images/pets/lala-zaku-niramekko-1998.webp",
+          "caption": "Nekopakushitsu staring contest with Lala",
+          "source": "ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)"
+        },
+        {
+          "src": "images/scans/fan-club/1997-09/12.jpg",
+          "caption": "Ginza Cozy Corner — full Zaku profile page",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        },
+        {
+          "src": "images/scans/fan-club/1997-09/13.jpg",
+          "caption": "Ginza Cozy Corner — growth photos & with Közi",
+          "source": "ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)"
+        }
+      ],
+      "summary": "Közi’s mixed-breed male tabby, introduced in the first ma chérie fan-club magazine as his “private-room partner.” Named after a Gundam Zaku mobile suit. Profile at six months listed hobbies as sleep, scratching walls, and sunbathing; he waited at the genkan and followed Közi even into the bath. Later joined by Lala; both appear in the Nekopakushitsu photo comics. Died 8 July 2009 at about fourteen (Közi diary via secondary reports).\n",
+      "notes": "Primary sources: FC Vol. 1 Ginza Cozy Corner profile and photos; FC Vol. 2–3 Lala introduction; FC Vol. 6–7 Nekopakushitsu. Death date cited from fan summaries of Közi’s July 2009 diary — treat as possible pending primary diary capture.\n",
+      "translation_ids": [
+        "fan-club-vol-1-1997-autumn",
+        "fan-club-vol-2-3-1997-winter",
+        "fan-club-vol-6-7-1998-autumn"
+      ],
+      "verification_status": "verified",
+      "changelog": [
+        {
+          "date": "2026-07-16",
+          "action": "created",
+          "source": "fan_club_translations",
+          "notes": "Catalogued from ma chérie Vol. 1–3 and Vol. 6–7 with cropped FC photos."
+        }
+      ]
     }
   ],
   "publications": [
@@ -47643,6 +48011,7 @@
     "song_count": 132,
     "concert_count": 163,
     "video_count": 61,
+    "pet_count": 8,
     "appearance_count": 7,
     "performance_link_count": 80
   }

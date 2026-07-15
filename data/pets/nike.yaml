@@ -1,0 +1,33 @@
+id: nike
+name_en: Nike
+name_ja: ナイキ
+species: dog
+breed: null
+sex: unknown
+owner: kami
+relationship: set_companion
+years_noted: "1997"
+status: unknown
+portrait_image: images/pets/nike-with-kami-1998.webp
+gallery_images:
+  - src: images/pets/nike-with-kami-1998.webp
+    caption: “Rejected… even by Nike” — with Kami in France
+    source: ma chérie Fan Club Magazine Vol. 5 (Summer 1998)
+  - src: images/scans/fan-club/1998-06/07.jpg
+    caption: France off-shots page featuring Nike
+    source: ma chérie Fan Club Magazine Vol. 5 (Summer 1998)
+summary: >
+  Dog on the France film / location set (au revoir era). Kami jokes about being rejected
+  by the heroine, the prostitutes, and finally Nike. In the Vicious October 1997 interview,
+  the set dog Nike is recalled coming over whenever the clapperboard snapped — even to
+  Mana’s costumes. Not a personal household pet; catalogued as a memorable companion from
+  the shoot.
+translation_ids:
+  - fan-club-vol-5-1998-summer
+  - vicious-1997-10-interview
+verification_status: verified
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: fan_club_translations
+    notes: Catalogued from France off-shots and Vicious 1997-10 Nike anecdote.

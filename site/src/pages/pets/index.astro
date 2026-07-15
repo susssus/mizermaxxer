@@ -1,0 +1,85 @@
+---
+import PetCard from "../../components/PetCard.astro";
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+type Pet = {
+  id: string;
+  name_en: string;
+  name_ja?: string | null;
+  species: string;
+  owner: string;
+  relationship: string;
+  portrait_image?: string | null;
+  status?: string | null;
+  gallery_images?: { src: string }[];
+};
+
+const OWNER_NAMES: Record<string, string> = {
+  mana: "Mana",
+  kozi: "Közi",
+  yuki: "Yu~ki",
+  kami: "Kami",
+  gackt: "Gackt",
+  klaha: "Klaha",
+  tetsu: "Tetsu",
+  gaz: "Gaz",
+};
+
+const SPECIES_LABEL: Record<string, string> = {
+  cat: "Cat",
+  dog: "Dog",
+  ferret: "Ferret",
+  hamster: "Hamster",
+  other: "Other",
+};
+
+const petOrder = [
+  "zaku",
+  "lala",
+  "mu",
+  "betty",
+  "peko-chan",
+  "miyashita",
+  "nike",
+  "france-great-dane",
+];
+
+const pets = (archive.pets ?? []) as Pet[];
+const ordered = petOrder
+  .map((id) => pets.find((pet) => pet.id === id))
+  .filter((pet): pet is Pet => Boolean(pet));
+
+const photoCount = ordered.reduce(
+  (sum, pet) => sum + (pet.gallery_images?.length ?? 0) + (pet.portrait_image ? 1 : 0),
+  0,
+);
+---
+
+<Base
+  title="Pets"
+  description="Pets of Malice Mizer members — Közi’s cats Zaku and Lala, Yu~ki’s ferret Mu, Gackt’s dogs Betty and Peko-chan, Kami’s hamster Miyashita, and France set companions from ma chérie fan-club scans."
+>
+  <h1 class="page-heading">Pets</h1>
+  <p class="muted">
+    Household companions and France set animals documented in ma chérie fan-club magazines and
+    interviews — {ordered.length} entries, {photoCount}+ photos from period scans.
+  </p>
+
+  <section class="members-section">
+    <div class="members-grid">
+      {ordered.map((pet) => (
+        <PetCard
+          name={pet.name_en}
+          slug={pet.id}
+          species={SPECIES_LABEL[pet.species] ?? pet.species}
+          ownerName={OWNER_NAMES[pet.owner] ?? pet.owner}
+          ownerSlug={pet.owner}
+          relationship={pet.relationship}
+          portrait={pet.portrait_image}
+          status={pet.status}
+        />
+      ))}
+    </div>
+  </section>
+</Base>

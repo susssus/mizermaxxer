@@ -1,0 +1,30 @@
+id: france-great-dane
+name_en: France Great Dane
+name_ja: null
+species: dog
+breed: Great Dane
+sex: unknown
+owner: kami
+relationship: set_companion
+years_noted: "1997"
+status: unknown
+portrait_image: images/pets/great-dane-with-kami-1998.webp
+gallery_images:
+  - src: images/pets/great-dane-with-kami-1998.webp
+    caption: “On the first day this dog chased me and I cried—but now we’re best friends”
+    source: ma chérie Fan Club Magazine Vol. 5 (Summer 1998)
+  - src: images/scans/fan-club/1998-06/06.jpg
+    caption: France off-shots page with Kami and the Great Dane
+    source: ma chérie Fan Club Magazine Vol. 5 (Summer 1998)
+summary: >
+  Large spotted dog befriended by Kami during Malice Mizer’s France shoot. Caption on the
+  ma chérie Vol. 5 off-shots page: chased to tears on day one, then best friends. Set /
+  location companion rather than a band-member household pet.
+translation_ids:
+  - fan-club-vol-5-1998-summer
+verification_status: verified
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: fan_club_translations
+    notes: Catalogued from FC Vol. 5 France off-shots Great Dane photo.

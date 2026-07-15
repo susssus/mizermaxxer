@@ -25,6 +25,7 @@ V1_SCHEMA_NAMES = [
     "song.schema.json",
     "concert.schema.json",
     "video.schema.json",
+    "pet.schema.json",
     "performance.schema.json",
     "venue.schema.json",
     "reference.schema.json",

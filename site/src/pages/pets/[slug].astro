@@ -1,0 +1,227 @@
+---
+import ArchiveImage from "../../components/ArchiveImage.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import GalleryLightbox from "../../components/GalleryLightbox.astro";
+import PhotoCarousel from "../../components/PhotoCarousel.astro";
+import Base from "../../layouts/Base.astro";
+import archive from "../../data/archive.json";
+
+type PetImage = { src: string; caption?: string | null; source?: string | null };
+type Pet = {
+  id: string;
+  name_en: string;
+  name_ja?: string | null;
+  species: string;
+  breed?: string | null;
+  sex?: string | null;
+  owner: string;
+  relationship: string;
+  years_noted?: string | null;
+  status?: string | null;
+  died?: string | null;
+  portrait_image?: string | null;
+  gallery_images?: PetImage[];
+  summary: string;
+  notes?: string | null;
+  translation_ids?: string[];
+  verification_status: string;
+};
+
+const OWNER_NAMES: Record<string, string> = {
+  mana: "Mana",
+  kozi: "Közi",
+  yuki: "Yu~ki",
+  kami: "Kami",
+  gackt: "Gackt",
+  klaha: "Klaha",
+  tetsu: "Tetsu",
+  gaz: "Gaz",
+};
+
+const SPECIES_LABEL: Record<string, string> = {
+  cat: "Cat",
+  dog: "Dog",
+  ferret: "Ferret",
+  hamster: "Hamster",
+  other: "Other",
+};
+
+const RELATIONSHIP_LABEL: Record<string, string> = {
+  owned_by: "Household pet",
+  childhood_family: "Childhood family pet",
+  set_companion: "Film / location companion",
+};
+
+const pets = (archive.pets ?? []) as Pet[];
+
+export function getStaticPaths() {
+  const items = (archive.pets ?? []) as Pet[];
+  return items.map((pet) => ({ params: { slug: pet.id } }));
+}
+
+const { slug } = Astro.params;
+const pet = pets.find((p) => p.id === slug);
+
+const ownerName = pet ? OWNER_NAMES[pet.owner] ?? pet.owner : "";
+const title = pet?.name_en ?? slug;
+const carouselImages: PetImage[] = [];
+if (pet?.portrait_image) {
+  carouselImages.push({
+    src: pet.portrait_image,
+    caption: "Portrait",
+    source: pet.gallery_images?.[0]?.source ?? null,
+  });
+}
+for (const image of pet?.gallery_images ?? []) {
+  if (pet?.portrait_image && image.src === pet.portrait_image) continue;
+  carouselImages.push(image);
+}
+
+const description = pet
+  ? `${pet.name_en}${pet.name_ja ? ` (${pet.name_ja})` : ""} — ${SPECIES_LABEL[pet.species] ?? pet.species} associated with Malice Mizer member ${ownerName}. Archive photos and fan-club sources.`
+  : undefined;
+---
+
+{pet ? (
+  <Base title={title} description={description} type="profile">
+    <Breadcrumbs
+      items={[
+        { label: "Pets", href: "/pets" },
+        { label: title },
+      ]}
+    />
+
+    <header class="pet-profile__header">
+      <div class="pet-profile__intro">
+        <p class="pet-profile__eyebrow">{RELATIONSHIP_LABEL[pet.relationship] ?? pet.relationship}</p>
+        <h1 class="page-heading">{pet.name_en}</h1>
+        {pet.name_ja && <p class="pet-profile__ja">{pet.name_ja}</p>}
+        <p class="muted">
+          <a href={`/members/${pet.owner}`}>{ownerName}</a>
+          {" · "}
+          {SPECIES_LABEL[pet.species] ?? pet.species}
+          {pet.breed ? ` · ${pet.breed}` : ""}
+          {pet.sex && pet.sex !== "unknown" ? ` · ${pet.sex}` : ""}
+        </p>
+        <p>
+          <span class={`badge ${pet.verification_status}`}>
+            {pet.verification_status.replaceAll("_", " ")}
+          </span>
+          {pet.status === "deceased" && <span class="badge mention_only">memorial</span>}
+        </p>
+      </div>
+      {pet.portrait_image && (
+        <div class="pet-profile__portrait">
+          <ArchiveImage src={pet.portrait_image} alt={pet.name_en} variant="hero" />
+        </div>
+      )}
+    </header>
+
+    <section class="card pet-profile__summary">
+      <h2>About</h2>
+      <p>{pet.summary}</p>
+      {(pet.years_noted || pet.died) && (
+        <dl class="pet-profile__facts">
+          {pet.years_noted && (
+            <>
+              <dt>Years noted</dt>
+              <dd>{pet.years_noted}</dd>
+            </>
+          )}
+          {pet.died && (
+            <>
+              <dt>Died</dt>
+              <dd>{pet.died}</dd>
+            </>
+          )}
+        </dl>
+      )}
+      {pet.notes && <p class="muted pet-profile__notes">{pet.notes}</p>}
+    </section>
+
+    {carouselImages.length > 0 && (
+      <section class="card pet-profile__gallery">
+        <h2>Photos</h2>
+        <PhotoCarousel images={carouselImages} alt={pet.name_en} id={`pet-${pet.id}`} />
+        <GalleryLightbox />
+      </section>
+    )}
+
+    {pet.translation_ids && pet.translation_ids.length > 0 && (
+      <section class="card">
+        <h2>Sources</h2>
+        <ul>
+          {pet.translation_ids.map((id) => (
+            <li>
+              <a href={`/translation/${id}`}>{id}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </Base>
+) : (
+  <Base title="Pet not found" noindex>
+    <p>Pet profile not found.</p>
+    <a href="/pets">← Back to Pets</a>
+  </Base>
+)}
+
+<style>
+  .pet-profile__header {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    align-items: start;
+  }
+  @media (min-width: 768px) {
+    .pet-profile__header {
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
+    }
+  }
+  .pet-profile__eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--rose);
+    font-weight: 600;
+  }
+  .pet-profile__ja {
+    margin: -0.35rem 0 0.5rem;
+    font-size: 1.15rem;
+    color: var(--muted);
+  }
+  .pet-profile__portrait :global(img) {
+    width: 100%;
+    max-height: 22rem;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .pet-profile__summary p {
+    line-height: 1.65;
+  }
+  .pet-profile__facts {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.35rem 1rem;
+    margin: 1rem 0 0;
+  }
+  .pet-profile__facts dt {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .pet-profile__facts dd {
+    margin: 0;
+  }
+  .pet-profile__notes {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .pet-profile__gallery {
+    margin-top: 1rem;
+  }
+  .badge + .badge {
+    margin-left: 0.35rem;
+  }
+</style>
