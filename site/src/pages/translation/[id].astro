@@ -313,20 +313,20 @@ const pageToc =
           <thead>
             <tr>
               <th>Date</th>
+              <th>Status</th>
               <th>Day</th>
               <th>Venue (JA)</th>
               <th>Venue (EN)</th>
-              <th>Status</th>
             </tr>
           </thead>
           <tbody>
             {doc.tour_dates.map((row) => (
               <tr>
                 <td>{row.date}</td>
+                <td>{row.status ? row.status.replaceAll("_", " ") : "—"}</td>
                 <td>{row.day ?? "—"}</td>
                 <td>{row.venue_ja ?? "—"}</td>
                 <td>{row.venue_en ?? "—"}</td>
-                <td>{row.status ? row.status.replaceAll("_", " ") : "—"}</td>
               </tr>
             ))}
           </tbody>
