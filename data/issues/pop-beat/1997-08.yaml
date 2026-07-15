@@ -63,6 +63,7 @@ articles:
   content_nature: promotional
   promotional_subtype: tour_ad
   promotional_carrier: magazine_page
+  promotional_subject: tour
 changelog:
 - date: '2026-07-06'
   action: created

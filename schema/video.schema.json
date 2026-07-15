@@ -19,7 +19,7 @@
     "song": { "type": ["string", "null"] },
     "concert": { "type": ["string", "null"] },
     "quality": {
-      "enum": ["official", "tv_broadcast", "pro_shot", "audience", "low", "unknown", null]
+      "enum": ["official", "tv_broadcast", "pro_shot", "audience", "fan_reconstruction", "low", "unknown", null]
     },
     "verification_status": { "$ref": "vocabularies.json#/$defs/verification_status" },
     "notes": { "type": "string" },

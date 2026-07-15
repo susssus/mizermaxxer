@@ -32,7 +32,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 changelog:
 - date: '2026-07-06'
   action: created

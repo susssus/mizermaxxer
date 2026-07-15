@@ -1,0 +1,22 @@
+id: sadness-speed-of-desperate-promo
+title_ja: SADNESS / SPEED OF DESPERATE
+title_en: SADNESS / SPEED OF DESPERATE
+type: demo
+release_date: '1993'
+date_precision: year
+label: Midi:Nette
+catalog_number: none
+format: cassette
+cover_image: null
+verification_status: verified
+tracks:
+- song: sadness-i-know-the-reason-for-her-sadness
+  position: 1
+- song: speed-of-desperate
+  position: 2
+notes: 'Industry-only promotional demo tape; never publicly sold. Distributed to live houses, labels, and musicians. Distinct from public Sans Logique demo. Source: Cantavanda, vk.gy, scape.sc.'
+changelog:
+- date: '2026-07-15'
+  action: created
+  source: editorial
+  notes: Added missing promotional tape catalogued by Cantavanda.

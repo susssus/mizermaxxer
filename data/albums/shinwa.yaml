@@ -1,7 +1,7 @@
 id: shinwa
 title_ja: 神話
-title_en: 神話
-type: ep
+title_en: Shinwa
+type: box_set
 release_date: '2000-02-01'
 date_precision: day
 label: Midi:Nette
@@ -16,15 +16,13 @@ tracks:
   position: 2
 - song: mori-no-naka-no-tenshi
   position: 3
-- song: band-history-footage
-  position: 4
-notes: Synced from Discogs (https://www.discogs.com/release/2175459-Malice-Mizer-神話).
+notes: 'Kami memorial box (Mini Album & Video). CD contains 3 tracks; bundled VHS includes band history footage (not a CD track). Official Midi:Nette listing: MiniAlbum & Video.'
 changelog:
 - date: '2026-07-05'
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/release/2175459-Malice-Mizer-神話
-- date: '2026-07-05'
+- date: '2026-07-15'
   action: updated
-  source: discogs_sync
-  notes: Metadata and cover from https://www.discogs.com/release/2175459-Malice-Mizer-神話
+  source: editorial
+  notes: Reclassified as memorial box set; removed VHS footage from CD tracklist; title_en romanized.

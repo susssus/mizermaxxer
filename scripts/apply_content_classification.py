@@ -20,6 +20,7 @@ CLASSIFICATION_FIELDS = (
     "content_nature",
     "promotional_subtype",
     "promotional_carrier",
+    "promotional_subject",
     "vkgy_roles",
 )
 

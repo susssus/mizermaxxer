@@ -1,12 +1,12 @@
 id: braintrash
 title_ja: Braintrash
 title_en: Braintrash
-type: demo
+type: compilation
 release_date: '1993-02-24'
 date_precision: day
 label: Ariola
 catalog_number: BVCR-1402
-format: cassette
+format: cd
 cover_image: images/covers/braintrash.jpg
 verification_status: verified
 tracks:
@@ -32,9 +32,13 @@ tracks:
   position: 10
 - song: night-walk
   position: 11
-notes: Synced from Discogs (https://www.discogs.com/master/3663375-Various-Braintrash).
+notes: 'Various Artists omnibus CD (indies compilation). Only track 3 is Malice Mizer (SPEED OF DESPERATE). Track 8 is EX NIHILO, not MM. Synced from Discogs (https://www.discogs.com/master/3663375-Various-Braintrash).'
 changelog:
 - date: '2026-07-05'
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/master/3663375-Various-Braintrash
+- date: '2026-07-15'
+  action: updated
+  source: editorial
+  notes: Reclassified from demo to compilation; VA track attribution per Cantavanda/Discogs.

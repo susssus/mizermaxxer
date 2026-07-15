@@ -185,5 +185,5 @@ releases:
 
   - slug: braintrash
     kind: misc
-    album_type: demo
+    album_type: compilation
     discogs: { type: master, id: 3663375 }

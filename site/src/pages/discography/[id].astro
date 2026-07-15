@@ -80,6 +80,15 @@ const entityHref = album ? albumEntityHref(album.id) : null;
         <p><strong>Catalog:</strong> {album.catalog_number ?? "Unknown"}</p>
         <p><strong>Status:</strong> <span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></p>
         {album.notes && <p>{album.notes}</p>}
+        {album.type === "box_set" && album.id === "shinwa" && (
+          <div class="included-media">
+            <h3>Included media</h3>
+            <ul>
+              <li><strong>CD</strong> — 3 tracks (see track listing)</li>
+              <li><strong>VHS</strong> — Band history footage (memorial video; not on CD)</li>
+            </ul>
+          </div>
+        )}
       </div>
 
       <div class="card">
@@ -200,6 +209,24 @@ const entityHref = album ? albumEntityHref(album.id) : null;
               "—"
             )}
           </dd>
+          {(single.coupling_tracks?.length ?? 0) > 0 && (
+            <>
+              <dt>All tracks</dt>
+              <dd>
+                <ol class="coupling-list">
+                  {single.coupling_tracks.map((trackId) => (
+                    <li>
+                      {songEntityHref(trackId) ? (
+                        <a href={songEntityHref(trackId)!}>{songMap.get(trackId)?.title_en ?? trackId}</a>
+                      ) : (
+                        songMap.get(trackId)?.title_en ?? trackId
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </dd>
+            </>
+          )}
         </dl>
       </div>
     </section>

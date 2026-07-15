@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T16:11:14.426795Z",
+  "generated_at": "2026-07-15T17:30:33.572900Z",
   "people": {
     "members": [
       {
@@ -112,9 +112,159 @@
       "portrait_image": "images/members/gackt.webp",
       "gallery_images": [
         {
+          "src": "images/vintage/gackt-voyage-white-brocade.webp",
+          "caption": "Bel Air promo portrait (white/gold embroidery)",
+          "source": "POP BEAT (August 1997) / Cantavanda"
+        },
+        {
+          "src": "images/vintage/gackt-shoxx-1997-profile.webp",
+          "caption": "Magazine member profile (off-stage candid + live inset)",
+          "source": "SHOXX Vol. 53 (July 1997)"
+        },
+        {
+          "src": "images/vintage/gackt-backstage-candid.webp",
+          "caption": "Backstage candid (ponytail, sunglasses)",
+          "source": "ma chérie Vol. 4 (Spring 1998) / Cantavanda"
+        },
+        {
+          "src": "images/vintage/gackt-gekka-baroque.webp",
+          "caption": "Gekka no Yasoukyoku promo portrait",
+          "source": "Gekka no Yasoukyoku promo / vk.gy"
+        },
+        {
+          "src": "images/vintage/gackt-red-background.webp",
+          "caption": "Red backdrop portrait (Merveilles era)",
+          "source": "Gekka no Yasoukyoku promo / vk.gy"
+        },
+        {
+          "src": "images/vintage/gackt-merveilles-cape.webp",
+          "caption": "Black cape with red lining, stone balcony",
+          "source": "SHOXX Vol. 63 (May 1998) / Cantavanda"
+        },
+        {
+          "src": "images/vintage/gackt-merveilles-fur-collar.webp",
+          "caption": "Fur-collar jacket, exposed midriff (Merveilles era)",
+          "source": "SHOXX Vol. 63 (May 1998) / Cantavanda"
+        },
+        {
+          "src": "images/vintage/gackt-merveilles-gold-military.webp",
+          "caption": "Gold-embroidered military jacket (Merveilles era)",
+          "source": "Gekka no Yasoukyoku promo / vk.gy"
+        },
+        {
+          "src": "images/vintage/gackt-illuminati-feathers.webp",
+          "caption": "Black feather wings portrait (Illuminati era)",
+          "source": "POP BEAT (June 1998) / Cantavanda"
+        },
+        {
+          "src": "images/vintage/gackt-gothic-crosses.webp",
+          "caption": "Feather collar, mesh top, stone crosses",
+          "source": "Illuminati promo / POP BEAT (June 1998)"
+        },
+        {
+          "src": "images/vintage/gackt-gothic-mesh.webp",
+          "caption": "Gothic mesh top, stylized tear makeup",
+          "source": "B-PASS No. 161 (June 1999) / Internet Archive"
+        },
+        {
+          "src": "images/vintage/gackt-merveilles-lespace-live.webp",
+          "caption": "Merveilles l'espace tour — white/gold stage costume",
+          "source": "Merveilles l'espace live (1998)"
+        },
+        {
+          "src": "images/vintage/gackt-merveilles-live-auburn.webp",
+          "caption": "Merveilles tour live — auburn hair, fur-trim jacket",
+          "source": "Merveilles tour (1998)"
+        },
+        {
           "src": "images/vintage/live-full-lineup.webp",
           "caption": "Full lineup (behind Mana)",
           "source": "Malice Meezer / malicemeezer.neocities.org"
+        },
+        {
+          "src": "images/vintage/gackt-shoxx-1999-fallen-angel.webp",
+          "caption": "Fallen angel photoshoot (black feather wings)",
+          "source": "SHOXX Vol. 68 (February 1999)"
+        },
+        {
+          "src": "images/vintage/gackt-feather-boa.webp",
+          "caption": "Black iridescent feather stole",
+          "source": "SHOXX Vol. 68 (February 1999)"
+        },
+        {
+          "src": "images/vintage/gackt-turtleneck-portrait.webp",
+          "caption": "Close-up portrait, sparkly collar trim",
+          "source": "Arena37℃ (November 1998)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-wings-studio.webp",
+          "caption": "Mizérable promo — black wings, full-length studio",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-red-water.webp",
+          "caption": "Mizérable promo — red sky, claws in water",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-white-princely.webp",
+          "caption": "Mizérable promo — white/gold princely costume",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-white-claws.webp",
+          "caption": "Mizérable promo — white claws, silver princely outfit",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-oiran-kimono.webp",
+          "caption": "Mizérable promo — oiran-style purple kimono",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-electric-chair.webp",
+          "caption": "Mizérable promo — silver suit, electric-chair set",
+          "source": "SHOXX Vol. 68 (February 1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-train.webp",
+          "caption": "Mizérable promo — silver fur jacket, train interior",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-mannequins.webp",
+          "caption": "Mizérable promo — silver pants, mannequin set",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-red-heaters.webp",
+          "caption": "Mizérable promo — silver outfit, red studio heaters",
+          "source": "B-PASS No. 161 (June 1999) / Internet Archive"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-snakeskin-shop.webp",
+          "caption": "Mizérable promo — snakeskin long coat, shop interior",
+          "source": "Mizérable promo (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-live-snakeskin.webp",
+          "caption": "Mizérable tour live — snakeskin jacket",
+          "source": "Mizérable tour (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-live-blue-fur.webp",
+          "caption": "Mizérable tour live — blue-lit fur-trim crop top",
+          "source": "Mizérable tour (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mizerable-live-mesh.webp",
+          "caption": "Mizérable tour live — mesh top, feathered jacket",
+          "source": "Mizérable tour (1999)"
+        },
+        {
+          "src": "images/vintage/gackt-mars-military-live.webp",
+          "caption": "Mars tour live — military uniform, gold cord",
+          "source": "Mars tour (2000)"
         }
       ],
       "facts": [],
@@ -203,6 +353,56 @@
       },
       "portrait_image": "images/members/kami.webp",
       "gallery_images": [
+        {
+          "src": "images/vintage/kami-merveilles-feather-collar.webp",
+          "caption": "Merveilles promo portrait (feather shoulders, lace bodice)",
+          "source": "merveilles promo / vk.gy"
+        },
+        {
+          "src": "images/vintage/kami-cafe-notebook.webp",
+          "caption": "Cafe portrait, writing in notebook (braided hood trim)",
+          "source": "L'image de Merveilles sur TV (1998)"
+        },
+        {
+          "src": "images/vintage/kami-silver-sleeve-portrait.webp",
+          "caption": "Close-up portrait, embroidered silver sleeve",
+          "source": "merveilles promo / vk.gy"
+        },
+        {
+          "src": "images/vintage/kami-live-white-bow.webp",
+          "caption": "Live portrait, large white bow cravat (purple stage wash)",
+          "source": "merveilles l'espace (1998)"
+        },
+        {
+          "src": "images/vintage/kami-live-pearls-mic.webp",
+          "caption": "Live at mic, beaded necklace, studded PVC vest",
+          "source": "Merveilles era live / vk.gy"
+        },
+        {
+          "src": "images/vintage/kami-live-studded-vest.webp",
+          "caption": "Live at mic with drumsticks, studded vest and fishnet",
+          "source": "Merveilles era live / vk.gy"
+        },
+        {
+          "src": "images/vintage/kami-vicious-1999-profile.webp",
+          "caption": "Magazine member profile (shirtless portrait + discography)",
+          "source": "Vicious (February 1999)"
+        },
+        {
+          "src": "images/vintage/kami-bw-sunglasses-candid.webp",
+          "caption": "Black-and-white candid, sunglasses on head",
+          "source": "Merveilles era offshot / vk.gy"
+        },
+        {
+          "src": "images/vintage/kami-hysteric-mini-candid.webp",
+          "caption": "Offshot, Hysteric Mini T-shirt (triple-exposure)",
+          "source": "Merveilles era offshot / vk.gy"
+        },
+        {
+          "src": "images/vintage/kami-leopard-candid.webp",
+          "caption": "Offshot, blue leopard-print jacket",
+          "source": "Merveilles era offshot / vk.gy"
+        },
         {
           "src": "images/vintage/live-kami-memoire-final-1994.webp",
           "caption": "Cher de Memoire tour final, Meguro Rock Meikan (1994-12-27)",
@@ -491,12 +691,12 @@
         },
         {
           "src": "images/flyers/flyers-1992-08-debut-era.webp",
-          "caption": "Debut-era flyer (1992)",
+          "caption": "Magazine band profile clipping (1992)",
           "source": "Malice Meezer / malicemeezer.neocities.org"
         },
         {
           "src": "images/flyers/flyers-1993-01-demo-sadness.webp",
-          "caption": "Sadness demo tape flyer (1993)",
+          "caption": "Band formation announcement handbill (~Sept 1992)",
           "source": "Malice Meezer / malicemeezer.neocities.org"
         },
         {
@@ -694,7 +894,7 @@
       "years_active_end": 2001,
       "priority": 9,
       "status": "verified",
-      "notes": "Non-magazine promotional material (standalone flyers, gig handbills, release promos). Use promotional_subtype to distinguish gig vs release flyers."
+      "notes": "Standalone promotional handbills (チラシ) distributed at venues and indie shops. Classify with promotional_carrier standalone_handbill and promotional_subject."
     },
     {
       "slug": "tour-pamphlets",
@@ -719,6 +919,18 @@
       "priority": 10,
       "status": "verified",
       "notes": ""
+    },
+    {
+      "slug": "clippings",
+      "name_ja": "誌面切抜",
+      "name_en": "Magazine Clippings",
+      "publisher": null,
+      "issn": null,
+      "years_active_start": 1992,
+      "years_active_end": 2001,
+      "priority": 10,
+      "status": "verified",
+      "notes": "Editorial magazine excerpts scanned without known parent issue. content_nature editorial; promotional_carrier magazine_clipping."
     },
     {
       "slug": "animonster",
@@ -1131,6 +1343,134 @@
   ],
   "issues": [
     {
+      "id": "clippings-magazine-excerpts",
+      "publication": "clippings",
+      "issue_number": null,
+      "volume": null,
+      "publication_date": "1992-08",
+      "date_precision": "month",
+      "verification_status": "verified",
+      "source_notes": "Editorial magazine excerpts misfiled as flyers. Identified by Cantavanda (2026). Parent magazine issues unknown for most.",
+      "research_targets": [
+        "identify parent magazine issues for each clipping",
+        "confirm publication dates"
+      ],
+      "changelog": [
+        {
+          "date": "2026-07-15",
+          "action": "created",
+          "source": "editorial",
+          "notes": "Reclassified from flyers publication per Cantavanda feedback."
+        }
+      ],
+      "articles": [
+        {
+          "id": "clippings-1992-08-debut-era",
+          "issue_id": "clippings-magazine-excerpts",
+          "title_ja": null,
+          "title_en": "Malice Mizer band profile (magazine clipping, 1992)",
+          "type": "magazine_clipping",
+          "pages": null,
+          "photographer": null,
+          "writer": null,
+          "cover": false,
+          "poster": false,
+          "foldout": false,
+          "scan_available": true,
+          "scan_quality": "medium",
+          "scan_url": "images/flyers/flyers-1992-08-debut-era.webp",
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1992-08-debut-era.yaml",
+          "notes": "Magazine band-profile column, not a standalone handbill. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg",
+          "content_nature": "editorial",
+          "promotional_subtype": null,
+          "promotional_carrier": "magazine_clipping",
+          "promotional_subject": null,
+          "members": [],
+          "purchase_links": [],
+          "vkgy_roles": []
+        },
+        {
+          "id": "clippings-1993-08-artistic-expression",
+          "issue_id": "clippings-magazine-excerpts",
+          "title_ja": "芸術表現として音楽を昇華させていきたいんです",
+          "title_en": "Artistic expression (magazine clipping)",
+          "type": "magazine_clipping",
+          "pages": null,
+          "photographer": null,
+          "writer": null,
+          "cover": false,
+          "poster": false,
+          "foldout": false,
+          "scan_available": true,
+          "scan_quality": "medium",
+          "scan_url": "images/flyers/flyers-1993-08-artistic-expression.webp",
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1993-08-artistic-expression.yaml",
+          "notes": "Magazine feature excerpt with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg",
+          "content_nature": "editorial",
+          "promotional_subtype": null,
+          "promotional_carrier": "magazine_clipping",
+          "promotional_subject": null,
+          "members": [],
+          "purchase_links": [],
+          "vkgy_roles": []
+        },
+        {
+          "id": "clippings-1994-07-24-memoire-ii",
+          "issue_id": "clippings-magazine-excerpts",
+          "title_ja": null,
+          "title_en": "memoire sold-out notice (magazine clipping)",
+          "type": "magazine_clipping",
+          "pages": null,
+          "photographer": null,
+          "writer": null,
+          "cover": false,
+          "poster": false,
+          "foldout": false,
+          "scan_available": true,
+          "scan_quality": "medium",
+          "scan_url": "images/flyers/flyers-1994-07-24-memoire-ii.webp",
+          "translation_available": true,
+          "translation_url": "data/translations/flyers-1994-07-24-memoire-ii.yaml",
+          "notes": "Magazine clipping (94.7.24-memoire-flyer-II), not a standalone release handbill. Source: malice-mizer.info",
+          "content_nature": "editorial",
+          "promotional_subtype": null,
+          "promotional_carrier": "magazine_clipping",
+          "promotional_subject": null,
+          "members": [],
+          "purchase_links": [],
+          "vkgy_roles": []
+        },
+        {
+          "id": "clippings-unknown-oldflyer9",
+          "issue_id": "clippings-magazine-excerpts",
+          "title_ja": null,
+          "title_en": "Malice Mizer magazine clipping (date unknown)",
+          "type": "magazine_clipping",
+          "pages": null,
+          "photographer": null,
+          "writer": null,
+          "cover": false,
+          "poster": false,
+          "foldout": false,
+          "scan_available": true,
+          "scan_quality": "medium",
+          "scan_url": "images/flyers/flyers-unknown-oldflyer9.webp",
+          "translation_available": false,
+          "translation_url": null,
+          "notes": "Magazine clipping, not a standalone flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer9.jpg",
+          "content_nature": "editorial",
+          "promotional_subtype": null,
+          "promotional_carrier": "magazine_clipping",
+          "promotional_subject": null,
+          "members": [],
+          "purchase_links": [],
+          "vkgy_roles": []
+        }
+      ]
+    },
+    {
       "id": "flyers-1992-08",
       "publication": "flyers",
       "issue_number": null,
@@ -1172,7 +1512,8 @@
           "notes": "Earliest known live flyer.",
           "content_nature": "promotional",
           "promotional_subtype": "gig_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "live_gig",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1187,7 +1528,7 @@
       "publication_date": "1992-08",
       "date_precision": "month",
       "verification_status": "verified",
-      "source_notes": "Early live and demo flyers from Tetsu era. Source: malicemeezer.neocities.org/vintage.",
+      "source_notes": "Early standalone promotional handbills from Tetsu era. Source: malicemeezer.neocities.org/vintage.",
       "research_targets": [
         "scan high-resolution originals",
         "confirm event dates"
@@ -1204,39 +1545,20 @@
           "action": "verified",
           "source": "editorial",
           "notes": "Promoted during site improvement rollout: scan or local translation present."
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Reclassified per Cantavanda: moved magazine clippings out; oldflyer7 is band announcement not demo flyer."
         }
       ],
       "articles": [
         {
-          "id": "flyers-1992-08-debut-era",
+          "id": "flyers-1993-01-band-announcement",
           "issue_id": "flyers-1992-1994-live",
           "title_ja": null,
-          "title_en": "Malice Mizer flyer (1992)",
-          "type": "flyer",
-          "pages": null,
-          "photographer": null,
-          "writer": null,
-          "cover": false,
-          "poster": false,
-          "foldout": false,
-          "scan_available": true,
-          "scan_quality": "medium",
-          "scan_url": "images/flyers/flyers-1992-08-debut-era.webp",
-          "translation_available": true,
-          "translation_url": "data/translations/flyers-1992-08-debut-era.yaml",
-          "notes": "Tetsu-era flyer from 1992. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg (Malice Meezer vintage gallery).",
-          "content_nature": "promotional",
-          "promotional_subtype": "other",
-          "promotional_carrier": "standalone",
-          "members": [],
-          "purchase_links": [],
-          "vkgy_roles": []
-        },
-        {
-          "id": "flyers-1993-01-demo-sadness",
-          "issue_id": "flyers-1992-1994-live",
-          "title_ja": null,
-          "title_en": "Sadness demo tape flyer",
+          "title_en": "Band formation announcement handbill (~Sept 1992)",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -1249,10 +1571,11 @@
           "scan_url": "images/flyers/flyers-1993-01-demo-sadness.webp",
           "translation_available": false,
           "translation_url": null,
-          "notes": "Sadness demo tape flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg (Malice Meezer vintage gallery).",
+          "notes": "Band existence announcement distributed to music shops and venues before first live. Slogan \"I know the reason for her sadness\" — not the Sadness demo tape flyer. ~Sept 1992. Source: https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg (Cantavanda, 2026).",
           "content_nature": "promotional",
-          "promotional_subtype": "demo_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_subtype": "other",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "band_announcement",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1261,7 +1584,7 @@
           "id": "flyers-1993-06-live-1993",
           "issue_id": "flyers-1992-1994-live",
           "title_ja": null,
-          "title_en": "Malice Mizer live flyer (1993)",
+          "title_en": "Se-duc-tive Tour '93 handbill",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -1274,35 +1597,11 @@
           "scan_url": "images/flyers/flyers-1993-06-live-1993.webp",
           "translation_available": true,
           "translation_url": "data/translations/flyers-1993-06-live-1993.yaml",
-          "notes": "Live flyer from 1993. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg (Malice Meezer vintage gallery).",
+          "notes": "Se-duc-tive Tour 1993 dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer2.jpg",
           "content_nature": "promotional",
           "promotional_subtype": "gig_flyer",
-          "promotional_carrier": "standalone",
-          "members": [],
-          "purchase_links": [],
-          "vkgy_roles": []
-        },
-        {
-          "id": "flyers-1993-08-artistic-expression",
-          "issue_id": "flyers-1992-1994-live",
-          "title_ja": null,
-          "title_en": "Artistic expression flyer (translated quote)",
-          "type": "flyer",
-          "pages": null,
-          "photographer": null,
-          "writer": null,
-          "cover": false,
-          "poster": false,
-          "foldout": false,
-          "scan_available": true,
-          "scan_quality": "medium",
-          "scan_url": "images/flyers/flyers-1993-08-artistic-expression.webp",
-          "translation_available": true,
-          "translation_url": "data/translations/flyers-1993-08-artistic-expression.yaml",
-          "notes": "Flyer with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg (Malice Meezer vintage gallery).",
-          "content_nature": "promotional",
-          "promotional_subtype": "other",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "tour",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1311,7 +1610,7 @@
           "id": "flyers-1993-12-upcoming-lives",
           "issue_id": "flyers-1992-1994-live",
           "title_ja": null,
-          "title_en": "Upcoming lives flyer",
+          "title_en": "Upcoming lives handbill",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -1324,10 +1623,11 @@
           "scan_url": "images/flyers/flyers-1993-12-upcoming-lives.webp",
           "translation_available": true,
           "translation_url": "data/translations/flyers-1993-12-upcoming-lives.yaml",
-          "notes": "Flyer advertising upcoming live dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg (Malice Meezer vintage gallery).",
+          "notes": "Handbill advertising upcoming live dates. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer8.jpg",
           "content_nature": "promotional",
           "promotional_subtype": "gig_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "live_gig",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1336,7 +1636,7 @@
           "id": "flyers-1994-01-live-1994",
           "issue_id": "flyers-1992-1994-live",
           "title_ja": null,
-          "title_en": "Malice Mizer live flyer (1994)",
+          "title_en": "Malice Mizer live handbill (1994)",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -1349,10 +1649,11 @@
           "scan_url": "images/flyers/flyers-1994-01-live-1994.webp",
           "translation_available": true,
           "translation_url": "data/translations/flyers-1994-01-live-1994.yaml",
-          "notes": "Live flyer from 1994. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer.jpg (Malice Meezer vintage gallery).",
+          "notes": "Live handbill from 1994. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer.jpg",
           "content_nature": "promotional",
           "promotional_subtype": "gig_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "live_gig",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1361,7 +1662,7 @@
           "id": "flyers-unknown-oldflyer4",
           "issue_id": "flyers-1992-1994-live",
           "title_ja": null,
-          "title_en": "Malice Mizer flyer (date unknown, variant)",
+          "title_en": "Malice Mizer handbill (date unknown, variant)",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -1374,35 +1675,11 @@
           "scan_url": "images/flyers/flyers-unknown-oldflyer4.webp",
           "translation_available": false,
           "translation_url": null,
-          "notes": "Undated Tetsu-era flyer. Source scan: https://malicemeezer.neocities.org/tetsu/Oldflyer4.png (Malice Meezer vintage gallery).",
+          "notes": "Undated Tetsu-era handbill. Source scan: https://malicemeezer.neocities.org/tetsu/Oldflyer4.png",
           "content_nature": "promotional",
           "promotional_subtype": "other",
-          "promotional_carrier": "standalone",
-          "members": [],
-          "purchase_links": [],
-          "vkgy_roles": []
-        },
-        {
-          "id": "flyers-unknown-oldflyer9",
-          "issue_id": "flyers-1992-1994-live",
-          "title_ja": null,
-          "title_en": "Malice Mizer flyer (date unknown)",
-          "type": "flyer",
-          "pages": null,
-          "photographer": null,
-          "writer": null,
-          "cover": false,
-          "poster": false,
-          "foldout": false,
-          "scan_available": true,
-          "scan_quality": "medium",
-          "scan_url": "images/flyers/flyers-unknown-oldflyer9.webp",
-          "translation_available": false,
-          "translation_url": null,
-          "notes": "Undated Tetsu-era flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer9.jpg (Malice Meezer vintage gallery).",
-          "content_nature": "promotional",
-          "promotional_subtype": "other",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "live_gig",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1455,6 +1732,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "gig_listing",
           "promotional_carrier": "magazine_page",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [
             {
@@ -1507,6 +1785,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "gig_listing",
           "promotional_carrier": "magazine_page",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1557,6 +1836,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1603,6 +1883,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1655,6 +1936,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [
             {
@@ -1711,6 +1993,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1768,6 +2051,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [
             {
@@ -1824,6 +2108,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1882,6 +2167,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1940,6 +2226,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -1998,6 +2285,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2056,6 +2344,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2114,6 +2403,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2172,6 +2462,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2230,6 +2521,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2288,6 +2580,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [
             {
@@ -2352,6 +2645,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2410,6 +2704,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2468,6 +2763,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2526,6 +2822,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2584,6 +2881,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2642,6 +2940,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2700,6 +2999,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2758,6 +3058,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2816,6 +3117,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2874,6 +3176,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2932,6 +3235,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -2946,7 +3250,7 @@
       "publication_date": "1994",
       "date_precision": "year",
       "verification_status": "verified",
-      "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
+      "source_notes": "Release handbills catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
         "locate physical copies"
@@ -2963,6 +3267,12 @@
           "action": "verified",
           "source": "editorial",
           "notes": "Promoted during site improvement rollout: scan or local translation present."
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "memoire-ii moved to clippings; handbill taxonomy updated."
         }
       ],
       "articles": [
@@ -2970,7 +3280,7 @@
           "id": "flyers-1994-07-24-memoire",
           "issue_id": "flyers-1994-releases",
           "title_ja": null,
-          "title_en": "Mémoire release flyer",
+          "title_en": "memoire album release handbill",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -2986,32 +3296,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
-          "members": [],
-          "purchase_links": [],
-          "vkgy_roles": []
-        },
-        {
-          "id": "flyers-1994-07-24-memoire-ii",
-          "issue_id": "flyers-1994-releases",
-          "title_ja": null,
-          "title_en": "Mémoire release flyer (variant II)",
-          "type": "flyer",
-          "pages": null,
-          "photographer": null,
-          "writer": null,
-          "cover": false,
-          "poster": false,
-          "foldout": false,
-          "scan_available": true,
-          "scan_quality": "medium",
-          "scan_url": "images/flyers/flyers-1994-07-24-memoire-ii.webp",
-          "translation_available": true,
-          "translation_url": "data/translations/flyers-1994-07-24-memoire-ii.yaml",
-          "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
-          "content_nature": "promotional",
-          "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "album",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3020,7 +3306,7 @@
           "id": "flyers-1994-12-24-memoire-dx",
           "issue_id": "flyers-1994-releases",
           "title_ja": null,
-          "title_en": "Mémoire DX release flyer",
+          "title_en": "memoire DX release handbill",
           "type": "flyer",
           "pages": null,
           "photographer": null,
@@ -3036,7 +3322,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "album",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3093,6 +3380,7 @@
           "content_nature": "promotional",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "kami",
             "kozi",
@@ -3152,6 +3440,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3205,6 +3494,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3258,6 +3548,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3308,6 +3599,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3361,6 +3653,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3414,6 +3707,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3467,6 +3761,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3520,6 +3815,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3573,6 +3869,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3626,6 +3923,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3679,6 +3977,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3732,6 +4031,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3785,6 +4085,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3838,6 +4139,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3891,6 +4193,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3944,6 +4247,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -3997,6 +4301,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4050,6 +4355,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4103,6 +4409,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4156,6 +4463,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4209,6 +4517,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4262,6 +4571,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4315,6 +4625,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4368,6 +4679,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4418,6 +4730,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4471,6 +4784,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4524,6 +4838,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4577,6 +4892,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4630,6 +4946,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4683,6 +5000,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4736,6 +5054,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4789,6 +5108,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4842,6 +5162,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4895,6 +5216,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -4948,6 +5270,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5001,6 +5324,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5054,6 +5378,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5107,6 +5432,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5157,6 +5483,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5210,6 +5537,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5263,6 +5591,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5316,6 +5645,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5369,6 +5699,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5423,7 +5754,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5474,6 +5806,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -5526,6 +5859,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5583,6 +5917,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5640,6 +5975,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5697,6 +6033,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5747,6 +6084,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5804,6 +6142,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5861,6 +6200,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5918,6 +6258,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -5975,6 +6316,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6032,6 +6374,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6089,6 +6432,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6139,6 +6483,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6189,6 +6534,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -6248,6 +6594,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6305,6 +6652,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6362,6 +6710,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6412,6 +6761,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6466,7 +6816,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "album",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6491,7 +6842,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "album",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6543,6 +6895,7 @@
           "content_nature": "promotional",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -6605,6 +6958,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6655,6 +7009,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6711,6 +7066,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6761,6 +7117,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6811,6 +7168,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6861,6 +7219,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6911,6 +7270,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -6963,6 +7323,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -6980,7 +7341,8 @@
       "source_notes": "Release flyers catalogued from https://malice-mizer.info/flyers.",
       "research_targets": [
         "confirm print run details",
-        "locate physical copies"
+        "locate physical copies",
+        "locate full Vers Elle debut single handbill (other half)"
       ],
       "changelog": [
         {
@@ -7017,7 +7379,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7042,7 +7405,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "video",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7060,14 +7424,15 @@
           "poster": false,
           "foldout": false,
           "scan_available": true,
-          "scan_quality": "medium",
+          "scan_quality": "low",
           "scan_url": "images/flyers/flyers-1997-07-19-vers-elle.webp",
           "translation_available": false,
           "translation_url": null,
-          "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
+          "notes": "Partial scan only (cropped half of original handbill). Indexed at https://malice-mizer.info/flyers. Research target: locate full scan.",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7118,6 +7483,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7168,6 +7534,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7218,6 +7585,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7268,6 +7636,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7318,6 +7687,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7368,6 +7738,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7418,6 +7789,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -7480,6 +7852,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7530,6 +7903,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -7593,6 +7967,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -7624,6 +7999,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -7676,6 +8052,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -7732,6 +8109,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7782,6 +8160,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7832,6 +8211,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7882,6 +8262,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7932,6 +8313,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -7982,6 +8364,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8049,6 +8432,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "yuki"
@@ -8077,6 +8461,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "tour_ad",
           "promotional_carrier": "magazine_page",
+          "promotional_subject": "tour",
           "members": [
             "gackt",
             "kami",
@@ -8133,6 +8518,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8183,6 +8569,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -8235,6 +8622,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8303,6 +8691,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -8359,6 +8748,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8409,6 +8799,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -8468,6 +8859,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -8523,6 +8915,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8573,6 +8966,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8623,6 +9017,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8673,6 +9068,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8729,6 +9125,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -8792,6 +9189,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -8823,6 +9221,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -8879,6 +9278,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8929,6 +9329,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -8979,6 +9380,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -9031,6 +9433,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9081,6 +9484,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -9133,6 +9537,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9200,6 +9605,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -9256,6 +9662,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9306,6 +9713,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9356,6 +9764,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -9408,6 +9817,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9458,6 +9868,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -9517,6 +9928,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -9569,6 +9981,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -9625,7 +10038,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9650,7 +10064,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9675,7 +10090,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9700,7 +10116,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "album",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9725,7 +10142,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "merchandise",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9776,6 +10194,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9826,6 +10245,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9876,6 +10296,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9926,6 +10347,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -9976,6 +10398,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -10035,6 +10458,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -10087,6 +10511,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10137,6 +10562,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10187,6 +10613,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10237,6 +10664,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10287,6 +10715,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -10339,6 +10768,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10395,6 +10825,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -10447,6 +10878,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10497,6 +10929,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -10555,6 +10988,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10622,6 +11056,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -10678,6 +11113,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10728,6 +11164,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10778,6 +11215,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -10830,6 +11268,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -10891,6 +11330,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -10953,6 +11393,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -11005,6 +11446,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11055,6 +11497,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -11108,6 +11551,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11158,6 +11602,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11208,6 +11653,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11258,6 +11704,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11308,6 +11755,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -11360,6 +11808,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11410,6 +11859,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11465,6 +11915,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -11518,6 +11969,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11568,6 +12020,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -11620,6 +12073,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11670,6 +12124,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11726,6 +12181,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11776,6 +12232,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11837,6 +12294,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -11868,6 +12326,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -11924,6 +12383,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -11980,6 +12440,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12047,6 +12508,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -12103,6 +12565,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12153,6 +12616,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -12222,6 +12686,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -12278,6 +12743,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12334,6 +12800,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -12386,6 +12853,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12436,6 +12904,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12492,6 +12961,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12542,6 +13012,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12592,6 +13063,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12642,6 +13114,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -12694,6 +13167,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12744,6 +13218,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -12808,6 +13283,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -12858,6 +13334,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -12916,6 +13393,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -12968,6 +13446,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13018,6 +13497,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -13070,6 +13550,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13120,6 +13601,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13176,6 +13658,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13232,6 +13715,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13282,6 +13766,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -13334,6 +13819,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13384,6 +13870,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -13442,6 +13929,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -13494,6 +13982,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13544,6 +14033,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -13596,6 +14086,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13646,6 +14137,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13713,6 +14205,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt",
             "kami",
@@ -13769,6 +14262,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13819,6 +14313,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13869,6 +14364,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13919,6 +14415,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -13969,6 +14466,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -14021,6 +14519,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14071,6 +14570,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14121,6 +14621,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14171,6 +14672,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14221,6 +14723,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14271,6 +14774,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14321,6 +14825,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14377,6 +14882,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -14432,6 +14938,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14482,6 +14989,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -14534,6 +15042,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14584,6 +15093,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14634,6 +15144,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14684,6 +15195,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14734,6 +15246,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -14786,6 +15299,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14836,6 +15350,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -14893,6 +15408,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -14946,6 +15462,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -14996,6 +15513,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -15048,6 +15566,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15098,6 +15617,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -15150,6 +15670,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15200,6 +15721,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15250,6 +15772,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15300,6 +15823,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15350,6 +15874,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15400,6 +15925,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15450,6 +15976,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15500,6 +16027,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15550,6 +16078,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15600,6 +16129,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15650,6 +16180,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15700,6 +16231,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15750,6 +16282,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15800,6 +16333,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15850,6 +16384,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15900,6 +16435,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -15950,6 +16486,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16000,6 +16537,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16056,6 +16594,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16112,6 +16651,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16162,6 +16702,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16212,6 +16753,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16262,6 +16804,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16312,6 +16855,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16362,6 +16906,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16412,6 +16957,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16462,6 +17008,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16512,6 +17059,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16562,6 +17110,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16616,7 +17165,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16641,7 +17191,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -16692,6 +17243,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -16744,6 +17296,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -16796,6 +17349,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -16849,6 +17403,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -16901,6 +17456,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -16953,6 +17509,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17005,6 +17562,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17057,6 +17615,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17109,6 +17668,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17161,6 +17721,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -17211,6 +17772,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17263,6 +17825,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17315,6 +17878,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17367,6 +17931,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17419,6 +17984,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17471,6 +18037,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -17521,6 +18088,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17573,6 +18141,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17625,6 +18194,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17677,6 +18247,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17729,6 +18300,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17781,6 +18353,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17833,6 +18406,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17885,6 +18459,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17943,6 +18518,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -17996,6 +18572,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18048,6 +18625,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18100,6 +18678,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18152,6 +18731,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18204,6 +18784,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18260,6 +18841,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18312,6 +18894,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18364,6 +18947,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18416,6 +19000,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18466,6 +19051,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18518,6 +19104,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18570,6 +19157,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18622,6 +19210,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -18674,6 +19263,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18724,6 +19314,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18774,6 +19365,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18824,6 +19416,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18874,6 +19467,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18924,6 +19518,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -18974,6 +19569,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19024,6 +19620,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19074,6 +19671,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19124,6 +19722,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19174,6 +19773,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19224,6 +19824,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19274,6 +19875,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19324,6 +19926,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19374,6 +19977,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19424,6 +20028,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19474,6 +20079,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19524,6 +20130,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19574,6 +20181,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19624,6 +20232,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19674,6 +20283,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19724,6 +20334,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19774,6 +20385,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19824,6 +20436,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19874,6 +20487,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19924,6 +20538,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -19974,6 +20589,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20024,6 +20640,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20074,6 +20691,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20124,6 +20742,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20174,6 +20793,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20224,6 +20844,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20274,6 +20895,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20324,6 +20946,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20374,6 +20997,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20424,6 +21048,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20474,6 +21099,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20524,6 +21150,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20574,6 +21201,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20624,6 +21252,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20674,6 +21303,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20724,6 +21354,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20774,6 +21405,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20830,6 +21462,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20880,6 +21513,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -20935,6 +21569,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -20991,6 +21626,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21041,6 +21677,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -21093,6 +21730,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21149,6 +21787,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21199,6 +21838,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21255,6 +21895,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -21307,6 +21948,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21357,6 +21999,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21407,6 +22050,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21463,6 +22107,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21513,6 +22158,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21563,7 +22209,60 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
+          "purchase_links": [],
+          "vkgy_roles": []
+        }
+      ]
+    },
+    {
+      "id": "vicious-1999-02",
+      "publication": "vicious",
+      "issue_number": null,
+      "volume": null,
+      "publication_date": "1999-02",
+      "date_precision": "month",
+      "verification_status": "verified",
+      "source_notes": "Vicious February 1999. Kami member profile page (shirtless portrait with Adidas shorts) visible in user-provided scan; page footer reads Vicious February 1999.\n",
+      "research_targets": [
+        "verify full issue table of contents",
+        "locate additional MM pages beyond Kami profile"
+      ],
+      "changelog": [
+        {
+          "date": "2026-07-15",
+          "action": "created",
+          "source": "user_scan",
+          "notes": "Kami profile page identified from provided scan; added to Kami gallery."
+        }
+      ],
+      "articles": [
+        {
+          "id": "vicious-1999-02-001",
+          "issue_id": "vicious-1999-02",
+          "title_ja": null,
+          "title_en": "Kami member profile",
+          "type": "profile",
+          "pages": "146",
+          "photographer": null,
+          "writer": null,
+          "cover": false,
+          "poster": false,
+          "foldout": false,
+          "scan_available": true,
+          "scan_quality": "medium",
+          "scan_url": "images/vintage/kami-vicious-1999-profile.webp",
+          "translation_available": false,
+          "translation_url": null,
+          "notes": "Full-page drummer profile with biography and discography. Header: \"KAMI MALICE MIZER DRUMS\". Footer: Vicious February 1999. Mirrored locally as gallery image on Kami profile page.",
+          "content_nature": "editorial",
+          "promotional_subtype": null,
+          "promotional_carrier": null,
+          "promotional_subject": null,
+          "members": [
+            "kami"
+          ],
           "purchase_links": [],
           "vkgy_roles": []
         }
@@ -21613,6 +22312,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21663,6 +22363,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21713,6 +22414,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21769,6 +22471,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21819,6 +22522,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -21871,6 +22575,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -21921,6 +22626,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -21973,6 +22679,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -22025,6 +22732,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22075,6 +22783,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22131,6 +22840,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -22183,6 +22893,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -22235,6 +22946,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22289,6 +23001,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [
             "gackt"
           ],
@@ -22341,6 +23054,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22391,6 +23105,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22441,6 +23156,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22497,6 +23213,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -22549,6 +23266,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22605,6 +23323,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -22657,6 +23376,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22707,6 +23427,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22757,6 +23478,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22807,6 +23529,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22863,6 +23586,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -22915,6 +23639,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -22965,6 +23690,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23015,6 +23741,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23065,6 +23792,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23115,6 +23843,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23165,6 +23894,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23215,6 +23945,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23271,6 +24002,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -23323,6 +24055,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -23379,7 +24112,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23404,7 +24138,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23429,7 +24164,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23454,7 +24190,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23479,7 +24216,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23504,7 +24242,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "video",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23555,6 +24294,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23605,6 +24345,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23655,6 +24396,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23705,6 +24447,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23761,6 +24504,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -23813,6 +24557,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -23865,6 +24610,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23915,6 +24661,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -23965,6 +24712,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24015,6 +24763,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -24067,6 +24816,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24117,6 +24867,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24167,6 +24918,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24217,6 +24969,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -24275,6 +25028,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -24327,6 +25081,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24377,6 +25132,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24433,6 +25189,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -24485,6 +25242,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24535,6 +25293,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24585,6 +25344,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24635,6 +25395,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24685,6 +25446,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24735,6 +25497,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24791,6 +25554,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24841,6 +25605,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24891,6 +25656,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24941,6 +25707,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -24991,6 +25758,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25041,6 +25809,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25091,6 +25860,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25141,6 +25911,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25196,6 +25967,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -25249,6 +26021,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25299,6 +26072,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25349,6 +26123,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25405,6 +26180,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -25457,6 +26233,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25507,6 +26284,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25557,6 +26335,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25607,6 +26386,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25663,6 +26443,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -25715,6 +26496,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -25767,6 +26549,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25817,6 +26600,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25873,6 +26657,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -25929,7 +26714,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "video",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25954,7 +26740,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -25979,7 +26766,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26004,7 +26792,8 @@
           "notes": "Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).",
           "content_nature": "promotional",
           "promotional_subtype": "release_flyer",
-          "promotional_carrier": "standalone",
+          "promotional_carrier": "standalone_handbill",
+          "promotional_subject": "single",
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26055,6 +26844,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26105,6 +26895,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26155,6 +26946,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26211,6 +27003,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -26263,6 +27056,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26313,6 +27107,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26363,6 +27158,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26419,6 +27215,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -26477,6 +27274,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -26535,6 +27333,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -26587,6 +27386,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26643,6 +27443,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -26695,6 +27496,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26745,6 +27547,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26795,6 +27598,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26845,6 +27649,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -26901,6 +27706,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -26953,6 +27759,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27009,6 +27816,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27061,6 +27869,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27113,6 +27922,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27171,6 +27981,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27223,6 +28034,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27273,6 +28085,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27323,6 +28136,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27379,6 +28193,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27431,6 +28246,7 @@
           "content_nature": "promotional",
           "promotional_subtype": "magazine_inset",
           "promotional_carrier": "magazine_inset",
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27483,6 +28299,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27535,6 +28352,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27585,6 +28403,7 @@
           "content_nature": null,
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27635,6 +28454,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27685,6 +28505,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27735,6 +28556,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": []
@@ -27791,6 +28613,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27843,6 +28666,7 @@
           "content_nature": "editorial",
           "promotional_subtype": null,
           "promotional_carrier": null,
+          "promotional_subject": null,
           "members": [],
           "purchase_links": [],
           "vkgy_roles": [
@@ -27974,14 +28798,10 @@
       "id": "ashes-to-ashes",
       "title_ja": "Ashes To Ashes",
       "title_en": "Ashes To Ashes",
-      "notes": "Auto-created from Discogs sync (2026-07-05).",
-      "writers": [
-        "mana"
-      ],
+      "notes": "EX NIHILO track on Various Artists compilation Braintrash (track 8). Not a Malice Mizer song.",
+      "writers": [],
       "lyricists": [],
-      "composers": [
-        "mana"
-      ]
+      "composers": []
     },
     {
       "id": "au-revoir-bossa",
@@ -28755,10 +29575,10 @@
       ]
     },
     {
-      "id": "regret-message",
-      "title_ja": "倫逸メッセージ",
-      "title_en": "Regret Message",
-      "notes": "",
+      "id": "s-conscious",
+      "title_ja": "S-Conscious",
+      "title_en": "S-Conscious",
+      "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
       ],
@@ -28768,9 +29588,9 @@
       ]
     },
     {
-      "id": "s-conscious",
-      "title_ja": "S-Conscious",
-      "title_en": "S-Conscious",
+      "id": "speed-of-desperate",
+      "title_ja": "SPEED OF DESPERATE",
+      "title_en": "SPEED OF DESPERATE",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -28849,19 +29669,6 @@
       "id": "solitude",
       "title_ja": "Solitude",
       "title_en": "Solitude",
-      "notes": "Auto-created from Discogs sync (2026-07-05).",
-      "writers": [
-        "mana"
-      ],
-      "lyricists": [],
-      "composers": [
-        "mana"
-      ]
-    },
-    {
-      "id": "speed-of-desperate",
-      "title_ja": "Speed Of Desperate",
-      "title_en": "Speed Of Desperate",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29586,8 +30393,8 @@
   "albums": [
     {
       "id": "sans-logique",
-      "title_ja": "Sans Logique",
-      "title_en": "Sans Logique",
+      "title_ja": "SANS LOGIQUE",
+      "title_en": "SANS LOGIQUE",
       "type": "demo",
       "release_date": "1992-10-31",
       "date_precision": "day",
@@ -29680,8 +30487,8 @@
           "position": 4,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "Speed Of Desperate",
-            "title_en": "Speed Of Desperate",
+            "title_ja": "SPEED OF DESPERATE",
+            "title_en": "SPEED OF DESPERATE",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -29696,8 +30503,8 @@
     },
     {
       "id": "speed-of-desperate",
-      "title_ja": "Speed of Desperate",
-      "title_en": "Speed of Desperate",
+      "title_ja": "SPEED OF DESPERATE",
+      "title_en": "SPEED OF DESPERATE",
       "type": "demo",
       "release_date": "1992-12",
       "date_precision": "month",
@@ -29706,7 +30513,7 @@
       "format": "cassette",
       "cover_image": "images/covers/speed-of-desperate.jpg",
       "verification_status": "verified",
-      "notes": "Synced from Discogs (https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate).",
+      "notes": "Promotional demo cassette (~10 serial-numbered copies) sent to record labels by Mana; not publicly distributed. Also appeared on Braintrash VA compilation. Source: vk.gy, Cantavanda.",
       "tracks": [
         {
           "song": "speed-of-desperate",
@@ -29719,6 +30526,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate"
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Corrected capitalization and promotional-only distribution notes per Cantavanda."
         }
       ],
       "track_details": [
@@ -29727,8 +30540,8 @@
           "position": 1,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "Speed Of Desperate",
-            "title_en": "Speed Of Desperate",
+            "title_ja": "SPEED OF DESPERATE",
+            "title_en": "SPEED OF DESPERATE",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -29742,42 +30555,86 @@
       ]
     },
     {
-      "id": "fait-malice-et-fin",
-      "title_ja": "Fait malice et fin",
-      "title_en": "Fait malice et fin",
+      "id": "sadness-speed-of-desperate-promo",
+      "title_ja": "SADNESS / SPEED OF DESPERATE",
+      "title_en": "SADNESS / SPEED OF DESPERATE",
       "type": "demo",
       "release_date": "1993",
       "date_precision": "year",
-      "label": "independent",
-      "catalog_number": null,
+      "label": "Midi:Nette",
+      "catalog_number": "none",
       "format": "cassette",
       "cover_image": null,
-      "verification_status": "needs_verification",
-      "notes": "Early demo cassette. Track listing needs verification.",
-      "tracks": [],
-      "changelog": [
+      "verification_status": "verified",
+      "notes": "Industry-only promotional demo tape; never publicly sold. Distributed to live houses, labels, and musicians. Distinct from public Sans Logique demo. Source: Cantavanda, vk.gy, scape.sc.",
+      "tracks": [
         {
-          "date": "2026-07-06",
-          "action": "created",
-          "source": "seed_script",
-          "notes": "Seed entry for Fait malice et fin"
+          "song": "sadness-i-know-the-reason-for-her-sadness",
+          "position": 1
+        },
+        {
+          "song": "speed-of-desperate",
+          "position": 2
         }
       ],
-      "track_details": []
+      "changelog": [
+        {
+          "date": "2026-07-15",
+          "action": "created",
+          "source": "editorial",
+          "notes": "Added missing promotional tape catalogued by Cantavanda."
+        }
+      ],
+      "track_details": [
+        {
+          "song": "sadness-i-know-the-reason-for-her-sadness",
+          "position": 1,
+          "song_detail": {
+            "id": "sadness-i-know-the-reason-for-her-sadness",
+            "title_ja": "Sadness～I Know The Reason For Her Sadness",
+            "title_en": "Sadness～I Know The Reason For Her Sadness",
+            "notes": "Auto-created from Discogs sync (2026-07-05).",
+            "writers": [
+              "mana"
+            ],
+            "lyricists": [],
+            "composers": [
+              "mana"
+            ]
+          }
+        },
+        {
+          "song": "speed-of-desperate",
+          "position": 2,
+          "song_detail": {
+            "id": "speed-of-desperate",
+            "title_ja": "SPEED OF DESPERATE",
+            "title_en": "SPEED OF DESPERATE",
+            "notes": "Auto-created from Discogs sync (2026-07-05).",
+            "writers": [
+              "mana"
+            ],
+            "lyricists": [],
+            "composers": [
+              "mana"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "braintrash",
       "title_ja": "Braintrash",
       "title_en": "Braintrash",
-      "type": "demo",
+      "type": "compilation",
       "release_date": "1993-02-24",
       "date_precision": "day",
       "label": "Ariola",
       "catalog_number": "BVCR-1402",
-      "format": "cassette",
+      "format": "cd",
       "cover_image": "images/covers/braintrash.jpg",
       "verification_status": "verified",
-      "notes": "Synced from Discogs (https://www.discogs.com/master/3663375-Various-Braintrash).",
+      "notes": "Various Artists omnibus CD (indies compilation). Only track 3 is Malice Mizer (SPEED OF DESPERATE). Track 8 is EX NIHILO, not MM. Synced from Discogs (https://www.discogs.com/master/3663375-Various-Braintrash).",
       "tracks": [
         {
           "song": "last-train",
@@ -29830,6 +30687,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/master/3663375-Various-Braintrash"
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Reclassified from demo to compilation; VA track attribution per Cantavanda/Discogs."
         }
       ],
       "track_details": [
@@ -29872,8 +30735,8 @@
           "position": 3,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "Speed Of Desperate",
-            "title_en": "Speed Of Desperate",
+            "title_ja": "SPEED OF DESPERATE",
+            "title_en": "SPEED OF DESPERATE",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -29959,14 +30822,10 @@
             "id": "ashes-to-ashes",
             "title_ja": "Ashes To Ashes",
             "title_en": "Ashes To Ashes",
-            "notes": "Auto-created from Discogs sync (2026-07-05).",
-            "writers": [
-              "mana"
-            ],
+            "notes": "EX NIHILO track on Various Artists compilation Braintrash (track 8). Not a Malice Mizer song.",
+            "writers": [],
             "lyricists": [],
-            "composers": [
-              "mana"
-            ]
+            "composers": []
           }
         },
         {
@@ -30024,8 +30883,8 @@
     },
     {
       "id": "sadness-demo",
-      "title_ja": "Sadness",
-      "title_en": "Sadness",
+      "title_ja": "SADNESS",
+      "title_en": "SADNESS",
       "type": "demo",
       "release_date": "1993-04-05",
       "date_precision": "day",
@@ -30047,6 +30906,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/2610662-Malice-Mizer-Sadness"
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Corrected release title capitalization to SADNESS per physical typography."
         }
       ],
       "track_details": [
@@ -30071,8 +30936,8 @@
     },
     {
       "id": "the-1th-anniversary",
-      "title_ja": "The 1th Anniversary",
-      "title_en": "The 1th Anniversary",
+      "title_ja": "THE 1TH ANNIVERSARY",
+      "title_en": "THE 1TH ANNIVERSARY",
       "type": "demo",
       "release_date": "1993-12-10",
       "date_precision": "day",
@@ -30081,7 +30946,7 @@
       "format": "cassette",
       "cover_image": "images/covers/the-1th-anniversary.jpg",
       "verification_status": "verified",
-      "notes": "Synced from Discogs (https://www.discogs.com/release/2610648-Malice-Mizer-The-1th-Anniversary).",
+      "notes": "Synced from Discogs (https://www.discogs.com/release/2610648-Malice-Mizer-The-1th-Anniversary). Title spelling \"1th\" preserved from original release.",
       "tracks": [
         {
           "song": "sadness-i-know-the-reason-for-her-sadness",
@@ -30098,6 +30963,12 @@
           "action": "created",
           "source": "discogs_sync",
           "notes": "Imported from https://www.discogs.com/release/2610648-Malice-Mizer-The-1th-Anniversary"
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Corrected capitalization to match physical release typography."
         }
       ],
       "track_details": [
@@ -30139,9 +31010,9 @@
     },
     {
       "id": "memoire",
-      "title_ja": "Memoire",
-      "title_en": "Memoire",
-      "type": "album",
+      "title_ja": "memoire",
+      "title_en": "memoire",
+      "type": "ep",
       "release_date": "1994-07-24",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -30303,9 +31174,9 @@
     },
     {
       "id": "memoire-dx",
-      "title_ja": "Memoire DX",
-      "title_en": "Memoire DX",
-      "type": "album",
+      "title_ja": "memoire DX",
+      "title_en": "memoire DX",
+      "type": "ep",
       "release_date": "1994-12-24",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -31871,8 +32742,8 @@
     {
       "id": "shinwa",
       "title_ja": "神話",
-      "title_en": "神話",
-      "type": "ep",
+      "title_en": "Shinwa",
+      "type": "box_set",
       "release_date": "2000-02-01",
       "date_precision": "day",
       "label": "Midi:Nette",
@@ -31880,7 +32751,7 @@
       "format": "cd",
       "cover_image": "images/covers/shinwa.jpg",
       "verification_status": "verified",
-      "notes": "Synced from Discogs (https://www.discogs.com/release/2175459-Malice-Mizer-神話).",
+      "notes": "Kami memorial box (Mini Album & Video). CD contains 3 tracks; bundled VHS includes band history footage (not a CD track). Official Midi:Nette listing: MiniAlbum & Video.",
       "tracks": [
         {
           "song": "saikai",
@@ -31893,10 +32764,6 @@
         {
           "song": "mori-no-naka-no-tenshi",
           "position": 3
-        },
-        {
-          "song": "band-history-footage",
-          "position": 4
         }
       ],
       "changelog": [
@@ -31907,10 +32774,10 @@
           "notes": "Metadata and cover from https://www.discogs.com/release/2175459-Malice-Mizer-神話"
         },
         {
-          "date": "2026-07-05",
+          "date": "2026-07-15",
           "action": "updated",
-          "source": "discogs_sync",
-          "notes": "Metadata and cover from https://www.discogs.com/release/2175459-Malice-Mizer-神話"
+          "source": "editorial",
+          "notes": "Reclassified as memorial box set; removed VHS footage from CD tracklist; title_en romanized."
         }
       ],
       "track_details": [
@@ -31955,23 +32822,6 @@
             "id": "mori-no-naka-no-tenshi",
             "title_ja": "森の中の天使",
             "title_en": "森の中の天使",
-            "notes": "Auto-created from Discogs sync (2026-07-05).",
-            "writers": [
-              "mana"
-            ],
-            "lyricists": [],
-            "composers": [
-              "mana"
-            ]
-          }
-        },
-        {
-          "song": "band-history-footage",
-          "position": 4,
-          "song_detail": {
-            "id": "band-history-footage",
-            "title_ja": "Band History Footage",
-            "title_en": "Band History Footage",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35530,30 +36380,6 @@
   ],
   "singles": [
     {
-      "id": "regret-message-single",
-      "title_ja": "倫逸メッセージ",
-      "title_en": "Regret Message",
-      "release_date": "1995",
-      "date_precision": "year",
-      "label": "independent",
-      "catalog_number": null,
-      "format": "cd",
-      "a_side": "regret-message",
-      "b_side": null,
-      "cover_image": null,
-      "verification_status": "possible",
-      "notes": "Indie single predating major-label period. Not listed in Discogs official singles (41 releases); kept as supplementary entry.",
-      "coupling_tracks": [],
-      "changelog": [
-        {
-          "date": "2026-07-06",
-          "action": "created",
-          "source": "seed_script",
-          "notes": "Seed entry for single Regret Message"
-        }
-      ]
-    },
-    {
       "id": "uruwashii-kamen-single",
       "title_ja": "麗しき仮面の招待状",
       "title_en": "麗しき仮面の招待状",
@@ -35712,7 +36538,7 @@
     {
       "id": "illuminati-single",
       "title_ja": "Illuminati",
-      "title_en": "Illuminati",
+      "title_en": "ILLUMINATI",
       "release_date": "1998-05-20",
       "date_precision": "day",
       "label": "Maitrize",
@@ -35874,18 +36700,28 @@
       "label": "Midi:Nette",
       "catalog_number": "MMCD-019",
       "format": "cd",
-      "a_side": "prologue-kaisou",
-      "b_side": "gardenia",
+      "a_side": "gardenia",
+      "b_side": "houkai-jokyoku",
       "cover_image": "images/covers/gardenia-single.jpg",
       "verification_status": "verified",
-      "notes": "Synced from Discogs (https://www.discogs.com/master/231792-Malice-Mizer-Gardenia).",
-      "coupling_tracks": [],
+      "notes": "Synced from Discogs. Flyer confirms Gardenia as title track with c/w 崩壊序曲 (Hōkai Jokyoku); prologue 〜回想〜 opens the CD. Gardenia ~de l'image~ video was cancelled (lost master).",
+      "coupling_tracks": [
+        "prologue-kaisou",
+        "gardenia",
+        "houkai-jokyoku"
+      ],
       "changelog": [
         {
           "date": "2026-07-05",
           "action": "updated",
           "source": "discogs_sync",
           "notes": "Metadata and cover from https://www.discogs.com/master/231792-Malice-Mizer-Gardenia"
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Corrected A/B sides and track order per flyer and malice-mizer.info."
         }
       ]
     },
@@ -45769,20 +46605,26 @@
       "title_ja": "Gardenia",
       "title_en": "Gardenia (PV)",
       "type": "pv",
-      "url": "https://www.youtube.com/watch?v=XuTknvtvRN0",
+      "url": "https://youtu.be/znSN1qwEXBg",
       "platform": "youtube",
       "release_date": "2001-05-30",
       "song": "gardenia",
       "concert": null,
-      "quality": "official",
+      "quality": "fan_reconstruction",
       "verification_status": "verified",
-      "notes": "Official PV on @Malice_Mizer_Official YouTube channel. Reshot Cardinal DVD version; original single-era master was never released.",
+      "notes": "Fan reconstruction by Cantavanda (2017). Original single-era PV master was lost; this edit combines TV broadcast, Cardinal reshoot footage, and Bara no denshou commercial fragments. Official @Malice_Mizer_Official channel hosts a later Cardinal reshoot only.",
       "changelog": [
         {
           "date": "2026-07-06",
           "action": "created",
           "source": "web_research",
           "notes": "Catalogued from @Malice_Mizer_Official channel (XuTknvtvRN0)."
+        },
+        {
+          "date": "2026-07-15",
+          "action": "updated",
+          "source": "editorial",
+          "notes": "Linked Cantavanda fan reconstruction per community source-of-truth; noted lost official master."
         }
       ],
       "trigger_warnings": [],
@@ -46712,13 +47554,13 @@
     }
   ],
   "stats": {
-    "issue_count": 494,
-    "article_count": 523,
-    "verified_issue_count": 50,
-    "scan_count": 80,
+    "issue_count": 496,
+    "article_count": 524,
+    "verified_issue_count": 52,
+    "scan_count": 81,
     "album_count": 29,
-    "single_count": 16,
-    "song_count": 133,
+    "single_count": 15,
+    "song_count": 132,
     "concert_count": 163,
     "video_count": 61,
     "appearance_count": 7,

@@ -1,6 +1,6 @@
 id: sadness-demo
-title_ja: Sadness
-title_en: Sadness
+title_ja: SADNESS
+title_en: SADNESS
 type: demo
 release_date: '1993-04-05'
 date_precision: day
@@ -18,3 +18,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/release/2610662-Malice-Mizer-Sadness
+- date: '2026-07-15'
+  action: updated
+  source: editorial
+  notes: Corrected release title capitalization to SADNESS per physical typography.

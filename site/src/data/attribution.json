@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T16:11:14.721323Z",
-  "total_count": 459,
+  "generated_at": "2026-07-15T17:30:33.894381Z",
+  "total_count": 499,
   "sources": [
     {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -3214,6 +3214,68 @@
       ]
     },
     {
+      "source_name": "Mizérable promo (1999)",
+      "count": 8,
+      "images": [
+        {
+          "path": "images/vintage/gackt-mizerable-mannequins.webp",
+          "filename": "gackt-mizerable-mannequins.webp",
+          "site_url": "/images/vintage/gackt-mizerable-mannequins.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-oiran-kimono.webp",
+          "filename": "gackt-mizerable-oiran-kimono.webp",
+          "site_url": "/images/vintage/gackt-mizerable-oiran-kimono.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-red-water.webp",
+          "filename": "gackt-mizerable-red-water.webp",
+          "site_url": "/images/vintage/gackt-mizerable-red-water.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-snakeskin-shop.webp",
+          "filename": "gackt-mizerable-snakeskin-shop.webp",
+          "site_url": "/images/vintage/gackt-mizerable-snakeskin-shop.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-train.webp",
+          "filename": "gackt-mizerable-train.webp",
+          "site_url": "/images/vintage/gackt-mizerable-train.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-white-claws.webp",
+          "filename": "gackt-mizerable-white-claws.webp",
+          "site_url": "/images/vintage/gackt-mizerable-white-claws.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-white-princely.webp",
+          "filename": "gackt-mizerable-white-princely.webp",
+          "site_url": "/images/vintage/gackt-mizerable-white-princely.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-wings-studio.webp",
+          "filename": "gackt-mizerable-wings-studio.webp",
+          "site_url": "/images/vintage/gackt-mizerable-wings-studio.webp",
+          "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
       "source_name": "Cover Art Archive / Cantavanda",
       "count": 6,
       "images": [
@@ -3262,6 +3324,207 @@
       ]
     },
     {
+      "source_name": "Gekka no Yasoukyoku promo / vk.gy",
+      "count": 3,
+      "images": [
+        {
+          "path": "images/vintage/gackt-gekka-baroque.webp",
+          "filename": "gackt-gekka-baroque.webp",
+          "site_url": "/images/vintage/gackt-gekka-baroque.webp",
+          "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        },
+        {
+          "path": "images/vintage/gackt-merveilles-gold-military.webp",
+          "filename": "gackt-merveilles-gold-military.webp",
+          "site_url": "/images/vintage/gackt-merveilles-gold-military.webp",
+          "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-red-background.webp",
+          "filename": "gackt-red-background.webp",
+          "site_url": "/images/vintage/gackt-red-background.webp",
+          "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "count": 3,
+      "images": [
+        {
+          "path": "images/vintage/kami-bw-sunglasses-candid.webp",
+          "filename": "kami-bw-sunglasses-candid.webp",
+          "site_url": "/images/vintage/kami-bw-sunglasses-candid.webp",
+          "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        },
+        {
+          "path": "images/vintage/kami-hysteric-mini-candid.webp",
+          "filename": "kami-hysteric-mini-candid.webp",
+          "site_url": "/images/vintage/kami-hysteric-mini-candid.webp",
+          "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        },
+        {
+          "path": "images/vintage/kami-leopard-candid.webp",
+          "filename": "kami-leopard-candid.webp",
+          "site_url": "/images/vintage/kami-leopard-candid.webp",
+          "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Mizérable tour (1999)",
+      "count": 3,
+      "images": [
+        {
+          "path": "images/vintage/gackt-mizerable-live-blue-fur.webp",
+          "filename": "gackt-mizerable-live-blue-fur.webp",
+          "site_url": "/images/vintage/gackt-mizerable-live-blue-fur.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-live-mesh.webp",
+          "filename": "gackt-mizerable-live-mesh.webp",
+          "site_url": "/images/vintage/gackt-mizerable-live-mesh.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-live-snakeskin.webp",
+          "filename": "gackt-mizerable-live-snakeskin.webp",
+          "site_url": "/images/vintage/gackt-mizerable-live-snakeskin.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "SHOXX Vol. 68 (February 1999)",
+      "count": 3,
+      "images": [
+        {
+          "path": "images/vintage/gackt-feather-boa.webp",
+          "filename": "gackt-feather-boa.webp",
+          "site_url": "/images/vintage/gackt-feather-boa.webp",
+          "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-electric-chair.webp",
+          "filename": "gackt-mizerable-electric-chair.webp",
+          "site_url": "/images/vintage/gackt-mizerable-electric-chair.webp",
+          "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        },
+        {
+          "path": "images/vintage/gackt-shoxx-1999-fallen-angel.webp",
+          "filename": "gackt-shoxx-1999-fallen-angel.webp",
+          "site_url": "/images/vintage/gackt-shoxx-1999-fallen-angel.webp",
+          "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        }
+      ]
+    },
+    {
+      "source_name": "B-PASS No. 161 (June 1999) / Internet Archive",
+      "count": 2,
+      "images": [
+        {
+          "path": "images/vintage/gackt-gothic-mesh.webp",
+          "filename": "gackt-gothic-mesh.webp",
+          "site_url": "/images/vintage/gackt-gothic-mesh.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        },
+        {
+          "path": "images/vintage/gackt-mizerable-red-heaters.webp",
+          "filename": "gackt-mizerable-red-heaters.webp",
+          "site_url": "/images/vintage/gackt-mizerable-red-heaters.webp",
+          "source_url": "https://archive.org/details/scan-10188",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Merveilles era live / vk.gy",
+      "count": 2,
+      "images": [
+        {
+          "path": "images/vintage/kami-live-pearls-mic.webp",
+          "filename": "kami-live-pearls-mic.webp",
+          "site_url": "/images/vintage/kami-live-pearls-mic.webp",
+          "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        },
+        {
+          "path": "images/vintage/kami-live-studded-vest.webp",
+          "filename": "kami-live-studded-vest.webp",
+          "site_url": "/images/vintage/kami-live-studded-vest.webp",
+          "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        }
+      ]
+    },
+    {
+      "source_name": "merveilles promo / vk.gy",
+      "count": 2,
+      "images": [
+        {
+          "path": "images/vintage/kami-merveilles-feather-collar.webp",
+          "filename": "kami-merveilles-feather-collar.webp",
+          "site_url": "/images/vintage/kami-merveilles-feather-collar.webp",
+          "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        },
+        {
+          "path": "images/vintage/kami-silver-sleeve-portrait.webp",
+          "filename": "kami-silver-sleeve-portrait.webp",
+          "site_url": "/images/vintage/kami-silver-sleeve-portrait.webp",
+          "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        }
+      ]
+    },
+    {
+      "source_name": "SHOXX Vol. 63 (May 1998) / Cantavanda",
+      "count": 2,
+      "images": [
+        {
+          "path": "images/vintage/gackt-merveilles-cape.webp",
+          "filename": "gackt-merveilles-cape.webp",
+          "site_url": "/images/vintage/gackt-merveilles-cape.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        },
+        {
+          "path": "images/vintage/gackt-merveilles-fur-collar.webp",
+          "filename": "gackt-merveilles-fur-collar.webp",
+          "site_url": "/images/vintage/gackt-merveilles-fur-collar.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Arena37℃ (November 1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-turtleneck-portrait.webp",
+          "filename": "gackt-turtleneck-portrait.webp",
+          "site_url": "/images/vintage/gackt-turtleneck-portrait.webp",
+          "source_url": "https://archive.org/details/arena194-ss-2",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        }
+      ]
+    },
+    {
       "source_name": "Cantavanda (Butterfly Rose)",
       "count": 1,
       "images": [
@@ -3275,6 +3538,45 @@
       ]
     },
     {
+      "source_name": "Illuminati promo / POP BEAT (June 1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-gothic-crosses.webp",
+          "filename": "gackt-gothic-crosses.webp",
+          "site_url": "/images/vintage/gackt-gothic-crosses.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "L'image de Merveilles sur TV (1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/kami-cafe-notebook.webp",
+          "filename": "kami-cafe-notebook.webp",
+          "site_url": "/images/vintage/kami-cafe-notebook.webp",
+          "source_url": "https://www.scape.sc/release.php?id=52",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        }
+      ]
+    },
+    {
+      "source_name": "ma chérie Vol. 4 (Spring 1998) / Cantavanda",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-backstage-candid.webp",
+          "filename": "gackt-backstage-candid.webp",
+          "site_url": "/images/vintage/gackt-backstage-candid.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        }
+      ]
+    },
+    {
       "source_name": "malice-mizer.info / Cantavanda",
       "count": 1,
       "images": [
@@ -3284,6 +3586,110 @@
           "site_url": "/images/members/hero.webp",
           "source_url": "https://www.malice-mizer.info/GK7xiQ1XoAAmE6m.webp",
           "fetched_at": "2026-07-05T22:29:53.552295Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Mars tour (2000)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-mars-military-live.webp",
+          "filename": "gackt-mars-military-live.webp",
+          "site_url": "/images/vintage/gackt-mars-military-live.webp",
+          "source_url": "https://vk.gy/artists/gackt/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "merveilles l'espace (1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/kami-live-white-bow.webp",
+          "filename": "kami-live-white-bow.webp",
+          "site_url": "/images/vintage/kami-live-white-bow.webp",
+          "source_url": "https://www.scape.sc/release.php?id=52",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Merveilles l'espace live (1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-merveilles-lespace-live.webp",
+          "filename": "gackt-merveilles-lespace-live.webp",
+          "site_url": "/images/vintage/gackt-merveilles-lespace-live.webp",
+          "source_url": "https://vk.gy/artists/malice-mizer/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Merveilles tour (1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-merveilles-live-auburn.webp",
+          "filename": "gackt-merveilles-live-auburn.webp",
+          "site_url": "/images/vintage/gackt-merveilles-live-auburn.webp",
+          "source_url": "https://vk.gy/artists/malice-mizer/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "POP BEAT (August 1997) / Cantavanda",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-voyage-white-brocade.webp",
+          "filename": "gackt-voyage-white-brocade.webp",
+          "site_url": "/images/vintage/gackt-voyage-white-brocade.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        }
+      ]
+    },
+    {
+      "source_name": "POP BEAT (June 1998) / Cantavanda",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-illuminati-feathers.webp",
+          "filename": "gackt-illuminati-feathers.webp",
+          "site_url": "/images/vintage/gackt-illuminati-feathers.webp",
+          "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
+          "fetched_at": "2026-07-15T17:29:34.895387Z"
+        }
+      ]
+    },
+    {
+      "source_name": "SHOXX Vol. 53 (July 1997)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-shoxx-1997-profile.webp",
+          "filename": "gackt-shoxx-1997-profile.webp",
+          "site_url": "/images/vintage/gackt-shoxx-1997-profile.webp",
+          "source_url": "https://misaolab.hateblo.jp/entry/20000302/1356327963",
+          "fetched_at": "2026-07-15T17:24:00.903395Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Vicious (February 1999)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/kami-vicious-1999-profile.webp",
+          "filename": "kami-vicious-1999-profile.webp",
+          "site_url": "/images/vintage/kami-vicious-1999-profile.webp",
+          "source_url": "https://vk.gy/artists/malice-mizer/",
+          "fetched_at": "2026-07-15T17:30:07.996539Z"
         }
       ]
     }
@@ -5013,6 +5419,126 @@
       "source_name": "Cantavanda / Butterfly Rose",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-03.jpg"
     },
+    "images/vintage/gackt-backstage-candid.webp": {
+      "source_name": "ma chérie Vol. 4 (Spring 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/"
+    },
+    "images/vintage/gackt-feather-boa.webp": {
+      "source_name": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/"
+    },
+    "images/vintage/gackt-gekka-baroque.webp": {
+      "source_name": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/"
+    },
+    "images/vintage/gackt-gothic-crosses.webp": {
+      "source_name": "Illuminati promo / POP BEAT (June 1998)",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/"
+    },
+    "images/vintage/gackt-gothic-mesh.webp": {
+      "source_name": "B-PASS No. 161 (June 1999) / Internet Archive",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-illuminati-feathers.webp": {
+      "source_name": "POP BEAT (June 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/"
+    },
+    "images/vintage/gackt-mars-military-live.webp": {
+      "source_name": "Mars tour (2000)",
+      "source_url": "https://vk.gy/artists/gackt/"
+    },
+    "images/vintage/gackt-merveilles-cape.webp": {
+      "source_name": "SHOXX Vol. 63 (May 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/"
+    },
+    "images/vintage/gackt-merveilles-fur-collar.webp": {
+      "source_name": "SHOXX Vol. 63 (May 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/"
+    },
+    "images/vintage/gackt-merveilles-gold-military.webp": {
+      "source_name": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/"
+    },
+    "images/vintage/gackt-merveilles-lespace-live.webp": {
+      "source_name": "Merveilles l'espace live (1998)",
+      "source_url": "https://vk.gy/artists/malice-mizer/"
+    },
+    "images/vintage/gackt-merveilles-live-auburn.webp": {
+      "source_name": "Merveilles tour (1998)",
+      "source_url": "https://vk.gy/artists/malice-mizer/"
+    },
+    "images/vintage/gackt-mizerable-electric-chair.webp": {
+      "source_name": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/"
+    },
+    "images/vintage/gackt-mizerable-live-blue-fur.webp": {
+      "source_name": "Mizérable tour (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-live-mesh.webp": {
+      "source_name": "Mizérable tour (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-live-snakeskin.webp": {
+      "source_name": "Mizérable tour (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-mannequins.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-oiran-kimono.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-red-heaters.webp": {
+      "source_name": "B-PASS No. 161 (June 1999) / Internet Archive",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-red-water.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-snakeskin-shop.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-train.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-white-claws.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-white-princely.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188"
+    },
+    "images/vintage/gackt-mizerable-wings-studio.webp": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/"
+    },
+    "images/vintage/gackt-red-background.webp": {
+      "source_name": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/"
+    },
+    "images/vintage/gackt-shoxx-1997-profile.webp": {
+      "source_name": "SHOXX Vol. 53 (July 1997)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000302/1356327963"
+    },
+    "images/vintage/gackt-shoxx-1999-fallen-angel.webp": {
+      "source_name": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/"
+    },
+    "images/vintage/gackt-turtleneck-portrait.webp": {
+      "source_name": "Arena37℃ (November 1998)",
+      "source_url": "https://archive.org/details/arena194-ss-2"
+    },
+    "images/vintage/gackt-voyage-white-brocade.webp": {
+      "source_name": "POP BEAT (August 1997) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/"
+    },
     "images/vintage/halloween-mana-kozi-yuki.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg"
@@ -5124,6 +5650,46 @@
     "images/vintage/yuki-memoire-dx.webp": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg"
+    },
+    "images/vintage/kami-vicious-1999-profile.webp": {
+      "source_name": "Vicious (February 1999)",
+      "source_url": "https://vk.gy/artists/malice-mizer/"
+    },
+    "images/vintage/kami-merveilles-feather-collar.webp": {
+      "source_name": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/"
+    },
+    "images/vintage/kami-cafe-notebook.webp": {
+      "source_name": "L'image de Merveilles sur TV (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52"
+    },
+    "images/vintage/kami-silver-sleeve-portrait.webp": {
+      "source_name": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/"
+    },
+    "images/vintage/kami-live-white-bow.webp": {
+      "source_name": "merveilles l'espace (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52"
+    },
+    "images/vintage/kami-live-pearls-mic.webp": {
+      "source_name": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-live-studded-vest.webp": {
+      "source_name": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-bw-sunglasses-candid.webp": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-hysteric-mini-candid.webp": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/kami-leopard-candid.webp": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
     }
   },
   "by_source_url": {
@@ -7252,6 +7818,61 @@
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2026/02/MALICE-MIZER-Scans-Magazine-Appearances-1997.10.xx-Vicious-October-1997-03.jpg",
       "path": "images/scans/vicious/1997-10/03.jpg"
     },
+    "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/": {
+      "source_name": "ma chérie Vol. 4 (Spring 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/",
+      "path": "images/vintage/gackt-backstage-candid.webp"
+    },
+    "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/": {
+      "source_name": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+      "path": "images/vintage/gackt-shoxx-1999-fallen-angel.webp"
+    },
+    "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/": {
+      "source_name": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+      "path": "images/vintage/gackt-red-background.webp"
+    },
+    "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/": {
+      "source_name": "POP BEAT (June 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
+      "path": "images/vintage/gackt-illuminati-feathers.webp"
+    },
+    "https://archive.org/details/scan-10188": {
+      "source_name": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "path": "images/vintage/gackt-mizerable-white-princely.webp"
+    },
+    "https://vk.gy/artists/gackt/": {
+      "source_name": "Mars tour (2000)",
+      "source_url": "https://vk.gy/artists/gackt/",
+      "path": "images/vintage/gackt-mars-military-live.webp"
+    },
+    "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/": {
+      "source_name": "SHOXX Vol. 63 (May 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
+      "path": "images/vintage/gackt-merveilles-fur-collar.webp"
+    },
+    "https://vk.gy/artists/malice-mizer/": {
+      "source_name": "Vicious (February 1999)",
+      "source_url": "https://vk.gy/artists/malice-mizer/",
+      "path": "images/vintage/kami-vicious-1999-profile.webp"
+    },
+    "https://misaolab.hateblo.jp/entry/20000302/1356327963": {
+      "source_name": "SHOXX Vol. 53 (July 1997)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000302/1356327963",
+      "path": "images/vintage/gackt-shoxx-1997-profile.webp"
+    },
+    "https://archive.org/details/arena194-ss-2": {
+      "source_name": "Arena37℃ (November 1998)",
+      "source_url": "https://archive.org/details/arena194-ss-2",
+      "path": "images/vintage/gackt-turtleneck-portrait.webp"
+    },
+    "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/": {
+      "source_name": "POP BEAT (August 1997) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/",
+      "path": "images/vintage/gackt-voyage-white-brocade.webp"
+    },
     "https://malicemeezer.neocities.org/tetsu/halloween.jpg": {
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
@@ -7391,6 +8012,21 @@
       "source_name": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/yuki1a.jpeg",
       "path": "images/vintage/yuki-memoire-dx.webp"
+    },
+    "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/": {
+      "source_name": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
+      "path": "images/vintage/kami-silver-sleeve-portrait.webp"
+    },
+    "https://www.scape.sc/release.php?id=52": {
+      "source_name": "merveilles l'espace (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52",
+      "path": "images/vintage/kami-live-white-bow.webp"
+    },
+    "https://vk.gy/images/&artist_id=1882&type=musician": {
+      "source_name": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "path": "images/vintage/kami-leopard-candid.webp"
     }
   }
 }

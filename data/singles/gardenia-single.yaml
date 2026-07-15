@@ -6,14 +6,21 @@ date_precision: day
 label: Midi:Nette
 catalog_number: MMCD-019
 format: cd
-a_side: prologue-kaisou
-b_side: gardenia
-coupling_tracks: []
+a_side: gardenia
+b_side: houkai-jokyoku
+coupling_tracks:
+- prologue-kaisou
+- gardenia
+- houkai-jokyoku
 cover_image: images/covers/gardenia-single.jpg
 verification_status: verified
-notes: Synced from Discogs (https://www.discogs.com/master/231792-Malice-Mizer-Gardenia).
+notes: 'Synced from Discogs. Flyer confirms Gardenia as title track with c/w 崩壊序曲 (Hōkai Jokyoku); prologue 〜回想〜 opens the CD. Gardenia ~de l''image~ video was cancelled (lost master).'
 changelog:
 - date: '2026-07-05'
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/master/231792-Malice-Mizer-Gardenia
+- date: '2026-07-15'
+  action: updated
+  source: editorial
+  notes: Corrected A/B sides and track order per flyer and malice-mizer.info.

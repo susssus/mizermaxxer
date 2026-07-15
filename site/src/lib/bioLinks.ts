@@ -13,10 +13,10 @@ const BIO_LINKS: BioLinkEntry[] = [
   { label: "Bara no Seidou", href: "/discography/bara-no-seidou" },
   { label: "Deep Sanctuary", href: "/discography/deep-sanctuary-vi" },
   { label: "Malice Mizer", href: "http://malice-mizer.co.jp/", external: true },
-  { label: "Shinwa EP", href: "/discography/shinwa" },
+  { label: "Shinwa", href: "/discography/shinwa" },
   { label: "Merveilles", href: "/discography/merveilles" },
   { label: "Illuminati", href: "/discography/illuminati-single" },
-  { label: "Memoire", href: "/discography/memoire" },
+  { label: "memoire", href: "/discography/memoire" },
   { label: "Syunikiss", href: "/discography/merveilles" },
 
   // Labels & related projects

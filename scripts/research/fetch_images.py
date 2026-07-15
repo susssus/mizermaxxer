@@ -44,13 +44,13 @@ SCAN_SKIP_HOSTS = ("vk.gy", "i.redd.it", "redd.it", "1.bp.blogspot.com")
 
 # malicemeezer.neocities.org early-era flyers (article id -> source image path)
 EARLY_FLYER_SOURCES: dict[str, str] = {
-    "flyers-1992-08-debut-era": f"{VINTAGE_BASE}/tetsu/oldflyer5.jpg",
-    "flyers-1993-01-demo-sadness": f"{VINTAGE_BASE}/tetsu/oldflyer7.jpg",
+    "clippings-1992-08-debut-era": f"{VINTAGE_BASE}/tetsu/oldflyer5.jpg",
+    "flyers-1993-01-band-announcement": f"{VINTAGE_BASE}/tetsu/oldflyer7.jpg",
     "flyers-1993-06-live-1993": f"{VINTAGE_BASE}/tetsu/oldflyer2.jpg",
-    "flyers-1993-08-artistic-expression": f"{VINTAGE_BASE}/tetsu/oldflyer3.jpg",
+    "clippings-1993-08-artistic-expression": f"{VINTAGE_BASE}/tetsu/oldflyer3.jpg",
     "flyers-1993-12-upcoming-lives": f"{VINTAGE_BASE}/tetsu/oldflyer8.jpg",
     "flyers-1994-01-live-1994": f"{VINTAGE_BASE}/tetsu/oldflyer.jpg",
-    "flyers-unknown-oldflyer9": f"{VINTAGE_BASE}/tetsu/oldflyer9.jpg",
+    "clippings-unknown-oldflyer9": f"{VINTAGE_BASE}/tetsu/oldflyer9.jpg",
     "flyers-unknown-oldflyer4": f"{VINTAGE_BASE}/tetsu/Oldflyer4.png",
 }
 

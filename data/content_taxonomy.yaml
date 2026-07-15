@@ -2,78 +2,172 @@
 #
 # Applied on bibliography articles (v1 issues) and v2 article entities.
 # See docs/CONTENT_TAXONOMY.md for usage guidance.
+#
+# Three axes:
+#   content_nature      — editorial vs promotional
+#   promotional_carrier — physical form (handbill, magazine page, …)
+#   promotional_subject — what is being promoted (gig, tour, single, …)
+# Legacy promotional_subtype values are retained for backward compatibility.
 
 content_natures:
   editorial:
     label: Editorial
     label_ja: 編集記事
-    description: Journalistic or fan-facing editorial content (interviews, features, reviews).
+    description: Journalistic or fan-facing editorial content (interviews, features, reviews, magazine clippings).
 
   promotional:
     label: Promotional
     label_ja: 広告・宣伝
     description: Advertising, flyers, listings, or other promotional material.
 
+promotional_carriers:
+  standalone_handbill:
+    label: Standalone handbill
+    label_ja: 単独チラシ
+    description: Loose photocopied sheet distributed at live houses, indie shops, or venues.
+    legacy_aliases: [standalone]
+
+  magazine_page:
+    label: Magazine page ad
+    label_ja: 誌面広告
+    description: Designed advertisement in a magazine issue.
+
+  magazine_inset:
+    label: Magazine inset
+    label_ja: 誌面チラシ
+    description: Flyer or mini-poster bound or inserted inside a magazine.
+
+  magazine_clipping:
+    label: Magazine clipping
+    label_ja: 誌面切抜
+    description: Editorial page excerpt from a magazine (not promotional).
+
+  poster:
+    label: Poster
+    label_ja: ポスター
+    description: Large-format wall or pull-out poster.
+
+  newsletter_page:
+    label: Newsletter page
+    label_ja: 会報誌面
+    description: Fan-club or label newsletter page.
+
+  shop_display:
+    label: Shop display
+    label_ja: 店頭POP
+    description: Record-shop counter card or in-store display.
+
+promotional_subjects:
+  live_gig:
+    label: Gig / live date(s)
+    label_ja: ライブ告知
+    description: One or a few specific live dates.
+
+  tour:
+    label: Tour
+    label_ja: ツアー告知
+    description: Multi-date tour as the primary message.
+
+  single:
+    label: Single release
+    label_ja: シングル発売
+    description: Single or maxi-single promotion.
+
+  album:
+    label: Album / mini-album release
+    label_ja: アルバム発売
+    description: Album, mini-album, or EP promotion.
+
+  video:
+    label: Video release
+    label_ja: 映像発売
+    description: VHS, DVD, or video-tape promotion.
+
+  demo:
+    label: Demo / promo tape
+    label_ja: デモテープ
+    description: Demo cassette or industry-only promo tape.
+
+  band_announcement:
+    label: Band announcement
+    label_ja: 結成・存在告知
+    description: Formation or existence promo before first live or retail release.
+
+  merchandise:
+    label: Merchandise / goods
+    label_ja: グッズ
+    description: Photobooks, tour goods, or non-audio products.
+
+  event:
+    label: Event
+    label_ja: イベント
+    description: Multi-band events or fan-club events.
+
 promotional_subtypes:
   gig_flyer:
     label: Gig flyer
     label_ja: ライブチラシ
-    description: Standalone flyer advertising live concerts or tour dates.
-    carrier: standalone
+    description: Standalone handbill for live dates.
+    carrier: standalone_handbill
+    subject: live_gig
 
   release_flyer:
     label: Release flyer
     label_ja: 発売チラシ
-    description: Standalone flyer for a single, album, video, or book release.
-    carrier: standalone
+    description: Standalone handbill for a release (infer single/album/video from context).
+    carrier: standalone_handbill
 
   demo_flyer:
     label: Demo flyer
     label_ja: デモチラシ
-    description: Flyer promoting a demo tape or early independent release.
-    carrier: standalone
+    description: Handbill for demo tape or early independent release.
+    carrier: standalone_handbill
+    subject: demo
 
   tour_ad:
     label: Tour advertisement
     label_ja: ツアー広告
-    description: Magazine or print ad primarily promoting tour dates (may include release info).
+    description: Magazine ad primarily promoting tour dates.
     carrier: magazine_page
+    subject: tour
 
   release_ad:
     label: Release advertisement
     label_ja: 発売広告
-    description: Magazine or print ad for a single, album, or video release.
+    description: Magazine ad for a single, album, or video release.
     carrier: magazine_page
 
   gig_listing:
     label: Gig listing
     label_ja: ライブ情報
-    description: Magazine live schedule or venue listing entry.
+    description: Magazine live schedule entry.
     carrier: magazine_page
+    subject: live_gig
 
   magazine_inset:
     label: Magazine inset flyer
     label_ja: 誌面チラシ
-    description: Flyer or mini-poster printed inside a magazine issue (vk.gy role flyer).
+    description: Inset flyer inside a magazine issue.
     carrier: magazine_inset
 
   goods_ad:
     label: Goods advertisement
     label_ja: グッズ広告
-    description: Ad for merchandise, photobooks, or non-music goods.
+    description: Ad for merchandise or photobooks.
     carrier: magazine_page
+    subject: merchandise
 
   poster_ad:
     label: Poster
     label_ja: ポスター
-    description: Poster material (magazine pull-out or standalone).
-    carrier: standalone
+    description: Poster material.
+    carrier: poster
 
   other:
     label: Other promotional
     label_ja: その他宣伝
-    description: Promotional material that does not fit a finer subtype.
-    carrier: standalone
+    description: Promotional material awaiting finer classification.
+    carrier: standalone_handbill
 
 # Default content_nature when not explicitly set (by article type)
 article_type_defaults:
@@ -83,6 +177,7 @@ article_type_defaults:
   photo_spread: editorial
   instrument_interview: editorial
   cover: editorial
+  magazine_clipping: editorial
   mention: null
   advertisement: promotional
   flyer: promotional

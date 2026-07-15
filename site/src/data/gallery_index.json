@@ -1,13 +1,313 @@
 {
-  "generated_at": "2026-07-15T16:11:14.720751Z",
-  "count": 96,
+  "generated_at": "2026-07-15T17:30:33.893756Z",
+  "count": 136,
   "items": [
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-voyage-white-brocade.webp",
+      "caption": "Bel Air promo portrait (white/gold embroidery)",
+      "source": "POP BEAT (August 1997) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-august-1997/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-shoxx-1997-profile.webp",
+      "caption": "Magazine member profile (off-stage candid + live inset)",
+      "source": "SHOXX Vol. 53 (July 1997)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000302/1356327963",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-backstage-candid.webp",
+      "caption": "Backstage candid (ponytail, sunglasses)",
+      "source": "ma chérie Vol. 4 (Spring 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/fan-club-magazines/gallery/ma-cherie-fan-club-magazine-vol-4-spring-1998/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-gekka-baroque.webp",
+      "caption": "Gekka no Yasoukyoku promo portrait",
+      "source": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-red-background.webp",
+      "caption": "Red backdrop portrait (Merveilles era)",
+      "source": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-merveilles-cape.webp",
+      "caption": "Black cape with red lining, stone balcony",
+      "source": "SHOXX Vol. 63 (May 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-merveilles-fur-collar.webp",
+      "caption": "Fur-collar jacket, exposed midriff (Merveilles era)",
+      "source": "SHOXX Vol. 63 (May 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/shoxx-may-1998/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-merveilles-gold-military.webp",
+      "caption": "Gold-embroidered military jacket (Merveilles era)",
+      "source": "Gekka no Yasoukyoku promo / vk.gy",
+      "source_url": "https://vk.gy/images/50239/malice-mizer-v-gackt-solo-photo-for-gekka-no-yasoukyoku/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-illuminati-feathers.webp",
+      "caption": "Black feather wings portrait (Illuminati era)",
+      "source": "POP BEAT (June 1998) / Cantavanda",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-gothic-crosses.webp",
+      "caption": "Feather collar, mesh top, stone crosses",
+      "source": "Illuminati promo / POP BEAT (June 1998)",
+      "source_url": "https://cantavanda.com/malice-mizer/scans/magazine-appearances/gallery/pop-beat-june-1998/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-gothic-mesh.webp",
+      "caption": "Gothic mesh top, stylized tear makeup",
+      "source": "B-PASS No. 161 (June 1999) / Internet Archive",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-merveilles-lespace-live.webp",
+      "caption": "Merveilles l'espace tour — white/gold stage costume",
+      "source": "Merveilles l'espace live (1998)",
+      "source_url": "https://vk.gy/artists/malice-mizer/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-merveilles-live-auburn.webp",
+      "caption": "Merveilles tour live — auburn hair, fur-trim jacket",
+      "source": "Merveilles tour (1998)",
+      "source_url": "https://vk.gy/artists/malice-mizer/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
     {
       "title": "Gackt",
       "src": "images/vintage/live-full-lineup.webp",
       "caption": "Full lineup (behind Mana)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/oldlive8.jpg",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-shoxx-1999-fallen-angel.webp",
+      "caption": "Fallen angel photoshoot (black feather wings)",
+      "source": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-feather-boa.webp",
+      "caption": "Black iridescent feather stole",
+      "source": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-turtleneck-portrait.webp",
+      "caption": "Close-up portrait, sparkly collar trim",
+      "source": "Arena37℃ (November 1998)",
+      "source_url": "https://archive.org/details/arena194-ss-2",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-wings-studio.webp",
+      "caption": "Mizérable promo — black wings, full-length studio",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-red-water.webp",
+      "caption": "Mizérable promo — red sky, claws in water",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-white-princely.webp",
+      "caption": "Mizérable promo — white/gold princely costume",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-white-claws.webp",
+      "caption": "Mizérable promo — white claws, silver princely outfit",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-oiran-kimono.webp",
+      "caption": "Mizérable promo — oiran-style purple kimono",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-electric-chair.webp",
+      "caption": "Mizérable promo — silver suit, electric-chair set",
+      "source": "SHOXX Vol. 68 (February 1999)",
+      "source_url": "https://gackt-pfb.narod.ru/g/magazines/SHOXX_02.1999/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-train.webp",
+      "caption": "Mizérable promo — silver fur jacket, train interior",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-mannequins.webp",
+      "caption": "Mizérable promo — silver pants, mannequin set",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-red-heaters.webp",
+      "caption": "Mizérable promo — silver outfit, red studio heaters",
+      "source": "B-PASS No. 161 (June 1999) / Internet Archive",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-snakeskin-shop.webp",
+      "caption": "Mizérable promo — snakeskin long coat, shop interior",
+      "source": "Mizérable promo (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-live-snakeskin.webp",
+      "caption": "Mizérable tour live — snakeskin jacket",
+      "source": "Mizérable tour (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-live-blue-fur.webp",
+      "caption": "Mizérable tour live — blue-lit fur-trim crop top",
+      "source": "Mizérable tour (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mizerable-live-mesh.webp",
+      "caption": "Mizérable tour live — mesh top, feathered jacket",
+      "source": "Mizérable tour (1999)",
+      "source_url": "https://archive.org/details/scan-10188",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mars-military-live.webp",
+      "caption": "Mars tour live — military uniform, gold cord",
+      "source": "Mars tour (2000)",
+      "source_url": "https://vk.gy/artists/gackt/",
       "era": "1995",
       "category": "member",
       "external": false
@@ -39,6 +339,106 @@
       "source": "Malice Mizer Throughout The Years reference poster",
       "source_url": "images/members/source/throughout-the-years.png",
       "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-merveilles-feather-collar.webp",
+      "caption": "Merveilles promo portrait (feather shoulders, lace bodice)",
+      "source": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-cafe-notebook.webp",
+      "caption": "Cafe portrait, writing in notebook (braided hood trim)",
+      "source": "L'image de Merveilles sur TV (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-silver-sleeve-portrait.webp",
+      "caption": "Close-up portrait, embroidered silver sleeve",
+      "source": "merveilles promo / vk.gy",
+      "source_url": "https://vk.gy/images/63475/malice-mizer-d-kami-solo-photo-for-merveilles/",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-live-white-bow.webp",
+      "caption": "Live portrait, large white bow cravat (purple stage wash)",
+      "source": "merveilles l'espace (1998)",
+      "source_url": "https://www.scape.sc/release.php?id=52",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-live-pearls-mic.webp",
+      "caption": "Live at mic, beaded necklace, studded PVC vest",
+      "source": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-live-studded-vest.webp",
+      "caption": "Live at mic with drumsticks, studded vest and fishnet",
+      "source": "Merveilles era live / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-vicious-1999-profile.webp",
+      "caption": "Magazine member profile (shirtless portrait + discography)",
+      "source": "Vicious (February 1999)",
+      "source_url": "https://vk.gy/artists/malice-mizer/",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-bw-sunglasses-candid.webp",
+      "caption": "Black-and-white candid, sunglasses on head",
+      "source": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-hysteric-mini-candid.webp",
+      "caption": "Offshot, Hysteric Mini T-shirt (triple-exposure)",
+      "source": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
+      "src": "images/vintage/kami-leopard-candid.webp",
+      "caption": "Offshot, blue leopard-print jacket",
+      "source": "Merveilles era offshot / vk.gy",
+      "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
+      "era": "1993",
       "category": "member",
       "external": false
     },
@@ -355,7 +755,7 @@
     {
       "title": "Tetsu",
       "src": "images/flyers/flyers-1992-08-debut-era.webp",
-      "caption": "Debut-era flyer (1992)",
+      "caption": "Magazine band profile clipping (1992)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg",
       "era": "1992",
@@ -365,7 +765,7 @@
     {
       "title": "Tetsu",
       "src": "images/flyers/flyers-1993-01-demo-sadness.webp",
-      "caption": "Sadness demo tape flyer (1993)",
+      "caption": "Band formation announcement handbill (~Sept 1992)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/oldflyer7.jpg",
       "era": "1992",
@@ -535,7 +935,7 @@
     {
       "title": "Braintrash",
       "src": "images/covers/braintrash.jpg",
-      "caption": "demo",
+      "caption": "compilation",
       "source": "Cover Art Archive / Discogs",
       "source_url": "https://www.discogs.com/master/3663375-Various-Braintrash",
       "era": "1993",
@@ -593,9 +993,9 @@
       "external": false
     },
     {
-      "title": "Memoire DX",
+      "title": "memoire DX",
       "src": "images/covers/memoire-dx.jpg",
-      "caption": "album",
+      "caption": "ep",
       "source": "Cover Art Archive / Discogs",
       "source_url": "https://www.discogs.com/release/575231-Malice-Mizer-Memoire-DX",
       "era": "1994",
@@ -603,9 +1003,9 @@
       "external": false
     },
     {
-      "title": "Memoire",
+      "title": "memoire",
       "src": "images/covers/memoire.jpg",
-      "caption": "album",
+      "caption": "ep",
       "source": "Cover Art Archive / Cantavanda",
       "source_url": "https://coverartarchive.org/release/46e1ff26-b92e-4e65-adc7-9e580ee59e68/44209344797-500.jpg",
       "era": "1994",
@@ -643,7 +1043,7 @@
       "external": false
     },
     {
-      "title": "Sadness",
+      "title": "SADNESS",
       "src": "images/covers/sadness-demo.jpg",
       "caption": "demo",
       "source": "Cover Art Archive / Discogs",
@@ -663,7 +1063,7 @@
       "external": false
     },
     {
-      "title": "Sans Logique",
+      "title": "SANS LOGIQUE",
       "src": "images/covers/sans-logique.jpg",
       "caption": "demo",
       "source": "Cover Art Archive / Discogs",
@@ -693,9 +1093,9 @@
       "external": false
     },
     {
-      "title": "神話",
+      "title": "Shinwa",
       "src": "images/covers/shinwa.jpg",
-      "caption": "ep",
+      "caption": "box set",
       "source": "Cover Art Archive / Discogs",
       "source_url": "https://www.discogs.com/release/2175459-Malice-Mizer-神話",
       "era": "2000",
@@ -713,7 +1113,7 @@
       "external": false
     },
     {
-      "title": "Speed of Desperate",
+      "title": "SPEED OF DESPERATE",
       "src": "images/covers/speed-of-desperate.jpg",
       "caption": "demo",
       "source": "Cover Art Archive / Discogs",
@@ -723,7 +1123,7 @@
       "external": false
     },
     {
-      "title": "The 1th Anniversary",
+      "title": "THE 1TH ANNIVERSARY",
       "src": "images/covers/the-1th-anniversary.jpg",
       "caption": "demo",
       "source": "Cover Art Archive / Discogs",

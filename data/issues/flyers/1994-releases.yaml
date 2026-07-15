@@ -5,14 +5,14 @@ volume: null
 publication_date: '1994'
 date_precision: year
 verification_status: verified
-source_notes: Release flyers catalogued from https://malice-mizer.info/flyers.
+source_notes: Release handbills catalogued from https://malice-mizer.info/flyers.
 research_targets:
 - confirm print run details
 - locate physical copies
 articles:
 - id: flyers-1994-07-24-memoire
   title_ja: null
-  title_en: Mémoire release flyer
+  title_en: memoire album release handbill
   type: flyer
   pages: null
   members: []
@@ -32,33 +32,11 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
-- id: flyers-1994-07-24-memoire-ii
-  title_ja: null
-  title_en: Mémoire release flyer (variant II)
-  type: flyer
-  pages: null
-  members: []
-  photographer: null
-  writer: null
-  cover: false
-  poster: false
-  foldout: false
-  scan:
-    available: true
-    quality: medium
-    url: images/flyers/flyers-1994-07-24-memoire-ii.webp
-  translation:
-    available: true
-    url: data/translations/flyers-1994-07-24-memoire-ii.yaml
-  purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
-  content_nature: promotional
-  promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: album
 - id: flyers-1994-12-24-memoire-dx
   title_ja: null
-  title_en: Mémoire DX release flyer
+  title_en: memoire DX release handbill
   type: flyer
   pages: null
   members: []
@@ -78,7 +56,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: album
 changelog:
 - date: '2026-07-06'
   action: created
@@ -88,3 +67,7 @@ changelog:
   action: verified
   source: editorial
   notes: 'Promoted during site improvement rollout: scan or local translation present.'
+- date: '2026-07-15'
+  action: updated
+  source: editorial
+  notes: memoire-ii moved to clippings; handbill taxonomy updated.

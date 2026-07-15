@@ -2,16 +2,20 @@ id: gardenia-pv
 title_ja: Gardenia
 title_en: Gardenia (PV)
 type: pv
-url: https://www.youtube.com/watch?v=XuTknvtvRN0
+url: https://youtu.be/znSN1qwEXBg
 platform: youtube
 release_date: '2001-05-30'
 song: gardenia
 concert: null
-quality: official
+quality: fan_reconstruction
 verification_status: verified
-notes: Official PV on @Malice_Mizer_Official YouTube channel. Reshot Cardinal DVD version; original single-era master was never released.
+notes: 'Fan reconstruction by Cantavanda (2017). Original single-era PV master was lost; this edit combines TV broadcast, Cardinal reshoot footage, and Bara no denshou commercial fragments. Official @Malice_Mizer_Official channel hosts a later Cardinal reshoot only.'
 changelog:
 - date: '2026-07-06'
   action: created
   source: web_research
   notes: Catalogued from @Malice_Mizer_Official channel (XuTknvtvRN0).
+- date: '2026-07-15'
+  action: updated
+  source: editorial
+  notes: Linked Cantavanda fan reconstruction per community source-of-truth; noted lost official master.

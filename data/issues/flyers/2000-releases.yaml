@@ -32,7 +32,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2000-02-01-shinwa-back
   title_ja: 神話 release flyer (back)
   title_en: null
@@ -55,7 +56,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2000-05-31-kyomu
   title_ja: 虚無の中での遊戯 release flyer
   title_en: null
@@ -78,7 +80,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2000-08-03-bara-no-seidou-front
   title_ja: 薔薇の聖堂 release flyer (front)
   title_en: null
@@ -101,7 +104,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2000-08-03-bara-no-seidou-back
   title_ja: 薔薇の聖堂 release flyer (back)
   title_en: null
@@ -124,7 +128,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2000-11-22-budokan-vhs
   title_ja: 薔薇に彩られた悪意と悲劇の幕開け VHS/DVD flyer
   title_en: null
@@ -147,7 +152,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: video
 changelog:
 - date: '2026-07-06'
   action: created

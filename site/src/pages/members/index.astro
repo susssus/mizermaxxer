@@ -3,6 +3,7 @@ import MemberCard from "../../components/MemberCard.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
 import { memberEraLabels } from "../../lib/memberEras.ts";
+import { memberPortraitForSlug } from "../../lib/memberPortrait.ts";
 
 const entityIds: Record<string, string> = {
   mana: "person_mana",
@@ -38,7 +39,7 @@ const members = memberOrder
           slug={member!.slug}
           role={member!.role}
           active={member!.active}
-          portrait={member!.portrait_image}
+          portrait={memberPortraitForSlug(member!.slug, archive)}
           entityId={entityIds[member!.slug]}
           era={memberEraLabels(member!.active)}
         />
