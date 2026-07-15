@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T17:30:33.894381Z",
-  "total_count": 499,
+  "generated_at": "2026-07-15T17:34:02.030563Z",
+  "total_count": 506,
   "sources": [
     {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -3538,6 +3538,58 @@
       ]
     },
     {
+      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/lineup-cbc-silv-plait-recording.webp",
+          "filename": "lineup-cbc-silv-plait-recording.webp",
+          "site_url": "/images/vintage/lineup-cbc-silv-plait-recording.webp",
+          "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/kozi-gackt-backstage-candid.webp",
+          "filename": "kozi-gackt-backstage-candid.webp",
+          "site_url": "/images/vintage/kozi-gackt-backstage-candid.webp",
+          "source_url": "https://mm-backstage.livejournal.com/",
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Fan scan (yueyaogai); original publication unverified — Merveilles tour live, ca. 1998",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/kozi-gackt-merveilles-live.webp",
+          "filename": "kozi-gackt-merveilles-live.webp",
+          "site_url": "/images/vintage/kozi-gackt-merveilles-live.webp",
+          "source_url": null,
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
+        }
+      ]
+    },
+    {
+      "source_name": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/yuki-gackt-kozi-backstage.webp",
+          "filename": "yuki-gackt-kozi-backstage.webp",
+          "site_url": "/images/vintage/yuki-gackt-kozi-backstage.webp",
+          "source_url": null,
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
+        }
+      ]
+    },
+    {
       "source_name": "Illuminati promo / POP BEAT (June 1998)",
       "count": 1,
       "images": [
@@ -3690,6 +3742,45 @@
           "site_url": "/images/vintage/kami-vicious-1999-profile.webp",
           "source_url": "https://vk.gy/artists/malice-mizer/",
           "fetched_at": "2026-07-15T17:30:07.996539Z"
+        }
+      ]
+    },
+    {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-merveilles-illuminati-crouch.webp",
+          "filename": "gackt-merveilles-illuminati-crouch.webp",
+          "site_url": "/images/vintage/gackt-merveilles-illuminati-crouch.webp",
+          "source_url": "https://malice-mizer.info/a-deux-dimension",
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
+        }
+      ]
+    },
+    {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-le-ciel-feather-wings-live.webp",
+          "filename": "gackt-le-ciel-feather-wings-live.webp",
+          "site_url": "/images/vintage/gackt-le-ciel-feather-wings-live.webp",
+          "source_url": "https://malice-mizer.info/a-deux-dimension",
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
+        }
+      ]
+    },
+    {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) — au revoir, Budokan 1998-04-01",
+      "count": 1,
+      "images": [
+        {
+          "path": "images/vintage/gackt-mana-au-revoir-carry.webp",
+          "filename": "gackt-mana-au-revoir-carry.webp",
+          "site_url": "/images/vintage/gackt-mana-au-revoir-carry.webp",
+          "source_url": "https://malice-mizer.info/a-deux-dimension",
+          "fetched_at": "2026-07-15T17:33:37.635892Z"
         }
       ]
     }
@@ -5690,6 +5781,34 @@
     "images/vintage/kami-leopard-candid.webp": {
       "source_name": "Merveilles era offshot / vk.gy",
       "source_url": "https://vk.gy/images/&artist_id=1882&type=musician"
+    },
+    "images/vintage/gackt-merveilles-illuminati-crouch.webp": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension"
+    },
+    "images/vintage/gackt-mana-au-revoir-carry.webp": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) — au revoir, Budokan 1998-04-01",
+      "source_url": "https://malice-mizer.info/a-deux-dimension"
+    },
+    "images/vintage/gackt-le-ciel-feather-wings-live.webp": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension"
+    },
+    "images/vintage/kozi-gackt-backstage-candid.webp": {
+      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "source_url": "https://mm-backstage.livejournal.com/"
+    },
+    "images/vintage/kozi-gackt-merveilles-live.webp": {
+      "source_name": "Fan scan (yueyaogai); original publication unverified — Merveilles tour live, ca. 1998",
+      "source_url": null
+    },
+    "images/vintage/lineup-cbc-silv-plait-recording.webp": {
+      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495"
+    },
+    "images/vintage/yuki-gackt-kozi-backstage.webp": {
+      "source_name": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
+      "source_url": null
     }
   },
   "by_source_url": {
@@ -8027,6 +8146,21 @@
       "source_name": "Merveilles era offshot / vk.gy",
       "source_url": "https://vk.gy/images/&artist_id=1882&type=musician",
       "path": "images/vintage/kami-leopard-candid.webp"
+    },
+    "https://malice-mizer.info/a-deux-dimension": {
+      "source_name": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension",
+      "path": "images/vintage/gackt-le-ciel-feather-wings-live.webp"
+    },
+    "https://mm-backstage.livejournal.com/": {
+      "source_name": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "source_url": "https://mm-backstage.livejournal.com/",
+      "path": "images/vintage/kozi-gackt-backstage-candid.webp"
+    },
+    "https://misaolab.hateblo.jp/entry/20000111/1355235495": {
+      "source_name": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
+      "path": "images/vintage/lineup-cbc-silv-plait-recording.webp"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T17:30:33.893756Z",
-  "count": 136,
+  "generated_at": "2026-07-15T17:34:02.029167Z",
+  "count": 152,
   "items": [
     {
       "title": "Gackt",
@@ -128,6 +128,76 @@
       "caption": "Merveilles tour live — auburn hair, fur-trim jacket",
       "source": "Merveilles tour (1998)",
       "source_url": "https://vk.gy/artists/malice-mizer/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-merveilles-illuminati-crouch.webp",
+      "caption": "Merveilles l'espace — Illuminati (crouched, blue-lit PVC)",
+      "source": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-le-ciel-feather-wings-live.webp",
+      "caption": "Merveilles l'espace — Le Ciel (feather wings, fishnet)",
+      "source": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) / merveilles l'espace (1998)",
+      "source_url": "https://malice-mizer.info/a-deux-dimension",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/gackt-mana-au-revoir-carry.webp",
+      "caption": "Carrying Mana during au revoir (Budokan bridal carry)",
+      "source": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) — au revoir, Budokan 1998-04-01",
+      "source_url": "https://malice-mizer.info/a-deux-dimension",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/kozi-gackt-backstage-candid.webp",
+      "caption": "Backstage with Közi (fuzzy hat, sunglasses)",
+      "source": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "source_url": "https://mm-backstage.livejournal.com/",
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/kozi-gackt-merveilles-live.webp",
+      "caption": "On stage with Közi (red jacket, vine-inlay guitar)",
+      "source": "Fan scan (yueyaogai); original publication unverified — Merveilles tour live, ca. 1998",
+      "source_url": null,
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/yuki-gackt-kozi-backstage.webp",
+      "caption": "Backstage with Yu~ki and Közi",
+      "source": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
+      "source_url": null,
+      "era": "1995",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Gackt",
+      "src": "images/vintage/lineup-cbc-silv-plait-recording.webp",
+      "caption": "CBC Radio「真夜中のシルヴプレ」公開録音 (full lineup)",
+      "source": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
       "era": "1995",
       "category": "member",
       "external": false
@@ -514,6 +584,16 @@
     },
     {
       "title": "Kami",
+      "src": "images/vintage/lineup-cbc-silv-plait-recording.webp",
+      "caption": "CBC Radio「真夜中のシルヴプレ」公開録音 (full lineup)",
+      "source": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
+      "era": "1993",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kami",
       "src": "images/members/kami.webp",
       "caption": "Portrait",
       "source": "Malice Mizer Throughout The Years reference poster",
@@ -604,6 +684,46 @@
     },
     {
       "title": "Kozi",
+      "src": "images/vintage/kozi-gackt-backstage-candid.webp",
+      "caption": "Backstage with Gackt (fuzzy hat, sunglasses)",
+      "source": "Fan scan (Es-chan); original publication unverified — Merveilles-era backstage",
+      "source_url": "https://mm-backstage.livejournal.com/",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/kozi-gackt-merveilles-live.webp",
+      "caption": "On stage with Gackt (red jacket, vine-inlay guitar)",
+      "source": "Fan scan (yueyaogai); original publication unverified — Merveilles tour live, ca. 1998",
+      "source_url": null,
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/yuki-gackt-kozi-backstage.webp",
+      "caption": "Backstage with Yu~ki and Gackt",
+      "source": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
+      "source_url": null,
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
+      "src": "images/vintage/lineup-cbc-silv-plait-recording.webp",
+      "caption": "CBC Radio「真夜中のシルヴプレ」公開録音 (full lineup)",
+      "source": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Kozi",
       "src": "images/vintage/kozi-memoire-dx.webp",
       "caption": "Portrait",
       "source": "Malice Meezer / malicemeezer.neocities.org",
@@ -688,6 +808,26 @@
       "caption": "Halloween (with Kozi and Yuki)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/gackt-mana-au-revoir-carry.webp",
+      "caption": "Carried by Gackt during au revoir (Budokan bridal carry)",
+      "source": "「merveilles」à deux dimensions (Sony Magazines, 1998-07-30) — au revoir, Budokan 1998-04-01",
+      "source_url": "https://malice-mizer.info/a-deux-dimension",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Mana",
+      "src": "images/vintage/lineup-cbc-silv-plait-recording.webp",
+      "caption": "CBC Radio「真夜中のシルヴプレ」公開録音 (full lineup)",
+      "source": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
       "era": "1992",
       "category": "member",
       "external": false
@@ -858,6 +998,26 @@
       "caption": "Halloween (with Mana and Kozi)",
       "source": "Malice Meezer / malicemeezer.neocities.org",
       "source_url": "https://malicemeezer.neocities.org/tetsu/halloween.jpg",
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/yuki-gackt-kozi-backstage.webp",
+      "caption": "Backstage with Gackt and Közi",
+      "source": "Fan scan; original publication unverified — Merveilles-era backstage, ca. 1998",
+      "source_url": null,
+      "era": "1992",
+      "category": "member",
+      "external": false
+    },
+    {
+      "title": "Yu~ki",
+      "src": "images/vintage/lineup-cbc-silv-plait-recording.webp",
+      "caption": "CBC Radio「真夜中のシルヴプレ」公開録音 (full lineup)",
+      "source": "CBC Radio「真夜中のシルヴプレ」公開録音 (recorded 1997-12-21, broadcast 1997-12-28)",
+      "source_url": "https://misaolab.hateblo.jp/entry/20000111/1355235495",
       "era": "1992",
       "category": "member",
       "external": false
