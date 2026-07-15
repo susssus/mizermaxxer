@@ -1,31 +1,39 @@
-id: miyashita
+id: pet_miyashita
+type: pet
+legacy_v1_slug: miyashita
+name:
+  romanized: Miyashita-kun
+  original: 宮下君
 name_en: Miyashita-kun
 name_ja: 宮下君
 species: hamster
 breed: null
 sex: male
-owner: kami
+owner: person_kami
+owner_slug: kami
 relationship: owned_by
-years_noted: "1997"
+years_noted: '1997'
 status: deceased
 died: null
 portrait_image: images/scans/fan-club/1997-12/16.jpg
 gallery_images:
-  - src: images/scans/fan-club/1997-12/16.jpg
-    caption: Kami’s Soliloquy — includes Miyashita mourning & naming contest
-    source: ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)
-summary: >
-  Kami’s pet hamster. In the winter 1997 “Kami’s Soliloquy,” Kami writes of wailing when
-  Miyashita-kun died after he forgot to feed him while busy — grief at life’s fragility —
-  and announced a fan naming contest for a second-generation hamster via the ma chérie
-  “Hamster Naming Desk.”
-notes: >
-  Text-forward column; no dedicated hamster photo identified in local FC scans.
-translation_ids:
-  - fan-club-vol-2-3-1997-winter
+- src: images/scans/fan-club/1997-12/16.jpg
+  caption: Kami’s Soliloquy — includes Miyashita mourning & naming contest
+  source: ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)
+summary: 'Kami’s pet hamster. In the winter 1997 “Kami’s Soliloquy,” Kami writes of wailing when Miyashita-kun
+  died after he forgot to feed him while busy — grief at life’s fragility — and announced a fan naming
+  contest for a second-generation hamster via the ma chérie “Hamster Naming Desk.”
+
+  '
+notes: 'Text-forward column; no dedicated hamster photo identified in local FC scans.
+
+  '
 verification_status: verified
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: fan_club_translations
-    notes: Catalogued from Kami’s Soliloquy in FC Vol. 2–3.
+- date: '2026-07-16'
+  action: created
+  source: fan_club_translations
+  notes: Catalogued from Kami’s Soliloquy in FC Vol. 2–3.
+translation_ids:
+- fan-club-vol-2-3-1997-winter

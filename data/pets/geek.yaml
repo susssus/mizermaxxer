@@ -1,25 +1,34 @@
-id: geek
+id: pet_geek
+type: pet
+legacy_v1_slug: geek
+name:
+  romanized: Geek
+  original: ヂーク
 name_en: Geek
 name_ja: ヂーク
 species: cat
 breed: null
 sex: male
-owner: kozi
+owner: person_kozi
+owner_slug: kozi
 relationship: owned_by
-years_noted: "2015–"
+years_noted: 2015–
 status: unknown
 died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Male cat born May 2015, listed with Zeon on Japanese Wikipedia. Appears in Közi’s
-  October 2017 tweet promoting a Death Disco gig (“ヂーク！ヂヲン！”).
-source_urls:
-  - https://ja.wikipedia.org/wiki/K%C3%B6zi
-  - https://x.com/kzi_official
+summary: 'Male cat born May 2015, listed with Zeon on Japanese Wikipedia. Appears in Közi’s October 2017
+  tweet promoting a Death Disco gig (“ヂーク！ヂヲン！”).
+
+  '
+notes: ''
 verification_status: possible
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from Wikipedia pet list citing May 2015 birth and Twitter mentions.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from Wikipedia pet list citing May 2015 birth and Twitter mentions.
+source_urls:
+- https://ja.wikipedia.org/wiki/K%C3%B6zi
+- https://x.com/kzi_official

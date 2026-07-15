@@ -1,25 +1,34 @@
-id: hamon
+id: pet_hamon
+type: pet
+legacy_v1_slug: hamon
+name:
+  romanized: Hamon
+  original: ハモン
 name_en: Hamon
 name_ja: ハモン
 species: cat
 breed: null
 sex: female
-owner: kozi
+owner: person_kozi
+owner_slug: kozi
 relationship: owned_by
-years_noted: "2022–"
+years_noted: 2022–
 status: unknown
+died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Female cat from Hakata, estimated born April 2022, listed on Japanese Wikipedia’s
-  summary of Közi’s pets (alongside Zeon and Geek). Name continues the Gundam theme
-  (Hamon).
-source_urls:
-  - https://ja.wikipedia.org/wiki/K%C3%B6zi
-  - https://x.com/kzi_official
+summary: 'Female cat from Hakata, estimated born April 2022, listed on Japanese Wikipedia’s summary of
+  Közi’s pets (alongside Zeon and Geek). Name continues the Gundam theme (Hamon).
+
+  '
+notes: ''
 verification_status: possible
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from Wikipedia pet list citing Közi Twitter profile/posts.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from Wikipedia pet list citing Közi Twitter profile/posts.
+source_urls:
+- https://ja.wikipedia.org/wiki/K%C3%B6zi
+- https://x.com/kzi_official

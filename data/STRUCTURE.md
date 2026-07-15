@@ -15,7 +15,7 @@ This repository is a unified **Malice Mizer Archive**. The layout below maps the
 | `data/organizations/` | [`data/organizations/`](organizations/) | Broadcasters, labels, publishers (`org_*`) |
 | `data/videos/` | [`data/videos/`](videos/) | PVs, TV footage, standalone video links |
 | `data/people/` | [`data/people/members.yaml`](people/members.yaml) | Band members and contributors |
-| `data/pets/` | [`data/pets/`](pets/) | Member pets and set companions (fan-club / interview sourced) |
+| `data/pets/` | [`data/pets/`](pets/) | Pet entities (`pet_*`) — ontological subtype of person; site index at `/pets` |
 | `data/venues/` | [`data/venues/`](venues/) | Live houses and event venues |
 | `data/references/` | [`data/references/`](references/) | External bibliographic sources |
 | `data/interviews/` | *planned* | Standalone interview transcripts (currently in magazine articles) |

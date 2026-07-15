@@ -1,28 +1,37 @@
-id: peko-chan
+id: pet_peko_chan
+type: pet
+legacy_v1_slug: peko-chan
+name:
+  romanized: Peko-chan
+  original: ペコちゃん
 name_en: Peko-chan
 name_ja: ペコちゃん
 species: dog
 breed: Shiba Inu
 sex: female
-owner: gackt
+owner: person_gackt
+owner_slug: gackt
 relationship: childhood_family
 years_noted: childhood–1990s
 status: deceased
 died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Gackt’s childhood family Shiba Inu, loved since elementary school. She died while he
-  was living in Tokyo; he dreamed of her wagging her tail, then going still, woke in
-  tears, and called home to learn she had died — “she must have come to say goodbye.”
-  Told in the SHOXX May 1998 Country House Windsor interview.
-notes: >
-  Interview text only in-archive; no photograph located in local scans yet.
-translation_ids:
-  - shoxx-1998-05-interview
+summary: 'Gackt’s childhood family Shiba Inu, loved since elementary school. She died while he was living
+  in Tokyo; he dreamed of her wagging her tail, then going still, woke in tears, and called home to learn
+  she had died — “she must have come to say goodbye.” Told in the SHOXX May 1998 Country House Windsor
+  interview.
+
+  '
+notes: 'Interview text only in-archive; no photograph located in local scans yet.
+
+  '
 verification_status: verified
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: shoxx_1998_05_interview
-    notes: Catalogued from SHOXX May 1998 tears / farewell-dream anecdote.
+- date: '2026-07-16'
+  action: created
+  source: shoxx_1998_05_interview
+  notes: Catalogued from SHOXX May 1998 tears / farewell-dream anecdote.
+translation_ids:
+- shoxx-1998-05-interview

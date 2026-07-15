@@ -42,6 +42,7 @@ const plannedRelations = relations.filter(([, meta]) => meta.status === "planned
           <th>Label</th>
           <th>ID prefix</th>
           <th>Category</th>
+          <th>Subtype of</th>
         </tr>
       </thead>
       <tbody>
@@ -54,6 +55,7 @@ const plannedRelations = relations.filter(([, meta]) => meta.status === "planned
             </td>
             <td><code>{meta.prefix}</code></td>
             <td><span class={`type-chip ${meta.color}`}>{meta.category}</span></td>
+            <td>{meta.subtype_of ? <code>{meta.subtype_of}</code> : <span class="muted">—</span>}</td>
           </tr>
         ))}
       </tbody>

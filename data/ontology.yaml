@@ -56,6 +56,18 @@ entity_types:
     color: teal
     description: Band member, collaborator, or credited individual.
 
+  pet:
+    label: Pet
+    label_ja: ペット
+    prefix: pet_
+    schema: pet.schema.json
+    category: person
+    color: teal
+    subtype_of: person
+    description: >
+      Companion animal associated with a person (household pet, childhood family pet,
+      or film/set companion). Ontological subtype of person for archive modeling.
+
   reference:
     label: Reference
     label_ja: 資料

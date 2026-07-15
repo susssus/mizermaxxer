@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pet.schema.json",
+  "title": "PetEntity",
+  "allOf": [
+    { "$ref": "entity.schema.json" },
+    {
+      "type": "object",
+      "required": ["name", "species", "owner", "relationship", "verification_status"],
+      "properties": {
+        "type": { "const": "pet" },
+        "id": { "pattern": "^pet_[a-z0-9_]+$" },
+        "name": { "$ref": "title.schema.json" },
+        "legacy_v1_slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Site route slug under /pets/[slug]"
+        },
+        "species": {
+          "type": "string",
+          "enum": ["cat", "dog", "ferret", "hamster", "turtle", "frog", "other"]
+        },
+        "breed": { "type": ["string", "null"] },
+        "sex": {
+          "type": ["string", "null"],
+          "enum": ["male", "female", "unknown", null]
+        },
+        "owner": {
+          "type": "string",
+          "pattern": "^person_[a-z0-9_]+$",
+          "description": "Owning or associated band member (person_* entity)"
+        },
+        "relationship": {
+          "type": "string",
+          "enum": ["owned_by", "childhood_family", "set_companion"]
+        },
+        "years_noted": { "type": ["string", "null"] },
+        "status": {
+          "type": ["string", "null"],
+          "enum": ["living", "deceased", "unknown", null]
+        },
+        "died": { "type": ["string", "null"] },
+        "portrait_image": { "type": ["string", "null"] },
+        "gallery_images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["src"],
+            "properties": {
+              "src": { "type": "string" },
+              "caption": { "type": ["string", "null"] },
+              "source": { "type": ["string", "null"] }
+            },
+            "additionalProperties": false
+          }
+        },
+        "summary": { "type": "string" },
+        "translation_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "source_urls": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "verification_status": { "$ref": "vocabularies.json#/$defs/verification_status" },
+        "changelog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["date", "action", "source", "notes"],
+            "properties": {
+              "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+              "action": { "type": "string" },
+              "source": { "type": "string" },
+              "notes": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

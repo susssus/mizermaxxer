@@ -41,6 +41,38 @@ const entityDescription = row
           typeLabel={row.type_label}
           typeColor={row.type_color}
         />
+      ) : entity.type === "pet" ? (
+        <div class="card">
+          <p><span class={`type-chip ${row.type_color}`}>{row.type_label}</span>
+            <span class="muted"> · subtype of person</span>
+          </p>
+          <h2>{row.title}</h2>
+          {entity.name?.original && <p class="muted">{entity.name.original}</p>}
+          <p class="muted">{row.id}</p>
+          <p>
+            <strong>Species:</strong> {entity.species}
+            {entity.breed ? ` · ${entity.breed}` : ""}
+            {entity.sex && entity.sex !== "unknown" ? ` · ${entity.sex}` : ""}
+          </p>
+          {entity.owner && (
+            <p>
+              <strong>Owner / associated member:</strong>{" "}
+              <a href={`/entity/${entity.owner}`}>
+                {titleById[entity.owner] ?? entity.owner}
+              </a>
+              {" · "}
+              <a href={`/pets/${entity.legacy_v1_slug || entity.id.replace(/^pet_/, "").replaceAll("_", "-")}`}>
+                Pets page →
+              </a>
+            </p>
+          )}
+          {entity.summary && <p>{entity.summary}</p>}
+          <p>
+            <strong>Status:</strong>
+            <span class={`badge ${row.status}`}>{row.status.replaceAll("_", " ")}</span>
+          </p>
+          <p><strong>Links:</strong> {row.link_count}</p>
+        </div>
       ) : (
       <div class="card">
         <p><span class={`type-chip ${row.type_color}`}>{row.type_label}</span></p>

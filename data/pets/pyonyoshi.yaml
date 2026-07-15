@@ -1,24 +1,34 @@
-id: pyonyoshi
+id: pet_pyonyoshi
+type: pet
+legacy_v1_slug: pyonyoshi
+name:
+  romanized: Pyon-kichi
+  original: ピョン吉
 name_en: Pyon-kichi
 name_ja: ピョン吉
 species: frog
 breed: Japanese tree frog (ニホンアマガエル)
 sex: unknown
-owner: kozi
+owner: person_kozi
+owner_slug: kozi
 relationship: owned_by
-years_noted: "2010–"
+years_noted: 2010–
 status: unknown
+died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Japanese tree frog (ニホンアマガエル) in Közi’s menagerie. Diary translations render the
-  name as PyonYoshitTsuan / ピョン吉っつぁん; Japanese Wikipedia lists ピョン吉.
-source_urls:
-  - https://ja.wikipedia.org/wiki/K%C3%B6zi
-  - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
+summary: 'Japanese tree frog (ニホンアマガエル) in Közi’s menagerie. Diary translations render the name as PyonYoshitTsuan
+  / ピョン吉っつぁん; Japanese Wikipedia lists ピョン吉.
+
+  '
+notes: ''
 verification_status: possible
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from Wikipedia pet list and September 2010 diary digest.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from Wikipedia pet list and September 2010 diary digest.
+source_urls:
+- https://ja.wikipedia.org/wiki/K%C3%B6zi
+- http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html

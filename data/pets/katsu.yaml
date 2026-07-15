@@ -1,27 +1,37 @@
-id: katsu
+id: pet_katsu
+type: pet
+legacy_v1_slug: katsu
+name:
+  romanized: Katsu
+  original: カツ
 name_en: Katsu
 name_ja: カツ
 species: hamster
 breed: null
 sex: male
-owner: kozi
+owner: person_kozi
+owner_slug: kozi
 relationship: owned_by
-years_noted: "2010–"
+years_noted: 2010–
 status: unknown
+died: null
 portrait_image: null
 gallery_images: []
-summary: >
-  Male hamster in Közi’s household, listed alongside Kikka on Japanese Wikipedia’s pet
-  summary (with two offspring). Named in September 2010 diary commentary translated by
-  Ippai Yakka together with Chibi and Kochibi.
-notes: >
-  Secondary sources only; no dedicated portrait located yet.
-source_urls:
-  - https://ja.wikipedia.org/wiki/K%C3%B6zi
-  - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
+summary: 'Male hamster in Közi’s household, listed alongside Kikka on Japanese Wikipedia’s pet summary
+  (with two offspring). Named in September 2010 diary commentary translated by Ippai Yakka together with
+  Chibi and Kochibi.
+
+  '
+notes: 'Secondary sources only; no dedicated portrait located yet.
+
+  '
 verification_status: possible
+facts: []
 changelog:
-  - date: "2026-07-16"
-    action: created
-    source: web_research
-    notes: Catalogued from Wikipedia pet list and Ippai Yakka diary summary.
+- date: '2026-07-16'
+  action: created
+  source: web_research
+  notes: Catalogued from Wikipedia pet list and Ippai Yakka diary summary.
+source_urls:
+- https://ja.wikipedia.org/wiki/K%C3%B6zi
+- http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html

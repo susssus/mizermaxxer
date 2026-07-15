@@ -206,20 +206,6 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
                     seen,
                 )
 
-        if entity_type == "reference":
-            for fact in entity.get("facts", []):
-                for target in fact.get("targets", []):
-                    add_edge(
-                        edges,
-                        Edge(entity_id, target, "discusses", "entity_field", "outgoing"),
-                        seen,
-                    )
-                    add_edge(
-                        edges,
-                        Edge(target, entity_id, "cited_by", "entity_field", "outgoing"),
-                        seen,
-                    )
-
         if entity_type == "article":
             ref_id = entity.get("published_in")
             if ref_id:
@@ -233,6 +219,34 @@ def derive_edges(entities: dict[str, dict[str, Any]], seen: set[tuple]) -> list[
                     Edge(ref_id, entity_id, "includes_article", "entity_field", "outgoing"),
                     seen,
                 )
+
+        if entity_type == "pet":
+            owner_id = entity.get("owner")
+            if owner_id:
+                add_edge(
+                    edges,
+                    Edge(entity_id, owner_id, "owned_by", "entity_field", "outgoing"),
+                    seen,
+                )
+                add_edge(
+                    edges,
+                    Edge(owner_id, entity_id, "has_pet", "entity_field", "outgoing"),
+                    seen,
+                )
+
+        if entity_type == "reference":
+            for fact in entity.get("facts", []):
+                for target in fact.get("targets", []):
+                    add_edge(
+                        edges,
+                        Edge(entity_id, target, "discusses", "entity_field", "outgoing"),
+                        seen,
+                    )
+                    add_edge(
+                        edges,
+                        Edge(target, entity_id, "cited_by", "entity_field", "outgoing"),
+                        seen,
+                    )
 
     return edges
 

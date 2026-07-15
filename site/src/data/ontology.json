@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T21:54:40.910537Z",
+  "generated_at": "2026-07-15T22:44:36.619243Z",
   "entity_types": {
     "song": {
       "label": "Song",
@@ -54,6 +54,16 @@
       "category": "person",
       "color": "teal",
       "description": "Band member, collaborator, or credited individual."
+    },
+    "pet": {
+      "label": "Pet",
+      "label_ja": "ペット",
+      "prefix": "pet_",
+      "schema": "pet.schema.json",
+      "category": "person",
+      "color": "teal",
+      "subtype_of": "person",
+      "description": "Companion animal associated with a person (household pet, childhood family pet, or film/set companion). Ontological subtype of person for archive modeling.\n"
     },
     "reference": {
       "label": "Reference",
@@ -555,6 +565,61 @@
       ],
       "origin": "derived"
     },
+    "owned_by": {
+      "id": "owned_by",
+      "label": "Owned by",
+      "label_ja": "飼い主",
+      "category": "person",
+      "color": "teal",
+      "direction": "outgoing",
+      "status": "active",
+      "domain": [
+        "pet"
+      ],
+      "range": [
+        "person"
+      ],
+      "source_field": "pet.owner",
+      "inverse": "has_pet",
+      "description": "Pet is associated with a person (household owner, childhood family, or set companion host). Pets are an ontological subtype of person.\n",
+      "examples": [
+        {
+          "from": "pet_zaku",
+          "to": "person_kozi",
+          "note": "Közi's cat Zaku"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
+    "has_pet": {
+      "id": "has_pet",
+      "label": "Has pet",
+      "label_ja": "ペット",
+      "category": "person",
+      "color": "teal",
+      "direction": "incoming",
+      "status": "active",
+      "domain": [
+        "person"
+      ],
+      "range": [
+        "pet"
+      ],
+      "description": "Person is associated with a pet (inverse of owned_by).",
+      "examples": [
+        {
+          "from": "person_kozi",
+          "to": "pet_zaku"
+        }
+      ],
+      "origins": [
+        "derived"
+      ],
+      "origin": "derived"
+    },
     "discusses": {
       "id": "discusses",
       "label": "Discusses",
@@ -810,5 +875,5 @@
     "media": "gold",
     "meta": "gray"
   },
-  "mermaid_er": "erDiagram\n    organization ||--o{ appearance : \"Aired [derived]\"\n    person ||--o{ appearance : \"Appeared at [derived]\"\n    song ||--o{ album : \"Appears on [derived]\"\n    song ||--o{ single : \"Appears on [derived]\"\n    appearance ||--o{ organization : \"Broadcast on [derived]\"\n    song ||--o{ reference : \"Cited by\"\n    album ||--o{ reference : \"Cited by\"\n    single ||--o{ reference : \"Cited by\"\n    person ||--o{ reference : \"Cited by\"\n    concert ||--o{ reference : \"Cited by\"\n    appearance ||--o{ reference : \"Cited by\"\n    article ||--o{ reference : \"Cited by\"\n    video ||--o{ reference : \"Cited by\"\n    concert ||--o{ song : \"Covers (planned)\"\n    appearance ||--o{ song : \"Covers (planned)\"\n    album ||--o{ song : \"Covers (planned)\"\n    single ||--o{ song : \"Covers (planned)\"\n    person ||--o{ song : \"Credited on [derived]\"\n    reference ||--o{ song : \"Discusses [derived+explicit]\"\n    reference ||--o{ album : \"Discusses [derived+explicit]\"\n    reference ||--o{ single : \"Discusses [derived+explicit]\"\n    reference ||--o{ person : \"Discusses [derived+explicit]\"\n    reference ||--o{ concert : \"Discusses [derived+explicit]\"\n    reference ||--o{ appearance : \"Discusses [derived+explicit]\"\n    reference ||--o{ article : \"Discusses [derived+explicit]\"\n    reference ||--o{ video : \"Discusses [derived+explicit]\"\n    appearance ||--o{ person : \"Featured appearance [derived]\"\n    appearance ||--o{ song : \"Features appearance performance [derived]\"\n    concert ||--o{ song : \"Features concert performance [derived]\"\n    concert ||--o{ person : \"Features concert performance [derived]\"\n    organization ||--o{ person : \"Has member\"\n    concert ||--o{ venue : \"Held at [derived]\"\n    appearance ||--o{ venue : \"Held at [derived]\"\n    venue ||--o{ concert : \"Hosted [derived]\"\n    venue ||--o{ appearance : \"Hosted [derived]\"\n    reference ||--o{ article : \"Includes article [derived]\"\n    album ||--o{ song : \"Includes song [derived]\"\n    single ||--o{ song : \"Includes song [derived]\"\n    person ||--o{ organization : \"Member of\"\n    song ||--o{ appearance : \"Performed on appearance [derived]\"\n    song ||--o{ concert : \"Performed at concert [derived]\"\n    person ||--o{ concert : \"Performed at concert [derived]\"\n    song ||--o{ person : \"Personnel credit [derived]\"\n    image ||--o{ concert : \"Photographed at (planned)\"\n    image ||--o{ appearance : \"Photographed at (planned)\"\n    image ||--o{ venue : \"Photographed at (planned)\"\n    article ||--o{ reference : \"Published in [derived]\"\n    song ||--o{ song : \"References\"\n    song ||--o{ album : \"References\"\n    song ||--o{ single : \"References\"\n    song ||--o{ appearance : \"References\"\n    song ||--o{ venue : \"References\"\n    song ||--o{ concert : \"References\"\n    concert ||--o{ song : \"References\"\n    concert ||--o{ album : \"References\"\n    concert ||--o{ single : \"References\"\n    concert ||--o{ appearance : \"References\"\n    concert ||--o{ venue : \"References\"\n    concert ||--o{ concert : \"References\"\n    appearance ||--o{ song : \"References\"\n    appearance ||--o{ album : \"References\"\n    appearance ||--o{ single : \"References\"\n    appearance ||--o{ appearance : \"References\"\n    appearance ||--o{ venue : \"References\"\n    appearance ||--o{ concert : \"References\"\n    reference ||--o{ song : \"References\"\n    reference ||--o{ album : \"References\"\n    reference ||--o{ single : \"References\"\n    reference ||--o{ appearance : \"References\"\n    reference ||--o{ venue : \"References\"\n    reference ||--o{ concert : \"References\"\n    song }o--o{ song : \"Related song\""
+  "mermaid_er": "erDiagram\n    organization ||--o{ appearance : \"Aired [derived]\"\n    person ||--o{ appearance : \"Appeared at [derived]\"\n    song ||--o{ album : \"Appears on [derived]\"\n    song ||--o{ single : \"Appears on [derived]\"\n    appearance ||--o{ organization : \"Broadcast on [derived]\"\n    song ||--o{ reference : \"Cited by\"\n    album ||--o{ reference : \"Cited by\"\n    single ||--o{ reference : \"Cited by\"\n    person ||--o{ reference : \"Cited by\"\n    concert ||--o{ reference : \"Cited by\"\n    appearance ||--o{ reference : \"Cited by\"\n    article ||--o{ reference : \"Cited by\"\n    video ||--o{ reference : \"Cited by\"\n    concert ||--o{ song : \"Covers (planned)\"\n    appearance ||--o{ song : \"Covers (planned)\"\n    album ||--o{ song : \"Covers (planned)\"\n    single ||--o{ song : \"Covers (planned)\"\n    person ||--o{ song : \"Credited on [derived]\"\n    reference ||--o{ song : \"Discusses [derived+explicit]\"\n    reference ||--o{ album : \"Discusses [derived+explicit]\"\n    reference ||--o{ single : \"Discusses [derived+explicit]\"\n    reference ||--o{ person : \"Discusses [derived+explicit]\"\n    reference ||--o{ concert : \"Discusses [derived+explicit]\"\n    reference ||--o{ appearance : \"Discusses [derived+explicit]\"\n    reference ||--o{ article : \"Discusses [derived+explicit]\"\n    reference ||--o{ video : \"Discusses [derived+explicit]\"\n    appearance ||--o{ person : \"Featured appearance [derived]\"\n    appearance ||--o{ song : \"Features appearance performance [derived]\"\n    concert ||--o{ song : \"Features concert performance [derived]\"\n    concert ||--o{ person : \"Features concert performance [derived]\"\n    organization ||--o{ person : \"Has member\"\n    person ||--o{ pet : \"Has pet [derived]\"\n    concert ||--o{ venue : \"Held at [derived]\"\n    appearance ||--o{ venue : \"Held at [derived]\"\n    venue ||--o{ concert : \"Hosted [derived]\"\n    venue ||--o{ appearance : \"Hosted [derived]\"\n    reference ||--o{ article : \"Includes article [derived]\"\n    album ||--o{ song : \"Includes song [derived]\"\n    single ||--o{ song : \"Includes song [derived]\"\n    person ||--o{ organization : \"Member of\"\n    pet ||--o{ person : \"Owned by [derived]\"\n    song ||--o{ appearance : \"Performed on appearance [derived]\"\n    song ||--o{ concert : \"Performed at concert [derived]\"\n    person ||--o{ concert : \"Performed at concert [derived]\"\n    song ||--o{ person : \"Personnel credit [derived]\"\n    image ||--o{ concert : \"Photographed at (planned)\"\n    image ||--o{ appearance : \"Photographed at (planned)\"\n    image ||--o{ venue : \"Photographed at (planned)\"\n    article ||--o{ reference : \"Published in [derived]\"\n    song ||--o{ song : \"References\"\n    song ||--o{ album : \"References\"\n    song ||--o{ single : \"References\"\n    song ||--o{ appearance : \"References\"\n    song ||--o{ venue : \"References\"\n    song ||--o{ concert : \"References\"\n    concert ||--o{ song : \"References\"\n    concert ||--o{ album : \"References\"\n    concert ||--o{ single : \"References\"\n    concert ||--o{ appearance : \"References\"\n    concert ||--o{ venue : \"References\"\n    concert ||--o{ concert : \"References\"\n    appearance ||--o{ song : \"References\"\n    appearance ||--o{ album : \"References\"\n    appearance ||--o{ single : \"References\"\n    appearance ||--o{ appearance : \"References\"\n    appearance ||--o{ venue : \"References\"\n    appearance ||--o{ concert : \"References\"\n    reference ||--o{ song : \"References\"\n    reference ||--o{ album : \"References\"\n    reference ||--o{ single : \"References\"\n    reference ||--o{ appearance : \"References\"\n    reference ||--o{ venue : \"References\"\n    reference ||--o{ concert : \"References\"\n    song }o--o{ song : \"Related song\""
 }

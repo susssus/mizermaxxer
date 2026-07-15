@@ -124,7 +124,35 @@ def load_videos() -> list[dict[str, Any]]:
 
 
 def load_pets() -> list[dict[str, Any]]:
-    return load_collection("pets")
+    """Load pet entities and normalize fields for the static /pets site."""
+    pets: list[dict[str, Any]] = []
+    for path in iter_yaml_files(DATA_DIR / "pets"):
+        doc = load_yaml(path)
+        if is_entity_stub(doc):
+            continue
+        if doc.get("type") != "pet":
+            continue
+        entity_id = doc["id"]
+        slug = doc.get("legacy_v1_slug") or entity_id.replace("pet_", "").replace("_", "-")
+        owner = doc.get("owner") or ""
+        owner_slug = doc.get("owner_slug") or (
+            owner.replace("person_", "", 1) if owner.startswith("person_") else owner
+        )
+        name = doc.get("name") or {}
+        name_en = doc.get("name_en") or name.get("romanized") or slug
+        name_ja = doc.get("name_ja") if "name_ja" in doc else name.get("original")
+        pets.append(
+            {
+                **doc,
+                "id": slug,
+                "entity_id": entity_id,
+                "name_en": name_en,
+                "name_ja": name_ja,
+                "owner": owner_slug,
+                "owner_entity_id": owner if owner.startswith("person_") else f"person_{owner_slug}",
+            }
+        )
+    return pets
 
 
 def load_venues() -> list[dict[str, Any]]:
