@@ -6,7 +6,7 @@
     { "$ref": "entity.schema.json" },
     {
       "type": "object",
-      "required": ["name", "species", "owner", "relationship", "verification_status"],
+      "required": ["name", "species", "person", "relationship", "verification_status"],
       "properties": {
         "type": { "const": "pet" },
         "id": { "pattern": "^pet_[a-z0-9_]+$" },
@@ -25,14 +25,15 @@
           "type": ["string", "null"],
           "enum": ["male", "female", "unknown", null]
         },
-        "owner": {
+        "person": {
           "type": "string",
           "pattern": "^person_[a-z0-9_]+$",
-          "description": "Owning or associated band member (person_* entity)"
+          "description": "Human this pet owns (band member person_* entity)"
         },
         "relationship": {
           "type": "string",
-          "enum": ["owned_by", "childhood_family", "set_companion"]
+          "enum": ["household", "childhood_family", "set_companion"],
+          "description": "Kind of companion bond (not graph direction)"
         },
         "years_noted": { "type": ["string", "null"] },
         "status": {

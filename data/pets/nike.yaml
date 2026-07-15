@@ -9,8 +9,6 @@ name_ja: ナイキ
 species: dog
 breed: null
 sex: unknown
-owner: person_kami
-owner_slug: kami
 relationship: set_companion
 years_noted: '1997'
 status: unknown
@@ -40,3 +38,5 @@ changelog:
 translation_ids:
 - fan-club-vol-5-1998-summer
 - vicious-1997-10-interview
+person: person_kami
+person_slug: kami

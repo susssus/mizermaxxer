@@ -9,9 +9,7 @@ name_ja: フェンディ
 species: dog
 breed: null
 sex: unknown
-owner: person_gackt
-owner_slug: gackt
-relationship: owned_by
+relationship: household
 years_noted: c. 2020–2021
 status: unknown
 died: null
@@ -35,3 +33,5 @@ changelog:
 source_urls:
 - https://www.jprime.jp/articles/-/20137
 - https://no-magazine.com/gackt-dog/
+person: person_gackt
+person_slug: gackt

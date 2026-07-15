@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:44:43.404194Z",
+  "generated_at": "2026-07-15T22:48:36.402771Z",
   "people": {
     "members": [
       {
@@ -881,9 +881,7 @@
       "species": "dog",
       "breed": null,
       "sex": "unknown",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2010–",
       "status": "unknown",
       "died": null,
@@ -904,7 +902,10 @@
       "source_urls": [
         "https://www.jprime.jp/articles/-/20137"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_angie",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -920,9 +921,7 @@
       "species": "dog",
       "breed": "miniature dachshund",
       "sex": "female",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "1998–2007",
       "status": "deceased",
       "died": "2007-12",
@@ -944,7 +943,10 @@
         "http://camuigakuto.blogspot.com/2007/12/in-memorium.html",
         "https://www.jprime.jp/articles/-/20137"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_belle",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -960,9 +962,7 @@
       "species": "dog",
       "breed": null,
       "sex": "female",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "–1997",
       "status": "deceased",
       "died": "1997-07-20",
@@ -994,7 +994,10 @@
       "translation_ids": [
         "fan-club-vol-4-1998-spring"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_betty",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -1010,9 +1013,7 @@
       "species": "dog",
       "breed": null,
       "sex": "unknown",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2010",
       "status": "deceased",
       "died": "2010",
@@ -1033,7 +1034,10 @@
       "source_urls": [
         "https://www.jprime.jp/articles/-/20137"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_dolce",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -1049,9 +1053,7 @@
       "species": "dog",
       "breed": "Chihuahua",
       "sex": "unknown",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "c. 2007–2018",
       "status": "deceased",
       "died": "2018",
@@ -1073,7 +1075,10 @@
         "https://www.jprime.jp/articles/-/20137",
         "https://camuilove.wordpress.com/fackts/"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_eneru",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -1089,9 +1094,7 @@
       "species": "dog",
       "breed": null,
       "sex": "unknown",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "c. 2020–2021",
       "status": "unknown",
       "died": null,
@@ -1113,7 +1116,10 @@
         "https://www.jprime.jp/articles/-/20137",
         "https://no-magazine.com/gackt-dog/"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_fendi",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -1128,8 +1134,6 @@
       "species": "dog",
       "breed": "Great Dane",
       "sex": "unknown",
-      "owner": "kami",
-      "owner_slug": "kami",
       "relationship": "set_companion",
       "years_noted": "1997",
       "status": "unknown",
@@ -1162,7 +1166,10 @@
       "translation_ids": [
         "fan-club-vol-5-1998-summer"
       ],
+      "person": "person_kami",
+      "person_slug": "kami",
       "entity_id": "pet_france_great_dane",
+      "owner": "kami",
       "owner_entity_id": "person_kami"
     },
     {
@@ -1178,9 +1185,7 @@
       "species": "cat",
       "breed": null,
       "sex": "male",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2015–",
       "status": "unknown",
       "died": null,
@@ -1202,7 +1207,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "https://x.com/kzi_official"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_geek",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1218,9 +1226,7 @@
       "species": "cat",
       "breed": null,
       "sex": "female",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2022–",
       "status": "unknown",
       "died": null,
@@ -1242,7 +1248,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "https://x.com/kzi_official"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_hamon",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1257,8 +1266,6 @@
       "species": "dog",
       "breed": null,
       "sex": "unknown",
-      "owner": "kami",
-      "owner_slug": "kami",
       "relationship": "childhood_family",
       "years_noted": "childhood",
       "status": "unknown",
@@ -1280,7 +1287,10 @@
       "source_urls": [
         "https://jrockrae.wordpress.com/2007/09/02/77-malice-mizer-fun-facts/"
       ],
+      "person": "person_kami",
+      "person_slug": "kami",
       "entity_id": "pet_kami_family_dog",
+      "owner": "kami",
       "owner_entity_id": "person_kami"
     },
     {
@@ -1296,9 +1306,7 @@
       "species": "hamster",
       "breed": null,
       "sex": "male",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2010–",
       "status": "unknown",
       "died": null,
@@ -1320,7 +1328,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_katsu",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1336,9 +1347,7 @@
       "species": "hamster",
       "breed": null,
       "sex": "female",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2009–",
       "status": "unknown",
       "died": null,
@@ -1366,7 +1375,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_kikka",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1382,9 +1394,7 @@
       "species": "cat",
       "breed": "grey tabby",
       "sex": "female",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "1997–2015",
       "status": "deceased",
       "died": "2015-12-15",
@@ -1452,7 +1462,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_lala",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1468,9 +1481,7 @@
       "species": "cat",
       "breed": "Maine Coon",
       "sex": "unknown",
-      "owner": "gackt",
-      "owner_slug": "gackt",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "c. late 1990s–2000s",
       "status": "unknown",
       "died": null,
@@ -1492,7 +1503,10 @@
         "https://camuilove.wordpress.com/fackts/",
         "https://www.jprime.jp/articles/-/20137"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_mei",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -1508,9 +1522,7 @@
       "species": "hamster",
       "breed": null,
       "sex": "male",
-      "owner": "kami",
-      "owner_slug": "kami",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "1997",
       "status": "deceased",
       "died": null,
@@ -1537,7 +1549,10 @@
       "translation_ids": [
         "fan-club-vol-2-3-1997-winter"
       ],
+      "person": "person_kami",
+      "person_slug": "kami",
       "entity_id": "pet_miyashita",
+      "owner": "kami",
       "owner_entity_id": "person_kami"
     },
     {
@@ -1553,9 +1568,7 @@
       "species": "ferret",
       "breed": null,
       "sex": "unknown",
-      "owner": "yuki",
-      "owner_slug": "yuki",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "1997",
       "status": "unknown",
       "died": null,
@@ -1587,7 +1600,10 @@
       "translation_ids": [
         "fan-club-vol-1-1997-autumn"
       ],
+      "person": "person_yuki",
+      "person_slug": "yuki",
       "entity_id": "pet_mu",
+      "owner": "yuki",
       "owner_entity_id": "person_yuki"
     },
     {
@@ -1603,8 +1619,6 @@
       "species": "dog",
       "breed": null,
       "sex": "unknown",
-      "owner": "kami",
-      "owner_slug": "kami",
       "relationship": "set_companion",
       "years_noted": "1997",
       "status": "unknown",
@@ -1638,7 +1652,10 @@
         "fan-club-vol-5-1998-summer",
         "vicious-1997-10-interview"
       ],
+      "person": "person_kami",
+      "person_slug": "kami",
       "entity_id": "pet_nike",
+      "owner": "kami",
       "owner_entity_id": "person_kami"
     },
     {
@@ -1654,8 +1671,6 @@
       "species": "dog",
       "breed": "Shiba Inu",
       "sex": "female",
-      "owner": "gackt",
-      "owner_slug": "gackt",
       "relationship": "childhood_family",
       "years_noted": "childhood–1990s",
       "status": "deceased",
@@ -1677,7 +1692,10 @@
       "translation_ids": [
         "shoxx-1998-05-interview"
       ],
+      "person": "person_gackt",
+      "person_slug": "gackt",
       "entity_id": "pet_peko_chan",
+      "owner": "gackt",
       "owner_entity_id": "person_gackt"
     },
     {
@@ -1693,9 +1711,7 @@
       "species": "frog",
       "breed": "Japanese tree frog (ニホンアマガエル)",
       "sex": "unknown",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2010–",
       "status": "unknown",
       "died": null,
@@ -1717,7 +1733,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_pyonyoshi",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1733,9 +1752,7 @@
       "species": "cat",
       "breed": "mixed-breed tabby",
       "sex": "male",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "1997–2009",
       "status": "deceased",
       "died": "2009-07-08",
@@ -1829,7 +1846,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_zaku",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1845,9 +1865,7 @@
       "species": "cat",
       "breed": null,
       "sex": "male",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2013–",
       "status": "unknown",
       "died": null,
@@ -1870,7 +1888,10 @@
         "http://ippaiyakka.blogspot.com/2013/09/a-proposito-familia-cresceu_8.html",
         "https://x.com/kzi_official"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_zeon",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     },
     {
@@ -1886,9 +1907,7 @@
       "species": "turtle",
       "breed": null,
       "sex": "unknown",
-      "owner": "kozi",
-      "owner_slug": "kozi",
-      "relationship": "owned_by",
+      "relationship": "household",
       "years_noted": "2010–",
       "status": "unknown",
       "died": null,
@@ -1910,7 +1929,10 @@
         "https://ja.wikipedia.org/wiki/K%C3%B6zi",
         "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
       ],
+      "person": "person_kozi",
+      "person_slug": "kozi",
       "entity_id": "pet_zokku",
+      "owner": "kozi",
       "owner_entity_id": "person_kozi"
     }
   ],

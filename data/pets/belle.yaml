@@ -9,9 +9,7 @@ name_ja: ベル
 species: dog
 breed: miniature dachshund
 sex: female
-owner: person_gackt
-owner_slug: gackt
-relationship: owned_by
+relationship: household
 years_noted: 1998–2007
 status: deceased
 died: 2007-12
@@ -36,3 +34,5 @@ changelog:
 source_urls:
 - http://camuigakuto.blogspot.com/2007/12/in-memorium.html
 - https://www.jprime.jp/articles/-/20137
+person: person_gackt
+person_slug: gackt

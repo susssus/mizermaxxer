@@ -51,7 +51,8 @@ const SPECIES_LABEL: Record<string, string> = {
 };
 
 const RELATIONSHIP_LABEL: Record<string, string> = {
-  owned_by: "Household pet",
+  household: "Household companion",
+  owned_by: "Household companion",
   childhood_family: "Childhood family pet",
   set_companion: "Film / location companion",
 };
@@ -108,6 +109,7 @@ const description = pet
         {pet.name_ja && <p class="pet-profile__ja">{pet.name_ja}</p>}
         <p class="muted">
           <a href={`/members/${pet.owner}`}>{ownerName}</a>
+          {" · owned by this pet"}
           {" · "}
           {SPECIES_LABEL[pet.species] ?? pet.species}
           {pet.breed ? ` · ${pet.breed}` : ""}

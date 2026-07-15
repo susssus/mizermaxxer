@@ -134,13 +134,16 @@ def load_pets() -> list[dict[str, Any]]:
             continue
         entity_id = doc["id"]
         slug = doc.get("legacy_v1_slug") or entity_id.replace("pet_", "").replace("_", "-")
-        owner = doc.get("owner") or ""
-        owner_slug = doc.get("owner_slug") or (
-            owner.replace("person_", "", 1) if owner.startswith("person_") else owner
+        person = doc.get("person") or doc.get("owner") or ""
+        person_slug = doc.get("person_slug") or doc.get("owner_slug") or (
+            person.replace("person_", "", 1) if person.startswith("person_") else person
         )
         name = doc.get("name") or {}
         name_en = doc.get("name_en") or name.get("romanized") or slug
         name_ja = doc.get("name_ja") if "name_ja" in doc else name.get("original")
+        relationship = doc.get("relationship")
+        if relationship == "owned_by":
+            relationship = "household"
         pets.append(
             {
                 **doc,
@@ -148,8 +151,11 @@ def load_pets() -> list[dict[str, Any]]:
                 "entity_id": entity_id,
                 "name_en": name_en,
                 "name_ja": name_ja,
-                "owner": owner_slug,
-                "owner_entity_id": owner if owner.startswith("person_") else f"person_{owner_slug}",
+                "owner": person_slug,
+                "person": person if person.startswith("person_") else f"person_{person_slug}",
+                "person_slug": person_slug,
+                "owner_entity_id": person if person.startswith("person_") else f"person_{person_slug}",
+                "relationship": relationship,
             }
         )
     return pets

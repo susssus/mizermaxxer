@@ -9,9 +9,7 @@ name_ja: ベティー
 species: dog
 breed: null
 sex: female
-owner: person_gackt
-owner_slug: gackt
-relationship: owned_by
+relationship: household
 years_noted: –1997
 status: deceased
 died: '1997-07-20'
@@ -42,3 +40,5 @@ changelog:
   notes: Catalogued from Gackt’s July 20 essay in FC Vol. 4.
 translation_ids:
 - fan-club-vol-4-1998-spring
+person: person_gackt
+person_slug: gackt

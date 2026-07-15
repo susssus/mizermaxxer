@@ -9,9 +9,7 @@ name_ja: ザク
 species: cat
 breed: mixed-breed tabby
 sex: male
-owner: person_kozi
-owner_slug: kozi
-relationship: owned_by
+relationship: household
 years_noted: 1997–2009
 status: deceased
 died: '2009-07-08'
@@ -83,3 +81,5 @@ translation_ids:
 source_urls:
 - https://ja.wikipedia.org/wiki/K%C3%B6zi
 - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
+person: person_kozi
+person_slug: kozi

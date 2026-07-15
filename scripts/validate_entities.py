@@ -89,13 +89,15 @@ def validate_entities() -> list[str]:
             pass
 
         if entity["type"] == "pet":
-            owner_id = entity.get("owner")
-            if owner_id and owner_id not in ids:
-                errors.append(f"{rel_path}: owner references unknown entity '{owner_id}'")
-            elif owner_id:
-                owner = entities.get(owner_id, {})
-                if owner.get("type") != "person":
-                    errors.append(f"{rel_path}: owner must be a person_* entity, not '{owner_id}'")
+            person_id = entity.get("person") or entity.get("owner")
+            if person_id and person_id not in ids:
+                errors.append(f"{rel_path}: person references unknown entity '{person_id}'")
+            elif person_id:
+                person = entities.get(person_id, {})
+                if person.get("type") != "person":
+                    errors.append(f"{rel_path}: person must be a person_* entity, not '{person_id}'")
+            if entity.get("owner") and not entity.get("person"):
+                errors.append(f"{rel_path}: use 'person' (human this pet owns); 'owner' is deprecated")
 
         if entity["type"] == "article":
             published_in = entity.get("published_in")
