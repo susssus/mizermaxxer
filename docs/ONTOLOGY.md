@@ -1,6 +1,6 @@
 # Entity ontology
 
-_Generated at 2026-07-15T22:48:29.462291Z by `make ontology`. Edit [`data/ontology.yaml`](../data/ontology.yaml) and [`data/references/relation_types.yaml`](../data/references/relation_types.yaml), then regenerate._
+_Generated at 2026-07-15T22:56:13.410013Z by `make ontology`. Edit [`data/ontology.yaml`](../data/ontology.yaml) and [`data/references/relation_types.yaml`](../data/references/relation_types.yaml), then regenerate._
 
 The archive models Malice Mizer research data as a typed entity graph. This document shows the **type-level** relationships (ontology), not individual entity instances.
 
@@ -40,7 +40,9 @@ classDiagram
 |----------|-------|----------------|--------|--------|
 | `aired` | Aired | organization → appearance | derived | active |
 | `appeared_at` | Appeared at | person → appearance | derived | active |
+| `appeared_with` | Appeared with | person → pet | derived | active |
 | `appears_on` | Appears on | song → album, single | derived | active |
+| `appears_with` | Appears with | pet → person | derived | active |
 | `broadcast_on` | Broadcast on | appearance → organization | derived | active |
 | `cited_by` | Cited by | song, album, single, person, concert, appearance, article, video → reference | explicit | active |
 | `covers` | Covers | concert, appearance, album, single → song | explicit | planned |
@@ -65,7 +67,7 @@ classDiagram
 | `references` | References | song, concert, appearance, reference → song, album, single, appearance, venue, concert | explicit | active |
 | `related_song` | Related song | song → song | explicit | active |
 
-**24** active relations, **2** planned (defined but not yet used in data).
+**26** active relations, **2** planned (defined but not yet used in data).
 
 ### Type-level diagram
 
@@ -75,8 +77,10 @@ Solid annotations are explicit-only; `[derived]` edges are inferred from entity 
 erDiagram
     organization ||--o{ appearance : "Aired [derived]"
     person ||--o{ appearance : "Appeared at [derived]"
+    person ||--o{ pet : "Appeared with [derived]"
     song ||--o{ album : "Appears on [derived]"
     song ||--o{ single : "Appears on [derived]"
+    pet ||--o{ person : "Appears with [derived]"
     appearance ||--o{ organization : "Broadcast on [derived]"
     song ||--o{ reference : "Cited by"
     album ||--o{ reference : "Cited by"

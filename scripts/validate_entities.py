@@ -97,7 +97,12 @@ def validate_entities() -> list[str]:
                 if person.get("type") != "person":
                     errors.append(f"{rel_path}: person must be a person_* entity, not '{person_id}'")
             if entity.get("owner") and not entity.get("person"):
-                errors.append(f"{rel_path}: use 'person' (human this pet owns); 'owner' is deprecated")
+                errors.append(f"{rel_path}: use 'person' (associated human); 'owner' is deprecated")
+            relationship = entity.get("relationship")
+            if person_id and relationship not in ("household", "childhood_family", "set_companion"):
+                errors.append(
+                    f"{rel_path}: relationship must be household, childhood_family, or set_companion"
+                )
 
         if entity["type"] == "article":
             published_in = entity.get("published_in")

@@ -54,7 +54,7 @@ const RELATIONSHIP_LABEL: Record<string, string> = {
   household: "Household companion",
   owned_by: "Household companion",
   childhood_family: "Childhood family pet",
-  set_companion: "Film / location companion",
+  set_companion: "Film / set companion (appears with)",
 };
 
 const pets = (archive.pets ?? []) as Pet[];
@@ -109,7 +109,9 @@ const description = pet
         {pet.name_ja && <p class="pet-profile__ja">{pet.name_ja}</p>}
         <p class="muted">
           <a href={`/members/${pet.owner}`}>{ownerName}</a>
-          {" · owned by this pet"}
+          {pet.relationship === "set_companion"
+            ? " · appears with (not a household bond)"
+            : " · owned by this pet"}
           {" · "}
           {SPECIES_LABEL[pet.species] ?? pet.species}
           {pet.breed ? ` · ${pet.breed}` : ""}
