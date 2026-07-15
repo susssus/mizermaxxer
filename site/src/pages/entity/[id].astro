@@ -130,20 +130,27 @@ const entityDescription = row
               <th>Relation</th>
               <th>Entity</th>
               <th>Type</th>
+              <th>Active</th>
             </tr>
           </thead>
           <tbody>
             {links.map((link) => {
               const target = linksIndex.browse.find((entry) => entry.id === link.entity_id);
+              const active = link.active;
+              const activeLabel = active?.start
+                ? `${active.start}–${active.end ?? "present"}`
+                : "—";
               return (
                 <tr>
                   <td>
                     <span class={`type-chip ${link.color || "gray"}`} style="font-size:0.65rem;">
                       {link.label || link.relation}
                     </span>
+                    {link.role && <span class="muted" style="margin-left:0.35rem;font-size:0.75rem;">{link.role}</span>}
                   </td>
                   <td><a href={`/entity/${link.entity_id}`}>{titleById[link.entity_id] ?? link.entity_id}</a></td>
                   <td>{target?.type_label ?? "—"}</td>
+                  <td class="muted" style="font-variant-numeric:tabular-nums;white-space:nowrap;">{activeLabel}</td>
                 </tr>
               );
             })}

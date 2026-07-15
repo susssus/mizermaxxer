@@ -10,6 +10,15 @@
     "relation": { "type": "string", "pattern": "^[a-z_]+$" },
     "note": { "type": "string" },
     "role": { "type": "string" },
+    "active": {
+      "type": "object",
+      "description": "Optional activity span for the link (e.g. band membership years). Year (YYYY) or YYYY-MM.",
+      "properties": {
+        "start": { "type": ["string", "null"] },
+        "end": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
     "sources": {
       "type": "array",
       "items": { "type": "string", "pattern": "^ref_[a-z0-9_]+$" }

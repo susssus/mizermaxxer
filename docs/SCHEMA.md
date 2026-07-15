@@ -128,7 +128,17 @@ Broadcasters are `organization` entities with `id: org_*` and `organization_type
   to: song_illuminati
   relation: related_song
   note: shares a chord progression in the bridge
+
+- from: person_mana
+  to: org_malice_mizer
+  relation: member_of
+  role: guitar
+  active:
+    start: "1992-08"
+    end: "2001-12"
 ```
+
+Optional link fields: `note`, `role`, `active` (`start` / `end` as `YYYY` or `YYYY-MM`), `sources`.
 
 Every `relation` in this file must appear under `explicit:` in `relation_types.yaml`.
 

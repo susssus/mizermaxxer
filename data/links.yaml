@@ -38,3 +38,368 @@
 - from: ref_beast_of_blood_single
   to: song_beast_of_blood
   relation: discusses
+
+# --- Band memberships (member_of) ---
+# Dates are approximate where bios give year-only ranges. Open-ended careers use null end.
+
+# Mana
+- from: person_mana
+  to: org_ves_tearge
+  relation: member_of
+  role: guitar
+  active:
+    start: "1986"
+    end: "1988"
+  note: as Serina; year span approximate from bio
+
+- from: person_mana
+  to: org_girl
+  relation: member_of
+  role: guitar
+  active:
+    start: "1988"
+    end: "1990"
+  note: as Serina
+
+- from: person_mana
+  to: org_matenrou
+  relation: member_of
+  role: bass
+  active:
+    start: "1991"
+    end: "1992-04"
+  note: left April 1992 with Közi
+
+- from: person_mana
+  to: org_malice_mizer
+  relation: member_of
+  role: guitar
+  active:
+    start: "1992-08"
+    end: "2001-12"
+  note: co-founder; also leader / artistic director
+
+- from: person_mana
+  to: org_moi_dix_mois
+  relation: member_of
+  role: guitar
+  active:
+    start: "2002"
+    end: null
+  note: founder / solo project
+
+# Közi
+- from: person_kozi
+  to: org_beyond_the_rein_sight
+  relation: member_of
+  role: guitar
+  active:
+    start: "1989"
+    end: "1990"
+  note: year end approximate
+
+- from: person_kozi
+  to: org_girl
+  relation: member_of
+  role: guitar
+  active:
+    start: "1990"
+    end: "1991"
+  note: year span approximate from bio
+
+- from: person_kozi
+  to: org_matenrou
+  relation: member_of
+  role: guitar
+  active:
+    start: "1991"
+    end: "1992-04"
+
+- from: person_kozi
+  to: org_malice_mizer
+  relation: member_of
+  role: guitar
+  active:
+    start: "1992-08"
+    end: "2001-12"
+  note: co-founder
+
+- from: person_kozi
+  to: org_eve_of_destiny
+  relation: member_of
+  role: guitar
+  active:
+    start: "2002"
+    end: "2005"
+  note: year end approximate
+
+- from: person_kozi
+  to: org_kozi_solo
+  relation: member_of
+  role: guitar
+  active:
+    start: "2002"
+    end: null
+  note: overlapping solo releases alongside later bands
+
+- from: person_kozi
+  to: org_dalle
+  relation: member_of
+  role: guitar
+  active:
+    start: "2004"
+    end: "2008"
+  note: year span approximate
+
+- from: person_kozi
+  to: org_xa_vat
+  relation: member_of
+  role: guitar
+  active:
+    start: "2010"
+    end: "2013"
+  note: year span approximate
+
+- from: person_kozi
+  to: org_ziz
+  relation: member_of
+  role: guitar
+  active:
+    start: "2012"
+    end: null
+  note: year start approximate
+
+# Yu~ki
+- from: person_yuki
+  to: org_zero
+  relation: member_of
+  role: bass
+  active:
+    start: "1990"
+    end: "1992-06"
+  note: as Yû-KI; start year approximate; disbanded June 1992
+
+- from: person_yuki
+  to: org_malice_mizer
+  relation: member_of
+  role: bass
+  active:
+    start: "1992-08"
+    end: "2001-12"
+  note: founding member; entire run
+
+# Gaz
+- from: person_gaz
+  to: org_datura
+  relation: member_of
+  role: drums
+  active:
+    start: "1991"
+    end: "1992"
+  note: early-1990s; year span approximate
+
+- from: person_gaz
+  to: org_malice_mizer
+  relation: member_of
+  role: drums
+  active:
+    start: "1992-08"
+    end: "1993-03"
+  note: founding drummer; left after 1993-03-15 show
+
+- from: person_gaz
+  to: org_baiser
+  relation: member_of
+  role: drums
+  active:
+    start: "1992-12"
+    end: "1993-10"
+  note: support; overlapped with Malice Mizer
+
+- from: person_gaz
+  to: org_kneuklid_romance
+  relation: member_of
+  role: drums
+  active:
+    start: "1993-05"
+    end: "1998"
+  note: support from May 1993; official from 1994
+
+- from: person_gaz
+  to: org_night_breeze_zinnia
+  relation: member_of
+  role: drums
+  active:
+    start: "1999"
+    end: "2005"
+  note: year span approximate from bio order
+
+- from: person_gaz
+  to: org_doverman
+  relation: member_of
+  role: drums
+  active:
+    start: "2005"
+    end: "2010"
+  note: year span approximate
+
+- from: person_gaz
+  to: org_buzz_bone
+  relation: member_of
+  role: drums
+  active:
+    start: "2010"
+    end: "2017"
+  note: year span approximate; ended before death in 2017
+
+# Kami
+- from: person_kami
+  to: org_3pmayonnaise
+  relation: member_of
+  role: drums
+  active:
+    start: "1989"
+    end: "1991"
+
+- from: person_kami
+  to: org_kneuklid_romance
+  relation: member_of
+  role: drums
+  active:
+    start: "1992-09"
+    end: "1993-03"
+  note: joined September 1992; swapped with Gaz into Malice Mizer
+
+- from: person_kami
+  to: org_malice_mizer
+  relation: member_of
+  role: drums
+  active:
+    start: "1993-03"
+    end: "1999-06"
+  note: joined 1993-03-17; died 1999-06-21
+
+# Tetsu
+- from: person_tetsu
+  to: org_ner_vous
+  relation: member_of
+  role: vocals
+  active:
+    start: "1992"
+    end: "1992"
+  note: briefly before Malice Mizer
+
+- from: person_tetsu
+  to: org_malice_mizer
+  relation: member_of
+  role: vocals
+  active:
+    start: "1992-08"
+    end: "1994-12"
+  note: founding vocalist; left after 1994-12-27 show
+
+- from: person_tetsu
+  to: org_mega8ball
+  relation: member_of
+  role: vocals
+  active:
+    start: "1995"
+    end: "1997"
+
+- from: person_tetsu
+  to: org_zigzo
+  relation: member_of
+  role: vocals
+  active:
+    start: "1999"
+    end: "2002"
+
+- from: person_tetsu
+  to: org_nil
+  relation: member_of
+  role: vocals
+  active:
+    start: "2002"
+    end: null
+
+- from: person_tetsu
+  to: org_june_july_august
+  relation: member_of
+  role: vocals
+  active:
+    start: "2006"
+    end: null
+  note: year start approximate; Afro Skull project
+
+- from: person_tetsu
+  to: org_black_comet_club_band
+  relation: member_of
+  role: vocals
+  active:
+    start: "2010"
+    end: null
+  note: year start approximate; Afro Skull project
+
+- from: person_tetsu
+  to: org_disco_volante
+  relation: member_of
+  role: vocals
+  active:
+    start: "2014"
+    end: null
+  note: year start approximate; Afro Skull project
+
+# Gackt
+- from: person_gackt
+  to: org_cains_feel
+  relation: member_of
+  role: vocals
+  active:
+    start: "1992"
+    end: "1995"
+  note: drummer/vocalist; years approximate
+
+- from: person_gackt
+  to: org_malice_mizer
+  relation: member_of
+  role: vocals
+  active:
+    start: "1995-10"
+    end: "1999-01"
+  note: joined October 1995; departed January 1999
+
+- from: person_gackt
+  to: org_gackt_solo
+  relation: member_of
+  role: vocals
+  active:
+    start: "1999"
+    end: null
+
+# Klaha
+- from: person_klaha
+  to: org_pride_of_mind
+  relation: member_of
+  role: vocals
+  active:
+    start: "1992"
+    end: "1996"
+  note: co-founder; start year approximate; disbanded 1996
+
+- from: person_klaha
+  to: org_malice_mizer
+  relation: member_of
+  role: vocals
+  active:
+    start: "2000"
+    end: "2001-12"
+  note: official after Budokan Sep 2000; on Bara no Seidou
+
+- from: person_klaha
+  to: org_klaha_solo
+  relation: member_of
+  role: vocals
+  active:
+    start: "2002"
+    end: "2004"
+  note: Nostal Lab / Märchen / Setsubou; withdrew after April 2004

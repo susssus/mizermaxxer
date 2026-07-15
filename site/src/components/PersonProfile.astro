@@ -1,5 +1,6 @@
 ---
 import ArchiveImage from "./ArchiveImage.astro";
+import CareerTimeline from "./CareerTimeline.astro";
 import GalleryLightbox from "./GalleryLightbox.astro";
 import PhotoCarousel from "./PhotoCarousel.astro";
 import { linkBioText } from "../lib/bioLinks";
@@ -231,6 +232,8 @@ const links = entity.links ?? [];
       </dl>
     </div>
   </div>
+
+  <CareerTimeline personId={entity.id} />
 
   {bioSections.length > 0 && (
     <div class="card person-profile__bio">

@@ -1,6 +1,6 @@
 # Entity ontology
 
-_Generated at 2026-07-07T12:38:54.398611Z by `make ontology`. Edit [`data/ontology.yaml`](../data/ontology.yaml) and [`data/references/relation_types.yaml`](../data/references/relation_types.yaml), then regenerate._
+_Generated at 2026-07-15T21:54:40.910372Z by `make ontology`. Edit [`data/ontology.yaml`](../data/ontology.yaml) and [`data/references/relation_types.yaml`](../data/references/relation_types.yaml), then regenerate._
 
 The archive models Malice Mizer research data as a typed entity graph. This document shows the **type-level** relationships (ontology), not individual entity instances.
 
@@ -38,11 +38,12 @@ The archive models Malice Mizer research data as a typed entity graph. This docu
 | `featured_appearance` | Featured appearance | appearance → person | derived | active |
 | `features_appearance` | Features appearance performance | appearance → song | derived | active |
 | `features_concert` | Features concert performance | concert → song, person | derived | active |
+| `has_member` | Has member | organization → person | explicit | active |
 | `held_at` | Held at | concert, appearance → venue | derived | active |
 | `hosted` | Hosted | venue → concert, appearance | derived | active |
 | `includes_article` | Includes article | reference → article | derived | active |
 | `includes_song` | Includes song | album, single → song | derived | active |
-| `member_of` | Member of | person → organization | explicit | planned |
+| `member_of` | Member of | person → organization | explicit | active |
 | `performed_at_appearance` | Performed on appearance | song → appearance | derived | active |
 | `performed_at_concert` | Performed at concert | song, person → concert | derived | active |
 | `personnel` | Personnel credit | song → person | derived | active |
@@ -51,7 +52,7 @@ The archive models Malice Mizer research data as a typed entity graph. This docu
 | `references` | References | song, concert, appearance, reference → song, album, single, appearance, venue, concert | explicit | active |
 | `related_song` | Related song | song → song | explicit | active |
 
-**20** active relations, **3** planned (defined but not yet used in data).
+**22** active relations, **2** planned (defined but not yet used in data).
 
 ### Type-level diagram
 
@@ -89,6 +90,7 @@ erDiagram
     appearance ||--o{ song : "Features appearance performance [derived]"
     concert ||--o{ song : "Features concert performance [derived]"
     concert ||--o{ person : "Features concert performance [derived]"
+    organization ||--o{ person : "Has member"
     concert ||--o{ venue : "Held at [derived]"
     appearance ||--o{ venue : "Held at [derived]"
     venue ||--o{ concert : "Hosted [derived]"
@@ -96,7 +98,7 @@ erDiagram
     reference ||--o{ article : "Includes article [derived]"
     album ||--o{ song : "Includes song [derived]"
     single ||--o{ song : "Includes song [derived]"
-    person ||--o{ organization : "Member of (planned)"
+    person ||--o{ organization : "Member of"
     song ||--o{ appearance : "Performed on appearance [derived]"
     song ||--o{ concert : "Performed at concert [derived]"
     person ||--o{ concert : "Performed at concert [derived]"
