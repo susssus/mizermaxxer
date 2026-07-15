@@ -1,6 +1,6 @@
 id: saikai-no-chi-to-bara-single
 title_ja: 再会の血と薔薇
-title_en: 再会の血と薔薇
+title_en: Saikai no Chi to Bara (Blood and Roses of Reunion)
 release_date: '1999-11-03'
 date_precision: day
 label: Midi:Nette
@@ -17,3 +17,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/master/219965-Malice-Mizer-再会の血と薔薇
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

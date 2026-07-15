@@ -1,6 +1,6 @@
 id: saikai-de-limage
 title_ja: 再会の血と薔薇 ～De L'Image～
-title_en: 再会の血と薔薇 ～De L'Image～
+title_en: Saikai no Chi to Bara ~De L'Image~ (Blood and Roses of Reunion)
 type: vhs
 release_date: '1999-12-21'
 date_precision: day
@@ -18,3 +18,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/release/10694776-Malice-Mizer-再会の血と薔薇-De-LImage
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

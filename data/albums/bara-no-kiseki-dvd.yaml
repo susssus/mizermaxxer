@@ -1,6 +1,6 @@
 id: bara-no-kiseki-dvd
 title_ja: 薔薇の軌跡
-title_en: 薔薇の軌跡
+title_en: Bara no Kiseki (Traces of the Rose)
 type: dvd
 release_date: '2001-04-25'
 date_precision: day
@@ -24,3 +24,7 @@ changelog:
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

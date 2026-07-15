@@ -1,6 +1,6 @@
 id: shiroi-hada-single
 title_ja: 白い肌に狂う愛と哀しみの輪舞
-title_en: 白い肌に狂う愛と哀しみの輪舞
+title_en: "Shiroi Hada ni Kuruu Ai to Kanashimi no Rinbu (A Rondo of Love and Sorrow Gone Mad on White Skin)"
 release_date: '2000-07-26'
 date_precision: day
 label: Midi:Nette
@@ -17,3 +17,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/release/3158217-Malice-Mizer-白い肌に狂う愛と哀しみの輪舞
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

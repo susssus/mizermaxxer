@@ -1,6 +1,6 @@
 id: bara-no-seidou
 title_ja: 薔薇の聖堂
-title_en: 薔薇の聖堂
+title_en: Bara no Seidō (Sanctuary of the Rose)
 type: album
 release_date: '2000-08-23'
 date_precision: day
@@ -44,3 +44,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

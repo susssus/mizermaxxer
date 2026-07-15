@@ -1,6 +1,6 @@
 id: le-ciel-single
 title_ja: Le Ciel～空白の彼方へ～
-title_en: Le Ciel～空白の彼方へ～
+title_en: Le Ciel ~To the Other Side of the Void~
 release_date: '1998-09-30'
 date_precision: day
 label: Maitrize
@@ -21,3 +21,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/master/3724368-Malice-Mizer-Le-Ciel空白の彼方へ
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).

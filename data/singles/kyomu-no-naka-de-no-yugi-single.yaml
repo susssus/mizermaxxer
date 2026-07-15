@@ -1,6 +1,6 @@
 id: kyomu-no-naka-de-no-yugi-single
 title_ja: 虚無の中での遊戯
-title_en: 虚無の中での遊戯
+title_en: Kyomu no Naka de no Yūgi (A Game in the Void)
 release_date: '2000-05-31'
 date_precision: day
 label: Midi:Nette
@@ -17,3 +17,7 @@ changelog:
   action: updated
   source: discogs_sync
   notes: Metadata and cover from https://www.discogs.com/master/3123438-Malice-Mizer-虚無の中での遊戯
+- date: '2026-07-16'
+  action: updated
+  source: editorial
+  notes: Set title_en to English translation (was identical to title_ja).
