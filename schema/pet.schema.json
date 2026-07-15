@@ -19,7 +19,7 @@
     "name_ja": { "type": ["string", "null"] },
     "species": {
       "type": "string",
-      "enum": ["cat", "dog", "ferret", "hamster", "other"]
+      "enum": ["cat", "dog", "ferret", "hamster", "turtle", "frog", "other"]
     },
     "breed": { "type": ["string", "null"] },
     "sex": {
@@ -54,6 +54,11 @@
     "summary": { "type": "string" },
     "notes": { "type": ["string", "null"] },
     "translation_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "source_urls": {
       "type": "array",
       "items": { "type": "string" },
       "uniqueItems": true

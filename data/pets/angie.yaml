@@ -1,0 +1,23 @@
+id: angie
+name_en: Angie
+name_ja: アンジー
+species: dog
+breed: null
+sex: unknown
+owner: gackt
+relationship: owned_by
+years_noted: "2010–"
+status: unknown
+portrait_image: null
+gallery_images: []
+summary: >
+  One of two dogs adopted September 2010 after a friend spotted them in a pet shop —
+  Gackt agreed sight-unseen. Pair with Dolce.
+source_urls:
+  - https://www.jprime.jp/articles/-/20137
+verification_status: possible
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Catalogued from Weekly Josei PRIME Gackt pet history.

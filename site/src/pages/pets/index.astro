@@ -10,9 +10,11 @@ type Pet = {
   species: string;
   owner: string;
   relationship: string;
+  years_noted?: string | null;
   portrait_image?: string | null;
   status?: string | null;
   gallery_images?: { src: string }[];
+  verification_status?: string;
 };
 
 const OWNER_NAMES: Record<string, string> = {
@@ -31,44 +33,79 @@ const SPECIES_LABEL: Record<string, string> = {
   dog: "Dog",
   ferret: "Ferret",
   hamster: "Hamster",
+  turtle: "Turtle",
+  frog: "Frog",
   other: "Other",
 };
 
+/** MM fan-club / interview era first, then later household animals. */
 const petOrder = [
   "zaku",
   "lala",
   "mu",
   "betty",
   "peko-chan",
+  "belle",
+  "mei",
   "miyashita",
+  "kami-family-dog",
   "nike",
   "france-great-dane",
+  "kikka",
+  "katsu",
+  "zokku",
+  "pyonyoshi",
+  "zeon",
+  "geek",
+  "hamon",
+  "eneru",
+  "angie",
+  "dolce",
+  "fendi",
 ];
 
 const pets = (archive.pets ?? []) as Pet[];
-const ordered = petOrder
-  .map((id) => pets.find((pet) => pet.id === id))
-  .filter((pet): pet is Pet => Boolean(pet));
+const ordered = [
+  ...petOrder.map((id) => pets.find((pet) => pet.id === id)).filter((pet): pet is Pet => Boolean(pet)),
+  ...pets.filter((pet) => !petOrder.includes(pet.id)),
+];
 
 const photoCount = ordered.reduce(
   (sum, pet) => sum + (pet.gallery_images?.length ?? 0) + (pet.portrait_image ? 1 : 0),
   0,
 );
+
+const mmEra = new Set([
+  "zaku",
+  "lala",
+  "mu",
+  "betty",
+  "peko-chan",
+  "belle",
+  "mei",
+  "miyashita",
+  "kami-family-dog",
+  "nike",
+  "france-great-dane",
+]);
+const mmPets = ordered.filter((p) => mmEra.has(p.id));
+const laterPets = ordered.filter((p) => !mmEra.has(p.id));
 ---
 
 <Base
   title="Pets"
-  description="Pets of Malice Mizer members — Közi’s cats Zaku and Lala, Yu~ki’s ferret Mu, Gackt’s dogs Betty and Peko-chan, Kami’s hamster Miyashita, and France set companions from ma chérie fan-club scans."
+  description="Pets of Malice Mizer members — Közi’s cats and later Gundam-named menagerie, Yu~ki’s ferret Mu, Gackt’s dogs from Betty to Belle and beyond, Kami’s hamster, and France set companions."
 >
   <h1 class="page-heading">Pets</h1>
   <p class="muted">
-    Household companions and France set animals documented in ma chérie fan-club magazines and
-    interviews — {ordered.length} entries, {photoCount}+ photos from period scans.
+    Companion animals from ma chérie fan-club magazines, interviews, and later member
+    diaries / press — {ordered.length} entries, {photoCount}+ images where scans survive.
   </p>
 
   <section class="members-section">
+    <h2 class="pets-group-heading">Malice Mizer era</h2>
     <div class="members-grid">
-      {ordered.map((pet) => (
+      {mmPets.map((pet) => (
         <PetCard
           name={pet.name_en}
           slug={pet.id}
@@ -82,4 +119,36 @@ const photoCount = ordered.reduce(
       ))}
     </div>
   </section>
+
+  {laterPets.length > 0 && (
+    <section class="members-section" style="margin-top: 2rem;">
+      <h2 class="pets-group-heading">Later households</h2>
+      <p class="muted" style="margin-bottom: 1rem;">
+        Post-hiatus pets documented mainly via Közi’s diary/Twitter and Gackt solo-era press —
+        verification often <span class="badge possible">possible</span> pending primary captures.
+      </p>
+      <div class="members-grid">
+        {laterPets.map((pet) => (
+          <PetCard
+            name={pet.name_en}
+            slug={pet.id}
+            species={SPECIES_LABEL[pet.species] ?? pet.species}
+            ownerName={OWNER_NAMES[pet.owner] ?? pet.owner}
+            ownerSlug={pet.owner}
+            relationship={pet.relationship}
+            portrait={pet.portrait_image}
+            status={pet.status}
+          />
+        ))}
+      </div>
+    </section>
+  )}
 </Base>
+
+<style>
+  .pets-group-heading {
+    margin: 0 0 0.75rem;
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+  }
+</style>

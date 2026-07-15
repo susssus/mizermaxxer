@@ -517,6 +517,13 @@
     "notes": "Cropped for Pets gallery from images/scans/fan-club/1998-06/06.jpg"
   },
   {
+    "path": "images/pets/kikka-2009.webp",
+    "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html",
+    "source_name": "Ippai Yakka (Közi diary rehost)",
+    "fetched_at": "2026-07-15T22:13:57.865787Z",
+    "notes": "Rehosted from Közi diary via Ippai Yakka fan translation blog (Kikka cage photo)."
+  },
+  {
     "path": "images/pets/lala-kitten-1997.webp",
     "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg",
     "source_name": "Cantavanda / Madame Tarantula",
@@ -599,6 +606,13 @@
     "source_name": "Cantavanda / Madame Tarantula",
     "fetched_at": "2026-07-15T21:45:27.647431Z",
     "notes": "Cropped for Pets gallery from images/scans/fan-club/1997-09/13.jpg"
+  },
+  {
+    "path": "images/pets/zaku-lala-adult.webp",
+    "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html",
+    "source_name": "Ippai Yakka (Közi diary rehost)",
+    "fetched_at": "2026-07-15T22:13:57.865787Z",
+    "notes": "Adult Zaku & Lala photo rehosted via Ippai Yakka Közi pets post."
   },
   {
     "path": "images/pets/zaku-sleeping-1997.webp",

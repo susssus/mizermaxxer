@@ -1,0 +1,30 @@
+id: belle
+name_en: Belle
+name_ja: ベル
+species: dog
+breed: miniature dachshund
+sex: female
+owner: gackt
+relationship: owned_by
+years_noted: "1998–2007"
+status: deceased
+died: "2007-12"
+portrait_image: null
+gallery_images: []
+summary: >
+  Miniature dachshund Belle Constantine Chappy (ベル), Gackt’s companion from 1998 while
+  still in Malice Mizer through his solo career. Staff memorial text (via fan translations
+  of gackt-and-dears.com) described nine years at his side, studio photo shoots, and
+  answering to “Bell!” Died December 2007.
+notes: >
+  Overlaps the late MM / solo transition (after Betty, 1997). No local portrait yet —
+  historically appeared in magazine shoots. Staff memorial quoted on Camui fan blogs.
+source_urls:
+  - http://camuigakuto.blogspot.com/2007/12/in-memorium.html
+  - https://www.jprime.jp/articles/-/20137
+verification_status: possible
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Catalogued from staff memorial rehosts and Weekly Josei PRIME pet history.

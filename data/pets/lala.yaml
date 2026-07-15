@@ -1,13 +1,14 @@
 id: lala
 name_en: Lala
-name_ja: ララ
+name_ja: ララァ
 species: cat
 breed: grey tabby
 sex: female
 owner: kozi
 relationship: owned_by
-years_noted: "1997–"
-status: unknown
+years_noted: "1997–2015"
+status: deceased
+died: "2015-12-15"
 portrait_image: images/pets/lala-kitten-1997.webp
 gallery_images:
   - src: images/pets/lala-kitten-1997.webp
@@ -16,6 +17,9 @@ gallery_images:
   - src: images/pets/zaku-and-lala-1997.webp
     caption: With Zaku after they became friends
     source: ma chérie Fan Club Magazine Vol. 2–3 (Winter 1997)
+  - src: images/pets/zaku-lala-adult.webp
+    caption: Adult Lala (grey) with Zaku
+    source: Közi diary era via Ippai Yakka
   - src: images/pets/lala-zaku-niramekko-1998.webp
     caption: Nekopakushitsu niramekko with Zaku
     source: ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)
@@ -30,19 +34,26 @@ gallery_images:
     source: ma chérie Fan Club Magazine Vol. 6–7 (Autumn 1998)
 summary: >
   Közi’s female kitten, added at two months old from a pet shop (“take it, thief”).
-  Zaku hissed for the first few days, then they became friends — after which Közi
-  joked that the house was collapsing. Both cats star in the autumn 1998 Nekopakushitsu
-  photo-comic strips. Still mentioned with Közi years later in fan accounts of his household.
+  Zaku hissed for the first few days, then they became friends. Both cats star in the
+  autumn 1998 Nekopakushitsu photo comics. After Zaku’s 2009 death she was joined by
+  hamster Kikka (Tom & Jerry household). Lived with Közi about 19 years 7 months;
+  died 15 December 2015 (his Twitter memorial). Japanese sources often write ララァ (Lalah).
 notes: >
-  Primary introduction: FC Vol. 2–3 Ginza Cozy Corner. Later diary pets (e.g. hamster
-  Kikka as companion for Lala after Zaku’s death) are secondary and not yet catalogued
-  as separate entries.
+  Primary introduction: FC Vol. 2–3. Death confirmed via Japanese Wikipedia citing
+  Közi’s 2015-12-15 Twitter post.
 translation_ids:
   - fan-club-vol-2-3-1997-winter
   - fan-club-vol-6-7-1998-autumn
+source_urls:
+  - https://ja.wikipedia.org/wiki/K%C3%B6zi
+  - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
 verification_status: verified
 changelog:
   - date: "2026-07-16"
     action: created
     source: fan_club_translations
     notes: Catalogued from ma chérie Vol. 2–3 and Nekopakushitsu Vol. 6–7.
+  - date: "2026-07-16"
+    action: updated
+    source: web_research
+    notes: Added 2015 death date, ララァ spelling, adult photo, and later-household links.

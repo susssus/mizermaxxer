@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T21:48:14.340135Z",
-  "total_count": 522,
+  "generated_at": "2026-07-15T22:15:15.617494Z",
+  "total_count": 524,
   "sources": [
     {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -3564,6 +3564,26 @@
       ]
     },
     {
+      "source_name": "Ippai Yakka (Közi diary rehost)",
+      "count": 2,
+      "images": [
+        {
+          "path": "images/pets/kikka-2009.webp",
+          "filename": "kikka-2009.webp",
+          "site_url": "/images/pets/kikka-2009.webp",
+          "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html",
+          "fetched_at": "2026-07-15T22:13:57.865787Z"
+        },
+        {
+          "path": "images/pets/zaku-lala-adult.webp",
+          "filename": "zaku-lala-adult.webp",
+          "site_url": "/images/pets/zaku-lala-adult.webp",
+          "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html",
+          "fetched_at": "2026-07-15T22:13:57.865787Z"
+        }
+      ]
+    },
+    {
       "source_name": "Merveilles era live / vk.gy",
       "count": 2,
       "images": [
@@ -4242,6 +4262,10 @@
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg"
     },
+    "images/pets/kikka-2009.webp": {
+      "source_name": "Ippai Yakka (Közi diary rehost)",
+      "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
+    },
     "images/pets/lala-kitten-1997.webp": {
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg"
@@ -4289,6 +4313,10 @@
     "images/pets/zaku-kitten-upright-1997.webp": {
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fanclub-Magazines-ma-cherie-Vol.-1-Autumn-1997-13.jpg"
+    },
+    "images/pets/zaku-lala-adult.webp": {
+      "source_name": "Ippai Yakka (Közi diary rehost)",
+      "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html"
     },
     "images/pets/zaku-sleeping-1997.webp": {
       "source_name": "Cantavanda / Madame Tarantula",
@@ -6387,6 +6415,11 @@
       "source_name": "Cantavanda / Madame Tarantula",
       "source_url": "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/11/06-1.jpg",
       "path": "images/scans/fan-club/1998-06/06.jpg"
+    },
+    "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html": {
+      "source_name": "Ippai Yakka (Közi diary rehost)",
+      "source_url": "http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html",
+      "path": "images/pets/zaku-lala-adult.webp"
     },
     "https://cantavanda.com/malice-mizer/wp-content/uploads/sites/4/2025/08/MALICE-MIZER-Scans-Fan-Club-Magazines-ma-cherie-Vol.-23-Winter-1997-12.jpg": {
       "source_name": "Cantavanda / Madame Tarantula",

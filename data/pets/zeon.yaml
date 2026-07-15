@@ -1,0 +1,28 @@
+id: zeon
+name_en: Zeon
+name_ja: ヂヲン
+species: cat
+breed: null
+sex: male
+owner: kozi
+relationship: owned_by
+years_noted: "2013–"
+status: unknown
+portrait_image: null
+gallery_images: []
+summary: >
+  Male kitten announced by Közi on Twitter/diary around 6 September 2013 (“Zeon ♂ 3 months”).
+  Continues the Gundam naming chain after Zaku and Lala (Zeon). Still listed on Japanese
+  Wikipedia’s live pet roster with Geek (ヂーク).
+notes: >
+  Early fan posts briefly misread the name as “Devon” before Közi wrote Zeon in romaji.
+source_urls:
+  - https://ja.wikipedia.org/wiki/K%C3%B6zi
+  - http://ippaiyakka.blogspot.com/2013/09/a-proposito-familia-cresceu_8.html
+  - https://x.com/kzi_official
+verification_status: possible
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Catalogued from Wikipedia (citing Twitter) and Ippai Yakka Twitter digest.
