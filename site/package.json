@@ -17,5 +17,8 @@
     "astro": "^7.0.6",
     "botid": "^1.5.11",
     "three": "^0.185.1"
+  },
+  "overrides": {
+    "path-to-regexp": "6.3.0"
   }
 }
