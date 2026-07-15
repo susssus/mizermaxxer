@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="28" fill="#c8c4bc" stroke="#5c564e" stroke-width="2"/>
+  <circle cx="32" cy="32" r="28" fill="url(#cdShine)" opacity="0.55"/>
+  <circle cx="32" cy="32" r="10" fill="#2a2622" stroke="#5c564e" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="3.5" fill="#faf8f5"/>
+  <defs>
+    <linearGradient id="cdShine" x1="8" y1="8" x2="56" y2="56">
+      <stop stop-color="#e8e4dc"/>
+      <stop offset="0.45" stop-color="#9a948a"/>
+      <stop offset="1" stop-color="#d4cfc6"/>
+    </linearGradient>
+  </defs>
+</svg>

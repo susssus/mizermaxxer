@@ -1,0 +1,27 @@
+---
+import Base from "../../layouts/Base.astro";
+import OntologyGraph from "../../components/OntologyGraph.astro";
+import { buildGraphPayload } from "../../lib/graphPayload";
+
+const payload = buildGraphPayload();
+---
+
+<Base
+  title="Graph"
+  description="Interactive 3D ontological graph of Malice Mizer archive relationships — people, songs, releases, memberships, and more."
+>
+  <h1 class="page-heading">Relationship graph</h1>
+  <p class="muted" style="margin-top: -0.5rem; margin-bottom: 1rem;">
+    Force-directed view of the resolved entity network. Dense branches start collapsed;
+    articles and press references are filtered off by default.
+    See also <a href="/browse">Browse</a> and <a href="/ontology">Ontology</a>.
+  </p>
+
+  <OntologyGraph payload={payload} />
+</Base>
+
+<style>
+  :global(.wrap:has(.og)) {
+    max-width: none;
+  }
+</style>
