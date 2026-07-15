@@ -9,6 +9,7 @@ source_notes: Release flyers catalogued from https://malice-mizer.info/flyers.
 research_targets:
 - confirm print run details
 - locate physical copies
+- locate full Vers Elle debut single handbill (other half)
 articles:
 - id: flyers-1997-02-11-gekka
   title_ja: 月下の夜想曲 release flyer
@@ -32,7 +33,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-1997-06-30-derniere-vhs
   title_ja: null
   title_en: sans retour Voyage derniere VHS release flyer
@@ -55,7 +57,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: video
 - id: flyers-1997-07-19-vers-elle
   title_ja: null
   title_en: Vers Elle debut single release flyer
@@ -69,16 +72,17 @@ articles:
   foldout: false
   scan:
     available: true
-    quality: medium
+    quality: low
     url: images/flyers/flyers-1997-07-19-vers-elle.webp
   translation:
     available: false
     url: null
   purchase_links: []
-  notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
+  notes: 'Partial scan only (cropped half of original handbill). Indexed at https://malice-mizer.info/flyers. Research target: locate full scan.'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 changelog:
 - date: '2026-07-06'
   action: created

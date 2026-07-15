@@ -32,7 +32,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-1998-05-20-illuminati
   title_ja: null
   title_en: ILLUMINATI release flyer
@@ -55,7 +56,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-1998-09-30-le-ciel
   title_ja: null
   title_en: Le ciel release flyer
@@ -78,7 +80,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-1998-10-28-lespace
   title_ja: null
   title_en: merveilles l'espace release flyer
@@ -101,7 +104,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: album
 - id: flyers-1998-11-27-itan-shinmon
   title_ja: 異端審問 book release flyer
   title_en: null
@@ -124,7 +128,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: merchandise
 changelog:
 - date: '2026-07-06'
   action: created

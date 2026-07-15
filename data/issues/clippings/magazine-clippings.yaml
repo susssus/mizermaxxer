@@ -1,0 +1,105 @@
+id: clippings-magazine-excerpts
+publication: clippings
+issue_number: null
+volume: null
+publication_date: 1992-08
+date_precision: month
+verification_status: verified
+source_notes: 'Editorial magazine excerpts misfiled as flyers. Identified by Cantavanda (2026). Parent magazine issues unknown for most.'
+research_targets:
+- identify parent magazine issues for each clipping
+- confirm publication dates
+articles:
+- id: clippings-1992-08-debut-era
+  title_ja: null
+  title_en: Malice Mizer band profile (magazine clipping, 1992)
+  type: magazine_clipping
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1992-08-debut-era.webp
+  translation:
+    available: true
+    url: data/translations/flyers-1992-08-debut-era.yaml
+  purchase_links: []
+  notes: 'Magazine band-profile column, not a standalone handbill. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer5.jpg'
+  content_nature: editorial
+  promotional_carrier: magazine_clipping
+- id: clippings-1993-08-artistic-expression
+  title_ja: 芸術表現として音楽を昇華させていきたいんです
+  title_en: Artistic expression (magazine clipping)
+  type: magazine_clipping
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1993-08-artistic-expression.webp
+  translation:
+    available: true
+    url: data/translations/flyers-1993-08-artistic-expression.yaml
+  purchase_links: []
+  notes: 'Magazine feature excerpt with translated quote. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer3.jpg'
+  content_nature: editorial
+  promotional_carrier: magazine_clipping
+- id: clippings-unknown-oldflyer9
+  title_ja: null
+  title_en: Malice Mizer magazine clipping (date unknown)
+  type: magazine_clipping
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-unknown-oldflyer9.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Magazine clipping, not a standalone flyer. Source scan: https://malicemeezer.neocities.org/tetsu/oldflyer9.jpg'
+  content_nature: editorial
+  promotional_carrier: magazine_clipping
+- id: clippings-1994-07-24-memoire-ii
+  title_ja: null
+  title_en: memoire sold-out notice (magazine clipping)
+  type: magazine_clipping
+  pages: null
+  members: []
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/flyers/flyers-1994-07-24-memoire-ii.webp
+  translation:
+    available: true
+    url: data/translations/flyers-1994-07-24-memoire-ii.yaml
+  purchase_links: []
+  notes: 'Magazine clipping (94.7.24-memoire-flyer-II), not a standalone release handbill. Source: malice-mizer.info'
+  content_nature: editorial
+  promotional_carrier: magazine_clipping
+changelog:
+- date: '2026-07-15'
+  action: created
+  source: editorial
+  notes: Reclassified from flyers publication per Cantavanda feedback.

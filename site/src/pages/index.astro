@@ -8,6 +8,7 @@ import Base from "../layouts/Base.astro";
 import archive from "../data/archive.json";
 import { absoluteUrl, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "../lib/seo";
 import { memberEraLabels } from "../lib/memberEras.ts";
+import { memberPortraitForSlug } from "../lib/memberPortrait.ts";
 import { translationSlug } from "../lib/translations.ts";
 
 const pubMap = new Map(archive.publications.map((pub) => [pub.slug, pub]));
@@ -140,7 +141,7 @@ const jsonLd = [
           slug={member!.slug}
           role={member!.role}
           active={member!.active}
-          portrait={member!.portrait_image}
+          portrait={memberPortraitForSlug(member!.slug, archive)}
           entityId={entityIds[member!.slug]}
           era={memberEraLabels(member!.active)}
         />

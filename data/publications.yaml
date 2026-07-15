@@ -120,7 +120,18 @@ publications:
     years_active_end: 2001
     priority: 9
     status: verified
-    notes: Non-magazine promotional material (standalone flyers, gig handbills, release promos). Use promotional_subtype to distinguish gig vs release flyers.
+    notes: Standalone promotional handbills (チラシ) distributed at venues and indie shops. Classify with promotional_carrier standalone_handbill and promotional_subject.
+
+  - slug: clippings
+    name_ja: 誌面切抜
+    name_en: Magazine Clippings
+    publisher: null
+    issn: null
+    years_active_start: 1992
+    years_active_end: 2001
+    priority: 10
+    status: verified
+    notes: Editorial magazine excerpts scanned without known parent issue. content_nature editorial; promotional_carrier magazine_clipping.
 
   - slug: tour-pamphlets
     name_ja: ツアーパンフレット

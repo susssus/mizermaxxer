@@ -28,7 +28,6 @@ SONGS = [
     ("ayakashi", "妖", "Ayakashi"),
     ("shijin-no-shouzou", "詩人の肖像", "Shijin no Shouzou"),
     ("bois-dor", "Bois d'or", "Bois d'or"),
-    ("regret-message", "倫逸メッセージ", "Regret Message"),
     ("transylvania", "Transylvania", "Transylvania"),
     ("madrigal", "Madrigal", "Madrigal"),
     ("antique-doll", "Antique Doll", "Antique Doll"),
@@ -63,20 +62,6 @@ def seed_songs() -> None:
 
 ALBUMS = [
     {
-        "id": "fait-malice-et-fin",
-        "title_ja": "Fait malice et fin",
-        "title_en": "Fait malice et fin",
-        "type": "demo",
-        "release_date": "1993",
-        "date_precision": "year",
-        "label": "independent",
-        "catalog_number": None,
-        "format": "cassette",
-        "track_slugs": [],
-        "notes": "Early demo cassette. Track listing needs verification.",
-        "verification_status": "needs_verification",
-    },
-    {
         "id": "memoire",
         "title_ja": "Mémoire",
         "title_en": "Memoire",
@@ -93,7 +78,6 @@ ALBUMS = [
             "ayakashi",
             "shijin-no-shouzou",
             "bois-dor",
-            "regret-message",
             "transylvania",
             "madrigal",
             "antique-doll",
@@ -118,7 +102,6 @@ ALBUMS = [
             "illuminati",
             "le-ciel",
             "au-revoir",
-            "regret-message",
             "transylvania",
         ],
         "notes": "Major-label debut album. Full track order to be verified.",
@@ -184,18 +167,6 @@ def seed_albums() -> None:
 
 
 SINGLES = [
-    {
-        "id": "regret-message-single",
-        "title_ja": "倫逸メッセージ",
-        "title_en": "Regret Message",
-        "release_date": "1995",
-        "date_precision": "year",
-        "label": "independent",
-        "catalog_number": None,
-        "a_side": "regret-message",
-        "b_side": None,
-        "notes": "Indie single predating Merveilles.",
-    },
     {
         "id": "gekka-no-yasoukyoku-single",
         "title_ja": "月下の夜想曲",

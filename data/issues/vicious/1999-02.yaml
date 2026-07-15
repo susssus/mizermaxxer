@@ -1,0 +1,45 @@
+id: vicious-1999-02
+publication: vicious
+issue_number: null
+volume: null
+publication_date: 1999-02
+date_precision: month
+verification_status: verified
+source_notes: 'Vicious February 1999. Kami member profile page (shirtless portrait with
+  Adidas shorts) visible in user-provided scan; page footer reads Vicious February
+  1999.
+
+  '
+research_targets:
+- verify full issue table of contents
+- locate additional MM pages beyond Kami profile
+articles:
+- id: vicious-1999-02-001
+  title_ja: null
+  title_en: Kami member profile
+  type: profile
+  pages: '146'
+  members:
+  - kami
+  photographer: null
+  writer: null
+  cover: false
+  poster: false
+  foldout: false
+  scan:
+    available: true
+    quality: medium
+    url: images/vintage/kami-vicious-1999-profile.webp
+  translation:
+    available: false
+    url: null
+  purchase_links: []
+  notes: 'Full-page drummer profile with biography and discography. Header: "KAMI MALICE
+    MIZER DRUMS". Footer: Vicious February 1999. Mirrored locally as gallery image
+    on Kami profile page.'
+  content_nature: editorial
+changelog:
+- date: '2026-07-15'
+  action: created
+  source: user_scan
+  notes: Kami profile page identified from provided scan; added to Kami gallery.

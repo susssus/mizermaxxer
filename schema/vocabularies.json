@@ -33,6 +33,7 @@
         "cover",
         "poster",
         "flyer",
+        "magazine_clipping",
         "newsletter",
         "pamphlet"
       ]
@@ -130,7 +131,30 @@
     },
     "promotional_carrier": {
       "type": "string",
-      "enum": ["standalone", "magazine_page", "magazine_inset"]
+      "enum": [
+        "standalone",
+        "standalone_handbill",
+        "magazine_page",
+        "magazine_inset",
+        "magazine_clipping",
+        "poster",
+        "newsletter_page",
+        "shop_display"
+      ]
+    },
+    "promotional_subject": {
+      "type": "string",
+      "enum": [
+        "live_gig",
+        "tour",
+        "single",
+        "album",
+        "video",
+        "demo",
+        "band_announcement",
+        "merchandise",
+        "event"
+      ]
     },
     "vkgy_role": {
       "type": "string",

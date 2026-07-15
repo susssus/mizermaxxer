@@ -32,7 +32,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: video
 - id: flyers-2001-05-30-gardenia
   title_ja: null
   title_en: Gardenia release flyer
@@ -55,7 +56,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2001-10-30-bara-no-konrei
   title_ja: 真夜中に交わした約束～薔薇の婚礼～ release flyer
   title_en: null
@@ -78,7 +80,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 - id: flyers-2001-11-30-garnet
   title_ja: null
   title_en: Garnet release flyer
@@ -101,7 +104,8 @@ articles:
   notes: 'Indexed at https://malice-mizer.info/flyers. Source: malice-mizer.info (fan catalog).'
   content_nature: promotional
   promotional_subtype: release_flyer
-  promotional_carrier: standalone
+  promotional_carrier: standalone_handbill
+  promotional_subject: single
 changelog:
 - date: '2026-07-06'
   action: created

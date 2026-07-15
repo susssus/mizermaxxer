@@ -1,6 +1,6 @@
 id: speed-of-desperate
-title_ja: Speed of Desperate
-title_en: Speed of Desperate
+title_ja: SPEED OF DESPERATE
+title_en: SPEED OF DESPERATE
 type: demo
 release_date: '1992-12'
 date_precision: month
@@ -12,9 +12,13 @@ verification_status: verified
 tracks:
 - song: speed-of-desperate
   position: 1
-notes: Synced from Discogs (https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate).
+notes: 'Promotional demo cassette (~10 serial-numbered copies) sent to record labels by Mana; not publicly distributed. Also appeared on Braintrash VA compilation. Source: vk.gy, Cantavanda.'
 changelog:
 - date: '2026-07-05'
   action: created
   source: discogs_sync
   notes: Imported from https://www.discogs.com/release/33915744-Malice-Mizer-Speed-of-Desperate
+- date: '2026-07-15'
+  action: updated
+  source: editorial
+  notes: Corrected capitalization and promotional-only distribution notes per Cantavanda.

@@ -6,36 +6,54 @@ import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
 import { imageAttributionForSrc } from "../../lib/imageAttribution.ts";
 
+function handbillLabel(article: (typeof archive.issues)[0]["articles"][0]) {
+  const subject = article.promotional_subject?.replaceAll("_", " ") ?? "promotional";
+  return `${subject} handbill`;
+}
+
 const flyerIssues = archive.issues
   .filter((issue) => issue.publication === "flyers")
   .flatMap((issue) =>
-    issue.articles.map((article) => ({
-      issue,
-      article,
-      title: article.title_en ?? article.title_ja ?? "Untitled flyer",
-      year: issue.publication_date.slice(0, 4),
-      subtype: article.promotional_subtype ?? "other",
-      subtypeLabel: (article.promotional_subtype ?? "other").replaceAll("_", " "),
-    }))
+    issue.articles
+      .filter(
+        (article) =>
+          article.promotional_carrier === "standalone_handbill" ||
+          article.promotional_carrier === "standalone" ||
+          (article.type === "flyer" && article.content_nature === "promotional")
+      )
+      .map((article) => ({
+        issue,
+        article,
+        title: article.title_en ?? article.title_ja ?? "Untitled handbill",
+        year: issue.publication_date.slice(0, 4),
+        subject: article.promotional_subject ?? "other",
+        subjectLabel: handbillLabel(article),
+      }))
   )
   .sort((a, b) => b.issue.publication_date.localeCompare(a.issue.publication_date));
 
 const years = [...new Set(flyerIssues.map((entry) => entry.year))].sort();
-const subtypes = [...new Set(flyerIssues.map((entry) => entry.subtype))].sort();
+const subjects = [...new Set(flyerIssues.map((entry) => entry.subject))].sort();
 const withScans = flyerIssues.filter((entry) => entry.article.scan_url).length;
-const gigFlyers = flyerIssues.filter((entry) => entry.subtype === "gig_flyer").length;
-const releaseFlyers = flyerIssues.filter((entry) => entry.subtype === "release_flyer").length;
+const gigHandbills = flyerIssues.filter((entry) => entry.subject === "live_gig").length;
+const releaseHandbills = flyerIssues.filter(
+  (entry) => ["single", "album", "video"].includes(entry.subject)
+).length;
 ---
 
 <Base
   title="Flyers"
-  description="Malice Mizer concert and release flyers — scanned promotional materials for tours, singles, and albums (1990s–2001)."
+  description="Malice Mizer standalone promotional handbills (チラシ) — gig, tour, and release flyers distributed at venues and indie shops (1992–2001)."
 >
   <h1 class="page-heading">Flyers</h1>
+  <p class="muted page-intro">
+    Standalone handbills only. Magazine clippings and magazine ads are catalogued under{" "}
+    <a href="/">Bibliography</a> and <a href="/issue/clippings-magazine-excerpts">Magazine clippings</a>.
+  </p>
   <section class="stats">
-    <StatCard value={flyerIssues.length} label="Flyers catalogued" preset="all" />
-    <StatCard value={gigFlyers} label="Gig flyers" preset="all" />
-    <StatCard value={releaseFlyers} label="Release flyers" preset="all" />
+    <StatCard value={flyerIssues.length} label="Handbills catalogued" preset="all" />
+    <StatCard value={gigHandbills} label="Gig handbills" preset="all" />
+    <StatCard value={releaseHandbills} label="Release handbills" preset="all" />
     <StatCard value={withScans} label="Scans available" preset="scans" />
     <StatCard value={years.length} label="Years covered" preset="all" />
   </section>
@@ -49,10 +67,10 @@ const releaseFlyers = flyerIssues.filter((entry) => entry.subtype === "release_f
       </select>
     </label>
     <label>
-      Type
+      Subject
       <select id="flyerSubtype">
-        <option value="">All types</option>
-        {subtypes.map((subtype) => <option value={subtype}>{subtype.replaceAll("_", " ")}</option>)}
+        <option value="">All subjects</option>
+        {subjects.map((subject) => <option value={subject}>{subject.replaceAll("_", " ")}</option>)}
       </select>
     </label>
     <label>
@@ -66,7 +84,7 @@ const releaseFlyers = flyerIssues.filter((entry) => entry.subtype === "release_f
   </div>
 
   <div class="flyer-grid flyer-grid--catalog" id="flyer-grid">
-    {flyerIssues.map(({ issue, article, title, year, subtype, subtypeLabel }) => {
+    {flyerIssues.map(({ issue, article, title, year, subject, subjectLabel }) => {
       const attribution = article.scan_url
         ? imageAttributionForSrc(article.scan_url)
         : null;
@@ -75,7 +93,7 @@ const releaseFlyers = flyerIssues.filter((entry) => entry.subtype === "release_f
         class="flyer-card"
         data-flyer-card
         data-year={year}
-        data-subtype={subtype}
+        data-subtype={subject}
         data-scan={article.scan_url ? "yes" : "no"}
       >
         {article.scan_url ? (
@@ -107,7 +125,7 @@ const releaseFlyers = flyerIssues.filter((entry) => entry.subtype === "release_f
         )}
         <div class="flyer-card__meta">
           <a href={`/issue/${issue.id}`}><strong>{title}</strong></a>
-          <span class="type-chip gray" style="font-size:0.62rem;display:inline-block;margin-top:0.2rem;">{subtypeLabel}</span>
+          <span class="type-chip gray" style="font-size:0.62rem;display:inline-block;margin-top:0.2rem;">{subjectLabel}</span>
           <span>{issue.publication_date}</span>
           {article.scan_url && <ImageSourceNote src={article.scan_url} compact />}
         </div>
@@ -119,9 +137,9 @@ const releaseFlyers = flyerIssues.filter((entry) => entry.subtype === "release_f
   <FlyerLightbox />
 
   <p class="muted" style="margin-top: 1rem;">
-    Release flyers catalogued from{" "}
+    Release handbills catalogued from{" "}
     <a href="https://malice-mizer.info/flyers" target="_blank" rel="noopener">malice-mizer.info</a>.
-    Early live flyers from{" "}
+    Early handbills from{" "}
     <a href="https://malicemeezer.neocities.org/vintage" target="_blank" rel="noopener">Malice Meezer</a>.
   </p>
 </Base>

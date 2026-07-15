@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T16:11:14.724826Z",
+  "generated_at": "2026-07-15T17:30:33.898668Z",
   "count": 45,
   "ids": [
     "b-pass-1999-06",
@@ -1371,8 +1371,8 @@
     },
     "flyers-1992-08-debut-era": {
       "id": "flyers-1992-08-debut-era",
-      "article_id": "flyers-1992-08-debut-era",
-      "publication": "flyers",
+      "article_id": "clippings-1992-08-debut-era",
+      "publication": "clippings",
       "issue_number": null,
       "publication_date": "1992-08",
       "page_count": 1,
@@ -1427,8 +1427,8 @@
     },
     "flyers-1993-08-artistic-expression": {
       "id": "flyers-1993-08-artistic-expression",
-      "article_id": "flyers-1993-08-artistic-expression",
-      "publication": "flyers",
+      "article_id": "clippings-1993-08-artistic-expression",
+      "publication": "clippings",
       "issue_number": null,
       "publication_date": "1993-08",
       "page_count": 1,
@@ -1511,8 +1511,8 @@
     },
     "flyers-1994-07-24-memoire-ii": {
       "id": "flyers-1994-07-24-memoire-ii",
-      "article_id": "flyers-1994-07-24-memoire-ii",
-      "publication": "flyers",
+      "article_id": "clippings-1994-07-24-memoire-ii",
+      "publication": "clippings",
       "issue_number": null,
       "publication_date": "1994-07-24",
       "page_count": 1,

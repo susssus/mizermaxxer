@@ -97,6 +97,7 @@ def create_schema(connection: sqlite3.Connection) -> None:
             content_nature TEXT,
             promotional_subtype TEXT,
             promotional_carrier TEXT,
+            promotional_subject TEXT,
             vkgy_roles_json TEXT,
             pages TEXT,
             members_json TEXT NOT NULL,
@@ -240,6 +241,7 @@ def migrate_schema(connection: sqlite3.Connection) -> None:
             ("content_nature", "ALTER TABLE articles ADD COLUMN content_nature TEXT"),
             ("promotional_subtype", "ALTER TABLE articles ADD COLUMN promotional_subtype TEXT"),
             ("promotional_carrier", "ALTER TABLE articles ADD COLUMN promotional_carrier TEXT"),
+            ("promotional_subject", "ALTER TABLE articles ADD COLUMN promotional_subject TEXT"),
             ("vkgy_roles_json", "ALTER TABLE articles ADD COLUMN vkgy_roles_json TEXT"),
         ):
             if column not in article_columns:
@@ -317,12 +319,12 @@ def insert_issues_and_articles(connection: sqlite3.Connection) -> None:
                 """
                 INSERT INTO articles (
                     id, issue_id, title_ja, title_en, type, content_nature,
-                    promotional_subtype, promotional_carrier, vkgy_roles_json,
+                    promotional_subtype, promotional_carrier, promotional_subject, vkgy_roles_json,
                     pages, members_json, photographer, writer, cover, poster, foldout,
                     scan_available, scan_quality, scan_url,
                     translation_available, translation_url,
                     purchase_links_json, notes
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     article["id"],
@@ -333,6 +335,7 @@ def insert_issues_and_articles(connection: sqlite3.Connection) -> None:
                     classified.get("content_nature"),
                     classified.get("promotional_subtype"),
                     classified.get("promotional_carrier"),
+                    classified.get("promotional_subject"),
                     json.dumps(classified.get("vkgy_roles", []), ensure_ascii=False)
                     if classified.get("vkgy_roles")
                     else None,
