@@ -20,6 +20,7 @@ const links = [
   { href: "/videos", label: "Videos", count: archive.stats.video_count },
   { href: "/translations", label: "Translations", count: translationsData.count },
   { href: "/browse", label: "Browse", count: null },
+  { href: "/graph", label: "Graph", count: null },
   { href: "/ontology", label: "Ontology", count: null },
 ];
 
@@ -30,6 +31,7 @@ function isActive(href: string) {
   if (href === "/pets") return path.startsWith("/pets");
   if (href === "/translations") return path.startsWith("/translation");
   if (href === "/appearances") return path.startsWith("/appearances") || path.startsWith("/entity/appearance_");
+  if (href === "/graph") return path.startsWith("/graph");
   if (href === "/ontology") return path.startsWith("/ontology");
   return path === href || path.startsWith(`${href}/`);
 }

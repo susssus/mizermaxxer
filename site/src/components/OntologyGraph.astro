@@ -1,0 +1,277 @@
+---
+import type { GraphPayload } from "../lib/graphPayload";
+
+interface Props {
+  payload: GraphPayload;
+}
+
+const { payload } = Astro.props;
+const payloadJson = JSON.stringify(payload);
+---
+
+<div class="og" data-ontology-graph>
+  <div class="og-toolbar">
+    <div class="og-toolbar__lead">
+      <p class="og-stats muted" data-graph-stats></p>
+      <p class="og-hover muted" data-hover>Hover a node · drag to orbit · scroll to zoom</p>
+    </div>
+    <div class="og-toolbar__actions">
+      <button type="button" class="og-btn" data-expand-all>Expand clusters</button>
+      <button type="button" class="og-btn" data-collapse-all>Collapse dense</button>
+      <button type="button" class="og-btn og-btn--panel" data-toggle-panel aria-expanded="false" aria-controls="og-panel">
+        Filters
+      </button>
+    </div>
+  </div>
+
+  <div class="og-stage">
+    <div class="og-canvas" data-graph-canvas aria-label="3D ontological relationship graph"></div>
+
+    <aside class="og-panel" id="og-panel" data-panel>
+      <section class="og-panel__section">
+        <h2>Selection</h2>
+        <div data-selection>
+          <p class="muted">Select a node to inspect it.</p>
+        </div>
+      </section>
+
+      <section class="og-panel__section">
+        <h2>Entity types</h2>
+        <p class="muted og-hint">Articles &amp; references start hidden.</p>
+        <div class="og-filters" data-type-filters></div>
+      </section>
+
+      <section class="og-panel__section">
+        <h2>Relations</h2>
+        <p class="muted og-hint">Press publication links stay off until articles are enabled.</p>
+        <div class="og-filters" data-relation-filters></div>
+      </section>
+
+      <section class="og-panel__section">
+        <h2>Legend</h2>
+        <ul class="og-legend">
+          <li><span class="og-legend__swatch og-legend__swatch--portrait"></span> Member / pet portrait</li>
+          <li><span class="og-legend__swatch og-legend__swatch--media"></span> CD / cassette / VHS / DVD</li>
+          <li><span class="og-legend__swatch og-legend__swatch--cluster"></span> Collapsed dense branch</li>
+          <li><span class="og-legend__swatch og-legend__swatch--sphere"></span> Other entity types</li>
+        </ul>
+        <p class="muted og-hint">Double-click or ⌘/Ctrl-click a node to open its entity page.</p>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<script id="og-payload" type="application/json" set:html={payloadJson} />
+
+<script>
+  import { initOntologyGraph } from "../scripts/ontology-graph";
+
+  function boot() {
+    const root = document.querySelector<HTMLElement>("[data-ontology-graph]");
+    const payloadEl = document.getElementById("og-payload");
+    if (!root || !payloadEl?.textContent) return;
+    const payload = JSON.parse(payloadEl.textContent);
+    initOntologyGraph(root, payload);
+  }
+
+  boot();
+</script>
+
+<style>
+  .og {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0 calc(-1 * var(--wrap-pad, 1rem));
+  }
+
+  .og-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.75rem 1.25rem;
+    padding: 0 var(--wrap-pad, 1rem);
+  }
+
+  .og-toolbar__lead {
+    min-width: 0;
+  }
+
+  .og-stats {
+    margin: 0;
+    font-size: 0.88rem;
+  }
+
+  .og-hover {
+    margin: 0.15rem 0 0;
+    font-size: 0.82rem;
+  }
+
+  .og-toolbar__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .og-btn {
+    appearance: none;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+  }
+
+  .og-btn:hover,
+  .og-btn:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+    outline: none;
+  }
+
+  .og-stage {
+    position: relative;
+    height: min(72vh, 820px);
+    min-height: 420px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background:
+      radial-gradient(ellipse at 30% 20%, color-mix(in srgb, var(--accent) 6%, transparent), transparent 55%),
+      radial-gradient(ellipse at 80% 70%, color-mix(in srgb, var(--rose) 5%, transparent), transparent 50%),
+      var(--bg);
+  }
+
+  .og-canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .og-canvas :global(canvas) {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .og-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(320px, 92vw);
+    overflow: auto;
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    border-left: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+    padding: 1rem 1rem 1.5rem;
+    transform: translateX(100%);
+    transition: transform 0.22s ease;
+    z-index: 2;
+  }
+
+  .og-panel--open,
+  .og-panel:focus-within {
+    transform: translateX(0);
+  }
+
+  @media (min-width: 960px) {
+    .og-panel {
+      transform: translateX(0);
+    }
+    .og-btn--panel {
+      display: none;
+    }
+  }
+
+  .og-panel__section {
+    margin-bottom: 1.25rem;
+  }
+
+  .og-panel__section h2 {
+    font-family: var(--heading-font);
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0 0 0.4rem;
+  }
+
+  .og-panel__section h3 {
+    font-family: var(--heading-font);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 0 0.35rem;
+  }
+
+  .og-hint {
+    font-size: 0.78rem;
+    margin: 0 0 0.55rem;
+  }
+
+  .og-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-height: 14rem;
+    overflow: auto;
+    padding-right: 0.25rem;
+  }
+
+  :global(.og-filter) {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+
+  :global(.og-filter input) {
+    margin: 0;
+  }
+
+  :global(.og-filter__count) {
+    margin-left: auto;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+  }
+
+  .og-legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.82rem;
+  }
+
+  .og-legend__swatch {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.4rem;
+    vertical-align: -0.1rem;
+    border: 1px solid var(--border);
+  }
+
+  .og-legend__swatch--portrait {
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #e8dfd6, #4a9e8e);
+  }
+
+  .og-legend__swatch--media {
+    border-radius: 2px;
+    background: conic-gradient(from 45deg, #c8c4bc, #5c564e, #c8c4bc);
+  }
+
+  .og-legend__swatch--cluster {
+    border-radius: 50%;
+    background: radial-gradient(circle, #faf8f5 20%, #8b2942 22%, #8b2942 55%, #5c2d4a);
+  }
+
+  .og-legend__swatch--sphere {
+    border-radius: 50%;
+    background: #9b8ec4;
+  }
+</style>
