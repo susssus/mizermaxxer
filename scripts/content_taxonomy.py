@@ -23,6 +23,7 @@ EDITORIAL_TYPES = frozenset(
         "newsletter",
         "release_calendar",
         "magazine_clipping",
+        "profile",
     }
 )
 PROMOTIONAL_TYPES = frozenset(
