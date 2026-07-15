@@ -24,6 +24,7 @@ type Pet = {
   summary: string;
   notes?: string | null;
   translation_ids?: string[];
+  source_urls?: string[];
   verification_status: string;
 };
 
@@ -43,6 +44,8 @@ const SPECIES_LABEL: Record<string, string> = {
   dog: "Dog",
   ferret: "Ferret",
   hamster: "Hamster",
+  turtle: "Turtle",
+  frog: "Frog",
   other: "Other",
 };
 
@@ -147,18 +150,24 @@ const description = pet
       </section>
     )}
 
-    {pet.translation_ids && pet.translation_ids.length > 0 && (
+    {(pet.translation_ids && pet.translation_ids.length > 0) ||
+    (pet.source_urls && pet.source_urls.length > 0) ? (
       <section class="card">
         <h2>Sources</h2>
         <ul>
-          {pet.translation_ids.map((id) => (
+          {(pet.translation_ids ?? []).map((id) => (
             <li>
               <a href={`/translation/${id}`}>{id}</a>
             </li>
           ))}
+          {(pet.source_urls ?? []).map((url) => (
+            <li>
+              <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+            </li>
+          ))}
         </ul>
       </section>
-    )}
+    ) : null}
   </Base>
 ) : (
   <Base title="Pet not found" noindex>

@@ -1,0 +1,31 @@
+id: kikka
+name_en: Kikka
+name_ja: キッカ
+species: hamster
+breed: null
+sex: female
+owner: kozi
+relationship: owned_by
+years_noted: "2009–"
+status: unknown
+portrait_image: images/pets/kikka-2009.webp
+gallery_images:
+  - src: images/pets/kikka-2009.webp
+    caption: In her labeled house (“きっか / kikka”)
+    source: Közi diary via Ippai Yakka (2009)
+summary: >
+  Hamster brought home on 18 August 2009 as a new companion for Lala after Zaku’s death.
+  Közi described their relationship as like Tom & Jerry. Later joined by male hamster Katsu
+  and, per diary translations, two pups (Chibi and Kochibi).
+notes: >
+  Catalogued from Japanese Wikipedia pet list (citing Közi’s Twitter/diary) and Ippai Yakka
+  Portuguese translations of Közi’s August 2009 diary. Primary diary page not yet mirrored.
+source_urls:
+  - https://ja.wikipedia.org/wiki/K%C3%B6zi
+  - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
+verification_status: possible
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Added from Wikipedia + Ippai Yakka diary digest; cage photo from fan rehost.

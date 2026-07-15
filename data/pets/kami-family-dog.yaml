@@ -1,0 +1,27 @@
+id: kami-family-dog
+name_en: Kami’s family dog
+name_ja: null
+species: dog
+breed: null
+sex: unknown
+owner: kami
+relationship: childhood_family
+years_noted: childhood
+status: unknown
+portrait_image: null
+gallery_images: []
+summary: >
+  Unnamed family dog from circulating “77 Malice Mizer fun-facts” lists — Kami dreamed
+  the dog was acting strangely, called home, and learned his grandmother was ill. Not
+  the France set dogs Nike / Great Dane, and distinct from hamster Miyashita-kun.
+notes: >
+  Anecdote only appears in secondary trivia roundups; name and breed unknown.
+  Marked mention_only until a primary interview is located.
+source_urls:
+  - https://jrockrae.wordpress.com/2007/09/02/77-malice-mizer-fun-facts/
+verification_status: mention_only
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Stub from widely copied MM trivia lists; needs primary source.

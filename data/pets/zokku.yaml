@@ -1,0 +1,24 @@
+id: zokku
+name_en: Zokku
+name_ja: ゾック
+species: turtle
+breed: null
+sex: unknown
+owner: kozi
+relationship: owned_by
+years_noted: "2010–"
+status: unknown
+portrait_image: null
+gallery_images: []
+summary: >
+  Turtle kept by Közi, mentioned in his 19 September 2010 diary alongside frog Pyon-kichi
+  and the hamsters. Name continues Közi’s Gundam-flavored pet naming (Zock).
+source_urls:
+  - https://ja.wikipedia.org/wiki/K%C3%B6zi
+  - http://ippaiyakka.blogspot.com/2013/05/kozis-pets.html
+verification_status: possible
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Catalogued from Wikipedia and Ippai Yakka diary digest.

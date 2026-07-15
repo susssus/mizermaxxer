@@ -1,0 +1,24 @@
+id: dolce
+name_en: Dolce
+name_ja: ドルチェ
+species: dog
+breed: null
+sex: unknown
+owner: gackt
+relationship: owned_by
+years_noted: "2010"
+status: deceased
+died: "2010"
+portrait_image: null
+gallery_images: []
+summary: >
+  Adopted with Angie in September 2010; died suddenly about one month later (sudden
+  death reported in Weekly Josei PRIME’s pet history).
+source_urls:
+  - https://www.jprime.jp/articles/-/20137
+verification_status: possible
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: web_research
+    notes: Catalogued from Weekly Josei PRIME Gackt pet history.
