@@ -1,0 +1,30 @@
+id: mu
+name_en: Mu
+name_ja: ムー
+species: ferret
+breed: null
+sex: unknown
+owner: yuki
+relationship: owned_by
+years_noted: "1997"
+status: unknown
+portrait_image: images/pets/mu-ferret-1997.webp
+gallery_images:
+  - src: images/pets/mu-ferret-1997.webp
+    caption: Pet Mu held against a dark background
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+  - src: images/scans/fan-club/1997-09/15.jpg
+    caption: The Count Is Catalepsy — magazine rack, mirror, and Mu
+    source: ma chérie Fan Club Magazine Vol. 1 (Autumn 1997)
+summary: >
+  Yu~ki’s mischievous ferret, shown in the first ma chérie “Count Is Catalepsy”
+  antiques column. Won’t listen, loves pranks, chaotic when loose in the room — only
+  quiet during baths. Spoiled to the point of refusing food unless placed in Yu~ki’s hand.
+translation_ids:
+  - fan-club-vol-1-1997-autumn
+verification_status: verified
+changelog:
+  - date: "2026-07-16"
+    action: created
+    source: fan_club_translations
+    notes: Catalogued from FC Vol. 1 Count Is Catalepsy with portrait crop.

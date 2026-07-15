@@ -19,6 +19,7 @@ from common import (
     load_publications,
     load_singles,
     load_songs,
+    load_pets,
     load_videos,
     load_venues,
     load_vocabularies,
@@ -69,7 +70,13 @@ def publication_slugs() -> set[str]:
 def validate_directory(name: str, schema_name: str, extra=None) -> list[str]:
     errors: list[str] = []
     schemas = [schema_name]
-    if schema_name in {"album.schema.json", "single.schema.json", "concert.schema.json", "video.schema.json"}:
+    if schema_name in {
+        "album.schema.json",
+        "single.schema.json",
+        "concert.schema.json",
+        "video.schema.json",
+        "pet.schema.json",
+    }:
         schemas.append("changelog.schema.json")
     if schema_name == "concert.schema.json":
         schemas.append("performance.schema.json")
@@ -243,6 +250,32 @@ def validate_videos() -> list[str]:
     return validate_directory("videos", "video.schema.json", extra)
 
 
+def validate_pets() -> list[str]:
+    translation_ids: set[str] = set()
+    translations_dir = DATA_DIR / "translations"
+    if translations_dir.exists():
+        for path in iter_yaml_files(translations_dir):
+            doc = load_yaml(path)
+            if doc.get("id"):
+                translation_ids.add(doc["id"])
+
+    def extra(pet, rel):
+        found = []
+        for translation_id in pet.get("translation_ids") or []:
+            if translation_id not in translation_ids:
+                found.append(f"{rel}: unknown translation id '{translation_id}'")
+        for index, image in enumerate(pet.get("gallery_images") or []):
+            src = image.get("src")
+            if src and src.startswith("images/") and not (DATA_DIR.parent / src).exists():
+                found.append(f"{rel}: gallery_images[{index}].src file not found '{src}'")
+        portrait = pet.get("portrait_image")
+        if portrait and portrait.startswith("images/") and not (DATA_DIR.parent / portrait).exists():
+            found.append(f"{rel}: portrait_image file not found '{portrait}'")
+        return found
+
+    return validate_directory("pets", "pet.schema.json", extra)
+
+
 def validate_vocabularies() -> list[str]:
     errors: list[str] = []
     vocab_path = SCHEMA_DIR / "vocabularies.json"
@@ -290,6 +323,7 @@ def main() -> int:
         + validate_singles()
         + validate_concerts()
         + validate_videos()
+        + validate_pets()
         + validate_directory("references", "reference.schema.json")
         + validate_translations()
         + validate_manifest_coverage()
@@ -308,6 +342,7 @@ def main() -> int:
         "songs": len(load_songs()),
         "concerts": len(load_concerts()),
         "videos": len(load_videos()),
+        "pets": len(load_pets()),
         "venues": len(load_venues()),
     }
     summary = ", ".join(f"{value} {key}" for key, value in counts.items())

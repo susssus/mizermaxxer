@@ -1,0 +1,161 @@
+---
+import ImageSourceNote from "./ImageSourceNote.astro";
+
+interface Props {
+  name: string;
+  slug: string;
+  species: string;
+  ownerName: string;
+  ownerSlug: string;
+  relationship?: string | null;
+  portrait?: string | null;
+  status?: string | null;
+}
+
+const { name, slug, species, ownerName, ownerSlug, relationship, portrait, status } = Astro.props;
+
+function resolveSrc(path?: string | null): string | null {
+  if (!path) return null;
+  if (path.startsWith("http")) return path;
+  return path.startsWith("/") ? path : `/${path}`;
+}
+
+const href = `/pets/${slug}`;
+const imgSrc = resolveSrc(portrait);
+
+const relationshipLabel: Record<string, string> = {
+  owned_by: "Household pet",
+  childhood_family: "Childhood family",
+  set_companion: "Set companion",
+};
+---
+
+<div class="pet-card-wrap">
+  <a class="pet-card" href={href}>
+    <div class="pet-card__portrait">
+      {imgSrc ? (
+        <img src={imgSrc} alt={name} loading="lazy" decoding="async" />
+      ) : (
+        <span class="pet-card__initial" aria-hidden="true">{name.charAt(0)}</span>
+      )}
+    </div>
+    <div class="pet-card__meta">
+      {relationship && (
+        <span class="pet-card__rel">{relationshipLabel[relationship] ?? relationship}</span>
+      )}
+      <strong>{name}</strong>
+      <span class="pet-card__species">{species}{status === "deceased" ? " · memorial" : ""}</span>
+      <span class="pet-card__owner">
+        {ownerName}
+      </span>
+    </div>
+  </a>
+  <p class="pet-card__owner-link">
+    <a href={`/members/${ownerSlug}`}>{ownerName} →</a>
+  </p>
+  {portrait && <ImageSourceNote src={portrait} compact class="pet-card__source" />}
+</div>
+
+<style>
+  .pet-card-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+  }
+  .pet-card__source {
+    width: 100%;
+    padding: 0 0.35rem;
+    text-align: center;
+  }
+  .pet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    padding: 1.15rem 0.85rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  a.pet-card:hover {
+    border-color: color-mix(in srgb, var(--rose) 50%, var(--border));
+    box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 14%, transparent);
+    transform: translateY(-2px);
+  }
+  .pet-card__portrait {
+    width: 7.5rem;
+    height: 7.5rem;
+    flex-shrink: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid color-mix(in srgb, var(--rose) 35%, var(--border));
+    background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  }
+  @media (min-width: 640px) {
+    .pet-card__portrait {
+      width: 8.5rem;
+      height: 8.5rem;
+    }
+  }
+  .pet-card__portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .pet-card__initial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.75rem;
+    color: var(--accent);
+  }
+  .pet-card__meta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.82rem;
+    width: 100%;
+    flex: 1;
+  }
+  .pet-card__meta strong {
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+  }
+  .pet-card__species,
+  .pet-card__owner {
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+  .pet-card__rel {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--rose);
+    font-weight: 600;
+  }
+  .pet-card__owner-link {
+    margin: 0.35rem 0 0;
+    font-size: 0.75rem;
+  }
+  .pet-card__owner-link a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .pet-card__owner-link a:hover {
+    color: var(--accent);
+  }
+</style>

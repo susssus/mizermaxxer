@@ -123,6 +123,10 @@ def load_videos() -> list[dict[str, Any]]:
     return load_collection("videos")
 
 
+def load_pets() -> list[dict[str, Any]]:
+    return load_collection("pets")
+
+
 def load_venues() -> list[dict[str, Any]]:
     return load_collection("venues")
 
