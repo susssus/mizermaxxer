@@ -23,6 +23,23 @@ function resolveSrc(path: string): string {
   return path.startsWith("/") ? path : `/${path}`;
 }
 
+function lightboxData(image: CarouselImage, alt: string) {
+  const attribution = imageAttributionForSrc(image.src, {
+    sourceName: image.source,
+    sourceUrl: image.sourceUrl,
+  });
+  const title = image.caption ? `${alt} — ${image.caption}` : alt;
+  const detail = [image.caption, attribution?.sourceName].filter(Boolean).join(" · ");
+  return {
+    src: resolveSrc(image.src),
+    title,
+    detail,
+    href: attribution?.sourceUrl,
+    sourceName: attribution?.sourceName,
+    sourceUrl: attribution?.sourceUrl,
+  };
+}
+
 if (images.length === 0) return null;
 ---
 
@@ -38,18 +55,32 @@ if (images.length === 0) return null;
           sourceName: image.source,
           sourceUrl: image.sourceUrl,
         });
+        const preview = lightboxData(image, alt);
         return (
         <figure
           class:list={["photo-carousel__slide", { "is-active": index === 0 }]}
           data-carousel-slide
           hidden={index !== 0}
         >
-          <img
-            src={resolveSrc(image.src)}
-            alt={image.caption ? `${alt} — ${image.caption}` : alt}
-            loading={index === 0 ? "eager" : "lazy"}
-            decoding="async"
-          />
+          <button
+            type="button"
+            class="photo-carousel__zoom"
+            data-gallery-open
+            data-gallery-src={preview.src}
+            data-gallery-title={preview.title}
+            data-gallery-detail={preview.detail}
+            data-gallery-href={preview.href}
+            data-gallery-source-name={preview.sourceName}
+            data-gallery-source-url={preview.sourceUrl}
+            aria-label={`Open preview: ${preview.title}`}
+          >
+            <img
+              src={preview.src}
+              alt={image.caption ? `${alt} — ${image.caption}` : alt}
+              loading={index === 0 ? "eager" : "lazy"}
+              decoding="async"
+            />
+          </button>
           {(image.caption || attribution) && (
             <figcaption>
               {image.caption && <span>{image.caption}</span>}
@@ -92,16 +123,26 @@ if (images.length === 0) return null;
 
   {images.length > 1 && (
     <div class="photo-carousel__thumbs" aria-label="Photo thumbnails">
-      {images.map((image, index) => (
+      {images.map((image, index) => {
+        const preview = lightboxData(image, alt);
+        return (
         <button
           type="button"
           class:list={["photo-carousel__thumb", { "is-active": index === 0 }]}
           data-carousel-thumb={index}
-          aria-label={image.caption ?? `Show photo ${index + 1}`}
+          data-gallery-open
+          data-gallery-src={preview.src}
+          data-gallery-title={preview.title}
+          data-gallery-detail={preview.detail}
+          data-gallery-href={preview.href}
+          data-gallery-source-name={preview.sourceName}
+          data-gallery-source-url={preview.sourceUrl}
+          aria-label={`Open preview: ${preview.title}`}
         >
-          <img src={resolveSrc(image.src)} alt="" loading="lazy" decoding="async" />
+          <img src={preview.src} alt="" loading="lazy" decoding="async" />
         </button>
-      ))}
+      );
+      })}
     </div>
   )}
 </div>
@@ -157,6 +198,19 @@ if (images.length === 0) return null;
   }
   .photo-carousel__slide {
     margin: 0;
+  }
+  .photo-carousel__zoom {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: zoom-in;
+  }
+  .photo-carousel__zoom:focus-visible {
+    outline: 2px solid var(--rose);
+    outline-offset: 2px;
+    border-radius: 8px;
   }
   .photo-carousel__slide img {
     display: block;
@@ -229,7 +283,7 @@ if (images.length === 0) return null;
     border: 2px solid transparent;
     border-radius: 6px;
     overflow: hidden;
-    cursor: pointer;
+    cursor: zoom-in;
     background: transparent;
   }
   .photo-carousel__thumb.is-active {

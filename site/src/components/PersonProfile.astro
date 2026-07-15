@@ -1,5 +1,6 @@
 ---
 import ArchiveImage from "./ArchiveImage.astro";
+import GalleryLightbox from "./GalleryLightbox.astro";
 import PhotoCarousel from "./PhotoCarousel.astro";
 import { linkBioText } from "../lib/bioLinks";
 import { personLinkLabel, type PersonLink } from "../lib/personLinks";
@@ -247,6 +248,7 @@ const links = entity.links ?? [];
     <div class="card person-profile__gallery">
       <h3>Photo gallery</h3>
       <PhotoCarousel images={gallery} alt={title} />
+      <GalleryLightbox />
     </div>
   )}
 </section>
