@@ -23,12 +23,12 @@ members:
   name: Kami
   role: drums
   active: 1992-1999
-  portrait_image: images/members/kami.webp
+  portrait_image: images/vintage/kami-merveilles-feather-collar.webp
 - slug: gackt
   name: Gackt
   role: vocalist
   active: 1995-1999
-  portrait_image: images/members/gackt.webp
+  portrait_image: images/vintage/gackt-merveilles-gold-military.webp
 - slug: tetsu
   name: Tetsu
   role: vocalist

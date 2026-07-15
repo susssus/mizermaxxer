@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:34:01.709502Z",
+  "generated_at": "2026-07-15T17:52:12.271664Z",
   "people": {
     "members": [
       {
@@ -35,14 +35,14 @@
         "name": "Kami",
         "role": "drums",
         "active": "1992-1999",
-        "portrait_image": "images/members/kami.webp"
+        "portrait_image": "images/vintage/kami-merveilles-feather-collar.webp"
       },
       {
         "slug": "gackt",
         "name": "Gackt",
         "role": "vocalist",
         "active": "1995-1999",
-        "portrait_image": "images/members/gackt.webp"
+        "portrait_image": "images/vintage/gackt-merveilles-gold-military.webp"
       },
       {
         "slug": "tetsu",
@@ -109,7 +109,7 @@
         "during": "Joined in October 1995 and fronted the band through its commercial peak. The Gackt era brought French pop influences, major-label success (Merveilles went gold), and elaborate theatrical live shows. Departed in January 1999 at the height of the band's popularity.\n",
         "after": "Launched an enormously successful solo career spanning music, film, and television. Remains one of Japan's best-known entertainers and declined invitations to Malice Mizer reunion concerts.\n"
       },
-      "portrait_image": "images/members/gackt.webp",
+      "portrait_image": "images/vintage/gackt-merveilles-gold-military.webp",
       "gallery_images": [
         {
           "src": "images/vintage/gackt-voyage-white-brocade.webp",
@@ -386,7 +386,7 @@
         "during": "Swapped bands with Gaz and joined Malice Mizer on March 17, 1993. Drummed through the Gackt era and the band's major-label peak. After their death they were credited as \"eternal blood relative\" on all subsequent releases.\n",
         "after": "Died of a subarachnoid hemorrhage on June 21, 1999, aged 27. Left behind unfinished compositions released on the Shinwa EP and memorial releases.\n"
       },
-      "portrait_image": "images/members/kami.webp",
+      "portrait_image": "images/vintage/kami-merveilles-feather-collar.webp",
       "gallery_images": [
         {
           "src": "images/vintage/kami-merveilles-feather-collar.webp",
