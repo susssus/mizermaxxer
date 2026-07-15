@@ -47,7 +47,7 @@ const demosMisc = archive.albums.filter(
       <table>
         <thead>
           <tr>
-            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+            <th></th><th>Date</th><th>Status</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th>
           </tr>
         </thead>
         <tbody>{studioAlbums.map((album) => <ReleaseRow album={album} />)}</tbody>
@@ -59,7 +59,7 @@ const demosMisc = archive.albums.filter(
       <table>
         <thead>
           <tr>
-            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+            <th></th><th>Date</th><th>Status</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th>
           </tr>
         </thead>
         <tbody>{compilations.map((album) => <ReleaseRow album={album} />)}</tbody>
@@ -71,7 +71,7 @@ const demosMisc = archive.albums.filter(
       <table>
         <thead>
           <tr>
-            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+            <th></th><th>Date</th><th>Status</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th>
           </tr>
         </thead>
         <tbody>{videoReleases.map((album) => <ReleaseRow album={album} />)}</tbody>
@@ -83,7 +83,7 @@ const demosMisc = archive.albums.filter(
       <table>
         <thead>
           <tr>
-            <th></th><th>Date</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th><th>Status</th>
+            <th></th><th>Date</th><th>Status</th><th>Title</th><th>Type</th><th>Label</th><th>Tracks</th>
           </tr>
         </thead>
         <tbody>{demosMisc.map((album) => <ReleaseRow album={album} />)}</tbody>
@@ -97,10 +97,10 @@ const demosMisc = archive.albums.filter(
           <tr>
             <th></th>
             <th>Date</th>
+            <th>Status</th>
             <th>Title</th>
             <th>A-side</th>
             <th>B-side</th>
-            <th>Status</th>
           </tr>
         </thead>
         <tbody>
@@ -117,13 +117,13 @@ const demosMisc = archive.albums.filter(
                 )}
               </td>
               <td>{single.release_date}</td>
+              <td><span class={`badge ${single.verification_status}`}>{single.verification_status.replaceAll("_", " ")}</span></td>
               <td>
                 <a href={`/discography/${single.id}`}>{single.title_en}</a>
                 <br /><span class="muted">{single.title_ja}</span>
               </td>
               <td>{single.a_side ? songMap.get(single.a_side)?.title_en ?? single.a_side : "—"}</td>
               <td>{single.b_side ? songMap.get(single.b_side)?.title_en ?? single.b_side : "—"}</td>
-              <td><span class={`badge ${single.verification_status}`}>{single.verification_status.replaceAll("_", " ")}</span></td>
             </tr>
           ))}
         </tbody>

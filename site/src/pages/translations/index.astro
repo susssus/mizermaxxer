@@ -73,10 +73,10 @@ const formats = [...new Set(rows.map((row) => row.format))].sort();
       <thead>
         <tr>
           <th>Date</th>
+          <th>Review</th>
           <th>Publication</th>
           <th>Title</th>
           <th>Format</th>
-          <th>Review</th>
         </tr>
       </thead>
       <tbody>
@@ -88,14 +88,14 @@ const formats = [...new Set(rows.map((row) => row.format))].sort();
             data-review={row.reviewStatus}
           >
             <td>{row.date || "—"}</td>
-            <td>{row.publicationName}</td>
-            <td><a href={`/translation/${row.id}`}>{row.title}</a></td>
-            <td>{row.format.replaceAll("_", " ")}</td>
             <td>
               <span class={`badge ${row.reviewStatus}`}>
                 {translationReviewLabel(row.reviewStatus as "needs_review" | "reviewed") ?? row.reviewStatus}
               </span>
             </td>
+            <td>{row.publicationName}</td>
+            <td><a href={`/translation/${row.id}`}>{row.title}</a></td>
+            <td>{row.format.replaceAll("_", " ")}</td>
           </tr>
         ))}
       </tbody>

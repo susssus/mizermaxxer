@@ -81,18 +81,23 @@ function venueName(concert: (typeof sorted)[number]) {
           <thead>
             <tr>
               <th>Date</th>
+              <th>Status</th>
               <th>Event</th>
               <th>Venue</th>
               <th>Tour</th>
               <th>Type</th>
               <th>Links</th>
-              <th>Status</th>
             </tr>
           </thead>
           <tbody>
             {byYear[year].map((concert) => (
               <tr data-gig-row data-has-links={concert.performances.length > 0 ? "yes" : "no"}>
                 <td>{concert.date}</td>
+                <td>
+                  <span class={`badge ${concert.verification_status}`}>
+                    {concert.verification_status.replaceAll("_", " ")}
+                  </span>
+                </td>
                 <td>
                   <a href={`/gigs/${concert.id}`}>
                     {concert.event_name_en ?? concert.event_name_ja ?? concert.id}
@@ -107,11 +112,6 @@ function venueName(concert: (typeof sorted)[number]) {
                   ) : (
                     <span class="muted">—</span>
                   )}
-                </td>
-                <td>
-                  <span class={`badge ${concert.verification_status}`}>
-                    {concert.verification_status.replaceAll("_", " ")}
-                  </span>
                 </td>
               </tr>
             ))}

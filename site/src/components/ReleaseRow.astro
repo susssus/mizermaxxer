@@ -37,6 +37,7 @@ function coverSrc(path?: string | null) {
     )}
   </td>
   <td>{album.release_date}</td>
+  <td><span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></td>
   <td>
     <a href={`/discography/${album.id}`}>{album.title_en}</a>
     <br /><span class="muted">{album.title_ja}</span>
@@ -44,7 +45,6 @@ function coverSrc(path?: string | null) {
   <td>{album.type.replaceAll("_", " ")}</td>
   <td>{album.label ?? "—"}</td>
   <td>{album.tracks.length || "—"}</td>
-  <td><span class={`badge ${album.verification_status}`}>{album.verification_status.replaceAll("_", " ")}</span></td>
 </tr>
 
 <style>

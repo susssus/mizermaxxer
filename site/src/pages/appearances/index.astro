@@ -28,10 +28,10 @@ import archive from "../../data/archive.json";
       <thead>
         <tr>
           <th>Date</th>
+          <th>Status</th>
           <th>Title</th>
           <th>Type</th>
           <th>Format</th>
-          <th>Status</th>
           <th></th>
         </tr>
       </thead>
@@ -39,14 +39,14 @@ import archive from "../../data/archive.json";
         {archive.appearances.map((row) => (
           <tr>
             <td>{row.date ?? "—"}</td>
-            <td>{row.title}</td>
-            <td>{row.appearance_type ?? "—"}</td>
-            <td>{row.format ?? "—"}</td>
             <td>
               <span class={`badge ${row.verification_status}`}>
                 {row.verification_status.replaceAll("_", " ")}
               </span>
             </td>
+            <td>{row.title}</td>
+            <td>{row.appearance_type ?? "—"}</td>
+            <td>{row.format ?? "—"}</td>
             <td><a href={`/entity/${row.id}`}>Entity graph →</a></td>
           </tr>
         ))}
