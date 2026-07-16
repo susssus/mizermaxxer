@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T02:24:58.457029Z",
+  "generated_at": "2026-07-16T02:50:17.948002Z",
   "people": {
     "members": [
       {
@@ -29855,7 +29855,7 @@
     {
       "id": "apr-s-midi",
       "title_ja": "APRÈS MIDI～あるパリの午後で～",
-      "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~",
+      "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29868,7 +29868,7 @@
     {
       "id": "apres-midi-paris",
       "title_ja": "APRÈS MIDI～あるパリの午後で～",
-      "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~",
+      "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29894,7 +29894,7 @@
     {
       "id": "aege-kai-ni-sasagu",
       "title_ja": "エーゲ海に捧ぐ ~ The Vault Of Heaven ~",
-      "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~",
+      "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~ (Dedicated to the Aegean Sea)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29907,7 +29907,7 @@
     {
       "id": "the-vault-of-heaven",
       "title_ja": "エーゲ海に捧ぐ ~ The Vault Of Heaven ~",
-      "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~",
+      "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~ (Dedicated to the Aegean Sea)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29920,7 +29920,7 @@
     {
       "id": "aege-sugisarishi-kaze",
       "title_ja": "エーゲ～過ぎ去りし風と共に～",
-      "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+      "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29972,7 +29972,7 @@
     {
       "id": "apres-midi",
       "title_ja": "Apres Midi - あるパリの午後で",
-      "title_en": "Apres Midi ~Aru Pari no Gogo de~",
+      "title_en": "Apres Midi ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -29990,6 +29990,19 @@
       "writers": [],
       "lyricists": [],
       "composers": []
+    },
+    {
+      "id": "au-revoir",
+      "title_ja": "Au Revoir",
+      "title_en": "Au Revoir",
+      "notes": "",
+      "writers": [
+        "mana"
+      ],
+      "lyricists": [],
+      "composers": [
+        "mana"
+      ]
     },
     {
       "id": "au-revoir-bossa",
@@ -30059,7 +30072,7 @@
     {
       "id": "bara-makuake",
       "title_ja": "薔薇に彩られた悪意と悲劇の幕開け",
-      "title_en": "Bara ni Irodorareta Akui to Higeki no Makuake",
+      "title_en": "Bara ni Irodorareta Akui to Higeki no Makuake (A Prelude of Malice and Tragedy Painted by the Rose)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30072,7 +30085,7 @@
     {
       "id": "bara-no-densho-prologue",
       "title_ja": "薔薇の伝承 (序章)",
-      "title_en": "Bara no Densho (Joshou)",
+      "title_en": "Bara no Densho (Joshou) (Rose Legend — Prologue)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30085,7 +30098,7 @@
     {
       "id": "bara-no-senrei",
       "title_ja": "薔薇の洗礼",
-      "title_en": "Bara no Senrei",
+      "title_en": "Bara no Senrei (Baptism of Roses)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30098,7 +30111,7 @@
     {
       "id": "bara-no-souretsu",
       "title_ja": "薇の葬列",
-      "title_en": "Bara no Soretsu",
+      "title_en": "Bara no Soretsu (Funeral Procession of Roses)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30113,6 +30126,19 @@
       "title_ja": "バロック",
       "title_en": "Baroque",
       "notes": "Catalogued from Discogs tracklist.",
+      "writers": [
+        "mana"
+      ],
+      "lyricists": [],
+      "composers": [
+        "mana"
+      ]
+    },
+    {
+      "id": "beast-of-blood",
+      "title_ja": "Beast Of Blood",
+      "title_en": "Beast Of Blood",
+      "notes": "",
       "writers": [
         "mana"
       ],
@@ -30148,22 +30174,9 @@
       ]
     },
     {
-      "id": "beast-of-blood",
-      "title_ja": "Beast of Blood",
-      "title_en": "Beast of Blood",
-      "notes": "",
-      "writers": [
-        "mana"
-      ],
-      "lyricists": [],
-      "composers": [
-        "mana"
-      ]
-    },
-    {
       "id": "bel-air",
-      "title_ja": "Bel Air",
-      "title_en": "Bel Air",
+      "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+      "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
       "notes": "",
       "writers": [
         "mana"
@@ -30254,7 +30267,7 @@
     {
       "id": "chi-nurareta-kajitsu",
       "title_ja": "血塗られた果実",
-      "title_en": "Chi Nurareta Kajitsu",
+      "title_en": "Chi Nurareta Kajitsu (Blood-stained Fruit)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30267,7 +30280,7 @@
     {
       "id": "chikasuimyaku-no-meiro",
       "title_ja": "地下水脈の迷路",
-      "title_en": "Chikasuimyaku no Meiro",
+      "title_en": "Chikasuimyaku no Meiro (Labyrinth of Underground Rivers)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30280,7 +30293,7 @@
     {
       "id": "claire-tsuki-no-shirabe",
       "title_ja": "Claire～月の調べ～",
-      "title_en": "Claire ~Tsuki no Shirabe~",
+      "title_en": "Claire ~Tsuki no Shirabe~ (Melody of the Moon)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30449,7 +30462,7 @@
     {
       "id": "garnet",
       "title_ja": "Garnet～禁断の園へ～",
-      "title_en": "Garnet ~Kindan no Sono e~",
+      "title_en": "Garnet ~Kindan no Sono e~ (To the Forbidden Garden)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30462,7 +30475,7 @@
     {
       "id": "gekka-no-yasoukyoku",
       "title_ja": "月下の夜想曲",
-      "title_en": "Gekka no Yasoukyoku",
+      "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
       "notes": "",
       "writers": [
         "mana",
@@ -30472,19 +30485,6 @@
       "composers": [
         "mana",
         "kozi"
-      ]
-    },
-    {
-      "id": "de-limage",
-      "title_ja": "月下の夜想曲 De L'Image",
-      "title_en": "Gekka no Yasoukyoku De L'Image",
-      "notes": "Auto-created from Discogs sync (2026-07-05).",
-      "writers": [
-        "mana"
-      ],
-      "lyricists": [],
-      "composers": [
-        "mana"
       ]
     },
     {
@@ -30503,7 +30503,20 @@
     {
       "id": "de-l-image",
       "title_ja": "月下の夜想曲 De L’image",
-      "title_en": "Gekka no Yasoukyoku De L'image",
+      "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
+      "notes": "Auto-created from Discogs sync (2026-07-05).",
+      "writers": [
+        "mana"
+      ],
+      "lyricists": [],
+      "composers": [
+        "mana"
+      ]
+    },
+    {
+      "id": "de-limage",
+      "title_ja": "月下の夜想曲 De L'Image",
+      "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30516,7 +30529,7 @@
     {
       "id": "gensou-rakuen",
       "title_ja": "幻想楽園",
-      "title_en": "Gensou Rakuen",
+      "title_en": "Gensou Rakuen (Illusion Paradise)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30542,7 +30555,7 @@
     {
       "id": "gogo-no-sasayaki",
       "title_ja": "午後のささやき",
-      "title_en": "Gogo no Sasayaki",
+      "title_en": "Gogo no Sasayaki (Afternoon Whisper)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30555,7 +30568,7 @@
     {
       "id": "hakai-no-hate",
       "title_ja": "破誡の果て",
-      "title_en": "Hakai no Hate",
+      "title_en": "Hakai no Hate (Blasphemy's Culmination)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30568,7 +30581,7 @@
     {
       "id": "hamon-kyousoukyoku",
       "title_ja": "波紋 / 協奏曲",
-      "title_en": "Hamon / Kyousoukyoku",
+      "title_en": "Hamon / Kyousoukyoku (Ripple / Concerto)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30581,7 +30594,7 @@
     {
       "id": "houkai-jokyoku",
       "title_ja": "崩壊序曲",
-      "title_en": "Houkai Jokyoku",
+      "title_en": "Houkai Jokyoku (Overture of Collapse)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30593,8 +30606,8 @@
     },
     {
       "id": "illuminati",
-      "title_ja": "ILLUMINATI",
-      "title_en": "ILLUMINATI",
+      "title_ja": "Illuminati",
+      "title_en": "Illuminati",
       "notes": "",
       "writers": [
         "mana",
@@ -30622,7 +30635,7 @@
     {
       "id": "ino-no-rumania",
       "title_ja": "古のルーマニア",
-      "title_en": "Inishie no Rumania",
+      "title_en": "Inishie no Rumania (Ancient Romania)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30661,7 +30674,7 @@
     {
       "id": "itsuwari-no-musette",
       "title_ja": "偽りのMusetté",
-      "title_en": "Itsuwari no Musetté",
+      "title_en": "Itsuwari no Musetté (False Musette)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30674,7 +30687,7 @@
     {
       "id": "jirenma",
       "title_ja": "ジレンマ",
-      "title_en": "Jirenma",
+      "title_en": "Jirenma (Dilemma)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30700,7 +30713,7 @@
     {
       "id": "kagami-no-butou",
       "title_ja": "鏡の舞踏　幻惑の夜",
-      "title_en": "Kagami no Butou Genwaku no Yoru",
+      "title_en": "Kagami no Butou Genwaku no Yoru (Mirror Dance, Night of Bewitchment)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30713,7 +30726,7 @@
     {
       "id": "kioku-to-sora",
       "title_ja": "記憶と空",
-      "title_en": "Kioku to Sora",
+      "title_en": "Kioku to Sora (Memory and Sky)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30726,7 +30739,7 @@
     {
       "id": "kioku-to-sora-saikai-yakusoku",
       "title_ja": "記憶と空～再会そして約束～",
-      "title_en": "Kioku to Sora ~Saikai Soshite Yakusoku~",
+      "title_en": "Kioku to Sora ~Saikai Soshite Yakusoku~ (Memory and Sky ~Reunion and Promise~)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30739,7 +30752,7 @@
     {
       "id": "kyomu-no-naka-de-no-yugi",
       "title_ja": "虚無の中での遊戯",
-      "title_en": "Kyomu no Naka de no Yugi",
+      "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30776,10 +30789,10 @@
       ]
     },
     {
-      "id": "le-ciel-instrumental",
-      "title_ja": "Le Ciel～空白の彼方へ～ (Instrumental)",
-      "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (Instrumental)",
-      "notes": "Auto-created from Discogs sync (2026-07-05).",
+      "id": "le-ciel",
+      "title_ja": "Le Ciel～空白の彼方へ～",
+      "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
+      "notes": "",
       "writers": [
         "mana"
       ],
@@ -30789,10 +30802,10 @@
       ]
     },
     {
-      "id": "le-ciel",
-      "title_ja": "Le ciel ～空白の彼方へ～",
-      "title_en": "Le ciel ~Kuuhaku no Kanata e~",
-      "notes": "",
+      "id": "le-ciel-instrumental",
+      "title_ja": "Le Ciel～空白の彼方へ～ (Instrumental)",
+      "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond) (Instrumental)",
+      "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
       ],
@@ -30817,8 +30830,21 @@
     {
       "id": "ma-ch-rie",
       "title_ja": "Ma Chérie ~愛しい君へ~",
-      "title_en": "Ma Chérie ~Itoshii Kimi e~",
+      "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
+      "writers": [
+        "mana"
+      ],
+      "lyricists": [],
+      "composers": [
+        "mana"
+      ]
+    },
+    {
+      "id": "ma-cherie",
+      "title_ja": "Ma Chérie～愛しい君へ～",
+      "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
+      "notes": "",
       "writers": [
         "mana"
       ],
@@ -30856,7 +30882,7 @@
     {
       "id": "mayonaka-yakusoku",
       "title_ja": "真夜中に交わした約束",
-      "title_en": "Mayonaka ni Kawashita Yakusoku",
+      "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30869,7 +30895,7 @@
     {
       "id": "mayonaka-yakusoku-instrumental",
       "title_ja": "真夜中に交わした約束 (Instrumental)",
-      "title_en": "Mayonaka ni Kawashita Yakusoku (Instrumental)",
+      "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight) (Instrumental)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30934,7 +30960,7 @@
     {
       "id": "mezame-no-rasen",
       "title_ja": "目醒めの螺旋",
-      "title_en": "Mezame no Rasen",
+      "title_en": "Mezame no Rasen (Spiral of Awakening)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -30947,7 +30973,7 @@
     {
       "id": "mihwaku-no-roma",
       "title_ja": "魅惑のローマ",
-      "title_en": "Miwaku no Roma",
+      "title_en": "Miwaku no Roma (Enchanting Rome)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30986,7 +31012,7 @@
     {
       "id": "n-p-s-n-g-s",
       "title_ja": "N・p・s N・g・s",
-      "title_en": "N.p.s N.g.s",
+      "title_en": "N.p.s N.g.s (No Pains No Gains)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -30999,7 +31025,7 @@
     {
       "id": "n-p-s-n-g-s-n-type",
       "title_ja": "N・p・s N・g・s [N-type]",
-      "title_en": "N.p.s N.g.s [N-type]",
+      "title_en": "N.p.s N.g.s [N-type] (No Pains No Gains)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31012,7 +31038,7 @@
     {
       "id": "nps-ngs-n-type",
       "title_ja": "N・p・s N・g・s [N-type]",
-      "title_en": "N.p.s N.g.s [N-type]",
+      "title_en": "N.p.s N.g.s [N-type] (No Pains No Gains)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31077,7 +31103,7 @@
     {
       "id": "prologue-gardenia",
       "title_ja": "Prologue - 回想 - Gardenia",
-      "title_en": "Prologue - Kaisou - Gardenia",
+      "title_en": "Prologue - Kaisou - Gardenia (Recollection)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31090,7 +31116,7 @@
     {
       "id": "prologue-kaisou",
       "title_ja": "Prologue ~回想~",
-      "title_en": "Prologue ~Kaisou~",
+      "title_en": "Prologue ~Kaisou~ (Recollection)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31117,19 +31143,6 @@
       "id": "s-conscious",
       "title_ja": "S-Conscious",
       "title_en": "S-Conscious",
-      "notes": "Auto-created from Discogs sync (2026-07-05).",
-      "writers": [
-        "mana"
-      ],
-      "lyricists": [],
-      "composers": [
-        "mana"
-      ]
-    },
-    {
-      "id": "speed-of-desperate",
-      "title_ja": "SPEED OF DESPERATE",
-      "title_en": "SPEED OF DESPERATE",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31168,7 +31181,7 @@
     {
       "id": "saikai-no-chi-to-bara",
       "title_ja": "再会の血と薔薇",
-      "title_en": "Saikai no Chi to Bara",
+      "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
       "notes": "",
       "writers": [
         "mana"
@@ -31181,7 +31194,7 @@
     {
       "id": "seinaru-toki",
       "title_ja": "聖なる刻　永遠の祈り",
-      "title_en": "Seinaru Toki Eien no Inori",
+      "title_en": "Seinaru Toki Eien no Inori (Holy Time, Eternal Prayer)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31220,7 +31233,7 @@
     {
       "id": "shi-no-butou",
       "title_ja": "死の舞踏～A Romance Of The \"Cendrillon\"～",
-      "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~",
+      "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~ (Dance of Death)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31246,7 +31259,7 @@
     {
       "id": "shiroi-hada",
       "title_ja": "白い肌に狂う愛と哀しみの輪舞",
-      "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo",
+      "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven Mad by White Skin)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31259,7 +31272,7 @@
     {
       "id": "shiroi-hada-instrumental",
       "title_ja": "白い肌に狂う愛と哀しみの輪舞 (Instrumental)",
-      "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Instrumental)",
+      "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven Mad by White Skin) (Instrumental)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31272,7 +31285,7 @@
     {
       "id": "shuumaku-e-no-tobira",
       "title_ja": "終幕への扉",
-      "title_en": "Shuumaku e no Tobira",
+      "title_en": "Shuumaku e no Tobira (Door to the Finale)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -31286,6 +31299,19 @@
       "id": "solitude",
       "title_ja": "Solitude",
       "title_en": "Solitude",
+      "notes": "Auto-created from Discogs sync (2026-07-05).",
+      "writers": [
+        "mana"
+      ],
+      "lyricists": [],
+      "composers": [
+        "mana"
+      ]
+    },
+    {
+      "id": "speed-of-desperate",
+      "title_ja": "Speed Of Desperate",
+      "title_en": "Speed Of Desperate",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31311,7 +31337,7 @@
     {
       "id": "syunikiss",
       "title_ja": "Syunikiss～二度目の哀悼～",
-      "title_en": "Syunikiss ~Nidome no Aitou~",
+      "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31376,7 +31402,7 @@
     {
       "id": "tsuioku-no-hahen",
       "title_ja": "追憶の破片～A Piece Of Broken Recollection～",
-      "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~",
+      "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31411,7 +31437,7 @@
     {
       "id": "uruwashii-kamen",
       "title_ja": "麗しき仮面の招待状",
-      "title_en": "Uruwashii Kamen no Shoutaijo",
+      "title_en": "Uruwashiki Kamen no Shoutaijou (Invitation of the Beautiful Mask)",
       "notes": "",
       "writers": [
         "mana"
@@ -31437,7 +31463,7 @@
     {
       "id": "yakusoku",
       "title_ja": "約束",
-      "title_en": "Yakusoku",
+      "title_en": "Yakusoku (Promise)",
       "notes": "Catalogued from Discogs tracklist.",
       "writers": [
         "mana"
@@ -31450,21 +31476,8 @@
     {
       "id": "yami-no-kanata-e",
       "title_ja": "闇の彼方へ～",
-      "title_en": "Yami no Kanata e~",
+      "title_en": "Yami no Kanata e~ (To the Far Side of Darkness)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
-      "writers": [
-        "mana"
-      ],
-      "lyricists": [],
-      "composers": [
-        "mana"
-      ]
-    },
-    {
-      "id": "au-revoir",
-      "title_ja": "au revoir",
-      "title_en": "au revoir",
-      "notes": "",
       "writers": [
         "mana"
       ],
@@ -31487,22 +31500,9 @@
       ]
     },
     {
-      "id": "ma-cherie",
-      "title_ja": "ma chérie ～愛しい君へ～",
-      "title_en": "ma chérie ~Itoshii Kimi e~",
-      "notes": "",
-      "writers": [
-        "mana"
-      ],
-      "lyricists": [],
-      "composers": [
-        "mana"
-      ]
-    },
-    {
       "id": "zencho",
       "title_ja": "～前兆～",
-      "title_en": "~Zencho~",
+      "title_en": "~Zencho~ (Omen)",
       "notes": "Auto-created from Discogs sync (2026-07-05).",
       "writers": [
         "mana"
@@ -31603,7 +31603,7 @@
           "song_detail": {
             "id": "shuumaku-e-no-tobira",
             "title_ja": "終幕への扉",
-            "title_en": "Shuumaku e no Tobira",
+            "title_en": "Shuumaku e no Tobira (Door to the Finale)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -31636,8 +31636,8 @@
           "position": 4,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "SPEED OF DESPERATE",
-            "title_en": "SPEED OF DESPERATE",
+            "title_ja": "Speed Of Desperate",
+            "title_en": "Speed Of Desperate",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -31689,8 +31689,8 @@
           "position": 1,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "SPEED OF DESPERATE",
-            "title_en": "SPEED OF DESPERATE",
+            "title_ja": "Speed Of Desperate",
+            "title_en": "Speed Of Desperate",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -31757,8 +31757,8 @@
           "position": 2,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "SPEED OF DESPERATE",
-            "title_en": "SPEED OF DESPERATE",
+            "title_ja": "Speed Of Desperate",
+            "title_en": "Speed Of Desperate",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -31884,8 +31884,8 @@
           "position": 3,
           "song_detail": {
             "id": "speed-of-desperate",
-            "title_ja": "SPEED OF DESPERATE",
-            "title_en": "SPEED OF DESPERATE",
+            "title_ja": "Speed Of Desperate",
+            "title_en": "Speed Of Desperate",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -31919,7 +31919,7 @@
           "song_detail": {
             "id": "jirenma",
             "title_ja": "ジレンマ",
-            "title_en": "Jirenma",
+            "title_en": "Jirenma (Dilemma)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -32240,7 +32240,7 @@
           "song_detail": {
             "id": "kioku-to-sora",
             "title_ja": "記憶と空",
-            "title_en": "Kioku to Sora",
+            "title_en": "Kioku to Sora (Memory and Sky)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32257,7 +32257,7 @@
           "song_detail": {
             "id": "the-vault-of-heaven",
             "title_ja": "エーゲ海に捧ぐ ~ The Vault Of Heaven ~",
-            "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~",
+            "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~ (Dedicated to the Aegean Sea)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32274,7 +32274,7 @@
           "song_detail": {
             "id": "gogo-no-sasayaki",
             "title_ja": "午後のささやき",
-            "title_en": "Gogo no Sasayaki",
+            "title_en": "Gogo no Sasayaki (Afternoon Whisper)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32291,7 +32291,7 @@
           "song_detail": {
             "id": "mihwaku-no-roma",
             "title_ja": "魅惑のローマ",
-            "title_en": "Miwaku no Roma",
+            "title_en": "Miwaku no Roma (Enchanting Rome)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32396,7 +32396,7 @@
           "song_detail": {
             "id": "kioku-to-sora",
             "title_ja": "記憶と空",
-            "title_en": "Kioku to Sora",
+            "title_en": "Kioku to Sora (Memory and Sky)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32413,7 +32413,7 @@
           "song_detail": {
             "id": "the-vault-of-heaven",
             "title_ja": "エーゲ海に捧ぐ ~ The Vault Of Heaven ~",
-            "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~",
+            "title_en": "Aege Kai ni Sasagu ~ The Vault Of Heaven ~ (Dedicated to the Aegean Sea)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32430,7 +32430,7 @@
           "song_detail": {
             "id": "gogo-no-sasayaki",
             "title_ja": "午後のささやき",
-            "title_en": "Gogo no Sasayaki",
+            "title_en": "Gogo no Sasayaki (Afternoon Whisper)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32447,7 +32447,7 @@
           "song_detail": {
             "id": "mihwaku-no-roma",
             "title_ja": "魅惑のローマ",
-            "title_en": "Miwaku no Roma",
+            "title_en": "Miwaku no Roma (Enchanting Rome)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32576,7 +32576,7 @@
           "song_detail": {
             "id": "yami-no-kanata-e",
             "title_ja": "闇の彼方へ～",
-            "title_en": "Yami no Kanata e~",
+            "title_en": "Yami no Kanata e~ (To the Far Side of Darkness)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32610,7 +32610,7 @@
           "song_detail": {
             "id": "tsuioku-no-hahen",
             "title_ja": "追憶の破片～A Piece Of Broken Recollection～",
-            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~",
+            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32644,7 +32644,7 @@
           "song_detail": {
             "id": "itsuwari-no-musette",
             "title_ja": "偽りのMusetté",
-            "title_en": "Itsuwari no Musetté",
+            "title_en": "Itsuwari no Musetté (False Musette)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32678,7 +32678,7 @@
           "song_detail": {
             "id": "claire-tsuki-no-shirabe",
             "title_ja": "Claire～月の調べ～",
-            "title_en": "Claire ~Tsuki no Shirabe~",
+            "title_en": "Claire ~Tsuki no Shirabe~ (Melody of the Moon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32712,7 +32712,7 @@
           "song_detail": {
             "id": "shi-no-butou",
             "title_ja": "死の舞踏～A Romance Of The \"Cendrillon\"～",
-            "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~",
+            "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~ (Dance of Death)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32729,7 +32729,7 @@
           "song_detail": {
             "id": "zencho",
             "title_ja": "～前兆～",
-            "title_en": "~Zencho~",
+            "title_en": "~Zencho~ (Omen)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32812,7 +32812,7 @@
           "song_detail": {
             "id": "ino-no-rumania",
             "title_ja": "古のルーマニア",
-            "title_en": "Inishie no Rumania",
+            "title_en": "Inishie no Rumania (Ancient Romania)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -32846,7 +32846,7 @@
           "song_detail": {
             "id": "uruwashii-kamen",
             "title_ja": "麗しき仮面の招待状",
-            "title_en": "Uruwashii Kamen no Shoutaijo",
+            "title_en": "Uruwashiki Kamen no Shoutaijou (Invitation of the Beautiful Mask)",
             "notes": "",
             "writers": [
               "mana"
@@ -32880,7 +32880,7 @@
           "song_detail": {
             "id": "tsuioku-no-hahen",
             "title_ja": "追憶の破片～A Piece Of Broken Recollection～",
-            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~",
+            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -32947,8 +32947,8 @@
           "position": 9,
           "song_detail": {
             "id": "ma-cherie",
-            "title_ja": "ma chérie ～愛しい君へ～",
-            "title_en": "ma chérie ~Itoshii Kimi e~",
+            "title_ja": "Ma Chérie～愛しい君へ～",
+            "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
             "notes": "",
             "writers": [
               "mana"
@@ -32965,7 +32965,7 @@
           "song_detail": {
             "id": "zencho",
             "title_ja": "～前兆～",
-            "title_en": "~Zencho~",
+            "title_en": "~Zencho~ (Omen)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33018,7 +33018,7 @@
           "song_detail": {
             "id": "de-limage",
             "title_ja": "月下の夜想曲 De L'Image",
-            "title_en": "Gekka no Yasoukyoku De L'Image",
+            "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33138,7 +33138,7 @@
           "song_detail": {
             "id": "syunikiss",
             "title_ja": "Syunikiss～二度目の哀悼～",
-            "title_en": "Syunikiss ~Nidome no Aitou~",
+            "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33154,8 +33154,8 @@
           "position": 3,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -33171,8 +33171,8 @@
           "position": 4,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -33208,7 +33208,7 @@
           "song_detail": {
             "id": "aege-sugisarishi-kaze",
             "title_ja": "エーゲ～過ぎ去りし風と共に～",
-            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33224,8 +33224,8 @@
           "position": 7,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -33275,8 +33275,8 @@
           "position": 10,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -33293,7 +33293,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -33462,8 +33462,8 @@
           "position": 3,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -33482,7 +33482,7 @@
           "song_detail": {
             "id": "mezame-no-rasen",
             "title_ja": "目醒めの螺旋",
-            "title_en": "Mezame no Rasen",
+            "title_en": "Mezame no Rasen (Spiral of Awakening)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -33516,7 +33516,7 @@
           "song_detail": {
             "id": "syunikiss",
             "title_ja": "Syunikiss～二度目の哀悼～",
-            "title_en": "Syunikiss ~Nidome no Aitou~",
+            "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33533,7 +33533,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -33551,8 +33551,8 @@
           "position": 8,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -33569,7 +33569,7 @@
           "song_detail": {
             "id": "aege-sugisarishi-kaze",
             "title_ja": "エーゲ～過ぎ去りし風と共に～",
-            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33586,7 +33586,7 @@
           "song_detail": {
             "id": "hamon-kyousoukyoku",
             "title_ja": "波紋 / 協奏曲",
-            "title_en": "Hamon / Kyousoukyoku",
+            "title_en": "Hamon / Kyousoukyoku (Ripple / Concerto)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -33620,7 +33620,7 @@
           "song_detail": {
             "id": "de-limage",
             "title_ja": "月下の夜想曲 De L'Image",
-            "title_en": "Gekka no Yasoukyoku De L'Image",
+            "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -33670,8 +33670,8 @@
           "position": 15,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -33687,8 +33687,8 @@
           "position": 16,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -33767,8 +33767,8 @@
           "position": 1,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -33784,8 +33784,8 @@
           "position": 2,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -33802,7 +33802,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -33820,8 +33820,8 @@
           "position": 4,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -33839,8 +33839,8 @@
           "position": 5,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -33893,7 +33893,7 @@
           "song_detail": {
             "id": "saikai-no-chi-to-bara",
             "title_ja": "再会の血と薔薇",
-            "title_en": "Saikai no Chi to Bara",
+            "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
             "notes": "",
             "writers": [
               "mana"
@@ -34095,7 +34095,7 @@
           "song_detail": {
             "id": "bara-makuake",
             "title_ja": "薔薇に彩られた悪意と悲劇の幕開け",
-            "title_en": "Bara ni Irodorareta Akui to Higeki no Makuake",
+            "title_en": "Bara ni Irodorareta Akui to Higeki no Makuake (A Prelude of Malice and Tragedy Painted by the Rose)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34112,7 +34112,7 @@
           "song_detail": {
             "id": "seinaru-toki",
             "title_ja": "聖なる刻　永遠の祈り",
-            "title_en": "Seinaru Toki Eien no Inori",
+            "title_en": "Seinaru Toki Eien no Inori (Holy Time, Eternal Prayer)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34129,7 +34129,7 @@
           "song_detail": {
             "id": "kyomu-no-naka-de-no-yugi",
             "title_ja": "虚無の中での遊戯",
-            "title_en": "Kyomu no Naka de no Yugi",
+            "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34146,7 +34146,7 @@
           "song_detail": {
             "id": "kagami-no-butou",
             "title_ja": "鏡の舞踏　幻惑の夜",
-            "title_en": "Kagami no Butou Genwaku no Yoru",
+            "title_en": "Kagami no Butou Genwaku no Yoru (Mirror Dance, Night of Bewitchment)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34163,7 +34163,7 @@
           "song_detail": {
             "id": "mayonaka-yakusoku",
             "title_ja": "真夜中に交わした約束",
-            "title_en": "Mayonaka ni Kawashita Yakusoku",
+            "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34180,7 +34180,7 @@
           "song_detail": {
             "id": "chi-nurareta-kajitsu",
             "title_ja": "血塗られた果実",
-            "title_en": "Chi Nurareta Kajitsu",
+            "title_en": "Chi Nurareta Kajitsu (Blood-stained Fruit)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34197,7 +34197,7 @@
           "song_detail": {
             "id": "chikasuimyaku-no-meiro",
             "title_ja": "地下水脈の迷路",
-            "title_en": "Chikasuimyaku no Meiro",
+            "title_en": "Chikasuimyaku no Meiro (Labyrinth of Underground Rivers)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34214,7 +34214,7 @@
           "song_detail": {
             "id": "hakai-no-hate",
             "title_ja": "破誡の果て",
-            "title_en": "Hakai no Hate",
+            "title_en": "Hakai no Hate (Blasphemy's Culmination)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34231,7 +34231,7 @@
           "song_detail": {
             "id": "shiroi-hada",
             "title_ja": "白い肌に狂う愛と哀しみの輪舞",
-            "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo",
+            "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven Mad by White Skin)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34248,7 +34248,7 @@
           "song_detail": {
             "id": "saikai-no-chi-to-bara",
             "title_ja": "再会の血と薔薇",
-            "title_en": "Saikai no Chi to Bara",
+            "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
             "notes": "",
             "writers": [
               "mana"
@@ -34365,7 +34365,7 @@
           "song_detail": {
             "id": "saikai-no-chi-to-bara",
             "title_ja": "再会の血と薔薇",
-            "title_en": "Saikai no Chi to Bara",
+            "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
             "notes": "",
             "writers": [
               "mana"
@@ -34382,7 +34382,7 @@
           "song_detail": {
             "id": "bara-makuake",
             "title_ja": "薔薇に彩られた悪意と悲劇の幕開け",
-            "title_en": "Bara ni Irodorareta Akui to Higeki no Makuake",
+            "title_en": "Bara ni Irodorareta Akui to Higeki no Makuake (A Prelude of Malice and Tragedy Painted by the Rose)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34399,7 +34399,7 @@
           "song_detail": {
             "id": "seinaru-toki",
             "title_ja": "聖なる刻　永遠の祈り",
-            "title_en": "Seinaru Toki Eien no Inori",
+            "title_en": "Seinaru Toki Eien no Inori (Holy Time, Eternal Prayer)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34416,7 +34416,7 @@
           "song_detail": {
             "id": "kagami-no-butou",
             "title_ja": "鏡の舞踏　幻惑の夜",
-            "title_en": "Kagami no Butou Genwaku no Yoru",
+            "title_en": "Kagami no Butou Genwaku no Yoru (Mirror Dance, Night of Bewitchment)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34433,7 +34433,7 @@
           "song_detail": {
             "id": "chikasuimyaku-no-meiro",
             "title_ja": "地下水脈の迷路",
-            "title_en": "Chikasuimyaku no Meiro",
+            "title_en": "Chikasuimyaku no Meiro (Labyrinth of Underground Rivers)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34450,7 +34450,7 @@
           "song_detail": {
             "id": "mayonaka-yakusoku",
             "title_ja": "真夜中に交わした約束",
-            "title_en": "Mayonaka ni Kawashita Yakusoku",
+            "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34467,7 +34467,7 @@
           "song_detail": {
             "id": "bara-no-souretsu",
             "title_ja": "薇の葬列",
-            "title_en": "Bara no Soretsu",
+            "title_en": "Bara no Soretsu (Funeral Procession of Roses)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -34484,7 +34484,7 @@
           "song_detail": {
             "id": "kyomu-no-naka-de-no-yugi",
             "title_ja": "虚無の中での遊戯",
-            "title_en": "Kyomu no Naka de no Yugi",
+            "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34501,7 +34501,7 @@
           "song_detail": {
             "id": "bara-no-senrei",
             "title_ja": "薔薇の洗礼",
-            "title_en": "Bara no Senrei",
+            "title_en": "Bara no Senrei (Baptism of Roses)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -34518,7 +34518,7 @@
           "song_detail": {
             "id": "gensou-rakuen",
             "title_ja": "幻想楽園",
-            "title_en": "Gensou Rakuen",
+            "title_en": "Gensou Rakuen (Illusion Paradise)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34535,7 +34535,7 @@
           "song_detail": {
             "id": "chi-nurareta-kajitsu",
             "title_ja": "血塗られた果実",
-            "title_en": "Chi Nurareta Kajitsu",
+            "title_en": "Chi Nurareta Kajitsu (Blood-stained Fruit)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34552,7 +34552,7 @@
           "song_detail": {
             "id": "houkai-jokyoku",
             "title_ja": "崩壊序曲",
-            "title_en": "Houkai Jokyoku",
+            "title_en": "Houkai Jokyoku (Overture of Collapse)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -34569,7 +34569,7 @@
           "song_detail": {
             "id": "kioku-to-sora-saikai-yakusoku",
             "title_ja": "記憶と空～再会そして約束～",
-            "title_en": "Kioku to Sora ~Saikai Soshite Yakusoku~",
+            "title_en": "Kioku to Sora ~Saikai Soshite Yakusoku~ (Memory and Sky ~Reunion and Promise~)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -34586,7 +34586,7 @@
           "song_detail": {
             "id": "hakai-no-hate",
             "title_ja": "破誡の果て",
-            "title_en": "Hakai no Hate",
+            "title_en": "Hakai no Hate (Blasphemy's Culmination)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34620,7 +34620,7 @@
           "song_detail": {
             "id": "shiroi-hada",
             "title_ja": "白い肌に狂う愛と哀しみの輪舞",
-            "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo",
+            "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven Mad by White Skin)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34637,7 +34637,7 @@
           "song_detail": {
             "id": "yakusoku",
             "title_ja": "約束",
-            "title_en": "Yakusoku",
+            "title_en": "Yakusoku (Promise)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -34690,7 +34690,7 @@
           "song_detail": {
             "id": "bara-no-densho-prologue",
             "title_ja": "薔薇の伝承 (序章)",
-            "title_en": "Bara no Densho (Joshou)",
+            "title_en": "Bara no Densho (Joshou) (Rose Legend — Prologue)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -34743,7 +34743,7 @@
           "song_detail": {
             "id": "mayonaka-yakusoku",
             "title_ja": "真夜中に交わした約束",
-            "title_en": "Mayonaka ni Kawashita Yakusoku",
+            "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -34909,8 +34909,8 @@
           "position": 1,
           "song_detail": {
             "id": "beast-of-blood",
-            "title_ja": "Beast of Blood",
-            "title_en": "Beast of Blood",
+            "title_ja": "Beast Of Blood",
+            "title_en": "Beast Of Blood",
             "notes": "",
             "writers": [
               "mana"
@@ -35051,7 +35051,7 @@
           "song_detail": {
             "id": "saikai-no-chi-to-bara",
             "title_ja": "再会の血と薔薇",
-            "title_en": "Saikai no Chi to Bara",
+            "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
             "notes": "",
             "writers": [
               "mana"
@@ -35068,7 +35068,7 @@
           "song_detail": {
             "id": "kyomu-no-naka-de-no-yugi",
             "title_ja": "虚無の中での遊戯",
-            "title_en": "Kyomu no Naka de no Yugi",
+            "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35085,7 +35085,7 @@
           "song_detail": {
             "id": "shiroi-hada",
             "title_ja": "白い肌に狂う愛と哀しみの輪舞",
-            "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo",
+            "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven Mad by White Skin)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35118,8 +35118,8 @@
           "position": 5,
           "song_detail": {
             "id": "beast-of-blood",
-            "title_ja": "Beast of Blood",
-            "title_en": "Beast of Blood",
+            "title_ja": "Beast Of Blood",
+            "title_en": "Beast Of Blood",
             "notes": "",
             "writers": [
               "mana"
@@ -35136,7 +35136,7 @@
           "song_detail": {
             "id": "garnet",
             "title_ja": "Garnet～禁断の園へ～",
-            "title_en": "Garnet ~Kindan no Sono e~",
+            "title_en": "Garnet ~Kindan no Sono e~ (To the Forbidden Garden)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35386,7 +35386,7 @@
           "song_detail": {
             "id": "syunikiss",
             "title_ja": "Syunikiss～二度目の哀悼～",
-            "title_en": "Syunikiss ~Nidome no Aitou~",
+            "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35402,8 +35402,8 @@
           "position": 4,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -35419,8 +35419,8 @@
           "position": 5,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -35456,7 +35456,7 @@
           "song_detail": {
             "id": "aege-sugisarishi-kaze",
             "title_ja": "エーゲ～過ぎ去りし風と共に～",
-            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35472,8 +35472,8 @@
           "position": 8,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -35523,8 +35523,8 @@
           "position": 11,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -35541,7 +35541,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -35593,8 +35593,8 @@
           "position": 15,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -35610,8 +35610,8 @@
           "position": 16,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -35628,7 +35628,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -35646,8 +35646,8 @@
           "position": 18,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -35665,8 +35665,8 @@
           "position": 19,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -35733,8 +35733,8 @@
           "position": 23,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -35753,7 +35753,7 @@
           "song_detail": {
             "id": "mezame-no-rasen",
             "title_ja": "目醒めの螺旋",
-            "title_en": "Mezame no Rasen",
+            "title_en": "Mezame no Rasen (Spiral of Awakening)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -35787,7 +35787,7 @@
           "song_detail": {
             "id": "syunikiss",
             "title_ja": "Syunikiss～二度目の哀悼～",
-            "title_en": "Syunikiss ~Nidome no Aitou~",
+            "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35804,7 +35804,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -35822,8 +35822,8 @@
           "position": 28,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -35840,7 +35840,7 @@
           "song_detail": {
             "id": "aege-sugisarishi-kaze",
             "title_ja": "エーゲ～過ぎ去りし風と共に～",
-            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35857,7 +35857,7 @@
           "song_detail": {
             "id": "hamon-kyousoukyoku",
             "title_ja": "波紋 / 協奏曲",
-            "title_en": "Hamon / Kyousoukyoku",
+            "title_en": "Hamon / Kyousoukyoku (Ripple / Concerto)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -35891,7 +35891,7 @@
           "song_detail": {
             "id": "de-limage",
             "title_ja": "月下の夜想曲 De L'Image",
-            "title_en": "Gekka no Yasoukyoku De L'Image",
+            "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -35941,8 +35941,8 @@
           "position": 35,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -35958,8 +35958,8 @@
           "position": 36,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -36092,8 +36092,8 @@
           "position": 1,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -36126,8 +36126,8 @@
           "position": 3,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -36161,7 +36161,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -36180,7 +36180,7 @@
           "song_detail": {
             "id": "de-l-image",
             "title_ja": "月下の夜想曲 De L’image",
-            "title_en": "Gekka no Yasoukyoku De L'image",
+            "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36214,7 +36214,7 @@
           "song_detail": {
             "id": "n-p-s-n-g-s-n-type",
             "title_ja": "N・p・s N・g・s [N-type]",
-            "title_en": "N.p.s N.g.s [N-type]",
+            "title_en": "N.p.s N.g.s [N-type] (No Pains No Gains)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36230,8 +36230,8 @@
           "position": 9,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -36248,7 +36248,7 @@
           "song_detail": {
             "id": "de-limage",
             "title_ja": "月下の夜想曲 De L'Image",
-            "title_en": "Gekka no Yasoukyoku De L'Image",
+            "title_en": "Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36347,7 +36347,7 @@
           "song_detail": {
             "id": "uruwashii-kamen",
             "title_ja": "麗しき仮面の招待状",
-            "title_en": "Uruwashii Kamen no Shoutaijo",
+            "title_en": "Uruwashiki Kamen no Shoutaijou (Invitation of the Beautiful Mask)",
             "notes": "",
             "writers": [
               "mana"
@@ -36364,7 +36364,7 @@
           "song_detail": {
             "id": "tsuioku-no-hahen",
             "title_ja": "追憶の破片～A Piece Of Broken Recollection～",
-            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~",
+            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36398,7 +36398,7 @@
           "song_detail": {
             "id": "n-p-s-n-g-s",
             "title_ja": "N・p・s N・g・s",
-            "title_en": "N.p.s N.g.s",
+            "title_en": "N.p.s N.g.s (No Pains No Gains)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36432,7 +36432,7 @@
           "song_detail": {
             "id": "shi-no-butou",
             "title_ja": "死の舞踏～A Romance Of The \"Cendrillon\"～",
-            "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~",
+            "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~ (Dance of Death)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36449,7 +36449,7 @@
           "song_detail": {
             "id": "ma-ch-rie",
             "title_ja": "Ma Chérie ~愛しい君へ~",
-            "title_en": "Ma Chérie ~Itoshii Kimi e~",
+            "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36466,7 +36466,7 @@
           "song_detail": {
             "id": "syunikiss",
             "title_ja": "Syunikiss～二度目の哀悼～",
-            "title_en": "Syunikiss ~Nidome no Aitou~",
+            "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36482,8 +36482,8 @@
           "position": 9,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -36499,8 +36499,8 @@
           "position": 10,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -36535,8 +36535,8 @@
           "position": 12,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -36553,7 +36553,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -36571,8 +36571,8 @@
           "position": 14,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -36683,7 +36683,7 @@
           "song_detail": {
             "id": "ino-no-rumania",
             "title_ja": "古のルーマニア",
-            "title_en": "Inishie no Rumania",
+            "title_en": "Inishie no Rumania (Ancient Romania)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -36717,7 +36717,7 @@
           "song_detail": {
             "id": "tsuioku-no-hahen",
             "title_ja": "追憶の破片～A Piece Of Broken Recollection～",
-            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~",
+            "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36751,7 +36751,7 @@
           "song_detail": {
             "id": "n-p-s-n-g-s",
             "title_ja": "N・p・s N・g・s",
-            "title_en": "N.p.s N.g.s",
+            "title_en": "N.p.s N.g.s (No Pains No Gains)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36802,7 +36802,7 @@
           "song_detail": {
             "id": "ma-ch-rie",
             "title_ja": "Ma Chérie ~愛しい君へ~",
-            "title_en": "Ma Chérie ~Itoshii Kimi e~",
+            "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36836,7 +36836,7 @@
           "song_detail": {
             "id": "mezame-no-rasen",
             "title_ja": "目醒めの螺旋",
-            "title_en": "Mezame no Rasen",
+            "title_en": "Mezame no Rasen (Spiral of Awakening)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -36853,7 +36853,7 @@
           "song_detail": {
             "id": "gekka-no-yasoukyoku",
             "title_ja": "月下の夜想曲",
-            "title_en": "Gekka no Yasoukyoku",
+            "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
             "notes": "",
             "writers": [
               "mana",
@@ -36871,8 +36871,8 @@
           "position": 12,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -36889,7 +36889,7 @@
           "song_detail": {
             "id": "aege-sugisarishi-kaze",
             "title_ja": "エーゲ～過ぎ去りし風と共に～",
-            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+            "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -36906,7 +36906,7 @@
           "song_detail": {
             "id": "hamon-kyousoukyoku",
             "title_ja": "波紋 / 協奏曲",
-            "title_en": "Hamon / Kyousoukyoku",
+            "title_en": "Hamon / Kyousoukyoku (Ripple / Concerto)",
             "notes": "Catalogued from Discogs tracklist.",
             "writers": [
               "mana"
@@ -36956,8 +36956,8 @@
           "position": 17,
           "song_detail": {
             "id": "le-ciel",
-            "title_ja": "Le ciel ～空白の彼方へ～",
-            "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+            "title_ja": "Le Ciel～空白の彼方へ～",
+            "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
             "notes": "",
             "writers": [
               "mana"
@@ -37180,7 +37180,7 @@
           "song_detail": {
             "id": "mayonaka-yakusoku",
             "title_ja": "真夜中に交わした約束",
-            "title_en": "Mayonaka ni Kawashita Yakusoku",
+            "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -37197,7 +37197,7 @@
           "song_detail": {
             "id": "prologue-gardenia",
             "title_ja": "Prologue - 回想 - Gardenia",
-            "title_en": "Prologue - Kaisou - Gardenia",
+            "title_en": "Prologue - Kaisou - Gardenia (Recollection)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -37350,7 +37350,7 @@
           "song_detail": {
             "id": "saikai-no-chi-to-bara",
             "title_ja": "再会の血と薔薇",
-            "title_en": "Saikai no Chi to Bara",
+            "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
             "notes": "",
             "writers": [
               "mana"
@@ -37367,7 +37367,7 @@
           "song_detail": {
             "id": "kyomu-no-naka-de-no-yugi",
             "title_ja": "虚無の中での遊戯",
-            "title_en": "Kyomu no Naka de no Yugi",
+            "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -37401,7 +37401,7 @@
           "song_detail": {
             "id": "kioku-to-sora",
             "title_ja": "記憶と空",
-            "title_en": "Kioku to Sora",
+            "title_en": "Kioku to Sora (Memory and Sky)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -37417,8 +37417,8 @@
           "position": 19,
           "song_detail": {
             "id": "illuminati",
-            "title_ja": "ILLUMINATI",
-            "title_en": "ILLUMINATI",
+            "title_ja": "Illuminati",
+            "title_en": "Illuminati",
             "notes": "",
             "writers": [
               "mana",
@@ -37454,7 +37454,7 @@
           "song_detail": {
             "id": "apres-midi",
             "title_ja": "Apres Midi - あるパリの午後で",
-            "title_en": "Apres Midi ~Aru Pari no Gogo de~",
+            "title_en": "Apres Midi ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -37470,8 +37470,8 @@
           "position": 22,
           "song_detail": {
             "id": "bel-air",
-            "title_ja": "Bel Air",
-            "title_en": "Bel Air",
+            "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+            "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
             "notes": "",
             "writers": [
               "mana"
@@ -37488,7 +37488,7 @@
           "song_detail": {
             "id": "zencho",
             "title_ja": "～前兆～",
-            "title_en": "~Zencho~",
+            "title_en": "~Zencho~ (Omen)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -37555,8 +37555,8 @@
           "position": 27,
           "song_detail": {
             "id": "au-revoir",
-            "title_ja": "au revoir",
-            "title_en": "au revoir",
+            "title_ja": "Au Revoir",
+            "title_en": "Au Revoir",
             "notes": "",
             "writers": [
               "mana"
@@ -37573,7 +37573,7 @@
           "song_detail": {
             "id": "ma-ch-rie",
             "title_ja": "Ma Chérie ~愛しい君へ~",
-            "title_en": "Ma Chérie ~Itoshii Kimi e~",
+            "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
             "notes": "Auto-created from Discogs sync (2026-07-05).",
             "writers": [
               "mana"
@@ -42123,7 +42123,7 @@
         {
           "id": "gekka-no-yasoukyoku",
           "title_ja": "月下の夜想曲",
-          "title_en": "Gekka no Yasoukyoku",
+          "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
           "notes": "",
           "writers": [
             "mana",
@@ -42137,8 +42137,8 @@
         },
         {
           "id": "bel-air",
-          "title_ja": "Bel Air",
-          "title_en": "Bel Air",
+          "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+          "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
           "notes": "",
           "writers": [
             "mana"
@@ -44185,7 +44185,7 @@
         {
           "id": "syunikiss",
           "title_ja": "Syunikiss～二度目の哀悼～",
-          "title_en": "Syunikiss ~Nidome no Aitou~",
+          "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -44198,7 +44198,7 @@
         {
           "id": "gekka-no-yasoukyoku",
           "title_ja": "月下の夜想曲",
-          "title_en": "Gekka no Yasoukyoku",
+          "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
           "notes": "",
           "writers": [
             "mana",
@@ -44212,8 +44212,8 @@
         },
         {
           "id": "bel-air",
-          "title_ja": "Bel Air",
-          "title_en": "Bel Air",
+          "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+          "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
           "notes": "",
           "writers": [
             "mana"
@@ -44226,7 +44226,7 @@
         {
           "id": "tsuioku-no-hahen",
           "title_ja": "追憶の破片～A Piece Of Broken Recollection～",
-          "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~",
+          "title_en": "Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -44239,7 +44239,7 @@
         {
           "id": "shi-no-butou",
           "title_ja": "死の舞踏～A Romance Of The \"Cendrillon\"～",
-          "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~",
+          "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~ (Dance of Death)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -44252,7 +44252,7 @@
         {
           "id": "aege-sugisarishi-kaze",
           "title_ja": "エーゲ～過ぎ去りし風と共に～",
-          "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+          "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -44265,7 +44265,7 @@
         {
           "id": "hamon-kyousoukyoku",
           "title_ja": "波紋 / 協奏曲",
-          "title_en": "Hamon / Kyousoukyoku",
+          "title_en": "Hamon / Kyousoukyoku (Ripple / Concerto)",
           "notes": "Catalogued from Discogs tracklist.",
           "writers": [
             "mana"
@@ -44316,8 +44316,8 @@
         },
         {
           "id": "ma-cherie",
-          "title_ja": "ma chérie ～愛しい君へ～",
-          "title_en": "ma chérie ~Itoshii Kimi e~",
+          "title_ja": "Ma Chérie～愛しい君へ～",
+          "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
           "notes": "",
           "writers": [
             "mana"
@@ -44329,8 +44329,8 @@
         },
         {
           "id": "au-revoir",
-          "title_ja": "au revoir",
-          "title_en": "au revoir",
+          "title_ja": "Au Revoir",
+          "title_en": "Au Revoir",
           "notes": "",
           "writers": [
             "mana"
@@ -44356,7 +44356,7 @@
         {
           "id": "mezame-no-rasen",
           "title_ja": "目醒めの螺旋",
-          "title_en": "Mezame no Rasen",
+          "title_en": "Mezame no Rasen (Spiral of Awakening)",
           "notes": "Catalogued from Discogs tracklist.",
           "writers": [
             "mana"
@@ -44368,8 +44368,8 @@
         },
         {
           "id": "illuminati",
-          "title_ja": "ILLUMINATI",
-          "title_en": "ILLUMINATI",
+          "title_ja": "Illuminati",
+          "title_en": "Illuminati",
           "notes": "",
           "writers": [
             "mana",
@@ -44409,8 +44409,8 @@
         },
         {
           "id": "le-ciel",
-          "title_ja": "Le ciel ～空白の彼方へ～",
-          "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+          "title_ja": "Le Ciel～空白の彼方へ～",
+          "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
           "notes": "",
           "writers": [
             "mana"
@@ -45008,8 +45008,8 @@
         },
         {
           "id": "illuminati",
-          "title_ja": "ILLUMINATI",
-          "title_en": "ILLUMINATI",
+          "title_ja": "Illuminati",
+          "title_en": "Illuminati",
           "notes": "",
           "writers": [
             "mana",
@@ -45037,7 +45037,7 @@
         {
           "id": "mezame-no-rasen",
           "title_ja": "目醒めの螺旋",
-          "title_en": "Mezame no Rasen",
+          "title_en": "Mezame no Rasen (Spiral of Awakening)",
           "notes": "Catalogued from Discogs tracklist.",
           "writers": [
             "mana"
@@ -45050,7 +45050,7 @@
         {
           "id": "hamon-kyousoukyoku",
           "title_ja": "波紋 / 協奏曲",
-          "title_en": "Hamon / Kyousoukyoku",
+          "title_en": "Hamon / Kyousoukyoku (Ripple / Concerto)",
           "notes": "Catalogued from Discogs tracklist.",
           "writers": [
             "mana"
@@ -45063,7 +45063,7 @@
         {
           "id": "syunikiss",
           "title_ja": "Syunikiss～二度目の哀悼～",
-          "title_en": "Syunikiss ~Nidome no Aitou~",
+          "title_en": "Syunikiss ~Nidome no Aitou~ (Second Mourning)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -45076,7 +45076,7 @@
         {
           "id": "gekka-no-yasoukyoku",
           "title_ja": "月下の夜想曲",
-          "title_en": "Gekka no Yasoukyoku",
+          "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
           "notes": "",
           "writers": [
             "mana",
@@ -45090,8 +45090,8 @@
         },
         {
           "id": "bel-air",
-          "title_ja": "Bel Air",
-          "title_en": "Bel Air",
+          "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+          "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
           "notes": "",
           "writers": [
             "mana"
@@ -45104,7 +45104,7 @@
         {
           "id": "shi-no-butou",
           "title_ja": "死の舞踏～A Romance Of The \"Cendrillon\"～",
-          "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~",
+          "title_en": "Shi no Butou ~A Romance Of The \"Cendrillon\"~ (Dance of Death)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -45117,7 +45117,7 @@
         {
           "id": "aege-sugisarishi-kaze",
           "title_ja": "エーゲ～過ぎ去りし風と共に～",
-          "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~",
+          "title_en": "Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -45181,8 +45181,8 @@
         },
         {
           "id": "au-revoir",
-          "title_ja": "au revoir",
-          "title_en": "au revoir",
+          "title_ja": "Au Revoir",
+          "title_en": "Au Revoir",
           "notes": "",
           "writers": [
             "mana"
@@ -45194,8 +45194,8 @@
         },
         {
           "id": "ma-cherie",
-          "title_ja": "ma chérie ～愛しい君へ～",
-          "title_en": "ma chérie ~Itoshii Kimi e~",
+          "title_ja": "Ma Chérie～愛しい君へ～",
+          "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
           "notes": "",
           "writers": [
             "mana"
@@ -45929,7 +45929,7 @@
         {
           "id": "saikai-no-chi-to-bara",
           "title_ja": "再会の血と薔薇",
-          "title_en": "Saikai no Chi to Bara",
+          "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
           "notes": "",
           "writers": [
             "mana"
@@ -45942,7 +45942,7 @@
         {
           "id": "kyomu-no-naka-de-no-yugi",
           "title_ja": "虚無の中での遊戯",
-          "title_en": "Kyomu no Naka de no Yugi",
+          "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -45968,7 +45968,7 @@
         {
           "id": "kioku-to-sora",
           "title_ja": "記憶と空",
-          "title_en": "Kioku to Sora",
+          "title_en": "Kioku to Sora (Memory and Sky)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -45980,8 +45980,8 @@
         },
         {
           "id": "illuminati",
-          "title_ja": "ILLUMINATI",
-          "title_en": "ILLUMINATI",
+          "title_ja": "Illuminati",
+          "title_en": "Illuminati",
           "notes": "",
           "writers": [
             "mana",
@@ -45996,7 +45996,7 @@
         {
           "id": "apres-midi",
           "title_ja": "Apres Midi - あるパリの午後で",
-          "title_en": "Apres Midi ~Aru Pari no Gogo de~",
+          "title_en": "Apres Midi ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46009,7 +46009,7 @@
         {
           "id": "apres-midi-paris",
           "title_ja": "APRÈS MIDI～あるパリの午後で～",
-          "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~",
+          "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46021,8 +46021,8 @@
         },
         {
           "id": "bel-air",
-          "title_ja": "Bel Air",
-          "title_en": "Bel Air",
+          "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+          "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
           "notes": "",
           "writers": [
             "mana"
@@ -46035,7 +46035,7 @@
         {
           "id": "zencho",
           "title_ja": "～前兆～",
-          "title_en": "~Zencho~",
+          "title_en": "~Zencho~ (Omen)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46086,8 +46086,8 @@
         },
         {
           "id": "au-revoir",
-          "title_ja": "au revoir",
-          "title_en": "au revoir",
+          "title_ja": "Au Revoir",
+          "title_en": "Au Revoir",
           "notes": "",
           "writers": [
             "mana"
@@ -46099,8 +46099,8 @@
         },
         {
           "id": "ma-cherie",
-          "title_ja": "ma chérie ～愛しい君へ～",
-          "title_en": "ma chérie ~Itoshii Kimi e~",
+          "title_ja": "Ma Chérie～愛しい君へ～",
+          "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
           "notes": "",
           "writers": [
             "mana"
@@ -46207,7 +46207,7 @@
         {
           "id": "saikai-no-chi-to-bara",
           "title_ja": "再会の血と薔薇",
-          "title_en": "Saikai no Chi to Bara",
+          "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
           "notes": "",
           "writers": [
             "mana"
@@ -46220,7 +46220,7 @@
         {
           "id": "kyomu-no-naka-de-no-yugi",
           "title_ja": "虚無の中での遊戯",
-          "title_en": "Kyomu no Naka de no Yugi",
+          "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46246,7 +46246,7 @@
         {
           "id": "kioku-to-sora",
           "title_ja": "記憶と空",
-          "title_en": "Kioku to Sora",
+          "title_en": "Kioku to Sora (Memory and Sky)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46258,8 +46258,8 @@
         },
         {
           "id": "illuminati",
-          "title_ja": "ILLUMINATI",
-          "title_en": "ILLUMINATI",
+          "title_ja": "Illuminati",
+          "title_en": "Illuminati",
           "notes": "",
           "writers": [
             "mana",
@@ -46274,7 +46274,7 @@
         {
           "id": "apres-midi",
           "title_ja": "Apres Midi - あるパリの午後で",
-          "title_en": "Apres Midi ~Aru Pari no Gogo de~",
+          "title_en": "Apres Midi ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46287,7 +46287,7 @@
         {
           "id": "apres-midi-paris",
           "title_ja": "APRÈS MIDI～あるパリの午後で～",
-          "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~",
+          "title_en": "APRÈS MIDI ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46299,8 +46299,8 @@
         },
         {
           "id": "bel-air",
-          "title_ja": "Bel Air",
-          "title_en": "Bel Air",
+          "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+          "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
           "notes": "",
           "writers": [
             "mana"
@@ -46313,7 +46313,7 @@
         {
           "id": "zencho",
           "title_ja": "～前兆～",
-          "title_en": "~Zencho~",
+          "title_en": "~Zencho~ (Omen)",
           "notes": "Auto-created from Discogs sync (2026-07-05).",
           "writers": [
             "mana"
@@ -46364,8 +46364,8 @@
         },
         {
           "id": "au-revoir",
-          "title_ja": "au revoir",
-          "title_en": "au revoir",
+          "title_ja": "Au Revoir",
+          "title_en": "Au Revoir",
           "notes": "",
           "writers": [
             "mana"
@@ -46377,8 +46377,8 @@
         },
         {
           "id": "ma-cherie",
-          "title_ja": "ma chérie ～愛しい君へ～",
-          "title_en": "ma chérie ~Itoshii Kimi e~",
+          "title_ja": "Ma Chérie～愛しい君へ～",
+          "title_en": "Ma Chérie ~Itoshii Kimi e~ (To My Beloved)",
           "notes": "",
           "writers": [
             "mana"
@@ -46556,7 +46556,7 @@
       "song_detail": {
         "id": "gekka-no-yasoukyoku",
         "title_ja": "月下の夜想曲",
-        "title_en": "Gekka no Yasoukyoku",
+        "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
         "notes": "",
         "writers": [
           "mana",
@@ -46761,8 +46761,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
-        "title_ja": "Bel Air",
-        "title_en": "Bel Air",
+        "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+        "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
         "notes": "",
         "writers": [
           "mana"
@@ -46893,8 +46893,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
-        "title_ja": "Bel Air",
-        "title_en": "Bel Air",
+        "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+        "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
         "notes": "",
         "writers": [
           "mana"
@@ -46929,8 +46929,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
-        "title_ja": "Bel Air",
-        "title_en": "Bel Air",
+        "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+        "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
         "notes": "",
         "writers": [
           "mana"
@@ -46989,8 +46989,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
-        "title_ja": "Bel Air",
-        "title_en": "Bel Air",
+        "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+        "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
         "notes": "",
         "writers": [
           "mana"
@@ -47025,8 +47025,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
-        "title_ja": "Bel Air",
-        "title_en": "Bel Air",
+        "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+        "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
         "notes": "",
         "writers": [
           "mana"
@@ -47061,8 +47061,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "bel-air",
-        "title_ja": "Bel Air",
-        "title_en": "Bel Air",
+        "title_ja": "ヴェル・エール～空白の瞬間の中で～",
+        "title_en": "Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)",
         "notes": "",
         "writers": [
           "mana"
@@ -47097,8 +47097,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
-        "title_ja": "au revoir",
-        "title_en": "au revoir",
+        "title_ja": "Au Revoir",
+        "title_en": "Au Revoir",
         "notes": "",
         "writers": [
           "mana"
@@ -47157,8 +47157,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
-        "title_ja": "au revoir",
-        "title_en": "au revoir",
+        "title_ja": "Au Revoir",
+        "title_en": "Au Revoir",
         "notes": "",
         "writers": [
           "mana"
@@ -47193,8 +47193,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
-        "title_ja": "au revoir",
-        "title_en": "au revoir",
+        "title_ja": "Au Revoir",
+        "title_en": "Au Revoir",
         "notes": "",
         "writers": [
           "mana"
@@ -47229,8 +47229,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
-        "title_ja": "au revoir",
-        "title_en": "au revoir",
+        "title_ja": "Au Revoir",
+        "title_en": "Au Revoir",
         "notes": "",
         "writers": [
           "mana"
@@ -47265,8 +47265,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "au-revoir",
-        "title_ja": "au revoir",
-        "title_en": "au revoir",
+        "title_ja": "Au Revoir",
+        "title_en": "Au Revoir",
         "notes": "",
         "writers": [
           "mana"
@@ -47325,8 +47325,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
-        "title_ja": "Le ciel ～空白の彼方へ～",
-        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "title_ja": "Le Ciel～空白の彼方へ～",
+        "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
         "notes": "",
         "writers": [
           "mana"
@@ -47362,7 +47362,7 @@
       "song_detail": {
         "id": "gekka-no-yasoukyoku",
         "title_ja": "月下の夜想曲",
-        "title_en": "Gekka no Yasoukyoku",
+        "title_en": "Gekka no Yasoukyoku (Nocturne Under the Moon)",
         "notes": "",
         "writers": [
           "mana",
@@ -47569,8 +47569,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
-        "title_ja": "Le ciel ～空白の彼方へ～",
-        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "title_ja": "Le Ciel～空白の彼方へ～",
+        "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
         "notes": "",
         "writers": [
           "mana"
@@ -47605,8 +47605,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
-        "title_ja": "Le ciel ～空白の彼方へ～",
-        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "title_ja": "Le Ciel～空白の彼方へ～",
+        "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
         "notes": "",
         "writers": [
           "mana"
@@ -47641,8 +47641,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
-        "title_ja": "Le ciel ～空白の彼方へ～",
-        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "title_ja": "Le Ciel～空白の彼方へ～",
+        "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
         "notes": "",
         "writers": [
           "mana"
@@ -47677,8 +47677,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "le-ciel",
-        "title_ja": "Le ciel ～空白の彼方へ～",
-        "title_en": "Le ciel ~Kuuhaku no Kanata e~",
+        "title_ja": "Le Ciel～空白の彼方へ～",
+        "title_en": "Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)",
         "notes": "",
         "writers": [
           "mana"
@@ -47719,8 +47719,8 @@
       "trigger_warnings": [],
       "song_detail": {
         "id": "beast-of-blood",
-        "title_ja": "Beast of Blood",
-        "title_en": "Beast of Blood",
+        "title_ja": "Beast Of Blood",
+        "title_en": "Beast Of Blood",
         "notes": "",
         "writers": [
           "mana"
@@ -47762,7 +47762,7 @@
       "song_detail": {
         "id": "saikai-no-chi-to-bara",
         "title_ja": "再会の血と薔薇",
-        "title_en": "Saikai no Chi to Bara",
+        "title_en": "Saikai no Chi to Bara (Blood and Roses of Reunion)",
         "notes": "",
         "writers": [
           "mana"
@@ -47798,7 +47798,7 @@
       "song_detail": {
         "id": "kyomu-no-naka-de-no-yugi",
         "title_ja": "虚無の中での遊戯",
-        "title_en": "Kyomu no Naka de no Yugi",
+        "title_en": "Kyomu no Naka de no Yugi (Amusement in Nihilism)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"
@@ -47834,7 +47834,7 @@
       "song_detail": {
         "id": "shiroi-hada",
         "title_ja": "白い肌に狂う愛と哀しみの輪舞",
-        "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo",
+        "title_en": "Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven Mad by White Skin)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"
@@ -47936,7 +47936,7 @@
       "song_detail": {
         "id": "mayonaka-yakusoku",
         "title_ja": "真夜中に交わした約束",
-        "title_en": "Mayonaka ni Kawashita Yakusoku",
+        "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"
@@ -47978,7 +47978,7 @@
       "song_detail": {
         "id": "garnet",
         "title_ja": "Garnet～禁断の園へ～",
-        "title_en": "Garnet ~Kindan no Sono e~",
+        "title_en": "Garnet ~Kindan no Sono e~ (To the Forbidden Garden)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"
@@ -48014,7 +48014,7 @@
       "song_detail": {
         "id": "garnet",
         "title_ja": "Garnet～禁断の園へ～",
-        "title_en": "Garnet ~Kindan no Sono e~",
+        "title_en": "Garnet ~Kindan no Sono e~ (To the Forbidden Garden)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"
@@ -48050,7 +48050,7 @@
       "song_detail": {
         "id": "mayonaka-yakusoku",
         "title_ja": "真夜中に交わした約束",
-        "title_en": "Mayonaka ni Kawashita Yakusoku",
+        "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"
@@ -48086,7 +48086,7 @@
       "song_detail": {
         "id": "mayonaka-yakusoku",
         "title_ja": "真夜中に交わした約束",
-        "title_en": "Mayonaka ni Kawashita Yakusoku",
+        "title_en": "Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)",
         "notes": "Auto-created from Discogs sync (2026-07-05).",
         "writers": [
           "mana"

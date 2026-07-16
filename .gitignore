@@ -23,6 +23,7 @@ site/src/data/links_index.json
 
 # Research caches (vk.gy dumps, archive snapshots)
 scripts/research/.cache/
+scripts/research/.discogs_cache/
 
 # Full-resolution magazine scan masters (normalized copies live in images/scans/)
 images/scans-original/
