@@ -1,0 +1,1462 @@
+_meta:
+  description: Discogs-first language audit for song titles. proposed_title_en uses Romanization (Meaning)
+    only for japanese/mixed; french/english/other keep Discogs Latin form.
+  priority: single > album > compilation > video/misc
+songs:
+  '8':
+    discogs_title: →<<8>>←
+    language: other
+    proposed_title_ja: →<<8>>←
+    proposed_title_en: →<<8>>←
+    source_release: la-collection-merveilles-limited
+    source_kind: compilation
+    source_uri: https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-
+    in_catalog: true
+    also_seen_as:
+    - →>>8<<←
+    notes: keep Discogs Latin title; no forced gloss
+  aege-sugisarishi-kaze:
+    discogs_title: エーゲ～過ぎ去りし風と共に～
+    language: japanese
+    proposed_title_ja: エーゲ～過ぎ去りし風と共に～
+    proposed_title_en: Aege ~Sugisarishi Kaze to Tomo ni~ (Aegean ~With the Wind That Passed~)
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as:
+    - エーゲ〜過ぎ去りし風と共に〜
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  all-blood-shade-blood:
+    discogs_title: All Blood Shade Blood
+    language: english
+    proposed_title_ja: All Blood Shade Blood
+    proposed_title_en: All Blood Shade Blood
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  apr-s-midi:
+    discogs_title: APRÈS MIDI～あるパリの午後で～
+    language: mixed
+    proposed_title_ja: APRÈS MIDI～あるパリの午後で～
+    proposed_title_en: APRÈS MIDI ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)
+    source_release: uruwashii-kamen-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  apr-s-midi-e-style:
+    discogs_title: APRÈS MIDI～あるパリの午後で～(E-Style)
+    language: mixed
+    proposed_title_ja: APRÈS MIDI～あるパリの午後で～(E-Style)
+    proposed_title_en: APRÈS MIDI～あるパリの午後で～(E-Style)
+    source_release: uruwashii-kamen-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+    in_catalog: false
+    also_seen_as: []
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  apr-s-midi-instrument:
+    discogs_title: APRÈS MIDI～あるパリの午後で～(Instrument)
+    language: mixed
+    proposed_title_ja: APRÈS MIDI～あるパリの午後で～(Instrument)
+    proposed_title_en: APRÈS MIDI～あるパリの午後で～(Instrument)
+    source_release: uruwashii-kamen-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+    in_catalog: false
+    also_seen_as: []
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  apres-midi:
+    discogs_title: Apres Midi - あるパリの午後で
+    language: mixed
+    proposed_title_ja: Apres Midi - あるパリの午後で
+    proposed_title_en: Apres Midi ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  apres-midi-hidden-track:
+    discogs_title: Apres Midi (Hidden Track)
+    language: french
+    proposed_title_ja: Apres Midi (Hidden Track)
+    proposed_title_en: Apres Midi (Hidden Track)
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  ashes-to-ashes:
+    discogs_title: Ashes To Ashes
+    language: english
+    proposed_title_ja: Ashes To Ashes
+    proposed_title_en: Ashes To Ashes
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  au-revoir:
+    discogs_title: Au Revoir
+    language: french
+    proposed_title_ja: Au Revoir
+    proposed_title_en: Au Revoir
+    source_release: au-revoir-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483698-Malice-Mizer-Au-Revoir
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  au-revoir-bossa:
+    discogs_title: Au Revoir ～Bossa～
+    language: french
+    proposed_title_ja: Au Revoir ～Bossa～
+    proposed_title_en: Au Revoir ～Bossa～
+    source_release: au-revoir-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483698-Malice-Mizer-Au-Revoir
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  au-revoir-instrumental:
+    discogs_title: Au Revoir (Instrumental)
+    language: french
+    proposed_title_ja: Au Revoir (Instrumental)
+    proposed_title_en: Au Revoir (Instrumental)
+    source_release: au-revoir-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483698-Malice-Mizer-Au-Revoir
+    in_catalog: false
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  awawa:
+    discogs_title: AWaWA
+    language: other
+    proposed_title_ja: AWaWA
+    proposed_title_en: AWaWA
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  band-history-footage:
+    discogs_title: Band History Footage
+    language: english
+    proposed_title_ja: Band History Footage
+    proposed_title_en: Band History Footage
+    source_release: shinwa
+    source_kind: album
+    source_uri: https://www.discogs.com/release/2175459-Malice-Mizer-神話
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  baptism-of-blood:
+    discogs_title: Baptism Of Blood
+    language: english
+    proposed_title_ja: Baptism Of Blood
+    proposed_title_en: Baptism Of Blood
+    source_release: beast-of-blood-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2109013-Malice-Mizer-Beast-Of-Blood
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  bara-makuake:
+    discogs_title: 薔薇に彩られた悪意と悲劇の幕開け
+    language: japanese
+    proposed_title_ja: 薔薇に彩られた悪意と悲劇の幕開け
+    proposed_title_en: Bara ni Irodorareta Akui to Higeki no Makuake (A Prelude of Malice and Tragedy
+      Painted by the Rose)
+    source_release: bara-no-seidou
+    source_kind: album
+    source_uri: https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  bara-no-densho-prologue:
+    discogs_title: 薔薇の伝承 (序章)
+    language: japanese
+    proposed_title_ja: 薔薇の伝承 (序章)
+    proposed_title_en: Bara no Densho (Joshou) (Rose Legend — Prologue)
+    source_release: bara-no-densho
+    source_kind: video
+    source_uri: https://www.discogs.com/master/3454586-Malice-Mizer-薔薇の伝承-序章
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  bara-no-kiseki:
+    discogs_title: Bara No Kiseki
+    language: other
+    proposed_title_ja: Bara No Kiseki
+    proposed_title_en: Bara No Kiseki
+    source_release: bara-no-kiseki-dvd
+    source_kind: video
+    source_uri: https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  bara-no-senrei:
+    discogs_title: 薔薇の洗礼
+    language: japanese
+    proposed_title_ja: 薔薇の洗礼
+    proposed_title_en: Bara no Senrei (Baptism of Roses)
+    source_release: bara-makuake-video
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  bara-no-souretsu:
+    discogs_title: 薇の葬列
+    language: japanese
+    proposed_title_ja: 薇の葬列
+    proposed_title_en: Bara no Soretsu (Funeral Procession of Roses)
+    source_release: bara-makuake-video
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  baroque:
+    discogs_title: バロック
+    language: japanese
+    proposed_title_ja: バロック
+    proposed_title_en: Baroque
+    source_release: memoire-dx
+    source_kind: misc
+    source_uri: https://www.discogs.com/release/575231-Malice-Mizer-Memoire-DX
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  beast-of-blood:
+    discogs_title: Beast Of Blood
+    language: english
+    proposed_title_ja: Beast Of Blood
+    proposed_title_en: Beast Of Blood
+    source_release: beast-of-blood-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2109013-Malice-Mizer-Beast-Of-Blood
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  beast-of-blood-instrumental:
+    discogs_title: Beast Of Blood (Instrumental)
+    language: english
+    proposed_title_ja: Beast Of Blood (Instrumental)
+    proposed_title_en: Beast Of Blood (Instrumental)
+    source_release: beast-of-blood-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2109013-Malice-Mizer-Beast-Of-Blood
+    in_catalog: false
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  beast-of-blood-live:
+    discogs_title: Beast Of Blood (Live)
+    language: english
+    proposed_title_ja: Beast Of Blood (Live)
+    proposed_title_en: Beast Of Blood (Live)
+    source_release: cardinal
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222328-Malice-Mizer-Cardinal
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  beast-side:
+    discogs_title: Beast Side
+    language: other
+    proposed_title_ja: Beast Side
+    proposed_title_en: Beast Side
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  bel-air:
+    discogs_title: ヴェル・エール～空白の瞬間の中で～
+    language: japanese
+    proposed_title_ja: ヴェル・エール～空白の瞬間の中で～
+    proposed_title_en: Bel Air ~Kuuhaku no Shunkan no Naka de~ (In a Blank Moment)
+    source_release: bel-air-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で
+    in_catalog: true
+    also_seen_as:
+    - ヴェルエール - 空白の瞬間の中で
+    - ヴェル・エール~空白の瞬間の中で~
+    - ヴェル・エール〜空白の瞬間の中で〜
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  bluster:
+    discogs_title: Bluster
+    language: english
+    proposed_title_ja: Bluster
+    proposed_title_en: Bluster
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  bois-de-merveilles:
+    discogs_title: Bois De Merveilles
+    language: french
+    proposed_title_ja: Bois De Merveilles
+    proposed_title_en: Bois De Merveilles
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as:
+    - Bois de Merveilles
+    notes: keep Discogs Latin title; no forced gloss
+  breath-away-all-lies:
+    discogs_title: Breath Away All Lies
+    language: english
+    proposed_title_ja: Breath Away All Lies
+    proposed_title_en: Breath Away All Lies
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  brise:
+    discogs_title: Brise
+    language: french
+    proposed_title_ja: Brise
+    proposed_title_en: Brise
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  chi-nurareta-kajitsu:
+    discogs_title: 血塗られた果実
+    language: japanese
+    proposed_title_ja: 血塗られた果実
+    proposed_title_en: Chi Nurareta Kajitsu (Blood-stained Fruit)
+    source_release: bara-no-seidou
+    source_kind: album
+    source_uri: https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  chikasuimyaku-no-meiro:
+    discogs_title: 地下水脈の迷路
+    language: japanese
+    proposed_title_ja: 地下水脈の迷路
+    proposed_title_en: Chikasuimyaku no Meiro (Labyrinth of Underground Rivers)
+    source_release: bara-no-seidou
+    source_kind: album
+    source_uri: https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  claire-tsuki-no-shirabe:
+    discogs_title: Claire～月の調べ～
+    language: mixed
+    proposed_title_ja: Claire～月の調べ～
+    proposed_title_en: Claire ~Tsuki no Shirabe~ (Melody of the Moon)
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  color-me-blood-red:
+    discogs_title: Color Me Blood Red
+    language: english
+    proposed_title_ja: Color Me Blood Red
+    proposed_title_en: Color Me Blood Red
+    source_release: bel-air-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  colors:
+    discogs_title: Colors
+    language: english
+    proposed_title_ja: Colors
+    proposed_title_en: Colors
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  croix:
+    discogs_title: Croix
+    language: other
+    proposed_title_ja: Croix
+    proposed_title_en: Croix
+    source_release: sans-retour-voyage-derniere
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222590-Malice-Mizer-Sans-Retour-Voyage-Derniere-Encoure-Une-Fois
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  de-l-image:
+    discogs_title: 月下の夜想曲 De L’image
+    language: mixed
+    proposed_title_ja: 月下の夜想曲 De L’image
+    proposed_title_en: Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)
+    source_release: la-collection-des-singles
+    source_kind: compilation
+    source_uri: https://www.discogs.com/master/375579-Malice-Mizer-La-Collection-Des-Singles
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  de-limage:
+    discogs_title: 月下の夜想曲 De L'Image
+    language: mixed
+    proposed_title_ja: 月下の夜想曲 De L'Image
+    proposed_title_en: Gekka no Yasoukyoku De L'Image (Nocturne Under the Moon)
+    source_release: gekka-no-yasoukyoku-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483713-Malice-Mizer-月下の夜想曲
+    in_catalog: true
+    also_seen_as:
+    - ヴェル・エール～空白の瞬間の中で～De L'image～
+    - ヴェル・エール～空白の瞬間の中で～de l'image
+    - 月下の夜想曲 De L'image
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  de-memoire:
+    discogs_title: De Memoire
+    language: french
+    proposed_title_ja: De Memoire
+    proposed_title_en: De Memoire
+    source_release: memoire
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  de-merveilles:
+    discogs_title: ～De Merveilles
+    language: french
+    proposed_title_ja: ～De Merveilles
+    proposed_title_en: ～De Merveilles
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as:
+    - 〜de merveilles
+    notes: keep Discogs Latin title; no forced gloss
+  democracy:
+    discogs_title: Democracy
+    language: english
+    proposed_title_ja: Democracy
+    proposed_title_en: Democracy
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  despair-no-dream-no-hope:
+    discogs_title: Despair (No Dream, No Hope)
+    language: english
+    proposed_title_ja: Despair (No Dream, No Hope)
+    proposed_title_en: Despair (No Dream, No Hope)
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  dialogue-symphonie:
+    discogs_title: Dialogue Symphonie
+    language: other
+    proposed_title_ja: Dialogue Symphonie
+    proposed_title_en: Dialogue Symphonie
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  digest-video-footage-cooking-by-klaha-and-mana-qa-etc:
+    discogs_title: Digest Video Footage (Cooking by Klaha and Mana, Q&A, Etc.)
+    language: other
+    proposed_title_ja: Digest Video Footage (Cooking by Klaha and Mana, Q&A, Etc.)
+    proposed_title_en: Digest Video Footage (Cooking by Klaha and Mana, Q&A, Etc.)
+    source_release: societe-de-parente
+    source_kind: video
+    source_uri: https://www.discogs.com/release/15937484-Malice-Mizer-Socìété-De-Parenté-新たなる血族との響宴
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  en-se-en-lumiere:
+    discogs_title: (EN SE) En Lumiere
+    language: other
+    proposed_title_ja: (EN SE) En Lumiere
+    proposed_title_en: (EN SE) En Lumiere
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  float:
+    discogs_title: Float
+    language: english
+    proposed_title_ja: Float
+    proposed_title_en: Float
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  gardenia:
+    discogs_title: Gardenia
+    language: english
+    proposed_title_ja: Gardenia
+    proposed_title_en: Gardenia
+    source_release: gardenia-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231792-Malice-Mizer-Gardenia
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  gardenia-instrumental:
+    discogs_title: Gardenia (Instrumental)
+    language: english
+    proposed_title_ja: Gardenia (Instrumental)
+    proposed_title_en: Gardenia (Instrumental)
+    source_release: gardenia-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231792-Malice-Mizer-Gardenia
+    in_catalog: false
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  garnet:
+    discogs_title: Garnet～禁断の園へ～
+    language: mixed
+    proposed_title_ja: Garnet～禁断の園へ～
+    proposed_title_en: Garnet ~Kindan no Sono e~ (To the Forbidden Garden)
+    source_release: garnet-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  garnet-instrumental:
+    discogs_title: Garnet～禁断の園へ～ (Instrumental)
+    language: mixed
+    proposed_title_ja: Garnet～禁断の園へ～ (Instrumental)
+    proposed_title_en: Garnet～禁断の園へ～ (Instrumental)
+    source_release: garnet-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ
+    in_catalog: false
+    also_seen_as: []
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  gekka-no-yasoukyoku:
+    discogs_title: 月下の夜想曲
+    language: japanese
+    proposed_title_ja: 月下の夜想曲
+    proposed_title_en: Gekka no Yasoukyoku (Nocturne Under the Moon)
+    source_release: gekka-no-yasoukyoku-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483713-Malice-Mizer-月下の夜想曲
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  gensou-rakuen:
+    discogs_title: 幻想楽園
+    language: japanese
+    proposed_title_ja: 幻想楽園
+    proposed_title_en: Gensou Rakuen (Illusion Paradise)
+    source_release: garnet-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/1864907-Malice-Mizer-Garnet禁断の園へ
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  gi-to-da:
+    discogs_title: GI to DA
+    language: other
+    proposed_title_ja: GI to DA
+    proposed_title_en: GI to DA
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  glitter-waver:
+    discogs_title: Glitter Waver
+    language: other
+    proposed_title_ja: Glitter Waver
+    proposed_title_en: Glitter Waver
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  gogo-no-sasayaki:
+    discogs_title: 午後のささやき
+    language: japanese
+    proposed_title_ja: 午後のささやき
+    proposed_title_en: Gogo no Sasayaki (Afternoon Whisper)
+    source_release: memoire
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  hakai-no-hate:
+    discogs_title: 破誡の果て
+    language: japanese
+    proposed_title_ja: 破誡の果て
+    proposed_title_en: Hakai no Hate (Blasphemy's Culmination)
+    source_release: bara-no-seidou
+    source_kind: album
+    source_uri: https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  hamon-kyousoukyoku:
+    discogs_title: 波紋 / 協奏曲
+    language: japanese
+    proposed_title_ja: 波紋 / 協奏曲
+    proposed_title_en: Hamon / Kyousoukyoku (Ripple / Concerto)
+    source_release: la-collection-merveilles-limited
+    source_kind: compilation
+    source_uri: https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-
+    in_catalog: true
+    also_seen_as:
+    - 波紋／協奏曲
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  houkai-jokyoku:
+    discogs_title: 崩壊序曲
+    language: japanese
+    proposed_title_ja: 崩壊序曲
+    proposed_title_en: Houkai Jokyoku (Overture of Collapse)
+    source_release: bara-makuake-video
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  illuminati:
+    discogs_title: Illuminati
+    language: english
+    proposed_title_ja: Illuminati
+    proposed_title_en: Illuminati
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  illuminati-p-type:
+    discogs_title: Illuminati [P-Type]
+    language: english
+    proposed_title_ja: Illuminati [P-Type]
+    proposed_title_en: Illuminati [P-Type]
+    source_release: illuminati-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati
+    in_catalog: true
+    also_seen_as:
+    - Illuminati (P-Type)
+    notes: keep Discogs Latin title; no forced gloss
+  illuminati-p-type-instrumental:
+    discogs_title: Illuminati [P-Type Instrumental]
+    language: english
+    proposed_title_ja: Illuminati [P-Type Instrumental]
+    proposed_title_en: Illuminati [P-Type Instrumental]
+    source_release: illuminati-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati
+    in_catalog: false
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  ino-no-rumania:
+    discogs_title: 古のルーマニア
+    language: japanese
+    proposed_title_ja: 古のルーマニア
+    proposed_title_en: Inishie no Rumania (Ancient Romania)
+    source_release: sans-retour-voyage-derniere
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222590-Malice-Mizer-Sans-Retour-Voyage-Derniere-Encoure-Une-Fois
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  instrument:
+    discogs_title: 麗しき仮面の招待状(Instrument)
+    language: mixed
+    proposed_title_ja: 麗しき仮面の招待状(Instrument)
+    proposed_title_en: 麗しき仮面の招待状(Instrument)
+    source_release: uruwashii-kamen-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+    in_catalog: false
+    also_seen_as: []
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  instrumental:
+    discogs_title: ヴェル・エール～空白の瞬間の中で～ (Instrumental)
+    language: mixed
+    proposed_title_ja: ヴェル・エール～空白の瞬間の中で～ (Instrumental)
+    proposed_title_en: ヴェル・エール～空白の瞬間の中で～ (Instrumental)
+    source_release: bel-air-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231779-Malice-Mizer-ヴェルエール空白の瞬間の中で
+    in_catalog: false
+    also_seen_as:
+    - 地下水脈の迷路 (Instrumental)
+    - 崩壞序曲 (Instrumental)
+    - 幻想楽園 (Instrumental)
+    - 月下の夜想曲 (Instrumental)
+    - 白い肌に狂う愛と哀しみの輪舞 (Instrumental)
+    - 真夜中に交わした約束 (Instrumental)
+    - 聖なる刻　永遠の祈り (Instrumental)
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  interview:
+    discogs_title: Interview
+    language: english
+    proposed_title_ja: Interview
+    proposed_title_en: Interview
+    source_release: bara-no-kiseki-dvd
+    source_kind: video
+    source_uri: https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  itsuwari-no-musette:
+    discogs_title: 偽りのMusetté
+    language: mixed
+    proposed_title_ja: 偽りのMusetté
+    proposed_title_en: Itsuwari no Musetté (False Musette)
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  jirenma:
+    discogs_title: ジレンマ
+    language: japanese
+    proposed_title_ja: ジレンマ
+    proposed_title_en: Jirenma (Dilemma)
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  ju-te-veux:
+    discogs_title: Ju Te Veux
+    language: french
+    proposed_title_ja: Ju Te Veux
+    proposed_title_en: Ju Te Veux
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  kagami-no-butou:
+    discogs_title: 鏡の舞踏　幻惑の夜
+    language: japanese
+    proposed_title_ja: 鏡の舞踏　幻惑の夜
+    proposed_title_en: Kagami no Butou Genwaku no Yoru (Mirror Dance, Night of Bewitchment)
+    source_release: bara-no-seidou
+    source_kind: album
+    source_uri: https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+    in_catalog: true
+    also_seen_as:
+    - 鏡の舞踏 幻惑の夜
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  kioku-to-sora:
+    discogs_title: 記憶と空
+    language: japanese
+    proposed_title_ja: 記憶と空
+    proposed_title_en: Kioku to Sora (Memory and Sky)
+    source_release: memoire
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  kioku-to-sora-saikai-yakusoku:
+    discogs_title: 記憶と空～再会そして約束～
+    language: japanese
+    proposed_title_ja: 記憶と空～再会そして約束～
+    proposed_title_en: Kioku to Sora ~Saikai Soshite Yakusoku~ (Memory and Sky ~Reunion and Promise~)
+    source_release: bara-makuake-video
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  kyomu-no-naka-de-no-yugi:
+    discogs_title: 虚無の中での遊戯
+    language: japanese
+    proposed_title_ja: 虚無の中での遊戯
+    proposed_title_en: Kyomu no Naka de no Yugi (Amusement in Nihilism)
+    source_release: kyomu-no-naka-de-no-yugi-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/3123438-Malice-Mizer-虚無の中での遊戯
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  lafflesia-live-at-club-gio-1993-sept-13th:
+    discogs_title: Lafflesia (Live At Club Gio, 1993, Sept. 13th)
+    language: other
+    proposed_title_ja: Lafflesia (Live At Club Gio, 1993, Sept. 13th)
+    proposed_title_en: Lafflesia (Live At Club Gio, 1993, Sept. 13th)
+    source_release: the-1th-anniversary
+    source_kind: misc
+    source_uri: https://www.discogs.com/release/2610648-Malice-Mizer-The-1th-Anniversary
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  last-train:
+    discogs_title: Last Train
+    language: english
+    proposed_title_ja: Last Train
+    proposed_title_en: Last Train
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  le-ciel:
+    discogs_title: Le Ciel～空白の彼方へ～
+    language: mixed
+    proposed_title_ja: Le Ciel～空白の彼方へ～
+    proposed_title_en: Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond)
+    source_release: le-ciel-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/3724368-Malice-Mizer-Le-Ciel空白の彼方へ
+    in_catalog: true
+    also_seen_as:
+    - Le Ciel
+    - Le Ciel ～空白の彼方へ～
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  le-ciel-instrumental:
+    discogs_title: Le Ciel～空白の彼方へ～ (Instrumental)
+    language: mixed
+    proposed_title_ja: Le Ciel～空白の彼方へ～ (Instrumental)
+    proposed_title_en: Le Ciel ~Kuuhaku no Kanata e~ (To the Blank Beyond) (Instrumental)
+    source_release: le-ciel-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/3724368-Malice-Mizer-Le-Ciel空白の彼方へ
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  lunar-maria:
+    discogs_title: Lunar Maria
+    language: other
+    proposed_title_ja: Lunar Maria
+    proposed_title_en: Lunar Maria
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  ma-ch-rie:
+    discogs_title: Ma Chérie ~愛しい君へ~
+    language: mixed
+    proposed_title_ja: Ma Chérie ~愛しい君へ~
+    proposed_title_en: Ma Chérie ~Itoshii Kimi e~ (To My Beloved)
+    source_release: la-meilleur-selection
+    source_kind: compilation
+    source_uri: https://www.discogs.com/release/8708164-Malice-Mizer-La-Meilleur-Selection-De-Malice-Mizer
+    in_catalog: true
+    also_seen_as:
+    - Ma Chérie - 愛しい君へ
+    - Ma Chérie 〜愛しい君へ〜
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  ma-ch-rie-instrumental:
+    discogs_title: Ma Chérie～愛しい君へ～ (Instrumental)
+    language: mixed
+    proposed_title_ja: Ma Chérie～愛しい君へ～ (Instrumental)
+    proposed_title_en: Ma Chérie～愛しい君へ～ (Instrumental)
+    source_release: ma-cherie-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ
+    in_catalog: false
+    also_seen_as: []
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  ma-cherie:
+    discogs_title: Ma Chérie～愛しい君へ～
+    language: mixed
+    proposed_title_ja: Ma Chérie～愛しい君へ～
+    proposed_title_en: Ma Chérie ~Itoshii Kimi e~ (To My Beloved)
+    source_release: ma-cherie-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  madrigal:
+    discogs_title: Madrigal
+    language: french
+    proposed_title_ja: Madrigal
+    proposed_title_en: Madrigal
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  mayonaka-yakusoku:
+    discogs_title: 真夜中に交わした約束
+    language: japanese
+    proposed_title_ja: 真夜中に交わした約束
+    proposed_title_en: Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight)
+    source_release: mayonaka-yakusoku-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2496481-Malice-Mizer-真夜中に交わした約束薔薇の婚礼
+    in_catalog: true
+    also_seen_as:
+    - 真夜中に交わした約束～薔薇の婚礼～
+    - 薔薇の婚礼～真夜中に交わした約束～
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  menou-pierrot:
+    discogs_title: Menou Pierrot
+    language: other
+    proposed_title_ja: Menou Pierrot
+    proposed_title_en: Menou Pierrot
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  mezame-no-rasen:
+    discogs_title: 目醒めの螺旋
+    language: japanese
+    proposed_title_ja: 目醒めの螺旋
+    proposed_title_en: Mezame no Rasen (Spiral of Awakening)
+    source_release: la-collection-merveilles-limited
+    source_kind: compilation
+    source_uri: https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  mihwaku-no-roma:
+    discogs_title: 魅惑のローマ
+    language: japanese
+    proposed_title_ja: 魅惑のローマ
+    proposed_title_en: Miwaku no Roma (Enchanting Rome)
+    source_release: memoire
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  mori-no-naka-no-tenshi:
+    discogs_title: 森の中の天使
+    language: japanese
+    proposed_title_ja: 森の中の天使
+    proposed_title_en: Mori no Naka no Tenshi (Angels in the Woods)
+    source_release: shinwa
+    source_kind: album
+    source_uri: https://www.discogs.com/release/2175459-Malice-Mizer-神話
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  music-clip-shooting:
+    discogs_title: Music Clip Shooting
+    language: other
+    proposed_title_ja: Music Clip Shooting
+    proposed_title_en: Music Clip Shooting
+    source_release: beast-of-blood-de-limage
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222381-Malice-Mizer-Beast-Of-Blood-De-LImage
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  n-p-s-n-g-s:
+    discogs_title: N・p・s N・g・s
+    language: mixed
+    proposed_title_ja: N・p・s N・g・s
+    proposed_title_en: N.p.s N.g.s (No Pains No Gains)
+    source_release: la-meilleur-selection
+    source_kind: compilation
+    source_uri: https://www.discogs.com/release/8708164-Malice-Mizer-La-Meilleur-Selection-De-Malice-Mizer
+    in_catalog: true
+    also_seen_as:
+    - N・p・s　N・g・s
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  n-p-s-n-g-s-n-type:
+    discogs_title: N・p・s N・g・s [N-type]
+    language: mixed
+    proposed_title_ja: N・p・s N・g・s [N-type]
+    proposed_title_en: N.p.s N.g.s [N-type] (No Pains No Gains)
+    source_release: illuminati-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/2483704-Malice-Mizer-Illuminati
+    in_catalog: true
+    also_seen_as:
+    - N・p・s N・g・s (N-Type)
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  night-walk:
+    discogs_title: Night Walk
+    language: english
+    proposed_title_ja: Night Walk
+    proposed_title_en: Night Walk
+    source_release: braintrash
+    source_kind: misc
+    source_uri: https://www.discogs.com/master/3663375-Various-Braintrash
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  nps-ngs:
+    discogs_title: N.p.s N.g.s. ～No Pains No Gains～
+    language: english
+    proposed_title_ja: N.p.s N.g.s. ～No Pains No Gains～
+    proposed_title_en: N.p.s N.g.s. ～No Pains No Gains～
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as:
+    - N.p.s N.g.s
+    notes: keep Discogs Latin title; no forced gloss
+  op-se-en-lumiere:
+    discogs_title: (OP SE) En Lumiere
+    language: other
+    proposed_title_ja: (OP SE) En Lumiere
+    proposed_title_en: (OP SE) En Lumiere
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  premier-amour:
+    discogs_title: Premier Amour
+    language: french
+    proposed_title_ja: Premier Amour
+    proposed_title_en: Premier Amour
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  prologue:
+    discogs_title: Prologue ~回想~
+    language: mixed
+    proposed_title_ja: Prologue ~回想~
+    proposed_title_en: Prologue ~回想~
+    source_release: gardenia-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231792-Malice-Mizer-Gardenia
+    in_catalog: false
+    also_seen_as: []
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  prologue-gardenia:
+    discogs_title: Prologue - 回想 - Gardenia
+    language: mixed
+    proposed_title_ja: Prologue - 回想 - Gardenia
+    proposed_title_en: Prologue - Kaisou - Gardenia (Recollection)
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  pv-short-version:
+    discogs_title: PV Short Version
+    language: other
+    proposed_title_ja: PV Short Version
+    proposed_title_en: PV Short Version
+    source_release: bara-no-kiseki-dvd
+    source_kind: video
+    source_uri: https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  regret:
+    discogs_title: Regret
+    language: other
+    proposed_title_ja: Regret
+    proposed_title_en: Regret
+    source_release: ma-cherie-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/620985-Malice-Mizer-Ma-Chérie愛しい君へ
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  s-conscious:
+    discogs_title: S-Conscious
+    language: english
+    proposed_title_ja: S-Conscious
+    proposed_title_en: S-Conscious
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  sadness-i-know-the-reason-for-her-sadness:
+    discogs_title: Sadness～I Know The Reason For Her Sadness
+    language: french
+    proposed_title_ja: Sadness～I Know The Reason For Her Sadness
+    proposed_title_en: Sadness～I Know The Reason For Her Sadness
+    source_release: sans-logique
+    source_kind: misc
+    source_uri: https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique
+    in_catalog: true
+    also_seen_as:
+    - Sadness ～I Know The Reason For Her Sadness～
+    notes: keep Discogs Latin title; no forced gloss
+  saikai:
+    discogs_title: 再会
+    language: japanese
+    proposed_title_ja: 再会
+    proposed_title_en: Saikai (Reunion)
+    source_release: shinwa
+    source_kind: album
+    source_uri: https://www.discogs.com/release/2175459-Malice-Mizer-神話
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  saikai-no-chi-to-bara:
+    discogs_title: 再会の血と薔薇
+    language: japanese
+    proposed_title_ja: 再会の血と薔薇
+    proposed_title_en: Saikai no Chi to Bara (Blood and Roses of Reunion)
+    source_release: saikai-no-chi-to-bara-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/219965-Malice-Mizer-再会の血と薔薇
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  seinaru-toki:
+    discogs_title: 聖なる刻　永遠の祈り
+    language: japanese
+    proposed_title_ja: 聖なる刻　永遠の祈り
+    proposed_title_en: Seinaru Toki Eien no Inori (Holy Time, Eternal Prayer)
+    source_release: bara-no-seidou
+    source_kind: album
+    source_uri: https://www.discogs.com/master/219966-Malice-Mizer-薔薇の聖堂
+    in_catalog: true
+    also_seen_as:
+    - 聖なる刻 永遠の祈り
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  seraph:
+    discogs_title: Seraph
+    language: french
+    proposed_title_ja: Seraph
+    proposed_title_en: Seraph
+    source_release: memoire
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  shi-no-butou:
+    discogs_title: 死の舞踏～A Romance Of The "Cendrillon"～
+    language: mixed
+    proposed_title_ja: 死の舞踏～A Romance Of The "Cendrillon"～
+    proposed_title_en: Shi no Butou ~A Romance Of The "Cendrillon"~ (Dance of Death)
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as:
+    - 死の舞踏
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  shiroi-hada:
+    discogs_title: 白い肌に狂う愛と哀しみの輪舞
+    language: japanese
+    proposed_title_ja: 白い肌に狂う愛と哀しみの輪舞
+    proposed_title_en: Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven
+      Mad by White Skin)
+    source_release: shiroi-hada-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/3158217-Malice-Mizer-白い肌に狂う愛と哀しみの輪舞
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  shuumaku-e-no-tobira:
+    discogs_title: 終幕への扉
+    language: japanese
+    proposed_title_ja: 終幕への扉
+    proposed_title_en: Shuumaku e no Tobira (Door to the Finale)
+    source_release: sans-logique
+    source_kind: misc
+    source_uri: https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  silence:
+    discogs_title: (silence)
+    language: other
+    proposed_title_ja: (silence)
+    proposed_title_en: (silence)
+    source_release: uruwashii-kamen-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+    in_catalog: false
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  solitude:
+    discogs_title: Solitude
+    language: other
+    proposed_title_ja: Solitude
+    proposed_title_en: Solitude
+    source_release: deep-sanctuary-vi
+    source_kind: video
+    source_uri: https://www.discogs.com/release/13852986-Malice-Mizer-Deep-Sanctuary-VI-Live-At-Toyosu-Pit-September-9-Malice-Mizer-25th-Anniversary-Special
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  speed-of-desperate:
+    discogs_title: Speed Of Desperate
+    language: english
+    proposed_title_ja: Speed Of Desperate
+    proposed_title_en: Speed Of Desperate
+    source_release: sans-logique
+    source_kind: misc
+    source_uri: https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique
+    in_catalog: true
+    also_seen_as:
+    - Speed of Desperate
+    notes: keep Discogs Latin title; no forced gloss
+  syunikiss:
+    discogs_title: Syunikiss～二度目の哀悼～
+    language: mixed
+    proposed_title_ja: Syunikiss～二度目の哀悼～
+    proposed_title_en: Syunikiss ~Nidome no Aitou~ (Second Mourning)
+    source_release: merveilles
+    source_kind: album
+    source_uri: https://www.discogs.com/master/558472-Malice-Mizer-Merveilles
+    in_catalog: true
+    also_seen_as:
+    - Syunikiss ~二度目の哀悼~
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  temptation-of-widow:
+    discogs_title: Temptation Of Widow
+    language: english
+    proposed_title_ja: Temptation Of Widow
+    proposed_title_en: Temptation Of Widow
+    source_release: sans-logique
+    source_kind: misc
+    source_uri: https://www.discogs.com/release/2175422-Malice-Mizer-Sans-Logique
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  the-vault-of-heaven:
+    discogs_title: エーゲ海に捧ぐ ~ The Vault Of Heaven ~
+    language: mixed
+    proposed_title_ja: エーゲ海に捧ぐ ~ The Vault Of Heaven ~
+    proposed_title_en: Aege Kai ni Sasagu ~ The Vault Of Heaven ~ (Dedicated to the Aegean Sea)
+    source_release: memoire
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231763-Malice-Mizer-Memoire
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  transylvania:
+    discogs_title: Transylvania
+    language: french
+    proposed_title_ja: Transylvania
+    proposed_title_en: Transylvania
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  tsuioku-no-hahen:
+    discogs_title: 追憶の破片～A Piece Of Broken Recollection～
+    language: mixed
+    proposed_title_ja: 追憶の破片～A Piece Of Broken Recollection～
+    proposed_title_en: Tsuioku no Hahen ~A Piece Of Broken Recollection~ (Fragments of Recollection)
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as:
+    - 追憶の破片
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  tv-cm:
+    discogs_title: TV CM
+    language: other
+    proposed_title_ja: TV CM
+    proposed_title_en: TV CM
+    source_release: bara-no-kiseki-dvd
+    source_kind: video
+    source_uri: https://www.discogs.com/release/9162673-Malice-Mizer-薔薇の軌跡
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  tv-documentary:
+    discogs_title: TV Documentary
+    language: english
+    proposed_title_ja: TV Documentary
+    proposed_title_en: TV Documentary
+    source_release: la-collection-merveilles-limited
+    source_kind: compilation
+    source_uri: https://www.discogs.com/release/4590940-Malice-Mizer-La-Collection-Merveilles-Lédition-Limitée-
+    in_catalog: true
+    also_seen_as: []
+    notes: keep Discogs Latin title; no forced gloss
+  unknown-track:
+    discogs_title: 崩壞序曲
+    language: japanese
+    proposed_title_ja: 崩壞序曲
+    proposed_title_en: 崩壞序曲
+    source_release: gardenia-single
+    source_kind: single
+    source_uri: https://www.discogs.com/master/231792-Malice-Mizer-Gardenia
+    in_catalog: true
+    also_seen_as:
+    - 薔薇の葬列
+    notes: 'NEEDS_MEANING: japanese/mixed not yet editorialized'
+    needs_meaning: true
+  unmei-no-deai:
+    discogs_title: 運命の出会い
+    language: japanese
+    proposed_title_ja: 運命の出会い
+    proposed_title_en: Unmei no Deai (Meeting with Fate)
+    source_release: shinwa
+    source_kind: album
+    source_uri: https://www.discogs.com/release/2175459-Malice-Mizer-神話
+    in_catalog: true
+    also_seen_as:
+    - 運命の出会
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  uruwashii-kamen:
+    discogs_title: 麗しき仮面の招待状
+    language: japanese
+    proposed_title_ja: 麗しき仮面の招待状
+    proposed_title_en: Uruwashiki Kamen no Shoutaijou (Invitation of the Beautiful Mask)
+    source_release: uruwashii-kamen-single
+    source_kind: single
+    source_uri: https://www.discogs.com/release/2175441-Malice-Mizer-麗しき仮面の招待状
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  yakusoku:
+    discogs_title: 約束
+    language: japanese
+    proposed_title_ja: 約束
+    proposed_title_en: Yakusoku (Promise)
+    source_release: bara-makuake-video
+    source_kind: video
+    source_uri: https://www.discogs.com/master/1222317-Malice-Mizer-薔薇に彩られた悪意と悲劇の幕開け
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  yami-no-kanata-e:
+    discogs_title: 闇の彼方へ～
+    language: japanese
+    proposed_title_ja: 闇の彼方へ～
+    proposed_title_en: Yami no Kanata e~ (To the Far Side of Darkness)
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as: []
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  zencho:
+    discogs_title: ～前兆～
+    language: japanese
+    proposed_title_ja: ～前兆～
+    proposed_title_en: ~Zencho~ (Omen)
+    source_release: voyage-sans-retour
+    source_kind: album
+    source_uri: https://www.discogs.com/master/231776-Malice-Mizer-Voyage-Sans-Retour
+    in_catalog: true
+    also_seen_as:
+    - 前兆
+    notes: editorial Romanization (Meaning) from Discogs language audit
+  aege-kai-ni-sasagu:
+    discogs_title: エーゲ海に捧ぐ ~ The Vault Of Heaven ~
+    language: japanese
+    proposed_title_ja: エーゲ海に捧ぐ ~ The Vault Of Heaven ~
+    proposed_title_en: Aege Kai ni Sasagu ~ The Vault Of Heaven ~ (Dedicated to the Aegean Sea)
+    source_release: derived
+    source_kind: derived
+    source_uri: ''
+    in_catalog: true
+    also_seen_as: []
+    notes: derived from parent / catalog; not a separate Discogs heading
+  mayonaka-yakusoku-instrumental:
+    discogs_title: 真夜中に交わした約束 (Instrumental)
+    language: japanese
+    proposed_title_ja: 真夜中に交わした約束 (Instrumental)
+    proposed_title_en: Mayonaka ni Kawashita Yakusoku (Promises Exchanged at Midnight) (Instrumental)
+    source_release: derived
+    source_kind: derived
+    source_uri: ''
+    in_catalog: true
+    also_seen_as: []
+    notes: derived from parent / catalog; not a separate Discogs heading
+  shiroi-hada-instrumental:
+    discogs_title: 白い肌に狂う愛と哀しみの輪舞 (Instrumental)
+    language: japanese
+    proposed_title_ja: 白い肌に狂う愛と哀しみの輪舞 (Instrumental)
+    proposed_title_en: Shiroi Hada ni Kuruu Ai to Kanashimi no Rondo (Rondo of Love and Sadness Driven
+      Mad by White Skin) (Instrumental)
+    source_release: derived
+    source_kind: derived
+    source_uri: ''
+    in_catalog: true
+    also_seen_as: []
+    notes: derived from parent / catalog; not a separate Discogs heading
+  apres-midi-paris:
+    discogs_title: APRÈS MIDI～あるパリの午後で～
+    language: japanese
+    proposed_title_ja: APRÈS MIDI～あるパリの午後で～
+    proposed_title_en: APRÈS MIDI ~Aru Pari no Gogo de~ (On a Certain Paris Afternoon)
+    source_release: derived
+    source_kind: derived
+    source_uri: ''
+    in_catalog: true
+    also_seen_as: []
+    notes: derived from parent / catalog; not a separate Discogs heading
+  nps-ngs-n-type:
+    discogs_title: N・p・s N・g・s [N-type]
+    language: japanese
+    proposed_title_ja: N・p・s N・g・s [N-type]
+    proposed_title_en: N.p.s N.g.s [N-type] (No Pains No Gains)
+    source_release: derived
+    source_kind: derived
+    source_uri: ''
+    in_catalog: true
+    also_seen_as: []
+    notes: derived from parent / catalog; not a separate Discogs heading
+  prologue-kaisou:
+    discogs_title: Prologue ~回想~
+    language: japanese
+    proposed_title_ja: Prologue ~回想~
+    proposed_title_en: Prologue ~Kaisou~ (Recollection)
+    source_release: derived
+    source_kind: derived
+    source_uri: ''
+    in_catalog: true
+    also_seen_as: []
+    notes: derived from parent / catalog; not a separate Discogs heading
