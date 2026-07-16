@@ -23,7 +23,7 @@ const BIO_LINKS: BioLinkEntry[] = [
   { label: "Moi-même-Moitié", href: "https://www.manam-ss.com/", external: true },
   { label: "Moi dix Mois", href: "https://www.moixdismois.com/", external: true },
   { label: "Afro Skull Records", href: "https://www.afroskull.com/", external: true },
-  { label: "Midi:Nette", href: "http://www.midi-nette.com/", external: true },
+  { label: "Midi:Nette", href: "https://midi-nette.shop-pro.jp/", external: true },
   { label: "Eve of Destiny", href: "https://kozi-web.com/", external: true },
 
   // Tetsu post-MM projects (Afro Skull umbrella)
