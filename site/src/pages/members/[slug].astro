@@ -4,11 +4,15 @@ import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import Base from "../../layouts/Base.astro";
 import archive from "../../data/archive.json";
 import { memberEraLabels } from "../../lib/memberEras.ts";
+import { absoluteUrl, SITE_URL } from "../../lib/seo";
 
 type PersonProfile = {
   id: string;
   name?: { romanized?: string; original?: string };
   era?: string | null;
+  role?: string;
+  years_active?: string;
+  active?: string | string[];
   [key: string]: unknown;
 };
 
@@ -29,10 +33,26 @@ const entityId = profile?.id ?? `person_${slug}`;
 const memberDescription = profile
   ? `${title} — Malice Mizer ${profile.role ?? "member"} (${profile.years_active ?? "1992–2001"}). Band biography, photos, and linked archive entries.`
   : undefined;
+const memberJsonLd = profile
+  ? {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: title,
+      alternateName: profile.name?.original,
+      description: memberDescription,
+      jobTitle: profile.role,
+      url: absoluteUrl(`/members/${slug}`, Astro.site?.href ?? SITE_URL),
+      memberOf: {
+        "@type": "MusicGroup",
+        name: "Malice Mizer",
+        url: SITE_URL,
+      },
+    }
+  : undefined;
 ---
 
 {profile ? (
-  <Base title={title} description={memberDescription} type="profile">
+  <Base title={title} description={memberDescription} type="profile" jsonLd={memberJsonLd}>
     <Breadcrumbs
       items={[
         { label: "Members", href: "/members" },

@@ -6,7 +6,13 @@ import ProfileMeta from "../components/ProfileMeta.astro";
 import StatCard from "../components/StatCard.astro";
 import Base from "../layouts/Base.astro";
 import archive from "../data/archive.json";
-import { absoluteUrl, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "../lib/seo";
+import {
+  absoluteUrl,
+  DEFAULT_DESCRIPTION,
+  SITE_NAME,
+  SITE_SHORT_NAME,
+  SITE_URL,
+} from "../lib/seo";
 import { memberEraLabels } from "../lib/memberEras.ts";
 import { memberPortraitForSlug } from "../lib/memberPortrait.ts";
 import { translationSlug } from "../lib/translations.ts";
@@ -83,12 +89,14 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
+    alternateName: [SITE_SHORT_NAME, "mizermaxxer"],
     url: SITE_URL,
     description: DEFAULT_DESCRIPTION,
-    inLanguage: "en",
+    inLanguage: ["en", "ja"],
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
+      alternateName: SITE_SHORT_NAME,
       url: SITE_URL,
     },
   },
@@ -101,6 +109,10 @@ const jsonLd = [
     foundingDate: "1992",
     dissolutionDate: "2001",
     url: SITE_URL,
+    sameAs: [
+      "https://vk.gy/artists/malice-mizer/",
+      "https://malice-mizer.info/",
+    ],
     image: absoluteUrl("/images/members/hero.webp"),
     description:
       "Japanese visual kei band active 1992–2001, known for theatrical performances and albums including Merveilles and Bara no Seidou.",
@@ -108,16 +120,13 @@ const jsonLd = [
 ];
 ---
 
-<Base
-  title="Bibliography"
-  description={DEFAULT_DESCRIPTION}
-  jsonLd={jsonLd}
->
-  <h1 class="page-heading visually-hidden">Bibliography</h1>
+<Base description={DEFAULT_DESCRIPTION} jsonLd={jsonLd}>
   <section class="hero hero--split">
     <div class="hero__intro">
-      <h2 class="hero__title">MALICE MIZER</h2>
-      <p class="hero__tagline">Band archive · print, discography & live history · 1992–2001</p>
+      <h1 class="hero__title">MALICE MIZER</h1>
+      <p class="hero__tagline">
+        Archive · magazines, discography &amp; live history · 1992–2001
+      </p>
     </div>
     <figure class="hero__figure">
       <img
@@ -284,16 +293,3 @@ const jsonLd = [
   });
 </script>
 
-<style>
-  .page-heading.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
-</style>

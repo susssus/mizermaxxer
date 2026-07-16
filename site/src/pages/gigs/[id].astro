@@ -6,6 +6,7 @@ import NotFound from "../../components/NotFound.astro";
 import TriggerWarning from "../../components/TriggerWarning.astro";
 import archive from "../../data/archive.json";
 import { concertEntityHref, personEntityHref, songEntityHref, venueEntityHref } from "../../lib/entities.ts";
+import { absoluteUrl, SITE_URL } from "../../lib/seo";
 
 export function getStaticPaths() {
   return archive.concerts.map((concert) => ({ params: { id: concert.id } }));
@@ -27,10 +28,34 @@ const gigDescription = concert
   : undefined;
 const venueEntity = concert?.venue ? venueEntityHref(concert.venue) : null;
 const concertEntity = concert ? concertEntityHref(concert.id) : null;
+const venueName = concert?.venue_detail?.name_en ?? concert?.venue;
+const gigJsonLd = concert
+  ? {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      name: gigTitle,
+      alternateName: concert.event_name_ja,
+      description: gigDescription,
+      startDate: concert.date,
+      url: absoluteUrl(`/gigs/${concert.id}`, Astro.site?.href ?? SITE_URL),
+      performer: { "@type": "MusicGroup", name: "Malice Mizer", url: SITE_URL },
+      ...(venueName
+        ? {
+            location: {
+              "@type": "Place",
+              name: venueName,
+              ...(concert.venue_detail?.name_ja
+                ? { alternateName: concert.venue_detail.name_ja }
+                : {}),
+            },
+          }
+        : {}),
+    }
+  : undefined;
 ---
 
 {concert ? (
-  <Base title={gigTitle} description={gigDescription} type="article">
+  <Base title={gigTitle} description={gigDescription} type="article" jsonLd={gigJsonLd}>
     <Breadcrumbs
       items={[
         { label: "Gigs", href: "/gigs" },

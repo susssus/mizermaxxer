@@ -12,6 +12,7 @@ import {
   DEFAULT_OG_IMAGE_ALT,
   pageTitle,
   SITE_NAME,
+  SITE_SHORT_NAME,
   SITE_URL,
 } from "../lib/seo";
 
@@ -53,7 +54,7 @@ const jsonLdBlocks = jsonLd
     <title>{resolvedTitle}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={DEFAULT_KEYWORDS} />
-    <meta name="author" content="Malice Mizer Research Archive" />
+    <meta name="author" content={SITE_NAME} />
     <meta name="generator" content={Astro.generator} />
     <link rel="canonical" href={canonicalUrl} />
     {noindex ? (
@@ -69,6 +70,7 @@ const jsonLdBlocks = jsonLd
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:alt" content={imageAlt} />
     <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={resolvedTitle} />
     <meta name="twitter:description" content={description} />
@@ -77,6 +79,7 @@ const jsonLdBlocks = jsonLd
     <meta name="theme-color" content="#5c2d4a" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
     {jsonLdBlocks.map((block) => (
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
@@ -502,8 +505,10 @@ const jsonLdBlocks = jsonLd
     <a class="skip-link" href="#content">Skip to content</a>
     <div class="wrap">
       <header>
-        <a class="site-title" href="/">Malice Mizer Research Archive</a>
-        <p>Magazines, discography, flyers, gigs, videos, and linked catalog · 1992–2001</p>
+        <a class="site-title" href="/">{SITE_NAME}</a>
+        <p>
+          {SITE_SHORT_NAME} · magazines, discography, flyers, gigs, videos · 1992–2001
+        </p>
       </header>
       <main id="main">
         <Nav />
