@@ -17,5 +17,6 @@ npm install
 npm run build
 
 cd "$ROOT"
+mkdir -p .vercel
 rm -rf .vercel/output
 cp -R site/.vercel/output .vercel/output
