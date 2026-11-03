@@ -15,7 +15,7 @@
     "@vercel/analytics": "^2.0.1",
     "3d-force-graph": "^1.80.0",
     "astro": "7.4.2",
-    "botid": "^1.5.11",
+    "botid": "^1.5.12",
     "three": "^0.185.1"
   },
   "overrides": {
