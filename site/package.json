@@ -9,14 +9,14 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/vercel": "^11.0.10",
-    "@fontsource/cormorant-garamond": "^5.2.11",
+    "@astrojs/sitemap": "^3.7.5",
+    "@astrojs/vercel": "^11.0.22",
+    "@fontsource/cormorant-garamond": "^5.3.0",
     "@vercel/analytics": "^2.0.1",
-    "3d-force-graph": "^1.80.0",
+    "3d-force-graph": "^1.80.2",
     "astro": "7.4.12",
-    "botid": "^1.5.11",
-    "three": "^0.185.1"
+    "botid": "^1.5.13",
+    "three": "^0.187.0"
   },
   "overrides": {
     "path-to-regexp": "6.3.0",
